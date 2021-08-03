@@ -1,0 +1,16 @@
+ó
+çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Deployment.Abstractions\DeploymentPlan.csutf-8ù
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Deployment.Abstractions\DeploymentPlanResult.csutf-8ó
+çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Deployment.Abstractions\DeploymentStep.csutf-8ô
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Deployment.Abstractions\DeploymentTarget.csutf-8ü
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Deployment.Abstractions\IDeploymentPlanService.csutf-8ö
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Deployment.Abstractions\IDeploymentSource.csutf-8ü
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Deployment.Abstractions\IDeploymentStepFactory.csutf-8°
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Deployment.Abstractions\IDeploymentTargetHandler.csutf-8¢
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Deployment.Abstractions\IDeploymentTargetProvider.csutf-8ï
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Deployment.Abstractions\IFileBuilder.csutf-8†
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Deployment.Abstractions\Properties\AssemblyInfo.csutf-8§
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Deployment.Abstractions\ServiceCollectionExtensions.csutf-8§
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Deployment.Abstractions\Services\IDeploymentManager.csutf-8«
+ªD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Deployment.Abstractions\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.csutf-8Ã
+¿D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Deployment.Abstractions\obj\Debug\net5.0\OrchardCore.Deployment.Abstractions.AssemblyInfo.csutf-8

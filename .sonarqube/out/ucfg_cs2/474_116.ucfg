@@ -1,0 +1,294 @@
+
+wOrchardCore.Flows.Controllers.AdminController.BuildEditor(string, string, string, string, string, bool, string, string)õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Flows\Controllers\AdminController.cs() ((4"9*ô
+0õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Flows\Controllers\AdminController.cs* *(,Ì
+Í
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Flows\Controllers\AdminController.cs* *(-
+
+%0bool""string.IsNullOrWhiteSpace(string?)*
+"
+string*
+
+idstring*
+1
+2*≥
+1õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Flows\Controllers\AdminController.cs, ,(!Ω∫
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Flows\Controllers\AdminController.cs, ,(!-
+%1'Microsoft.AspNetCore.Mvc.NotFoundResult"2Microsoft.AspNetCore.Mvc.ControllerBase.NotFound()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2
+NotFound()"œ
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Flows\Controllers\AdminController.cs, ,("/
+-
+%1'Microsoft.AspNetCore.Mvc.NotFoundResult*⁄
+2õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Flows\Controllers\AdminController.cs/ 6(”
+–
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Flows\Controllers\AdminController.cs/$ /(33
+%2-OrchardCore.ContentManagement.IContentManager"__id*u*s/
+-OrchardCore.Flows.Controllers.AdminController"@
+_contentManager-OrchardCore.ContentManagement.IContentManagerÊ„
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Flows\Controllers\AdminController.cs/$ /(@*
+%3$System.Threading.Tasks.Task<TResult>">OrchardCore.ContentManagement.IContentManager.NewAsync(string)*5
+3
+%2-OrchardCore.ContentManagement.IContentManager*
+
+idstring2NewAsync(string)È
+Ê
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Flows\Controllers\AdminController.cs/ /(@8
+contentItem)OrchardCore.ContentManagement.ContentItem"__id*
+""Õ
+ 
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Flows\Controllers\AdminController.cs2 2(,
+cardCollectionTypestring"__id*
+""Ω
+∫
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Flows\Controllers\AdminController.cs3 3(
+colSizeint"__id*2Û
+
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Flows\Controllers\AdminController.cs4/ 4(KB
+containedContentTypes)System.Collections.Generic.IEnumerable<T>"__id*
+""*
+3
+4*Ù
+3õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Flows\Controllers\AdminController.cs8 =(5ıÚ
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Flows\Controllers\AdminController.cs8 8(1+
+%4%OrchardCore.Flows.Models.FlowMetadata"%OrchardCore.Flows.Models.FlowMetadataí
+è
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Flows\Controllers\AdminController.cs8# 8(/
+
+%5void"4OrchardCore.Flows.Models.FlowMetadata.FlowMetadata()*-
++
+%4%OrchardCore.Flows.Models.FlowMetadataâ
+Ü
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Flows\Controllers\AdminController.cs8 8(11
+metadata%OrchardCore.Flows.Models.FlowMetadata"__id*-
++
+%4%OrchardCore.Flows.Models.FlowMetadataÔ
+Ï
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Flows\Controllers\AdminController.cs9 9(*/
+%6)OrchardCore.ContentManagement.ContentItem"qOrchardCore.ContentManagement.ContentItemExtensions.Weld<TPart>(OrchardCore.ContentManagement.ContentItem, TPart)*7"5
+3OrchardCore.ContentManagement.ContentItemExtensions*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItem*3
+1
+metadata%OrchardCore.Flows.Models.FlowMetadataë
+é
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Flows\Controllers\AdminController.cs:2 :(?	
+%7int".OrchardCore.Flows.Models.FlowMetadata.Size.get*3
+1
+metadata%OrchardCore.Flows.Models.FlowMetadata∫
+∑
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Flows\Controllers\AdminController.cs:* :(?
+%8"__id*
+	
+%7int„
+‡
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Flows\Controllers\AdminController.cs: :(M
+%9double"System.Math.Round(double)*"
+System.Math*
+""æ
+ª
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Flows\Controllers\AdminController.cs: :(M
+%10"__id*
+
+%9double¿
+Ω
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Flows\Controllers\AdminController.cs: :(M
+colSizeint"__id*
+
+%10ì
+ê
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Flows\Controllers\AdminController.cs;( ;(]0
+%11)System.Collections.Generic.IEnumerable<T>"VOrchardCore.Flows.Controllers.AdminController.GetContainedContentTypes(string, string)*1/
+-OrchardCore.Flows.Controllers.AdminController*
+
+parentContentTypestring*
+
+partNamestringü
+ú
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Flows\Controllers\AdminController.cs; ;(]B
+containedContentTypes)System.Collections.Generic.IEnumerable<T>"__id*2
+0
+%11)System.Collections.Generic.IEnumerable<T>Õ
+ 
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Flows\Controllers\AdminController.cs= =(5
+cardCollectionTypestring"__id*
+""*
+5*ˆ
+4õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Flows\Controllers\AdminController.csA A(4Õ
+ 
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Flows\Controllers\AdminController.csA A(4
+cardCollectionTypestring"__id*
+""*
+5*Ú
+5õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Flows\Controllers\AdminController.csE ^(Œ
+À
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Flows\Controllers\AdminController.csE( E(52
+%12+OrchardCore.DisplayManagement.IShapeFactory"__id*q*o/
+-OrchardCore.Flows.Controllers.AdminController"<
+_shapeFactory+OrchardCore.DisplayManagement.IShapeFactory•¢
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Flows\Controllers\AdminController.csE( E(9
+%13dynamic"3OrchardCore.DisplayManagement.IShapeFactory.New.get*4
+2
+%12+OrchardCore.DisplayManagement.IShapeFactory2New.getˇ
+¸
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Flows\Controllers\AdminController.csG G(-F
+%14?OrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessor"__id*ç*ä/
+-OrchardCore.Flows.Controllers.AdminController"W
+_updateModelAccessor?OrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessorèå
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Flows\Controllers\AdminController.csG G(:>
+%157OrchardCore.DisplayManagement.ModelBinding.IUpdateModel"POrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessor.ModelUpdater.get*H
+F
+%14?OrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessor2ModelUpdater.getÙ
+Ò
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Flows\Controllers\AdminController.csW W(:
+%16string"string.Replace(char, char)*
+
+prefixesNamestring*
+.*
+_¯
+ı
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Flows\Controllers\AdminController.csZ  Z(B
+%17string"string.Replace(char, char)*
+
+contentTypesNamestring*
+.*
+_«
+ƒ
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Flows\Controllers\AdminController.csE \(
+contentCarddynamic"__id*
+""*
+6
+7*ó
+6õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Flows\Controllers\AdminController.cs` `(0Ó
+Î
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Flows\Controllers\AdminController.cs` `(0
+%18"__mapSet*
+
+contentCarddynamic*
+
+ColumnSize*
+
+colSizeint*
+7*‹
+7õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Flows\Controllers\AdminController.csc g((éã
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Flows\Controllers\AdminController.csc f(8
+%191OrchardCore.Flows.ViewModels.BuildEditorViewModel"1OrchardCore.Flows.ViewModels.BuildEditorViewModel¥
+±
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Flows\Controllers\AdminController.csc c(0
+%20void"HOrchardCore.Flows.ViewModels.BuildEditorViewModel.BuildEditorViewModel()*:
+8
+%191OrchardCore.Flows.ViewModels.BuildEditorViewModel 
+«
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Flows\Controllers\AdminController.cse e()
+%21dynamic"AOrchardCore.Flows.ViewModels.BuildEditorViewModel.EditorShape.set*:
+8
+%191OrchardCore.Flows.ViewModels.BuildEditorViewModel*
+
+contentCarddynamicü
+ú
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Flows\Controllers\AdminController.csc f(:
+model1OrchardCore.Flows.ViewModels.BuildEditorViewModel"__id*:
+8
+%191OrchardCore.Flows.ViewModels.BuildEditorViewModel—
+Œ
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Flows\Controllers\AdminController.csg g()
+%22void"%orchardcore.flows/views/admin/display*
+
+%23*<
+:
+model1OrchardCore.Flows.ViewModels.BuildEditorViewModel*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject* 
+
+%HttpContextItemsAllobject*!
+
+%HttpContextItemsHtmlobject"≠
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Flows\Controllers\AdminController.csg g(*
+
+%22void*◊
+8õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Flows\Controllers\AdminController.csh	 h(	"≥
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Flows\Controllers\AdminController.csh h(	
+implicit return*ê
+9ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Flows\Controllers\AdminController.cs(À ((ÀÂ
+‚
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Flows\Controllers\AdminController.cs() ((4
+%24"__entrypoint*
+
+idstring*
+
+prefixstring*
+
+prefixesNamestring*
+
+contentTypesNamestring*
+
+targetIdstring*
+""*
+
+parentContentTypestring*
+
+partNamestring*
+0:
+idstring:
+prefixstring:
+prefixesNamestring:
+contentTypesNamestring:
+targetIdstring:
+flowmetadatabool:
+parentContentTypestring:
+partNamestringB1/
+-OrchardCore.Flows.Controllers.AdminController

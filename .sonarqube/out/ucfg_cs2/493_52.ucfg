@@ -1,0 +1,122 @@
+
+„OrchardCore.DynamicCache.Services.DefaultDynamicCacheService.SetCachedValueAsync(OrchardCore.Environment.Cache.CacheContext, string)ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\Services\DefaultDynamicCacheService.cs9 9(-"0*Ï
+0ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\Services\DefaultDynamicCacheService.cs; ;(&é
+æ
+ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\Services\DefaultDynamicCacheService.cs; ;(0
+%0*OrchardCore.Environment.Cache.CacheOptions"__id**}>
+<OrchardCore.DynamicCache.Services.DefaultDynamicCacheService";
+_cacheOptions*OrchardCore.Environment.Cache.CacheOptions¨
+¥
+ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\Services\DefaultDynamicCacheService.cs; ;(&
+
+%1bool"6OrchardCore.Environment.Cache.CacheOptions.Enabled.get*2
+0
+%0*OrchardCore.Environment.Cache.CacheOptions*
+1
+2*è
+1ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\Services\DefaultDynamicCacheService.csI	 I(	"µ
+ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\Services\DefaultDynamicCacheService.cs= =(
+""*†"
+2ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\Services\DefaultDynamicCacheService.cs@ G(SÍ
+Ê
+ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\Services\DefaultDynamicCacheService.cs@! @(5*
+%2$System.Threading.Tasks.Task<TResult>"tOrchardCore.DynamicCache.Services.DefaultDynamicCacheService.GetCacheKey(OrchardCore.Environment.Cache.CacheContext)*@>
+<OrchardCore.DynamicCache.Services.DefaultDynamicCacheService*7
+5
+context*OrchardCore.Environment.Cache.CacheContextÒ
+Ï
+ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\Services\DefaultDynamicCacheService.cs@ @(5
+cacheKeystring"__id*
+""û
+ø
+ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\Services\DefaultDynamicCacheService.csB B(9
+%33System.Collections.Generic.Dictionary<TKey, TValue>"__id*‡*„>
+<OrchardCore.DynamicCache.Services.DefaultDynamicCacheService"B
+_localCache3System.Collections.Generic.Dictionary<TKey, TValue>¦
+£
+ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\Services\DefaultDynamicCacheService.csB B()
+%4"__mapSet*;
+9
+%33System.Collections.Generic.Dictionary<TKey, TValue>*
+
+cacheKeystring*
+
+valuestringÉ
+Æ
+ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\Services\DefaultDynamicCacheService.csC2 C(]7
+%51OrchardCore.DynamicCache.Models.CacheContextModel"nOrchardCore.DynamicCache.Models.CacheContextModel.FromCacheContext(OrchardCore.Environment.Cache.CacheContext)*5"3
+1OrchardCore.DynamicCache.Models.CacheContextModel*7
+5
+context*OrchardCore.Environment.Cache.CacheContextÐ
+Í
+ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\Services\DefaultDynamicCacheService.csC C(^
+%6string"4Newtonsoft.Json.JsonConvert.SerializeObject(object?)*"
+Newtonsoft.Json.JsonConvert*9
+7
+%51OrchardCore.DynamicCache.Models.CacheContextModelÕ
+Ò
+ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\Services\DefaultDynamicCacheService.csC C(^
+esistring"__id*
+
+%6string†
+ƒ
+ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\Services\DefaultDynamicCacheService.csF F(=!
+%7System.Threading.Tasks.Task"ŒOrchardCore.DynamicCache.Services.DefaultDynamicCacheService.SetCachedValueAsync(string, string, OrchardCore.Environment.Cache.CacheContext)*@>
+<OrchardCore.DynamicCache.Services.DefaultDynamicCacheService*
+
+cacheKeystring*
+
+valuestring*7
+5
+context*OrchardCore.Environment.Cache.CacheContextô
+ñ
+ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\Services\DefaultDynamicCacheService.csG$ G(E
+%8string"\OrchardCore.DynamicCache.Services.DefaultDynamicCacheService.GetCacheContextCacheKey(string)*@>
+<OrchardCore.DynamicCache.Services.DefaultDynamicCacheService*
+
+cacheKeystringþ
+û
+ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\Services\DefaultDynamicCacheService.csG G(T!
+%9System.Threading.Tasks.Task"ŒOrchardCore.DynamicCache.Services.DefaultDynamicCacheService.SetCachedValueAsync(string, string, OrchardCore.Environment.Cache.CacheContext)*@>
+<OrchardCore.DynamicCache.Services.DefaultDynamicCacheService*
+
+%8string*
+
+esistring*7
+5
+context*OrchardCore.Environment.Cache.CacheContextŠ
+‡
+ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\Services\DefaultDynamicCacheService.csE H("
+%10System.Threading.Tasks.Task"ISystem.Threading.Tasks.Task.WhenAll(params System.Threading.Tasks.Task[])*"
+System.Threading.Tasks.Task*#
+!
+%7System.Threading.Tasks.Task*#
+!
+%9System.Threading.Tasks.Task*
+3*õ
+3ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\Services\DefaultDynamicCacheService.csI	 I(	"Â
+ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\Services\DefaultDynamicCacheService.csI I(	
+implicit return:5
+context*OrchardCore.Environment.Cache.CacheContext:
+valuestringB@>
+<OrchardCore.DynamicCache.Services.DefaultDynamicCacheService

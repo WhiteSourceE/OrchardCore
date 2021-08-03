@@ -1,0 +1,85 @@
+
+bOrchardCore.Media.Azure.Startup.CheckOptions(string, string, Microsoft.Extensions.Logging.ILogger)è
+ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media.Azure\Startup.csê ê(("0*Œ
+0è
+ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media.Azure\Startup.csí î(:º
+π
+è
+ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media.Azure\Startup.csí í(&
+optionsAreValidbool"__id*
+""Ô
+Ï
+è
+ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media.Azure\Startup.csî î(;
+
+%0bool""string.IsNullOrWhiteSpace(string?)*
+"
+string*
+
+connectionStringstring*
+1
+2*Ë
+1è
+ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media.Azure\Startup.csñ ó('å
+â
+ê
+ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media.Azure\Startup.csñ ñ(°
+
+%1void"uMicrosoft.Extensions.Logging.LoggerExtensions.LogError(Microsoft.Extensions.Logging.ILogger, string, params object[])*1"/
+-Microsoft.Extensions.Logging.LoggerExtensions*0
+.
+logger$Microsoft.Extensions.Logging.ILogger*ÉÄ
+~Azure Media Storage is enabled but not active because the 'ConnectionString' is missing or empty in application configuration.*
+""º
+π
+è
+ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media.Azure\Startup.csó ó('
+optionsAreValidbool"__id*
+""*
+2*å
+2è
+ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media.Azure\Startup.csö ö(7Ï
+È
+è
+ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media.Azure\Startup.csö ö(8
+
+%2bool""string.IsNullOrWhiteSpace(string?)*
+"
+string*
+
+containerNamestring*
+3
+4*„
+3è
+ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media.Azure\Startup.csú ù('á
+Ñ
+ê
+ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media.Azure\Startup.csú ú(û
+
+%3void"uMicrosoft.Extensions.Logging.LoggerExtensions.LogError(Microsoft.Extensions.Logging.ILogger, string, params object[])*1"/
+-Microsoft.Extensions.Logging.LoggerExtensions*0
+.
+logger$Microsoft.Extensions.Logging.ILogger*}
+{Azure Media Storage is enabled but not active because the 'ContainerName' is missing or empty in application configuration.*
+""º
+π
+è
+ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media.Azure\Startup.csù ù('
+optionsAreValidbool"__id*
+""*
+4*≈
+4è
+ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media.Azure\Startup.cs† †(""≠
+è
+ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media.Azure\Startup.cs† †(#
+
+optionsAreValidbool*ø
+5è
+ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media.Azure\Startup.cs°	 °(	"ß
+è
+ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media.Azure\Startup.cs° °(	
+implicit return:
+connectionStringstring:
+containerNamestring:.
+logger$Microsoft.Extensions.Logging.ILoggerB#"!
+OrchardCore.Media.Azure.Startup

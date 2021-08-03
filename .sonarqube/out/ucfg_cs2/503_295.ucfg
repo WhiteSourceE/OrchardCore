@@ -1,0 +1,129 @@
+
+GOrchardCore.Media.Processing.MediaTokenSettingsUpdater.ActivatedAsync()¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Processing\MediaTokenSettingsUpdater.cs# (1"0*¬
+0¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Processing\MediaTokenSettingsUpdater.cs (2Ê
+Ç
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Processing\MediaTokenSettingsUpdater.cs, (8'
+%0!OrchardCore.Settings.ISiteService"__id*o*m8
+6OrchardCore.Media.Processing.MediaTokenSettingsUpdater"1
+_siteService!OrchardCore.Settings.ISiteServiceÓÐ
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Processing\MediaTokenSettingsUpdater.cs, (O*
+%1$System.Threading.Tasks.Task<TResult>"8OrchardCore.Settings.ISiteService.GetSiteSettingsAsync()*)
+'
+%0!OrchardCore.Settings.ISiteService2GetSiteSettingsAsync()ß
+Ü
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Processing\MediaTokenSettingsUpdater.cs% (i5
+%2/OrchardCore.Media.Processing.MediaTokenSettings"IOrchardCore.Entities.EntityExtensions.As<T>(OrchardCore.Entities.IEntity)*)"'
+%OrchardCore.Entities.EntityExtensions*
+""°
+­
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Processing\MediaTokenSettingsUpdater.cs (iE
+mediaTokenSettings/OrchardCore.Media.Processing.MediaTokenSettings"__id*7
+5
+%2/OrchardCore.Media.Processing.MediaTokenSettings¾
+»
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Processing\MediaTokenSettingsUpdater.cs (*
+%3byte[]";OrchardCore.Media.Processing.MediaTokenSettings.HashKey.get*G
+E
+mediaTokenSettings/OrchardCore.Media.Processing.MediaTokenSettingsþ
+û
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Processing\MediaTokenSettingsUpdater.cs (2
+
+%4bool""object.operator ==(object, object)*
+"
+object*
+
+%3byte[]*
+""*
+1
+2*¬ 
+1¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Processing\MediaTokenSettingsUpdater.cs &(GÊ
+Ç
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Processing\MediaTokenSettingsUpdater.cs) (5'
+%5!OrchardCore.Settings.ISiteService"__id*o*m8
+6OrchardCore.Media.Processing.MediaTokenSettingsUpdater"1
+_siteService!OrchardCore.Settings.ISiteServiceÕÒ
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Processing\MediaTokenSettingsUpdater.cs) (M*
+%6$System.Threading.Tasks.Task<TResult>"9OrchardCore.Settings.ISiteService.LoadSiteSettingsAsync()*)
+'
+%5!OrchardCore.Settings.ISiteService2LoadSiteSettingsAsync()ä
+á
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Processing\MediaTokenSettingsUpdater.cs (M*
+siteSettingsOrchardCore.Settings.ISite"__id*
+""Ù
+Ö
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Processing\MediaTokenSettingsUpdater.cs   (88
+%72System.Security.Cryptography.RandomNumberGenerator";System.Security.Cryptography.RandomNumberGenerator.Create()*6"4
+2System.Security.Cryptography.RandomNumberGenerator§
+¤
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Processing\MediaTokenSettingsUpdater.cs   (89
+rng2System.Security.Cryptography.RandomNumberGenerator"__id*:
+8
+%72System.Security.Cryptography.RandomNumberGeneratorÀ½
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Processing\MediaTokenSettingsUpdater.cs"- "(9
+%8byte[]"byte[]Î
+Ë
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Processing\MediaTokenSettingsUpdater.cs" "(9
+%9byte[]";OrchardCore.Media.Processing.MediaTokenSettings.HashKey.set*G
+E
+mediaTokenSettings/OrchardCore.Media.Processing.MediaTokenSettings*
+
+%8byte[]¿
+¼
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Processing\MediaTokenSettingsUpdater.cs# #(7
+%10byte[]";OrchardCore.Media.Processing.MediaTokenSettings.HashKey.get*G
+E
+mediaTokenSettings/OrchardCore.Media.Processing.MediaTokenSettingsÊ
+Ç
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Processing\MediaTokenSettingsUpdater.cs# #(8
+%11void"CSystem.Security.Cryptography.RandomNumberGenerator.GetBytes(byte[])*;
+9
+rng2System.Security.Cryptography.RandomNumberGenerator*
+
+%10byte[]À
+½
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Processing\MediaTokenSettingsUpdater.cs$ $(4#
+%12OrchardCore.Entities.IEntity"MOrchardCore.Entities.EntityExtensions.Put<T>(OrchardCore.Entities.IEntity, T)*)"'
+%OrchardCore.Entities.EntityExtensions*,
+*
+siteSettingsOrchardCore.Settings.ISite*G
+E
+mediaTokenSettings/OrchardCore.Media.Processing.MediaTokenSettingsË
+È
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Processing\MediaTokenSettingsUpdater.cs& &("(
+%13!OrchardCore.Settings.ISiteService"__id*o*m8
+6OrchardCore.Media.Processing.MediaTokenSettingsUpdater"1
+_siteService!OrchardCore.Settings.ISiteService´±
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Processing\MediaTokenSettingsUpdater.cs& &(H"
+%14System.Threading.Tasks.Task"UOrchardCore.Settings.ISiteService.UpdateSiteSettingsAsync(OrchardCore.Settings.ISite)**
+(
+%13!OrchardCore.Settings.ISiteService*,
+*
+siteSettingsOrchardCore.Settings.ISite23UpdateSiteSettingsAsync(OrchardCore.Settings.ISite)*
+2*é
+2¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Processing\MediaTokenSettingsUpdater.cs(	 ((	"¼
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Processing\MediaTokenSettingsUpdater.cs( ((	
+implicit returnB:8
+6OrchardCore.Media.Processing.MediaTokenSettingsUpdater

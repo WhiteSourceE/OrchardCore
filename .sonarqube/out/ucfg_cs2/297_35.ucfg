@@ -1,0 +1,293 @@
+
+≥OrchardCore.CustomSettings.Deployment.CustomSettingsDeploymentSource.ProcessDeploymentStepAsync(OrchardCore.Deployment.DeploymentStep, OrchardCore.Deployment.DeploymentPlanResult)≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Deployment\CustomSettingsDeploymentSource.cs (4"0*Ñ	
+0≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Deployment\CustomSettingsDeploymentSource.cs (*ú
+ô
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Deployment\CustomSettingsDeploymentSource.cs% (I+
+%0%OrchardCore.Deployment.DeploymentStep"__id*/
+-
+step%OrchardCore.Deployment.DeploymentStep«
+ƒ
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Deployment\CustomSettingsDeploymentSource.cs (IX
+customSettingsStepBOrchardCore.CustomSettings.Deployment.CustomSettingsDeploymentStep"__id*-
++
+%0%OrchardCore.Deployment.DeploymentStepÿ
+’
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Deployment\CustomSettingsDeploymentSource.cs (*
+
+%1bool""object.operator ==(object, object)*
+"
+object*Z
+X
+customSettingsStepBOrchardCore.CustomSettings.Deployment.CustomSettingsDeploymentStep*
+""*
+1
+2*¯
+1≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Deployment\CustomSettingsDeploymentSource.cs1	 1(	"Ω
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Deployment\CustomSettingsDeploymentSource.cs (
+""*»
+2≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Deployment\CustomSettingsDeploymentSource.cs (=ÜÉ
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Deployment\CustomSettingsDeploymentSource.cs (_(
+%2"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>õ
+ò
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Deployment\CustomSettingsDeploymentSource.cs# (2
+
+%3void")System.Collections.Generic.List<T>.List()**
+(
+%2"System.Collections.Generic.List<T>˛˚
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Deployment\CustomSettingsDeploymentSource.cs5 (]$
+%4Newtonsoft.Json.Linq.JProperty"Newtonsoft.Json.Linq.JProperty∆
+√
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Deployment\CustomSettingsDeploymentSource.cs9 (B
+
+%5void"9Newtonsoft.Json.Linq.JProperty.JProperty(string, object?)*&
+$
+%4Newtonsoft.Json.Linq.JProperty*
+name*
+custom-settingsû
+õ
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Deployment\CustomSettingsDeploymentSource.cs (_2
+settingsList"System.Collections.Generic.List<T>"__id**
+(
+%2"System.Collections.Generic.List<T>Û
+
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Deployment\CustomSettingsDeploymentSource.cs  (=
+
+%6bool"QOrchardCore.CustomSettings.Deployment.CustomSettingsDeploymentStep.IncludeAll.get*Z
+X
+customSettingsStepBOrchardCore.CustomSettings.Deployment.CustomSettingsDeploymentStep*
+3
+4*”
+3≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Deployment\CustomSettingsDeploymentSource.cs (H£
+†
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Deployment\CustomSettingsDeploymentSource.cs ((@
+%109OrchardCore.CustomSettings.Services.CustomSettingsService"__id*†*ùF
+DOrchardCore.CustomSettings.Deployment.CustomSettingsDeploymentSource"S
+_customSettingsService9OrchardCore.CustomSettings.Services.CustomSettingsServiceˇ
+¸
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Deployment\CustomSettingsDeploymentSource.cs (>0
+%11)System.Collections.Generic.IEnumerable<T>"OOrchardCore.CustomSettings.Services.CustomSettingsService.GetAllSettingsTypes()*B
+@
+%109OrchardCore.CustomSettings.Services.CustomSettingsService∞
+≠
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Deployment\CustomSettingsDeploymentSource.cs (HL
+%12EOrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition[]"XSystem.Linq.Enumerable.ToArray<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*2
+0
+%11)System.Collections.Generic.IEnumerable<T>€
+ÿ
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Deployment\CustomSettingsDeploymentSource.cs (HK
+%8EOrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition[]"__id*N
+L
+%12EOrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition[]⁄
+◊
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Deployment\CustomSettingsDeploymentSource.cs (HK
+%7EOrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition[]"__id*M
+K
+%8EOrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition[]*
+5*Ù
+4≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Deployment\CustomSettingsDeploymentSource.cs (^£
+†
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Deployment\CustomSettingsDeploymentSource.cs ((@
+%139OrchardCore.CustomSettings.Services.CustomSettingsService"__id*†*ùF
+DOrchardCore.CustomSettings.Deployment.CustomSettingsDeploymentSource"S
+_customSettingsService9OrchardCore.CustomSettings.Services.CustomSettingsServiceˇ
+¸
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Deployment\CustomSettingsDeploymentSource.cs: (^
+%14string[]"XOrchardCore.CustomSettings.Deployment.CustomSettingsDeploymentStep.SettingsTypeNames.get*Z
+X
+customSettingsStepBOrchardCore.CustomSettings.Deployment.CustomSettingsDeploymentStepû
+õ
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Deployment\CustomSettingsDeploymentSource.cs (_0
+%15)System.Collections.Generic.IEnumerable<T>"[OrchardCore.CustomSettings.Services.CustomSettingsService.GetSettingsTypes(params string[])*B
+@
+%139OrchardCore.CustomSettings.Services.CustomSettingsService*
+
+%14string[]∞
+≠
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Deployment\CustomSettingsDeploymentSource.cs (iL
+%16EOrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition[]"XSystem.Linq.Enumerable.ToArray<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*2
+0
+%15)System.Collections.Generic.IEnumerable<T>€
+ÿ
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Deployment\CustomSettingsDeploymentSource.cs (iK
+%9EOrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition[]"__id*N
+L
+%16EOrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition[]⁄
+◊
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Deployment\CustomSettingsDeploymentSource.cs (iK
+%7EOrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition[]"__id*M
+K
+%9EOrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition[]*
+5*•
+5≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Deployment\CustomSettingsDeploymentSource.cs !(6Â
+‚
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Deployment\CustomSettingsDeploymentSource.cs (iV
+settingsTypesEOrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition[]"__id*M
+K
+%7EOrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition[]*
+6*¿
+6≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Deployment\CustomSettingsDeploymentSource.cs1	 1(	*
+7
+8*Ö	
+7≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Deployment\CustomSettingsDeploymentSource.cs# #(Y£
+†
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Deployment\CustomSettingsDeploymentSource.cs# #(1@
+%179OrchardCore.CustomSettings.Services.CustomSettingsService"__id*†*ùF
+DOrchardCore.CustomSettings.Deployment.CustomSettingsDeploymentSource"S
+_customSettingsService9OrchardCore.CustomSettings.Services.CustomSettingsServiceú
+ô
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Deployment\CustomSettingsDeploymentSource.cs# #(Z+
+%18$System.Threading.Tasks.Task<TResult>"ôOrchardCore.CustomSettings.Services.CustomSettingsService.CanUserCreateSettingsAsync(OrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition)*B
+@
+%179OrchardCore.CustomSettings.Services.CustomSettingsService*U
+S
+settingsTypeCOrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition*
+9
+6*¯
+9≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Deployment\CustomSettingsDeploymentSource.cs1	 1(	"Ω
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Deployment\CustomSettingsDeploymentSource.cs% %(
+""*æ
+8≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Deployment\CustomSettingsDeploymentSource.cs)) )(6*
+10*√
+10≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Deployment\CustomSettingsDeploymentSource.cs1	 1(	*
+11
+12*ÿ
+11≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Deployment\CustomSettingsDeploymentSource.cs+ ,(`£
+†
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Deployment\CustomSettingsDeploymentSource.cs+% +(;@
+%199OrchardCore.CustomSettings.Services.CustomSettingsService"__id*†*ùF
+DOrchardCore.CustomSettings.Deployment.CustomSettingsDeploymentSource"S
+_customSettingsService9OrchardCore.CustomSettings.Services.CustomSettingsService©
+¶
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Deployment\CustomSettingsDeploymentSource.cs+% +(Z+
+%20$System.Threading.Tasks.Task<TResult>"ûOrchardCore.CustomSettings.Services.CustomSettingsService.GetSettingsAsync(OrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition, System.Action)*B
+@
+%199OrchardCore.CustomSettings.Services.CustomSettingsService*U
+S
+settingsTypeCOrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition*
+""˝
+˙
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Deployment\CustomSettingsDeploymentSource.cs+ +(Z5
+settings)OrchardCore.ContentManagement.ContentItem"__id*
+""ª
+∏
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Deployment\CustomSettingsDeploymentSource.cs,/ ,(C
+%21string"9OrchardCore.ContentManagement.ContentItem.ContentType.get*7
+5
+settings)OrchardCore.ContentManagement.ContentItemÈ
+Ê
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Deployment\CustomSettingsDeploymentSource.cs,E ,(a#
+%22Newtonsoft.Json.Linq.JObject"/Newtonsoft.Json.Linq.JObject.FromObject(object)* "
+Newtonsoft.Json.Linq.JObject*7
+5
+settings)OrchardCore.ContentManagement.ContentItemˇ¸
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Deployment\CustomSettingsDeploymentSource.cs,! ,(b%
+%23Newtonsoft.Json.Linq.JProperty"Newtonsoft.Json.Linq.JProperty·
+ﬁ
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Deployment\CustomSettingsDeploymentSource.cs,% ,(.
+%24void"9Newtonsoft.Json.Linq.JProperty.JProperty(string, object?)*'
+%
+%23Newtonsoft.Json.Linq.JProperty*
+
+%21string*%
+#
+%22Newtonsoft.Json.Linq.JObject¥
+±
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Deployment\CustomSettingsDeploymentSource.cs, ,(c
+%25void"
+__arrayAdd*4
+2
+settingsList"System.Collections.Generic.List<T>*: *'
+%
+%23Newtonsoft.Json.Linq.JProperty*
+10*∞
+12≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Deployment\CustomSettingsDeploymentSource.cs0 0(?‘
+—
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Deployment\CustomSettingsDeploymentSource.cs0 0(*
+%26#System.Collections.Generic.IList<T>"5OrchardCore.Deployment.DeploymentPlanResult.Steps.get*7
+5
+result+OrchardCore.Deployment.DeploymentPlanResult≈
+¬
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Deployment\CustomSettingsDeploymentSource.cs0) 0(?'
+%27 Newtonsoft.Json.Linq.JProperty[]",System.Collections.Generic.List<T>.ToArray()*4
+2
+settingsList"System.Collections.Generic.List<T>˚¯
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Deployment\CustomSettingsDeploymentSource.cs0 0(@#
+%28Newtonsoft.Json.Linq.JObject"Newtonsoft.Json.Linq.JObject§
+°
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Deployment\CustomSettingsDeploymentSource.cs0! 0((
+%29void"__mapSetAll*%
+#
+%28Newtonsoft.Json.Linq.JObject*)
+'
+%27 Newtonsoft.Json.Linq.JProperty[]™
+ß
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Deployment\CustomSettingsDeploymentSource.cs0 0(A
+%30void"
+__arrayAdd*,
+*
+%26#System.Collections.Generic.IList<T>*: *%
+#
+%28Newtonsoft.Json.Linq.JObject*
+13*Ü
+13≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Deployment\CustomSettingsDeploymentSource.cs1	 1(	" 
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Deployment\CustomSettingsDeploymentSource.cs1 1(	
+implicit return:-
+step%OrchardCore.Deployment.DeploymentStep:5
+result+OrchardCore.Deployment.DeploymentPlanResultBHF
+DOrchardCore.CustomSettings.Deployment.CustomSettingsDeploymentSource

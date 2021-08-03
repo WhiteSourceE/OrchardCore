@@ -1,0 +1,858 @@
+
+∑OrchardCore.Environment.Shell.Builders.ShellContainerFactory.CreateContainer(OrchardCore.Environment.Shell.ShellSettings, OrchardCore.Environment.Shell.Builders.Models.ShellBlueprint)ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cs*  *(/"0*Á:
+0ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cs, ?(q≤
+Ø
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cs,* ,(:
+%0System.IServiceProvider"__id*o*m>
+<OrchardCore.Environment.Shell.Builders.ShellContainerFactory"+
+_serviceProviderSystem.IServiceProviderÄ
+˝
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cs,P ,(dA
+%1;Microsoft.Extensions.DependencyInjection.IServiceCollection"__id*ò*ï>
+<OrchardCore.Environment.Shell.Builders.ShellContainerFactory"S
+_applicationServices;Microsoft.Extensions.DependencyInjection.IServiceCollectionπ
+∂
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cs,* ,(eA
+%2;Microsoft.Extensions.DependencyInjection.IServiceCollection"´OrchardCore.Environment.Shell.Builders.ServiceProviderExtensions.CreateChildContainer(System.IServiceProvider, Microsoft.Extensions.DependencyInjection.IServiceCollection)*D"B
+@OrchardCore.Environment.Shell.Builders.ServiceProviderExtensions*
+
+%0System.IServiceProvider*C
+A
+%1;Microsoft.Extensions.DependencyInjection.IServiceCollectionø
+º
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cs, ,(eV
+tenantServiceCollection;Microsoft.Extensions.DependencyInjection.IServiceCollection"__id*C
+A
+%2;Microsoft.Extensions.DependencyInjection.IServiceCollectionÒ
+Ó
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cs. .(:A
+%3;Microsoft.Extensions.DependencyInjection.IServiceCollection"©Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton<TService>(Microsoft.Extensions.DependencyInjection.IServiceCollection, TService)*O"M
+KMicrosoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions*X
+V
+tenantServiceCollection;Microsoft.Extensions.DependencyInjection.IServiceCollection*9
+7
+settings+OrchardCore.Environment.Shell.ShellSettings‰
+·
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cs/ 4(A
+%4;Microsoft.Extensions.DependencyInjection.IServiceCollection"œMicrosoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton<TService>(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Func<System.IServiceProvider, TService>)*O"M
+KMicrosoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions*X
+V
+tenantServiceCollection;Microsoft.Extensions.DependencyInjection.IServiceCollection*
+""˝
+˙
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cs61 6(EE
+%5?OrchardCore.Environment.Shell.Descriptor.Models.ShellDescriptor"KOrchardCore.Environment.Shell.Builders.Models.ShellBlueprint.Descriptor.get*K
+I
+	blueprint<OrchardCore.Environment.Shell.Builders.Models.ShellBlueprintˇ
+¸
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cs6 6(FA
+%6;Microsoft.Extensions.DependencyInjection.IServiceCollection"©Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton<TService>(Microsoft.Extensions.DependencyInjection.IServiceCollection, TService)*O"M
+KMicrosoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions*X
+V
+tenantServiceCollection;Microsoft.Extensions.DependencyInjection.IServiceCollection*G
+E
+%5?OrchardCore.Environment.Shell.Descriptor.Models.ShellDescriptorÉ
+Ä
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cs7 7(;A
+%7;Microsoft.Extensions.DependencyInjection.IServiceCollection"©Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton<TService>(Microsoft.Extensions.DependencyInjection.IServiceCollection, TService)*O"M
+KMicrosoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions*X
+V
+tenantServiceCollection;Microsoft.Extensions.DependencyInjection.IServiceCollection*K
+I
+	blueprint<OrchardCore.Environment.Shell.Builders.Models.ShellBlueprint–
+Õ
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cs9 9(4
+
+%8void"âOrchardCore.Environment.Shell.Builders.ShellContainerFactory.AddCoreServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)*@>
+<OrchardCore.Environment.Shell.Builders.ShellContainerFactory*X
+V
+tenantServiceCollection;Microsoft.Extensions.DependencyInjection.IServiceCollection≤
+Ø
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cs=* =(:
+%9System.IServiceProvider"__id*o*m>
+<OrchardCore.Environment.Shell.Builders.ShellContainerFactory"+
+_serviceProviderSystem.IServiceProviderÅ
+˛
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cs=P =(dB
+%10;Microsoft.Extensions.DependencyInjection.IServiceCollection"__id*ò*ï>
+<OrchardCore.Environment.Shell.Builders.ShellContainerFactory"S
+_applicationServices;Microsoft.Extensions.DependencyInjection.IServiceCollectionª
+∏
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cs=* =(eB
+%11;Microsoft.Extensions.DependencyInjection.IServiceCollection"´OrchardCore.Environment.Shell.Builders.ServiceProviderExtensions.CreateChildContainer(System.IServiceProvider, Microsoft.Extensions.DependencyInjection.IServiceCollection)*D"B
+@OrchardCore.Environment.Shell.Builders.ServiceProviderExtensions*
+
+%9System.IServiceProvider*D
+B
+%10;Microsoft.Extensions.DependencyInjection.IServiceCollection¿
+Ω
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cs= =(eV
+moduleServiceCollection;Microsoft.Extensions.DependencyInjection.IServiceCollection"__id*D
+B
+%11;Microsoft.Extensions.DependencyInjection.IServiceCollectionı
+Ú
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cs?' ?(=;
+%124System.Collections.Generic.IDictionary<TKey, TValue>"MOrchardCore.Environment.Shell.Builders.Models.ShellBlueprint.Dependencies.get*K
+I
+	blueprint<OrchardCore.Environment.Shell.Builders.Models.ShellBlueprint•
+¢
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cs?' ?(r0
+%13)System.Collections.Generic.IEnumerable<T>"rSystem.Linq.Enumerable.Where<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
+System.Linq.Enumerable*=
+;
+%124System.Collections.Generic.IDictionary<TKey, TValue>*
+""*
+1*¶
+1ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cs¡	 ¡(	*
+2
+3*Û
+2ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csA B(u∂
+≥
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csAg A(u
+%14System.Type"=System.Collections.Generic.KeyValuePair<TKey, TValue>.Key.get*E
+C
+
+dependency5System.Collections.Generic.KeyValuePair<TKey, TValue>ù
+ö
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csA9 A(vA
+%15:Microsoft.Extensions.DependencyInjection.ServiceDescriptor"^Microsoft.Extensions.DependencyInjection.ServiceDescriptor.Singleton(System.Type, System.Type)*>"<
+:Microsoft.Extensions.DependencyInjection.ServiceDescriptor*
+""*
+
+%14System.Typeç
+ä
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csA A(w
+%16void"„Microsoft.Extensions.DependencyInjection.Extensions.ServiceCollectionDescriptorExtensions.TryAddEnumerable(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.DependencyInjection.ServiceDescriptor)*]"[
+YMicrosoft.Extensions.DependencyInjection.Extensions.ServiceCollectionDescriptorExtensions*X
+V
+moduleServiceCollection;Microsoft.Extensions.DependencyInjection.IServiceCollection*C
+A
+%15:Microsoft.Extensions.DependencyInjection.ServiceDescriptor∂
+≥
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csBg B(u
+%17System.Type"=System.Collections.Generic.KeyValuePair<TKey, TValue>.Key.get*E
+C
+
+dependency5System.Collections.Generic.KeyValuePair<TKey, TValue>ù
+ö
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csB9 B(vA
+%18:Microsoft.Extensions.DependencyInjection.ServiceDescriptor"^Microsoft.Extensions.DependencyInjection.ServiceDescriptor.Singleton(System.Type, System.Type)*>"<
+:Microsoft.Extensions.DependencyInjection.ServiceDescriptor*
+""*
+
+%17System.Typeç
+ä
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csB B(w
+%19void"„Microsoft.Extensions.DependencyInjection.Extensions.ServiceCollectionDescriptorExtensions.TryAddEnumerable(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.DependencyInjection.ServiceDescriptor)*]"[
+YMicrosoft.Extensions.DependencyInjection.Extensions.ServiceCollectionDescriptorExtensions*X
+V
+tenantServiceCollection;Microsoft.Extensions.DependencyInjection.IServiceCollection*C
+A
+%18:Microsoft.Extensions.DependencyInjection.ServiceDescriptor*
+1*÷
+3ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csG I(aƒ
+¡
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csG G(&
+%20void"WOrchardCore.Environment.Shell.Builders.ShellContainerFactory.EnsureApplicationFeature()*@>
+<OrchardCore.Environment.Shell.Builders.ShellContainerFactoryı
+Ú
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csI' I(=;
+%214System.Collections.Generic.IDictionary<TKey, TValue>"MOrchardCore.Environment.Shell.Builders.Models.ShellBlueprint.Dependencies.get*K
+I
+	blueprint<OrchardCore.Environment.Shell.Builders.Models.ShellBlueprint÷”
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csI' I(B0
+%22)System.Collections.Generic.ICollection<T>"=System.Collections.Generic.IDictionary<TKey, TValue>.Keys.get*=
+;
+%214System.Collections.Generic.IDictionary<TKey, TValue>2Keys.getö
+ó
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csI' I(b0
+%23)System.Collections.Generic.IEnumerable<T>"rSystem.Linq.Enumerable.Where<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
+System.Linq.Enumerable*2
+0
+%22)System.Collections.Generic.ICollection<T>*
+""*
+4*¶
+4ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cs¡	 ¡(	*
+5
+6*§
+5ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csL L(@*
+7
+8*£
+7ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cs¡	 ¡(	*
+4*Ê
+8ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csR R(Yı
+Ú
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csR R(*;
+%244System.Collections.Generic.IDictionary<TKey, TValue>"MOrchardCore.Environment.Shell.Builders.Models.ShellBlueprint.Dependencies.get*K
+I
+	blueprint<OrchardCore.Environment.Shell.Builders.Models.ShellBlueprint∆√
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csR R(Z
+%25bool"RSystem.Collections.Generic.IDictionary<TKey, TValue>.TryGetValue(TKey, out TValue)*=
+;
+%244System.Collections.Generic.IDictionary<TKey, TValue>*
+
+
+rawStartupSystem.Type*L
+J
+startupFeature8OrchardCore.Environment.Extensions.Features.FeatureEntry2TryGetValue(TKey, out TValue)*
+9
+10*ë
+9ó
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csR^ R(ïı
+Ú
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csR^ R(x?
+%268OrchardCore.Environment.Extensions.Features.IFeatureInfo"HOrchardCore.Environment.Extensions.Features.FeatureEntry.FeatureInfo.get*L
+J
+startupFeature8OrchardCore.Environment.Extensions.Features.FeatureEntry∑¥
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csR^ R({
+%27string"?OrchardCore.Environment.Extensions.Features.IFeatureInfo.Id.get*A
+?
+%268OrchardCore.Environment.Extensions.Features.IFeatureInfo2Id.get˚
+¯
+ó
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csR R(í?
+%288OrchardCore.Environment.Extensions.Features.IFeatureInfo"__id*î*ë>
+<OrchardCore.Environment.Shell.Builders.ShellContainerFactory"O
+_applicationFeature8OrchardCore.Environment.Extensions.Features.IFeatureInfo∏µ
+ó
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csR R(ï
+%29string"?OrchardCore.Environment.Extensions.Features.IFeatureInfo.Id.get*A
+?
+%288OrchardCore.Environment.Extensions.Features.IFeatureInfo2Id.get¸
+˘
+ó
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csR^ R(ï
+%30bool""string.operator ==(string, string)*
+"
+string*
+
+%27string*
+
+%29string*
+11
+10*§
+11ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cs¡	 ¡(	*
+4*˚6
+10ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csX {(±
+Æ
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csZ Z('
+%31"__id*
+""±
+Æ
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csZ* Z(?
+%32"__id*
+""±
+Æ
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cs\ \(*
+%33"__id*
+""¡æ
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cs] ](=
+%34System.Type[]"System.Type[]”
+–
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cs] ](=
+%35"
+__arraySet*
+
+%34System.Type[]*2 *
+""◊
+‘
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csX. ^(#
+%36System.Reflection.MethodInfo"µSystem.Type.GetMethod(string, System.Reflection.BindingFlags, System.Reflection.Binder?, System.Reflection.CallingConventions, System.Type[], System.Reflection.ParameterModifier[]?)*
+
+
+rawStartupSystem.Type*
+""*
+""*
+""*
+
+%33*
+
+%34System.Type[]*
+""Ç
+ˇ
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csX ^(7
+configureServicesMethodSystem.Reflection.MethodInfo"__id*%
+#
+%36System.Reflection.MethodInfo±
+Æ
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csb b('
+%37"__id*
+""±
+Æ
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csb* b(?
+%38"__id*
+""≠
+™
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cs`& b(@#
+%39System.Reflection.MethodInfo"=System.Type.GetMethod(string, System.Reflection.BindingFlags)*
+
+
+rawStartupSystem.Type*
+""*
+""˙
+˜
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cs` b(@/
+configureMethodSystem.Reflection.MethodInfo"__id*%
+#
+%39System.Reflection.MethodInfo±
+Æ
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csf f('
+%40"__id*
+""±
+Æ
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csf* f(?
+%41"__id*
+""±
+Æ
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csd$ f(@%
+%42System.Reflection.PropertyInfo"?System.Type.GetProperty(string, System.Reflection.BindingFlags)*
+
+
+rawStartupSystem.Type*
+""*
+""¸
+˘
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csd f(@/
+orderPropertySystem.Reflection.PropertyInfo"__id*'
+%
+%42System.Reflection.PropertyInfo±
+Æ
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csj j('
+%43"__id*
+""±
+Æ
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csj* j(?
+%44"__id*
+""±
+Æ
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csh- j(@%
+%45System.Reflection.PropertyInfo"?System.Type.GetProperty(string, System.Reflection.BindingFlags)*
+
+
+rawStartupSystem.Type*
+""*
+""Ö
+Ç
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csh j(@8
+configureOrderPropertySystem.Reflection.PropertyInfo"__id*'
+%
+%45System.Reflection.PropertyInfoÕ
+ 
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csn n(@B
+%46;Microsoft.Extensions.DependencyInjection.IServiceCollection"¢Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Type)*O"M
+KMicrosoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions*X
+V
+moduleServiceCollection;Microsoft.Extensions.DependencyInjection.IServiceCollection*
+
+
+rawStartupSystem.TypeÕ
+ 
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cso o(@B
+%47;Microsoft.Extensions.DependencyInjection.IServiceCollection"¢Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Type)*O"M
+KMicrosoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions*X
+V
+tenantServiceCollection;Microsoft.Extensions.DependencyInjection.IServiceCollection*
+
+
+rawStartupSystem.TypeÂ
+‚
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csq u(B
+%48;Microsoft.Extensions.DependencyInjection.IServiceCollection"œMicrosoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton<TService>(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Func<System.IServiceProvider, TService>)*O"M
+KMicrosoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions*X
+V
+moduleServiceCollection;Microsoft.Extensions.DependencyInjection.IServiceCollection*
+""Â
+‚
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csw {(B
+%49;Microsoft.Extensions.DependencyInjection.IServiceCollection"œMicrosoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton<TService>(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Func<System.IServiceProvider, TService>)*O"M
+KMicrosoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions*X
+V
+tenantServiceCollection;Microsoft.Extensions.DependencyInjection.IServiceCollection*
+""*
+4*Œ&
+6ó
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cs ì(,Ú
+Ô
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cs (:B
+%50;Microsoft.Extensions.DependencyInjection.IServiceCollection"©Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton<TService>(Microsoft.Extensions.DependencyInjection.IServiceCollection, TService)*O"M
+KMicrosoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions*X
+V
+moduleServiceCollection;Microsoft.Extensions.DependencyInjection.IServiceCollection*9
+7
+settings+OrchardCore.Environment.Shell.ShellSettingsÁ
+‰
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csÄ Ö(B
+%51;Microsoft.Extensions.DependencyInjection.IServiceCollection"œMicrosoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton<TService>(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Func<System.IServiceProvider, TService>)*O"M
+KMicrosoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions*X
+V
+moduleServiceCollection;Microsoft.Extensions.DependencyInjection.IServiceCollection*
+"" 
+«
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csá( á(Z?
+%528Microsoft.Extensions.DependencyInjection.ServiceProvider"¨Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(Microsoft.Extensions.DependencyInjection.IServiceCollection, bool)*X"V
+TMicrosoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions*X
+V
+moduleServiceCollection;Microsoft.Extensions.DependencyInjection.IServiceCollection*
+""∫
+∑
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csá á(ZQ
+moduleServiceProvider8Microsoft.Extensions.DependencyInjection.ServiceProvider"__id*A
+?
+%528Microsoft.Extensions.DependencyInjection.ServiceProvider±Æ
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csä0 ä(jK
+%53DOrchardCore.Environment.Shell.Builders.FeatureAwareServiceCollection"DOrchardCore.Environment.Shell.Builders.FeatureAwareServiceCollectionˆ
+Û
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csä4 ä(Q
+%54void"üOrchardCore.Environment.Shell.Builders.FeatureAwareServiceCollection.FeatureAwareServiceCollection(Microsoft.Extensions.DependencyInjection.IServiceCollection)*M
+K
+%53DOrchardCore.Environment.Shell.Builders.FeatureAwareServiceCollection*X
+V
+tenantServiceCollection;Microsoft.Extensions.DependencyInjection.IServiceCollection⁄
+◊
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csä ä(je
+featureAwareServiceCollectionDOrchardCore.Environment.Shell.Builders.FeatureAwareServiceCollection"__id*M
+K
+%53DOrchardCore.Environment.Shell.Builders.FeatureAwareServiceCollectionÁ
+‰
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cså å(H0
+%55)System.Collections.Generic.IEnumerable<T>"qMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetServices<T>(System.IServiceProvider)*M"K
+IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*S
+Q
+moduleServiceProvider8Microsoft.Extensions.DependencyInjection.ServiceProviderè
+å
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cså å(H5
+startups)System.Collections.Generic.IEnumerable<T>"__id*2
+0
+%55)System.Collections.Generic.IEnumerable<T>®
+•
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csê ê(5/
+%56(System.Linq.IOrderedEnumerable<TElement>"zSystem.Linq.Enumerable.OrderBy<TSource, TKey>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TKey>)*"
+System.Linq.Enumerable*7
+5
+startups)System.Collections.Generic.IEnumerable<T>*
+""é
+ã
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csê ê(55
+startups)System.Collections.Generic.IEnumerable<T>"__id*1
+/
+%56(System.Linq.IOrderedEnumerable<TElement>*
+12*©
+12ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cs¡	 ¡(	*
+13
+14*≈
+
+13ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csï ï(c˜
+Ù
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csï ï(4;
+%574System.Collections.Generic.IDictionary<TKey, TValue>"MOrchardCore.Environment.Shell.Builders.Models.ShellBlueprint.Dependencies.get*K
+I
+	blueprint<OrchardCore.Environment.Shell.Builders.Models.ShellBlueprintº
+π
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csï ï(d<
+%585System.Collections.Generic.KeyValuePair<TKey, TValue>"{System.Linq.Enumerable.FirstOrDefault<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
+System.Linq.Enumerable*=
+;
+%574System.Collections.Generic.IDictionary<TKey, TValue>*
+""‡
+›
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csï ï(j?
+%598OrchardCore.Environment.Extensions.Features.FeatureEntry"?System.Collections.Generic.KeyValuePair<TKey, TValue>.Value.get*>
+<
+%585System.Collections.Generic.KeyValuePair<TKey, TValue>*
+15
+16*î
+16ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csïk ï(wÏ
+È
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csïl ï(w?
+%608OrchardCore.Environment.Extensions.Features.IFeatureInfo"HOrchardCore.Environment.Extensions.Features.FeatureEntry.FeatureInfo.get*A
+?
+%598OrchardCore.Environment.Extensions.Features.FeatureEntry*
+15*≤
+15ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csï ö(G¨
+©
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csï ï(wC
+feature8OrchardCore.Environment.Extensions.Features.IFeatureInfo"__id*A
+?
+%608OrchardCore.Environment.Extensions.Features.IFeatureInfo¨
+©
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csö@ ö(G?
+%628OrchardCore.Environment.Extensions.Features.IFeatureInfo"__id*E
+C
+feature8OrchardCore.Environment.Extensions.Features.IFeatureInfo®
+•
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csö@ ö(G?
+%618OrchardCore.Environment.Extensions.Features.IFeatureInfo"__id*A
+?
+%628OrchardCore.Environment.Extensions.Features.IFeatureInfo*
+17
+18*˙
+17ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csöK ö(^¸
+˘
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csöK ö(^?
+%648OrchardCore.Environment.Extensions.Features.IFeatureInfo"__id*î*ë>
+<OrchardCore.Environment.Shell.Builders.ShellContainerFactory"O
+_applicationFeature8OrchardCore.Environment.Extensions.Features.IFeatureInfo®
+•
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csöK ö(^?
+%638OrchardCore.Environment.Extensions.Features.IFeatureInfo"__id*A
+?
+%648OrchardCore.Environment.Extensions.Features.IFeatureInfo®
+•
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csöK ö(^?
+%618OrchardCore.Environment.Extensions.Features.IFeatureInfo"__id*A
+?
+%638OrchardCore.Environment.Extensions.Features.IFeatureInfo*
+18*ë	
+18ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csö õ(GÍ
+Á
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csö ö(_
+%65void"êOrchardCore.Environment.Shell.Builders.FeatureAwareServiceCollection.SetCurrentFeature(OrchardCore.Environment.Extensions.Features.IFeatureInfo)*g
+e
+featureAwareServiceCollectionDOrchardCore.Environment.Shell.Builders.FeatureAwareServiceCollection*A
+?
+%618OrchardCore.Environment.Extensions.Features.IFeatureInfo¸˘
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csõ õ(H
+%66void"kOrchardCore.Modules.IStartup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)*)
+'
+startupOrchardCore.Modules.IStartup*g
+e
+featureAwareServiceCollectionDOrchardCore.Environment.Shell.Builders.FeatureAwareServiceCollection2NConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)*
+12*‡
+14ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csû •(e∫
+∑
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csû û(1?
+%678Microsoft.Extensions.DependencyInjection.ServiceProvider"__id*S
+Q
+moduleServiceProvider8Microsoft.Extensions.DependencyInjection.ServiceProvideróî
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csû û(<
+%68void"System.IDisposable.Dispose()*A
+?
+%678Microsoft.Extensions.DependencyInjection.ServiceProvider2	Dispose() 
+«
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cs†' †(Y?
+%698Microsoft.Extensions.DependencyInjection.ServiceProvider"¨Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(Microsoft.Extensions.DependencyInjection.IServiceCollection, bool)*X"V
+TMicrosoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions*X
+V
+tenantServiceCollection;Microsoft.Extensions.DependencyInjection.IServiceCollection*
+""π
+∂
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cs† †(YP
+shellServiceProvider8Microsoft.Extensions.DependencyInjection.ServiceProvider"__id*A
+?
+%698Microsoft.Extensions.DependencyInjection.ServiceProvider˚
+¯
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cs£& £(e>
+%707OrchardCore.Environment.Extensions.ITypeFeatureProvider"xMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<T>(System.IServiceProvider)*M"K
+IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*R
+P
+shellServiceProvider8Microsoft.Extensions.DependencyInjection.ServiceProvider∂
+≥
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cs£ £(eN
+typeFeatureProvider7OrchardCore.Environment.Extensions.ITypeFeatureProvider"__id*@
+>
+%707OrchardCore.Environment.Extensions.ITypeFeatureProvider°
+û
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cs•5 •(e;
+%714System.Collections.Generic.IDictionary<TKey, TValue>"[OrchardCore.Environment.Shell.Builders.FeatureAwareServiceCollection.FeatureCollections.get*g
+e
+featureAwareServiceCollectionDOrchardCore.Environment.Shell.Builders.FeatureAwareServiceCollection*
+19*©
+19ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cs¡	 ¡(	*
+20
+21*ü
+20ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csß2 ß(P˜
+Ù
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csß2 ß(PA
+%72:Microsoft.Extensions.DependencyInjection.ServiceCollection"?System.Collections.Generic.KeyValuePair<TKey, TValue>.Value.get*S
+Q
+featureServiceCollection5System.Collections.Generic.KeyValuePair<TKey, TValue>*
+22*©
+22ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cs¡	 ¡(	*
+23
+19*ı
+23ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cs© ´($‰
+·
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cs© ©(H
+%73System.Type"îOrchardCore.Environment.Shell.Builders.ServiceDescriptorExtensions.GetImplementationType(Microsoft.Extensions.DependencyInjection.ServiceDescriptor)*F"D
+BOrchardCore.Environment.Shell.Builders.ServiceDescriptorExtensions*Q
+O
+serviceDescriptor:Microsoft.Extensions.DependencyInjection.ServiceDescriptorœ
+Ã
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cs© ©(H
+typeSystem.Type"__id*
+
+%73System.Typeê
+ç
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cs´ ´($
+%74bool"3System.Type.operator !=(System.Type?, System.Type?)*"
+System.Type*
+
+typeSystem.Type*
+""*
+24
+22*µ
+24ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cs≠ Ø(:Û
+
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cs≠& ≠(B?
+%758OrchardCore.Environment.Extensions.Features.IFeatureInfo"=System.Collections.Generic.KeyValuePair<TKey, TValue>.Key.get*S
+Q
+featureServiceCollection5System.Collections.Generic.KeyValuePair<TKey, TValue>¨
+©
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cs≠ ≠(BC
+feature8OrchardCore.Environment.Extensions.Features.IFeatureInfo"__id*A
+?
+%758OrchardCore.Environment.Extensions.Features.IFeatureInfo¸
+˘
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csØ' Ø(:?
+%768OrchardCore.Environment.Extensions.Features.IFeatureInfo"__id*î*ë>
+<OrchardCore.Environment.Shell.Builders.ShellContainerFactory"O
+_applicationFeature8OrchardCore.Environment.Extensions.Features.IFeatureInfoÂ
+‚
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csØ Ø(:
+%77bool""object.operator ==(object, object)*
+"
+object*E
+C
+feature8OrchardCore.Environment.Extensions.Features.IFeatureInfo*A
+?
+%768OrchardCore.Environment.Extensions.Features.IFeatureInfo*
+25
+26*◊
+25ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cs±  ≥(1à
+Ö
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cs±, ±(]0
+%78)System.Collections.Generic.IEnumerable<T>"fSystem.Reflection.CustomAttributeExtensions.GetCustomAttributes<T>(System.Reflection.MemberInfo, bool)*/"-
++System.Reflection.CustomAttributeExtensions*
+
+typeSystem.Type*
+""¸
+˘
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cs±, ±(n+
+%79$OrchardCore.Modules.FeatureAttribute"_System.Linq.Enumerable.FirstOrDefault<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*2
+0
+%78)System.Collections.Generic.IEnumerable<T>Ü
+É
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cs±  ±(n1
+	attribute$OrchardCore.Modules.FeatureAttribute"__id*-
++
+%79$OrchardCore.Modules.FeatureAttributeò
+ï
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cs≥  ≥(1
+%80bool""object.operator !=(object, object)*
+"
+object*3
+1
+	attribute$OrchardCore.Modules.FeatureAttribute*
+""*
+27
+26*˛
+27ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csµ* ∂(VÛ
+
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csµ* µ(F?
+%848OrchardCore.Environment.Extensions.Features.IFeatureInfo"=System.Collections.Generic.KeyValuePair<TKey, TValue>.Key.get*S
+Q
+featureServiceCollection5System.Collections.Generic.KeyValuePair<TKey, TValue>ÚÔ
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csµ* µ(P8
+%851OrchardCore.Environment.Extensions.IExtensionInfo"FOrchardCore.Environment.Extensions.Features.IFeatureInfo.Extension.get*A
+?
+%848OrchardCore.Environment.Extensions.Features.IFeatureInfo2Extension.get⁄◊
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csµ* µ(Y0
+%86)System.Collections.Generic.IEnumerable<T>">OrchardCore.Environment.Extensions.IExtensionInfo.Features.get*:
+8
+%851OrchardCore.Environment.Extensions.IExtensionInfo2Features.get¥
+±
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csµ* ∂(W?
+%878OrchardCore.Environment.Extensions.Features.IFeatureInfo"{System.Linq.Enumerable.FirstOrDefault<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
+System.Linq.Enumerable*2
+0
+%86)System.Collections.Generic.IEnumerable<T>*
+""®
+•
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csµ* ∂(W?
+%828OrchardCore.Environment.Extensions.Features.IFeatureInfo"__id*A
+?
+%878OrchardCore.Environment.Extensions.Features.IFeatureInfo®
+•
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csµ* ∂(W?
+%818OrchardCore.Environment.Extensions.Features.IFeatureInfo"__id*A
+?
+%828OrchardCore.Environment.Extensions.Features.IFeatureInfo*
+28
+29*ˇ
+28ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cs∑' ∑(.¨
+©
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cs∑' ∑(.?
+%838OrchardCore.Environment.Extensions.Features.IFeatureInfo"__id*E
+C
+feature8OrchardCore.Environment.Extensions.Features.IFeatureInfo®
+•
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cs∑' ∑(.?
+%818OrchardCore.Environment.Extensions.Features.IFeatureInfo"__id*A
+?
+%838OrchardCore.Environment.Extensions.Features.IFeatureInfo*
+29*‘
+29ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csµ  ∑(.¨
+©
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csµ  ∑(.C
+feature8OrchardCore.Environment.Extensions.Features.IFeatureInfo"__id*A
+?
+%818OrchardCore.Environment.Extensions.Features.IFeatureInfo*
+26*⁄
+26ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csª ª(@≤Ø
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.csª ª(A
+%88void"ÖOrchardCore.Environment.Extensions.ITypeFeatureProvider.TryAdd(System.Type, OrchardCore.Environment.Extensions.Features.IFeatureInfo)*P
+N
+typeFeatureProvider7OrchardCore.Environment.Extensions.ITypeFeatureProvider*
+
+typeSystem.Type*E
+C
+feature8OrchardCore.Environment.Extensions.Features.IFeatureInfo2MTryAdd(System.Type, OrchardCore.Environment.Extensions.Features.IFeatureInfo)*
+22*ë
+21ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cs¿ ¿('"Ô
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cs¿ ¿((R
+P
+shellServiceProvider8Microsoft.Extensions.DependencyInjection.ServiceProvider*“
+30ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cs¡	 ¡(	"∞
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContainerFactory.cs¡ ¡(	
+implicit return:7
+settings+OrchardCore.Environment.Shell.ShellSettings:I
+	blueprint<OrchardCore.Environment.Shell.Builders.Models.ShellBlueprintB@>
+<OrchardCore.Environment.Shell.Builders.ShellContainerFactory

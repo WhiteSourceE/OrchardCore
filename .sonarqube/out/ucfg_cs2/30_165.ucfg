@@ -1,0 +1,71 @@
+
+AOrchardCore.Modules.LocalClock.ConvertToUtcAsync(System.DateTime)ç
+ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\LocalClock.cs9$ 9(5"0*ä
+0ç
+ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\LocalClock.cs; >(4õ
+ò
+ç
+ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\LocalClock.cs;& ;(=*
+%0$System.Threading.Tasks.Task<TResult>"6OrchardCore.Modules.LocalClock.GetLocalTimeZoneAsync()*" 
+OrchardCore.Modules.LocalClock—
+Œ
+ç
+ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\LocalClock.cs; ;(=.
+localTimeZoneOrchardCore.Modules.ITimeZone"__id*
+""—
+Œ
+ç
+ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\LocalClock.cs<  <(7
+%1"__id*0
+.
+localTimeZoneOrchardCore.Modules.ITimeZoneÁ
+‰
+ç
+ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\LocalClock.cs< <(E
+%2NodaTime.DateTimeZone"-OrchardCore.Modules.TimeZone.DateTimeZone.get*
+
+%1ﬂ
+‹
+ç
+ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\LocalClock.cs< <(E%
+dateTimeZoneNodaTime.DateTimeZone"__id*
+
+%2NodaTime.DateTimeZone¢
+ü
+ç
+ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\LocalClock.cs= =(@
+%3NodaTime.LocalDateTime"4NodaTime.LocalDateTime.FromDateTime(System.DateTime)*"
+NodaTime.LocalDateTime*
+
+dateTimeSystem.DateTimeﬁ
+€
+ç
+ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\LocalClock.cs= =(@#
+	localDateNodaTime.LocalDateTime"__id*
+
+%3NodaTime.LocalDateTimeª
+∏
+ç
+ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\LocalClock.cs> >(5
+%4NodaTime.ZonedDateTime"8NodaTime.DateTimeZone.AtStrictly(NodaTime.LocalDateTime)*'
+%
+dateTimeZoneNodaTime.DateTimeZone*%
+#
+	localDateNodaTime.LocalDateTimeÚ
+Ô
+ç
+ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\LocalClock.cs> >(E
+%5System.DateTime"&NodaTime.ZonedDateTime.ToDateTimeUtc()*
+
+%4NodaTime.ZonedDateTime"©
+ç
+ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\LocalClock.cs> >(F
+
+%5System.DateTime*ª
+1ç
+ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\LocalClock.cs?	 ?(	"•
+ç
+ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\LocalClock.cs? ?(	
+implicit return:
+dateTimeSystem.DateTimeB" 
+OrchardCore.Modules.LocalClock

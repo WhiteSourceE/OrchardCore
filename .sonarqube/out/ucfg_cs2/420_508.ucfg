@@ -1,0 +1,608 @@
+
+qOrchardCore.Users.Controllers.AccountController.GenerateUsername(Microsoft.AspNetCore.Identity.ExternalLoginInfo)ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.cs‡# ‡(3"0*ñ.
+0ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.cs‚ Á(-™
+ß
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.cs‚# ‚() 
+%0OrchardCore.Modules.IClock"__id*[*Y1
+/OrchardCore.Users.Controllers.AccountController"$
+_clockOrchardCore.Modules.IClockìê
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.cs‚# ‚(0
+%1System.DateTime"%OrchardCore.Modules.IClock.UtcNow.get*"
+ 
+%0OrchardCore.Modules.IClock2
+UtcNow.getÂ
+‚
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.cs‚# ‚(6
+
+%2long"System.DateTime.Ticks.get*
+
+%1System.DateTimeÕ 
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.cs‚ ‚(7
+%3System.TimeSpan"System.TimeSpan¯
+ı
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.cs‚ ‚("
+
+%4void"System.TimeSpan.TimeSpan(long)*
+
+%3System.TimeSpan*
+
+
+%2long˜
+Ù
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.cs‚G ‚(Y
+%5System.DateTime"__id*3*1
+System.DateTime"
+	UnixEpochSystem.DateTimeÂ
+‚
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.cs‚G ‚(_
+
+%6long"System.DateTime.Ticks.get*
+
+%5System.DateTimeÕ 
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.cs‚: ‚(`
+%7System.TimeSpan"System.TimeSpan¯
+ı
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.cs‚> ‚(F
+
+%8void"System.TimeSpan.TimeSpan(long)*
+
+%7System.TimeSpan*
+
+
+%6long¡
+æ
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.cs‚ ‚(`
+%9System.TimeSpan"<System.TimeSpan.operator -(System.TimeSpan, System.TimeSpan)*"
+System.TimeSpan*
+
+%3System.TimeSpan*
+
+%7System.TimeSpan‹
+Ÿ
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.cs‚ ‚(`
+nowSystem.TimeSpan"__id*
+
+%9System.TimeSpan
+Ì
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.cs„: „(J
+%10double" System.TimeSpan.TotalSeconds.get*
+
+nowSystem.TimeSpanˆ
+Û
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.cs„* „(K
+
+%11int"System.Convert.ToInt32(double)*"
+System.Convert*
+
+%10double“
+œ
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.cs„* „(V
+%12string"int.ToString()*
+
+
+%11int÷
+”
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.cs„$ „(V
+%13string"__concat*
+u*
+
+%12stringÚ
+Ô
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.cs„ „(W
+%14string"string.Concat(params string?[])*
+"
+string*
+
+%13stringÀ
+»
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.cs„ „(W
+retstring"__id*
+
+%14stringø
+º
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csÂ. Â(:(
+%15!OrchardCore.Settings.ISiteService"__id*h*f1
+/OrchardCore.Users.Controllers.AccountController"1
+_siteService!OrchardCore.Settings.ISiteService–Õ
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csÂ. Â(Q+
+%16$System.Threading.Tasks.Task<TResult>"8OrchardCore.Settings.ISiteService.GetSiteSettingsAsync()**
+(
+%15!OrchardCore.Settings.ISiteService2GetSiteSettingsAsync()Ÿ
+÷
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csÂ' Â(m4
+%17-OrchardCore.Users.Models.RegistrationSettings"IOrchardCore.Entities.EntityExtensions.As<T>(OrchardCore.Entities.IEntity)*)"'
+%OrchardCore.Entities.EntityExtensions*
+""™
+ß
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csÂ Â(mE
+registrationSettings-OrchardCore.Users.Models.RegistrationSettings"__id*6
+4
+%17-OrchardCore.Users.Models.RegistrationSettings•
+¢
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csÁ! Á(-
+%18bool""object.operator ==(object, object)*
+"
+object*9
+7
+info/Microsoft.AspNetCore.Identity.ExternalLoginInfo*
+""*
+1
+2*–
+1ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csÁ0 Á(4∫
+∑
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csÁ0 Á(4
+%20"__id*
+""Ê
+„
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csÁ0 Á(40
+%19)System.Collections.Generic.IEnumerable<T>"__id*
+
+%20*
+3* 
+2ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csÁ7 Á(]Œ
+À
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csÁ7 Á(E-
+%22&System.Security.Claims.ClaimsPrincipal"=Microsoft.AspNetCore.Identity.ExternalLoginInfo.Principal.get*9
+7
+info/Microsoft.AspNetCore.Identity.ExternalLoginInfo§
+°
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csÁ7 Á(]0
+%23)System.Collections.Generic.IEnumerable<T>"iOrchardCore.Users.ClaimsPrincipalExtensions.GetSerializableClaims(System.Security.Claims.ClaimsPrincipal)*/"-
++OrchardCore.Users.ClaimsPrincipalExtensions*/
+-
+%22&System.Security.Claims.ClaimsPrincipalë
+é
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csÁ7 Á(]0
+%21)System.Collections.Generic.IEnumerable<T>"__id*2
+0
+%23)System.Collections.Generic.IEnumerable<T>ë
+é
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csÁ7 Á(]0
+%19)System.Collections.Generic.IEnumerable<T>"__id*2
+0
+%21)System.Collections.Generic.IEnumerable<T>*
+3*ô
+3ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csÁ È(@ú
+ô
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csÁ Á(];
+externalClaims)System.Collections.Generic.IEnumerable<T>"__id*2
+0
+%19)System.Collections.Generic.IEnumerable<T> 
+«
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csÈ È(@
+%24bool"MOrchardCore.Users.Models.RegistrationSettings.UseScriptToGenerateUsername.get*G
+E
+registrationSettings-OrchardCore.Users.Models.RegistrationSettings*
+4
+5*â
+4ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csÎ/ Î(QŸ
+÷
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csÎ/ Î(;
+%25string"__id**
+string"
+Emptystring*
+6
+7*€
+7ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csÎR Î(`Æ
+´
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csÎS Î(`
+%26string"=Microsoft.AspNetCore.Identity.UserLoginInfo.LoginProvider.get*9
+7
+info/Microsoft.AspNetCore.Identity.ExternalLoginInfo*
+6*«"
+6†
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csÎ («’
+“
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csÎ Î(rü
+contextì<anonymous type: string userName, string loginProvider, System.Collections.Generic.IEnumerable<OrchardCore.Users.SerializableClaim> externalClaims>"__id*
+""¸˘
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csÏ- Ô(-
+%27&Newtonsoft.Json.JsonSerializerSettings"&Newtonsoft.Json.JsonSerializerSettings§
+°
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csÏ1 Ï(G
+%28void"?Newtonsoft.Json.JsonSerializerSettings.JsonSerializerSettings()*/
+-
+%27&Newtonsoft.Json.JsonSerializerSettings∏µ
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csÓ' Ó(SK
+%29DNewtonsoft.Json.Serialization.CamelCasePropertyNamesContractResolver"DNewtonsoft.Json.Serialization.CamelCasePropertyNamesContractResolver
+Ì
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csÓ+ Ó(Q
+%30void"mNewtonsoft.Json.Serialization.CamelCasePropertyNamesContractResolver.CamelCasePropertyNamesContractResolver()*M
+K
+%29DNewtonsoft.Json.Serialization.CamelCasePropertyNamesContractResolverö
+ó
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csÓ Ó(S6
+%31/Newtonsoft.Json.Serialization.IContractResolver";Newtonsoft.Json.JsonSerializerSettings.ContractResolver.set*/
+-
+%27&Newtonsoft.Json.JsonSerializerSettings*M
+K
+%29DNewtonsoft.Json.Serialization.CamelCasePropertyNamesContractResolverû
+õ
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csÏ Ô(@
+jsonSerializerSettings&Newtonsoft.Json.JsonSerializerSettings"__id*/
+-
+%27&Newtonsoft.Json.JsonSerializerSettings«
+ƒ
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csK (v
+%32string"HOrchardCore.Users.Models.RegistrationSettings.GenerateUsernameScript.get*G
+E
+registrationSettings-OrchardCore.Users.Models.RegistrationSettingsû
+õ
+°
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.cså (»
+%33string"\Newtonsoft.Json.JsonConvert.SerializeObject(object?, Newtonsoft.Json.JsonSerializerSettings)*"
+Newtonsoft.Json.JsonConvert*¢
+ü
+contextì<anonymous type: string userName, string loginProvider, System.Collections.Generic.IEnumerable<OrchardCore.Users.SerializableClaim> externalClaims>*B
+@
+jsonSerializerSettings&Newtonsoft.Json.JsonSerializerSettingsÿ
+’
+†
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.cs (¯
+%34string"__concat*
+""*
+
+%32stringÿ
+’
+†
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.cs (¯
+%35string"__concat*
+
+%34string*
+""·
+ﬁ
+†
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.cs (¯
+%36string"__concat*
+
+%35string*
+
+%33stringÿ
+’
+†
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.cs (¯
+%37string"__concat*
+
+%36string*
+""œ
+Ã
+†
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.cs (¯
+scriptstring"__id*
+
+%37string*
+8*Æ
+8ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csö	 ö(	*
+9
+10*ﬂ
+
+9ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csÛ Ù((–
+Õ
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csÛ/ Û(@.
+%38'OrchardCore.Scripting.IScriptingManager"__id*s*q1
+/OrchardCore.Users.Controllers.AccountController"<
+_scriptingManager'OrchardCore.Scripting.IScriptingManager˛˚
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csÛ/ Û(c
+%39object"«OrchardCore.Scripting.IScriptingManager.Evaluate(string, Microsoft.Extensions.FileProviders.IFileProvider, string, System.Collections.Generic.IEnumerable<OrchardCore.Scripting.IGlobalMethodProvider>)*0
+.
+%38'OrchardCore.Scripting.IScriptingManager*
+
+scriptstring*
+""*
+""*
+""2üEvaluate(string, Microsoft.Extensions.FileProviders.IFileProvider, string, System.Collections.Generic.IEnumerable<OrchardCore.Scripting.IGlobalMethodProvider>)Ÿ
+÷
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csÛ Û(c
+evaluationResultdynamic"__id*
+
+%39object*
+11
+12*¨
+12ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csÙ) Ù(2*
+11*Æ
+11ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csÙ Ù(:˚
+¯
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csÙ Ù(:
+%40dynamic"%dynamic.operator ==(dynamic, dynamic)*"
+	__unknown*
+""*
+""*
+13
+14*™
+13ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csı ı(^–Õ
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csı ı(_
+%41System.Exception"System.Exception®
+•
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csı" ı(+
+%42void"#System.Exception.Exception(string?)*
+
+%41System.Exception*42
+0GenerateUsernameScript did not return a username*
+15*Ã
+14ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csˆ ˆ(4Ï
+È
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csˆ ˆ(4
+%43dynamic"__mapGet*
+
+evaluationResultdynamic*
+
+userName"¥
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csˆ ˆ(5
+
+%43dynamic*á	
+10ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.cs˙ ˙(f¿
+Ω
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.cs˙ ˙(+
+%44$Microsoft.Extensions.Logging.ILogger"__id*f*d1
+/OrchardCore.Users.Controllers.AccountController"/
+_logger$Microsoft.Extensions.Logging.ILoggerï
+í
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.cs˙ ˙(g
+%45void"áMicrosoft.Extensions.Logging.LoggerExtensions.LogError(Microsoft.Extensions.Logging.ILogger, System.Exception, string, params object[])*1"/
+-Microsoft.Extensions.Logging.LoggerExtensions*-
++
+%44$Microsoft.Extensions.Logging.ILogger*
+
+exSystem.Exception*64
+2Error evaluating GenerateUsernameScript({context})*¢
+ü
+contextì<anonymous type: string userName, string loginProvider, System.Collections.Generic.IEnumerable<OrchardCore.Users.SerializableClaim> externalClaims>*
+16*É
+5ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csˇ Ä(;ñì
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csˇ  ˇ(>:
+%463System.Collections.Generic.Dictionary<TKey, TValue>"3System.Collections.Generic.Dictionary<TKey, TValue>≤
+Ø
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csˇ$ ˇ(<
+%47void"@System.Collections.Generic.Dictionary<TKey, TValue>.Dictionary()*<
+:
+%463System.Collections.Generic.Dictionary<TKey, TValue>´
+®
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csˇ ˇ(>@
+	userNames3System.Collections.Generic.Dictionary<TKey, TValue>"__id*<
+:
+%463System.Collections.Generic.Dictionary<TKey, TValue>Ÿ
+÷
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csÄ% Ä(;0
+%48)System.Collections.Generic.IEnumerable<T>"__id*z*x1
+/OrchardCore.Users.Controllers.AccountController"C
+_externalLoginHandlers)System.Collections.Generic.IEnumerable<T>*
+17*∞
+17ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csö	 ö(	*
+18
+19*ç
+18ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csÑ Ö(?Æ
+´
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csÑC Ñ(U
+%49string"=Microsoft.AspNetCore.Identity.UserLoginInfo.LoginProvider.get*9
+7
+info/Microsoft.AspNetCore.Identity.ExternalLoginInfoà
+Ö
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csÑW Ñ(o,
+%50%OrchardCore.Users.SerializableClaim[]"XSystem.Linq.Enumerable.ToArray<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*=
+;
+externalClaims)System.Collections.Generic.IEnumerable<T>Ÿ÷
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csÑ- Ñ(p+
+%51$System.Threading.Tasks.Task<TResult>"õOrchardCore.Users.Handlers.IExternalLoginEventHandler.GenerateUserName(string, System.Collections.Generic.IEnumerable<OrchardCore.Users.SerializableClaim>)*?
+=
+item5OrchardCore.Users.Handlers.IExternalLoginEventHandler*
+
+%49string*.
+,
+%50%OrchardCore.Users.SerializableClaim[]2eGenerateUserName(string, System.Collections.Generic.IEnumerable<OrchardCore.Users.SerializableClaim>)«
+ƒ
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csÑ Ñ(p
+userNamestring"__id*
+""¯
+ı
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csÖ Ö(@
+%52bool""string.IsNullOrWhiteSpace(string?)*
+"
+string*
+
+userNamestring*
+20
+21*Á
+20ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csá  á(4¥
+±
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csá  á(/
+
+%53int"=System.Collections.Generic.Dictionary<TKey, TValue>.Count.get*B
+@
+	userNames3System.Collections.Generic.Dictionary<TKey, TValue>*
+22
+23*ˇ
+22ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csâ  â(.–
+Õ
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csâ  â(.
+retstring"__id*
+
+userNamestring*
+23*Í
+23ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csã ã(Bå
+â
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csã* ã(8
+%54System.Type"object.GetType()*?
+=
+item5OrchardCore.Users.Handlers.IExternalLoginEventHandler¨
+©
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csã ã(C
+%55void"__mapSet*B
+@
+	userNames3System.Collections.Generic.Dictionary<TKey, TValue>*
+
+%54System.Type*
+
+userNamestring*
+21*∞
+21ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csö	 ö(	*
+24
+17*´
+
+24†
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csê ê(ë¿
+Ω
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csê ê(+
+%56$Microsoft.Extensions.Logging.ILogger"__id*f*d1
+/OrchardCore.Users.Controllers.AccountController"/
+_logger$Microsoft.Extensions.Logging.ILoggeré
+ã
+°
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csêÉ ê(ë
+%57System.Type"object.GetType()*?
+=
+item5OrchardCore.Users.Handlers.IExternalLoginEventHandlerß
+§
+†
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csê ê(í
+%58void"áMicrosoft.Extensions.Logging.LoggerExtensions.LogError(Microsoft.Extensions.Logging.ILogger, System.Exception, string, params object[])*1"/
+-Microsoft.Extensions.Logging.LoggerExtensions*-
++
+%56$Microsoft.Extensions.Logging.ILogger*
+
+exSystem.Exception*VT
+R{externalLoginHandler} - IExternalLoginHandler.GenerateUserName threw an exception*
+
+%57System.Type*
+17*Á
+19ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csì ì('¥
+±
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csì ì(#
+
+%59int"=System.Collections.Generic.Dictionary<TKey, TValue>.Count.get*B
+@
+	userNames3System.Collections.Generic.Dictionary<TKey, TValue>*
+25
+16*Ï
+25†
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csï ï(≤¿
+Ω
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csï ï(+
+%60$Microsoft.Extensions.Logging.ILogger"__id*f*d1
+/OrchardCore.Users.Controllers.AccountController"/
+_logger$Microsoft.Extensions.Logging.ILogger¶
+£
+°
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csïî ï(Æ<
+%615System.Collections.Generic.KeyValuePair<TKey, TValue>"_System.Linq.Enumerable.FirstOrDefault<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*B
+@
+	userNames3System.Collections.Generic.Dictionary<TKey, TValue>∫
+∑
+°
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csïî ï(≤
+%62System.Type"=System.Collections.Generic.KeyValuePair<TKey, TValue>.Key.get*>
+<
+%615System.Collections.Generic.KeyValuePair<TKey, TValue>ì
+ê
+†
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csï ï(≥
+%63void"wMicrosoft.Extensions.Logging.LoggerExtensions.LogWarning(Microsoft.Extensions.Logging.ILogger, string, params object[])*1"/
+-Microsoft.Extensions.Logging.LoggerExtensions*-
++
+%60$Microsoft.Extensions.Logging.ILogger*mk
+iMore than one IExternalLoginHandler generated username. Used first one registered, {externalLoginHandler}*
+
+%62System.Type*
+16*‹
+16ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csô ô("≥
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csô ô(
+
+retstring*‡
+15ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csö	 ö(	"∑
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csö ö(	
+implicit return:7
+info/Microsoft.AspNetCore.Identity.ExternalLoginInfoB31
+/OrchardCore.Users.Controllers.AccountController

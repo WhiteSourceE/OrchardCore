@@ -1,0 +1,223 @@
+
+wOrchardCore.OpenId.Recipes.OpenIdValidationSettingsStep.ExecuteAsync(OrchardCore.Recipes.Models.RecipeExecutionContext)¥
+šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdValidationSettingsStep.cs (&"0*Í
+0¥
+šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdValidationSettingsStep.cs (qµ
+²
+¥
+šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdValidationSettingsStep.cs (+
+%0string":OrchardCore.Recipes.Models.RecipeExecutionContext.Name.get*>
+<
+context1OrchardCore.Recipes.Models.RecipeExecutionContext¿
+¼
+¥
+šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdValidationSettingsStep.csO (q
+%1"__id*
+""
+š
+¥
+šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdValidationSettingsStep.cs (r
+
+%2bool"8string.Equals(string?, string?, System.StringComparison)*
+"
+string*
+
+%0string*
+""*
+
+%1*
+1
+2*Þ
+1¥
+šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdValidationSettingsStep.cs$	 $(	"°
+¥
+šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdValidationSettingsStep.cs (
+""*Ý
+2¥
+šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdValidationSettingsStep.cs (FË
+È
+¥
+šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdValidationSettingsStep.cs ($"
+%3Newtonsoft.Json.Linq.JObject":OrchardCore.Recipes.Models.RecipeExecutionContext.Step.get*>
+<
+context1OrchardCore.Recipes.Models.RecipeExecutionContextÀ
+½
+¥
+šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdValidationSettingsStep.cs (RB
+%4<OrchardCore.OpenId.Recipes.OpenIdValidationSettingsStepModel")Newtonsoft.Json.Linq.JToken.ToObject<T>()*$
+"
+%3Newtonsoft.Json.Linq.JObject¾
+»
+¥
+šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdValidationSettingsStep.cs (RE
+model<OrchardCore.OpenId.Recipes.OpenIdValidationSettingsStepModel"__id*D
+B
+%4<OrchardCore.OpenId.Recipes.OpenIdValidationSettingsStepModelú
+÷
+¥
+šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdValidationSettingsStep.cs! (3:
+%54OrchardCore.OpenId.Services.IOpenIdValidationService"__id*Š*‡9
+7OrchardCore.OpenId.Recipes.OpenIdValidationSettingsStep"J
+_validationService4OrchardCore.OpenId.Services.IOpenIdValidationServiceôñ
+¥
+šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdValidationSettingsStep.cs! (G*
+%6$System.Threading.Tasks.Task<TResult>"HOrchardCore.OpenId.Services.IOpenIdValidationService.LoadSettingsAsync()*<
+:
+%54OrchardCore.OpenId.Services.IOpenIdValidationService2LoadSettingsAsync()û
+ø
+¥
+šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdValidationSettingsStep.cs (G@
+settings4OrchardCore.OpenId.Settings.OpenIdValidationSettings"__id*
+""Ë
+È
+¥
+šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdValidationSettingsStep.cs (*
+%7string"GOrchardCore.OpenId.Recipes.OpenIdValidationSettingsStepModel.Tenant.get*G
+E
+model<OrchardCore.OpenId.Recipes.OpenIdValidationSettingsStepModelÎ
+Ë
+¥
+šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdValidationSettingsStep.cs (*
+%8string"?OrchardCore.OpenId.Settings.OpenIdValidationSettings.Tenant.set*B
+@
+settings4OrchardCore.OpenId.Settings.OpenIdValidationSettings*
+
+%7stringÎ
+Ë
+¥
+šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdValidationSettingsStep.cs7 (F
+%9string"JOrchardCore.OpenId.Recipes.OpenIdValidationSettingsStepModel.Authority.get*G
+E
+model<OrchardCore.OpenId.Recipes.OpenIdValidationSettingsStepModeló
+ð
+¥
+šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdValidationSettingsStep.cs" (G
+%10bool"string.IsNullOrEmpty(string?)*
+"
+string*
+
+%9string*
+3
+4*Ü
+3¥
+šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdValidationSettingsStep.csJ (sÏ
+Ì
+¥
+šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdValidationSettingsStep.csR (a
+%14string"JOrchardCore.OpenId.Recipes.OpenIdValidationSettingsStepModel.Authority.get*G
+E
+model<OrchardCore.OpenId.Recipes.OpenIdValidationSettingsStepModelÀ
+½
+¥
+šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdValidationSettingsStep.csc (s
+%15"__id*
+""ÊÇ
+¥
+šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdValidationSettingsStep.csJ (t
+%16
+System.Uri"
+System.Uri
+Œ
+¥
+šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdValidationSettingsStep.csN (Q
+%17void"&System.Uri.Uri(string, System.UriKind)*
+
+%16
+System.Uri*
+
+%14string*
+
+%15Ù
+Ö
+¥
+šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdValidationSettingsStep.csJ (t
+%12
+System.Uri"__id*
+
+%16
+System.UriÙ
+Ö
+¥
+šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdValidationSettingsStep.csJ (t
+%11
+System.Uri"__id*
+
+%12
+System.Uri*
+5*Ã
+4¥
+šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdValidationSettingsStep.csw ({À
+½
+¥
+šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdValidationSettingsStep.csw ({
+%13"__id*
+""Í
+Ê
+¥
+šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdValidationSettingsStep.csw ({
+%11
+System.Uri"__id*
+
+%13*
+5*–
+5¥
+šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdValidationSettingsStep.cs #(AÛ
+Ø
+¥
+šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdValidationSettingsStep.cs ({
+%18
+System.Uri"BOrchardCore.OpenId.Settings.OpenIdValidationSettings.Authority.set*B
+@
+settings4OrchardCore.OpenId.Settings.OpenIdValidationSettings*
+
+%11
+System.UriÎ
+Ë
+¥
+šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdValidationSettingsStep.cs    (.
+%19string"IOrchardCore.OpenId.Recipes.OpenIdValidationSettingsStepModel.Audience.get*G
+E
+model<OrchardCore.OpenId.Recipes.OpenIdValidationSettingsStepModelÒ
+Ï
+¥
+šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdValidationSettingsStep.cs   (.
+%20string"AOrchardCore.OpenId.Settings.OpenIdValidationSettings.Audience.set*B
+@
+settings4OrchardCore.OpenId.Settings.OpenIdValidationSettings*
+
+%19stringÞ
+Û
+¥
+šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdValidationSettingsStep.cs!2 !(R
+%21bool"[OrchardCore.OpenId.Recipes.OpenIdValidationSettingsStepModel.DisableTokenTypeValidation.get*G
+E
+model<OrchardCore.OpenId.Recipes.OpenIdValidationSettingsStepModelà
+Ý
+¥
+šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdValidationSettingsStep.cs! !(R
+%22bool"SOrchardCore.OpenId.Settings.OpenIdValidationSettings.DisableTokenTypeValidation.set*B
+@
+settings4OrchardCore.OpenId.Settings.OpenIdValidationSettings*
+
+%21boolû
+ø
+¥
+šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdValidationSettingsStep.cs# #($;
+%234OrchardCore.OpenId.Services.IOpenIdValidationService"__id*Š*‡9
+7OrchardCore.OpenId.Recipes.OpenIdValidationSettingsStep"J
+_validationService4OrchardCore.OpenId.Services.IOpenIdValidationServiceš
+¥
+šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdValidationSettingsStep.cs# #(B"
+%24System.Threading.Tasks.Task"~OrchardCore.OpenId.Services.IOpenIdValidationService.UpdateSettingsAsync(OrchardCore.OpenId.Settings.OpenIdValidationSettings)*=
+;
+%234OrchardCore.OpenId.Services.IOpenIdValidationService*B
+@
+settings4OrchardCore.OpenId.Settings.OpenIdValidationSettings2IUpdateSettingsAsync(OrchardCore.OpenId.Settings.OpenIdValidationSettings)*
+6*ë
+6¥
+šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdValidationSettingsStep.cs$	 $(	"½
+¥
+šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdValidationSettingsStep.cs$ $(	
+implicit return:<
+context1OrchardCore.Recipes.Models.RecipeExecutionContextB;9
+7OrchardCore.OpenId.Recipes.OpenIdValidationSettingsStep

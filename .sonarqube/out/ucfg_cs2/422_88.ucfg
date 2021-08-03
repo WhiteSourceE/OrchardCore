@@ -1,0 +1,304 @@
+
+≠OrchardCore.Twitter.Drivers.TwitterSettingsDisplayDriver.UpdateAsync(OrchardCore.Twitter.Settings.TwitterSettings, OrchardCore.DisplayManagement.Handlers.BuildEditorContext)¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Drivers\TwitterSettingsDisplayDriver.cs\3 \(>"0*≈
+0¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Drivers\TwitterSettingsDisplayDriver.cs^ ^(D»
+≈
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Drivers\TwitterSettingsDisplayDriver.cs^ ^(
+%0string"DOrchardCore.DisplayManagement.Handlers.BuildShapeContext.GroupId.get*F
+D
+context9OrchardCore.DisplayManagement.Handlers.BuildEditorContext¿
+Ω
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Drivers\TwitterSettingsDisplayDriver.cs^# ^(D
+%1"__id*
+""Ä
+˝
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Drivers\TwitterSettingsDisplayDriver.cs^ ^(D
+
+%2bool""string.operator ==(string, string)*
+"
+string*
+
+%0string*
+
+%1*
+1
+2*é
+1¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Drivers\TwitterSettingsDisplayDriver.cs` `(;Ú
+Ô
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Drivers\TwitterSettingsDisplayDriver.cs` `(/4
+%3.Microsoft.AspNetCore.Http.IHttpContextAccessor"__id*á*Ñ:
+8OrchardCore.Twitter.Drivers.TwitterSettingsDisplayDriver"F
+_httpContextAccessor.Microsoft.AspNetCore.Http.IHttpContextAccessor‚ﬂ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Drivers\TwitterSettingsDisplayDriver.cs` `(;+
+%4%Microsoft.AspNetCore.Http.HttpContext">Microsoft.AspNetCore.Http.IHttpContextAccessor.HttpContext.get*6
+4
+%3.Microsoft.AspNetCore.Http.IHttpContextAccessor2HttpContext.get*
+3
+4*Ì
+4¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Drivers\TwitterSettingsDisplayDriver.cs`< `(Aπ
+∂
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Drivers\TwitterSettingsDisplayDriver.cs`= `(A,
+%5&System.Security.Claims.ClaimsPrincipal".Microsoft.AspNetCore.Http.HttpContext.User.get*-
++
+%4%Microsoft.AspNetCore.Http.HttpContext*
+3*Ó
+3¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Drivers\TwitterSettingsDisplayDriver.cs` a( í
+è
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Drivers\TwitterSettingsDisplayDriver.cs` `(A.
+user&System.Security.Claims.ClaimsPrincipal"__id*.
+,
+%5&System.Security.Claims.ClaimsPrincipal¢
+ü
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Drivers\TwitterSettingsDisplayDriver.csa a( 
+
+%6bool""object.operator ==(object, object)*
+"
+object*0
+.
+user&System.Security.Claims.ClaimsPrincipal*
+""*
+5
+6*∏
+6¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Drivers\TwitterSettingsDisplayDriver.csa$ a(oá
+Ñ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Drivers\TwitterSettingsDisplayDriver.csa+ a(@>
+%78Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*í*è:
+8OrchardCore.Twitter.Drivers.TwitterSettingsDisplayDriver"Q
+_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationService 
+«
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Drivers\TwitterSettingsDisplayDriver.csaV a(o1
+%8+OrchardCore.Security.Permissions.Permission"__id*c*a!
+OrchardCore.Twitter.Permissions"<
+ManageTwitter+OrchardCore.Security.Permissions.Permission™
+ß
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Drivers\TwitterSettingsDisplayDriver.csa+ a(p*
+%9$System.Threading.Tasks.Task<TResult>"ﬂMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission)*E"C
+AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*@
+>
+%78Microsoft.AspNetCore.Authorization.IAuthorizationService*0
+.
+user&System.Security.Claims.ClaimsPrincipal*3
+1
+%8+OrchardCore.Security.Permissions.Permission*
+5
+7*‡
+5¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Drivers\TwitterSettingsDisplayDriver.csc c("±
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Drivers\TwitterSettingsDisplayDriver.csc c( 
+""*¸
+7¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Drivers\TwitterSettingsDisplayDriver.csf i(6•¢
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Drivers\TwitterSettingsDisplayDriver.csf f(:>
+%107OrchardCore.Twitter.ViewModels.TwitterSettingsViewModel"7OrchardCore.Twitter.ViewModels.TwitterSettingsViewModelœ
+Ã
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Drivers\TwitterSettingsDisplayDriver.csf  f(8
+%11void"ROrchardCore.Twitter.ViewModels.TwitterSettingsViewModel.TwitterSettingsViewModel()*@
+>
+%107OrchardCore.Twitter.ViewModels.TwitterSettingsViewModel∂
+≥
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Drivers\TwitterSettingsDisplayDriver.csf f(:@
+model7OrchardCore.Twitter.ViewModels.TwitterSettingsViewModel"__id*@
+>
+%107OrchardCore.Twitter.ViewModels.TwitterSettingsViewModel˙
+˜
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Drivers\TwitterSettingsDisplayDriver.csg g(%>
+%127OrchardCore.DisplayManagement.ModelBinding.IUpdateModel"DOrchardCore.DisplayManagement.Handlers.BuildShapeContext.Updater.get*F
+D
+context9OrchardCore.DisplayManagement.Handlers.BuildEditorContextæ
+ª
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Drivers\TwitterSettingsDisplayDriver.csgA g(G
+%13string"COrchardCore.DisplayManagement.Handlers.DisplayDriverBase.Prefix.get*<:
+8OrchardCore.DisplayManagement.Handlers.DisplayDriverBaseÇˇ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Drivers\TwitterSettingsDisplayDriver.csg g(H+
+%14$System.Threading.Tasks.Task<TResult>"cOrchardCore.DisplayManagement.ModelBinding.IUpdateModel.TryUpdateModelAsync<TModel>(TModel, string)*@
+>
+%127OrchardCore.DisplayManagement.ModelBinding.IUpdateModel*B
+@
+model7OrchardCore.Twitter.ViewModels.TwitterSettingsViewModel*
+
+%13string2+TryUpdateModelAsync<TModel>(TModel, string)˙
+˜
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Drivers\TwitterSettingsDisplayDriver.csi i(#>
+%157OrchardCore.DisplayManagement.ModelBinding.IUpdateModel"DOrchardCore.DisplayManagement.Handlers.BuildShapeContext.Updater.get*F
+D
+context9OrchardCore.DisplayManagement.Handlers.BuildEditorContextâÜ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Drivers\TwitterSettingsDisplayDriver.csi i(.A
+%16:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary"FOrchardCore.DisplayManagement.ModelBinding.IUpdateModel.ModelState.get*@
+>
+%157OrchardCore.DisplayManagement.ModelBinding.IUpdateModel2ModelState.get∆
+√
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Drivers\TwitterSettingsDisplayDriver.csi i(6
+%17bool"FMicrosoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary.IsValid.get*C
+A
+%16:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary*
+8
+2*–1
+8¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Drivers\TwitterSettingsDisplayDriver.csk q(Lê
+ç
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Drivers\TwitterSettingsDisplayDriver.csk$ k(;B
+%18;Microsoft.AspNetCore.DataProtection.IDataProtectionProvider"__id*ó*î:
+8OrchardCore.Twitter.Drivers.TwitterSettingsDisplayDriver"V
+_dataProtectionProvider;Microsoft.AspNetCore.DataProtection.IDataProtectionProvider¡
+æ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Drivers\TwitterSettingsDisplayDriver.cskL k(m
+%19"__id*
+""§°
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Drivers\TwitterSettingsDisplayDriver.csk$ k(n9
+%202Microsoft.AspNetCore.DataProtection.IDataProtector"SMicrosoft.AspNetCore.DataProtection.IDataProtectionProvider.CreateProtector(string)*D
+B
+%18;Microsoft.AspNetCore.DataProtection.IDataProtectionProvider*
+
+%192CreateProtector(string)∞
+≠
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Drivers\TwitterSettingsDisplayDriver.csk k(n?
+	protector2Microsoft.AspNetCore.DataProtection.IDataProtector"__id*;
+9
+%202Microsoft.AspNetCore.DataProtection.IDataProtector√
+¿
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Drivers\TwitterSettingsDisplayDriver.csm+ m(7
+%21string"BOrchardCore.Twitter.ViewModels.TwitterSettingsViewModel.APIKey.get*B
+@
+model7OrchardCore.Twitter.ViewModels.TwitterSettingsViewModel∆
+√
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Drivers\TwitterSettingsDisplayDriver.csm m(7
+%22string"<OrchardCore.Twitter.Settings.TwitterSettings.ConsumerKey.set*:
+8
+settings,OrchardCore.Twitter.Settings.TwitterSettings*
+
+%21string…
+∆
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Drivers\TwitterSettingsDisplayDriver.csn@ n(R
+%23string"HOrchardCore.Twitter.ViewModels.TwitterSettingsViewModel.APISecretKey.get*B
+@
+model7OrchardCore.Twitter.ViewModels.TwitterSettingsViewModel‡
+›
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Drivers\TwitterSettingsDisplayDriver.csn. n(S
+%24string"ÜMicrosoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Protect(Microsoft.AspNetCore.DataProtection.IDataProtector, string)*F"D
+BMicrosoft.AspNetCore.DataProtection.DataProtectionCommonExtensions*A
+?
+	protector2Microsoft.AspNetCore.DataProtection.IDataProtector*
+
+%23string…
+∆
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Drivers\TwitterSettingsDisplayDriver.csn n(S
+%25string"?OrchardCore.Twitter.Settings.TwitterSettings.ConsumerSecret.set*:
+8
+settings,OrchardCore.Twitter.Settings.TwitterSettings*
+
+%24string»
+≈
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Drivers\TwitterSettingsDisplayDriver.cso+ o(<
+%26string"GOrchardCore.Twitter.ViewModels.TwitterSettingsViewModel.AccessToken.get*B
+@
+model7OrchardCore.Twitter.ViewModels.TwitterSettingsViewModel∆
+√
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Drivers\TwitterSettingsDisplayDriver.cso o(<
+%27string"<OrchardCore.Twitter.Settings.TwitterSettings.AccessToken.set*:
+8
+settings,OrchardCore.Twitter.Settings.TwitterSettings*
+
+%26stringŒ
+À
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Drivers\TwitterSettingsDisplayDriver.cspC p(Z
+%28string"MOrchardCore.Twitter.ViewModels.TwitterSettingsViewModel.AccessTokenSecret.get*B
+@
+model7OrchardCore.Twitter.ViewModels.TwitterSettingsViewModel‡
+›
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Drivers\TwitterSettingsDisplayDriver.csp1 p([
+%29string"ÜMicrosoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Protect(Microsoft.AspNetCore.DataProtection.IDataProtector, string)*F"D
+BMicrosoft.AspNetCore.DataProtection.DataProtectionCommonExtensions*A
+?
+	protector2Microsoft.AspNetCore.DataProtection.IDataProtector*
+
+%28stringÃ
+…
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Drivers\TwitterSettingsDisplayDriver.csp p([
+%30string"BOrchardCore.Twitter.Settings.TwitterSettings.AccessTokenSecret.set*:
+8
+settings,OrchardCore.Twitter.Settings.TwitterSettings*
+
+%29string€
+ÿ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Drivers\TwitterSettingsDisplayDriver.csq q($/
+%31(OrchardCore.Environment.Shell.IShellHost"__id*v*t:
+8OrchardCore.Twitter.Drivers.TwitterSettingsDisplayDriver"6
+
+_shellHost(OrchardCore.Environment.Shell.IShellHostÂ
+‚
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Drivers\TwitterSettingsDisplayDriver.csq> q(L2
+%32+OrchardCore.Environment.Shell.ShellSettings"__id*}*{:
+8OrchardCore.Twitter.Drivers.TwitterSettingsDisplayDriver"=
+_shellSettings+OrchardCore.Environment.Shell.ShellSettingsÑÅ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Drivers\TwitterSettingsDisplayDriver.csq q(M"
+%33System.Threading.Tasks.Task"tOrchardCore.Environment.Shell.IShellHost.ReleaseShellContextAsync(OrchardCore.Environment.Shell.ShellSettings, bool)*1
+/
+%31(OrchardCore.Environment.Shell.IShellHost*4
+2
+%32+OrchardCore.Environment.Shell.ShellSettings*
+""2KReleaseShellContextAsync(OrchardCore.Environment.Shell.ShellSettings, bool)*
+2*†
+2¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Drivers\TwitterSettingsDisplayDriver.cst t(4Ω∫
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Drivers\TwitterSettingsDisplayDriver.cst t(5+
+%34$System.Threading.Tasks.Task<TResult>"´OrchardCore.Twitter.Drivers.TwitterSettingsDisplayDriver.EditAsync(OrchardCore.Twitter.Settings.TwitterSettings, OrchardCore.DisplayManagement.Handlers.BuildEditorContext)*<:
+8OrchardCore.Twitter.Drivers.TwitterSettingsDisplayDriver*:
+8
+settings,OrchardCore.Twitter.Settings.TwitterSettings*F
+D
+context9OrchardCore.DisplayManagement.Handlers.BuildEditorContext2rEditAsync(OrchardCore.Twitter.Settings.TwitterSettings, OrchardCore.DisplayManagement.Handlers.BuildEditorContext)"±
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Drivers\TwitterSettingsDisplayDriver.cst t(6
+""*Ì
+9¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Drivers\TwitterSettingsDisplayDriver.csu	 u(	"æ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Drivers\TwitterSettingsDisplayDriver.csu u(	
+implicit return:8
+settings,OrchardCore.Twitter.Settings.TwitterSettings:D
+context9OrchardCore.DisplayManagement.Handlers.BuildEditorContextB<:
+8OrchardCore.Twitter.Drivers.TwitterSettingsDisplayDriver

@@ -1,0 +1,139 @@
+
+5OrchardCore.Roles.Controllers.AdminController.Index()õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Controllers\AdminController.cs8( 8(-"4*¨
+0õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Controllers\AdminController.cs: :(YÒ
+Ó
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Controllers\AdminController.cs: :(,>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*á*Ñ/
+-OrchardCore.Roles.Controllers.AdminController"Q
+_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationServiceÆ
+´
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Controllers\AdminController.cs:< :(@,
+%1&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBaseª
+∏
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Controllers\AdminController.cs:B :(Y1
+%2+OrchardCore.Security.Permissions.Permission"__id*_*]
+OrchardCore.Roles.Permissions":
+ManageRoles+OrchardCore.Security.Permissions.Permissionù
+ö
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Controllers\AdminController.cs: :(Z*
+%3$System.Threading.Tasks.Task<TResult>"ﬂMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission)*E"C
+AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*@
+>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService*.
+,
+%1&System.Security.Claims.ClaimsPrincipal*3
+1
+%2+OrchardCore.Security.Permissions.Permission*
+1
+2*´
+1õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Controllers\AdminController.cs< <(∑¥
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Controllers\AdminController.cs< <(+
+%4%Microsoft.AspNetCore.Mvc.ForbidResult"0Microsoft.AspNetCore.Mvc.ControllerBase.Forbid()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2Forbid()"Õ
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Controllers\AdminController.cs< <( -
++
+%4%Microsoft.AspNetCore.Mvc.ForbidResult*Ú
+2õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Controllers\AdminController.cs? F( 
+«
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Controllers\AdminController.cs? ?(*0
+%5*OrchardCore.Security.Services.IRoleService"__id*o*m/
+-OrchardCore.Roles.Controllers.AdminController":
+_roleService*OrchardCore.Security.Services.IRoleServiceŒÀ
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Controllers\AdminController.cs? ?(:*
+%6$System.Threading.Tasks.Task<TResult>":OrchardCore.Security.Services.IRoleService.GetRolesAsync()*2
+0
+%5*OrchardCore.Security.Services.IRoleService2GetRolesAsync()„
+‡
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Controllers\AdminController.cs? ?(:2
+roles)System.Collections.Generic.IEnumerable<T>"__id*
+""Å˛
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Controllers\AdminController.csA D(1
+%7+OrchardCore.Roles.ViewModels.RolesViewModel"+OrchardCore.Roles.ViewModels.RolesViewModel†
+ù
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Controllers\AdminController.csA A(*
+
+%8void"<OrchardCore.Roles.ViewModels.RolesViewModel.RolesViewModel()*3
+1
+%7+OrchardCore.Roles.ViewModels.RolesViewModel≠
+™
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Controllers\AdminController.csC C(:/
+%9)System.Collections.Generic.IEnumerable<T>"System.Linq.Enumerable.Select<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)*"
+System.Linq.Enumerable*4
+2
+roles)System.Collections.Generic.IEnumerable<T>*
+""Ù
+Ò
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Controllers\AdminController.csC C(C)
+%10"System.Collections.Generic.List<T>"WSystem.Linq.Enumerable.ToList<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*1
+/
+%9)System.Collections.Generic.IEnumerable<T>Î
+Ë
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Controllers\AdminController.csC C(C)
+%11"System.Collections.Generic.List<T>";OrchardCore.Roles.ViewModels.RolesViewModel.RoleEntries.set*3
+1
+%7+OrchardCore.Roles.ViewModels.RolesViewModel*+
+)
+%10"System.Collections.Generic.List<T>í
+è
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Controllers\AdminController.csA D(4
+model+OrchardCore.Roles.ViewModels.RolesViewModel"__id*3
+1
+%7+OrchardCore.Roles.ViewModels.RolesViewModel…
+∆
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Controllers\AdminController.csF F(
+%12void"#orchardcore.roles/views/admin/index*
+
+%13*6
+4
+model+OrchardCore.Roles.ViewModels.RolesViewModel*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject* 
+
+%HttpContextItemsAllobject*!
+
+%HttpContextItemsHtmlobject"≠
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Controllers\AdminController.csF F(
+
+%12void*◊
+3õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Controllers\AdminController.csG	 G(	"≥
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Controllers\AdminController.csG G(	
+implicit return*ﬂ
+4õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Controllers\AdminController.cs8/ 8(/∂
+≥
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Controllers\AdminController.cs8( 8(-
+%14"__entrypoint*
+0B1/
+-OrchardCore.Roles.Controllers.AdminController

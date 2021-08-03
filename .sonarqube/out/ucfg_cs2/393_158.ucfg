@@ -1,0 +1,669 @@
+
+VOrchardCore.Queries.Sql.SqlParser.EvaluateSelectStatement(Irony.Parsing.ParseTreeNode)è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csn n(."0*ñ
+0è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csp y(5‹
+Ÿ
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csp p(7#
+!OrchardCore.Queries.Sql.SqlParser"
+_limitstring"__id*
+""›
+⁄
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csq q(8#
+!OrchardCore.Queries.Sql.SqlParser"
+_offsetstring"__id*
+""›
+⁄
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csr r(8#
+!OrchardCore.Queries.Sql.SqlParser"
+_selectstring"__id*
+""€
+ÿ
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.css s(6#
+!OrchardCore.Queries.Sql.SqlParser"
+_fromstring"__id*
+""‹
+Ÿ
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.cst t(7#
+!OrchardCore.Queries.Sql.SqlParser"
+_wherestring"__id*
+""›
+⁄
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csu u(8#
+!OrchardCore.Queries.Sql.SqlParser"
+_havingstring"__id*
+""ﬁ
+€
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csv v(9#
+!OrchardCore.Queries.Sql.SqlParser"
+_groupBystring"__id*
+""ﬁ
+€
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csw w(9#
+!OrchardCore.Queries.Sql.SqlParser"
+_orderBystring"__id*
+""å
+â
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csy" y(*
+%0System.Text.StringBuilder"__id*N*L#
+!OrchardCore.Queries.Sql.SqlParser"%
+_builderSystem.Text.StringBuilderÈ
+Ê
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csy" y(1	
+%1int"$System.Text.StringBuilder.Length.get*!
+
+%0System.Text.StringBuilder*
+1
+2*ê
+1è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csy8 y(Kå
+â
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csy8 y(@
+%5System.Text.StringBuilder"__id*N*L#
+!OrchardCore.Queries.Sql.SqlParser"%
+_builderSystem.Text.StringBuilderÏ
+È
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csy8 y(K
+%6string"$System.Text.StringBuilder.ToString()*!
+
+%5System.Text.StringBuilderπ
+∂
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csy8 y(K
+%3string"__id*
+
+%6stringπ
+∂
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csy8 y(K
+%2string"__id*
+
+%3string*
+3*˙
+2è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csyN y(R©
+¶
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csyN y(R
+%4"__id*
+""±
+Æ
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csyN y(R
+%2string"__id*
+
+%4*
+3*æ,
+3ê
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csy Ü(+∆
+√
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csy y(R
+previousContentstring"__id*
+
+%2stringå
+â
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csz z(
+%7System.Text.StringBuilder"__id*N*L#
+!OrchardCore.Queries.Sql.SqlParser"%
+_builderSystem.Text.StringBuilder¸
+˘
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csz z(
+%8System.Text.StringBuilder"!System.Text.StringBuilder.Clear()*!
+
+%7System.Text.StringBuilder˛
+˚
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.cs| |(%
+%9YesSql.ISqlDialect"__id*G*E#
+!OrchardCore.Queries.Sql.SqlParser"
+_dialectYesSql.ISqlDialectÎ
+Ë
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.cs|4 |(@
+%10string"__id*?*=#
+!OrchardCore.Queries.Sql.SqlParser"
+_tablePrefixstringûõ
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.cs| |(A
+%11YesSql.ISqlBuilder"(YesSql.ISqlDialect.CreateBuilder(string)*
+
+%9YesSql.ISqlDialect*
+
+%10string2CreateBuilder(string)⁄
+◊
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.cs| |(A 
+
+sqlBuilderYesSql.ISqlBuilder"__id*
+
+%11YesSql.ISqlBuilderõ
+ò
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.cs~& ~(@&
+%12Irony.Parsing.ParseTreeNodeList"*Irony.Parsing.ParseTreeNode.ChildNodes.get*0
+.
+selectStatementIrony.Parsing.ParseTreeNodeı
+Ú
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.cs~& ~(C"
+%13Irony.Parsing.ParseTreeNode"
+__arrayGet*(
+&
+%12Irony.Parsing.ParseTreeNodeList*2…
+∆
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.cs~ ~(D
+%14void"XOrchardCore.Queries.Sql.SqlParser.EvaluateSelectRestriction(Irony.Parsing.ParseTreeNode)*%#
+!OrchardCore.Queries.Sql.SqlParser*$
+"
+%13Irony.Parsing.ParseTreeNodeõ
+ò
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.cs! (;&
+%15Irony.Parsing.ParseTreeNodeList"*Irony.Parsing.ParseTreeNode.ChildNodes.get*0
+.
+selectStatementIrony.Parsing.ParseTreeNodeı
+Ú
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.cs! (>"
+%16Irony.Parsing.ParseTreeNode"
+__arrayGet*(
+&
+%15Irony.Parsing.ParseTreeNodeList*2ƒ
+¡
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.cs (?
+%17void"SOrchardCore.Queries.Sql.SqlParser.EvaluateSelectorList(Irony.Parsing.ParseTreeNode)*%#
+!OrchardCore.Queries.Sql.SqlParser*$
+"
+%16Irony.Parsing.ParseTreeNodeÔÏ
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csÅ Å(
+%18void"YesSql.ISqlBuilder.Select()*"
+ 
+
+sqlBuilderYesSql.ISqlBuilder2Select()Ë
+Â
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csÇ  Ç('
+%19string"__id*:*8#
+!OrchardCore.Queries.Sql.SqlParser"
+_selectstringêç
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csÇ Ç((
+%20void"#YesSql.ISqlBuilder.Selector(string)*"
+ 
+
+sqlBuilderYesSql.ISqlBuilder*
+
+%19string2Selector(string)ù
+ö
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csÑ Ñ(9&
+%21Irony.Parsing.ParseTreeNodeList"*Irony.Parsing.ParseTreeNode.ChildNodes.get*0
+.
+selectStatementIrony.Parsing.ParseTreeNode˜
+Ù
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csÑ Ñ(<"
+%22Irony.Parsing.ParseTreeNode"
+__arrayGet*(
+&
+%21Irony.Parsing.ParseTreeNodeList*2ƒ
+¡
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csÑ Ñ(=
+%23void"QOrchardCore.Queries.Sql.SqlParser.EvaluateFromClause(Irony.Parsing.ParseTreeNode)*%#
+!OrchardCore.Queries.Sql.SqlParser*$
+"
+%22Irony.Parsing.ParseTreeNodeÊ
+„
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csÜ& Ü(+
+%24string"__id*8*6#
+!OrchardCore.Queries.Sql.SqlParser"
+_fromstring‡
+›
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csÜ Ü(,
+%25bool"string.IsNullOrEmpty(string?)*
+"
+string*
+
+%24string*
+4
+5*ê
+4ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csà à(%Ê
+„
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csà  à(%
+%26string"__id*8*6#
+!OrchardCore.Queries.Sql.SqlParser"
+_fromstringàÖ
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csà à(&
+%27void"YesSql.ISqlBuilder.From(string)*"
+ 
+
+sqlBuilderYesSql.ISqlBuilder*
+
+%26string2From(string)*
+5*Œ
+5ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csã ç(,ù
+ö
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csã  ã(:&
+%28Irony.Parsing.ParseTreeNodeList"*Irony.Parsing.ParseTreeNode.ChildNodes.get*0
+.
+selectStatementIrony.Parsing.ParseTreeNode˜
+Ù
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csã  ã(="
+%29Irony.Parsing.ParseTreeNode"
+__arrayGet*(
+&
+%28Irony.Parsing.ParseTreeNodeList*2≈
+¬
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csã ã(>
+%30void"ROrchardCore.Queries.Sql.SqlParser.EvaluateWhereClause(Irony.Parsing.ParseTreeNode)*%#
+!OrchardCore.Queries.Sql.SqlParser*$
+"
+%29Irony.Parsing.ParseTreeNodeÁ
+‰
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csç& ç(,
+%31string"__id*9*7#
+!OrchardCore.Queries.Sql.SqlParser"
+_wherestring‡
+›
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csç ç(-
+%32bool"string.IsNullOrEmpty(string?)*
+"
+string*
+
+%31string*
+6
+7*ô
+6ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csè è(*Á
+‰
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csè$ è(*
+%33string"__id*9*7#
+!OrchardCore.Queries.Sql.SqlParser"
+_wherestringêç
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csè è(+
+%34void"#YesSql.ISqlBuilder.WhereAnd(string)*"
+ 
+
+sqlBuilderYesSql.ISqlBuilder*
+
+%33string2WhereAnd(string)*
+7*–
+7ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csí î(.ù
+ö
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csí  í(:&
+%35Irony.Parsing.ParseTreeNodeList"*Irony.Parsing.ParseTreeNode.ChildNodes.get*0
+.
+selectStatementIrony.Parsing.ParseTreeNode˜
+Ù
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csí  í(="
+%36Irony.Parsing.ParseTreeNode"
+__arrayGet*(
+&
+%35Irony.Parsing.ParseTreeNodeList*2≈
+¬
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csí í(>
+%37void"ROrchardCore.Queries.Sql.SqlParser.EvaluateGroupClause(Irony.Parsing.ParseTreeNode)*%#
+!OrchardCore.Queries.Sql.SqlParser*$
+"
+%36Irony.Parsing.ParseTreeNodeÈ
+Ê
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csî& î(.
+%38string"__id*;*9#
+!OrchardCore.Queries.Sql.SqlParser"
+_groupBystring‡
+›
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csî î(/
+%39bool"string.IsNullOrEmpty(string?)*
+"
+string*
+
+%38string*
+8
+9*ô
+8ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csñ ñ(+È
+Ê
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csñ# ñ(+
+%40string"__id*;*9#
+!OrchardCore.Queries.Sql.SqlParser"
+_groupBystringéã
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csñ ñ(,
+%41void""YesSql.ISqlBuilder.GroupBy(string)*"
+ 
+
+sqlBuilderYesSql.ISqlBuilder*
+
+%40string2GroupBy(string)*
+9*“
+9ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csô õ(-ù
+ö
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csô! ô(;&
+%42Irony.Parsing.ParseTreeNodeList"*Irony.Parsing.ParseTreeNode.ChildNodes.get*0
+.
+selectStatementIrony.Parsing.ParseTreeNode˜
+Ù
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csô! ô(>"
+%43Irony.Parsing.ParseTreeNode"
+__arrayGet*(
+&
+%42Irony.Parsing.ParseTreeNodeList*2∆
+√
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csô ô(?
+%44void"SOrchardCore.Queries.Sql.SqlParser.EvaluateHavingClause(Irony.Parsing.ParseTreeNode)*%#
+!OrchardCore.Queries.Sql.SqlParser*$
+"
+%43Irony.Parsing.ParseTreeNodeË
+Â
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csõ& õ(-
+%45string"__id*:*8#
+!OrchardCore.Queries.Sql.SqlParser"
+_havingstring‡
+›
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csõ õ(.
+%46bool"string.IsNullOrEmpty(string?)*
+"
+string*
+
+%45string*
+10
+11*ò
+10ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csù ù()Ë
+Â
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csù" ù()
+%47string"__id*:*8#
+!OrchardCore.Queries.Sql.SqlParser"
+_havingstringåâ
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csù ù(*
+%48void"!YesSql.ISqlBuilder.Having(string)*"
+ 
+
+sqlBuilderYesSql.ISqlBuilder*
+
+%47string2Having(string)*
+11*”
+11ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.cs† ¢(.ù
+ö
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.cs†  †(:&
+%49Irony.Parsing.ParseTreeNodeList"*Irony.Parsing.ParseTreeNode.ChildNodes.get*0
+.
+selectStatementIrony.Parsing.ParseTreeNode˜
+Ù
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.cs†  †(="
+%50Irony.Parsing.ParseTreeNode"
+__arrayGet*(
+&
+%49Irony.Parsing.ParseTreeNodeList*2≈
+¬
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.cs† †(>
+%51void"ROrchardCore.Queries.Sql.SqlParser.EvaluateOrderClause(Irony.Parsing.ParseTreeNode)*%#
+!OrchardCore.Queries.Sql.SqlParser*$
+"
+%50Irony.Parsing.ParseTreeNodeÈ
+Ê
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.cs¢& ¢(.
+%52string"__id*;*9#
+!OrchardCore.Queries.Sql.SqlParser"
+_orderBystring‡
+›
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.cs¢ ¢(/
+%53bool"string.IsNullOrEmpty(string?)*
+"
+string*
+
+%52string*
+12
+13*õ
+12ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.cs§ §(+È
+Ê
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.cs§# §(+
+%54string"__id*;*9#
+!OrchardCore.Queries.Sql.SqlParser"
+_orderBystringéã
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.cs§ §(,
+%55void""YesSql.ISqlBuilder.OrderBy(string)*"
+ 
+
+sqlBuilderYesSql.ISqlBuilder*
+
+%54string2OrderBy(string)*
+13*—
+13ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csß ©(,ù
+ö
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csß  ß(:&
+%56Irony.Parsing.ParseTreeNodeList"*Irony.Parsing.ParseTreeNode.ChildNodes.get*0
+.
+selectStatementIrony.Parsing.ParseTreeNode˜
+Ù
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csß  ß(="
+%57Irony.Parsing.ParseTreeNode"
+__arrayGet*(
+&
+%56Irony.Parsing.ParseTreeNodeList*2≈
+¬
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csß ß(>
+%58void"ROrchardCore.Queries.Sql.SqlParser.EvaluateLimitClause(Irony.Parsing.ParseTreeNode)*%#
+!OrchardCore.Queries.Sql.SqlParser*$
+"
+%57Irony.Parsing.ParseTreeNodeÁ
+‰
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.cs©& ©(,
+%59string"__id*9*7#
+!OrchardCore.Queries.Sql.SqlParser"
+_limitstring‡
+›
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.cs© ©(-
+%60bool"string.IsNullOrEmpty(string?)*
+"
+string*
+
+%59string*
+14
+15*ì
+14ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.cs´ ´(&Á
+‰
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.cs´  ´(&
+%61string"__id*9*7#
+!OrchardCore.Queries.Sql.SqlParser"
+_limitstringàÖ
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.cs´ ´('
+%62void"YesSql.ISqlBuilder.Take(string)*"
+ 
+
+sqlBuilderYesSql.ISqlBuilder*
+
+%61string2Take(string)*
+15*”
+15ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csÆ ∞(-ù
+ö
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csÆ! Æ(;&
+%63Irony.Parsing.ParseTreeNodeList"*Irony.Parsing.ParseTreeNode.ChildNodes.get*0
+.
+selectStatementIrony.Parsing.ParseTreeNode˜
+Ù
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csÆ! Æ(>"
+%64Irony.Parsing.ParseTreeNode"
+__arrayGet*(
+&
+%63Irony.Parsing.ParseTreeNodeList*2	∆
+√
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csÆ Æ(?
+%65void"SOrchardCore.Queries.Sql.SqlParser.EvaluateOffsetClause(Irony.Parsing.ParseTreeNode)*%#
+!OrchardCore.Queries.Sql.SqlParser*$
+"
+%64Irony.Parsing.ParseTreeNodeË
+Â
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.cs∞& ∞(-
+%66string"__id*:*8#
+!OrchardCore.Queries.Sql.SqlParser"
+_offsetstring‡
+›
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.cs∞ ∞(.
+%67bool"string.IsNullOrEmpty(string?)*
+"
+string*
+
+%66string*
+16
+17*î
+16ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.cs≤ ≤('Ë
+Â
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.cs≤  ≤('
+%68string"__id*:*8#
+!OrchardCore.Queries.Sql.SqlParser"
+_offsetstringàÖ
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.cs≤ ≤((
+%69void"YesSql.ISqlBuilder.Skip(string)*"
+ 
+
+sqlBuilderYesSql.ISqlBuilder*
+
+%68string2Skip(string)*
+17*û
+17ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csµ µ('˘
+ˆ
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csµ µ('
+%70bool""string.operator !=(string, string)*
+"
+string*
+
+previousContentstring*
+""*
+18
+19*¯
+18ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.cs∑ ∏(Aè
+å
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.cs∑ ∑( 
+%71System.Text.StringBuilder"__id*N*L#
+!OrchardCore.Queries.Sql.SqlParser"%
+_builderSystem.Text.StringBuilderÄ
+˝
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.cs∑ ∑(  
+%72System.Text.StringBuilder"!System.Text.StringBuilder.Clear()*"
+ 
+%71System.Text.StringBuilderè
+å
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.cs∏ ∏( 
+%73System.Text.StringBuilder"__id*N*L#
+!OrchardCore.Queries.Sql.SqlParser"%
+_builderSystem.Text.StringBuilder‘—
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.cs∏  ∏(B 
+%74System.Text.StringBuilder"System.Text.StringBuilderó
+î
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.cs∏$ ∏(1
+%75void"0System.Text.StringBuilder.StringBuilder(string?)*"
+ 
+%74System.Text.StringBuilder*
+
+previousContentstringø
+º
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.cs∏ ∏(C 
+%76System.Text.StringBuilder"<System.Text.StringBuilder.Append(System.Text.StringBuilder?)*"
+ 
+%73System.Text.StringBuilder*"
+ 
+%74System.Text.StringBuilder*
+19*æ
+19ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csª ª(+˚¯
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csª ª(+
+%77string" YesSql.ISqlBuilder.ToSqlString()*"
+ 
+
+sqlBuilderYesSql.ISqlBuilder2ToSqlString()"•
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csª ª(,
+
+%77string*ƒ
+20ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csº	 º(	"©
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\SqlParser.csº º(	
+implicit return:.
+selectStatementIrony.Parsing.ParseTreeNodeB%#
+!OrchardCore.Queries.Sql.SqlParser

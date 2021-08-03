@@ -1,0 +1,275 @@
+
+MOrchardCore.Workflows.Http.Controllers.HttpWorkflowController.Trigger(string)≠
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.cs∫) ∫(0"13*ï
+0≠
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.csº º(\ã
+à
+≠
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.csº º(&:
+%04OrchardCore.Workflows.Services.ISecurityTokenService"__id*ì*ê?
+=OrchardCore.Workflows.Http.Controllers.HttpWorkflowController"M
+_securityTokenService4OrchardCore.Workflows.Services.ISecurityTokenService…∆
+≠
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.csº º(]
+
+%1bool"VOrchardCore.Workflows.Services.ISecurityTokenService.TryDecryptToken<T>(string, out T)*<
+:
+%04OrchardCore.Workflows.Services.ISecurityTokenService*
+
+tokenstring*<
+:
+payload/OrchardCore.Workflows.Http.Models.SignalPayload2!TryDecryptToken<T>(string, out T)*
+1
+2*ã
+1≠
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.csæ ø(!€
+ÿ
+≠
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.csæ æ(*
+%2$Microsoft.Extensions.Logging.ILogger"__id*t*r?
+=OrchardCore.Workflows.Http.Controllers.HttpWorkflowController"/
+_logger$Microsoft.Extensions.Logging.ILogger¡
+æ
+≠
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.csæ æ(@
+
+%3void"wMicrosoft.Extensions.Logging.LoggerExtensions.LogWarning(Microsoft.Extensions.Logging.ILogger, string, params object[])*1"/
+-Microsoft.Extensions.Logging.LoggerExtensions*,
+*
+%2$Microsoft.Extensions.Logging.ILogger*
+Invalid SAS token provided*
+""œÃ
+≠
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.csø ø(!-
+%4'Microsoft.AspNetCore.Mvc.NotFoundResult"2Microsoft.AspNetCore.Mvc.ControllerBase.NotFound()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2
+NotFound()"·
+≠
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.csø ø("/
+-
+%4'Microsoft.AspNetCore.Mvc.NotFoundResult*ﬂ
+2≠
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.cs¬ ≈(=£†
+≠
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.cs¬ ¬([9
+%53System.Collections.Generic.Dictionary<TKey, TValue>"3System.Collections.Generic.Dictionary<TKey, TValue>æ
+ª
+≠
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.cs¬ ¬(6
+
+%6void"@System.Collections.Generic.Dictionary<TKey, TValue>.Dictionary()*;
+9
+%53System.Collections.Generic.Dictionary<TKey, TValue>ø
+º
+≠
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.cs¬E ¬(W
+%7string">OrchardCore.Workflows.Http.Models.SignalPayload.SignalName.get*<
+:
+payload/OrchardCore.Workflows.Http.Models.SignalPayload¥
+±
+≠
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.cs¬ ¬([<
+input3System.Collections.Generic.Dictionary<TKey, TValue>"__id*;
+9
+%53System.Collections.Generic.Dictionary<TKey, TValue>ø
+º
+≠
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.cs≈+ ≈(=
+%8string">OrchardCore.Workflows.Http.Models.SignalPayload.WorkflowId.get*<
+:
+payload/OrchardCore.Workflows.Http.Models.SignalPayloadˇ
+¸
+≠
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.cs≈ ≈(>
+
+%9bool""string.IsNullOrWhiteSpace(string?)*
+"
+string*
+
+%8string*
+3
+4*Ì
+3≠
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.cs« »(/˜
+Ù
+≠
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.cs«% «(34
+%10-OrchardCore.Workflows.Services.IWorkflowStore"__id*Ö*Ç?
+=OrchardCore.Workflows.Http.Controllers.HttpWorkflowController"?
+_workflowStore-OrchardCore.Workflows.Services.IWorkflowStore¿
+Ω
+≠
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.cs«= «(O
+%11string">OrchardCore.Workflows.Http.Models.SignalPayload.WorkflowId.get*<
+:
+payload/OrchardCore.Workflows.Http.Models.SignalPayload˚¯
+≠
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.cs«% «(P+
+%12$System.Threading.Tasks.Task<TResult>">OrchardCore.Workflows.Services.IWorkflowStore.GetAsync(string)*6
+4
+%10-OrchardCore.Workflows.Services.IWorkflowStore*
+
+%11string2GetAsync(string)Ù
+Ò
+≠
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.cs« «(P1
+workflow%OrchardCore.Workflows.Models.Workflow"__id*
+""*
+5
+6*≈
+
+6≠
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.cs»0 »(n“
+œ
+≠
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.cs»1 »(C*
+%13#System.Collections.Generic.IList<T>"<OrchardCore.Workflows.Models.Workflow.BlockingActivities.get*3
+1
+workflow%OrchardCore.Workflows.Models.Workflow´
+®
+≠
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.cs»0 »(o0
+%14)System.Collections.Generic.IEnumerable<T>"rSystem.Linq.Enumerable.Where<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
+System.Linq.Enumerable*,
+*
+%13#System.Collections.Generic.IList<T>*
+""á
+Ñ
+≠
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.cs»0 »(x)
+%15"System.Collections.Generic.List<T>"WSystem.Linq.Enumerable.ToList<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*2
+0
+%14)System.Collections.Generic.IEnumerable<T>*
+5*ë
+5≠
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.cs»  (,û
+õ
+≠
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.cs» »(x6
+signalActivities"System.Collections.Generic.List<T>"__id*+
+)
+%15"System.Collections.Generic.List<T>≤
+Ø
+≠
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.cs   (,
+%16bool""object.operator ==(object, object)*
+"
+object*8
+6
+signalActivities"System.Collections.Generic.List<T>*
+""*
+7
+8*Î
+7≠
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.csÃ Ã(%–Õ
+≠
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.csÃ Ã(%.
+%17'Microsoft.AspNetCore.Mvc.NotFoundResult"2Microsoft.AspNetCore.Mvc.ControllerBase.NotFound()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2
+NotFound()"‚
+≠
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.csÃ Ã(&0
+.
+%17'Microsoft.AspNetCore.Mvc.NotFoundResult*∏
+8≠
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.cs—/ —(?*
+9*Ω
+9≠
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.cs›	 ›(	*
+10
+11*Ü
+10≠
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.cs” ”(^˝
+˙
+≠
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.cs” ”(*6
+%18/OrchardCore.Workflows.Services.IWorkflowManager"__id*â*Ü?
+=OrchardCore.Workflows.Http.Controllers.HttpWorkflowController"C
+_workflowManager/OrchardCore.Workflows.Services.IWorkflowManager «
+≠
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.cs” ”(_+
+%19$System.Threading.Tasks.Task<TResult>"—OrchardCore.Workflows.Services.IWorkflowManager.ResumeWorkflowAsync(OrchardCore.Workflows.Models.Workflow, OrchardCore.Workflows.Models.BlockingActivity, System.Collections.Generic.IDictionary<string, object>)*8
+6
+%18/OrchardCore.Workflows.Services.IWorkflowManager*3
+1
+workflow%OrchardCore.Workflows.Models.Workflow*A
+?
+signalActivity-OrchardCore.Workflows.Models.BlockingActivity*>
+<
+input3System.Collections.Generic.Dictionary<TKey, TValue>2°ResumeWorkflowAsync(OrchardCore.Workflows.Models.Workflow, OrchardCore.Workflows.Models.BlockingActivity, System.Collections.Generic.IDictionary<string, object>)*
+9*¡
+4≠
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.csŸ Ÿ(l˝
+˙
+≠
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.csŸ Ÿ(&6
+%20/OrchardCore.Workflows.Services.IWorkflowManager"__id*â*Ü?
+=OrchardCore.Workflows.Http.Controllers.HttpWorkflowController"C
+_workflowManager/OrchardCore.Workflows.Services.IWorkflowManager∫
+∑
+≠
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.csŸ9 Ÿ(N
+%21string"?OrchardCore.Workflows.Http.Activities.SignalEvent.EventName.get*5"3
+1OrchardCore.Workflows.Http.Activities.SignalEvent√
+¿
+≠
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.csŸW Ÿ(l
+%22string"AOrchardCore.Workflows.Http.Models.SignalPayload.CorrelationId.get*<
+:
+payload/OrchardCore.Workflows.Http.Models.SignalPayloadÇˇ
+≠
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.csŸ Ÿ(m"
+%23System.Threading.Tasks.Task"ïOrchardCore.Workflows.Services.IWorkflowManager.TriggerEventAsync(string, System.Collections.Generic.IDictionary<string, object>, string, bool, bool)*8
+6
+%20/OrchardCore.Workflows.Services.IWorkflowManager*
+
+%21string*>
+<
+input3System.Collections.Generic.Dictionary<TKey, TValue>*
+
+%22string*
+""*
+""2eTriggerEventAsync(string, System.Collections.Generic.IDictionary<string, object>, string, bool, bool)*
+11*ô
+11≠
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.cs‹ ‹(,˛
+˚
+≠
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.cs‹ ‹(,-
+%24&Microsoft.AspNetCore.Mvc.IActionResult"WOrchardCore.Workflows.Http.Controllers.HttpWorkflowController.GetWorkflowActionResult()*A?
+=OrchardCore.Workflows.Http.Controllers.HttpWorkflowController"·
+≠
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.cs‹ ‹(-/
+-
+%24&Microsoft.AspNetCore.Mvc.IActionResult*¸
+12≠
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.cs›	 ›(	"≈
+≠
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.cs› ›(	
+implicit return*ì
+13≠
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.cs∫> ∫(>€
+ÿ
+≠
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.cs∫) ∫(0
+%25"__entrypoint*
+
+tokenstringõ
+ò
+≠
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.csπ	 π(
+%26"
+__annotate*@>
+<Microsoft.AspNetCore.Mvc.HttpGetAttribute.HttpGetAttribute()*
+
+tokenstring€
+ÿ
+≠
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.cs∫1 ∫(=
+tokenstring"__annotation*
+
+%26*
+0:
+tokenstringBA?
+=OrchardCore.Workflows.Http.Controllers.HttpWorkflowController

@@ -1,0 +1,268 @@
+
+ÈOrchardCore.ReCaptcha.ActionFilters.ValidateReCaptchaAttribute.OnResultExecutionAsync(Microsoft.AspNetCore.Mvc.Filters.ResultExecutingContext, Microsoft.AspNetCore.Mvc.Filters.ResultExecutionDelegate)©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\ActionFilters\ValidateReCaptchaAttribute.cs# (9"0*â
+0©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\ActionFilters\ValidateReCaptchaAttribute.cs (?Ú
+×
+©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\ActionFilters\ValidateReCaptchaAttribute.cs# (6+
+%0%Microsoft.AspNetCore.Http.HttpContext"6Microsoft.AspNetCore.Mvc.ActionContext.HttpContext.get*D
+B
+context7Microsoft.AspNetCore.Mvc.Filters.ResultExecutingContext¸
+µ
+©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\ActionFilters\ValidateReCaptchaAttribute.cs# (F
+%1System.IServiceProvider"9Microsoft.AspNetCore.Http.HttpContext.RequestServices.get*-
++
+%0%Microsoft.AspNetCore.Http.HttpContextÈ
+Å
+©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\ActionFilters\ValidateReCaptchaAttribute.cs# (e5
+%2/OrchardCore.ReCaptcha.Services.ReCaptchaService"pMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService<T>(System.IServiceProvider)*M"K
+IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*
+
+%1System.IServiceProvider³
+°
+©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\ActionFilters\ValidateReCaptchaAttribute.cs (eC
+recaptchaService/OrchardCore.ReCaptcha.Services.ReCaptchaService"__id*7
+5
+%2/OrchardCore.ReCaptcha.Services.ReCaptchaServiceÚ
+×
+©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\ActionFilters\ValidateReCaptchaAttribute.cs ('+
+%3%Microsoft.AspNetCore.Http.HttpContext"6Microsoft.AspNetCore.Mvc.ActionContext.HttpContext.get*D
+B
+context7Microsoft.AspNetCore.Mvc.Filters.ResultExecutingContext¸
+µ
+©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\ActionFilters\ValidateReCaptchaAttribute.cs (7
+%4System.IServiceProvider"9Microsoft.AspNetCore.Http.HttpContext.RequestServices.get*-
++
+%3%Microsoft.AspNetCore.Http.HttpContextÎ
+Ë
+©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\ActionFilters\ValidateReCaptchaAttribute.cs (h;
+%55Microsoft.Extensions.Localization.IStringLocalizer<T>"pMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService<T>(System.IServiceProvider)*M"K
+IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*
+
+%4System.IServiceProvider°
+­
+©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\ActionFilters\ValidateReCaptchaAttribute.cs (h:
+S5Microsoft.Extensions.Localization.IStringLocalizer<T>"__id*=
+;
+%55Microsoft.Extensions.Localization.IStringLocalizer<T>Õ
+Ò
+©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\ActionFilters\ValidateReCaptchaAttribute.cs (&
+isValidCaptchabool"__id*
+""Ú
+×
+©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\ActionFilters\ValidateReCaptchaAttribute.cs$ (7+
+%6%Microsoft.AspNetCore.Http.HttpContext"6Microsoft.AspNetCore.Mvc.ActionContext.HttpContext.get*D
+B
+context7Microsoft.AspNetCore.Mvc.Filters.ResultExecutingContext¾
+»
+©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\ActionFilters\ValidateReCaptchaAttribute.cs$ (?+
+%7%Microsoft.AspNetCore.Http.HttpRequest"1Microsoft.AspNetCore.Http.HttpContext.Request.get*-
++
+%6%Microsoft.AspNetCore.Http.HttpContext*
+1
+2*ù
+2©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\ActionFilters\ValidateReCaptchaAttribute.cs@ (E¿
+¼
+©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\ActionFilters\ValidateReCaptchaAttribute.csA (E/
+%8)Microsoft.AspNetCore.Http.IFormCollection".Microsoft.AspNetCore.Http.HttpRequest.Form.get*-
++
+%7%Microsoft.AspNetCore.Http.HttpRequest*
+1
+3*›
+3©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\ActionFilters\ValidateReCaptchaAttribute.csF (rÃ
+À
+©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\ActionFilters\ValidateReCaptchaAttribute.csG (r
+%9"__id*
+""íê
+©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\ActionFilters\ValidateReCaptchaAttribute.csF (s3
+%10,Microsoft.Extensions.Primitives.StringValues":Microsoft.AspNetCore.Http.IFormCollection.this[string].get*1
+/
+%8)Microsoft.AspNetCore.Http.IFormCollection*
+
+%92this[string].get®
+«
+©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\ActionFilters\ValidateReCaptchaAttribute.csF (~
+%11string"7Microsoft.Extensions.Primitives.StringValues.ToString()*5
+3
+%10,Microsoft.Extensions.Primitives.StringValues*
+1*«
+1©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\ActionFilters\ValidateReCaptchaAttribute.cs (<ã
+à
+©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\ActionFilters\ValidateReCaptchaAttribute.cs (~
+reCaptchaResponsestring"__id*
+
+%11string‹
+ˆ
+©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\ActionFilters\ValidateReCaptchaAttribute.cs (=
+%12bool""string.IsNullOrWhiteSpace(string?)*
+"
+string*
+
+reCaptchaResponsestring*
+4
+5*¥
+4©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\ActionFilters\ValidateReCaptchaAttribute.cs (d–
+“
+©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\ActionFilters\ValidateReCaptchaAttribute.cs' (e+
+%13$System.Threading.Tasks.Task<TResult>"ROrchardCore.ReCaptcha.Services.ReCaptchaService.VerifyCaptchaResponseAsync(string)*E
+C
+recaptchaService/OrchardCore.ReCaptcha.Services.ReCaptchaService*
+
+reCaptchaResponsestringÕ
+Ò
+©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\ActionFilters\ValidateReCaptchaAttribute.cs (e
+isValidCaptchabool"__id*
+""*
+5*Ì
+5©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\ActionFilters\ValidateReCaptchaAttribute.cs  (Î
+Ë
+©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\ActionFilters\ValidateReCaptchaAttribute.cs (
+isRobotbool"__id*
+""Ä
+Á
+©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\ActionFilters\ValidateReCaptchaAttribute.cs   (
+%14"__id*
+""*
+6*·
+6©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\ActionFilters\ValidateReCaptchaAttribute.cs   (*
+7
+8*Ò
+7©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\ActionFilters\ValidateReCaptchaAttribute.cs# #(=Ã
+À
+©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\ActionFilters\ValidateReCaptchaAttribute.cs# #(=
+%15bool">OrchardCore.ReCaptcha.Services.ReCaptchaService.IsThisARobot()*E
+C
+recaptchaService/OrchardCore.ReCaptcha.Services.ReCaptchaServiceÕ
+Ò
+©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\ActionFilters\ValidateReCaptchaAttribute.cs# #(=
+isRobotbool"__id*
+
+%15bool*
+9*¸
+8©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\ActionFilters\ValidateReCaptchaAttribute.cs   (*
+10
+9*†
+10©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\ActionFilters\ValidateReCaptchaAttribute.cs& &("Î
+Ë
+©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\ActionFilters\ValidateReCaptchaAttribute.cs& &("
+isRobotbool"__id*
+""*
+9*¹
+9©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\ActionFilters\ValidateReCaptchaAttribute.cs* *(*
+11
+12*º
+11©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\ActionFilters\ValidateReCaptchaAttribute.cs* *(**
+13
+12*ò
+
+13©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\ActionFilters\ValidateReCaptchaAttribute.cs, ,(\ï
+ì
+©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\ActionFilters\ValidateReCaptchaAttribute.cs, ,("A
+%16:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary"5Microsoft.AspNetCore.Mvc.ActionContext.ModelState.get*D
+B
+context7Microsoft.AspNetCore.Mvc.Filters.ResultExecutingContextž›
+©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\ActionFilters\ValidateReCaptchaAttribute.cs,> ,(]8
+%171Microsoft.Extensions.Localization.LocalizedString"CMicrosoft.Extensions.Localization.IStringLocalizer.this[string].get*<
+:
+S5Microsoft.Extensions.Localization.IStringLocalizer<T>*
+Failed to validate captcha2this[string].get¦
+£
+©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\ActionFilters\ValidateReCaptchaAttribute.cs, ,(^
+%18void"XMicrosoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary.AddModelError(string, string)*C
+A
+%16:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary*
+	ReCaptcha*:
+8
+%171Microsoft.Extensions.Localization.LocalizedString*
+12*Ø	
+12©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\ActionFilters\ValidateReCaptchaAttribute.cs/ 1(*Ý
+Ú
+©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\ActionFilters\ValidateReCaptchaAttribute.cs/ /(+
+%19$System.Threading.Tasks.Task<TResult>"AMicrosoft.AspNetCore.Mvc.Filters.ResultExecutionDelegate.Invoke()*<:
+8Microsoft.AspNetCore.Mvc.Filters.ResultExecutionDelegateï
+ì
+©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\ActionFilters\ValidateReCaptchaAttribute.cs1 1("A
+%20:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary"5Microsoft.AspNetCore.Mvc.ActionContext.ModelState.get*D
+B
+context7Microsoft.AspNetCore.Mvc.Filters.ResultExecutingContextÉ
+Æ
+©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\ActionFilters\ValidateReCaptchaAttribute.cs1 1(*
+%21bool"FMicrosoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary.IsValid.get*C
+A
+%20:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary*
+14
+15*ü
+14©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\ActionFilters\ValidateReCaptchaAttribute.cs3 3(/Ã
+À
+©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\ActionFilters\ValidateReCaptchaAttribute.cs3 3(/
+%22void">OrchardCore.ReCaptcha.Services.ReCaptchaService.ThisIsAHuman()*E
+C
+recaptchaService/OrchardCore.ReCaptcha.Services.ReCaptchaService*
+16*
+15©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\ActionFilters\ValidateReCaptchaAttribute.cs7 7(4È
+Å
+©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\ActionFilters\ValidateReCaptchaAttribute.cs7 7(4
+%23void"COrchardCore.ReCaptcha.Services.ReCaptchaService.MaybeThisIsARobot()*E
+C
+recaptchaService/OrchardCore.ReCaptcha.Services.ReCaptchaService*
+16*ç
+16©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\ActionFilters\ValidateReCaptchaAttribute.cs;	 ;(	"´
+©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\ActionFilters\ValidateReCaptchaAttribute.cs: :(
+""*ô
+17©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\ActionFilters\ValidateReCaptchaAttribute.cs;	 ;(	"Á
+©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\ActionFilters\ValidateReCaptchaAttribute.cs; ;(	
+implicit return:B
+context7Microsoft.AspNetCore.Mvc.Filters.ResultExecutingContext:@
+next8Microsoft.AspNetCore.Mvc.Filters.ResultExecutionDelegateBB@
+>OrchardCore.ReCaptcha.ActionFilters.ValidateReCaptchaAttribute

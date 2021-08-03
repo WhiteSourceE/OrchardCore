@@ -1,0 +1,690 @@
+
+~OrchardCore.Media.Controllers.MediaProfilesController.Edit(string, OrchardCore.Media.ViewModels.MediaProfileViewModel, string)•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs⁄) ⁄(-"18*Ó
+0•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs‹ ‹(aÉ
+Ä
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs‹ ‹(,>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*è*å7
+5OrchardCore.Media.Controllers.MediaProfilesController"Q
+_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationService∏
+µ
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs‹< ‹(@,
+%1&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBaseÕ
+ 
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs‹B ‹(a1
+%2+OrchardCore.Security.Permissions.Permission"__id*g*e
+OrchardCore.Media.Permissions"B
+ManageMediaProfiles+OrchardCore.Security.Permissions.Permissionß
+§
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs‹ ‹(b*
+%3$System.Threading.Tasks.Task<TResult>"ﬂMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission)*E"C
+AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*@
+>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService*.
+,
+%1&System.Security.Claims.ClaimsPrincipal*3
+1
+%2+OrchardCore.Security.Permissions.Permission*
+1
+2*…
+1•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.csﬁ ﬁ(¡æ
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.csﬁ ﬁ(+
+%4%Microsoft.AspNetCore.Mvc.ForbidResult"0Microsoft.AspNetCore.Mvc.ControllerBase.Forbid()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2Forbid()"◊
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.csﬁ ﬁ( -
++
+%4%Microsoft.AspNetCore.Mvc.ForbidResult*›
+2•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs· „(KÒ
+Ó
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs·. ·(C5
+%5/OrchardCore.Media.Services.MediaProfilesManager"__id*Ü*É7
+5OrchardCore.Media.Controllers.MediaProfilesController"H
+_mediaProfilesManager/OrchardCore.Media.Services.MediaProfilesManager‚
+ﬂ
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs·. ·(d*
+%6$System.Threading.Tasks.Task<TResult>"POrchardCore.Media.Services.MediaProfilesManager.LoadMediaProfilesDocumentAsync()*7
+5
+%5/OrchardCore.Media.Services.MediaProfilesManagerÇ
+ˇ
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs· ·(dG
+mediaProfilesDocument.OrchardCore.Media.Models.MediaProfilesDocument"__id*
+""Û
+
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs„ „(49
+%73System.Collections.Generic.Dictionary<TKey, TValue>"@OrchardCore.Media.Models.MediaProfilesDocument.MediaProfiles.get*I
+G
+mediaProfilesDocument.OrchardCore.Media.Models.MediaProfilesDocument”
+–
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs„ „(L
+
+%8bool"ESystem.Collections.Generic.Dictionary<TKey, TValue>.ContainsKey(TKey)*;
+9
+%73System.Collections.Generic.Dictionary<TKey, TValue>*
+
+
+sourceNamestring*
+3
+4*—
+3•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.csÂ Â(!«ƒ
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.csÂ Â(!-
+%9'Microsoft.AspNetCore.Mvc.NotFoundResult"2Microsoft.AspNetCore.Mvc.ControllerBase.NotFound()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2
+NotFound()"Ÿ
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.csÂ Â("/
+-
+%9'Microsoft.AspNetCore.Mvc.NotFoundResult*—
+4•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.csË Ë("”
+–
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.csË Ë(A
+%10:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary"6Microsoft.AspNetCore.Mvc.ControllerBase.ModelState.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase≈
+¬
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.csË Ë("
+%11bool"FMicrosoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary.IsValid.get*C
+A
+%10:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary*
+5
+6*Ë
+5•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.csÍ Í(8∂
+≥
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.csÍ. Í(8
+%12string";OrchardCore.Media.ViewModels.MediaProfileViewModel.Name.get*=
+;
+model2OrchardCore.Media.ViewModels.MediaProfileViewModel˘
+ˆ
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.csÍ Í(9
+%13bool""string.IsNullOrWhiteSpace(string?)*
+"
+string*
+
+%12string*
+7
+6*°
+7•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.csÏ Ï(k”
+–
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.csÏ Ï(A
+%14:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary"6Microsoft.AspNetCore.Mvc.ControllerBase.ModelState.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase‚
+ﬂ
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.csÏQ Ï(R9
+%152Microsoft.Extensions.Localization.IStringLocalizer"__id*t*r7
+5OrchardCore.Media.Controllers.MediaProfilesController"7
+S2Microsoft.Extensions.Localization.IStringLocalizerïí
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.csÏQ Ï(l8
+%161Microsoft.Extensions.Localization.LocalizedString"CMicrosoft.Extensions.Localization.IStringLocalizer.this[string].get*;
+9
+%152Microsoft.Extensions.Localization.IStringLocalizer*
+The name is mandatory.2this[string].getõ
+ò
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.csÏ Ï(m
+%17void"XMicrosoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary.AddModelError(string, string)*C
+A
+%14:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary*
+""*:
+8
+%161Microsoft.Extensions.Localization.LocalizedString*
+6*—
+6•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs ("”
+–
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs (A
+%18:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary"6Microsoft.AspNetCore.Mvc.ControllerBase.ModelState.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase≈
+¬
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs ("
+%19bool"FMicrosoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary.IsValid.get*C
+A
+%18:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary*
+8
+9*» 
+8•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.csÚ ¯()∆
+√
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.csÚ< Ú(I%
+%20OrchardCore.Media.MediaOptions"__id*l*j7
+5OrchardCore.Media.Controllers.MediaProfilesController"/
+_mediaOptionsOrchardCore.Media.MediaOptionsï
+í
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.csÚ< Ú(X
+%21int[]"1OrchardCore.Media.MediaOptions.SupportedSizes.get*'
+%
+%20OrchardCore.Media.MediaOptionsº
+π
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.csÚZ Ú(m
+
+%22int"DOrchardCore.Media.ViewModels.MediaProfileViewModel.SelectedWidth.get*=
+;
+model2OrchardCore.Media.ViewModels.MediaProfileViewModelç
+ä
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.csÚ$ Ú(n
+
+%23int"$System.Array.BinarySearch<T>(T[], T)*"
+System.Array*
+
+%21int[]*
+
+
+%22int–
+Õ
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.csÚ Ú(r
+isCustomWidthbool"__id*
+""∆
+√
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.csÛ= Û(J%
+%24OrchardCore.Media.MediaOptions"__id*l*j7
+5OrchardCore.Media.Controllers.MediaProfilesController"/
+_mediaOptionsOrchardCore.Media.MediaOptionsï
+í
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.csÛ= Û(Y
+%25int[]"1OrchardCore.Media.MediaOptions.SupportedSizes.get*'
+%
+%24OrchardCore.Media.MediaOptionsΩ
+∫
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.csÛ[ Û(o
+
+%26int"EOrchardCore.Media.ViewModels.MediaProfileViewModel.SelectedHeight.get*=
+;
+model2OrchardCore.Media.ViewModels.MediaProfileViewModelç
+ä
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.csÛ% Û(p
+
+%27int"$System.Array.BinarySearch<T>(T[], T)*"
+System.Array*
+
+%25int[]*
+
+
+%26int—
+Œ
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.csÛ Û(t
+isCustomHeightbool"__id*
+""Ä˝
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.csı# ˛(,
+%28%OrchardCore.Media.Models.MediaProfile"%OrchardCore.Media.Models.MediaProfileû
+õ
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.csı' ı(3
+%29void"4OrchardCore.Media.Models.MediaProfile.MediaProfile()*.
+,
+%28%OrchardCore.Media.Models.MediaProfile∂
+≥
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs˜ ˜(%
+%30string";OrchardCore.Media.ViewModels.MediaProfileViewModel.Hint.get*=
+;
+model2OrchardCore.Media.ViewModels.MediaProfileViewModel´
+®
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs˜ ˜(%
+%31string".OrchardCore.Media.Models.MediaProfile.Hint.set*.
+,
+%28%OrchardCore.Media.Models.MediaProfile*
+
+%30string*
+10
+11*ã
+10•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs¯, ¯(=∫
+∑
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs¯, ¯(=
+
+%35int"BOrchardCore.Media.ViewModels.MediaProfileViewModel.CustomWidth.get*=
+;
+model2OrchardCore.Media.ViewModels.MediaProfileViewModelÀ
+»
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs¯, ¯(=
+
+%33int"__id*
+
+
+%35intÀ
+»
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs¯, ¯(=
+
+%32int"__id*
+
+
+%33int*
+12*ç
+11•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs¯@ ¯(Sº
+π
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs¯@ ¯(S
+
+%36int"DOrchardCore.Media.ViewModels.MediaProfileViewModel.SelectedWidth.get*=
+;
+model2OrchardCore.Media.ViewModels.MediaProfileViewModelÀ
+»
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs¯@ ¯(S
+
+%34int"__id*
+
+
+%36intÀ
+»
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs¯@ ¯(S
+
+%32int"__id*
+
+
+%34int*
+12*ﬂ
+12•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs¯ ˘(+¶
+£
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs¯ ¯(S
+
+%37int"/OrchardCore.Media.Models.MediaProfile.Width.set*.
+,
+%28%OrchardCore.Media.Models.MediaProfile*
+
+
+%32int*
+13
+14*å
+13•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs˘. ˘(@ª
+∏
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs˘. ˘(@
+
+%41int"COrchardCore.Media.ViewModels.MediaProfileViewModel.CustomHeight.get*=
+;
+model2OrchardCore.Media.ViewModels.MediaProfileViewModelÀ
+»
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs˘. ˘(@
+
+%39int"__id*
+
+
+%41intÀ
+»
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs˘. ˘(@
+
+%38int"__id*
+
+
+%39int*
+15*é
+14•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs˘C ˘(WΩ
+∫
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs˘C ˘(W
+
+%42int"EOrchardCore.Media.ViewModels.MediaProfileViewModel.SelectedHeight.get*=
+;
+model2OrchardCore.Media.ViewModels.MediaProfileViewModelÀ
+»
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs˘C ˘(W
+
+%40int"__id*
+
+
+%42intÀ
+»
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs˘C ˘(W
+
+%38int"__id*
+
+
+%40int*
+15*Ò+
+15•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.csı Ñ(/ß
+§
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs˘ ˘(W
+
+%43int"0OrchardCore.Media.Models.MediaProfile.Height.set*.
+,
+%28%OrchardCore.Media.Models.MediaProfile*
+
+
+%38intﬂ
+‹
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs˙ ˙(-.
+%44'OrchardCore.Media.Processing.ResizeMode"COrchardCore.Media.ViewModels.MediaProfileViewModel.SelectedMode.get*=
+;
+model2OrchardCore.Media.ViewModels.MediaProfileViewModelÌ
+Í
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs˙ ˙(-.
+%45'OrchardCore.Media.Processing.ResizeMode".OrchardCore.Media.Models.MediaProfile.Mode.set*.
+,
+%28%OrchardCore.Media.Models.MediaProfile*0
+.
+%44'OrchardCore.Media.Processing.ResizeMode›
+⁄
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs˚ ˚(1*
+%46#OrchardCore.Media.Processing.Format"EOrchardCore.Media.ViewModels.MediaProfileViewModel.SelectedFormat.get*=
+;
+model2OrchardCore.Media.ViewModels.MediaProfileViewModelÁ
+‰
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs˚ ˚(1*
+%47#OrchardCore.Media.Processing.Format"0OrchardCore.Media.Models.MediaProfile.Format.set*.
+,
+%28%OrchardCore.Media.Models.MediaProfile*,
+*
+%46#OrchardCore.Media.Processing.Format∂
+≥
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs¸ ¸(+
+
+%48int">OrchardCore.Media.ViewModels.MediaProfileViewModel.Quality.get*=
+;
+model2OrchardCore.Media.ViewModels.MediaProfileViewModel®
+•
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs¸ ¸(+
+
+%49int"1OrchardCore.Media.Models.MediaProfile.Quality.set*.
+,
+%28%OrchardCore.Media.Models.MediaProfile*
+
+
+%48int¡
+æ
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs˝& ˝(;
+%50string"FOrchardCore.Media.ViewModels.MediaProfileViewModel.BackgroundColor.get*=
+;
+model2OrchardCore.Media.ViewModels.MediaProfileViewModel∂
+≥
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs˝ ˝(;
+%51string"9OrchardCore.Media.Models.MediaProfile.BackgroundColor.set*.
+,
+%28%OrchardCore.Media.Models.MediaProfile*
+
+%50stringò
+ï
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.csı ˛(5
+mediaProfile%OrchardCore.Media.Models.MediaProfile"__id*.
+,
+%28%OrchardCore.Media.Models.MediaProfileÚ
+Ô
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.csÄ Ä(+6
+%52/OrchardCore.Media.Services.MediaProfilesManager"__id*Ü*É7
+5OrchardCore.Media.Controllers.MediaProfilesController"H
+_mediaProfilesManager/OrchardCore.Media.Services.MediaProfilesManagerÚ
+Ô
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.csÄ Ä(O"
+%53System.Threading.Tasks.Task"OOrchardCore.Media.Services.MediaProfilesManager.RemoveMediaProfileAsync(string)*8
+6
+%52/OrchardCore.Media.Services.MediaProfilesManager*
+
+
+sourceNamestringÚ
+Ô
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.csÇ Ç(+6
+%54/OrchardCore.Media.Services.MediaProfilesManager"__id*Ü*É7
+5OrchardCore.Media.Controllers.MediaProfilesController"H
+_mediaProfilesManager/OrchardCore.Media.Services.MediaProfilesManager∂
+≥
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.csÇD Ç(N
+%55string";OrchardCore.Media.ViewModels.MediaProfileViewModel.Name.get*=
+;
+model2OrchardCore.Media.ViewModels.MediaProfileViewModelÀ
+»
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.csÇ Ç(]"
+%56System.Threading.Tasks.Task"vOrchardCore.Media.Services.MediaProfilesManager.UpdateMediaProfileAsync(string, OrchardCore.Media.Models.MediaProfile)*8
+6
+%54/OrchardCore.Media.Services.MediaProfilesManager*
+
+%55string*7
+5
+mediaProfile%OrchardCore.Media.Models.MediaProfileë
+é
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.csÑ Ñ(/
+%57bool""string.operator !=(string, string)*
+"
+string*
+
+submitstring*
+SaveAndContinue*
+16
+9*à
+16•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.csÜ Ü(9ÙÒ
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.csÜ Ü(:6
+%58/Microsoft.AspNetCore.Mvc.RedirectToActionResult"@Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToAction(string)*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*
+""2RedirectToAction(string)"‚
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.csÜ Ü(;8
+6
+%58/Microsoft.AspNetCore.Mvc.RedirectToActionResult*¯	
+9•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.csã ç(¨
+©
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.csã ã(!
+%59void"xOrchardCore.Media.Controllers.MediaProfilesController.BuildViewModel(OrchardCore.Media.ViewModels.MediaProfileViewModel)*97
+5OrchardCore.Media.Controllers.MediaProfilesController*=
+;
+model2OrchardCore.Media.ViewModels.MediaProfileViewModel·
+ﬁ
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.csç ç(
+%60void"*orchardcore.media/views/mediaprofiles/edit*
+
+%61*=
+;
+model2OrchardCore.Media.ViewModels.MediaProfileViewModel*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject* 
+
+%HttpContextItemsAllobject*!
+
+%HttpContextItemsHtmlobject"∑
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.csç ç(
+
+%60void*Ï
+17•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.csé	 é(	"Ω
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.csé é(	
+implicit return*˘+
+18•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs⁄l ⁄(lô
+ñ
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs⁄) ⁄(-^
+;
+model2OrchardCore.Media.ViewModels.MediaProfileViewModel"
+<Name>k__BackingFieldstring"__entrypointà
+Ö
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs⁄) ⁄(-M
+;
+model2OrchardCore.Media.ViewModels.MediaProfileViewModel"
+Namestring"__entrypointô
+ñ
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs⁄) ⁄(-^
+;
+model2OrchardCore.Media.ViewModels.MediaProfileViewModel"
+<Hint>k__BackingFieldstring"__entrypointà
+Ö
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs⁄) ⁄(-M
+;
+model2OrchardCore.Media.ViewModels.MediaProfileViewModel"
+Hintstring"__entrypoint§
+°
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs⁄) ⁄(-i
+;
+model2OrchardCore.Media.ViewModels.MediaProfileViewModel"*
+ <BackgroundColor>k__BackingFieldstring"__entrypointì
+ê
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs⁄) ⁄(-X
+;
+model2OrchardCore.Media.ViewModels.MediaProfileViewModel"
+BackgroundColorstring"__entrypoint¡
+æ
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs⁄) ⁄(-Ö
+;
+model2OrchardCore.Media.ViewModels.MediaProfileViewModel"F
+ <AvailableWidths>k__BackingField"System.Collections.Generic.List<T>"__entrypointØ
+¨
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs⁄) ⁄(-t
+;
+model2OrchardCore.Media.ViewModels.MediaProfileViewModel"5
+AvailableWidths"System.Collections.Generic.List<T>"__entrypoint¬
+ø
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs⁄) ⁄(-Ü
+;
+model2OrchardCore.Media.ViewModels.MediaProfileViewModel"G
+!<AvailableHeights>k__BackingField"System.Collections.Generic.List<T>"__entrypoint∞
+≠
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs⁄) ⁄(-u
+;
+model2OrchardCore.Media.ViewModels.MediaProfileViewModel"6
+AvailableHeights"System.Collections.Generic.List<T>"__entrypoint∆
+√
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs⁄) ⁄(-ä
+;
+model2OrchardCore.Media.ViewModels.MediaProfileViewModel"K
+%<AvailableResizeModes>k__BackingField"System.Collections.Generic.List<T>"__entrypoint¥
+±
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs⁄) ⁄(-y
+;
+model2OrchardCore.Media.ViewModels.MediaProfileViewModel":
+AvailableResizeModes"System.Collections.Generic.List<T>"__entrypoint¬
+ø
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs⁄) ⁄(-Ü
+;
+model2OrchardCore.Media.ViewModels.MediaProfileViewModel"G
+!<AvailableFormats>k__BackingField"System.Collections.Generic.List<T>"__entrypoint∞
+≠
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs⁄) ⁄(-u
+;
+model2OrchardCore.Media.ViewModels.MediaProfileViewModel"6
+AvailableFormats"System.Collections.Generic.List<T>"__entrypointÏ
+È
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs⁄) ⁄(-
+%62"__entrypoint*
+
+
+sourceNamestring*
+
+submitstringö
+ó
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.csŸ	 Ÿ(
+%63"
+__annotate*B@
+>Microsoft.AspNetCore.Mvc.HttpPostAttribute.HttpPostAttribute()*
+
+
+sourceNamestringÿ
+’
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs⁄. ⁄(?
+
+sourceNamestring"__annotation*
+
+%63ñ
+ì
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.csŸ	 Ÿ(
+%64"
+__annotate*B@
+>Microsoft.AspNetCore.Mvc.HttpPostAttribute.HttpPostAttribute()*
+
+submitstring‘
+—
+•
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaProfilesController.cs⁄^ ⁄(k
+submitstring"__annotation*
+
+%64*
+0:
+
+sourceNamestring:;
+model2OrchardCore.Media.ViewModels.MediaProfileViewModel:
+submitstringB97
+5OrchardCore.Media.Controllers.MediaProfilesController

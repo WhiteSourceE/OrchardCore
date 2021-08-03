@@ -1,0 +1,102 @@
+
+îOrchardCore.Lists.GraphQL.ListQueryObjectType.LoadPublishedContentItemsForListAsync(System.Collections.Generic.IEnumerable<string>, YesSql.ISession)õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\GraphQL\ListQueryObjectType.cs-@ -(e"0*©
+0õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\GraphQL\ListQueryObjectType.cs/ /(&*
+1
+2*ä
+2õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\GraphQL\ListQueryObjectType.cs/* /(?ﬁ
+€
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\GraphQL\ListQueryObjectType.cs/+ /(?
+
+%0bool"TSystem.Linq.Enumerable.Any<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*=
+;
+contentItemIds)System.Collections.Generic.IEnumerable<T>*
+1
+3*í
+1õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\GraphQL\ListQueryObjectType.cs1 1(^ëé
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\GraphQL\ListQueryObjectType.cs1 1(<9
+%13System.Collections.Generic.Dictionary<TKey, TValue>"3System.Collections.Generic.Dictionary<TKey, TValue>¨
+©
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\GraphQL\ListQueryObjectType.cs1 1(:
+
+%2void"@System.Collections.Generic.Dictionary<TKey, TValue>.Dictionary()*;
+9
+%13System.Collections.Generic.Dictionary<TKey, TValue>›
+⁄
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\GraphQL\ListQueryObjectType.cs1 1(_)
+%3#System.Linq.ILookup<TKey, TElement>"•System.Linq.Enumerable.ToLookup<TSource, TKey, TElement>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TKey>, System.Func<TSource, TElement>)*"
+System.Linq.Enumerable*;
+9
+%13System.Collections.Generic.Dictionary<TKey, TValue>*
+""*
+"""À
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\GraphQL\ListQueryObjectType.cs1 1(`+
+)
+%3#System.Linq.ILookup<TKey, TElement>*ï
+3õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\GraphQL\ListQueryObjectType.cs4 :(Nµ
+≤
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\GraphQL\ListQueryObjectType.cs4 4(:
+%4YesSql.IQuery<T>"8YesSql.QueryExtensions.Query<T>(YesSql.ISession, string)*"
+YesSql.QueryExtensions*
+
+sessionYesSql.ISession*
+""éã
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\GraphQL\ListQueryObjectType.cs4 5(P
+%5YesSql.IQuery<T, TIndex>"\YesSql.IQuery<T>.With<TIndex>(System.Linq.Expressions.Expression<System.Func<TIndex, bool>>)*
+
+%4YesSql.IQuery<T>*
+""2KWith<TIndex>(System.Linq.Expressions.Expression<System.Func<TIndex, bool>>)ñì
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\GraphQL\ListQueryObjectType.cs4 6(o
+%6YesSql.IQuery<T, TIndex>"\YesSql.IQuery<T>.With<TIndex>(System.Linq.Expressions.Expression<System.Func<TIndex, bool>>)* 
+
+%5YesSql.IQuery<T, TIndex>*
+""2KWith<TIndex>(System.Linq.Expressions.Expression<System.Func<TIndex, bool>>)òï
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\GraphQL\ListQueryObjectType.cs4 7(;
+%7YesSql.IQuery<T, TIndex>"aYesSql.IQuery<T, TIndex>.OrderBy(System.Linq.Expressions.Expression<System.Func<TIndex, object>>)* 
+
+%6YesSql.IQuery<T, TIndex>*
+""2HOrderBy(System.Linq.Expressions.Expression<System.Func<TIndex, object>>)öó
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\GraphQL\ListQueryObjectType.cs4 8(1*
+%8$System.Threading.Tasks.Task<TResult>"YesSql.IQuery<T>.ListAsync()* 
+
+%7YesSql.IQuery<T, TIndex>2ListAsync()„
+‡
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\GraphQL\ListQueryObjectType.cs4 8(12
+query)System.Collections.Generic.IEnumerable<T>"__id*
+""£
+†
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\GraphQL\ListQueryObjectType.cs: :(O)
+%9#System.Linq.ILookup<TKey, TElement>"{System.Linq.Enumerable.ToLookup<TSource, TKey>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TKey>)*"
+System.Linq.Enumerable*4
+2
+query)System.Collections.Generic.IEnumerable<T>*
+"""À
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\GraphQL\ListQueryObjectType.cs: :(P+
+)
+%9#System.Linq.ILookup<TKey, TElement>*◊
+4õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\GraphQL\ListQueryObjectType.cs;	 ;(	"≥
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\GraphQL\ListQueryObjectType.cs; ;(	
+implicit return:;
+contentItemIds)System.Collections.Generic.IEnumerable<T>:
+sessionYesSql.ISessionB1"/
+-OrchardCore.Lists.GraphQL.ListQueryObjectType

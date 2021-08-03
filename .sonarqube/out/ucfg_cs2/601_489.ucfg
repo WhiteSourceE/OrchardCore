@@ -1,0 +1,237 @@
+
+õOrchardCore.Contents.Sitemaps.ContentTypesSitemapSourceModifiedDateProvider.GetLastModifiedDateAsync(OrchardCore.Sitemaps.Models.ContentTypesSitemapSource)π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceModifiedDateProvider.cs. (F"0*ú
+0π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceModifiedDateProvider.cs  (“
+œ
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceModifiedDateProvider.cs   (
+
+%0bool"BOrchardCore.Sitemaps.Models.ContentTypesSitemapSource.IndexAll.get*A
+?
+source5OrchardCore.Sitemaps.Models.ContentTypesSitemapSource*
+1
+2*’!
+1π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceModifiedDateProvider.cs" *(Kƒ
+¡
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceModifiedDateProvider.cs"# "(CD
+%1>OrchardCore.Sitemaps.Services.IRouteableContentTypeCoordinator"__id*∂*≥M
+KOrchardCore.Contents.Sitemaps.ContentTypesSitemapSourceModifiedDateProvider"b
+ _routeableContentTypeCoordinator>OrchardCore.Sitemaps.Services.IRouteableContentTypeCoordinatorµ≤
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceModifiedDateProvider.cs"# #(2/
+%2)System.Collections.Generic.IEnumerable<T>"\OrchardCore.Sitemaps.Services.IRouteableContentTypeCoordinator.ListRoutableTypeDefinitions()*F
+D
+%1>OrchardCore.Sitemaps.Services.IRouteableContentTypeCoordinator2ListRoutableTypeDefinitions()»
+≈
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceModifiedDateProvider.cs"# $(,/
+%3)System.Collections.Generic.IEnumerable<T>"System.Linq.Enumerable.Select<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)*"
+System.Linq.Enumerable*1
+/
+%2)System.Collections.Generic.IEnumerable<T>*
+""≥
+∞
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceModifiedDateProvider.cs" $(,9
+typesToIndex)System.Collections.Generic.IEnumerable<T>"__id*1
+/
+%3)System.Collections.Generic.IEnumerable<T>Ã
+…
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceModifiedDateProvider.cs& &($
+%4YesSql.ISession"__id*n*lM
+KOrchardCore.Contents.Sitemaps.ContentTypesSitemapSourceModifiedDateProvider"
+_sessionYesSql.ISessionŒ
+À
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceModifiedDateProvider.cs& &(9
+%5YesSql.IQuery<T>"8YesSql.QueryExtensions.Query<T>(YesSql.ISession, string)*"
+YesSql.QueryExtensions*
+
+%4YesSql.ISession*
+""¨©
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceModifiedDateProvider.cs& '(a
+%6YesSql.IQuery<T, TIndex>"\YesSql.IQuery<T>.With<TIndex>(System.Linq.Expressions.Expression<System.Func<TIndex, bool>>)*
+
+%5YesSql.IQuery<T>*
+""2KWith<TIndex>(System.Linq.Expressions.Expression<System.Func<TIndex, bool>>) «
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceModifiedDateProvider.cs& ((:
+%7YesSql.IQuery<T, TIndex>"kYesSql.IQuery<T, TIndex>.OrderByDescending(System.Linq.Expressions.Expression<System.Func<TIndex, object>>)* 
+
+%6YesSql.IQuery<T, TIndex>*
+""2ROrderByDescending(System.Linq.Expressions.Expression<System.Func<TIndex, object>>)ä
+á
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceModifiedDateProvider.cs& ((:!
+queryYesSql.IQuery<T, TIndex>"__id* 
+
+%7YesSql.IQuery<T, TIndex>œÃ
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceModifiedDateProvider.cs*0 *(K*
+%8$System.Threading.Tasks.Task<TResult>"&YesSql.IQuery<T>.FirstOrDefaultAsync()*#
+!
+queryYesSql.IQuery<T, TIndex>2FirstOrDefaultAsync()ì
+ê
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceModifiedDateProvider.cs* *(KD
+lastModifiedContentItem)OrchardCore.ContentManagement.ContentItem"__id*
+""*
+3*û
+2π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceModifiedDateProvider.cs, ,(&‘
+—
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceModifiedDateProvider.cs, ,(&
+
+%9bool"DOrchardCore.Sitemaps.Models.ContentTypesSitemapSource.LimitItems.get*A
+?
+source5OrchardCore.Sitemaps.Models.ContentTypesSitemapSource*
+4
+5*ﬁ
+4π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceModifiedDateProvider.cs. 2(KÕ
+ 
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceModifiedDateProvider.cs. .($
+%10YesSql.ISession"__id*n*lM
+KOrchardCore.Contents.Sitemaps.ContentTypesSitemapSourceModifiedDateProvider"
+_sessionYesSql.ISession–
+Õ
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceModifiedDateProvider.cs. .(9
+%11YesSql.IQuery<T>"8YesSql.QueryExtensions.Query<T>(YesSql.ISession, string)*"
+YesSql.QueryExtensions*
+
+%10YesSql.ISession*
+""Æ´
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceModifiedDateProvider.cs. /({
+%12YesSql.IQuery<T, TIndex>"\YesSql.IQuery<T>.With<TIndex>(System.Linq.Expressions.Expression<System.Func<TIndex, bool>>)*
+
+%11YesSql.IQuery<T>*
+""2KWith<TIndex>(System.Linq.Expressions.Expression<System.Func<TIndex, bool>>)Ã…
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceModifiedDateProvider.cs. 0(:
+%13YesSql.IQuery<T, TIndex>"kYesSql.IQuery<T, TIndex>.OrderByDescending(System.Linq.Expressions.Expression<System.Func<TIndex, object>>)*!
+
+%12YesSql.IQuery<T, TIndex>*
+""2ROrderByDescending(System.Linq.Expressions.Expression<System.Func<TIndex, object>>)ã
+à
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceModifiedDateProvider.cs. 0(:!
+queryYesSql.IQuery<T, TIndex>"__id*!
+
+%13YesSql.IQuery<T, TIndex>–Õ
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceModifiedDateProvider.cs20 2(K+
+%14$System.Threading.Tasks.Task<TResult>"&YesSql.IQuery<T>.FirstOrDefaultAsync()*#
+!
+queryYesSql.IQuery<T, TIndex>2FirstOrDefaultAsync()ì
+ê
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceModifiedDateProvider.cs2 2(KD
+lastModifiedContentItem)OrchardCore.ContentManagement.ContentItem"__id*
+""*
+3*§%
+5π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceModifiedDateProvider.cs6 @(K≈
+¬
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceModifiedDateProvider.cs6# 6(CE
+%15>OrchardCore.Sitemaps.Services.IRouteableContentTypeCoordinator"__id*∂*≥M
+KOrchardCore.Contents.Sitemaps.ContentTypesSitemapSourceModifiedDateProvider"b
+ _routeableContentTypeCoordinator>OrchardCore.Sitemaps.Services.IRouteableContentTypeCoordinator∑¥
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceModifiedDateProvider.cs6# 7(20
+%16)System.Collections.Generic.IEnumerable<T>"\OrchardCore.Sitemaps.Services.IRouteableContentTypeCoordinator.ListRoutableTypeDefinitions()*G
+E
+%15>OrchardCore.Sitemaps.Services.IRouteableContentTypeCoordinator2ListRoutableTypeDefinitions()Ω
+∫
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceModifiedDateProvider.cs6# 8(k0
+%17)System.Collections.Generic.IEnumerable<T>"rSystem.Linq.Enumerable.Where<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
+System.Linq.Enumerable*2
+0
+%16)System.Collections.Generic.IEnumerable<T>*
+"" 
+«
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceModifiedDateProvider.cs6# 9(,0
+%18)System.Collections.Generic.IEnumerable<T>"System.Linq.Enumerable.Select<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)*"
+System.Linq.Enumerable*2
+0
+%17)System.Collections.Generic.IEnumerable<T>*
+""¥
+±
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceModifiedDateProvider.cs6 9(,9
+typesToIndex)System.Collections.Generic.IEnumerable<T>"__id*2
+0
+%18)System.Collections.Generic.IEnumerable<T>Õ
+ 
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceModifiedDateProvider.cs< <($
+%19YesSql.ISession"__id*n*lM
+KOrchardCore.Contents.Sitemaps.ContentTypesSitemapSourceModifiedDateProvider"
+_sessionYesSql.ISession–
+Õ
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceModifiedDateProvider.cs< <(9
+%20YesSql.IQuery<T>"8YesSql.QueryExtensions.Query<T>(YesSql.ISession, string)*"
+YesSql.QueryExtensions*
+
+%19YesSql.ISession*
+""Æ´
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceModifiedDateProvider.cs< =(a
+%21YesSql.IQuery<T, TIndex>"\YesSql.IQuery<T>.With<TIndex>(System.Linq.Expressions.Expression<System.Func<TIndex, bool>>)*
+
+%20YesSql.IQuery<T>*
+""2KWith<TIndex>(System.Linq.Expressions.Expression<System.Func<TIndex, bool>>)Ã…
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceModifiedDateProvider.cs< >(:
+%22YesSql.IQuery<T, TIndex>"kYesSql.IQuery<T, TIndex>.OrderByDescending(System.Linq.Expressions.Expression<System.Func<TIndex, object>>)*!
+
+%21YesSql.IQuery<T, TIndex>*
+""2ROrderByDescending(System.Linq.Expressions.Expression<System.Func<TIndex, object>>)ã
+à
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceModifiedDateProvider.cs< >(:!
+queryYesSql.IQuery<T, TIndex>"__id*!
+
+%22YesSql.IQuery<T, TIndex>–Õ
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceModifiedDateProvider.cs@0 @(K+
+%23$System.Threading.Tasks.Task<TResult>"&YesSql.IQuery<T>.FirstOrDefaultAsync()*#
+!
+queryYesSql.IQuery<T, TIndex>2FirstOrDefaultAsync()ì
+ê
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceModifiedDateProvider.cs@ @(KD
+lastModifiedContentItem)OrchardCore.ContentManagement.ContentItem"__id*
+""*
+3*˚
+3π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceModifiedDateProvider.csC C(6›
+⁄
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceModifiedDateProvider.csC C(6
+%24System.Nullable<T>"9OrchardCore.ContentManagement.ContentItem.ModifiedUtc.get*F
+D
+lastModifiedContentItem)OrchardCore.ContentManagement.ContentItem"Ÿ
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceModifiedDateProvider.csC C(7
+
+%24System.Nullable<T>*ì
+6π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceModifiedDateProvider.csD	 D(	"—
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceModifiedDateProvider.csD D(	
+implicit return:?
+source5OrchardCore.Sitemaps.Models.ContentTypesSitemapSourceBOM
+KOrchardCore.Contents.Sitemaps.ContentTypesSitemapSourceModifiedDateProvider

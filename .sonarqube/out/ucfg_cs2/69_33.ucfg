@@ -1,0 +1,63 @@
+
+HOrchardCore.FileStorage.AzureBlob.BlobFileStore.GetBlobReference(string)—
+ŠD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs¹ ¹(+"0*ú
+0—
+ŠD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs» ¾(Ø
+Õ
+—
+ŠD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs»( »(0:
+%04OrchardCore.FileStorage.AzureBlob.BlobStorageOptions"__id*w*u1
+/OrchardCore.FileStorage.AzureBlob.BlobFileStore"@
+_options4OrchardCore.FileStorage.AzureBlob.BlobStorageOptions¬
+©
+—
+ŠD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs»( »(9
+%1string"AOrchardCore.FileStorage.AzureBlob.BlobStorageOptions.BasePath.get*<
+:
+%04OrchardCore.FileStorage.AzureBlob.BlobStorageOptionsŸ
+œ
+—
+ŠD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs» »(@
+%2string"iOrchardCore.FileStorage.IFileStoreExtensions.Combine(OrchardCore.FileStorage.IFileStore, params string[])*0".
+,OrchardCore.FileStorage.IFileStoreExtensions*31
+/OrchardCore.FileStorage.AzureBlob.BlobFileStore*
+
+%1string*
+
+pathstringÇ
+Ä
+—
+ŠD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs» »(@
+blobPathstring"__id*
+
+%2stringÄ
+Á
+—
+ŠD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs¼ ¼(%-
+%3'Azure.Storage.Blobs.BlobContainerClient"__id*p*n1
+/OrchardCore.FileStorage.AzureBlob.BlobFileStore"9
+_blobContainer'Azure.Storage.Blobs.BlobContainerClientàÝ
+—
+ŠD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs¼ ¼(=$
+%4Azure.Storage.Blobs.BlobClient"=Azure.Storage.Blobs.BlobContainerClient.GetBlobClient(string)*/
+-
+%3'Azure.Storage.Blobs.BlobContainerClient*
+
+blobPathstring2GetBlobClient(string)ó
+ð
+—
+ŠD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs¼ ¼(=&
+blobAzure.Storage.Blobs.BlobClient"__id*&
+$
+%4Azure.Storage.Blobs.BlobClient"Ä
+—
+ŠD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs¾ ¾((
+&
+blobAzure.Storage.Blobs.BlobClient*Ï
+1—
+ŠD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs¿	 ¿(	"¯
+—
+ŠD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs¿ ¿(	
+implicit return:
+pathstringB31
+/OrchardCore.FileStorage.AzureBlob.BlobFileStore

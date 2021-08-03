@@ -1,0 +1,165 @@
+
+œOrchardCore.Lists.RemotePublishing.MetaWeblogHandler.MetaWeblogGetPostAsync(OrchardCore.XmlRpc.XmlRpcContext, string, string, string, System.Collections.Generic.IEnumerable<OrchardCore.XmlRpc.IXmlRpcDriver>)§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\RemotePublishing\MetaWeblogHandler.cs≈' ≈(="0*ó
+0§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\RemotePublishing\MetaWeblogHandler.csÃ œ(#î
+ë
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\RemotePublishing\MetaWeblogHandler.csÃ Ã(B*
+%0$System.Threading.Tasks.Task<TResult>"VOrchardCore.Lists.RemotePublishing.MetaWeblogHandler.ValidateUserAsync(string, string)*86
+4OrchardCore.Lists.RemotePublishing.MetaWeblogHandler*
+
+userNamestring*
+
+passwordstringË
+Â
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\RemotePublishing\MetaWeblogHandler.csÃ Ã(B.
+user&System.Security.Claims.ClaimsPrincipal"__id*
+""„
+‡
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\RemotePublishing\MetaWeblogHandler.csÕ$ Õ(33
+%1-OrchardCore.ContentManagement.IContentManager"__id*|*z6
+4OrchardCore.Lists.RemotePublishing.MetaWeblogHandler"@
+_contentManager-OrchardCore.ContentManagement.IContentManager…
+∆
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\RemotePublishing\MetaWeblogHandler.csÕL Õ(a2
+%2,OrchardCore.ContentManagement.VersionOptions"7OrchardCore.ContentManagement.VersionOptions.Latest.get*0".
+,OrchardCore.ContentManagement.VersionOptionsåâ
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\RemotePublishing\MetaWeblogHandler.csÕ$ Õ(b*
+%3$System.Threading.Tasks.Task<TResult>"lOrchardCore.ContentManagement.IContentManager.GetAsync(string, OrchardCore.ContentManagement.VersionOptions)*5
+3
+%1-OrchardCore.ContentManagement.IContentManager*
+
+contentItemIdstring*4
+2
+%2,OrchardCore.ContentManagement.VersionOptions2>GetAsync(string, OrchardCore.ContentManagement.VersionOptions)Ú
+Ô
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\RemotePublishing\MetaWeblogHandler.csÕ Õ(b8
+contentItem)OrchardCore.ContentManagement.ContentItem"__id*
+""™
+ß
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\RemotePublishing\MetaWeblogHandler.csœ œ(#
+
+%4bool""object.operator ==(object, object)*
+"
+object*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItem*
+""*
+1
+2*ü
+1§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\RemotePublishing\MetaWeblogHandler.cs— —(-‰·
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\RemotePublishing\MetaWeblogHandler.cs— —(-
+%5System.ArgumentException"System.ArgumentExceptionÜ
+É
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\RemotePublishing\MetaWeblogHandler.cs— —(+
+
+%6void",System.ArgumentException.ArgumentException()* 
+
+%5System.ArgumentException*
+3*›
+2§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\RemotePublishing\MetaWeblogHandler.cs‘ ÿ(5Õ
+ 
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\RemotePublishing\MetaWeblogHandler.cs‘# ‘(@1
+%7+OrchardCore.Security.Permissions.Permission"__id*h*f(
+&OrchardCore.Contents.CommonPermissions":
+EditContent+OrchardCore.Security.Permissions.PermissionÚ
+Ô
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\RemotePublishing\MetaWeblogHandler.cs‘ ‘(T!
+%8System.Threading.Tasks.Task"≈OrchardCore.Lists.RemotePublishing.MetaWeblogHandler.CheckAccessAsync(OrchardCore.Security.Permissions.Permission, System.Security.Claims.ClaimsPrincipal, OrchardCore.ContentManagement.ContentItem)*86
+4OrchardCore.Lists.RemotePublishing.MetaWeblogHandler*3
+1
+%7+OrchardCore.Security.Permissions.Permission*0
+.
+user&System.Security.Claims.ClaimsPrincipal*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItemï
+í
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\RemotePublishing\MetaWeblogHandler.cs÷# ÷(N*
+%9$System.Threading.Tasks.Task<TResult>"óOrchardCore.Lists.RemotePublishing.MetaWeblogHandler.CreateBlogStructAsync(OrchardCore.XmlRpc.XmlRpcContext, OrchardCore.ContentManagement.ContentItem)*86
+4OrchardCore.Lists.RemotePublishing.MetaWeblogHandler*-
++
+context OrchardCore.XmlRpc.XmlRpcContext*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItemÏ
+È
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\RemotePublishing\MetaWeblogHandler.cs÷ ÷(N2
+
+postStruct$OrchardCore.XmlRpc.Models.XRpcStruct"__id*
+""ﬂ
+‹
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\RemotePublishing\MetaWeblogHandler.csÿ# ÿ(50
+%10)System.Collections.Generic.IEnumerable<T>"__id*{*y6
+4OrchardCore.Lists.RemotePublishing.MetaWeblogHandler"?
+_metaWeblogDrivers)System.Collections.Generic.IEnumerable<T>*
+4*≤
+4§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\RemotePublishing\MetaWeblogHandler.cs„	 „(	*
+5
+6*Ê
+5§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\RemotePublishing\MetaWeblogHandler.cs⁄ ⁄(A¥±
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\RemotePublishing\MetaWeblogHandler.cs⁄ ⁄(B
+%11void"•OrchardCore.MetaWeblog.IMetaWeblogDriver.BuildPost(OrchardCore.XmlRpc.Models.XRpcStruct, OrchardCore.XmlRpc.XmlRpcContext, OrchardCore.ContentManagement.ContentItem)*4
+2
+driver(OrchardCore.MetaWeblog.IMetaWeblogDriver*4
+2
+
+postStruct$OrchardCore.XmlRpc.Models.XRpcStruct*-
++
+context OrchardCore.XmlRpc.XmlRpcContext*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItem2|BuildPost(OrchardCore.XmlRpc.Models.XRpcStruct, OrchardCore.XmlRpc.XmlRpcContext, OrchardCore.ContentManagement.ContentItem)*
+4*Ø
+6§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\RemotePublishing\MetaWeblogHandler.cs›# ›(**
+7*≤
+7§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\RemotePublishing\MetaWeblogHandler.cs„	 „(	*
+8
+9*ê
+8§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\RemotePublishing\MetaWeblogHandler.csﬂ ﬂ()ﬁ€
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\RemotePublishing\MetaWeblogHandler.csﬂ ﬂ(*
+%12void"0OrchardCore.XmlRpc.IXmlRpcDriver.Process(object)*,
+*
+driver OrchardCore.XmlRpc.IXmlRpcDriver*4
+2
+
+postStruct$OrchardCore.XmlRpc.Models.XRpcStruct2Process(object)*
+7*ä
+9§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\RemotePublishing\MetaWeblogHandler.cs‚ ‚("›
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\RemotePublishing\MetaWeblogHandler.cs‚ ‚(4
+2
+
+postStruct$OrchardCore.XmlRpc.Models.XRpcStruct*È
+3§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\RemotePublishing\MetaWeblogHandler.cs„	 „(	"º
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\RemotePublishing\MetaWeblogHandler.cs„ „(	
+implicit return:+
+context OrchardCore.XmlRpc.XmlRpcContext:
+contentItemIdstring:
+userNamestring:
+passwordstring:4
+drivers)System.Collections.Generic.IEnumerable<T>B86
+4OrchardCore.Lists.RemotePublishing.MetaWeblogHandler

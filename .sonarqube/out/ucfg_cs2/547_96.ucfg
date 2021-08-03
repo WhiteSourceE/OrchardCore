@@ -1,0 +1,90 @@
+
+yOrchardCore.Deployment.Remote.Services.RemoteInstanceService.UpdateRemoteInstance(string, string, string, string, string)ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Services\RemoteInstanceService.csA A(."0*Î
+0ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Services\RemoteInstanceService.csC K(Aú
+÷
+ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Services\RemoteInstanceService.csC+ C(H*
+%0$System.Threading.Tasks.Task<TResult>"ZOrchardCore.Deployment.Remote.Services.RemoteInstanceService.LoadRemoteInstanceListAsync()*@>
+<OrchardCore.Deployment.Remote.Services.RemoteInstanceService
+Š
+ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Services\RemoteInstanceService.csC C(HM
+remoteInstanceList7OrchardCore.Deployment.Remote.Models.RemoteInstanceList"__id*
+""¡
+ž
+ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Services\RemoteInstanceService.csD! D(K9
+%13OrchardCore.Deployment.Remote.Models.RemoteInstance"OrchardCore.Deployment.Remote.Services.RemoteInstanceService.FindRemoteInstance(OrchardCore.Deployment.Remote.Models.RemoteInstanceList, string)*@">
+<OrchardCore.Deployment.Remote.Services.RemoteInstanceService*O
+M
+remoteInstanceList7OrchardCore.Deployment.Remote.Models.RemoteInstanceList*
+
+idstringº
+·
+ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Services\RemoteInstanceService.csD D(KE
+remoteInstance3OrchardCore.Deployment.Remote.Models.RemoteInstance"__id*;
+9
+%13OrchardCore.Deployment.Remote.Models.RemoteInstance×
+Ô
+ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Services\RemoteInstanceService.csF F(&
+%2string"<OrchardCore.Deployment.Remote.Models.RemoteInstance.Name.set*G
+E
+remoteInstance3OrchardCore.Deployment.Remote.Models.RemoteInstance*
+
+namestringÕ
+Ò
+ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Services\RemoteInstanceService.csG G($
+%3string";OrchardCore.Deployment.Remote.Models.RemoteInstance.Url.set*G
+E
+remoteInstance3OrchardCore.Deployment.Remote.Models.RemoteInstance*
+
+urlstringã
+à
+ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Services\RemoteInstanceService.csH H(2
+%4string"BOrchardCore.Deployment.Remote.Models.RemoteInstance.ClientName.set*G
+E
+remoteInstance3OrchardCore.Deployment.Remote.Models.RemoteInstance*
+
+
+clientNamestringÛ
+Ø
+ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Services\RemoteInstanceService.csI I(*
+%5string">OrchardCore.Deployment.Remote.Models.RemoteInstance.ApiKey.set*G
+E
+remoteInstance3OrchardCore.Deployment.Remote.Models.RemoteInstance*
+
+apiKeystringü
+ù
+ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Services\RemoteInstanceService.csK K("7
+%61OrchardCore.Documents.IDocumentManager<TDocument>"__id*Š*‡>
+<OrchardCore.Deployment.Remote.Services.RemoteInstanceService"E
+_documentManager1OrchardCore.Documents.IDocumentManager<TDocument>³°
+ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Services\RemoteInstanceService.csK K(B!
+%7System.Threading.Tasks.Task"}OrchardCore.Documents.IDocumentManager<TDocument>.UpdateAsync(TDocument, System.Func<TDocument, System.Threading.Tasks.Task>)*9
+7
+%61OrchardCore.Documents.IDocumentManager<TDocument>*O
+M
+remoteInstanceList7OrchardCore.Deployment.Remote.Models.RemoteInstanceList*
+""2KUpdateAsync(TDocument, System.Func<TDocument, System.Threading.Tasks.Task>)*
+1*õ
+1ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Services\RemoteInstanceService.csL	 L(	"Â
+ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Services\RemoteInstanceService.csL L(	
+implicit return:
+idstring:
+namestring:
+urlstring:
+
+clientNamestring:
+apiKeystringB@>
+<OrchardCore.Deployment.Remote.Services.RemoteInstanceService

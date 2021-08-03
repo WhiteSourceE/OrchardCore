@@ -1,0 +1,54 @@
+
+¸OrchardCore.AdminDashboard.Services.AdminDashboardService.GetWidgetsAsync(System.Linq.Expressions.Expression<System.Func<OrchardCore.ContentManagement.Records.ContentItemIndex, bool>>)§
+œD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminDashboard\Services\AdminDashboardService.cs4 (C"0*¹
+0§
+œD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminDashboard\Services\AdminDashboardService.cs (¨
+¥
+§
+œD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminDashboard\Services\AdminDashboardService.cs  ((
+%0YesSql.ISession"__id*\*Z;
+9OrchardCore.AdminDashboard.Services.AdminDashboardService"
+_sessionYesSql.ISessionÚ
+×
+§
+œD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminDashboard\Services\AdminDashboardService.cs  (9
+%1YesSql.IQuery<T, TIndex>"FYesSql.QueryExtensions.Query<T, TIndex>(YesSql.ISession, bool, string)*"
+YesSql.QueryExtensions*
+
+%0YesSql.ISession*
+""*
+""¤¡
+§
+œD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminDashboard\Services\AdminDashboardService.cs  ()
+%2YesSql.IQuery<T, TIndex>"aYesSql.IQuery<T, TIndex>.OrderBy(System.Linq.Expressions.Expression<System.Func<TIndex, object>>)* 
+
+%1YesSql.IQuery<T, TIndex>*
+""2HOrderBy(System.Linq.Expressions.Expression<System.Func<TIndex, object>>)ØÕ
+§
+œD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminDashboard\Services\AdminDashboardService.cs  ( 
+%3YesSql.IQuery<T, TIndex>"\YesSql.IQuery<T>.With<TIndex>(System.Linq.Expressions.Expression<System.Func<TIndex, bool>>)* 
+
+%2YesSql.IQuery<T, TIndex>*<
+:
+	predicate-System.Linq.Expressions.Expression<TDelegate>2KWith<TIndex>(System.Linq.Expressions.Expression<System.Func<TIndex, bool>>)¦£
+§
+œD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminDashboard\Services\AdminDashboardService.cs  (*
+%4$System.Threading.Tasks.Task<TResult>"YesSql.IQuery<T>.ListAsync()* 
+
+%3YesSql.IQuery<T, TIndex>2ListAsync()ñ
+î
+§
+œD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminDashboard\Services\AdminDashboardService.cs (4
+widgets)System.Collections.Generic.IEnumerable<T>"__id*
+"""â
+§
+œD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminDashboard\Services\AdminDashboardService.cs (6
+4
+widgets)System.Collections.Generic.IEnumerable<T>*ï
+1§
+œD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminDashboard\Services\AdminDashboardService.cs	 (	"¿
+§
+œD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminDashboard\Services\AdminDashboardService.cs (	
+implicit return::
+	predicate-System.Linq.Expressions.Expression<TDelegate>B=;
+9OrchardCore.AdminDashboard.Services.AdminDashboardService

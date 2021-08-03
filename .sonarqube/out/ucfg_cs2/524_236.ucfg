@@ -1,0 +1,142 @@
+
+BOrchardCore.Media.Controllers.AdminController.GetMediaItem(string)õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\AdminController.csn0 n(<"8*¨
+0õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\AdminController.csp p(YÒ
+Ó
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\AdminController.csp p(,>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*á*Ñ/
+-OrchardCore.Media.Controllers.AdminController"Q
+_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationServiceÆ
+´
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\AdminController.csp< p(@,
+%1&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBaseª
+∏
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\AdminController.cspB p(Y1
+%2+OrchardCore.Security.Permissions.Permission"__id*_*]
+OrchardCore.Media.Permissions":
+ManageMedia+OrchardCore.Security.Permissions.Permissionù
+ö
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\AdminController.csp p(Z*
+%3$System.Threading.Tasks.Task<TResult>"ﬂMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission)*E"C
+AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*@
+>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService*.
+,
+%1&System.Security.Claims.ClaimsPrincipal*3
+1
+%2+OrchardCore.Security.Permissions.Permission*
+1
+2*´
+1õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\AdminController.csr r(∑¥
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\AdminController.csr r(+
+%4%Microsoft.AspNetCore.Mvc.ForbidResult"0Microsoft.AspNetCore.Mvc.ControllerBase.Forbid()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2Forbid()"Õ
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\AdminController.csr r( -
++
+%4%Microsoft.AspNetCore.Mvc.ForbidResult*ñ
+2õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\AdminController.csu u()Í
+Á
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\AdminController.csu u(*
+
+%5bool"string.IsNullOrEmpty(string?)*
+"
+string*
+
+pathstring*
+3
+4*≥
+3õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\AdminController.csw w(!Ω∫
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\AdminController.csw w(!-
+%6'Microsoft.AspNetCore.Mvc.NotFoundResult"2Microsoft.AspNetCore.Mvc.ControllerBase.NotFound()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2
+NotFound()"œ
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\AdminController.csw w("/
+-
+%6'Microsoft.AspNetCore.Mvc.NotFoundResult*√
+
+4õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\AdminController.csz |(ª
+∏
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\AdminController.csz z()'
+%7!OrchardCore.Media.IMediaFileStore"__id*i*g/
+-OrchardCore.Media.Controllers.AdminController"4
+_mediaFileStore!OrchardCore.Media.IMediaFileStore·ﬁ
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\AdminController.csz z(@*
+%8$System.Threading.Tasks.Task<TResult>";OrchardCore.FileStorage.IFileStore.GetFileInfoAsync(string)*)
+'
+%7!OrchardCore.Media.IMediaFileStore*
+
+pathstring2GetFileInfoAsync(string)›
+⁄
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\AdminController.csz z(@,
+f'OrchardCore.FileStorage.IFileStoreEntry"__id*
+""ï
+í
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\AdminController.cs| |(
+
+%9bool""object.operator ==(object, object)*
+"
+object*.
+,
+f'OrchardCore.FileStorage.IFileStoreEntry*
+""*
+5
+6*µ
+5õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\AdminController.cs~ ~(!æª
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\AdminController.cs~ ~(!.
+%10'Microsoft.AspNetCore.Mvc.NotFoundResult"2Microsoft.AspNetCore.Mvc.ControllerBase.NotFound()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2
+NotFound()"–
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\AdminController.cs~ ~("0
+.
+%10'Microsoft.AspNetCore.Mvc.NotFoundResult*ÿ
+6ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\AdminController.csÅ Å(%˛
+˚
+ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\AdminController.csÅ Å(&
+%11object"gOrchardCore.Media.Controllers.AdminController.CreateFileResult(OrchardCore.FileStorage.IFileStoreEntry)*1/
+-OrchardCore.Media.Controllers.AdminController*.
+,
+f'OrchardCore.FileStorage.IFileStoreEntry"±
+ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\AdminController.csÅ Å('
+
+%11object*€
+7ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\AdminController.csÇ	 Ç(	"µ
+ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\AdminController.csÇ Ç(	
+implicit return*Ò
+8õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\AdminController.csnI n(I»
+≈
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\AdminController.csn0 n(<
+%12"__entrypoint*
+
+pathstring*
+0:
+pathstringB1/
+-OrchardCore.Media.Controllers.AdminController

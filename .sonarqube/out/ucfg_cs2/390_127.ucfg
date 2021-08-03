@@ -1,0 +1,547 @@
+
+ÔOrchardCore.Autoroute.Drivers.AutoroutePartDisplayDriver.UpdateAsync(OrchardCore.Autoroute.Models.AutoroutePart, OrchardCore.DisplayManagement.ModelBinding.IUpdateModel, OrchardCore.ContentManagement.Display.Models.UpdatePartEditorContext)¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csQ3 Q(>"0*£+
+0¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csS ^(§°
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csS S(8=
+%07OrchardCore.Autoroute.ViewModels.AutoroutePartViewModel"7OrchardCore.Autoroute.ViewModels.AutoroutePartViewModelÀ
+»
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csS  S(6
+
+%1void"POrchardCore.Autoroute.ViewModels.AutoroutePartViewModel.AutoroutePartViewModel()*?
+=
+%07OrchardCore.Autoroute.ViewModels.AutoroutePartViewModelπ
+∂
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csS S(8D
+	viewModel7OrchardCore.Autoroute.ViewModels.AutoroutePartViewModel"__id*?
+=
+%07OrchardCore.Autoroute.ViewModels.AutoroutePartViewModelΩ
+∫
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csU9 U(?
+%2string"COrchardCore.DisplayManagement.Handlers.DisplayDriverBase.Prefix.get*<:
+8OrchardCore.DisplayManagement.Handlers.DisplayDriverBase∆√
+ß
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csU U(û*
+%3$System.Threading.Tasks.Task<TResult>"≠OrchardCore.DisplayManagement.ModelBinding.IUpdateModel.TryUpdateModelAsync<TModel>(TModel, string, params System.Linq.Expressions.Expression<System.Func<TModel, object>>[])*D
+B
+updater7OrchardCore.DisplayManagement.ModelBinding.IUpdateModel*F
+D
+	viewModel7OrchardCore.Autoroute.ViewModels.AutoroutePartViewModel*
+
+%2string*
+""*
+""*
+""*
+""*
+""2uTryUpdateModelAsync<TModel>(TModel, string, params System.Linq.Expressions.Expression<System.Func<TModel, object>>[])™
+ß
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csW W(5M
+%4GOrchardCore.ContentManagement.Metadata.Models.ContentTypePartDefinition"ZOrchardCore.ContentManagement.Display.Models.BuildPartEditorContext.TypePartDefinition.get*Q
+O
+contextDOrchardCore.ContentManagement.Display.Models.UpdatePartEditorContextâ
+Ü
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csW W(Z8
+%52OrchardCore.Autoroute.Models.AutoroutePartSettings"POrchardCore.ContentManagement.Metadata.Models.ContentDefinition.GetSettings<T>()*O
+M
+%4GOrchardCore.ContentManagement.Metadata.Models.ContentTypePartDefinitionÆ
+´
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csW W(Z>
+settings2OrchardCore.Autoroute.Models.AutoroutePartSettings"__id*:
+8
+%52OrchardCore.Autoroute.Models.AutoroutePartSettings∆
+√
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csY Y(/
+
+%6bool"DOrchardCore.Autoroute.ViewModels.AutoroutePartViewModel.Disabled.get*F
+D
+	viewModel7OrchardCore.Autoroute.ViewModels.AutoroutePartViewModel∂
+≥
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csY Y(/
+
+%7bool"7OrchardCore.Autoroute.Models.AutoroutePart.Disabled.set*5
+3
+model*OrchardCore.Autoroute.Models.AutoroutePart*
+
+
+%6bool∆
+√
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csZ Z(/
+
+%8bool"DOrchardCore.Autoroute.ViewModels.AutoroutePartViewModel.Absolute.get*F
+D
+	viewModel7OrchardCore.Autoroute.ViewModels.AutoroutePartViewModel∂
+≥
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csZ Z(/
+
+%9bool"7OrchardCore.Autoroute.Models.AutoroutePart.Absolute.set*5
+3
+model*OrchardCore.Autoroute.Models.AutoroutePart*
+
+
+%8bool“
+œ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.cs[( [(E
+%10bool"OOrchardCore.Autoroute.ViewModels.AutoroutePartViewModel.RouteContainedItems.get*F
+D
+	viewModel7OrchardCore.Autoroute.ViewModels.AutoroutePartViewModel√
+¿
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.cs[ [(E
+%11bool"BOrchardCore.Autoroute.Models.AutoroutePart.RouteContainedItems.set*5
+3
+model*OrchardCore.Autoroute.Models.AutoroutePart*
+
+%10bool©
+¶
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.cs^ ^(
+%12bool"7OrchardCore.Autoroute.Models.AutoroutePart.Disabled.get*5
+3
+model*OrchardCore.Autoroute.Models.AutoroutePart*
+1
+2*˙
+1¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.cs` `(,√
+¿
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.cs` `(,
+%13bool"FOrchardCore.Autoroute.Models.AutoroutePartSettings.AllowCustomPath.get*@
+>
+settings2OrchardCore.Autoroute.Models.AutoroutePartSettings*
+3
+4*¥
+3¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csb b(/≈
+¬
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csb! b(/
+%14string"@OrchardCore.Autoroute.ViewModels.AutoroutePartViewModel.Path.get*F
+D
+	viewModel7OrchardCore.Autoroute.ViewModels.AutoroutePartViewModel∏
+µ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csb b(/
+%15string"3OrchardCore.Autoroute.Models.AutoroutePart.Path.set*5
+3
+model*OrchardCore.Autoroute.Models.AutoroutePart*
+
+%14string*
+4*˙
+4¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.cse e(,√
+¿
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.cse e(,
+%16bool"FOrchardCore.Autoroute.Models.AutoroutePartSettings.AllowUpdatePath.get*@
+>
+settings2OrchardCore.Autoroute.Models.AutoroutePartSettings*
+5
+6*Ä
+5¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.cse0 e(D…
+∆
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.cse0 e(D
+%17bool"FOrchardCore.Autoroute.ViewModels.AutoroutePartViewModel.UpdatePath.get*F
+D
+	viewModel7OrchardCore.Autoroute.ViewModels.AutoroutePartViewModel*
+7
+6*ﬂ
+7¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csh h(#´
+®
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csh h(#
+%18string"3OrchardCore.Autoroute.Models.AutoroutePart.Path.set*5
+3
+model*OrchardCore.Autoroute.Models.AutoroutePart* *
+6*ÿ
+6¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csk m('Û
+
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csk" k(65
+%19.Microsoft.AspNetCore.Http.IHttpContextAccessor"__id*á*Ñ:
+8OrchardCore.Autoroute.Drivers.AutoroutePartDisplayDriver"F
+_httpContextAccessor.Microsoft.AspNetCore.Http.IHttpContextAccessor‰·
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csk" k(B,
+%20%Microsoft.AspNetCore.Http.HttpContext">Microsoft.AspNetCore.Http.IHttpContextAccessor.HttpContext.get*7
+5
+%19.Microsoft.AspNetCore.Http.IHttpContextAccessor2HttpContext.getò
+ï
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csk k(B4
+httpContext%Microsoft.AspNetCore.Http.HttpContext"__id*.
+,
+%20%Microsoft.AspNetCore.Http.HttpContext©
+¶
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csm m('
+%21bool""object.operator !=(object, object)*
+"
+object*6
+4
+httpContext%Microsoft.AspNetCore.Http.HttpContext*
+""*
+8
+9*Ñ
+8¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csm+ m(à
+Ö
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csm1 m(F?
+%228Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*í*è:
+8OrchardCore.Autoroute.Drivers.AutoroutePartDisplayDriver"Q
+_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationService√
+¿
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csmV m(f-
+%23&System.Security.Claims.ClaimsPrincipal".Microsoft.AspNetCore.Http.HttpContext.User.get*6
+4
+httpContext%Microsoft.AspNetCore.Http.HttpContextÀ
+»
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csmh m(2
+%24+OrchardCore.Security.Permissions.Permission"__id*c*a#
+!OrchardCore.Autoroute.Permissions":
+SetHomepage+OrchardCore.Security.Permissions.Permission≠
+™
+ß
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csm1 m(Ä+
+%25$System.Threading.Tasks.Task<TResult>"ﬂMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission)*E"C
+AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*A
+?
+%228Microsoft.AspNetCore.Authorization.IAuthorizationService*/
+-
+%23&System.Security.Claims.ClaimsPrincipal*4
+2
+%24+OrchardCore.Security.Permissions.Permission*
+10
+9*å	
+10¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.cso o(Wæ
+ª
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.cso= o(C
+%26string"COrchardCore.DisplayManagement.Handlers.DisplayDriverBase.Prefix.get*<:
+8OrchardCore.DisplayManagement.Handlers.DisplayDriverBaseñì
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.cso o(X+
+%27$System.Threading.Tasks.Task<TResult>"≠OrchardCore.DisplayManagement.ModelBinding.IUpdateModel.TryUpdateModelAsync<TModel>(TModel, string, params System.Linq.Expressions.Expression<System.Func<TModel, object>>[])*D
+B
+updater7OrchardCore.DisplayManagement.ModelBinding.IUpdateModel*5
+3
+model*OrchardCore.Autoroute.Models.AutoroutePart*
+
+%26string*
+""2uTryUpdateModelAsync<TModel>(TModel, string, params System.Linq.Expressions.Expression<System.Func<TModel, object>>[])*
+9*Õ
+9¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csr u(4çä
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csr r("A
+%28:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary"FOrchardCore.DisplayManagement.ModelBinding.IUpdateModel.ModelState.get*D
+B
+updater7OrchardCore.DisplayManagement.ModelBinding.IUpdateModel2ModelState.getæ
+ª
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csr9 r(?
+%29string"COrchardCore.DisplayManagement.Handlers.DisplayDriverBase.Prefix.get*<:
+8OrchardCore.DisplayManagement.Handlers.DisplayDriverBaseÊ
+„
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csr^ r(_9
+%302Microsoft.Extensions.Localization.IStringLocalizer"__id*w*u:
+8OrchardCore.Autoroute.Drivers.AutoroutePartDisplayDriver"7
+S2Microsoft.Extensions.Localization.IStringLocalizer∫
+∑
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csrA r(`0
+%31)System.Collections.Generic.IEnumerable<T>"´OrchardCore.Autoroute.Models.AutoroutePartExtensions.ValidatePathFieldValue(OrchardCore.Autoroute.Models.AutoroutePart, Microsoft.Extensions.Localization.IStringLocalizer)*8"6
+4OrchardCore.Autoroute.Models.AutoroutePartExtensions*5
+3
+model*OrchardCore.Autoroute.Models.AutoroutePart*;
+9
+%302Microsoft.Extensions.Localization.IStringLocalizer¸
+˘
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csr r(a
+%32void"ıOrchardCore.Mvc.ModelBinding.ModelStateDictionaryExtensions.BindValidationResults(Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary, string, System.Collections.Generic.IEnumerable<System.ComponentModel.DataAnnotations.ValidationResult>)*?"=
+;OrchardCore.Mvc.ModelBinding.ModelStateDictionaryExtensions*C
+A
+%28:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary*
+
+%29string*2
+0
+%31)System.Collections.Generic.IEnumerable<T>ß
+§
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csu* u(4
+%33string"3OrchardCore.Autoroute.Models.AutoroutePart.Path.get*5
+3
+model*OrchardCore.Autoroute.Models.AutoroutePartı
+Ú
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csu u(5
+%34bool"string.IsNullOrEmpty(string?)*
+"
+string*
+
+%33string*
+11
+2*á
+11¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csu: u(]Õ
+ 
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csu; u(]
+%35bool"POrchardCore.Autoroute.Models.AutoroutePartSettings.ManageContainedItemRoutes.get*@
+>
+settings2OrchardCore.Autoroute.Models.AutoroutePartSettings*
+12
+13*à
+13ß
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csub u(ÑŒ
+À
+ß
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csub u(Ñ
+%36bool"POrchardCore.Autoroute.Models.AutoroutePartSettings.ManageContainedItemRoutes.get*@
+>
+settings2OrchardCore.Autoroute.Models.AutoroutePartSettings*
+14
+2*Ê
+14®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csuà u(ñ´
+®
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csuà u(ñ
+%37bool"7OrchardCore.Autoroute.Models.AutoroutePart.Absolute.get*5
+3
+model*OrchardCore.Autoroute.Models.AutoroutePart*
+12
+2*”%
+12¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csw {(/ß
+§
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csw w()
+%38string"3OrchardCore.Autoroute.Models.AutoroutePart.Path.get*5
+3
+model*OrchardCore.Autoroute.Models.AutoroutePartÊ
+„
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csw w(3
+%39string"string.Trim(char)*
+
+%38string*
+/”
+–
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csw w(3
+pathstring"__id*
+
+%39string«ƒ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csx  x(_
+%40string[]"string[]ﬁ
+€
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csx5 x(?
+%41string"__concat*
+/*
+
+pathstringﬁ
+€
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csxA x(K
+%42string"__concat*
+
+pathstring*
+/ﬁ
+€
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csxM x(W
+%43string"__concat*
+/*
+
+pathstring›
+⁄
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csxM x(]
+%44string"__concat*
+
+%43string*
+/Ë
+Â
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csx- x(_
+%45"
+__arraySet*
+
+%40string[]*2 *
+
+pathstringÈ
+Ê
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csx- x(_
+%46"
+__arraySet*
+
+%40string[]*2*
+
+%41stringÈ
+Ê
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csx- x(_
+%47"
+__arraySet*
+
+%40string[]*2*
+
+%42stringÈ
+Ê
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csx- x(_
+%48"
+__arraySet*
+
+%40string[]*2*
+
+%44stringÿ
+’
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csx x(_
+pathsstring[]"__id*
+
+%40string[]ß
+§
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csz2 z(:
+%49YesSql.ISession"__id*[*Y:
+8OrchardCore.Autoroute.Drivers.AutoroutePartDisplayDriver"
+_sessionYesSql.ISessionï
+í
+ß
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csz2 z(è
+%50YesSql.IQueryIndex<T>"ÅYesSql.QueryExtensions.QueryIndex<TIndex>(YesSql.ISession, System.Linq.Expressions.Expression<System.Func<TIndex, bool>>, string)*"
+YesSql.QueryExtensions*
+
+%49YesSql.ISession*
+""*
+""™ß
+ß
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csz2 z(õ+
+%51$System.Threading.Tasks.Task<TResult>"!YesSql.IQueryIndex<T>.ListAsync()*
+
+%50YesSql.IQueryIndex<T>2ListAsync()˚
+¯
+ß
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csz z(õ>
+possibleConflicts)System.Collections.Generic.IEnumerable<T>"__id*
+""Ì
+Í
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.cs{ {(/
+%52bool"TSystem.Linq.Enumerable.Any<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*@
+>
+possibleConflicts)System.Collections.Generic.IEnumerable<T>*
+15
+2*À
+15¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.cs} }(ië
+é
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.cs} }(j
+%53bool"pSystem.Linq.Enumerable.Any<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
+System.Linq.Enumerable*@
+>
+possibleConflicts)System.Collections.Generic.IEnumerable<T>*
+""*
+16
+17*Ã
+17ß
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.cs~ ~(•í
+è
+ß
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.cs~ ~(¶
+%54bool"pSystem.Linq.Enumerable.Any<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
+System.Linq.Enumerable*@
+>
+possibleConflicts)System.Collections.Generic.IEnumerable<T>*
+""*
+16
+2*‘
+16®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csÄ Ä(~èå
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csÄ Ä(.A
+%55:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary"FOrchardCore.DisplayManagement.ModelBinding.IUpdateModel.ModelState.get*D
+B
+updater7OrchardCore.DisplayManagement.ModelBinding.IUpdateModel2ModelState.get¿
+Ω
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csÄ= Ä(C
+%56string"COrchardCore.DisplayManagement.Handlers.DisplayDriverBase.Prefix.get*<:
+8OrchardCore.DisplayManagement.Handlers.DisplayDriverBaseË
+Â
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csÄY Ä(Z9
+%572Microsoft.Extensions.Localization.IStringLocalizer"__id*w*u:
+8OrchardCore.Autoroute.Drivers.AutoroutePartDisplayDriver"7
+S2Microsoft.Extensions.Localization.IStringLocalizer£†
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csÄY Ä(8
+%581Microsoft.Extensions.Localization.LocalizedString"CMicrosoft.Extensions.Localization.IStringLocalizer.this[string].get*;
+9
+%572Microsoft.Extensions.Localization.IStringLocalizer*%#
+!Your permalink is already in use.2this[string].get∑
+¥
+©
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csÄ Ä(Ä
+%59void"ùOrchardCore.Mvc.ModelBinding.ModelStateDictionaryExtensions.AddModelError(Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary, string, string, string)*?"=
+;OrchardCore.Mvc.ModelBinding.ModelStateDictionaryExtensions*C
+A
+%55:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary*
+
+%56string*
+""*:
+8
+%581Microsoft.Extensions.Localization.LocalizedString*
+2*ı
+2®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csÜ Ü(&Ÿ÷
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csÜ Ü('9
+%602OrchardCore.DisplayManagement.Views.IDisplayResult"ÆOrchardCore.Autoroute.Drivers.AutoroutePartDisplayDriver.Edit(OrchardCore.Autoroute.Models.AutoroutePart, OrchardCore.ContentManagement.Display.Models.BuildPartEditorContext)*<:
+8OrchardCore.Autoroute.Drivers.AutoroutePartDisplayDriver*5
+3
+model*OrchardCore.Autoroute.Models.AutoroutePart*Q
+O
+contextDOrchardCore.ContentManagement.Display.Models.UpdatePartEditorContext2uEdit(OrchardCore.Autoroute.Models.AutoroutePart, OrchardCore.ContentManagement.Display.Models.BuildPartEditorContext)"Ë
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csÜ Ü((;
+9
+%602OrchardCore.DisplayManagement.Views.IDisplayResult*Ú
+18®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csá	 á(	"¿
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Drivers\AutoroutePartDisplayDriver.csá á(	
+implicit return:3
+model*OrchardCore.Autoroute.Models.AutoroutePart:B
+updater7OrchardCore.DisplayManagement.ModelBinding.IUpdateModel:O
+contextDOrchardCore.ContentManagement.Display.Models.UpdatePartEditorContextB<:
+8OrchardCore.Autoroute.Drivers.AutoroutePartDisplayDriver

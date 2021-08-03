@@ -1,0 +1,723 @@
+
+cOrchardCore.Content.Controllers.ApiController.Post(OrchardCore.ContentManagement.ContentItem, bool)ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csV) V(-"21*π
+0ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csX X(^Ú
+Ô
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csX X(,>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*á*Ñ/
+-OrchardCore.Content.Controllers.ApiController"Q
+_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationServiceØ
+¨
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csX< X(@,
+%1&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBaseƒ
+¡
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csXB X(^1
+%2+OrchardCore.Security.Permissions.Permission"__id*g*e"
+ OrchardCore.Contents.Permissions"?
+AccessContentApi+OrchardCore.Security.Permissions.Permissionû
+õ
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csX X(_*
+%3$System.Threading.Tasks.Task<TResult>"ﬂMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission)*E"C
+AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*@
+>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService*.
+,
+%1&System.Security.Claims.ClaimsPrincipal*3
+1
+%2+OrchardCore.Security.Permissions.Permission*
+1
+2*≠
+1ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csZ Z(3∑
+¥
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csZ Z(4+
+%4%Microsoft.AspNetCore.Mvc.ActionResult"vOrchardCore.Mvc.Utilities.ControllerExtensions.ChallengeOrForbid(Microsoft.AspNetCore.Mvc.Controller, params string[])*2"0
+.OrchardCore.Mvc.Utilities.ControllerExtensions*1/
+-OrchardCore.Content.Controllers.ApiController*
+Api"Œ
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csZ Z(5-
++
+%4%Microsoft.AspNetCore.Mvc.ActionResult*Ä
+2ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.cs` b(#‘
+—
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.cs`$ `(33
+%5-OrchardCore.ContentManagement.IContentManager"__id*u*s/
+-OrchardCore.Content.Controllers.ApiController"@
+_contentManager-OrchardCore.ContentManagement.IContentManager£
+†
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.cs`= `(P
+%6string";OrchardCore.ContentManagement.ContentItem.ContentItemId.get*4
+2
+model)OrchardCore.ContentManagement.ContentItem»
+≈
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.cs`R `(n2
+%7,OrchardCore.ContentManagement.VersionOptions">OrchardCore.ContentManagement.VersionOptions.DraftRequired.get*0".
+,OrchardCore.ContentManagement.VersionOptions˘ˆ
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.cs`$ `(o*
+%8$System.Threading.Tasks.Task<TResult>"lOrchardCore.ContentManagement.IContentManager.GetAsync(string, OrchardCore.ContentManagement.VersionOptions)*5
+3
+%5-OrchardCore.ContentManagement.IContentManager*
+
+%6string*4
+2
+%7,OrchardCore.ContentManagement.VersionOptions2>GetAsync(string, OrchardCore.ContentManagement.VersionOptions)Í
+Á
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.cs` `(o8
+contentItem)OrchardCore.ContentManagement.ContentItem"__id*
+""¢
+ü
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csb b(#
+
+%9bool""object.operator ==(object, object)*
+"
+object*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItem*
+""*
+3
+4*ƒ
+3ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csd d(fÛ
+
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csd d(0?
+%108Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*á*Ñ/
+-OrchardCore.Content.Controllers.ApiController"Q
+_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationService∞
+≠
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csd@ d(D-
+%11&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase…
+∆
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csdF d(f2
+%12+OrchardCore.Security.Permissions.Permission"__id*k*i(
+&OrchardCore.Contents.CommonPermissions"=
+PublishContent+OrchardCore.Security.Permissions.Permission¢
+ü
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csd d(g+
+%13$System.Threading.Tasks.Task<TResult>"ﬂMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission)*E"C
+AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*A
+?
+%108Microsoft.AspNetCore.Authorization.IAuthorizationService*/
+-
+%11&System.Security.Claims.ClaimsPrincipal*4
+2
+%12+OrchardCore.Security.Permissions.Permission*
+5
+6*Ø
+5ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csf f(7∏
+µ
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csf f(8,
+%14%Microsoft.AspNetCore.Mvc.ActionResult"vOrchardCore.Mvc.Utilities.ControllerExtensions.ChallengeOrForbid(Microsoft.AspNetCore.Mvc.Controller, params string[])*2"0
+.OrchardCore.Mvc.Utilities.ControllerExtensions*1/
+-OrchardCore.Content.Controllers.ApiController*
+Api"œ
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csf f(9.
+,
+%14%Microsoft.AspNetCore.Mvc.ActionResult*°
+6ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csi n(%’
+“
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csi+ i(:4
+%15-OrchardCore.ContentManagement.IContentManager"__id*u*s/
+-OrchardCore.Content.Controllers.ApiController"@
+_contentManager-OrchardCore.ContentManagement.IContentManager¢
+ü
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csiD i(U
+%16string"9OrchardCore.ContentManagement.ContentItem.ContentType.get*4
+2
+model)OrchardCore.ContentManagement.ContentItemÍÁ
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csi+ i(V+
+%17$System.Threading.Tasks.Task<TResult>">OrchardCore.ContentManagement.IContentManager.NewAsync(string)*6
+4
+%15-OrchardCore.ContentManagement.IContentManager*
+
+%16string2NewAsync(string)Ì
+Í
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csi i(V;
+newContentItem)OrchardCore.ContentManagement.ContentItem"__id*
+""°
+û
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csj j(+0
+%18)OrchardCore.ContentManagement.ContentItem"îOrchardCore.ContentManagement.ContentItemExtensions.Merge(OrchardCore.ContentManagement.ContentItem, object, Newtonsoft.Json.Linq.JsonMergeSettings)*7"5
+3OrchardCore.ContentManagement.ContentItemExtensions*=
+;
+newContentItem)OrchardCore.ContentManagement.ContentItem*4
+2
+model)OrchardCore.ContentManagement.ContentItem*
+""’
+“
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csl# l(24
+%19-OrchardCore.ContentManagement.IContentManager"__id*u*s/
+-OrchardCore.Content.Controllers.ApiController"@
+_contentManager-OrchardCore.ContentManagement.IContentManager¡
+æ
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csl` l(t3
+%20,OrchardCore.ContentManagement.VersionOptions"6OrchardCore.ContentManagement.VersionOptions.Draft.get*0".
+,OrchardCore.ContentManagement.VersionOptionsó
+î
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csl# l(u+
+%21$System.Threading.Tasks.Task<TResult>"€OrchardCore.ContentManagement.ContentManagerExtensions.UpdateValidateAndCreateAsync(OrchardCore.ContentManagement.IContentManager, OrchardCore.ContentManagement.ContentItem, OrchardCore.ContentManagement.VersionOptions)*:"8
+6OrchardCore.ContentManagement.ContentManagerExtensions*6
+4
+%19-OrchardCore.ContentManagement.IContentManager*=
+;
+newContentItem)OrchardCore.ContentManagement.ContentItem*5
+3
+%20,OrchardCore.ContentManagement.VersionOptions¯
+ı
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csl l(uF
+result<OrchardCore.ContentManagement.Handlers.ContentValidateResult"__id*
+""≈
+¬
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csn n(%
+%22bool"JOrchardCore.ContentManagement.Handlers.ContentValidateResult.Succeeded.get*H
+F
+result<OrchardCore.ContentManagement.Handlers.ContentValidateResult*
+7
+8*Û
+7ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csp s(B—
+Œ
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csq q( 9
+%232Microsoft.Extensions.Localization.IStringLocalizer"__id*l*j/
+-OrchardCore.Content.Controllers.ApiController"7
+S2Microsoft.Extensions.Localization.IStringLocalizerùö
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csq q(K8
+%241Microsoft.Extensions.Localization.LocalizedString"CMicrosoft.Extensions.Localization.IStringLocalizer.this[string].get*;
+9
+%232Microsoft.Extensions.Localization.IStringLocalizer*+)
+'One or more validation errors occurred.2this[string].getÈ
+Ê
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csr1 r(>2
+%25+System.Collections.Generic.IReadOnlyList<T>"GOrchardCore.ContentManagement.Handlers.ContentValidateResult.Errors.get*H
+F
+result<OrchardCore.ContentManagement.Handlers.ContentValidateResultª
+∏
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csr  r(?
+%26string"?string.Join<T>(char, System.Collections.Generic.IEnumerable<T>)*
+"
+string*
+,*4
+2
+%25+System.Collections.Generic.IReadOnlyList<T>∑
+¥
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.css) s(B
+%27"__id*
+""∏
+µ
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.css$ s(B
+%28"__id*
+
+%27ÈÊ
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csp s(C,
+%29%Microsoft.AspNetCore.Mvc.ObjectResult"UMicrosoft.AspNetCore.Mvc.ControllerBase.Problem(string, string, int?, string, string)*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*
+
+%26string*
+""*
+
+%28*:
+8
+%241Microsoft.Extensions.Localization.LocalizedString*
+""2-Problem(string, string, int?, string, string)"œ
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csp s(D.
+,
+%29%Microsoft.AspNetCore.Mvc.ObjectResult*∑
+8ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csw w(, 
+«
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csw w($A
+%30:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary"6Microsoft.AspNetCore.Mvc.ControllerBase.ModelState.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBaseº
+π
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csw w(,
+%31bool"FMicrosoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary.IsValid.get*C
+A
+%30:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary*
+9
+10*€
+9ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csy |(B—
+Œ
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csz z( 9
+%322Microsoft.Extensions.Localization.IStringLocalizer"__id*l*j/
+-OrchardCore.Content.Controllers.ApiController"7
+S2Microsoft.Extensions.Localization.IStringLocalizerùö
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csz z(K8
+%331Microsoft.Extensions.Localization.LocalizedString"CMicrosoft.Extensions.Localization.IStringLocalizer.this[string].get*;
+9
+%322Microsoft.Extensions.Localization.IStringLocalizer*+)
+'One or more validation errors occurred.2this[string].get 
+«
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.cs{2 {(<A
+%34:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary"6Microsoft.AspNetCore.Mvc.ControllerBase.ModelState.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBaseÅ
+˛
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.cs{2 {(CQ
+%35JMicrosoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary.ValueEnumerable"EMicrosoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary.Values.get*C
+A
+%34:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary˚
+¯
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.cs{2 {(y0
+%36)System.Collections.Generic.IEnumerable<T>"´System.Linq.Enumerable.SelectMany<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, System.Collections.Generic.IEnumerable<TResult>>)*"
+System.Linq.Enumerable*S
+Q
+%35JMicrosoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary.ValueEnumerable*
+""¿
+Ω
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.cs{  {(z
+%37string"Estring.Join(string?, System.Collections.Generic.IEnumerable<string?>)*
+"
+string*
+, *2
+0
+%36)System.Collections.Generic.IEnumerable<T>∑
+¥
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.cs|) |(B
+%38"__id*
+""∏
+µ
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.cs|$ |(B
+%39"__id*
+
+%38ÈÊ
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csy |(C,
+%40%Microsoft.AspNetCore.Mvc.ObjectResult"UMicrosoft.AspNetCore.Mvc.ControllerBase.Problem(string, string, int?, string, string)*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*
+
+%37string*
+""*
+
+%39*:
+8
+%331Microsoft.Extensions.Localization.LocalizedString*
+""2-Problem(string, string, int?, string, string)"œ
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csy |(D.
+,
+%40%Microsoft.AspNetCore.Mvc.ObjectResult*Õ
+10ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.cs (,°
+û
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.cs (,8
+contentItem)OrchardCore.ContentManagement.ContentItem"__id*=
+;
+newContentItem)OrchardCore.ContentManagement.ContentItem*
+11*ë
+4û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csÉ É(pı
+Ú
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csÉ É(0?
+%418Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*á*Ñ/
+-OrchardCore.Content.Controllers.ApiController"Q
+_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationService≤
+Ø
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csÉ@ É(D-
+%42&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase»
+≈
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csÉF É(c2
+%43+OrchardCore.Security.Permissions.Permission"__id*h*f(
+&OrchardCore.Contents.CommonPermissions":
+EditContent+OrchardCore.Security.Permissions.PermissionË
+Â
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csÉ É(q+
+%44$System.Threading.Tasks.Task<TResult>"ÁMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission, object)*E"C
+AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*A
+?
+%418Microsoft.AspNetCore.Authorization.IAuthorizationService*/
+-
+%42&System.Security.Claims.ClaimsPrincipal*4
+2
+%43+OrchardCore.Security.Permissions.Permission*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItem*
+12
+13*∂
+12û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csÖ Ö(7∫
+∑
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csÖ Ö(8,
+%45%Microsoft.AspNetCore.Mvc.ActionResult"vOrchardCore.Mvc.Utilities.ControllerExtensions.ChallengeOrForbid(Microsoft.AspNetCore.Mvc.Controller, params string[])*2"0
+.OrchardCore.Mvc.Utilities.ControllerExtensions*1/
+-OrchardCore.Content.Controllers.ApiController*
+Api"—
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csÖ Ö(9.
+,
+%45%Microsoft.AspNetCore.Mvc.ActionResult*ë
+13û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csà ç(%—
+Œ
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csà) à(@-
+%46&Newtonsoft.Json.Linq.JsonMergeSettings"__id*v*t/
+-OrchardCore.Content.Controllers.ApiController"A
+UpdateJsonMergeSettings&Newtonsoft.Json.Linq.JsonMergeSettings…
+∆
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csà à(A0
+%47)OrchardCore.ContentManagement.ContentItem"îOrchardCore.ContentManagement.ContentItemExtensions.Merge(OrchardCore.ContentManagement.ContentItem, object, Newtonsoft.Json.Linq.JsonMergeSettings)*7"5
+3OrchardCore.ContentManagement.ContentItemExtensions*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItem*4
+2
+model)OrchardCore.ContentManagement.ContentItem*/
+-
+%46&Newtonsoft.Json.Linq.JsonMergeSettings◊
+‘
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csä ä(%4
+%48-OrchardCore.ContentManagement.IContentManager"__id*u*s/
+-OrchardCore.Content.Controllers.ApiController"@
+_contentManager-OrchardCore.ContentManagement.IContentManager⁄◊
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csä ä(>"
+%49System.Threading.Tasks.Task"dOrchardCore.ContentManagement.IContentManager.UpdateAsync(OrchardCore.ContentManagement.ContentItem)*6
+4
+%48-OrchardCore.ContentManagement.IContentManager*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItem26UpdateAsync(OrchardCore.ContentManagement.ContentItem)◊
+‘
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csã# ã(24
+%50-OrchardCore.ContentManagement.IContentManager"__id*u*s/
+-OrchardCore.Content.Controllers.ApiController"@
+_contentManager-OrchardCore.ContentManagement.IContentManagerÁ‰
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csã# ã(M+
+%51$System.Threading.Tasks.Task<TResult>"fOrchardCore.ContentManagement.IContentManager.ValidateAsync(OrchardCore.ContentManagement.ContentItem)*6
+4
+%50-OrchardCore.ContentManagement.IContentManager*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItem28ValidateAsync(OrchardCore.ContentManagement.ContentItem)˙
+˜
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csã ã(MF
+result<OrchardCore.ContentManagement.Handlers.ContentValidateResult"__id*
+""«
+ƒ
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csç ç(%
+%52bool"JOrchardCore.ContentManagement.Handlers.ContentValidateResult.Succeeded.get*H
+F
+result<OrchardCore.ContentManagement.Handlers.ContentValidateResult*
+14
+15*Ü
+14û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csè í(B”
+–
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csê ê( 9
+%532Microsoft.Extensions.Localization.IStringLocalizer"__id*l*j/
+-OrchardCore.Content.Controllers.ApiController"7
+S2Microsoft.Extensions.Localization.IStringLocalizerüú
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csê ê(K8
+%541Microsoft.Extensions.Localization.LocalizedString"CMicrosoft.Extensions.Localization.IStringLocalizer.this[string].get*;
+9
+%532Microsoft.Extensions.Localization.IStringLocalizer*+)
+'One or more validation errors occurred.2this[string].getÎ
+Ë
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csë1 ë(>2
+%55+System.Collections.Generic.IReadOnlyList<T>"GOrchardCore.ContentManagement.Handlers.ContentValidateResult.Errors.get*H
+F
+result<OrchardCore.ContentManagement.Handlers.ContentValidateResultΩ
+∫
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csë  ë(?
+%56string"?string.Join<T>(char, System.Collections.Generic.IEnumerable<T>)*
+"
+string*
+,*4
+2
+%55+System.Collections.Generic.IReadOnlyList<T>π
+∂
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csí) í(B
+%57"__id*
+""∫
+∑
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csí$ í(B
+%58"__id*
+
+%57ÎË
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csè í(C,
+%59%Microsoft.AspNetCore.Mvc.ObjectResult"UMicrosoft.AspNetCore.Mvc.ControllerBase.Problem(string, string, int?, string, string)*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*
+
+%56string*
+""*
+
+%58*:
+8
+%541Microsoft.Extensions.Localization.LocalizedString*
+""2-Problem(string, string, int?, string, string)"—
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csè í(D.
+,
+%59%Microsoft.AspNetCore.Mvc.ObjectResult*ø
+15û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csñ ñ(,Ã
+…
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csñ ñ($A
+%60:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary"6Microsoft.AspNetCore.Mvc.ControllerBase.ModelState.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBaseæ
+ª
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csñ ñ(,
+%61bool"FMicrosoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary.IsValid.get*C
+A
+%60:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary*
+16
+11*Ú
+16û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csò õ(B”
+–
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csô ô( 9
+%622Microsoft.Extensions.Localization.IStringLocalizer"__id*l*j/
+-OrchardCore.Content.Controllers.ApiController"7
+S2Microsoft.Extensions.Localization.IStringLocalizerüú
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csô ô(K8
+%631Microsoft.Extensions.Localization.LocalizedString"CMicrosoft.Extensions.Localization.IStringLocalizer.this[string].get*;
+9
+%622Microsoft.Extensions.Localization.IStringLocalizer*+)
+'One or more validation errors occurred.2this[string].getÃ
+…
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csö2 ö(<A
+%64:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary"6Microsoft.AspNetCore.Mvc.ControllerBase.ModelState.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBaseÉ
+Ä
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csö2 ö(CQ
+%65JMicrosoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary.ValueEnumerable"EMicrosoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary.Values.get*C
+A
+%64:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary˝
+˙
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csö2 ö(y0
+%66)System.Collections.Generic.IEnumerable<T>"´System.Linq.Enumerable.SelectMany<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, System.Collections.Generic.IEnumerable<TResult>>)*"
+System.Linq.Enumerable*S
+Q
+%65JMicrosoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary.ValueEnumerable*
+""¬
+ø
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csö  ö(z
+%67string"Estring.Join(string?, System.Collections.Generic.IEnumerable<string?>)*
+"
+string*
+, *2
+0
+%66)System.Collections.Generic.IEnumerable<T>π
+∂
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csõ) õ(B
+%68"__id*
+""∫
+∑
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csõ$ õ(B
+%69"__id*
+
+%68ÎË
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csò õ(C,
+%70%Microsoft.AspNetCore.Mvc.ObjectResult"UMicrosoft.AspNetCore.Mvc.ControllerBase.Problem(string, string, int?, string, string)*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*
+
+%67string*
+""*
+
+%69*:
+8
+%631Microsoft.Extensions.Localization.LocalizedString*
+""2-Problem(string, string, int?, string, string)"—
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csò õ(D.
+,
+%70%Microsoft.AspNetCore.Mvc.ObjectResult*Ø
+11û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csü ü(*
+17
+18*‰
+17û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.cs° °(>◊
+‘
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.cs° °(%4
+%71-OrchardCore.ContentManagement.IContentManager"__id*u*s/
+-OrchardCore.Content.Controllers.ApiController"@
+_contentManager-OrchardCore.ContentManagement.IContentManager‹Ÿ
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.cs° °(?"
+%72System.Threading.Tasks.Task"eOrchardCore.ContentManagement.IContentManager.PublishAsync(OrchardCore.ContentManagement.ContentItem)*6
+4
+%71-OrchardCore.ContentManagement.IContentManager*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItem27PublishAsync(OrchardCore.ContentManagement.ContentItem)*
+19*Ë
+18û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.cs• •(@◊
+‘
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.cs• •(%4
+%73-OrchardCore.ContentManagement.IContentManager"__id*u*s/
+-OrchardCore.Content.Controllers.ApiController"@
+_contentManager-OrchardCore.ContentManagement.IContentManager‡›
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.cs• •(A"
+%74System.Threading.Tasks.Task"gOrchardCore.ContentManagement.IContentManager.SaveDraftAsync(OrchardCore.ContentManagement.ContentItem)*6
+4
+%73-OrchardCore.ContentManagement.IContentManager*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItem29SaveDraftAsync(OrchardCore.ContentManagement.ContentItem)*
+19*˚
+19û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.cs® ®(!˝˙
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.cs® ®(".
+%75'Microsoft.AspNetCore.Mvc.OkObjectResult"2Microsoft.AspNetCore.Mvc.ControllerBase.Ok(object)*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItem2
+Ok(object)"”
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.cs® ®(#0
+.
+%75'Microsoft.AspNetCore.Mvc.OkObjectResult*ﬁ
+20û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.cs©	 ©(	"∂
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.cs© ©(	
+implicit return*é
+21ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csVT V(Tˇ
+¸
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csV) V(-M
+2
+model)OrchardCore.ContentManagement.ContentItem"
+ContentItemIdstring"__entrypointÜ
+É
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csV) V(-T
+2
+model)OrchardCore.ContentManagement.ContentItem"
+ContentItemVersionIdstring"__entrypoint˝
+˙
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csV) V(-K
+2
+model)OrchardCore.ContentManagement.ContentItem"
+ContentTypestring"__entrypointâ
+Ü
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csV) V(-W
+2
+model)OrchardCore.ContentManagement.ContentItem"!
+ModifiedUtcSystem.Nullable<T>"__entrypointä
+á
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csV) V(-X
+2
+model)OrchardCore.ContentManagement.ContentItem""
+PublishedUtcSystem.Nullable<T>"__entrypointà
+Ö
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csV) V(-V
+2
+model)OrchardCore.ContentManagement.ContentItem" 
+
+CreatedUtcSystem.Nullable<T>"__entrypoint˜
+Ù
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csV) V(-E
+2
+model)OrchardCore.ContentManagement.ContentItem"
+Ownerstring"__entrypoint¯
+ı
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csV) V(-F
+2
+model)OrchardCore.ContentManagement.ContentItem"
+Authorstring"__entrypoint˝
+˙
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csV) V(-K
+2
+model)OrchardCore.ContentManagement.ContentItem"
+DisplayTextstring"__entrypointø
+º
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\ApiController.csV) V(-
+%76"__entrypoint*
+""*
+0:2
+model)OrchardCore.ContentManagement.ContentItem:
+draftboolB1/
+-OrchardCore.Content.Controllers.ApiController

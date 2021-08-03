@@ -1,0 +1,9 @@
+Å
+¹D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ReCaptcha\obj\Debug\netcoreapp3.1\Razor\Views\Items\ReCaptchaPart.cshtml.g.csutf-8Ñ
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ReCaptcha\obj\Debug\netcoreapp3.1\Razor\Views\Items\ReCaptchaPart.Fields.Edit.cshtml.g.csutf-8Û
+ÏD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ReCaptcha\obj\Debug\netcoreapp3.1\Razor\Views\Items\ValidateReCaptchaTask.Fields.Design.cshtml.g.csutf-8Þ
+ÒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ReCaptcha\obj\Debug\netcoreapp3.1\Razor\Views\Items\ValidateReCaptchaTask.Fields.Thumbnail.cshtml.g.csutf-8»
+¯D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ReCaptcha\obj\Debug\netcoreapp3.1\Razor\Views\ReCaptcha.cshtml.g.csutf-8È
+¼D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ReCaptcha\obj\Debug\netcoreapp3.1\Razor\Views\ReCaptchaSettings.Edit.cshtml.g.csutf-8¾
+²D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ReCaptcha\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.csutf-8Ê
+¾D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ReCaptcha\obj\Debug\netcoreapp3.1\OrchardCore.ReCaptcha.RazorTargetAssemblyInfo.csutf-8

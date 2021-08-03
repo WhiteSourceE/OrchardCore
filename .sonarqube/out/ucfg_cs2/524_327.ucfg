@@ -1,0 +1,164 @@
+
+fOrchardCore.Media.Processing.MediaResizingFileProvider.GetAsync(Microsoft.AspNetCore.Http.HttpContext)§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Processing\MediaResizingFileProvider.cs;$ ;(,"0*Ö
+0§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Processing\MediaResizingFileProvider.cs> C( æ
+ª
+§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Processing\MediaResizingFileProvider.cs> >(&+
+%0%Microsoft.AspNetCore.Http.HttpRequest"1Microsoft.AspNetCore.Http.HttpContext.Request.get*2
+0
+context%Microsoft.AspNetCore.Http.HttpContextµ
+≤
+§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Processing\MediaResizingFileProvider.cs> >(+*
+%1$Microsoft.AspNetCore.Http.PathString".Microsoft.AspNetCore.Http.HttpRequest.Path.get*-
++
+%0%Microsoft.AspNetCore.Http.HttpRequestñ
+ì
+§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Processing\MediaResizingFileProvider.cs> >(1
+%2string".Microsoft.AspNetCore.Http.PathString.Value.get*,
+*
+%1$Microsoft.AspNetCore.Http.PathString÷
+”
+§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Processing\MediaResizingFileProvider.cs>< >(N*
+%3$Microsoft.AspNetCore.Http.PathString"__id*x*v8
+6OrchardCore.Media.Processing.MediaResizingFileProvider":
+_assetsRequestPath$Microsoft.AspNetCore.Http.PathStringñ
+ì
+§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Processing\MediaResizingFileProvider.cs>< >(T
+%4string".Microsoft.AspNetCore.Http.PathString.Value.get*,
+*
+%3$Microsoft.AspNetCore.Http.PathStringÿ
+’
+§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Processing\MediaResizingFileProvider.cs>< >([	
+%5int"string.Length.get*
+
+%4stringÏ
+È
+§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Processing\MediaResizingFileProvider.cs> >(\
+%6string"string.Substring(int)*
+
+%2string*
+	
+%5int–
+Õ
+§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Processing\MediaResizingFileProvider.cs> >(\
+pathstring"__id*
+
+%6string÷
+”
+§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Processing\MediaResizingFileProvider.cs@ @(-*
+%7$OrchardCore.Media.IMediaFileProvider"__id*x*v8
+6OrchardCore.Media.Processing.MediaResizingFileProvider":
+_mediaFileProvider$OrchardCore.Media.IMediaFileProvider˘ˆ
+§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Processing\MediaResizingFileProvider.cs@ @(?2
+%8,Microsoft.Extensions.FileProviders.IFileInfo"DMicrosoft.Extensions.FileProviders.IFileProvider.GetFileInfo(string)*,
+*
+%7$OrchardCore.Media.IMediaFileProvider*
+
+pathstring2GetFileInfo(string)†
+ù
+§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Processing\MediaResizingFileProvider.cs@ @(?8
+fileInfo,Microsoft.Extensions.FileProviders.IFileInfo"__id*4
+2
+%8,Microsoft.Extensions.FileProviders.IFileInfo∑¥
+§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Processing\MediaResizingFileProvider.csC C( 
+
+%9bool"7Microsoft.Extensions.FileProviders.IFileInfo.Exists.get*:
+8
+fileInfo,Microsoft.Extensions.FileProviders.IFileInfo2
+Exists.get*
+1
+2*¿
+1§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Processing\MediaResizingFileProvider.csE E(;∫
+∑
+§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Processing\MediaResizingFileProvider.csE E(<+
+%10$System.Threading.Tasks.Task<TResult>"8System.Threading.Tasks.Task.FromResult<TResult>(TResult)*"
+System.Threading.Tasks.Task*
+"""÷
+§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Processing\MediaResizingFileProvider.csE E(=-
++
+%10$System.Threading.Tasks.Task<TResult>*ˆ
+2§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Processing\MediaResizingFileProvider.csI J(d’“
+§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Processing\MediaResizingFileProvider.csI- I(B
+%11System.DateTimeOffset"=Microsoft.Extensions.FileProviders.IFileInfo.LastModified.get*:
+8
+fileInfo,Microsoft.Extensions.FileProviders.IFileInfo2LastModified.getâ
+Ü
+§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Processing\MediaResizingFileProvider.csI- I(N
+%12System.DateTime"%System.DateTimeOffset.UtcDateTime.get*
+
+%11System.DateTimeOffset∏µ
+§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Processing\MediaResizingFileProvider.csIP I(_
+%13long"7Microsoft.Extensions.FileProviders.IFileInfo.Length.get*:
+8
+fileInfo,Microsoft.Extensions.FileProviders.IFileInfo2
+Length.getÅ˛
+§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Processing\MediaResizingFileProvider.csI I(`-
+%14&SixLabors.ImageSharp.Web.ImageMetadata"&SixLabors.ImageSharp.Web.ImageMetadataﬁ
+€
+§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Processing\MediaResizingFileProvider.csI I(,
+%15void"KSixLabors.ImageSharp.Web.ImageMetadata.ImageMetadata(System.DateTime, long)*/
+-
+%14&SixLabors.ImageSharp.Web.ImageMetadata*
+
+%12System.DateTime*
+
+%13longï
+í
+§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Processing\MediaResizingFileProvider.csI I(`2
+metadata&SixLabors.ImageSharp.Web.ImageMetadata"__id*/
+-
+%14&SixLabors.ImageSharp.Web.ImageMetadataØ¨
+§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Processing\MediaResizingFileProvider.csJ3 J(eD
+%16=SixLabors.ImageSharp.Web.Resolvers.PhysicalFileSystemResolver"=SixLabors.ImageSharp.Web.Resolvers.PhysicalFileSystemResolver•
+¢
+§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Processing\MediaResizingFileProvider.csJ7 J(Q
+%17void"±SixLabors.ImageSharp.Web.Resolvers.PhysicalFileSystemResolver.PhysicalFileSystemResolver(Microsoft.Extensions.FileProviders.IFileInfo, in SixLabors.ImageSharp.Web.ImageMetadata)*F
+D
+%16=SixLabors.ImageSharp.Web.Resolvers.PhysicalFileSystemResolver*:
+8
+fileInfo,Microsoft.Extensions.FileProviders.IFileInfo*4
+2
+metadata&SixLabors.ImageSharp.Web.ImageMetadata˙
+˜
+§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Processing\MediaResizingFileProvider.csJ J(f+
+%18$System.Threading.Tasks.Task<TResult>"8System.Threading.Tasks.Task.FromResult<TResult>(TResult)*"
+System.Threading.Tasks.Task*F
+D
+%16=SixLabors.ImageSharp.Web.Resolvers.PhysicalFileSystemResolver"÷
+§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Processing\MediaResizingFileProvider.csJ J(g-
++
+%18$System.Threading.Tasks.Task<TResult>*È
+3§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Processing\MediaResizingFileProvider.csK	 K(	"º
+§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Processing\MediaResizingFileProvider.csK K(	
+implicit return:0
+context%Microsoft.AspNetCore.Http.HttpContextB:8
+6OrchardCore.Media.Processing.MediaResizingFileProvider

@@ -1,0 +1,114 @@
+
+-OrchardCore.Modules.Clock.GetSystemTimeZone()‡
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\Clock.cs1 1(*"0*–
+0‡
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\Clock.cs3 4(U€
+ý
+‡
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\Clock.cs3 3(5$
+%0NodaTime.IDateTimeZoneProvider"'NodaTime.DateTimeZoneProviders.Tzdb.get*"" 
+NodaTime.DateTimeZoneProviders™–
+‡
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\Clock.cs3 3(H
+%1NodaTime.DateTimeZone"1NodaTime.IDateTimeZoneProvider.GetSystemDefault()*&
+$
+%0NodaTime.IDateTimeZoneProvider2GetSystemDefault()Õ
+Ò
+‡
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\Clock.cs3 3(H!
+timezoneNodaTime.DateTimeZone"__id*
+
+%1NodaTime.DateTimeZone¤
+¡
+‡
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\Clock.cs4 4(./
+%2)NodaTime.TimeZones.TzdbDateTimeZoneSource"5NodaTime.TimeZones.TzdbDateTimeZoneSource.Default.get*-"+
+)NodaTime.TimeZones.TzdbDateTimeZoneSourceº
+·
+‡
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\Clock.cs4 4(=:
+%34System.Collections.Generic.IDictionary<TKey, TValue>"<NodaTime.TimeZones.TzdbDateTimeZoneSource.CanonicalIdMap.get*1
+/
+%2)NodaTime.TimeZones.TzdbDateTimeZoneSourceÞ
+Û
+‡
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\Clock.cs4J 4(U
+%4string"NodaTime.DateTimeZone.Id.get*#
+!
+timezoneNodaTime.DateTimeZoneÂ¿
+‡
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\Clock.cs4 4(V
+
+%5bool"FSystem.Collections.Generic.IDictionary<TKey, TValue>.ContainsKey(TKey)*<
+:
+%34System.Collections.Generic.IDictionary<TKey, TValue>*
+
+%4string2ContainsKey(TKey)*
+1
+2*Œ
+1‡
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\Clock.cs6 7(>¤
+¡
+‡
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\Clock.cs6* 6(H/
+%6)NodaTime.TimeZones.TzdbDateTimeZoneSource"5NodaTime.TimeZones.TzdbDateTimeZoneSource.Default.get*-"+
+)NodaTime.TimeZones.TzdbDateTimeZoneSourceº
+·
+‡
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\Clock.cs6* 6(W:
+%74System.Collections.Generic.IDictionary<TKey, TValue>"<NodaTime.TimeZones.TzdbDateTimeZoneSource.CanonicalIdMap.get*1
+/
+%6)NodaTime.TimeZones.TzdbDateTimeZoneSourceÞ
+Û
+‡
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\Clock.cs6X 6(c
+%8string"NodaTime.DateTimeZone.Id.get*#
+!
+timezoneNodaTime.DateTimeZoneó
+ð
+‡
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\Clock.cs6* 6(d
+%9string"__mapGet*<
+:
+%74System.Collections.Generic.IDictionary<TKey, TValue>*
+
+%8stringÂ
+¿
+‡
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\Clock.cs6 6(d
+canonicalTimeZoneIdstring"__id*
+
+%9stringž
+›
+‡
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\Clock.cs7 7(?
+%10NodaTime.DateTimeZone"1OrchardCore.Modules.Clock.GetDateTimeZone(string)*"
+OrchardCore.Modules.Clock*
+
+canonicalTimeZoneIdstringÖ
+Ó
+‡
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\Clock.cs7 7(?!
+timezoneNodaTime.DateTimeZone"__id*
+
+%10NodaTime.DateTimeZone*
+2*ý
+2‡
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\Clock.cs9 9(*¸
+µ
+‡
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\Clock.cs9 9(+$
+%11OrchardCore.Modules.ITimeZone"?OrchardCore.Modules.Clock.CreateTimeZone(NodaTime.DateTimeZone)*
+OrchardCore.Modules.Clock*#
+!
+timezoneNodaTime.DateTimeZone"²
+‡
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\Clock.cs9 9(,&
+$
+%11OrchardCore.Modules.ITimeZone*¯
+3‡
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\Clock.cs:	 :(	"Ÿ
+‡
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\Clock.cs: :(	
+implicit returnB
+OrchardCore.Modules.Clock

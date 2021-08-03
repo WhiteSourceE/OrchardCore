@@ -1,0 +1,676 @@
+
+´OrchardCore.Settings.Deployment.SiteSettingsDeploymentSource.ProcessDeploymentStepAsync(OrchardCore.Deployment.DeploymentStep, OrchardCore.Deployment.DeploymentPlanResult)™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs (4"0*»
+0™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs ($î
+ë
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs (A+
+%0%OrchardCore.Deployment.DeploymentStep"__id*/
+-
+step%OrchardCore.Deployment.DeploymentStep±
+Æ
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs (AJ
+settingsStep:OrchardCore.Settings.Deployment.SiteSettingsDeploymentStep"__id*-
++
+%0%OrchardCore.Deployment.DeploymentStep¬
+ø
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs ($
+
+%1bool""object.operator ==(object, object)*
+"
+object*L
+J
+settingsStep:OrchardCore.Settings.Deployment.SiteSettingsDeploymentStep*
+""*
+1
+2*Ë
+1™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.csi	 i(	"µ
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs (
+""*
+2™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs (=÷
+”
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs ()'
+%2!OrchardCore.Settings.ISiteService"__id*u*s>
+<OrchardCore.Settings.Deployment.SiteSettingsDeploymentSource"1
+_siteService!OrchardCore.Settings.ISiteServiceŸ÷
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs (@*
+%3$System.Threading.Tasks.Task<TResult>"8OrchardCore.Settings.ISiteService.GetSiteSettingsAsync()*)
+'
+%2!OrchardCore.Settings.ISiteService2GetSiteSettingsAsync()‚
+ﬂ
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs (@"
+siteOrchardCore.Settings.ISite"__id*
+""ˆÛ
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs# (D$
+%4Newtonsoft.Json.Linq.JProperty"Newtonsoft.Json.Linq.JProperty∑
+¥
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs' (0
+
+%5void"9Newtonsoft.Json.Linq.JProperty.JProperty(string, object?)*&
+$
+%4Newtonsoft.Json.Linq.JProperty*
+name*
+
+SettingsÚÔ
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs (E"
+%6Newtonsoft.Json.Linq.JObject"Newtonsoft.Json.Linq.JObjectó
+î
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs ("
+
+%7void"__mapSetAll*$
+"
+%6Newtonsoft.Json.Linq.JObject*&
+$
+%4Newtonsoft.Json.Linq.JPropertyÇ
+ˇ
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs (E$
+dataNewtonsoft.Json.Linq.JObject"__id*$
+"
+%6Newtonsoft.Json.Linq.JObject◊
+‘
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs( (=
+%8string[]"GOrchardCore.Settings.Deployment.SiteSettingsDeploymentStep.Settings.get*L
+J
+settingsStep:OrchardCore.Settings.Deployment.SiteSettingsDeploymentStep*
+3*∏
+3™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.csi	 i(	*
+4
+5*µ
+4™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs (#*
+6*∏
+6™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs (#*
+7
+8*‘
+
+7™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs" "(Rôñ
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs"F "(R
+%9string"&OrchardCore.Settings.ISite.BaseUrl.get*$
+"
+siteOrchardCore.Settings.ISite2BaseUrl.get˜Ù
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs"! "(S%
+%10Newtonsoft.Json.Linq.JProperty"Newtonsoft.Json.Linq.JPropertyπ
+∂
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs"% "(.
+%11void"9Newtonsoft.Json.Linq.JProperty.JProperty(string, object?)*'
+%
+%10Newtonsoft.Json.Linq.JProperty*
+""*
+
+%9string «
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs" "(T
+%12void",Newtonsoft.Json.Linq.JContainer.Add(object?)*&
+$
+dataNewtonsoft.Json.Linq.JObject*'
+%
+%10Newtonsoft.Json.Linq.JProperty2Add(object?)*
+3*π
+8™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs (#*
+9
+10*ÿ
+
+9™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs& &(Túô
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs&G &(T
+%13string"'OrchardCore.Settings.ISite.Calendar.get*$
+"
+siteOrchardCore.Settings.ISite2Calendar.get˜Ù
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs&! &(U%
+%14Newtonsoft.Json.Linq.JProperty"Newtonsoft.Json.Linq.JProperty∫
+∑
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs&% &(.
+%15void"9Newtonsoft.Json.Linq.JProperty.JProperty(string, object?)*'
+%
+%14Newtonsoft.Json.Linq.JProperty*
+""*
+
+%13string «
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs& &(V
+%16void",Newtonsoft.Json.Linq.JContainer.Add(object?)*&
+$
+dataNewtonsoft.Json.Linq.JObject*'
+%
+%14Newtonsoft.Json.Linq.JProperty2Add(object?)*
+3*ª
+10™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs (#*
+11
+12*›
+
+11™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs* *(^£†
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs*L *(^
+
+%17int",OrchardCore.Settings.ISite.MaxPagedCount.get*$
+"
+siteOrchardCore.Settings.ISite2MaxPagedCount.get˜Ù
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs*! *(_%
+%18Newtonsoft.Json.Linq.JProperty"Newtonsoft.Json.Linq.JProperty∑
+¥
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs*% *(.
+%19void"9Newtonsoft.Json.Linq.JProperty.JProperty(string, object?)*'
+%
+%18Newtonsoft.Json.Linq.JProperty*
+""*
+
+
+%17int «
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs* *(`
+%20void",Newtonsoft.Json.Linq.JContainer.Add(object?)*&
+$
+dataNewtonsoft.Json.Linq.JObject*'
+%
+%18Newtonsoft.Json.Linq.JProperty2Add(object?)*
+3*ª
+12™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs (#*
+13
+14*Ÿ
+
+13™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs. .(Züú
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs.J .(Z
+
+%21int"*OrchardCore.Settings.ISite.MaxPageSize.get*$
+"
+siteOrchardCore.Settings.ISite2MaxPageSize.get˜Ù
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs.! .([%
+%22Newtonsoft.Json.Linq.JProperty"Newtonsoft.Json.Linq.JProperty∑
+¥
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs.% .(.
+%23void"9Newtonsoft.Json.Linq.JProperty.JProperty(string, object?)*'
+%
+%22Newtonsoft.Json.Linq.JProperty*
+""*
+
+
+%21int «
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs. .(\
+%24void",Newtonsoft.Json.Linq.JContainer.Add(object?)*&
+$
+dataNewtonsoft.Json.Linq.JObject*'
+%
+%22Newtonsoft.Json.Linq.JProperty2Add(object?)*
+3*ª
+14™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs (#*
+15
+16*”
+
+15™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs2 2(Tôñ
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs2G 2(T
+
+%25int"'OrchardCore.Settings.ISite.PageSize.get*$
+"
+siteOrchardCore.Settings.ISite2PageSize.get˜Ù
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs2! 2(U%
+%26Newtonsoft.Json.Linq.JProperty"Newtonsoft.Json.Linq.JProperty∑
+¥
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs2% 2(.
+%27void"9Newtonsoft.Json.Linq.JProperty.JProperty(string, object?)*'
+%
+%26Newtonsoft.Json.Linq.JProperty*
+""*
+
+
+%25int «
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs2 2(V
+%28void",Newtonsoft.Json.Linq.JContainer.Add(object?)*&
+$
+dataNewtonsoft.Json.Linq.JObject*'
+%
+%26Newtonsoft.Json.Linq.JProperty2Add(object?)*
+3*ª
+16™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs (#*
+17
+18*´
+17™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs6 6(fŒÀ
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs6P 6(f-
+%29&OrchardCore.Settings.ResourceDebugMode"0OrchardCore.Settings.ISite.ResourceDebugMode.get*$
+"
+siteOrchardCore.Settings.ISite2ResourceDebugMode.get˜Ù
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs6! 6(g%
+%30Newtonsoft.Json.Linq.JProperty"Newtonsoft.Json.Linq.JProperty⁄
+◊
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs6% 6(.
+%31void"9Newtonsoft.Json.Linq.JProperty.JProperty(string, object?)*'
+%
+%30Newtonsoft.Json.Linq.JProperty*
+""*/
+-
+%29&OrchardCore.Settings.ResourceDebugMode «
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs6 6(h
+%32void",Newtonsoft.Json.Linq.JContainer.Add(object?)*&
+$
+dataNewtonsoft.Json.Linq.JObject*'
+%
+%30Newtonsoft.Json.Linq.JProperty2Add(object?)*
+3*ª
+18™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs (#*
+19
+20*Ÿ
+
+19™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs: :(Túô
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs:G :(T
+%33string"'OrchardCore.Settings.ISite.SiteName.get*$
+"
+siteOrchardCore.Settings.ISite2SiteName.get˜Ù
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs:! :(U%
+%34Newtonsoft.Json.Linq.JProperty"Newtonsoft.Json.Linq.JProperty∫
+∑
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs:% :(.
+%35void"9Newtonsoft.Json.Linq.JProperty.JProperty(string, object?)*'
+%
+%34Newtonsoft.Json.Linq.JProperty*
+""*
+
+%33string «
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs: :(V
+%36void",Newtonsoft.Json.Linq.JContainer.Add(object?)*&
+$
+dataNewtonsoft.Json.Linq.JObject*'
+%
+%34Newtonsoft.Json.Linq.JProperty2Add(object?)*
+3*ª
+20™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs (#*
+21
+22*Á
+
+21™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs> >(b™ß
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs>N >(b
+%37string".OrchardCore.Settings.ISite.PageTitleFormat.get*$
+"
+siteOrchardCore.Settings.ISite2PageTitleFormat.get˜Ù
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs>! >(c%
+%38Newtonsoft.Json.Linq.JProperty"Newtonsoft.Json.Linq.JProperty∫
+∑
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs>% >(.
+%39void"9Newtonsoft.Json.Linq.JProperty.JProperty(string, object?)*'
+%
+%38Newtonsoft.Json.Linq.JProperty*
+""*
+
+%37string «
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs> >(d
+%40void",Newtonsoft.Json.Linq.JContainer.Add(object?)*&
+$
+dataNewtonsoft.Json.Linq.JObject*'
+%
+%38Newtonsoft.Json.Linq.JProperty2Add(object?)*
+3*ª
+22™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs (#*
+23
+24*Ÿ
+
+23™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.csB B(Túô
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.csBG B(T
+%41string"'OrchardCore.Settings.ISite.SiteSalt.get*$
+"
+siteOrchardCore.Settings.ISite2SiteSalt.get˜Ù
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.csB! B(U%
+%42Newtonsoft.Json.Linq.JProperty"Newtonsoft.Json.Linq.JProperty∫
+∑
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.csB% B(.
+%43void"9Newtonsoft.Json.Linq.JProperty.JProperty(string, object?)*'
+%
+%42Newtonsoft.Json.Linq.JProperty*
+""*
+
+%41string «
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.csB B(V
+%44void",Newtonsoft.Json.Linq.JContainer.Add(object?)*&
+$
+dataNewtonsoft.Json.Linq.JObject*'
+%
+%42Newtonsoft.Json.Linq.JProperty2Add(object?)*
+3*ª
+24™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs (#*
+25
+26*€
+
+25™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.csF F(Vûõ
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.csFH F(V
+%45string"(OrchardCore.Settings.ISite.SuperUser.get*$
+"
+siteOrchardCore.Settings.ISite2SuperUser.get˜Ù
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.csF! F(W%
+%46Newtonsoft.Json.Linq.JProperty"Newtonsoft.Json.Linq.JProperty∫
+∑
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.csF% F(.
+%47void"9Newtonsoft.Json.Linq.JProperty.JProperty(string, object?)*'
+%
+%46Newtonsoft.Json.Linq.JProperty*
+""*
+
+%45string «
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.csF F(X
+%48void",Newtonsoft.Json.Linq.JContainer.Add(object?)*&
+$
+dataNewtonsoft.Json.Linq.JObject*'
+%
+%46Newtonsoft.Json.Linq.JProperty2Add(object?)*
+3*ª
+26™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs (#*
+27
+28*›
+
+27™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.csJ J(X†ù
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.csJI J(X
+%49string")OrchardCore.Settings.ISite.TimeZoneId.get*$
+"
+siteOrchardCore.Settings.ISite2TimeZoneId.get˜Ù
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.csJ! J(Y%
+%50Newtonsoft.Json.Linq.JProperty"Newtonsoft.Json.Linq.JProperty∫
+∑
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.csJ% J(.
+%51void"9Newtonsoft.Json.Linq.JProperty.JProperty(string, object?)*'
+%
+%50Newtonsoft.Json.Linq.JProperty*
+""*
+
+%49string «
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.csJ J(Z
+%52void",Newtonsoft.Json.Linq.JContainer.Add(object?)*&
+$
+dataNewtonsoft.Json.Linq.JObject*'
+%
+%50Newtonsoft.Json.Linq.JProperty2Add(object?)*
+3*ª
+28™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs (#*
+29
+30*—
+
+29™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.csN N(Pñì
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.csNE N(P
+%53bool"%OrchardCore.Settings.ISite.UseCdn.get*$
+"
+siteOrchardCore.Settings.ISite2
+UseCdn.get˜Ù
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.csN! N(Q%
+%54Newtonsoft.Json.Linq.JProperty"Newtonsoft.Json.Linq.JProperty∏
+µ
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.csN% N(.
+%55void"9Newtonsoft.Json.Linq.JProperty.JProperty(string, object?)*'
+%
+%54Newtonsoft.Json.Linq.JProperty*
+""*
+
+%53bool «
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.csN N(R
+%56void",Newtonsoft.Json.Linq.JContainer.Add(object?)*&
+$
+dataNewtonsoft.Json.Linq.JObject*'
+%
+%54Newtonsoft.Json.Linq.JProperty2Add(object?)*
+3*ª
+30™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs (#*
+31
+32*›
+
+31™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.csR R(X†ù
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.csRI R(X
+%57string")OrchardCore.Settings.ISite.CdnBaseUrl.get*$
+"
+siteOrchardCore.Settings.ISite2CdnBaseUrl.get˜Ù
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.csR! R(Y%
+%58Newtonsoft.Json.Linq.JProperty"Newtonsoft.Json.Linq.JProperty∫
+∑
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.csR% R(.
+%59void"9Newtonsoft.Json.Linq.JProperty.JProperty(string, object?)*'
+%
+%58Newtonsoft.Json.Linq.JProperty*
+""*
+
+%57string «
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.csR R(Z
+%60void",Newtonsoft.Json.Linq.JContainer.Add(object?)*&
+$
+dataNewtonsoft.Json.Linq.JObject*'
+%
+%58Newtonsoft.Json.Linq.JProperty2Add(object?)*
+3*ª
+32™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs (#*
+33
+34*ﬂ
+
+33™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.csV V(^§°
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.csVL V(^
+%61bool",OrchardCore.Settings.ISite.AppendVersion.get*$
+"
+siteOrchardCore.Settings.ISite2AppendVersion.get˜Ù
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.csV! V(_%
+%62Newtonsoft.Json.Linq.JProperty"Newtonsoft.Json.Linq.JProperty∏
+µ
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.csV% V(.
+%63void"9Newtonsoft.Json.Linq.JProperty.JProperty(string, object?)*'
+%
+%62Newtonsoft.Json.Linq.JProperty*
+""*
+
+%61bool «
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.csV V(`
+%64void",Newtonsoft.Json.Linq.JContainer.Add(object?)*&
+$
+dataNewtonsoft.Json.Linq.JObject*'
+%
+%62Newtonsoft.Json.Linq.JProperty2Add(object?)*
+3*ª
+34™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs (#*
+35
+36*É
+35™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.csZ Z(i…∆
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.csZ[ Z(i8
+%651Microsoft.AspNetCore.Routing.RouteValueDictionary"(OrchardCore.Settings.ISite.HomeRoute.get*$
+"
+siteOrchardCore.Settings.ISite2HomeRoute.get‰
+·
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.csZH Z(j#
+%66Newtonsoft.Json.Linq.JObject"/Newtonsoft.Json.Linq.JObject.FromObject(object)* "
+Newtonsoft.Json.Linq.JObject*:
+8
+%651Microsoft.AspNetCore.Routing.RouteValueDictionary˜Ù
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.csZ! Z(k%
+%67Newtonsoft.Json.Linq.JProperty"Newtonsoft.Json.Linq.JProperty–
+Õ
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.csZ% Z(.
+%68void"9Newtonsoft.Json.Linq.JProperty.JProperty(string, object?)*'
+%
+%67Newtonsoft.Json.Linq.JProperty*
+""*%
+#
+%66Newtonsoft.Json.Linq.JObject «
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.csZ Z(l
+%69void",Newtonsoft.Json.Linq.JContainer.Add(object?)*&
+$
+dataNewtonsoft.Json.Linq.JObject*'
+%
+%67Newtonsoft.Json.Linq.JProperty2Add(object?)*
+3*ª
+36™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs (#*
+37
+38*ã
+37™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs^ ^(V∂≥
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs^H ^(V%
+%70OrchardCore.Settings.CacheMode"(OrchardCore.Settings.ISite.CacheMode.get*$
+"
+siteOrchardCore.Settings.ISite2CacheMode.get˜Ù
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs^! ^(W%
+%71Newtonsoft.Json.Linq.JProperty"Newtonsoft.Json.Linq.JProperty“
+œ
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs^% ^(.
+%72void"9Newtonsoft.Json.Linq.JProperty.JProperty(string, object?)*'
+%
+%71Newtonsoft.Json.Linq.JProperty*
+""*'
+%
+%70OrchardCore.Settings.CacheMode «
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.cs^ ^(X
+%73void",Newtonsoft.Json.Linq.JContainer.Add(object?)*&
+$
+dataNewtonsoft.Json.Linq.JObject*'
+%
+%71Newtonsoft.Json.Linq.JProperty2Add(object?)*
+3*»	
+38™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.csb b(_Í
+Á
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.csb< b(b
+%74string"__concat*
+""*
+
+settingNamestring‚
+ﬂ
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.csb< b(b
+%75string"__concat*
+
+%74string*
+""˚¯
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.csb b(c'
+%76 System.InvalidOperationException" System.InvalidOperationExceptionæ
+ª
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.csb" b(;
+%77void"CSystem.InvalidOperationException.InvalidOperationException(string?)*)
+'
+%76 System.InvalidOperationException*
+
+%75string*
+39*›
+5™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.csf f(!Ã
+…
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.csf f(*
+%78#System.Collections.Generic.IList<T>"5OrchardCore.Deployment.DeploymentPlanResult.Steps.get*7
+5
+result+OrchardCore.Deployment.DeploymentPlanResult£
+†
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.csf f("
+%79void"
+__arrayAdd*,
+*
+%78#System.Collections.Generic.IList<T>*: *&
+$
+dataNewtonsoft.Json.Linq.JObject"µ
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.csh h(
+""*ˆ
+39™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.csi	 i(	"¬
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\Deployment\SiteSettingsDeploymentSource.csi i(	
+implicit return:-
+step%OrchardCore.Deployment.DeploymentStep:5
+result+OrchardCore.Deployment.DeploymentPlanResultB@>
+<OrchardCore.Settings.Deployment.SiteSettingsDeploymentSource

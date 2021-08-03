@@ -1,0 +1,121 @@
+
+ OrchardCore.OpenId.Services.OpenIdServerService.PersistCertificateAsync(System.IO.DirectoryInfo, System.Security.Cryptography.X509Certificates.X509Certificate2)Ÿ
+’D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Services\OpenIdServerService.csê ê(2"0*¤$
+0Ÿ
+’D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Services\OpenIdServerService.csì ð(lü
+ù
+Ÿ
+’D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Services\OpenIdServerService.csì ì(-
+%0string"GeneratePassword()*3"1
+/OrchardCore.OpenId.Services.OpenIdServerServiceÏ
+Ì
+Ÿ
+’D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Services\OpenIdServerService.csì ì(-
+passwordstring"__id*
+
+%0string
+Ÿ
+’D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Services\OpenIdServerService.csí$ í(6
+%1string"%System.IO.FileSystemInfo.FullName.get*&
+$
+	directorySystem.IO.DirectoryInfo2FullName.getà
+Ý
+Ÿ
+’D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Services\OpenIdServerService.csí8 í(F
+%2System.Guid"System.Guid.NewGuid()*"
+System.Guidà
+Ý
+Ÿ
+’D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Services\OpenIdServerService.csí8 í(Q
+%3string"System.Guid.ToString()*
+
+%2System.Guid
+Œ
+Ÿ
+’D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Services\OpenIdServerService.csí í(R
+%4string"&System.IO.Path.Combine(string, string)*"
+System.IO.Path*
+
+%1string*
+
+%3stringË
+È
+Ÿ
+’D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Services\OpenIdServerService.csí í(R
+pathstring"__id*
+
+%4string•
+’
+Ÿ
+’D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Services\OpenIdServerService.csï* ï(L
+%5string"0System.IO.Path.ChangeExtension(string?, string?)*"
+System.IO.Path*
+
+pathstring*
+.pfx¹
+¶
+Ÿ
+’D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Services\OpenIdServerService.csïa ï(t
+%6"__id*
+""þ
+Ÿ
+’D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Services\OpenIdServerService.csïN ï(
+%7byte[]"ŒSystem.Security.Cryptography.X509Certificates.X509Certificate.Export(System.Security.Cryptography.X509Certificates.X509ContentType, string?)*O
+M
+certificate>System.Security.Cryptography.X509Certificates.X509Certificate2*
+
+%6*
+
+passwordstring2NExport(System.Security.Cryptography.X509Certificates.X509ContentType, string?)Ü
+Ù
+ 
+’D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Services\OpenIdServerService.csï ï(€!
+%8System.Threading.Tasks.Task"USystem.IO.File.WriteAllBytesAsync(string, byte[], System.Threading.CancellationToken)*"
+System.IO.File*
+
+%5string*
+
+%7byte[]*
+""•
+’
+Ÿ
+’D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Services\OpenIdServerService.csð) ð(K
+%9string"0System.IO.Path.ChangeExtension(string?, string?)*"
+System.IO.Path*
+
+pathstring*
+.pwdã
+à
+Ÿ
+’D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Services\OpenIdServerService.csðM ð([9
+%102Microsoft.AspNetCore.DataProtection.IDataProtector"__id*{*y1
+/OrchardCore.OpenId.Services.OpenIdServerService"D
+_dataProtector2Microsoft.AspNetCore.DataProtection.IDataProtectorØ
+Õ
+Ÿ
+’D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Services\OpenIdServerService.csðM ð(m
+%11string"†Microsoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Protect(Microsoft.AspNetCore.DataProtection.IDataProtector, string)*F"D
+BMicrosoft.AspNetCore.DataProtection.DataProtectionCommonExtensions*;
+9
+%102Microsoft.AspNetCore.DataProtection.IDataProtector*
+
+passwordstringÝ
+Ú
+Ÿ
+’D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Services\OpenIdServerService.csð ð(n"
+%12System.Threading.Tasks.Task"USystem.IO.File.WriteAllTextAsync(string, string?, System.Threading.CancellationToken)*"
+System.IO.File*
+
+%9string*
+
+%11string*
+""*
+1*ß
+1Ÿ
+’D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Services\OpenIdServerService.csø	 ø(	"·
+Ÿ
+’D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Services\OpenIdServerService.csø ø(	
+implicit return:$
+	directorySystem.IO.DirectoryInfo:M
+certificate>System.Security.Cryptography.X509Certificates.X509Certificate2B31
+/OrchardCore.OpenId.Services.OpenIdServerService

@@ -1,0 +1,211 @@
+
+·Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.CheckSameSiteBackwardsCompatiblity(Microsoft.AspNetCore.Http.HttpContext, Microsoft.AspNetCore.Http.CookieOptions)¢
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ServiceCollectionExtensions.csÂ Â(>"0*ã
+0¢
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ServiceCollectionExtensions.csÄ Æ(5À
+½
+¢
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ServiceCollectionExtensions.csÄ Ä(/+
+%0%Microsoft.AspNetCore.Http.HttpRequest"1Microsoft.AspNetCore.Http.HttpContext.Request.get*6
+4
+httpContext%Microsoft.AspNetCore.Http.HttpContext½
+º
+¢
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ServiceCollectionExtensions.csÄ Ä(71
+%1+Microsoft.AspNetCore.Http.IHeaderDictionary"1Microsoft.AspNetCore.Http.HttpRequest.Headers.get*-
++
+%0%Microsoft.AspNetCore.Http.HttpRequest«
+¨
+¢
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ServiceCollectionExtensions.csÄ Ä(E2
+%2,Microsoft.Extensions.Primitives.StringValues"__mapGet*3
+1
+%1+Microsoft.AspNetCore.Http.IHeaderDictionary*
+
+User-Agent¥
+¢
+¢
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ServiceCollectionExtensions.csÄ Ä(P
+%3string"7Microsoft.Extensions.Primitives.StringValues.ToString()*4
+2
+%2,Microsoft.Extensions.Primitives.StringValuesÓ
+Ð
+¢
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ServiceCollectionExtensions.csÄ Ä(P
+	userAgentstring"__id*
+
+%3stringÂ
+¿
+¢
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ServiceCollectionExtensions.csÆ Æ( ,
+%4&Microsoft.AspNetCore.Http.SameSiteMode"4Microsoft.AspNetCore.Http.CookieOptions.SameSite.get*4
+2
+options'Microsoft.AspNetCore.Http.CookieOptions¼
+¹
+¢
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ServiceCollectionExtensions.csÆ$ Æ(5
+%5"__id*
+""*
+1
+2*©
+1¢
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ServiceCollectionExtensions.csÈ È(2ö
+ó
+¢
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ServiceCollectionExtensions.csÈ È(3
+
+%6bool"string.IsNullOrEmpty(string?)*
+"
+string*
+
+	userAgentstring*
+3
+4*Ø
+3¢
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ServiceCollectionExtensions.csí	 í(	"­
+¢
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ServiceCollectionExtensions.csÊ Ê(
+""*­
+4¢
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ServiceCollectionExtensions.csÒ Ò(9ú
+÷
+¢
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ServiceCollectionExtensions.csÒ Ò(:
+
+%7bool"string.Contains(string)*
+
+	userAgentstring*
+CPU iPhone OS 12*
+5
+6*¬
+6¢
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ServiceCollectionExtensions.csÒ> Ò(bù
+ö
+¢
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ServiceCollectionExtensions.csÒ> Ò(c
+
+%8bool"string.Contains(string)*
+
+	userAgentstring*
+iPad; CPU OS 12*
+5
+7*å
+5¢
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ServiceCollectionExtensions.csÔ Ô(O¼
+¹
+¢
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ServiceCollectionExtensions.csÔ' Ô(O
+%9"__id*
+""Ë
+È
+¢
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ServiceCollectionExtensions.csÔ Ô(O-
+%10&Microsoft.AspNetCore.Http.SameSiteMode"4Microsoft.AspNetCore.Http.CookieOptions.SameSite.set*4
+2
+options'Microsoft.AspNetCore.Http.CookieOptions*
+
+%9"­
+¢
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ServiceCollectionExtensions.csÕ Õ(
+""*½
+7¢
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ServiceCollectionExtensions.csÝ Ý(HŠ
+‡
+¢
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ServiceCollectionExtensions.csÝ Ý(I
+%11bool"string.Contains(string)*
+
+	userAgentstring*#!
+Macintosh; Intel Mac OS X 10_14*
+8
+9*§
+8¢
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ServiceCollectionExtensions.csÞ Þ(1ó
+ð
+¢
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ServiceCollectionExtensions.csÞ Þ(2
+%12bool"string.Contains(string)*
+
+	userAgentstring*
+
+Version/*
+10
+9*¦
+10¢
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ServiceCollectionExtensions.csÞ6 Þ(Qñ
+î
+¢
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ServiceCollectionExtensions.csÞ6 Þ(R
+%13bool"string.Contains(string)*
+
+	userAgentstring*
+
+Safari*
+11
+9*è
+11¢
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ServiceCollectionExtensions.csà à(O½
+º
+¢
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ServiceCollectionExtensions.csà' à(O
+%14"__id*
+""Ì
+É
+¢
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ServiceCollectionExtensions.csà à(O-
+%15&Microsoft.AspNetCore.Http.SameSiteMode"4Microsoft.AspNetCore.Http.CookieOptions.SameSite.set*4
+2
+options'Microsoft.AspNetCore.Http.CookieOptions*
+
+%14"­
+¢
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ServiceCollectionExtensions.csá á(
+""*¨
+9¢
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ServiceCollectionExtensions.csè è(1ó
+ð
+¢
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ServiceCollectionExtensions.csè è(2
+%16bool"string.Contains(string)*
+
+	userAgentstring*
+
+Chrome/5*
+12
+13*¨
+13¢
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ServiceCollectionExtensions.csè6 è(Só
+ð
+¢
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ServiceCollectionExtensions.csè6 è(T
+%17bool"string.Contains(string)*
+
+	userAgentstring*
+
+Chrome/6*
+12
+2*½
+12¢
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ServiceCollectionExtensions.csê ê(O½
+º
+¢
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ServiceCollectionExtensions.csê' ê(O
+%18"__id*
+""Ì
+É
+¢
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ServiceCollectionExtensions.csê ê(O-
+%19&Microsoft.AspNetCore.Http.SameSiteMode"4Microsoft.AspNetCore.Http.CookieOptions.SameSite.set*4
+2
+options'Microsoft.AspNetCore.Http.CookieOptions*
+
+%18*
+2*å
+2¢
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ServiceCollectionExtensions.csí	 í(	"º
+¢
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ServiceCollectionExtensions.csí í(	
+implicit return:4
+httpContext%Microsoft.AspNetCore.Http.HttpContext:2
+options'Microsoft.AspNetCore.Http.CookieOptionsBH"F
+DMicrosoft.Extensions.DependencyInjection.ServiceCollectionExtensions

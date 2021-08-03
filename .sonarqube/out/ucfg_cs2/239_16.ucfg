@@ -1,0 +1,122 @@
+
+•OrchardCore.Recipes.Services.RecipeReader.GetRecipeDescriptor(string, Microsoft.Extensions.FileProviders.IFileInfo, Microsoft.Extensions.FileProviders.IFileProvider)î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeReader.cs, (?"0*ƒ
+0î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeReader.cs (A…∆
+î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeReader.cs  (A
+%0System.IO.Stream"?Microsoft.Extensions.FileProviders.IFileInfo.CreateReadStream()*@
+>
+recipeFileInfo,Microsoft.Extensions.FileProviders.IFileInfo2CreateReadStream()÷
+”
+î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeReader.cs (A
+streamSystem.IO.Stream"__id*
+
+%0System.IO.Stream*
+1*ı
+1î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeReader.cs (;–Õ
+î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeReader.cs$ (<
+%1System.IO.StreamReader"System.IO.StreamReaderõ
+ò
+î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeReader.cs( (4
+
+%2void"5System.IO.StreamReader.StreamReader(System.IO.Stream)*
+
+%1System.IO.StreamReader*
+
+streamSystem.IO.Stream‚
+ﬂ
+î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeReader.cs (< 
+readerSystem.IO.StreamReader"__id*
+
+%1System.IO.StreamReader*
+2*µ
+2î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeReader.cs (E‡›
+î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeReader.cs, (F$
+%3Newtonsoft.Json.JsonTextReader"Newtonsoft.Json.JsonTextReader∑
+¥
+î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeReader.cs0 (>
+
+%4void"CNewtonsoft.Json.JsonTextReader.JsonTextReader(System.IO.TextReader)*&
+$
+%3Newtonsoft.Json.JsonTextReader*"
+ 
+readerSystem.IO.StreamReaderˆ
+Û
+î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeReader.cs (F,
+
+jsonReaderNewtonsoft.Json.JsonTextReader"__id*&
+$
+%3Newtonsoft.Json.JsonTextReader*
+3*Ë
+3î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeReader.cs (/à
+Ö
+î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeReader.cs6 (S*
+%5$System.Threading.Tasks.Task<TResult>"fNewtonsoft.Json.Linq.JObject.LoadAsync(Newtonsoft.Json.JsonReader, System.Threading.CancellationToken)* "
+Newtonsoft.Json.Linq.JObject*.
+,
+
+jsonReaderNewtonsoft.Json.JsonTextReader*
+""È
+Ê
+î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeReader.cs (q?
+recipeDescriptor+OrchardCore.Recipes.Models.RecipeDescriptor"__id*
+""ù
+ö
+î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeReader.cs (J6
+%60Microsoft.Extensions.FileProviders.IFileProvider"<OrchardCore.Recipes.Models.RecipeDescriptor.FileProvider.set*A
+?
+recipeDescriptor+OrchardCore.Recipes.Models.RecipeDescriptor*H
+F
+recipeFileProvider0Microsoft.Extensions.FileProviders.IFileProvider¡
+æ
+î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeReader.cs (B
+%7string"8OrchardCore.Recipes.Models.RecipeDescriptor.BasePath.set*A
+?
+recipeDescriptor+OrchardCore.Recipes.Models.RecipeDescriptor*
+
+recipeBasePathstringì
+ê
+î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeReader.cs (H2
+%8,Microsoft.Extensions.FileProviders.IFileInfo">OrchardCore.Recipes.Models.RecipeDescriptor.RecipeFileInfo.set*A
+?
+recipeDescriptor+OrchardCore.Recipes.Models.RecipeDescriptor*@
+>
+recipeFileInfo,Microsoft.Extensions.FileProviders.IFileInfo"⁄
+î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeReader.cs (0A
+?
+recipeDescriptor+OrchardCore.Recipes.Models.RecipeDescriptor*ü
+4î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeReader.cs 	  (	*
+5*ü
+5î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeReader.cs 	  (	*
+6*ü
+6î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeReader.cs 	  (	*
+7*…
+7î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeReader.cs 	  (	"¨
+î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeReader.cs   (	
+implicit return:
+recipeBasePathstring:>
+recipeFileInfo,Microsoft.Extensions.FileProviders.IFileInfo:F
+recipeFileProvider0Microsoft.Extensions.FileProviders.IFileProviderB-+
+)OrchardCore.Recipes.Services.RecipeReader

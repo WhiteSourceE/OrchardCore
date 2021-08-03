@@ -1,0 +1,127 @@
+
+qOrchardCore.OpenId.YesSql.Stores.OpenIdTokenStore<TToken>.UpdateAsync(TToken, System.Threading.CancellationToken)ž
+‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdTokenStore.cs' (2"0*ª
+0ž
+‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdTokenStore.cs‘ ‘(û
+ø
+ž
+‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdTokenStore.cs‘ ‘(
+
+%0bool""object.operator ==(object, object)*
+"
+object*
+
+tokenTToken*
+""*
+1
+2*°
+1ž
+‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdTokenStore.cs“ “(=æã
+ž
+‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdTokenStore.cs“ “(>"
+%1System.ArgumentNullException"System.ArgumentNullException›
+˜
+ž
+‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdTokenStore.cs“ “(/
+
+%2void";System.ArgumentNullException.ArgumentNullException(string?)*$
+"
+%1System.ArgumentNullException*
+""*
+3*³
+2ž
+‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdTokenStore.cs– ˜(7®
+«
+ž
+‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdTokenStore.cs– –(<
+
+%3void"ASystem.Threading.CancellationToken.ThrowIfCancellationRequested()*9
+7
+cancellationToken"System.Threading.CancellationTokenŸ
+œ
+ž
+‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdTokenStore.cs˜ ˜(
+%4YesSql.ISession"__id*\*Z;
+9OrchardCore.OpenId.YesSql.Stores.OpenIdTokenStore<TToken>"
+_sessionYesSql.ISession´±
+ž
+‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdTokenStore.cs˜ ˜(8
+
+%5void"*YesSql.ISession.Save(object, bool, string)*
+
+%4YesSql.ISession*
+
+tokenTToken*
+""*
+""2Save(object, bool, string)*
+4*â
+4ž
+‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdTokenStore.csœ œ(,Ÿ
+œ
+ž
+‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdTokenStore.csœ œ(
+%6YesSql.ISession"__id*\*Z;
+9OrchardCore.OpenId.YesSql.Stores.OpenIdTokenStore<TToken>"
+_sessionYesSql.ISessionŽ‹
+ž
+‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdTokenStore.csœ œ(,!
+%7System.Threading.Tasks.Task"YesSql.ISession.CommitAsync()*
+
+%6YesSql.ISession2CommitAsync()*	
+5
+3
+3*¼
+5ž
+‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdTokenStore.cs  £(*àÝ
+ž
+‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdTokenStore.cs D  (W
+%8System.Text.StringBuilder"System.Text.StringBuilderþ
+û
+ž
+‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdTokenStore.cs H  (U
+
+%9void")System.Text.StringBuilder.StringBuilder()*!
+
+%8System.Text.StringBuilderî
+ë
+ž
+‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdTokenStore.cs D ¡(s 
+%10System.Text.StringBuilder"-System.Text.StringBuilder.AppendLine(string?)*!
+
+%8System.Text.StringBuilder*TR
+PThe token was concurrently updated and cannot be persisted in its current state.Ö
+Ó
+ž
+‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdTokenStore.cs D ¢(Z 
+%11System.Text.StringBuilder")System.Text.StringBuilder.Append(string?)*"
+ 
+%10System.Text.StringBuilder*?=
+;Reload the token from the database and retry the operation.ý
+ú
+ž
+‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdTokenStore.cs D £(
+%12string"$System.Text.StringBuilder.ToString()*"
+ 
+%11System.Text.StringBuilder±®
+ž
+‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdTokenStore.cs  £(+H
+%13AOpenIddict.Abstractions.OpenIddictExceptions.ConcurrencyException"AOpenIddict.Abstractions.OpenIddictExceptions.ConcurrencyException®
+«
+ž
+‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdTokenStore.cs   (C
+%14void"rOpenIddict.Abstractions.OpenIddictExceptions.ConcurrencyException.ConcurrencyException(string?, System.Exception?)*J
+H
+%13AOpenIddict.Abstractions.OpenIddictExceptions.ConcurrencyException*
+
+%12string**
+(
+	exceptionYesSql.ConcurrencyException*
+3*Ý
+3ž
+‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdTokenStore.cs¥	 ¥(	"¶
+ž
+‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdTokenStore.cs¥ ¥(	
+implicit return:
+tokenTToken:7
+cancellationToken"System.Threading.CancellationTokenB=;
+9OrchardCore.OpenId.YesSql.Stores.OpenIdTokenStore<TToken>

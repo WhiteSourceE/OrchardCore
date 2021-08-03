@@ -1,0 +1,74 @@
+
+€OrchardCore.Apis.GraphQL.Resolvers.LockedAsyncFieldResolver<TSourceType, TReturnType>.Resolve(GraphQL.Types.ResolveFieldContext)®
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Abstractions\Resolvers\LockedAsyncFieldResolver.cs-+ -(2"0*Ã
+0®
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Abstractions\Resolvers\LockedAsyncFieldResolver.cs/ 0(?®
+«
+®
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Abstractions\Resolvers\LockedAsyncFieldResolver.cs// /(B
+%0object":GraphQL.Types.ResolveFieldContext<TSource>.UserContext.get*.
+,
+context!GraphQL.Types.ResolveFieldContextÐ
+Í
+®
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Abstractions\Resolvers\LockedAsyncFieldResolver.cs/ /(B
+%1"__id*
+
+%0objectû
+ø
+®
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Abstractions\Resolvers\LockedAsyncFieldResolver.cs/ /(B7
+graphContext'OrchardCore.Apis.GraphQL.GraphQLContext"__id*
+
+%1×
+Ô
+®
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Abstractions\Resolvers\LockedAsyncFieldResolver.cs0 0(3$
+%2System.Threading.SemaphoreSlim"@OrchardCore.Apis.GraphQL.GraphQLContext.ExecutionContextLock.get*9
+7
+graphContext'OrchardCore.Apis.GraphQL.GraphQLContext«
+¨
+®
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Abstractions\Resolvers\LockedAsyncFieldResolver.cs0 0(?!
+%3System.Threading.Tasks.Task"*System.Threading.SemaphoreSlim.WaitAsync()*&
+$
+%2System.Threading.SemaphoreSlim*
+1*¹
+1®
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Abstractions\Resolvers\LockedAsyncFieldResolver.cs:	 :(	*
+2*É
+2®
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Abstractions\Resolvers\LockedAsyncFieldResolver.cs4 4(1Ö
+Ó
+®
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Abstractions\Resolvers\LockedAsyncFieldResolver.cs4 4(2*
+%4$System.Threading.Tasks.Task<TResult>"iGraphQL.Resolvers.AsyncFieldResolver<TSourceType, TReturnType>.Resolve(GraphQL.Types.ResolveFieldContext)*YW
+UOrchardCore.Apis.GraphQL.Resolvers.LockedAsyncFieldResolver<TSourceType, TReturnType>*.
+,
+context!GraphQL.Types.ResolveFieldContext"¹
+®
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Abstractions\Resolvers\LockedAsyncFieldResolver.cs4 4(3
+""*ª
+3®
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Abstractions\Resolvers\LockedAsyncFieldResolver.cs8 8(;×
+Ô
+®
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Abstractions\Resolvers\LockedAsyncFieldResolver.cs8 8(1$
+%5System.Threading.SemaphoreSlim"@OrchardCore.Apis.GraphQL.GraphQLContext.ExecutionContextLock.get*9
+7
+graphContext'OrchardCore.Apis.GraphQL.GraphQLContext‘
+Ž
+®
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Abstractions\Resolvers\LockedAsyncFieldResolver.cs8 8(;	
+%6int"(System.Threading.SemaphoreSlim.Release()*&
+$
+%5System.Threading.SemaphoreSlim*
+4
+4*ý
+4®
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Abstractions\Resolvers\LockedAsyncFieldResolver.cs:	 :(	"Æ
+®
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Abstractions\Resolvers\LockedAsyncFieldResolver.cs: :(	
+implicit return:,
+context!GraphQL.Types.ResolveFieldContextBYW
+UOrchardCore.Apis.GraphQL.Resolvers.LockedAsyncFieldResolver<TSourceType, TReturnType>

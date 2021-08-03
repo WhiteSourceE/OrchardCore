@@ -1,0 +1,99 @@
+
+?OrchardCore.Modules.Clock.CreateTimeZone(NodaTime.DateTimeZone)‡
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\Clock.csL L(("0*’
+0‡
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\Clock.csN N($ú
+÷
+‡
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\Clock.csN N($
+
+%0bool""object.operator ==(object, object)*
+"
+object*'
+%
+dateTimeZoneNodaTime.DateTimeZone*
+""*
+1
+2*×
+1‡
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\Clock.csP P(@ÇÄ
+‡
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\Clock.csP P(A
+%1System.ArgumentException"System.ArgumentExceptionø
+õ
+‡
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\Clock.csP P(+
+
+%2void"3System.ArgumentException.ArgumentException(string?)* 
+
+%1System.ArgumentException*
+""*
+3*¼
+2‡
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\Clock.csS U(sò
+ï
+‡
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\Clock.csS< S(J
+%3NodaTime.Instant",OrchardCore.Modules.Clock.CurrentInstant.get*"
+OrchardCore.Modules.Clock°
+­
+‡
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\Clock.csS S(K%
+%4NodaTime.TimeZones.ZoneInterval"7NodaTime.DateTimeZone.GetZoneInterval(NodaTime.Instant)*'
+%
+dateTimeZoneNodaTime.DateTimeZone*
+
+%3NodaTime.Instantí
+ê
+‡
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\Clock.csS S(K/
+zoneIntervalNodaTime.TimeZones.ZoneInterval"__id*'
+%
+%4NodaTime.TimeZones.ZoneIntervalâ
+ß
+‡
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\Clock.csU  U(/
+%5string"NodaTime.DateTimeZone.Id.get*'
+%
+dateTimeZoneNodaTime.DateTimeZone‹
+ˆ
+‡
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\Clock.csU1 U(L
+%6NodaTime.Offset"2NodaTime.TimeZones.ZoneInterval.StandardOffset.get*1
+/
+zoneIntervalNodaTime.TimeZones.ZoneInterval‡
+„
+‡
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\Clock.csUN U(e
+%7NodaTime.Offset".NodaTime.TimeZones.ZoneInterval.WallOffset.get*1
+/
+zoneIntervalNodaTime.TimeZones.ZoneIntervalÏÌ
+‡
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\Clock.csU U(t"
+%8OrchardCore.Modules.TimeZone"OrchardCore.Modules.TimeZone’
+
+‡
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\Clock.csU U(
+
+%9void"fOrchardCore.Modules.TimeZone.TimeZone(string, NodaTime.Offset, NodaTime.Offset, NodaTime.DateTimeZone)*$
+"
+%8OrchardCore.Modules.TimeZone*
+
+%5string*
+
+%6NodaTime.Offset*
+
+%7NodaTime.Offset*'
+%
+dateTimeZoneNodaTime.DateTimeZone"°
+‡
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\Clock.csU U(u$
+"
+%8OrchardCore.Modules.TimeZone*¯
+3‡
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\Clock.csV	 V(	"Ÿ
+‡
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\Clock.csV V(	
+implicit return:%
+dateTimeZoneNodaTime.DateTimeZoneB
+OrchardCore.Modules.Clock

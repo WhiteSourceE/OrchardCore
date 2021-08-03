@@ -1,0 +1,6 @@
+Í
+ÁD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\obj\Debug\netcoreapp3.1\Razor\Views\BackgroundTask\Create.cshtml.g.csutf-8Ë
+¿D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\obj\Debug\netcoreapp3.1\Razor\Views\BackgroundTask\Edit.cshtml.g.csutf-8Ì
+ÀD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\obj\Debug\netcoreapp3.1\Razor\Views\BackgroundTask\Index.cshtml.g.csutf-8Ä
+¸D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.csutf-8Ö
+ÊD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\obj\Debug\netcoreapp3.1\OrchardCore.BackgroundTasks.RazorTargetAssemblyInfo.csutf-8

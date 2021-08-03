@@ -1,0 +1,10 @@
+ù
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Contents.Core\AuthorizationServiceExtensions.csutf-8ê
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Contents.Core\CommonPermissions.csutf-8õ
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Contents.Core\ContentTypePermissionsHelper.csutf-8ô
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Contents.Core\Indexing\IndexingConstants.csutf-8†
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Contents.Core\Services\IContentsAdminListFilter.csutf-8¶
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Contents.Core\Services\IContentsAdminListQueryService.csutf-8°
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Contents.Core\ViewModels\ContentOptionsViewModel.csutf-8ƒ
+∏D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Contents.Core\obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.csutf-8ø
+≥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Contents.Core\obj\Debug\netcoreapp3.1\OrchardCore.Contents.Core.AssemblyInfo.csutf-8

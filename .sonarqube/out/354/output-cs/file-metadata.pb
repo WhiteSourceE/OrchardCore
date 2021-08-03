@@ -1,0 +1,36 @@
+µ
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentTypes.Abstractions\Editors\ContentPartDefinitionDisplayDriver.csutf-8º
+°D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentTypes.Abstractions\Editors\ContentPartFieldDefinitionDisplayDriver.csutf-8µ
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentTypes.Abstractions\Editors\ContentTypeDefinitionDisplayDriver.csutf-8¹
+¯D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentTypes.Abstractions\Editors\ContentTypePartDefinitionDisplayDriver.csutf-8³
+©D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentTypes.Abstractions\Editors\IContentDefinitionDisplayHandler.csutf-8³
+©D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentTypes.Abstractions\Editors\IContentDefinitionDisplayManager.csutf-8¶
+¬D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentTypes.Abstractions\Editors\IContentPartDefinitionDisplayDriver.csutf-8»
+±D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentTypes.Abstractions\Editors\IContentPartFieldDefinitionDisplayDriver.csutf-8¶
+¬D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentTypes.Abstractions\Editors\IContentTypeDefinitionDisplayDriver.csutf-8º
+°D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentTypes.Abstractions\Editors\IContentTypePartDefinitionDisplayDriver.csutf-8·
+­D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentTypes.Abstractions\Editors\UpdateContentDefinitionEditorContext.csutf-8ª
+ D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentTypes.Abstractions\Editors\UpdatePartEditorContext.csutf-8¯
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentTypes.Abstractions\Editors\UpdatePartFieldEditorContext.csutf-8ª
+ D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentTypes.Abstractions\Editors\UpdateTypeEditorContext.csutf-8®
+¤D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentTypes.Abstractions\Editors\UpdateTypePartEditorContext.csutf-8­
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentTypes.Abstractions\Events\ContentFieldAttachedContext.csutf-8­
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentTypes.Abstractions\Events\ContentFieldDetachedContext.csutf-8¬
+¢D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentTypes.Abstractions\Events\ContentPartAttachedContext.csutf-8¤
+šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentTypes.Abstractions\Events\ContentPartContext.csutf-8«
+¡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentTypes.Abstractions\Events\ContentPartCreatedContext.csutf-8¬
+¢D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentTypes.Abstractions\Events\ContentPartDetachedContext.csutf-8©
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentTypes.Abstractions\Events\ContentPartFieldContext.csutf-8¬
+¢D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentTypes.Abstractions\Events\ContentPartImportedContext.csutf-8­
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentTypes.Abstractions\Events\ContentPartImportingContext.csutf-8«
+¡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentTypes.Abstractions\Events\ContentPartRemovedContext.csutf-8¤
+šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentTypes.Abstractions\Events\ContentTypeContext.csutf-8«
+¡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentTypes.Abstractions\Events\ContentTypeCreatedContext.csutf-8¬
+¢D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentTypes.Abstractions\Events\ContentTypeImportedContext.csutf-8­
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentTypes.Abstractions\Events\ContentTypeImportingContext.csutf-8¨
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentTypes.Abstractions\Events\ContentTypePartContext.csutf-8«
+¡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentTypes.Abstractions\Events\ContentTypeRemovedContext.csutf-8°
+¦D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentTypes.Abstractions\Events\IContentDefinitionEventHandler.csutf-8¢
+˜D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentTypes.Abstractions\Properties\AssemblyInfo.csutf-8É
+½D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentTypes.Abstractions\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.csutf-8Ð
+ÄD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentTypes.Abstractions\obj\Debug\net5.0\OrchardCore.ContentTypes.Abstractions.AssemblyInfo.csutf-8

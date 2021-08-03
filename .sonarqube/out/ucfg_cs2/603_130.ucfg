@@ -1,0 +1,142 @@
+
+}OrchardCore.Users.Services.UserStore.RemoveFromRoleAsync(OrchardCore.Users.IUser, string, System.Threading.CancellationToken)ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.cs¸ ¸(-"0*†
+0ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.cs˛ ˛(˛
+˚
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.cs˛ ˛(
+
+%0bool""object.operator ==(object, object)*
+"
+object*!
+
+userOrchardCore.Users.IUser*
+""*
+1
+2*â
+1ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csÄ Ä(<Ÿ÷
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csÄ Ä(="
+%1System.ArgumentNullException"System.ArgumentNullExceptioné
+ã
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csÄ Ä(/
+
+%2void";System.ArgumentNullException.ArgumentNullException(string?)*$
+"
+%1System.ArgumentNullException*
+""*
+3*ﬂ
+2ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csÉ Ñ($∑
+¥
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csÉ" É(.0
+%3*OrchardCore.Security.Services.IRoleService"__id*f*d&
+$OrchardCore.Users.Services.UserStore":
+_roleService*OrchardCore.Security.Services.IRoleService£
+†
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csÉ" É(B*
+%4$System.Threading.Tasks.Task<TResult>"qOrchardCore.Security.Services.RoleServiceExtensions.GetRoleNamesAsync(OrchardCore.Security.Services.IRoleService)*7"5
+3OrchardCore.Security.Services.RoleServiceExtensions*2
+0
+%3*OrchardCore.Security.Services.IRoleService›
+⁄
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csÉ É(B6
+	roleNames)System.Collections.Generic.IEnumerable<T>"__id*
+""*
+4
+5*ü
+5ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csÑ% Ñ(_Ä
+˝
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csÑ% Ñ(`
+%5string"{System.Linq.Enumerable.FirstOrDefault<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
+System.Linq.Enumerable*8
+6
+	roleNames)System.Collections.Generic.IEnumerable<T>*
+""*
+4*œ
+4ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csÑ Ü(2¡
+æ
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csÑ Ñ(`
+roleNamestring"__id*
+
+%5stringÈ
+Ê
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csÜ Ü(3
+
+%6bool""string.IsNullOrWhiteSpace(string?)*
+"
+string*
+
+roleNamestring*
+6
+7* 
+6ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csà à(N◊
+‘
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csà4 à(`
+%7string"__concat*
+""*
+
+normalizedRoleNamestring«
+ƒ
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csà4 à(`
+%8string"__concat*
+
+%7string*
+""·ﬁ
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csà à(a&
+%9 System.InvalidOperationException" System.InvalidOperationException£
+†
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csà à(3
+%10void"CSystem.InvalidOperationException.InvalidOperationException(string?)*(
+&
+%9 System.InvalidOperationException*
+
+%8string*
+3*ç
+7ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csã ã(2«
+ƒ
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csã ã(
+%11"__id*!
+
+userOrchardCore.Users.IUser˘
+ˆ
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csã ã("*
+%12#System.Collections.Generic.IList<T>"+OrchardCore.Users.Models.User.RoleNames.get*
+
+%11®•
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csã ã(3
+%13bool"3System.Collections.Generic.ICollection<T>.Remove(T)*,
+*
+%12#System.Collections.Generic.IList<T>*
+
+roleNamestring2	Remove(T)*
+3*√
+3ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.cså	 å(	"©
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.cså å(	
+implicit return:
+userOrchardCore.Users.IUser:
+normalizedRoleNamestring:7
+cancellationToken"System.Threading.CancellationTokenB(&
+$OrchardCore.Users.Services.UserStore

@@ -1,0 +1,348 @@
+
+≠OrchardCore.Contents.Workflows.Activities.DeleteContentTask.ExecuteAsync(OrchardCore.Workflows.Models.WorkflowExecutionContext, OrchardCore.Workflows.Models.ActivityContext)©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs< (H"0*â
+
+0©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs  "(±Æ
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs    (@*
+%0$System.Threading.Tasks.Task<TResult>"ÄOrchardCore.Contents.Workflows.Activities.ContentActivity.GetContentAsync(OrchardCore.Workflows.Models.WorkflowExecutionContext)*=;
+9OrchardCore.Contents.Workflows.Activities.ContentActivity*J
+H
+workflowContext5OrchardCore.Workflows.Models.WorkflowExecutionContext2FGetContentAsync(OrchardCore.Workflows.Models.WorkflowExecutionContext)
+Ì
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs   (@1
+content&OrchardCore.ContentManagement.IContent"__id*
+""®
+•
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs" "(
+
+%1bool""object.operator ==(object, object)*
+"
+object*3
+1
+content&OrchardCore.ContentManagement.IContent*
+""*
+1
+2*â	
+1©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs$ $(Uœ
+Ã
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs$4 $(}
+%2"__concat*
+""*
+""œ
+Ã
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs$4 $(}
+%3"__concat*
+
+%2*
+""˘ˆ
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs$ $(~&
+%4 System.InvalidOperationException" System.InvalidOperationException≤
+Ø
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs$ $(3
+
+%5void"CSystem.InvalidOperationException.InvalidOperationException(string?)*(
+&
+%4 System.InvalidOperationException*
+
+%3*
+3*ê
+2©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs' '(~¸
+˘
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs' '()A
+%6;OrchardCore.ContentManagement.Workflows.ContentEventContext"IOrchardCore.Contents.Workflows.Activities.ContentActivity.InlineEvent.get*=;
+9OrchardCore.Contents.Workflows.Activities.ContentActivity—
+Œ
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs' '(7
+%7string"MOrchardCore.ContentManagement.Workflows.ContentEventContext.ContentItemId.get*C
+A
+%6;OrchardCore.ContentManagement.Workflows.ContentEventContextﬁ€
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs'9 '(L/
+%8)OrchardCore.ContentManagement.ContentItem"6OrchardCore.ContentManagement.IContent.ContentItem.get*3
+1
+content&OrchardCore.ContentManagement.IContent2ContentItem.get≠
+™
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs'9 '(Z
+%9string";OrchardCore.ContentManagement.ContentItem.ContentItemId.get*1
+/
+%8)OrchardCore.ContentManagement.ContentItemƒ
+¡
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs'\ '(~
+%10"__id*
+""´
+®
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs' '(
+%11bool"8string.Equals(string?, string?, System.StringComparison)*
+"
+string*
+
+%7string*
+
+%9string*
+
+%10*
+4
+5*â
+4©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs) )(&Â
+‚
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs) )('?
+%128OrchardCore.Workflows.Activities.ActivityExecutionResult":OrchardCore.Workflows.Activities.Activity.Outcomes(string)*-+
+)OrchardCore.Workflows.Activities.Activity*
+Noop"Ô
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs) )((A
+?
+%128OrchardCore.Workflows.Activities.ActivityExecutionResult*Ã
+5©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs, .(#Ú
+Ô
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs,$ ,(24
+%13-OrchardCore.ContentManagement.IContentManager"LOrchardCore.Contents.Workflows.Activities.ContentActivity.ContentManager.get*=;
+9OrchardCore.Contents.Workflows.Activities.ContentActivityﬂ‹
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs,< ,(O0
+%14)OrchardCore.ContentManagement.ContentItem"6OrchardCore.ContentManagement.IContent.ContentItem.get*3
+1
+content&OrchardCore.ContentManagement.IContent2ContentItem.getØ
+¨
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs,< ,(]
+%15string";OrchardCore.ContentManagement.ContentItem.ContentItemId.get*2
+0
+%14)OrchardCore.ContentManagement.ContentItemœ
+Ã
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs,_ ,(t3
+%16,OrchardCore.ContentManagement.VersionOptions"7OrchardCore.ContentManagement.VersionOptions.Latest.get*0".
+,OrchardCore.ContentManagement.VersionOptionsäá
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs,$ ,(u+
+%17$System.Threading.Tasks.Task<TResult>"lOrchardCore.ContentManagement.IContentManager.GetAsync(string, OrchardCore.ContentManagement.VersionOptions)*6
+4
+%13-OrchardCore.ContentManagement.IContentManager*
+
+%15string*5
+3
+%16,OrchardCore.ContentManagement.VersionOptions2>GetAsync(string, OrchardCore.ContentManagement.VersionOptions)˜
+Ù
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs, ,(u8
+contentItem)OrchardCore.ContentManagement.ContentItem"__id*
+""∞
+≠
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs. .(#
+%18bool""object.operator ==(object, object)*
+"
+object*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItem*
+""*
+6
+7*∑
+6©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs0 0(<*
+8
+9*ì	
+8©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs2 2(Y—
+Œ
+™
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs28 2(Å
+%19"__concat*
+""*
+""“
+œ
+™
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs28 2(Å
+%20"__concat*
+
+%19*
+""˚¯
+™
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs2 2(Ç'
+%21 System.InvalidOperationException" System.InvalidOperationExceptionµ
+≤
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs2 2(7
+%22void"CSystem.InvalidOperationException.InvalidOperationException(string?)*)
+'
+%21 System.InvalidOperationException*
+
+%20*
+3*º
+9©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs5 5(1ﬂ‹
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs5 5(10
+%23)OrchardCore.ContentManagement.ContentItem"6OrchardCore.ContentManagement.IContent.ContentItem.get*3
+1
+content&OrchardCore.ContentManagement.IContent2ContentItem.get£
+†
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs5 5(18
+contentItem)OrchardCore.ContentManagement.ContentItem"__id*2
+0
+%23)OrchardCore.ContentManagement.ContentItem*
+7*á
+7©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs8 8(#˝
+˙
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs8 8(B
+%24;OrchardCore.ContentManagement.Workflows.ContentEventContext"IOrchardCore.Contents.Workflows.Activities.ContentActivity.InlineEvent.get*=;
+9OrchardCore.Contents.Workflows.Activities.ContentActivityÀ
+»
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs8 8(#
+%25bool"GOrchardCore.ContentManagement.Workflows.ContentEventContext.IsStart.get*D
+B
+%24;OrchardCore.ContentManagement.Workflows.ContentEventContext*
+10
+11*◊
+10©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs8' 8(Y˝
+˙
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs8' 8(2B
+%26;OrchardCore.ContentManagement.Workflows.ContentEventContext"IOrchardCore.Contents.Workflows.Activities.ContentActivity.InlineEvent.get*=;
+9OrchardCore.Contents.Workflows.Activities.ContentActivity—
+Œ
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs8' 8(>
+%27string"KOrchardCore.ContentManagement.Workflows.ContentEventContext.ContentType.get*D
+B
+%26;OrchardCore.ContentManagement.Workflows.ContentEventContextµ
+≤
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs8B 8(Y
+%28string"9OrchardCore.ContentManagement.ContentItem.ContentType.get*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItemé
+ã
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs8' 8(Y
+%29bool""string.operator ==(string, string)*
+"
+string*
+
+%27string*
+
+%28string*
+12
+11*ë	
+12™
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs8] 8(å˝
+˙
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs8] 8(hB
+%30;OrchardCore.ContentManagement.Workflows.ContentEventContext"IOrchardCore.Contents.Workflows.Activities.ContentActivity.InlineEvent.get*=;
+9OrchardCore.Contents.Workflows.Activities.ContentActivity 
+«
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs8] 8(m
+%31string"DOrchardCore.ContentManagement.Workflows.ContentEventContext.Name.get*D
+B
+%30;OrchardCore.ContentManagement.Workflows.ContentEventContextÜ
+É
+™
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs8] 8(å
+%32bool""string.operator ==(string, string)*
+"
+string*
+
+%31string*
+""*
+13
+11*ø
+13™
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs: :(º—
+Œ
+™
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs:4 :(É
+%33"__concat*
+""*
+""“
+œ
+™
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs:4 :(É
+%34"__concat*
+
+%33*
+""“
+œ
+™
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs:4 :(É
+%35"__concat*
+
+%34*
+""“
+œ
+™
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs:4 :(É
+%36"__concat*
+
+%35*
+""˚¯
+™
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs: :(Ñ'
+%37 System.InvalidOperationException" System.InvalidOperationExceptionµ
+≤
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs: :(3
+%38void"CSystem.InvalidOperationException.InvalidOperationException(string?)*)
+'
+%37 System.InvalidOperationException*
+
+%36*
+3*Í
+11©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs= ?(%Ú
+Ô
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs= =( 4
+%39-OrchardCore.ContentManagement.IContentManager"LOrchardCore.Contents.Workflows.Activities.ContentActivity.ContentManager.get*=;
+9OrchardCore.Contents.Workflows.Activities.ContentActivityÂ‚
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs= =(9"
+%40System.Threading.Tasks.Task"dOrchardCore.ContentManagement.IContentManager.RemoveAsync(OrchardCore.ContentManagement.ContentItem)*6
+4
+%39-OrchardCore.ContentManagement.IContentManager*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItem26RemoveAsync(OrchardCore.ContentManagement.ContentItem)Ë
+Â
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs? ?(&?
+%418OrchardCore.Workflows.Activities.ActivityExecutionResult":OrchardCore.Workflows.Activities.Activity.Outcomes(string)*-+
+)OrchardCore.Workflows.Activities.Activity*	
+Deleted"Ô
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs? ?('A
+?
+%418OrchardCore.Workflows.Activities.ActivityExecutionResult*Û
+3©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs@	 @(	"¡
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\DeleteContentTask.cs@ @(	
+implicit return:H
+workflowContext5OrchardCore.Workflows.Models.WorkflowExecutionContext:?
+activityContext,OrchardCore.Workflows.Models.ActivityContextB?=
+;OrchardCore.Contents.Workflows.Activities.DeleteContentTask

@@ -1,0 +1,807 @@
+
+tOrchardCore.OpenId.Controllers.AccessController.ExchangePasswordGrantType(OpenIddict.Abstractions.OpenIddictRequest)ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csﬂ* ﬂ(C"0*‰
+0ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.cs· ·(\â
+Ü
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.cs·$ ·(7H
+%3BOrchardCore.OpenId.Abstractions.Managers.IOpenIdApplicationManager"__id*ë*é1
+/OrchardCore.OpenId.Controllers.AccessController"Y
+_applicationManagerBOrchardCore.OpenId.Abstractions.Managers.IOpenIdApplicationManager£
+†
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.cs·L ·(\
+%4string"6OpenIddict.Abstractions.OpenIddictRequest.ClientId.get*6
+4
+request)OpenIddict.Abstractions.OpenIddictRequestÚÔ
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.cs·$ ·(]/
+%5)System.Threading.Tasks.ValueTask<TResult>"uOpenIddict.Abstractions.IOpenIddictApplicationManager.FindByClientIdAsync(string, System.Threading.CancellationToken)*J
+H
+%3BOrchardCore.OpenId.Abstractions.Managers.IOpenIdApplicationManager*
+
+%4string*
+""2?FindByClientIdAsync(string, System.Threading.CancellationToken)¡
+æ
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.cs· ·(]
+%1object"__id*
+""…
+∆
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.cs· ·(]
+%0object"__id*
+
+%1object*
+1
+2*Ì
+1ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.cs‚ ‚(^ÔÏ
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.cs‚ ‚(_&
+%6 System.InvalidOperationException" System.InvalidOperationExceptionŒ
+À
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.cs‚ ‚(3
+
+%7void"CSystem.InvalidOperationException.InvalidOperationException(string?)*(
+&
+%6 System.InvalidOperationException*,*
+(The application details cannot be found.*
+3*ﬂ
+2ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.cs· Á(“
+œ
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.cs· ‚(_
+applicationobject"__id*
+
+%0object∏
+µ
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csÊ Ê(%+
+%8%Microsoft.AspNetCore.Http.HttpContext"7Microsoft.AspNetCore.Mvc.ControllerBase.HttpContext.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBaseÆ
+´
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csÊ Ê(5
+%9System.IServiceProvider"9Microsoft.AspNetCore.Http.HttpContext.RequestServices.get*-
++
+%8%Microsoft.AspNetCore.Http.HttpContext∑
+¥
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csÊ Ê(P.
+%10'OrchardCore.Users.Services.IUserService"pMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService<T>(System.IServiceProvider)*M"K
+IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*
+
+%9System.IServiceProviderë
+é
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csÊ Ê(P2
+service'OrchardCore.Users.Services.IUserService"__id*0
+.
+%10'OrchardCore.Users.Services.IUserService†
+ù
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csÁ Á(
+%11bool""object.operator ==(object, object)*
+"
+object*4
+2
+service'OrchardCore.Users.Services.IUserService*
+""*
+4
+5*í
+4ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csÈ Ó(Kñì
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csÈ; Ó(:
+%123System.Collections.Generic.Dictionary<TKey, TValue>"3System.Collections.Generic.Dictionary<TKey, TValue>≤
+Ø
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csÈ? È(Y
+%13void"@System.Collections.Generic.Dictionary<TKey, TValue>.Dictionary()*<
+:
+%123System.Collections.Generic.Dictionary<TKey, TValue>∫
+∑
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csÎ Î(I
+%14"__id*
+""∫
+∑
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csÎM Î(h
+%15"__id*
+""ª
+∏
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csÎ Î(h:
+%163System.Collections.Generic.Dictionary<TKey, TValue>"__mapSet*<
+:
+%123System.Collections.Generic.Dictionary<TKey, TValue>*
+
+%14*
+
+%15∫
+∑
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csÏ Ï(T
+%17"__id*
+""˜
+Ù
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csÏ Ì(Y:
+%183System.Collections.Generic.Dictionary<TKey, TValue>"__mapSet*<
+:
+%123System.Collections.Generic.Dictionary<TKey, TValue>*
+
+%17*CA
+?The resource owner password credentials grant is not supported.®•
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csÈ Ó(C
+%19<Microsoft.AspNetCore.Authentication.AuthenticationProperties"<Microsoft.AspNetCore.Authentication.AuthenticationProperties«
+ƒ
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csÈ" È(:
+%20void"çMicrosoft.AspNetCore.Authentication.AuthenticationProperties.AuthenticationProperties(System.Collections.Generic.IDictionary<string, string>)*E
+C
+%19<Microsoft.AspNetCore.Authentication.AuthenticationProperties*<
+:
+%123System.Collections.Generic.Dictionary<TKey, TValue>∫
+∑
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csÓ Ó(K
+%21"__id*
+""¶£
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csÈ Ó(L,
+%22%Microsoft.AspNetCore.Mvc.ForbidResult"}Microsoft.AspNetCore.Mvc.ControllerBase.Forbid(Microsoft.AspNetCore.Authentication.AuthenticationProperties, params string[])*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*E
+C
+%19<Microsoft.AspNetCore.Authentication.AuthenticationProperties*
+
+%212UForbid(Microsoft.AspNetCore.Authentication.AuthenticationProperties, params string[])"“
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csÈ Ó(M.
+,
+%22%Microsoft.AspNetCore.Mvc.ForbidResult*ä
+5ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csÒ Û(ƒ
+¡
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csÒ Ò(
+errorstring"__id*
+""§
+°
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csÚ7 Ú(G
+%23string"6OpenIddict.Abstractions.OpenIddictRequest.Username.get*6
+4
+request)OpenIddict.Abstractions.OpenIddictRequest§
+°
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csÚI Ú(Y
+%24string"6OpenIddict.Abstractions.OpenIddictRequest.Password.get*6
+4
+request)OpenIddict.Abstractions.OpenIddictRequestﬁ€
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csÚ Ú(}+
+%25$System.Threading.Tasks.Task<TResult>"hOrchardCore.Users.Services.IUserService.AuthenticateAsync(string, string, System.Action<string, string>)*4
+2
+service'OrchardCore.Users.Services.IUserService*
+
+%23string*
+
+%24string*
+""2@AuthenticateAsync(string, string, System.Action<string, string>)‘
+—
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csÚ Ú(}
+userOrchardCore.Users.IUser"__id*
+""ç
+ä
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csÛ Û(
+%26bool""object.operator ==(object, object)*
+"
+object*!
+
+userOrchardCore.Users.IUser*
+""*
+6
+7*‡
+6ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csı ˘(Kñì
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csı; ˘(:
+%273System.Collections.Generic.Dictionary<TKey, TValue>"3System.Collections.Generic.Dictionary<TKey, TValue>≤
+Ø
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csı? ı(Y
+%28void"@System.Collections.Generic.Dictionary<TKey, TValue>.Dictionary()*<
+:
+%273System.Collections.Generic.Dictionary<TKey, TValue>∫
+∑
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.cs˜ ˜(I
+%29"__id*
+""∫
+∑
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.cs˜M ˜(`
+%30"__id*
+""ª
+∏
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.cs˜ ˜(`:
+%313System.Collections.Generic.Dictionary<TKey, TValue>"__mapSet*<
+:
+%273System.Collections.Generic.Dictionary<TKey, TValue>*
+
+%29*
+
+%30∫
+∑
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.cs¯ ¯(T
+%32"__id*
+""≈
+¬
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.cs¯ ¯(]:
+%333System.Collections.Generic.Dictionary<TKey, TValue>"__mapSet*<
+:
+%273System.Collections.Generic.Dictionary<TKey, TValue>*
+
+%32*
+
+errorstring®•
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csı ˘(C
+%34<Microsoft.AspNetCore.Authentication.AuthenticationProperties"<Microsoft.AspNetCore.Authentication.AuthenticationProperties«
+ƒ
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csı" ı(:
+%35void"çMicrosoft.AspNetCore.Authentication.AuthenticationProperties.AuthenticationProperties(System.Collections.Generic.IDictionary<string, string>)*E
+C
+%34<Microsoft.AspNetCore.Authentication.AuthenticationProperties*<
+:
+%273System.Collections.Generic.Dictionary<TKey, TValue>∫
+∑
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.cs˘ ˘(K
+%36"__id*
+""¶£
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csı ˘(L,
+%37%Microsoft.AspNetCore.Mvc.ForbidResult"}Microsoft.AspNetCore.Mvc.ControllerBase.Forbid(Microsoft.AspNetCore.Authentication.AuthenticationProperties, params string[])*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*E
+C
+%34<Microsoft.AspNetCore.Authentication.AuthenticationProperties*
+
+%362UForbid(Microsoft.AspNetCore.Authentication.AuthenticationProperties, params string[])"“
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csı ˘(M.
+,
+%37%Microsoft.AspNetCore.Mvc.ForbidResult*„+
+7ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.cs¸ á(M±Æ
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.cs¸" ¸(D+
+%38$System.Threading.Tasks.Task<TResult>"UOrchardCore.Users.Services.IUserService.CreatePrincipalAsync(OrchardCore.Users.IUser)*4
+2
+service'OrchardCore.Users.Services.IUserService*!
+
+userOrchardCore.Users.IUser2-CreatePrincipalAsync(OrchardCore.Users.IUser)Ë
+Â
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.cs¸ ¸(D3
+	principal&System.Security.Claims.ClaimsPrincipal"__id*
+""ê
+ç
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.cs˛' ˛(<K
+%39DOrchardCore.OpenId.Abstractions.Managers.IOpenIdAuthorizationManager"__id*ï*í1
+/OrchardCore.OpenId.Controllers.AccessController"]
+_authorizationManagerDOrchardCore.OpenId.Abstractions.Managers.IOpenIdAuthorizationManagerÛ
+
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csˇ ˇ(6
+%40string"]OrchardCore.OpenId.OpenIdExtensions.GetUserIdentifier(System.Security.Claims.ClaimsPrincipal)*'"%
+#OrchardCore.OpenId.OpenIdExtensions*5
+3
+	principal&System.Security.Claims.ClaimsPrincipalä
+á
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csÄ Ä(1I
+%41BOrchardCore.OpenId.Abstractions.Managers.IOpenIdApplicationManager"__id*ë*é1
+/OrchardCore.OpenId.Controllers.AccessController"Y
+_applicationManagerBOrchardCore.OpenId.Abstractions.Managers.IOpenIdApplicationManagerÎË
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csÄ Ä(I0
+%42)System.Threading.Tasks.ValueTask<TResult>"lOpenIddict.Abstractions.IOpenIddictApplicationManager.GetIdAsync(object, System.Threading.CancellationToken)*K
+I
+%41BOrchardCore.OpenId.Abstractions.Managers.IOpenIdApplicationManager*
+
+applicationobject*
+""26GetIdAsync(object, System.Threading.CancellationToken)∫
+∑
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csÅ Å(&
+%43"__id*
+""∫
+∑
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csÇ Ç(2
+%44"__id*
+""©
+¶
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csÉ É(+5
+%45.System.Collections.Immutable.ImmutableArray<T>"aOpenIddict.Abstractions.OpenIddictExtensions.GetScopes(OpenIddict.Abstractions.OpenIddictRequest)*0".
+,OpenIddict.Abstractions.OpenIddictExtensions*6
+4
+request)OpenIddict.Abstractions.OpenIddictRequestŸ÷
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.cs˛' É(,5
+%46.System.Collections.Generic.IAsyncEnumerable<T>"∫OpenIddict.Abstractions.IOpenIddictAuthorizationManager.FindAsync(string, string, string, string, System.Collections.Immutable.ImmutableArray<string>, System.Threading.CancellationToken)*M
+K
+%39DOrchardCore.OpenId.Abstractions.Managers.IOpenIdAuthorizationManager*
+
+%40string*
+""*
+
+%43*
+
+%44*7
+5
+%45.System.Collections.Immutable.ImmutableArray<T>*
+""2ÇFindAsync(string, string, string, string, System.Collections.Immutable.ImmutableArray<string>, System.Threading.CancellationToken)ò
+ï
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.cs˛' É(:+
+%47$System.Threading.Tasks.Task<TResult>"bOrchardCore.OpenId.OpenIdExtensions.ToListAsync<T>(System.Collections.Generic.IAsyncEnumerable<T>)*'"%
+#OrchardCore.OpenId.OpenIdExtensions*7
+5
+%46.System.Collections.Generic.IAsyncEnumerable<T>È
+Ê
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.cs˛ É(:4
+authorizations"System.Collections.Generic.List<T>"__id*
+""ä
+á
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csá á(-I
+%48BOrchardCore.OpenId.Abstractions.Managers.IOpenIdApplicationManager"__id*ë*é1
+/OrchardCore.OpenId.Controllers.AccessController"Y
+_applicationManagerBOrchardCore.OpenId.Abstractions.Managers.IOpenIdApplicationManager˝˙
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csá á(N0
+%49)System.Threading.Tasks.ValueTask<TResult>"uOpenIddict.Abstractions.IOpenIddictApplicationManager.GetConsentTypeAsync(object, System.Threading.CancellationToken)*K
+I
+%48BOrchardCore.OpenId.Abstractions.Managers.IOpenIdApplicationManager*
+
+applicationobject*
+""2?GetConsentTypeAsync(object, System.Threading.CancellationToken)*
+8*Æ
+8ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csâ â(**
+9
+10*é
+9ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csâ0 â(E‹
+Ÿ
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csâ1 â(E
+%50bool"TSystem.Linq.Enumerable.Any<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*6
+4
+authorizations"System.Collections.Generic.List<T>*
+11
+10*ò
+11ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csä è(Oñì
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csä? è(:
+%513System.Collections.Generic.Dictionary<TKey, TValue>"3System.Collections.Generic.Dictionary<TKey, TValue>≤
+Ø
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csäC ä(]
+%52void"@System.Collections.Generic.Dictionary<TKey, TValue>.Dictionary()*<
+:
+%513System.Collections.Generic.Dictionary<TKey, TValue>∫
+∑
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.cså å(M
+%53"__id*
+""∫
+∑
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csåQ å(g
+%54"__id*
+""ª
+∏
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.cså å(g:
+%553System.Collections.Generic.Dictionary<TKey, TValue>"__mapSet*<
+:
+%513System.Collections.Generic.Dictionary<TKey, TValue>*
+
+%53*
+
+%54∫
+∑
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csç ç(X
+%56"__id*
+""¸
+˘
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csç é(b:
+%573System.Collections.Generic.Dictionary<TKey, TValue>"__mapSet*<
+:
+%513System.Collections.Generic.Dictionary<TKey, TValue>*
+
+%56*HF
+DThe logged in user is not allowed to access this client application.®•
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csä" è(C
+%58<Microsoft.AspNetCore.Authentication.AuthenticationProperties"<Microsoft.AspNetCore.Authentication.AuthenticationProperties«
+ƒ
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csä& ä(>
+%59void"çMicrosoft.AspNetCore.Authentication.AuthenticationProperties.AuthenticationProperties(System.Collections.Generic.IDictionary<string, string>)*E
+C
+%58<Microsoft.AspNetCore.Authentication.AuthenticationProperties*<
+:
+%513System.Collections.Generic.Dictionary<TKey, TValue>∫
+∑
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csè è(O
+%60"__id*
+""¶£
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csä è(P,
+%61%Microsoft.AspNetCore.Mvc.ForbidResult"}Microsoft.AspNetCore.Mvc.ControllerBase.Forbid(Microsoft.AspNetCore.Authentication.AuthenticationProperties, params string[])*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*E
+C
+%58<Microsoft.AspNetCore.Authentication.AuthenticationProperties*
+
+%602UForbid(Microsoft.AspNetCore.Authentication.AuthenticationProperties, params string[])"“
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csä è(Q.
+,
+%61%Microsoft.AspNetCore.Mvc.ForbidResult*∑
+10ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csí ö(GÀ»
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csí+ í(=*
+%62#System.Security.Principal.IIdentity"3System.Security.Claims.ClaimsPrincipal.Identity.get*5
+3
+	principal&System.Security.Claims.ClaimsPrincipal2Identity.get‡
+›
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csí í(=
+%63"__id*,
+*
+%62#System.Security.Principal.IIdentityÁ
+‰
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csí í(=1
+identity%System.Security.Claims.ClaimsIdentity"__id*
+
+%63∫
+∑
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csî î(?
+%64"__id*
+""∫
+∑
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csîA î(a
+%65"__id*
+""∫
+∑
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csï ï((
+%66"__id*
+""∫
+∑
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csï* ï(D
+%67"__id*
+""ﬁ
+€
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csî ï(E,
+%68%System.Security.Claims.ClaimsIdentity"~OpenIddict.Abstractions.OpenIddictExtensions.AddClaim(System.Security.Claims.ClaimsIdentity, string, string, params string[]?)*0".
+,OpenIddict.Abstractions.OpenIddictExtensions*3
+1
+identity%System.Security.Claims.ClaimsIdentity*
+
+%64*
+
+%65*
+
+%66*
+
+%67∫
+∑
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csö9 ö(G
+%69"__id*
+""◊‘
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csö% ö(H#
+%70System.Security.Claims.Claim"8System.Security.Claims.ClaimsPrincipal.FindFirst(string)*5
+3
+	principal&System.Security.Claims.ClaimsPrincipal*
+
+%692FindFirst(string)*
+12
+13*≤
+13ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csöI ö(OÉ
+Ä
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csöJ ö(O
+%71string"&System.Security.Claims.Claim.Value.get*%
+#
+%70System.Security.Claims.Claim*
+12*°
+12ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csö ö(PÓ
+Î
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csö ö(P
+%72bool"string.IsNullOrEmpty(string?)*
+"
+string*
+
+%71string*
+14
+15*˚
+14ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csú ú(Y∫
+∑
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csú, ú(:
+%73"__id*
+""Û
+
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csú< ú(Y
+%74string"]OrchardCore.OpenId.OpenIdExtensions.GetUserIdentifier(System.Security.Claims.ClaimsPrincipal)*'"%
+#OrchardCore.OpenId.OpenIdExtensions*5
+3
+	principal&System.Security.Claims.ClaimsPrincipalËÂ
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csú" ú(Z#
+%75System.Security.Claims.Claim"System.Security.Claims.Claimß
+§
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csú& ú(+
+%76void"2System.Security.Claims.Claim.Claim(string, string)*%
+#
+%75System.Security.Claims.Claim*
+
+%73*
+
+%74stringÑÅ
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csú ú([
+%77void"LSystem.Security.Claims.ClaimsIdentity.AddClaim(System.Security.Claims.Claim)*3
+1
+identity%System.Security.Claims.ClaimsIdentity*%
+#
+%75System.Security.Claims.Claim2&AddClaim(System.Security.Claims.Claim)*
+15*˚
+15ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csü •(%©
+¶
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csü  ü(35
+%78.System.Collections.Immutable.ImmutableArray<T>"aOpenIddict.Abstractions.OpenIddictExtensions.GetScopes(OpenIddict.Abstractions.OpenIddictRequest)*0".
+,OpenIddict.Abstractions.OpenIddictExtensions*6
+4
+request)OpenIddict.Abstractions.OpenIddictRequestå
+â
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csü ü(4-
+%79&System.Security.Claims.ClaimsPrincipal"ìOpenIddict.Abstractions.OpenIddictExtensions.SetScopes(System.Security.Claims.ClaimsPrincipal, System.Collections.Immutable.ImmutableArray<string>)*0".
+,OpenIddict.Abstractions.OpenIddictExtensions*5
+3
+	principal&System.Security.Claims.ClaimsPrincipal*7
+5
+%78.System.Collections.Immutable.ImmutableArray<T>©
+¶
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.cs†; †(N5
+%80.System.Collections.Immutable.ImmutableArray<T>"aOpenIddict.Abstractions.OpenIddictExtensions.GetScopes(OpenIddict.Abstractions.OpenIddictRequest)*0".
+,OpenIddict.Abstractions.OpenIddictExtensions*6
+4
+request)OpenIddict.Abstractions.OpenIddictRequest∏
+µ
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.cs†) †(O+
+%81$System.Threading.Tasks.Task<TResult>"vOrchardCore.OpenId.Controllers.AccessController.GetResourcesAsync(System.Collections.Immutable.ImmutableArray<string>)*31
+/OrchardCore.OpenId.Controllers.AccessController*7
+5
+%80.System.Collections.Immutable.ImmutableArray<T>⁄
+◊
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.cs† †(P-
+%82&System.Security.Claims.ClaimsPrincipal"íOpenIddict.Abstractions.OpenIddictExtensions.SetResources(System.Security.Claims.ClaimsPrincipal, System.Collections.Generic.IEnumerable<string>?)*0".
+,OpenIddict.Abstractions.OpenIddictExtensions*5
+3
+	principal&System.Security.Claims.ClaimsPrincipal*
+""È
+Ê
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.cs§  §(?
+%83object"_System.Linq.Enumerable.FirstOrDefault<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*6
+4
+authorizations"System.Collections.Generic.List<T>’
+“
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.cs§ §(?
+authorizationobject"__id*
+
+%83objectÖ
+Ç
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.cs• •(%
+%84bool""object.operator ==(object, object)*
+"
+object*
+
+authorizationobject*
+""*
+16
+17*≠
+16ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csß ¨(1ê
+ç
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csß& ß(;K
+%85DOrchardCore.OpenId.Abstractions.Managers.IOpenIdAuthorizationManager"__id*ï*í1
+/OrchardCore.OpenId.Controllers.AccessController"]
+_authorizationManagerDOrchardCore.OpenId.Abstractions.Managers.IOpenIdAuthorizationManagerÛ
+
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.cs© ©(:
+%86string"]OrchardCore.OpenId.OpenIdExtensions.GetUserIdentifier(System.Security.Claims.ClaimsPrincipal)*'"%
+#OrchardCore.OpenId.OpenIdExtensions*5
+3
+	principal&System.Security.Claims.ClaimsPrincipalä
+á
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.cs™" ™(5I
+%87BOrchardCore.OpenId.Abstractions.Managers.IOpenIdApplicationManager"__id*ë*é1
+/OrchardCore.OpenId.Controllers.AccessController"Y
+_applicationManagerBOrchardCore.OpenId.Abstractions.Managers.IOpenIdApplicationManagerÎË
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.cs™" ™(M0
+%88)System.Threading.Tasks.ValueTask<TResult>"lOpenIddict.Abstractions.IOpenIddictApplicationManager.GetIdAsync(object, System.Threading.CancellationToken)*K
+I
+%87BOrchardCore.OpenId.Abstractions.Managers.IOpenIdApplicationManager*
+
+applicationobject*
+""26GetIdAsync(object, System.Threading.CancellationToken)∫
+∑
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.cs´ ´(6
+%89"__id*
+""•
+¢
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.cs¨ ¨(15
+%90.System.Collections.Immutable.ImmutableArray<T>"^OpenIddict.Abstractions.OpenIddictExtensions.GetScopes(System.Security.Claims.ClaimsPrincipal)*0".
+,OpenIddict.Abstractions.OpenIddictExtensions*5
+3
+	principal&System.Security.Claims.ClaimsPrincipal∆√
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csß& ¨(20
+%91)System.Threading.Tasks.ValueTask<TResult>"‹OpenIddict.Abstractions.IOpenIddictAuthorizationManager.CreateAsync(System.Security.Claims.ClaimsPrincipal, string, string, string, System.Collections.Immutable.ImmutableArray<string>, System.Threading.CancellationToken)*M
+K
+%85DOrchardCore.OpenId.Abstractions.Managers.IOpenIdAuthorizationManager*5
+3
+	principal&System.Security.Claims.ClaimsPrincipal*
+
+%86string*
+""*
+
+%89*7
+5
+%90.System.Collections.Immutable.ImmutableArray<T>*
+""2§CreateAsync(System.Security.Claims.ClaimsPrincipal, string, string, string, System.Collections.Immutable.ImmutableArray<string>, System.Threading.CancellationToken)Ã
+…
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csß ¨(2
+authorizationobject"__id*
+""*
+17*Ω
+17ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csØ ±(2ê
+ç
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csØ/ Ø(DK
+%92DOrchardCore.OpenId.Abstractions.Managers.IOpenIdAuthorizationManager"__id*ï*í1
+/OrchardCore.OpenId.Controllers.AccessController"]
+_authorizationManagerDOrchardCore.OpenId.Abstractions.Managers.IOpenIdAuthorizationManagerÒÓ
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csØ/ Ø(^0
+%93)System.Threading.Tasks.ValueTask<TResult>"nOpenIddict.Abstractions.IOpenIddictAuthorizationManager.GetIdAsync(object, System.Threading.CancellationToken)*M
+K
+%92DOrchardCore.OpenId.Abstractions.Managers.IOpenIdAuthorizationManager*
+
+authorizationobject*
+""26GetIdAsync(object, System.Threading.CancellationToken)∑
+¥
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.csØ Ø(_-
+%94&System.Security.Claims.ClaimsPrincipal"pOpenIddict.Abstractions.OpenIddictExtensions.SetAuthorizationId(System.Security.Claims.ClaimsPrincipal, string?)*0".
+,OpenIddict.Abstractions.OpenIddictExtensions*5
+3
+	principal&System.Security.Claims.ClaimsPrincipal*
+""Õ 
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.cs±" ±(20
+%95)System.Collections.Generic.IEnumerable<T>"1System.Security.Claims.ClaimsPrincipal.Claims.get*5
+3
+	principal&System.Security.Claims.ClaimsPrincipal2
+Claims.get*
+18*∞
+18ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.cs∑	 ∑(	*
+19
+20*ç	
+19ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.cs≥ ≥(FÙ
+Ò
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.cs≥& ≥(G0
+%96)System.Collections.Generic.IEnumerable<T>"ÖOrchardCore.OpenId.Controllers.AccessController.GetDestinations(System.Security.Claims.Claim, System.Security.Claims.ClaimsPrincipal)*31
+/OrchardCore.OpenId.Controllers.AccessController*'
+%
+claimSystem.Security.Claims.Claim*5
+3
+	principal&System.Security.Claims.ClaimsPrincipalÁ
+‰
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.cs≥ ≥(H#
+%97System.Security.Claims.Claim"ãOpenIddict.Abstractions.OpenIddictExtensions.SetDestinations(System.Security.Claims.Claim, System.Collections.Generic.IEnumerable<string>?)*0".
+,OpenIddict.Abstractions.OpenIddictExtensions*'
+%
+claimSystem.Security.Claims.Claim*2
+0
+%96)System.Collections.Generic.IEnumerable<T>*
+18*ì
+20ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.cs∂ ∂(\∫
+∑
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.cs∂% ∂(\
+%98"__id*
+""ÿ’
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.cs∂ ∂(],
+%99%Microsoft.AspNetCore.Mvc.SignInResult"^Microsoft.AspNetCore.Mvc.ControllerBase.SignIn(System.Security.Claims.ClaimsPrincipal, string)*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*5
+3
+	principal&System.Security.Claims.ClaimsPrincipal*
+
+%9826SignIn(System.Security.Claims.ClaimsPrincipal, string)"“
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.cs∂ ∂(^.
+,
+%99%Microsoft.AspNetCore.Mvc.SignInResult*ﬂ
+3ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.cs∑	 ∑(	"∑
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\AccessController.cs∑ ∑(	
+implicit return:4
+request)OpenIddict.Abstractions.OpenIddictRequestB31
+/OrchardCore.OpenId.Controllers.AccessController

@@ -1,0 +1,126 @@
+
+:OrchardCore.Media.Controllers.MediaCacheController.Index() 
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaCacheController.cs%) %(."4*Ù
+0 
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaCacheController.cs' '(hû
+ø
+ 
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaCacheController.cs' '(,>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*Œ*‰4
+2OrchardCore.Media.Controllers.MediaCacheController"Q
+_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationService³
+°
+ 
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaCacheController.cs'< '(@,
+%1&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBaseÏ
+Ì
+ 
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaCacheController.cs'B '(h1
+%2+OrchardCore.Security.Permissions.Permission"__id*n*l)
+'OrchardCore.Media.MediaCachePermissions"?
+ManageAssetCache+OrchardCore.Security.Permissions.Permission¢
+Ÿ
+ 
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaCacheController.cs' '(i*
+%3$System.Threading.Tasks.Task<TResult>"ßMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission)*E"C
+AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*@
+>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService*.
+,
+%1&System.Security.Claims.ClaimsPrincipal*3
+1
+%2+OrchardCore.Security.Permissions.Permission*
+1
+2*º
+1 
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaCacheController.cs) )(¼¹
+ 
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaCacheController.cs) )(+
+%4%Microsoft.AspNetCore.Mvc.ForbidResult"0Microsoft.AspNetCore.Mvc.ControllerBase.Forbid()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2Forbid()"Ò
+ 
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaCacheController.cs) )( -
++
+%4%Microsoft.AspNetCore.Mvc.ForbidResult*Ø
+2 
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaCacheController.cs+ 0(
+ 
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaCacheController.cs+ .(6
+%50OrchardCore.Media.ViewModels.MediaCacheViewModel"0OrchardCore.Media.ViewModels.MediaCacheViewModel´
+±
+ 
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaCacheController.cs+ +(/
+
+%6void"FOrchardCore.Media.ViewModels.MediaCacheViewModel.MediaCacheViewModel()*8
+6
+%50OrchardCore.Media.ViewModels.MediaCacheViewModelÔ
+Ñ
+ 
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaCacheController.cs- -(3,
+%7&OrchardCore.Media.IMediaFileStoreCache"__id*x*v4
+2OrchardCore.Media.Controllers.MediaCacheController">
+_mediaFileStoreCache&OrchardCore.Media.IMediaFileStoreCacheš
+—
+ 
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaCacheController.cs- -(;
+
+%8bool""object.operator !=(object, object)*
+"
+object*.
+,
+%7&OrchardCore.Media.IMediaFileStoreCache*
+""½
+º
+ 
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaCacheController.cs- -(;
+
+%9bool"AOrchardCore.Media.ViewModels.MediaCacheViewModel.IsConfigured.set*8
+6
+%50OrchardCore.Media.ViewModels.MediaCacheViewModel*
+
+
+%8bool¡
+ž
+ 
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaCacheController.cs+ .(9
+model0OrchardCore.Media.ViewModels.MediaCacheViewModel"__id*8
+6
+%50OrchardCore.Media.ViewModels.MediaCacheViewModelØ
+Õ
+ 
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaCacheController.cs0 0(
+%10void"(orchardcore.media/views/mediacache/index*
+
+%11*;
+9
+model0OrchardCore.Media.ViewModels.MediaCacheViewModel*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject* 
+
+%HttpContextItemsAllobject*!
+
+%HttpContextItemsHtmlobject"²
+ 
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaCacheController.cs0 0(
+
+%10void*á
+3 
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaCacheController.cs1	 1(	"¸
+ 
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaCacheController.cs1 1(	
+implicit return*é
+4 
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaCacheController.cs%0 %(0»
+¸
+ 
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Controllers\MediaCacheController.cs%) %(.
+%12"__entrypoint*
+0B64
+2OrchardCore.Media.Controllers.MediaCacheController

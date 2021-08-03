@@ -1,0 +1,889 @@
+
+}OrchardCore.Lucene.Controllers.AdminController.EditPost(OrchardCore.Lucene.ViewModels.LuceneIndexSettingsViewModel, string[])û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs¥( ¥(0"22*ø
+0û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs∂ ∂([ı
+Ú
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs∂ ∂(,>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*à*Ö0
+.OrchardCore.Lucene.Controllers.AdminController"Q
+_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationService±
+Æ
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs∂< ∂(@,
+%1&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase¡
+æ
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs∂B ∂([1
+%2+OrchardCore.Security.Permissions.Permission"__id*b*` 
+OrchardCore.Lucene.Permissions"<
+ManageIndexes+OrchardCore.Security.Permissions.Permission†
+ù
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs∂ ∂(\*
+%3$System.Threading.Tasks.Task<TResult>"ﬂMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission)*E"C
+AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*@
+>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService*.
+,
+%1&System.Security.Claims.ClaimsPrincipal*3
+1
+%2+OrchardCore.Security.Permissions.Permission*
+1
+2*¥
+1û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs∏ ∏(∫∑
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs∏ ∏(+
+%4%Microsoft.AspNetCore.Mvc.ForbidResult"0Microsoft.AspNetCore.Mvc.ControllerBase.Forbid()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2Forbid()"–
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs∏ ∏( -
++
+%4%Microsoft.AspNetCore.Mvc.ForbidResult*ó
+2û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csª Ω(•
+¢
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csª ª( 
+
+%5void"xOrchardCore.Lucene.Controllers.AdminController.ValidateModel(OrchardCore.Lucene.ViewModels.LuceneIndexSettingsViewModel)*20
+.OrchardCore.Lucene.Controllers.AdminController*E
+C
+model:OrchardCore.Lucene.ViewModels.LuceneIndexSettingsViewModel¿
+Ω
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csΩ Ω(
+
+%6bool"GOrchardCore.Lucene.ViewModels.LuceneIndexSettingsViewModel.IsCreate.get*E
+C
+model:OrchardCore.Lucene.ViewModels.LuceneIndexSettingsViewModel*
+3
+4*Ë
+3û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csø ø(>À
+»
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csø ø('+
+%7%OrchardCore.Lucene.LuceneIndexManager"__id*r*p0
+.OrchardCore.Lucene.Controllers.AdminController"<
+_luceneIndexManager%OrchardCore.Lucene.LuceneIndexManager√
+¿
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csø/ ø(>
+%8string"HOrchardCore.Lucene.ViewModels.LuceneIndexSettingsViewModel.IndexName.get*E
+C
+model:OrchardCore.Lucene.ViewModels.LuceneIndexSettingsViewModel•
+¢
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csø ø(?
+
+%9bool"4OrchardCore.Lucene.LuceneIndexManager.Exists(string)*-
++
+%7%OrchardCore.Lucene.LuceneIndexManager*
+
+%8string*
+5
+6*Ç
+5ü
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs¡ ¡(îÃ
+…
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs¡ ¡(A
+%10:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary"6Microsoft.AspNetCore.Mvc.ControllerBase.ModelState.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase‘
+—
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs¡] ¡(^9
+%112Microsoft.Extensions.Localization.IStringLocalizer"__id*m*k0
+.OrchardCore.Lucene.Controllers.AdminController"7
+S2Microsoft.Extensions.Localization.IStringLocalizer∆
+√
+†
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs¡Ö ¡(î
+%12string"HOrchardCore.Lucene.ViewModels.LuceneIndexSettingsViewModel.IndexName.get*E
+C
+model:OrchardCore.Lucene.ViewModels.LuceneIndexSettingsViewModelŒÀ
+ü
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs¡] ¡(ï8
+%131Microsoft.Extensions.Localization.LocalizedString"TMicrosoft.Extensions.Localization.IStringLocalizer.this[string, params object[]].get*;
+9
+%112Microsoft.Extensions.Localization.IStringLocalizer*&$
+"An index named {0} already exists.*
+
+%12string2!this[string, params object[]].getï
+í
+ü
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs¡ ¡(ñ
+%14void"XMicrosoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary.AddModelError(string, string)*C
+A
+%10:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary*
+""*:
+8
+%131Microsoft.Extensions.Localization.LocalizedString*
+6*Ì
+4û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs∆ ∆(?Ã
+…
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs∆ ∆((,
+%15%OrchardCore.Lucene.LuceneIndexManager"__id*r*p0
+.OrchardCore.Lucene.Controllers.AdminController"<
+_luceneIndexManager%OrchardCore.Lucene.LuceneIndexManagerƒ
+¡
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs∆0 ∆(?
+%16string"HOrchardCore.Lucene.ViewModels.LuceneIndexSettingsViewModel.IndexName.get*E
+C
+model:OrchardCore.Lucene.ViewModels.LuceneIndexSettingsViewModel®
+•
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs∆ ∆(@
+%17bool"4OrchardCore.Lucene.LuceneIndexManager.Exists(string)*.
+,
+%15%OrchardCore.Lucene.LuceneIndexManager*
+
+%16string*
+7
+6*Å
+7ü
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs» »(ìÃ
+…
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs» »(A
+%18:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary"6Microsoft.AspNetCore.Mvc.ControllerBase.ModelState.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase‘
+—
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs»] »(^9
+%192Microsoft.Extensions.Localization.IStringLocalizer"__id*m*k0
+.OrchardCore.Lucene.Controllers.AdminController"7
+S2Microsoft.Extensions.Localization.IStringLocalizer∆
+√
+†
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs»Ñ »(ì
+%20string"HOrchardCore.Lucene.ViewModels.LuceneIndexSettingsViewModel.IndexName.get*E
+C
+model:OrchardCore.Lucene.ViewModels.LuceneIndexSettingsViewModelÕ 
+ü
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs»] »(î8
+%211Microsoft.Extensions.Localization.LocalizedString"TMicrosoft.Extensions.Localization.IStringLocalizer.this[string, params object[]].get*;
+9
+%192Microsoft.Extensions.Localization.IStringLocalizer*%#
+!An index named {0} doesn't exist.*
+
+%20string2!this[string, params object[]].getï
+í
+ü
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs» »(ï
+%22void"XMicrosoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary.AddModelError(string, string)*C
+A
+%18:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary*
+""*:
+8
+%211Microsoft.Extensions.Localization.LocalizedString*
+6*º
+6û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csÃ Ã(#Ã
+…
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csÃ Ã(A
+%23:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary"6Microsoft.AspNetCore.Mvc.ControllerBase.ModelState.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBaseæ
+ª
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csÃ Ã(#
+%24bool"FMicrosoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary.IsValid.get*C
+A
+%23:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary*
+8
+9*˝/
+8û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csŒ “(!π
+∂
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csŒ9 Œ(Q
+%25"__id*
+""œ
+Ã
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csŒ! Œ(R)
+%26"System.Globalization.CultureInfo[]"OSystem.Globalization.CultureInfo.GetCultures(System.Globalization.CultureTypes)*$""
+ System.Globalization.CultureInfo*
+
+%25®
+•
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csŒ! œ(s0
+%27)System.Collections.Generic.IEnumerable<T>"System.Linq.Enumerable.Select<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)*"
+System.Linq.Enumerable*+
+)
+%26"System.Globalization.CultureInfo[]*
+""íè
+ü
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csœ| œ(π8
+%281Microsoft.AspNetCore.Mvc.Rendering.SelectListItem"1Microsoft.AspNetCore.Mvc.Rendering.SelectListItem≥
+∞
+†
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csœÄ œ(é
+%29void"BMicrosoft.AspNetCore.Mvc.Rendering.SelectListItem.SelectListItem()*:
+8
+%281Microsoft.AspNetCore.Mvc.Rendering.SelectListItem÷
+”
+†
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csœò œ(ô9
+%302Microsoft.Extensions.Localization.IStringLocalizer"__id*m*k0
+.OrchardCore.Lucene.Controllers.AdminController"7
+S2Microsoft.Extensions.Localization.IStringLocalizerÖÇ
+†
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csœò œ(®8
+%311Microsoft.Extensions.Localization.LocalizedString"CMicrosoft.Extensions.Localization.IStringLocalizer.this[string].get*;
+9
+%302Microsoft.Extensions.Localization.IStringLocalizer*
+Any culture2this[string].getÈ
+Ê
+†
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csœë œ(®
+%32string":Microsoft.AspNetCore.Mvc.Rendering.SelectListItem.Text.set*:
+8
+%281Microsoft.AspNetCore.Mvc.Rendering.SelectListItem*:
+8
+%311Microsoft.Extensions.Localization.LocalizedString∑
+¥
+†
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csœ™ œ(∑
+%33string";Microsoft.AspNetCore.Mvc.Rendering.SelectListItem.Value.set*:
+8
+%281Microsoft.AspNetCore.Mvc.Rendering.SelectListItem*
+any∆
+√
+ü
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csŒ! œ(∫0
+%34)System.Collections.Generic.IEnumerable<T>"aSystem.Linq.Enumerable.Prepend<TSource>(System.Collections.Generic.IEnumerable<TSource>, TSource)*"
+System.Linq.Enumerable*2
+0
+%27)System.Collections.Generic.IEnumerable<T>*:
+8
+%281Microsoft.AspNetCore.Mvc.Rendering.SelectListItemõ
+ò
+ü
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csŒ œ(∫0
+%35)System.Collections.Generic.IEnumerable<T>"GOrchardCore.Lucene.ViewModels.LuceneIndexSettingsViewModel.Cultures.set*E
+C
+model:OrchardCore.Lucene.ViewModels.LuceneIndexSettingsViewModel*2
+0
+%34)System.Collections.Generic.IEnumerable<T>Ë
+Â
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs–" –(88
+%361OrchardCore.Lucene.Services.LuceneAnalyzerManager"__id*Å*0
+.OrchardCore.Lucene.Controllers.AdminController"K
+_luceneAnalyzerManager1OrchardCore.Lucene.Services.LuceneAnalyzerManager‘
+—
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs–" –(G0
+%37)System.Collections.Generic.IEnumerable<T>"@OrchardCore.Lucene.Services.LuceneAnalyzerManager.GetAnalyzers()*:
+8
+%361OrchardCore.Lucene.Services.LuceneAnalyzerManagerØ
+¨
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs–" —(V0
+%38)System.Collections.Generic.IEnumerable<T>"System.Linq.Enumerable.Select<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)*"
+System.Linq.Enumerable*2
+0
+%37)System.Collections.Generic.IEnumerable<T>*
+""õ
+ò
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs– —(V0
+%39)System.Collections.Generic.IEnumerable<T>"HOrchardCore.Lucene.ViewModels.LuceneIndexSettingsViewModel.Analyzers.set*E
+C
+model:OrchardCore.Lucene.ViewModels.LuceneIndexSettingsViewModel*2
+0
+%38)System.Collections.Generic.IEnumerable<T>Ä˝
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs“ “("*
+%40#Microsoft.AspNetCore.Mvc.ViewResult"0Microsoft.AspNetCore.Mvc.Controller.View(object)*'%
+#Microsoft.AspNetCore.Mvc.Controller*E
+C
+model:OrchardCore.Lucene.ViewModels.LuceneIndexSettingsViewModel2View(object)"œ
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs“ “(#,
+*
+%40#Microsoft.AspNetCore.Mvc.ViewResult*Ú
+9û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs’ ’(¡
+æ
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs’ ’(
+%41bool"GOrchardCore.Lucene.ViewModels.LuceneIndexSettingsViewModel.IsCreate.get*E
+C
+model:OrchardCore.Lucene.ViewModels.LuceneIndexSettingsViewModel*
+10
+11*≥
+10ü
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csŸ# Ÿ(‡àÖ
+ü
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csŸ# Ÿ(Ë3
+%45,OrchardCore.Lucene.Model.LuceneIndexSettings",OrchardCore.Lucene.Model.LuceneIndexSettings¨
+©
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csŸ' Ÿ(:
+%46void"BOrchardCore.Lucene.Model.LuceneIndexSettings.LuceneIndexSettings()*5
+3
+%45,OrchardCore.Lucene.Model.LuceneIndexSettingsƒ
+¡
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csŸI Ÿ(X
+%47string"HOrchardCore.Lucene.ViewModels.LuceneIndexSettingsViewModel.IndexName.get*E
+C
+model:OrchardCore.Lucene.ViewModels.LuceneIndexSettingsViewModel∑
+¥
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csŸ= Ÿ(X
+%48string":OrchardCore.Lucene.Model.LuceneIndexSettings.IndexName.set*5
+3
+%45,OrchardCore.Lucene.Model.LuceneIndexSettings*
+
+%47string«
+ƒ
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csŸi Ÿ({
+%49string"KOrchardCore.Lucene.ViewModels.LuceneIndexSettingsViewModel.AnalyzerName.get*E
+C
+model:OrchardCore.Lucene.ViewModels.LuceneIndexSettingsViewModel∫
+∑
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csŸZ Ÿ({
+%50string"=OrchardCore.Lucene.Model.LuceneIndexSettings.AnalyzerName.set*5
+3
+%45,OrchardCore.Lucene.Model.LuceneIndexSettings*
+
+%49string∆
+√
+†
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csŸã Ÿ(ú
+%51bool"JOrchardCore.Lucene.ViewModels.LuceneIndexSettingsViewModel.IndexLatest.get*E
+C
+model:OrchardCore.Lucene.ViewModels.LuceneIndexSettingsViewModel∂
+≥
+ü
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csŸ} Ÿ(ú
+%52bool"<OrchardCore.Lucene.Model.LuceneIndexSettings.IndexLatest.set*5
+3
+%45,OrchardCore.Lucene.Model.LuceneIndexSettings*
+
+%51bool◊
+‘
+†
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csŸû Ÿ(«
+%53string[]"DOrchardCore.Lucene.Model.LuceneIndexSettings.IndexedContentTypes.set*5
+3
+%45,OrchardCore.Lucene.Model.LuceneIndexSettings*!
+
+indexedContentTypesstring[]ƒ
+¡
+†
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csŸ” Ÿ(‡
+%54string"FOrchardCore.Lucene.ViewModels.LuceneIndexSettingsViewModel.Culture.get*E
+C
+model:OrchardCore.Lucene.ViewModels.LuceneIndexSettingsViewModelÃ
+…
+†
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csŸ” Ÿ(‡
+%43string"__id*
+
+%54stringÃ
+…
+†
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csŸ” Ÿ(‡
+%42string"__id*
+
+%43string*
+12
+13*æ
+12†
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csŸ‰ Ÿ(Êø
+º
+†
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csŸ‰ Ÿ(Ê
+%44string"__id* Ã
+…
+†
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csŸ‰ Ÿ(Ê
+%42string"__id*
+
+%44string*
+13*É
+13û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csŸ ›(J∑
+¥
+†
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csŸ… Ÿ(Ê
+%55string"8OrchardCore.Lucene.Model.LuceneIndexSettings.Culture.set*5
+3
+%45,OrchardCore.Lucene.Model.LuceneIndexSettings*
+
+%42stringú
+ô
+ü
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csŸ Ÿ(Ë8
+settings,OrchardCore.Lucene.Model.LuceneIndexSettings"__id*5
+3
+%45,OrchardCore.Lucene.Model.LuceneIndexSettings’
+“
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs› ›(0/
+%56(OrchardCore.Lucene.LuceneIndexingService"__id*x*v0
+.OrchardCore.Lucene.Controllers.AdminController"B
+_luceneIndexingService(OrchardCore.Lucene.LuceneIndexingService†
+ù
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs› ›(K"
+%57System.Threading.Tasks.Task"gOrchardCore.Lucene.LuceneIndexingService.CreateIndexAsync(OrchardCore.Lucene.Model.LuceneIndexSettings)*1
+/
+%56(OrchardCore.Lucene.LuceneIndexingService*:
+8
+settings,OrchardCore.Lucene.Model.LuceneIndexSettings*
+14
+15*©
+14û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs· „(%‘
+—
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs· ·(5
+%58.OrchardCore.DisplayManagement.Notify.INotifier"__id*q*o0
+.OrchardCore.Lucene.Controllers.AdminController";
+	_notifier.OrchardCore.DisplayManagement.Notify.INotifierÿ
+’
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs·$ ·(%;
+%594Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer"__id*o*m0
+.OrchardCore.Lucene.Controllers.AdminController"9
+H4Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizerØ¨
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs·$ ·(T@
+%609Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString"EMicrosoft.AspNetCore.Mvc.Localization.IHtmlLocalizer.this[string].get*=
+;
+%594Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer*/-
++An error occurred while creating the index.2this[string].getñ
+ì
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs· ·(U
+%61void"®OrchardCore.DisplayManagement.Notify.NotifierExtensions.Error(OrchardCore.DisplayManagement.Notify.INotifier, Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString)*;"9
+7OrchardCore.DisplayManagement.Notify.NotifierExtensions*7
+5
+%58.OrchardCore.DisplayManagement.Notify.INotifier*B
+@
+%609Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlStringæ
+ª
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs‚ ‚(+
+%62$Microsoft.Extensions.Logging.ILogger"__id*e*c0
+.OrchardCore.Lucene.Controllers.AdminController"/
+_logger$Microsoft.Extensions.Logging.ILoggerÓ
+Î
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs‚ ‚(U
+%63void"áMicrosoft.Extensions.Logging.LoggerExtensions.LogError(Microsoft.Extensions.Logging.ILogger, System.Exception, string, params object[])*1"/
+-Microsoft.Extensions.Logging.LoggerExtensions*-
++
+%62$Microsoft.Extensions.Logging.ILogger*
+
+eSystem.Exception*.,
+*An error occurred while creating an index.*
+""Ä˝
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs„ „(&*
+%64#Microsoft.AspNetCore.Mvc.ViewResult"0Microsoft.AspNetCore.Mvc.Controller.View(object)*'%
+#Microsoft.AspNetCore.Mvc.Controller*E
+C
+model:OrchardCore.Lucene.ViewModels.LuceneIndexSettingsViewModel2View(object)"œ
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs„ „(',
+*
+%64#Microsoft.AspNetCore.Mvc.ViewResult*°
+15û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csÊ Ê(_‘
+—
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csÊ Ê(5
+%65.OrchardCore.DisplayManagement.Notify.INotifier"__id*q*o0
+.OrchardCore.Lucene.Controllers.AdminController";
+	_notifier.OrchardCore.DisplayManagement.Notify.INotifierÿ
+’
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csÊ" Ê(#;
+%664Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer"__id*o*m0
+.OrchardCore.Lucene.Controllers.AdminController"9
+H4Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizerƒ
+¡
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csÊP Ê(_
+%67string"HOrchardCore.Lucene.ViewModels.LuceneIndexSettingsViewModel.IndexName.get*E
+C
+model:OrchardCore.Lucene.ViewModels.LuceneIndexSettingsViewModelﬂ‹
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csÊ" Ê(`@
+%689Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString"VMicrosoft.AspNetCore.Mvc.Localization.IHtmlLocalizer.this[string, params object[]].get*=
+;
+%664Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer*,*
+(Index <em>{0}</em> created successfully.*
+
+%67string2!this[string, params object[]].getò
+ï
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csÊ Ê(a
+%69void"™OrchardCore.DisplayManagement.Notify.NotifierExtensions.Success(OrchardCore.DisplayManagement.Notify.INotifier, Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString)*;"9
+7OrchardCore.DisplayManagement.Notify.NotifierExtensions*7
+5
+%65.OrchardCore.DisplayManagement.Notify.INotifier*B
+@
+%689Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString*
+16*≥
+11ü
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csÏ# Ï(‡àÖ
+ü
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csÏ# Ï(Ë3
+%73,OrchardCore.Lucene.Model.LuceneIndexSettings",OrchardCore.Lucene.Model.LuceneIndexSettings¨
+©
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csÏ' Ï(:
+%74void"BOrchardCore.Lucene.Model.LuceneIndexSettings.LuceneIndexSettings()*5
+3
+%73,OrchardCore.Lucene.Model.LuceneIndexSettingsƒ
+¡
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csÏI Ï(X
+%75string"HOrchardCore.Lucene.ViewModels.LuceneIndexSettingsViewModel.IndexName.get*E
+C
+model:OrchardCore.Lucene.ViewModels.LuceneIndexSettingsViewModel∑
+¥
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csÏ= Ï(X
+%76string":OrchardCore.Lucene.Model.LuceneIndexSettings.IndexName.set*5
+3
+%73,OrchardCore.Lucene.Model.LuceneIndexSettings*
+
+%75string«
+ƒ
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csÏi Ï({
+%77string"KOrchardCore.Lucene.ViewModels.LuceneIndexSettingsViewModel.AnalyzerName.get*E
+C
+model:OrchardCore.Lucene.ViewModels.LuceneIndexSettingsViewModel∫
+∑
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csÏZ Ï({
+%78string"=OrchardCore.Lucene.Model.LuceneIndexSettings.AnalyzerName.set*5
+3
+%73,OrchardCore.Lucene.Model.LuceneIndexSettings*
+
+%77string∆
+√
+†
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csÏã Ï(ú
+%79bool"JOrchardCore.Lucene.ViewModels.LuceneIndexSettingsViewModel.IndexLatest.get*E
+C
+model:OrchardCore.Lucene.ViewModels.LuceneIndexSettingsViewModel∂
+≥
+ü
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csÏ} Ï(ú
+%80bool"<OrchardCore.Lucene.Model.LuceneIndexSettings.IndexLatest.set*5
+3
+%73,OrchardCore.Lucene.Model.LuceneIndexSettings*
+
+%79bool◊
+‘
+†
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csÏû Ï(«
+%81string[]"DOrchardCore.Lucene.Model.LuceneIndexSettings.IndexedContentTypes.set*5
+3
+%73,OrchardCore.Lucene.Model.LuceneIndexSettings*!
+
+indexedContentTypesstring[]ƒ
+¡
+†
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csÏ” Ï(‡
+%82string"FOrchardCore.Lucene.ViewModels.LuceneIndexSettingsViewModel.Culture.get*E
+C
+model:OrchardCore.Lucene.ViewModels.LuceneIndexSettingsViewModelÃ
+…
+†
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csÏ” Ï(‡
+%71string"__id*
+
+%82stringÃ
+…
+†
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csÏ” Ï(‡
+%70string"__id*
+
+%71string*
+17
+18*æ
+17†
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csÏ‰ Ï(Êø
+º
+†
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csÏ‰ Ï(Ê
+%72string"__id* Ã
+…
+†
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csÏ‰ Ï(Ê
+%70string"__id*
+
+%72string*
+18*É
+18û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csÏ Ó(J∑
+¥
+†
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csÏ… Ï(Ê
+%83string"8OrchardCore.Lucene.Model.LuceneIndexSettings.Culture.set*5
+3
+%73,OrchardCore.Lucene.Model.LuceneIndexSettings*
+
+%70stringú
+ô
+ü
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csÏ Ï(Ë8
+settings,OrchardCore.Lucene.Model.LuceneIndexSettings"__id*5
+3
+%73,OrchardCore.Lucene.Model.LuceneIndexSettings’
+“
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csÓ Ó(0/
+%84(OrchardCore.Lucene.LuceneIndexingService"__id*x*v0
+.OrchardCore.Lucene.Controllers.AdminController"B
+_luceneIndexingService(OrchardCore.Lucene.LuceneIndexingService†
+ù
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csÓ Ó(K"
+%85System.Threading.Tasks.Task"gOrchardCore.Lucene.LuceneIndexingService.UpdateIndexAsync(OrchardCore.Lucene.Model.LuceneIndexSettings)*1
+/
+%84(OrchardCore.Lucene.LuceneIndexingService*:
+8
+settings,OrchardCore.Lucene.Model.LuceneIndexSettings*
+19
+20*ß
+19û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csÚ Ù(%‘
+—
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csÚ Ú(5
+%86.OrchardCore.DisplayManagement.Notify.INotifier"__id*q*o0
+.OrchardCore.Lucene.Controllers.AdminController";
+	_notifier.OrchardCore.DisplayManagement.Notify.INotifierÿ
+’
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csÚ$ Ú(%;
+%874Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer"__id*o*m0
+.OrchardCore.Lucene.Controllers.AdminController"9
+H4Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizerÆ´
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csÚ$ Ú(S@
+%889Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString"EMicrosoft.AspNetCore.Mvc.Localization.IHtmlLocalizer.this[string].get*=
+;
+%874Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer*.,
+*An error occurred while editing the index.2this[string].getñ
+ì
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csÚ Ú(T
+%89void"®OrchardCore.DisplayManagement.Notify.NotifierExtensions.Error(OrchardCore.DisplayManagement.Notify.INotifier, Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString)*;"9
+7OrchardCore.DisplayManagement.Notify.NotifierExtensions*7
+5
+%86.OrchardCore.DisplayManagement.Notify.INotifier*B
+@
+%889Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlStringæ
+ª
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csÛ Û(+
+%90$Microsoft.Extensions.Logging.ILogger"__id*e*c0
+.OrchardCore.Lucene.Controllers.AdminController"/
+_logger$Microsoft.Extensions.Logging.ILoggerÌ
+Í
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csÛ Û(T
+%91void"áMicrosoft.Extensions.Logging.LoggerExtensions.LogError(Microsoft.Extensions.Logging.ILogger, System.Exception, string, params object[])*1"/
+-Microsoft.Extensions.Logging.LoggerExtensions*-
++
+%90$Microsoft.Extensions.Logging.ILogger*
+
+eSystem.Exception*-+
+)An error occurred while editing an index.*
+""Ä˝
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csÙ Ù(&*
+%92#Microsoft.AspNetCore.Mvc.ViewResult"0Microsoft.AspNetCore.Mvc.Controller.View(object)*'%
+#Microsoft.AspNetCore.Mvc.Controller*E
+C
+model:OrchardCore.Lucene.ViewModels.LuceneIndexSettingsViewModel2View(object)"œ
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csÙ Ù(',
+*
+%92#Microsoft.AspNetCore.Mvc.ViewResult*Ê
+20ü
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs˜ ˜(ü‘
+—
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs˜ ˜(5
+%93.OrchardCore.DisplayManagement.Notify.INotifier"__id*q*o0
+.OrchardCore.Lucene.Controllers.AdminController";
+	_notifier.OrchardCore.DisplayManagement.Notify.INotifierÿ
+’
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs˜" ˜(#;
+%944Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer"__id*o*m0
+.OrchardCore.Lucene.Controllers.AdminController"9
+H4Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer∆
+√
+†
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs˜ê ˜(ü
+%95string"HOrchardCore.Lucene.ViewModels.LuceneIndexSettingsViewModel.IndexName.get*E
+C
+model:OrchardCore.Lucene.ViewModels.LuceneIndexSettingsViewModel†ù
+ü
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs˜" ˜(†@
+%969Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString"VMicrosoft.AspNetCore.Mvc.Localization.IHtmlLocalizer.this[string, params object[]].get*=
+;
+%944Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer*lj
+hIndex <em>{0}</em> modified successfully, <strong>please consider doing a rebuild on the index.</strong>*
+
+%95string2!this[string, params object[]].getô
+ñ
+ü
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs˜ ˜(°
+%97void"™OrchardCore.DisplayManagement.Notify.NotifierExtensions.Success(OrchardCore.DisplayManagement.Notify.INotifier, Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString)*;"9
+7OrchardCore.DisplayManagement.Notify.NotifierExtensions*7
+5
+%93.OrchardCore.DisplayManagement.Notify.INotifier*B
+@
+%969Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString*
+16*ˆ
+16û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs˙ ˙(+Ì
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs˙ ˙(,6
+%98/Microsoft.AspNetCore.Mvc.RedirectToActionResult"@Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToAction(string)*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*	
+Index2RedirectToAction(string)"€
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs˙ ˙(-8
+6
+%98/Microsoft.AspNetCore.Mvc.RedirectToActionResult*ﬁ
+21û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs˚	 ˚(	"∂
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs˚ ˚(	
+implicit return*ô%
+22û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs¥r ¥(rü
+ú
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs¥( ¥(0k
+C
+model:OrchardCore.Lucene.ViewModels.LuceneIndexSettingsViewModel"$
+<IndexName>k__BackingFieldstring"__entrypointé
+ã
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs¥( ¥(0Z
+C
+model:OrchardCore.Lucene.ViewModels.LuceneIndexSettingsViewModel"
+	IndexNamestring"__entrypoint¢
+ü
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs¥( ¥(0n
+C
+model:OrchardCore.Lucene.ViewModels.LuceneIndexSettingsViewModel"'
+<AnalyzerName>k__BackingFieldstring"__entrypointë
+é
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs¥( ¥(0]
+C
+model:OrchardCore.Lucene.ViewModels.LuceneIndexSettingsViewModel"
+AnalyzerNamestring"__entrypointù
+ö
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs¥( ¥(0i
+C
+model:OrchardCore.Lucene.ViewModels.LuceneIndexSettingsViewModel""
+<Culture>k__BackingFieldstring"__entrypointå
+â
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs¥( ¥(0X
+C
+model:OrchardCore.Lucene.ViewModels.LuceneIndexSettingsViewModel"
+Culturestring"__entrypoint´
+®
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs¥( ¥(0w
+C
+model:OrchardCore.Lucene.ViewModels.LuceneIndexSettingsViewModel"0
+$<IndexedContentTypes>k__BackingFieldstring[]"__entrypointö
+ó
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs¥( ¥(0f
+C
+model:OrchardCore.Lucene.ViewModels.LuceneIndexSettingsViewModel"
+IndexedContentTypesstring[]"__entrypoint√
+¿
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs¥( ¥(0é
+C
+model:OrchardCore.Lucene.ViewModels.LuceneIndexSettingsViewModel"G
+<Analyzers>k__BackingField)System.Collections.Generic.IEnumerable<T>"__entrypoint±
+Æ
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs¥( ¥(0}
+C
+model:OrchardCore.Lucene.ViewModels.LuceneIndexSettingsViewModel"6
+	Analyzers)System.Collections.Generic.IEnumerable<T>"__entrypoint¬
+ø
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs¥( ¥(0ç
+C
+model:OrchardCore.Lucene.ViewModels.LuceneIndexSettingsViewModel"F
+<Cultures>k__BackingField)System.Collections.Generic.IEnumerable<T>"__entrypoint∞
+≠
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs¥( ¥(0|
+C
+model:OrchardCore.Lucene.ViewModels.LuceneIndexSettingsViewModel"5
+Cultures)System.Collections.Generic.IEnumerable<T>"__entrypoint‹
+Ÿ
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs¥( ¥(0
+%99"__entrypoint*!
+
+indexedContentTypesstring[]ü
+ú
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs≥	 ≥(
+%100"
+__annotate*B@
+>Microsoft.AspNetCore.Mvc.HttpPostAttribute.HttpPostAttribute()*!
+
+indexedContentTypesstring[]©
+¶
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs≥ ≥(%
+%101"
+__annotate*LJ
+HMicrosoft.AspNetCore.Mvc.ActionNameAttribute.ActionNameAttribute(string)*!
+
+indexedContentTypesstring[]Á
+‰
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs¥U ¥(q
+indexedContentTypesstring[]"__annotation*
+
+%100*
+
+%101*
+0:C
+model:OrchardCore.Lucene.ViewModels.LuceneIndexSettingsViewModel:
+indexedContentTypesstring[]B20
+.OrchardCore.Lucene.Controllers.AdminController

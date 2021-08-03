@@ -1,0 +1,137 @@
+
+JOrchardCore.Workflows.Services.WorkflowStore.ListAsync(string, int?, int?)ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowStore.cs$+ $(4"0*Ω
+0ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowStore.cs& )(é
+ã
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowStore.cs&A &(I
+%0YesSql.ISession"__id*O*M.
+,OrchardCore.Workflows.Services.WorkflowStore"
+_sessionYesSql.ISessionÕ
+ 
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowStore.cs&A &(j
+%1YesSql.IQuery<T, TIndex>"FYesSql.QueryExtensions.Query<T, TIndex>(YesSql.ISession, bool, string)*"
+YesSql.QueryExtensions*
+
+%0YesSql.ISession*
+""*
+""·
+ﬁ
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowStore.cs&* &({
+%2YesSql.IQuery<T, TIndex>"ÆOrchardCore.Workflows.Services.WorkflowStore.FilterByWorkflowTypeId(YesSql.IQuery<OrchardCore.Workflows.Models.Workflow, OrchardCore.Workflows.Indexes.WorkflowIndex>, string)*0.
+,OrchardCore.Workflows.Services.WorkflowStore* 
+
+%1YesSql.IQuery<T, TIndex>*
+
+workflowTypeIdstring´®
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowStore.cs&* '(5
+%3YesSql.IQuery<T, TIndex>"kYesSql.IQuery<T, TIndex>.OrderByDescending(System.Linq.Expressions.Expression<System.Func<TIndex, object>>)* 
+
+%2YesSql.IQuery<T, TIndex>*
+""2ROrderByDescending(System.Linq.Expressions.Expression<System.Func<TIndex, object>>)Œ
+À
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowStore.cs& '(5
+%4"__id* 
+
+%3YesSql.IQuery<T, TIndex>…
+∆
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowStore.cs& '(5
+queryYesSql.IQuery<T>"__id*
+
+%4Ç
+ˇ
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowStore.cs) )(
+
+%5bool""object.operator !=(object, object)*
+"
+object*
+
+skipSystem.Nullable<T>*
+""*
+1
+2*˘
+1ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowStore.cs+ +(-Á
+‰
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowStore.cs+# +(-	
+%6int"System.Nullable<T>.Value.get*
+
+skipSystem.Nullable<T>âÜ
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowStore.cs+ +(.
+%7YesSql.IQuery<T>"YesSql.IQuery<T>.Skip(int)*
+
+queryYesSql.IQuery<T>*
+	
+%6int2	Skip(int)€
+ÿ
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowStore.cs+ +(.
+queryYesSql.IQuery<T>"__id*
+
+%7YesSql.IQuery<T>*
+2*≠
+2ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowStore.cs. .(Ç
+ˇ
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowStore.cs. .(
+
+%8bool""object.operator !=(object, object)*
+"
+object*
+
+takeSystem.Nullable<T>*
+""*
+3
+4*˚
+3ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowStore.cs0 0(-Á
+‰
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowStore.cs0# 0(-	
+%9int"System.Nullable<T>.Value.get*
+
+takeSystem.Nullable<T>äá
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowStore.cs0 0(.
+%10YesSql.IQuery<T>"YesSql.IQuery<T>.Take(int)*
+
+queryYesSql.IQuery<T>*
+	
+%9int2	Take(int)‹
+Ÿ
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowStore.cs0 0(.
+queryYesSql.IQuery<T>"__id*
+
+%10YesSql.IQuery<T>*
+4*á
+4ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowStore.cs3 3($ïí
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowStore.cs3 3($+
+%11$System.Threading.Tasks.Task<TResult>"YesSql.IQuery<T>.ListAsync()*
+
+queryYesSql.IQuery<T>2ListAsync()"Ã
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowStore.cs3 3(%-
++
+%11$System.Threading.Tasks.Task<TResult>*’
+5ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowStore.cs4	 4(	"≤
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowStore.cs4 4(	
+implicit return:
+workflowTypeIdstring:
+skipSystem.Nullable<T>:
+takeSystem.Nullable<T>B0.
+,OrchardCore.Workflows.Services.WorkflowStore

@@ -1,0 +1,136 @@
+
+mOrchardCore.Users.Services.UserStore.DeleteAsync(OrchardCore.Users.IUser, System.Threading.CancellationToken)è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csw* w(5"0*ú
+0è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csy y(¸
+˘
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csy y(
+
+%0bool""object.operator ==(object, object)*
+"
+object*!
+
+userOrchardCore.Users.IUser*
+""*
+1
+2*É
+1è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.cs{ {(<◊‘
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.cs{ {(="
+%1System.ArgumentNullException"System.ArgumentNullExceptionå
+â
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.cs{ {(/
+
+%2void";System.ArgumentNullException.ArgumentNullException(string?)*$
+"
+%1System.ArgumentNullException*
+""*
+3*¿
+2è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.cs~ ~( ˚
+¯
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.cs~ ~(
+%3YesSql.ISession"__id*G*E&
+$OrchardCore.Users.Services.UserStore"
+_sessionYesSql.ISession•¢
+è
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.cs~ ~(!
+
+%4void"&YesSql.ISession.Delete(object, string)*
+
+%3YesSql.ISession*!
+
+userOrchardCore.Users.IUser*
+""2Delete(object, string)*
+4*á
+4ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csÇ Ö(p˝
+˙
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csÇ Ç(
+%5YesSql.ISession"__id*G*E&
+$OrchardCore.Users.Services.UserStore"
+_sessionYesSql.ISessionÅ˛
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csÇ Ç(,!
+%6System.Threading.Tasks.Task"YesSql.ISession.CommitAsync()*
+
+%5YesSql.ISession2CommitAsync()ÌÍ
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csÑ Ñ(3,
+%7&OrchardCore.Users.Handlers.UserContext"&OrchardCore.Users.Handlers.UserContext√
+¿
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csÑ" Ñ(-
+
+%8void"KOrchardCore.Users.Handlers.UserContext.UserContext(OrchardCore.Users.IUser)*.
+,
+%7&OrchardCore.Users.Handlers.UserContext*!
+
+userOrchardCore.Users.IUserÄ
+˝
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csÑ Ñ(31
+context&OrchardCore.Users.Handlers.UserContext"__id*.
+,
+%7&OrchardCore.Users.Handlers.UserContext•
+¢
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csÖ Ö(/
+%9)System.Collections.Generic.IEnumerable<T>"1OrchardCore.Users.Services.UserStore.Handlers.get*(&
+$OrchardCore.Users.Services.UserStoreß
+§
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csÖi Ö(p+
+%10$Microsoft.Extensions.Logging.ILogger"__id*[*Y&
+$OrchardCore.Users.Services.UserStore"/
+_logger$Microsoft.Extensions.Logging.ILogger÷
+”
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csÖ Ö(q"
+%11System.Threading.Tasks.Task"œOrchardCore.Modules.InvokeExtensions.InvokeAsync<TEvents, T1>(System.Collections.Generic.IEnumerable<TEvents>, System.Func<TEvents, T1, System.Threading.Tasks.Task>, T1, Microsoft.Extensions.Logging.ILogger)*("&
+$OrchardCore.Modules.InvokeExtensions*1
+/
+%9)System.Collections.Generic.IEnumerable<T>*
+""*3
+1
+context&OrchardCore.Users.Handlers.UserContext*-
++
+%10$Microsoft.Extensions.Logging.ILogger*
+5
+6*Ÿ
+5ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csâ â(.Ò
+Ó
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csâ â(.3
+%12,Microsoft.AspNetCore.Identity.IdentityResult"iMicrosoft.AspNetCore.Identity.IdentityResult.Failed(params Microsoft.AspNetCore.Identity.IdentityError[])*0".
+,Microsoft.AspNetCore.Identity.IdentityResult*
+"""À
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csâ â(/5
+3
+%12,Microsoft.AspNetCore.Identity.IdentityResult*†
+6ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.cså å()∏
+µ
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.cså å()3
+%13,Microsoft.AspNetCore.Identity.IdentityResult"8Microsoft.AspNetCore.Identity.IdentityResult.Success.get*0".
+,Microsoft.AspNetCore.Identity.IdentityResult"À
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.cså å(*5
+3
+%13,Microsoft.AspNetCore.Identity.IdentityResult*√
+3ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csç	 ç(	"©
+ë
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csç ç(	
+implicit return:
+userOrchardCore.Users.IUser:7
+cancellationToken"System.Threading.CancellationTokenB(&
+$OrchardCore.Users.Services.UserStore

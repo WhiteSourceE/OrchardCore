@@ -1,0 +1,315 @@
+
+ãOrchardCore.Environment.Shell.Configuration.ShellsSettingsSources.SaveAsync(string, System.Collections.Generic.IDictionary<string, string>)õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Configuration\ShellsSettingsSources.cs (#"0*±
+0õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Configuration\ShellsSettingsSources.cs ($í
+è
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Configuration\ShellsSettingsSources.cs ($
+%0string"__id*[*YC
+AOrchardCore.Environment.Shell.Configuration.ShellsSettingsSources"
+_tenantsstring
+Ì
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Configuration\ShellsSettingsSources.cs (%
+
+%1bool"System.IO.File.Exists(string)*"
+System.IO.File*
+
+%0string*
+1
+2*¨
+1õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Configuration\ShellsSettingsSources.cs (8í
+è
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Configuration\ShellsSettingsSources.cs0 (8
+%2string"__id*[*YC
+AOrchardCore.Environment.Shell.Configuration.ShellsSettingsSources"
+_tenantsstringÑ
+Å
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Configuration\ShellsSettingsSources.cs" (9
+%3System.IO.StreamReader"System.IO.File.OpenText(string)*"
+System.IO.File*
+
+%2stringÁ
+‰
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Configuration\ShellsSettingsSources.cs (9
+fileSystem.IO.StreamReader"__id*
+
+%3System.IO.StreamReader*
+3*À
+3õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Configuration\ShellsSettingsSources.cs! !(?Á‰
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Configuration\ShellsSettingsSources.cs!( !(@$
+%4Newtonsoft.Json.JsonTextReader"Newtonsoft.Json.JsonTextReaderº
+π
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Configuration\ShellsSettingsSources.cs!, !(:
+
+%5void"CNewtonsoft.Json.JsonTextReader.JsonTextReader(System.IO.TextReader)*&
+$
+%4Newtonsoft.Json.JsonTextReader* 
+
+fileSystem.IO.StreamReader˘
+ˆ
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Configuration\ShellsSettingsSources.cs! !(@(
+readerNewtonsoft.Json.JsonTextReader"__id*&
+$
+%4Newtonsoft.Json.JsonTextReader*
+4*ó
+4õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Configuration\ShellsSettingsSources.cs# #(Hã
+à
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Configuration\ShellsSettingsSources.cs#0 #(I*
+%6$System.Threading.Tasks.Task<TResult>"fNewtonsoft.Json.Linq.JObject.LoadAsync(Newtonsoft.Json.JsonReader, System.Threading.CancellationToken)* "
+Newtonsoft.Json.Linq.JObject**
+(
+readerNewtonsoft.Json.JsonTextReader*
+""‡
+›
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Configuration\ShellsSettingsSources.cs# #(I/
+tenantsSettingsNewtonsoft.Json.Linq.JObject"__id*
+""*
+5*¶
+5õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Configuration\ShellsSettingsSources.csC	 C(	*
+6*ã
+2õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Configuration\ShellsSettingsSources.cs) )(/„‡
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Configuration\ShellsSettingsSources.cs)" )(/"
+%7Newtonsoft.Json.Linq.JObject"Newtonsoft.Json.Linq.JObject˚
+¯
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Configuration\ShellsSettingsSources.cs)& )(-
+
+%8void"&Newtonsoft.Json.Linq.JObject.JObject()*$
+"
+%7Newtonsoft.Json.Linq.JObject˛
+˚
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Configuration\ShellsSettingsSources.cs) )(//
+tenantsSettingsNewtonsoft.Json.Linq.JObject"__id*$
+"
+%7Newtonsoft.Json.Linq.JObject*
+6*∆	
+6õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Configuration\ShellsSettingsSources.cs, ,(:º
+π
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Configuration\ShellsSettingsSources.cs, ,(;"
+%12Newtonsoft.Json.Linq.JToken".Newtonsoft.Json.Linq.JObject.GetValue(string?)*1
+/
+tenantsSettingsNewtonsoft.Json.Linq.JObject*
+
+tenantstringÒ
+Ó
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Configuration\ShellsSettingsSources.cs, ,(F"
+%13Newtonsoft.Json.Linq.JToken"__id*$
+"
+%12Newtonsoft.Json.Linq.JTokenÚ
+Ô
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Configuration\ShellsSettingsSources.cs, ,(F#
+%10Newtonsoft.Json.Linq.JObject"__id*$
+"
+%13Newtonsoft.Json.Linq.JTokenÚ
+Ô
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Configuration\ShellsSettingsSources.cs, ,(F"
+%9Newtonsoft.Json.Linq.JObject"__id*%
+#
+%10Newtonsoft.Json.Linq.JObject*
+7
+8*¯
+7õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Configuration\ShellsSettingsSources.cs,J ,(W‰·
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Configuration\ShellsSettingsSources.cs,J ,(W#
+%14Newtonsoft.Json.Linq.JObject"Newtonsoft.Json.Linq.JObject˝
+˙
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Configuration\ShellsSettingsSources.cs,N ,(U
+%15void"&Newtonsoft.Json.Linq.JObject.JObject()*%
+#
+%14Newtonsoft.Json.Linq.JObjectÛ
+
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Configuration\ShellsSettingsSources.cs,J ,(W#
+%11Newtonsoft.Json.Linq.JObject"__id*%
+#
+%14Newtonsoft.Json.Linq.JObjectÚ
+Ô
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Configuration\ShellsSettingsSources.cs,J ,(W"
+%9Newtonsoft.Json.Linq.JObject"__id*%
+#
+%11Newtonsoft.Json.Linq.JObject*
+8*ˇ
+8õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Configuration\ShellsSettingsSources.cs, .()˜
+Ù
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Configuration\ShellsSettingsSources.cs, ,(W(
+settingsNewtonsoft.Json.Linq.JObject"__id*$
+"
+%9Newtonsoft.Json.Linq.JObject‹Ÿ
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Configuration\ShellsSettingsSources.cs.  .()0
+%16)System.Collections.Generic.ICollection<T>"=System.Collections.Generic.IDictionary<TKey, TValue>.Keys.get*>
+<
+data4System.Collections.Generic.IDictionary<TKey, TValue>2Keys.get*
+9*´
+9õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Configuration\ShellsSettingsSources.csC	 C(	*
+10
+11*¥
+10õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Configuration\ShellsSettingsSources.cs0 0(%ã
+à
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Configuration\ShellsSettingsSources.cs0 0(
+%17string"__mapGet*>
+<
+data4System.Collections.Generic.IDictionary<TKey, TValue>*
+
+keystring˜
+Ù
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Configuration\ShellsSettingsSources.cs0 0(%
+%18bool""string.operator !=(string, string)*
+"
+string*
+
+%17string*
+""*
+12
+13*∏
+12õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Configuration\ShellsSettingsSources.cs2 2(,ã
+à
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Configuration\ShellsSettingsSources.cs2$ 2(-
+%19string"__mapGet*>
+<
+data4System.Collections.Generic.IDictionary<TKey, TValue>*
+
+keystringÄ
+˝
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Configuration\ShellsSettingsSources.cs2 2(-
+%20"__mapSet**
+(
+settingsNewtonsoft.Json.Linq.JObject*
+
+keystring*
+
+%19string*
+9*¢
+13õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Configuration\ShellsSettingsSources.cs6 6('¯
+ı
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Configuration\ShellsSettingsSources.cs6 6((
+%21bool"__mapRemove**
+(
+settingsNewtonsoft.Json.Linq.JObject*
+
+keystring*
+9*‹	
+11õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Configuration\ShellsSettingsSources.cs: <(6•
+¢
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Configuration\ShellsSettingsSources.cs: :(.
+%22"__mapSet*1
+/
+tenantsSettingsNewtonsoft.Json.Linq.JObject*
+
+tenantstring**
+(
+settingsNewtonsoft.Json.Linq.JObjectì
+ê
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Configuration\ShellsSettingsSources.cs<. <(6
+%23string"__id*[*YC
+AOrchardCore.Environment.Shell.Configuration.ShellsSettingsSources"
+_tenantsstringà
+Ö
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Configuration\ShellsSettingsSources.cs< <(7
+%24System.IO.StreamWriter"!System.IO.File.CreateText(string)*"
+System.IO.File*
+
+%23stringË
+Â
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Configuration\ShellsSettingsSources.cs< <(7
+fileSystem.IO.StreamWriter"__id*
+
+%24System.IO.StreamWriter*
+14*Æ
+14õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Configuration\ShellsSettingsSources.cs> >(_ËÂ
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Configuration\ShellsSettingsSources.cs>$ >(a%
+%25Newtonsoft.Json.JsonTextWriter"Newtonsoft.Json.JsonTextWriteræ
+ª
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Configuration\ShellsSettingsSources.cs>( >(6
+%26void"CNewtonsoft.Json.JsonTextWriter.JsonTextWriter(System.IO.TextWriter)*'
+%
+%25Newtonsoft.Json.JsonTextWriter* 
+
+fileSystem.IO.StreamWriter∂
+≥
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Configuration\ShellsSettingsSources.cs>L >(_
+%27"__id*
+""°
+û
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Configuration\ShellsSettingsSources.cs>? >(_!
+%28Newtonsoft.Json.Formatting")Newtonsoft.Json.JsonWriter.Formatting.set*'
+%
+%25Newtonsoft.Json.JsonTextWriter*
+
+%27˙
+˜
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Configuration\ShellsSettingsSources.cs> >(a(
+writerNewtonsoft.Json.JsonTextWriter"__id*'
+%
+%25Newtonsoft.Json.JsonTextWriter*
+15*≈
+15õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Configuration\ShellsSettingsSources.cs@ @(=ö
+ó
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Configuration\ShellsSettingsSources.cs@ @(>"
+%29System.Threading.Tasks.Task"lNewtonsoft.Json.Linq.JToken.WriteToAsync(Newtonsoft.Json.JsonWriter, params Newtonsoft.Json.JsonConverter[])*1
+/
+tenantsSettingsNewtonsoft.Json.Linq.JObject**
+(
+writerNewtonsoft.Json.JsonTextWriter*
+""*
+16*®
+16õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Configuration\ShellsSettingsSources.csC	 C(	*
+17*ÿ
+17õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Configuration\ShellsSettingsSources.csC	 C(	"≥
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Configuration\ShellsSettingsSources.csC C(	
+implicit return:
+tenantstring:<
+data4System.Collections.Generic.IDictionary<TKey, TValue>BEC
+AOrchardCore.Environment.Shell.Configuration.ShellsSettingsSources

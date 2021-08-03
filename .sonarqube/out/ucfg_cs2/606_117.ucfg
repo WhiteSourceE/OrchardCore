@@ -1,0 +1,104 @@
+
+]OrchardCore.Users.Controllers.AccountController.AddConfirmEmailError(OrchardCore.Users.IUser)ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csî! î(5"0*ç
+0ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csñ ó(Cæ
+ª
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csñ. ñ(:'
+%0!OrchardCore.Settings.ISiteService"__id*h*f1
+/OrchardCore.Users.Controllers.AccountController"1
+_siteService!OrchardCore.Settings.ISiteServiceŒÀ
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csñ. ñ(Q*
+%1$System.Threading.Tasks.Task<TResult>"8OrchardCore.Settings.ISiteService.GetSiteSettingsAsync()*)
+'
+%0!OrchardCore.Settings.ISiteService2GetSiteSettingsAsync()ÿ
+’
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csñ' ñ(m3
+%2-OrchardCore.Users.Models.RegistrationSettings"IOrchardCore.Entities.EntityExtensions.As<T>(OrchardCore.Entities.IEntity)*)"'
+%OrchardCore.Entities.EntityExtensions*
+""©
+¶
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csñ ñ(mE
+registrationSettings-OrchardCore.Users.Models.RegistrationSettings"__id*5
+3
+%2-OrchardCore.Users.Models.RegistrationSettingsƒ
+¡
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csó ó(;
+
+%3bool"HOrchardCore.Users.Models.RegistrationSettings.UsersMustValidateEmail.get*G
+E
+registrationSettings-OrchardCore.Users.Models.RegistrationSettings*
+1
+2*™
+1ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csö ö(B‹
+Ÿ
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csö ö('6
+%40Microsoft.AspNetCore.Identity.UserManager<TUser>"__id*w*u1
+/OrchardCore.Users.Controllers.AccountController"@
+_userManager0Microsoft.AspNetCore.Identity.UserManager<TUser>õò
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csö ö(C*
+%5$System.Threading.Tasks.Task<TResult>"MMicrosoft.AspNetCore.Identity.UserManager<TUser>.IsEmailConfirmedAsync(TUser)*8
+6
+%40Microsoft.AspNetCore.Identity.UserManager<TUser>*!
+
+userOrchardCore.Users.IUser2IsEmailConfirmedAsync(TUser)*
+3
+2*à
+3ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csú ù(Ã
+…
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csú ú(@
+%6:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary"6Microsoft.AspNetCore.Mvc.ControllerBase.ModelState.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBaseÿ
+’
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csú- ú(9
+%7string"__id**
+string"
+Emptystring’
+“
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csú; ú(<8
+%82Microsoft.Extensions.Localization.IStringLocalizer"__id*n*l1
+/OrchardCore.Users.Controllers.AccountController"7
+S2Microsoft.Extensions.Localization.IStringLocalizerìê
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csú; ú(\7
+%91Microsoft.Extensions.Localization.LocalizedString"CMicrosoft.Extensions.Localization.IStringLocalizer.this[string].get*:
+8
+%82Microsoft.Extensions.Localization.IStringLocalizer* 
+You must confirm your email.2this[string].getõ
+ò
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csú ú(]
+%10void"XMicrosoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary.AddModelError(string, string)*B
+@
+%6:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary*
+
+%7string*9
+7
+%91Microsoft.Extensions.Localization.LocalizedString"™
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csù ù( 
+""*“
+2ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.cs° °("™
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.cs° °(
+""*ﬂ
+4ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.cs¢	 ¢(	"∑
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.cs¢ ¢(	
+implicit return:
+userOrchardCore.Users.IUserB31
+/OrchardCore.Users.Controllers.AccountController

@@ -1,0 +1,887 @@
+
+®OrchardCore.Workflows.Controllers.WorkflowController.Index(int, OrchardCore.Workflows.ViewModels.WorkflowIndexViewModel, OrchardCore.Navigation.PagerParameters, string)¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csK) K(."19*ﬁ
+0¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csM M(]ˇ
+¸
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csM M(,>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*é*ã6
+4OrchardCore.Workflows.Controllers.WorkflowController"Q
+_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationServiceµ
+≤
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csM< M(@,
+%1&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase 
+«
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csMB M(]1
+%2+OrchardCore.Security.Permissions.Permission"__id*g*e#
+!OrchardCore.Workflows.Permissions">
+ManageWorkflows+OrchardCore.Security.Permissions.Permission§
+°
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csM M(^*
+%3$System.Threading.Tasks.Task<TResult>"ﬂMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission)*E"C
+AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*@
+>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService*.
+,
+%1&System.Security.Claims.ClaimsPrincipal*3
+1
+%2+OrchardCore.Security.Permissions.Permission*
+1
+2*¿
+1¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csO O(æª
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csO O(+
+%4%Microsoft.AspNetCore.Mvc.ForbidResult"0Microsoft.AspNetCore.Mvc.ControllerBase.Forbid()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2Forbid()"‘
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csO O( -
++
+%4%Microsoft.AspNetCore.Mvc.ForbidResult*≠
+2¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csR R()±
+Æ
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csR R()
+%5#Microsoft.AspNetCore.Mvc.IUrlHelper"/Microsoft.AspNetCore.Mvc.ControllerBase.Url.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase∆√
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csR R(*
+
+%6bool"7Microsoft.AspNetCore.Mvc.IUrlHelper.IsLocalUrl(string?)*+
+)
+%5#Microsoft.AspNetCore.Mvc.IUrlHelper*
+
+	returnUrlstring2IsLocalUrl(string?)*
+3
+4*”
+3¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csT T(D±
+Æ
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csT T()
+%7#Microsoft.AspNetCore.Mvc.IUrlHelper"/Microsoft.AspNetCore.Mvc.ControllerBase.Url.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBaseô
+ñ
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csT T(E
+%8string"hMicrosoft.AspNetCore.Mvc.UrlHelperExtensions.Action(Microsoft.AspNetCore.Mvc.IUrlHelper, string, string)*0".
+,Microsoft.AspNetCore.Mvc.UrlHelperExtensions*+
+)
+%7#Microsoft.AspNetCore.Mvc.IUrlHelper*
+""*
+WorkflowType”
+–
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csT T(E
+	returnUrlstring"__id*
+
+%8string*
+4*·!
+4¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csW ]((Ó
+Î
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csW% W(77
+%91OrchardCore.Workflows.Services.IWorkflowTypeStore"__id*Ñ*Å6
+4OrchardCore.Workflows.Controllers.WorkflowController"G
+_workflowTypeStore1OrchardCore.Workflows.Services.IWorkflowTypeStoreËÂ
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csW% W(P+
+%10$System.Threading.Tasks.Task<TResult>"?OrchardCore.Workflows.Services.IWorkflowTypeStore.GetAsync(int)*9
+7
+%91OrchardCore.Workflows.Services.IWorkflowTypeStore*
+""2GetAsync(int)Ò
+Ó
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csW W(P9
+workflowType)OrchardCore.Workflows.Models.WorkflowType"__id*
+""«
+ƒ
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csX% X(1(
+%11!OrchardCore.Settings.ISiteService"__id*m*k6
+4OrchardCore.Workflows.Controllers.WorkflowController"1
+_siteService!OrchardCore.Settings.ISiteService”–
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csX% X(H+
+%12$System.Threading.Tasks.Task<TResult>"8OrchardCore.Settings.ISiteService.GetSiteSettingsAsync()**
+(
+%11!OrchardCore.Settings.ISiteService2GetSiteSettingsAsync()‚
+ﬂ
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csX X(H*
+siteSettingsOrchardCore.Settings.ISite"__id*
+""ü
+ú
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csZ Z( 
+%13YesSql.ISession"__id*W*U6
+4OrchardCore.Workflows.Controllers.WorkflowController"
+_sessionYesSql.ISession◊
+‘
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csZ Z(A
+%14YesSql.IQuery<T, TIndex>"FYesSql.QueryExtensions.Query<T, TIndex>(YesSql.ISession, bool, string)*"
+YesSql.QueryExtensions*
+
+%13YesSql.ISession*
+""*
+""Ù
+Ò
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csZ Z(A!
+queryYesSql.IQuery<T, TIndex>"__id*!
+
+%14YesSql.IQuery<T, TIndex>õò
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.cs[ [(U
+%15YesSql.IQuery<T, TIndex>"]YesSql.IQuery<T, TIndex>.Where(System.Linq.Expressions.Expression<System.Func<TIndex, bool>>)*#
+!
+queryYesSql.IQuery<T, TIndex>*
+""2DWhere(System.Linq.Expressions.Expression<System.Func<TIndex, bool>>)Ù
+Ò
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.cs[ [(U!
+queryYesSql.IQuery<T, TIndex>"__id*!
+
+%15YesSql.IQuery<T, TIndex>Ô
+Ï
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.cs] ](!<
+%165OrchardCore.Workflows.ViewModels.WorkflowIndexOptions"COrchardCore.Workflows.ViewModels.WorkflowIndexViewModel.Options.get*B
+@
+model7OrchardCore.Workflows.ViewModels.WorkflowIndexViewModel‚
+ﬂ
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.cs] ]((6
+%17/OrchardCore.Workflows.ViewModels.WorkflowFilter"@OrchardCore.Workflows.ViewModels.WorkflowIndexOptions.Filter.get*>
+<
+%165OrchardCore.Workflows.ViewModels.WorkflowIndexOptions*
+5*∞
+5¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.cs] ]((*
+6
+7*¬
+6¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.cs` `(]õò
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.cs` `(^
+%18YesSql.IQuery<T, TIndex>"]YesSql.IQuery<T, TIndex>.Where(System.Linq.Expressions.Expression<System.Func<TIndex, bool>>)*#
+!
+queryYesSql.IQuery<T, TIndex>*
+""2DWhere(System.Linq.Expressions.Expression<System.Func<TIndex, bool>>)Ù
+Ò
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.cs` `(^!
+queryYesSql.IQuery<T, TIndex>"__id*!
+
+%18YesSql.IQuery<T, TIndex>*
+8*±
+7¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.cs] ]((*
+9
+10*¬
+9¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csc c(\õò
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csc c(]
+%19YesSql.IQuery<T, TIndex>"]YesSql.IQuery<T, TIndex>.Where(System.Linq.Expressions.Expression<System.Func<TIndex, bool>>)*#
+!
+queryYesSql.IQuery<T, TIndex>*
+""2DWhere(System.Linq.Expressions.Expression<System.Func<TIndex, bool>>)Ù
+Ò
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csc c(]!
+queryYesSql.IQuery<T, TIndex>"__id*!
+
+%19YesSql.IQuery<T, TIndex>*
+8*≥
+10¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.cs] ]((*
+11
+11*∞
+11§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csú	 ú(	*
+8*Ö
+8¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csj j()Ô
+Ï
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csj j(!<
+%205OrchardCore.Workflows.ViewModels.WorkflowIndexOptions"COrchardCore.Workflows.ViewModels.WorkflowIndexViewModel.Options.get*B
+@
+model7OrchardCore.Workflows.ViewModels.WorkflowIndexViewModel‚
+ﬂ
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csj j()5
+%21.OrchardCore.Workflows.ViewModels.WorkflowOrder"AOrchardCore.Workflows.ViewModels.WorkflowIndexOptions.OrderBy.get*>
+<
+%205OrchardCore.Workflows.ViewModels.WorkflowIndexOptions*
+12*≥
+12¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csj j()*
+13
+14*‡
+13¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csm m(E∑¥
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csm m(F
+%22YesSql.IQuery<T, TIndex>"kYesSql.IQuery<T, TIndex>.OrderByDescending(System.Linq.Expressions.Expression<System.Func<TIndex, object>>)*#
+!
+queryYesSql.IQuery<T, TIndex>*
+""2ROrderByDescending(System.Linq.Expressions.Expression<System.Func<TIndex, object>>)Ù
+Ò
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csm m(F!
+queryYesSql.IQuery<T, TIndex>"__id*!
+
+%22YesSql.IQuery<T, TIndex>*
+15*≥
+14¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csj j()*
+16
+17*Ã
+16¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csp p(;£†
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csp p(<
+%23YesSql.IQuery<T, TIndex>"aYesSql.IQuery<T, TIndex>.OrderBy(System.Linq.Expressions.Expression<System.Func<TIndex, object>>)*#
+!
+queryYesSql.IQuery<T, TIndex>*
+""2HOrderBy(System.Linq.Expressions.Expression<System.Func<TIndex, object>>)Ù
+Ò
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csp p(<!
+queryYesSql.IQuery<T, TIndex>"__id*!
+
+%23YesSql.IQuery<T, TIndex>*
+15*‡
+17¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.css s(E∑¥
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.css s(F
+%24YesSql.IQuery<T, TIndex>"kYesSql.IQuery<T, TIndex>.OrderByDescending(System.Linq.Expressions.Expression<System.Func<TIndex, object>>)*#
+!
+queryYesSql.IQuery<T, TIndex>*
+""2ROrderByDescending(System.Linq.Expressions.Expression<System.Func<TIndex, object>>)Ù
+Ò
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.css s(F!
+queryYesSql.IQuery<T, TIndex>"__id*!
+
+%24YesSql.IQuery<T, TIndex>*
+15*‰—
+15£
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csw õ(!ôñ
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csw3 w(H
+
+%25int"'OrchardCore.Settings.ISite.PageSize.get*,
+*
+siteSettingsOrchardCore.Settings.ISite2PageSize.getÎË
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csw w(I#
+%26OrchardCore.Navigation.Pager"OrchardCore.Navigation.Pager¯
+ı
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csw w(!
+%27void"OOrchardCore.Navigation.Pager.Pager(OrchardCore.Navigation.PagerParameters, int)*%
+#
+%26OrchardCore.Navigation.Pager*;
+9
+pagerParameters&OrchardCore.Navigation.PagerParameters*
+
+
+%25int¸
+˘
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csw w(I%
+pagerOrchardCore.Navigation.Pager"__id*%
+#
+%26OrchardCore.Navigation.Pagerˇ¸
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csy y(+-
+%28&Microsoft.AspNetCore.Routing.RouteData"&Microsoft.AspNetCore.Routing.RouteDataö
+ó
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csy  y()
+%29void"2Microsoft.AspNetCore.Routing.RouteData.RouteData()*/
+-
+%28&Microsoft.AspNetCore.Routing.RouteDataî
+ë
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csy y(+3
+	routeData&Microsoft.AspNetCore.Routing.RouteData"__id*/
+-
+%28&Microsoft.AspNetCore.Routing.RouteDataÃ
+…
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csz z(8
+%301Microsoft.AspNetCore.Routing.RouteValueDictionary"1Microsoft.AspNetCore.Routing.RouteData.Values.get*5
+3
+	routeData&Microsoft.AspNetCore.Routing.RouteDataÔ
+Ï
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csz+ z(8<
+%315OrchardCore.Workflows.ViewModels.WorkflowIndexOptions"COrchardCore.Workflows.ViewModels.WorkflowIndexViewModel.Options.get*B
+@
+model7OrchardCore.Workflows.ViewModels.WorkflowIndexViewModel‚
+ﬂ
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csz+ z(?6
+%32/OrchardCore.Workflows.ViewModels.WorkflowFilter"@OrchardCore.Workflows.ViewModels.WorkflowIndexOptions.Filter.get*>
+<
+%315OrchardCore.Workflows.ViewModels.WorkflowIndexOptions¡
+æ
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csz z(@
+%33void"__mapSet*:
+8
+%301Microsoft.AspNetCore.Routing.RouteValueDictionary*
+
+Filter*8
+6
+%32/OrchardCore.Workflows.ViewModels.WorkflowFilter∞
+≠
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.cs|$ |('
+%34dynamic"<OrchardCore.Workflows.Controllers.WorkflowController.New.get*86
+4OrchardCore.Workflows.Controllers.WorkflowControllerß§
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.cs|K |(]+
+%35$System.Threading.Tasks.Task<TResult>"YesSql.IQuery<T>.CountAsync()*#
+!
+queryYesSql.IQuery<T, TIndex>2CountAsync()Õ
+ 
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.cs| |(s
+
+pagerShapedynamic"__id*
+""ó
+î
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.cs}/ }(D
+
+%36int"0OrchardCore.Navigation.Pager.GetStartIndex(int?)*'
+%
+pagerOrchardCore.Navigation.Pager*
+""õò
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.cs}$ }(E
+%37YesSql.IQuery<T>"YesSql.IQuery<T>.Skip(int)*#
+!
+queryYesSql.IQuery<T, TIndex>*
+
+
+%36int2	Skip(int)à
+Ö
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.cs}K }(Y
+
+%38int")OrchardCore.Navigation.Pager.PageSize.get*'
+%
+pagerOrchardCore.Navigation.Pagerëé
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.cs}$ }(Z
+%39YesSql.IQuery<T>"YesSql.IQuery<T>.Take(int)*
+
+%37YesSql.IQuery<T>*
+
+
+%38int2	Take(int)õò
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.cs}$ }(f+
+%40$System.Threading.Tasks.Task<TResult>"YesSql.IQuery<T>.ListAsync()*
+
+%39YesSql.IQuery<T>2ListAsync()
+Ì
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.cs} }(f8
+pageOfItems)System.Collections.Generic.IEnumerable<T>"__id*
+""¢ü
+£
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.cs ä(>
+%417OrchardCore.Workflows.ViewModels.WorkflowIndexViewModel"7OrchardCore.Workflows.ViewModels.WorkflowIndexViewModel…
+∆
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.cs  (6
+%42void"POrchardCore.Workflows.ViewModels.WorkflowIndexViewModel.WorkflowIndexViewModel()*@
+>
+%417OrchardCore.Workflows.ViewModels.WorkflowIndexViewModel•
+¢
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csÅ Å(+0
+%43)OrchardCore.Workflows.Models.WorkflowType"HOrchardCore.Workflows.ViewModels.WorkflowIndexViewModel.WorkflowType.set*@
+>
+%417OrchardCore.Workflows.ViewModels.WorkflowIndexViewModel*;
+9
+workflowType)OrchardCore.Workflows.Models.WorkflowTypeΩ
+∫
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csÇ Ü(0
+%44)System.Collections.Generic.IEnumerable<T>"System.Linq.Enumerable.Select<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)*"
+System.Linq.Enumerable*:
+8
+pageOfItems)System.Collections.Generic.IEnumerable<T>*
+""˛
+˚
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csÇ Ü()
+%45"System.Collections.Generic.List<T>"WSystem.Linq.Enumerable.ToList<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*2
+0
+%44)System.Collections.Generic.IEnumerable<T>å
+â
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csÇ Ü(*
+%46#System.Collections.Generic.IList<T>"EOrchardCore.Workflows.ViewModels.WorkflowIndexViewModel.Workflows.set*@
+>
+%417OrchardCore.Workflows.ViewModels.WorkflowIndexViewModel*+
+)
+%45"System.Collections.Generic.List<T>Ò
+Ó
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csá á('<
+%475OrchardCore.Workflows.ViewModels.WorkflowIndexOptions"COrchardCore.Workflows.ViewModels.WorkflowIndexViewModel.Options.get*B
+@
+model7OrchardCore.Workflows.ViewModels.WorkflowIndexViewModelØ
+¨
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csá á('<
+%485OrchardCore.Workflows.ViewModels.WorkflowIndexOptions"COrchardCore.Workflows.ViewModels.WorkflowIndexViewModel.Options.set*@
+>
+%417OrchardCore.Workflows.ViewModels.WorkflowIndexViewModel*>
+<
+%475OrchardCore.Workflows.ViewModels.WorkflowIndexOptionsÿ
+’
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csà à("
+%49dynamic"AOrchardCore.Workflows.ViewModels.WorkflowIndexViewModel.Pager.set*@
+>
+%417OrchardCore.Workflows.ViewModels.WorkflowIndexViewModel*
+
+
+pagerShapedynamicŸ
+÷
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csâ â(%
+%50string"EOrchardCore.Workflows.ViewModels.WorkflowIndexViewModel.ReturnUrl.set*@
+>
+%417OrchardCore.Workflows.ViewModels.WorkflowIndexViewModel*
+
+	returnUrlstring∑
+¥
+£
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.cs ä(D
+	viewModel7OrchardCore.Workflows.ViewModels.WorkflowIndexViewModel"__id*@
+>
+%417OrchardCore.Workflows.ViewModels.WorkflowIndexViewModelÒ
+Ó
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.cså å(<
+%515OrchardCore.Workflows.ViewModels.WorkflowIndexOptions"COrchardCore.Workflows.ViewModels.WorkflowIndexViewModel.Options.get*B
+@
+model7OrchardCore.Workflows.ViewModels.WorkflowIndexViewModel˘ˆ
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.cså+ è()
+%52"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>è
+å
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.cså/ å(C
+%53void")System.Collections.Generic.List<T>.List()*+
+)
+%52"System.Collections.Generic.List<T>óî
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csç ç(p8
+%541Microsoft.AspNetCore.Mvc.Rendering.SelectListItem"1Microsoft.AspNetCore.Mvc.Rendering.SelectListItem∑
+¥
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csç ç("
+%55void"BMicrosoft.AspNetCore.Mvc.Rendering.SelectListItem.SelectListItem()*:
+8
+%541Microsoft.AspNetCore.Mvc.Rendering.SelectListItem‡
+›
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csç. ç(/9
+%562Microsoft.Extensions.Localization.IStringLocalizer"__id*s*q6
+4OrchardCore.Workflows.Controllers.WorkflowController"7
+S2Microsoft.Extensions.Localization.IStringLocalizeréã
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csç. ç(C8
+%571Microsoft.Extensions.Localization.LocalizedString"CMicrosoft.Extensions.Localization.IStringLocalizer.this[string].get*;
+9
+%562Microsoft.Extensions.Localization.IStringLocalizer*
+Recently created2this[string].getÌ
+Í
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csç' ç(C
+%58string":Microsoft.AspNetCore.Mvc.Rendering.SelectListItem.Text.set*:
+8
+%541Microsoft.AspNetCore.Mvc.Rendering.SelectListItem*:
+8
+%571Microsoft.Extensions.Localization.LocalizedString∫
+∑
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csçE ç(n
+%59string";Microsoft.AspNetCore.Mvc.Rendering.SelectListItem.Value.set*:
+8
+%541Microsoft.AspNetCore.Mvc.Rendering.SelectListItem*
+""óî
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csé é(r8
+%601Microsoft.AspNetCore.Mvc.Rendering.SelectListItem"1Microsoft.AspNetCore.Mvc.Rendering.SelectListItem∑
+¥
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csé é("
+%61void"BMicrosoft.AspNetCore.Mvc.Rendering.SelectListItem.SelectListItem()*:
+8
+%601Microsoft.AspNetCore.Mvc.Rendering.SelectListItem‡
+›
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csé. é(/9
+%622Microsoft.Extensions.Localization.IStringLocalizer"__id*s*q6
+4OrchardCore.Workflows.Controllers.WorkflowController"7
+S2Microsoft.Extensions.Localization.IStringLocalizerîë
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csé. é(I8
+%631Microsoft.Extensions.Localization.LocalizedString"CMicrosoft.Extensions.Localization.IStringLocalizer.this[string].get*;
+9
+%622Microsoft.Extensions.Localization.IStringLocalizer*
+Least recently created2this[string].getÌ
+Í
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csé' é(I
+%64string":Microsoft.AspNetCore.Mvc.Rendering.SelectListItem.Text.set*:
+8
+%601Microsoft.AspNetCore.Mvc.Rendering.SelectListItem*:
+8
+%631Microsoft.Extensions.Localization.LocalizedString∫
+∑
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.cséK é(p
+%65string";Microsoft.AspNetCore.Mvc.Rendering.SelectListItem.Value.set*:
+8
+%601Microsoft.AspNetCore.Mvc.Rendering.SelectListItem*
+""å
+â
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.cså è()
+%66"System.Collections.Generic.List<T>"HOrchardCore.Workflows.ViewModels.WorkflowIndexOptions.WorkflowsSorts.set*>
+<
+%515OrchardCore.Workflows.ViewModels.WorkflowIndexOptions*+
+)
+%52"System.Collections.Generic.List<T>Ò
+Ó
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csë ë(<
+%675OrchardCore.Workflows.ViewModels.WorkflowIndexOptions"COrchardCore.Workflows.ViewModels.WorkflowIndexViewModel.Options.get*B
+@
+model7OrchardCore.Workflows.ViewModels.WorkflowIndexViewModel˘ˆ
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csë. ï()
+%68"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>è
+å
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csë2 ë(F
+%69void")System.Collections.Generic.List<T>.List()*+
+)
+%68"System.Collections.Generic.List<T>óî
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csí í(\8
+%701Microsoft.AspNetCore.Mvc.Rendering.SelectListItem"1Microsoft.AspNetCore.Mvc.Rendering.SelectListItem∑
+¥
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csí í("
+%71void"BMicrosoft.AspNetCore.Mvc.Rendering.SelectListItem.SelectListItem()*:
+8
+%701Microsoft.AspNetCore.Mvc.Rendering.SelectListItem‡
+›
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csí. í(/9
+%722Microsoft.Extensions.Localization.IStringLocalizer"__id*s*q6
+4OrchardCore.Workflows.Controllers.WorkflowController"7
+S2Microsoft.Extensions.Localization.IStringLocalizerÅ˛
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csí. í(68
+%731Microsoft.Extensions.Localization.LocalizedString"CMicrosoft.Extensions.Localization.IStringLocalizer.this[string].get*;
+9
+%722Microsoft.Extensions.Localization.IStringLocalizer*
+All2this[string].getÌ
+Í
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csí' í(6
+%74string":Microsoft.AspNetCore.Mvc.Rendering.SelectListItem.Text.set*:
+8
+%701Microsoft.AspNetCore.Mvc.Rendering.SelectListItem*:
+8
+%731Microsoft.Extensions.Localization.LocalizedString∫
+∑
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csí8 í(Z
+%75string";Microsoft.AspNetCore.Mvc.Rendering.SelectListItem.Value.set*:
+8
+%701Microsoft.AspNetCore.Mvc.Rendering.SelectListItem*
+""óî
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csì ì(d8
+%761Microsoft.AspNetCore.Mvc.Rendering.SelectListItem"1Microsoft.AspNetCore.Mvc.Rendering.SelectListItem∑
+¥
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csì ì("
+%77void"BMicrosoft.AspNetCore.Mvc.Rendering.SelectListItem.SelectListItem()*:
+8
+%761Microsoft.AspNetCore.Mvc.Rendering.SelectListItem‡
+›
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csì. ì(/9
+%782Microsoft.Extensions.Localization.IStringLocalizer"__id*s*q6
+4OrchardCore.Workflows.Controllers.WorkflowController"7
+S2Microsoft.Extensions.Localization.IStringLocalizerÖÇ
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csì. ì(:8
+%791Microsoft.Extensions.Localization.LocalizedString"CMicrosoft.Extensions.Localization.IStringLocalizer.this[string].get*;
+9
+%782Microsoft.Extensions.Localization.IStringLocalizer*	
+Faulted2this[string].getÌ
+Í
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csì' ì(:
+%80string":Microsoft.AspNetCore.Mvc.Rendering.SelectListItem.Text.set*:
+8
+%761Microsoft.AspNetCore.Mvc.Rendering.SelectListItem*:
+8
+%791Microsoft.Extensions.Localization.LocalizedString∫
+∑
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csì< ì(b
+%81string";Microsoft.AspNetCore.Mvc.Rendering.SelectListItem.Value.set*:
+8
+%761Microsoft.AspNetCore.Mvc.Rendering.SelectListItem*
+""óî
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csî î(f8
+%821Microsoft.AspNetCore.Mvc.Rendering.SelectListItem"1Microsoft.AspNetCore.Mvc.Rendering.SelectListItem∑
+¥
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csî î("
+%83void"BMicrosoft.AspNetCore.Mvc.Rendering.SelectListItem.SelectListItem()*:
+8
+%821Microsoft.AspNetCore.Mvc.Rendering.SelectListItem‡
+›
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csî. î(/9
+%842Microsoft.Extensions.Localization.IStringLocalizer"__id*s*q6
+4OrchardCore.Workflows.Controllers.WorkflowController"7
+S2Microsoft.Extensions.Localization.IStringLocalizerÜÉ
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csî. î(;8
+%851Microsoft.Extensions.Localization.LocalizedString"CMicrosoft.Extensions.Localization.IStringLocalizer.this[string].get*;
+9
+%842Microsoft.Extensions.Localization.IStringLocalizer*
+
+Finished2this[string].getÌ
+Í
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csî' î(;
+%86string":Microsoft.AspNetCore.Mvc.Rendering.SelectListItem.Text.set*:
+8
+%821Microsoft.AspNetCore.Mvc.Rendering.SelectListItem*:
+8
+%851Microsoft.Extensions.Localization.LocalizedString∫
+∑
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csî= î(d
+%87string";Microsoft.AspNetCore.Mvc.Rendering.SelectListItem.Value.set*:
+8
+%821Microsoft.AspNetCore.Mvc.Rendering.SelectListItem*
+""è
+å
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csë ï()
+%88"System.Collections.Generic.List<T>"KOrchardCore.Workflows.ViewModels.WorkflowIndexOptions.WorkflowsStatuses.set*>
+<
+%675OrchardCore.Workflows.ViewModels.WorkflowIndexOptions*+
+)
+%68"System.Collections.Generic.List<T>ı
+Ú
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csó ó(<
+%895OrchardCore.Workflows.ViewModels.WorkflowIndexOptions"COrchardCore.Workflows.ViewModels.WorkflowIndexViewModel.Options.get*F
+D
+	viewModel7OrchardCore.Workflows.ViewModels.WorkflowIndexViewModel˘ˆ
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csó4 ô()
+%90"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>è
+å
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csó8 ó(L
+%91void")System.Collections.Generic.List<T>.List()*+
+)
+%90"System.Collections.Generic.List<T>óî
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csò ò(f8
+%921Microsoft.AspNetCore.Mvc.Rendering.SelectListItem"1Microsoft.AspNetCore.Mvc.Rendering.SelectListItem∑
+¥
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csò ò("
+%93void"BMicrosoft.AspNetCore.Mvc.Rendering.SelectListItem.SelectListItem()*:
+8
+%921Microsoft.AspNetCore.Mvc.Rendering.SelectListItem‡
+›
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csò. ò(/9
+%942Microsoft.Extensions.Localization.IStringLocalizer"__id*s*q6
+4OrchardCore.Workflows.Controllers.WorkflowController"7
+S2Microsoft.Extensions.Localization.IStringLocalizerÑÅ
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csò. ò(98
+%951Microsoft.Extensions.Localization.LocalizedString"CMicrosoft.Extensions.Localization.IStringLocalizer.this[string].get*;
+9
+%942Microsoft.Extensions.Localization.IStringLocalizer*
+
+Delete2this[string].getÌ
+Í
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csò' ò(9
+%96string":Microsoft.AspNetCore.Mvc.Rendering.SelectListItem.Text.set*:
+8
+%921Microsoft.AspNetCore.Mvc.Rendering.SelectListItem*:
+8
+%951Microsoft.Extensions.Localization.LocalizedString∫
+∑
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csò; ò(d
+%97string";Microsoft.AspNetCore.Mvc.Rendering.SelectListItem.Value.set*:
+8
+%921Microsoft.AspNetCore.Mvc.Rendering.SelectListItem*
+""ë
+é
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csó ô()
+%98"System.Collections.Generic.List<T>"MOrchardCore.Workflows.ViewModels.WorkflowIndexOptions.WorkflowsBulkAction.set*>
+<
+%895OrchardCore.Workflows.ViewModels.WorkflowIndexOptions*+
+)
+%90"System.Collections.Generic.List<T>Í
+Á
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csõ õ("
+%99void"*orchardcore.workflows/views/workflow/index*
+
+%100*F
+D
+	viewModel7OrchardCore.Workflows.ViewModels.WorkflowIndexViewModel*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject* 
+
+%HttpContextItemsAllobject*!
+
+%HttpContextItemsHtmlobject"∂
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csõ õ(#
+
+%99void*Í
+18§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csú	 ú(	"º
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csú ú(	
+implicit return*ü
+19§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csKö K(ö«
+ƒ
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csK) K(.é
+@
+model7OrchardCore.Workflows.ViewModels.WorkflowIndexViewModel"J
+<WorkflowType>k__BackingField)OrchardCore.Workflows.Models.WorkflowType"__entrypointµ
+≤
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csK) K(.}
+@
+model7OrchardCore.Workflows.ViewModels.WorkflowIndexViewModel"9
+WorkflowType)OrchardCore.Workflows.Models.WorkflowType"__entrypointæ
+ª
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csK) K(.Ö
+@
+model7OrchardCore.Workflows.ViewModels.WorkflowIndexViewModel"A
+<Workflows>k__BackingField#System.Collections.Generic.IList<T>"__entrypoint¨
+©
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csK) K(.t
+@
+model7OrchardCore.Workflows.ViewModels.WorkflowIndexViewModel"0
+	Workflows#System.Collections.Generic.IList<T>"__entrypointŒ
+À
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csK) K(.ï
+@
+model7OrchardCore.Workflows.ViewModels.WorkflowIndexViewModel"Q
+<Options>k__BackingField5OrchardCore.Workflows.ViewModels.WorkflowIndexOptions"__entrypointΩ
+∫
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csK) K(.Ñ
+@
+model7OrchardCore.Workflows.ViewModels.WorkflowIndexViewModel"@
+Options5OrchardCore.Workflows.ViewModels.WorkflowIndexOptions"__entrypointù
+ö
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csK) K(.e
+@
+model7OrchardCore.Workflows.ViewModels.WorkflowIndexViewModel"!
+<Pager>k__BackingFielddynamic"__entrypointå
+â
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csK) K(.T
+@
+model7OrchardCore.Workflows.ViewModels.WorkflowIndexViewModel"
+Pagerdynamic"__entrypoint†
+ù
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csK) K(.h
+@
+model7OrchardCore.Workflows.ViewModels.WorkflowIndexViewModel"$
+<ReturnUrl>k__BackingFieldstring"__entrypointè
+å
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csK) K(.W
+@
+model7OrchardCore.Workflows.ViewModels.WorkflowIndexViewModel"
+	ReturnUrlstring"__entrypointè
+å
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csK) K(.W
+9
+pagerParameters&OrchardCore.Navigation.PagerParameters"
+PageSystem.Nullable<T>"__entrypointì
+ê
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csK) K(.[
+9
+pagerParameters&OrchardCore.Navigation.PagerParameters"
+PageSizeSystem.Nullable<T>"__entrypoint›
+⁄
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csK) K(.
+%101"__entrypoint*
+""*
+
+	returnUrlstring*
+0:
+workflowTypeIdint:@
+model7OrchardCore.Workflows.ViewModels.WorkflowIndexViewModel:9
+pagerParameters&OrchardCore.Navigation.PagerParameters:
+	returnUrlstringB86
+4OrchardCore.Workflows.Controllers.WorkflowController

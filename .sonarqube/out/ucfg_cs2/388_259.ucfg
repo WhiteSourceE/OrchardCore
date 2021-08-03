@@ -1,0 +1,104 @@
+
+ÑOrchardCore.Lucene.LuceneIndexManager.SearchAsync(string, System.Func<Lucene.Net.Search.IndexSearcher, System.Threading.Tasks.Task>)û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csë ë(%"0*◊
+0û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csì ì( ®
+•
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csì ì(!
+
+%0bool"4OrchardCore.Lucene.LuceneIndexManager.Exists(string)*)'
+%OrchardCore.Lucene.LuceneIndexManager*
+
+	indexNamestring*
+1
+2*Ø
+1û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csï ï(7⁄
+◊
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csï$ ï(89
+%13OrchardCore.Lucene.IndexReaderPool.IndexReaderLease"7OrchardCore.Lucene.LuceneIndexManager.GetReader(string)*)'
+%OrchardCore.Lucene.LuceneIndexManager*
+
+	indexNamestring¶
+£
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csï ï(8=
+reader3OrchardCore.Lucene.IndexReaderPool.IndexReaderLease"__id*;
+9
+%13OrchardCore.Lucene.IndexReaderPool.IndexReaderLease*
+3*˛
+3û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csó ò(0Œ
+À
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csó: ó(L"
+%2Lucene.Net.Index.IndexReader"COrchardCore.Lucene.IndexReaderPool.IndexReaderLease.IndexReader.get*?
+=
+reader3OrchardCore.Lucene.IndexReaderPool.IndexReaderLeaseÏÈ
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csó( ó(M%
+%3Lucene.Net.Search.IndexSearcher"Lucene.Net.Search.IndexSearcherÃ
+…
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csó, ó(9
+
+%4void"KLucene.Net.Search.IndexSearcher.IndexSearcher(Lucene.Net.Index.IndexReader)*'
+%
+%3Lucene.Net.Search.IndexSearcher*$
+"
+%2Lucene.Net.Index.IndexReaderÖ
+Ç
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csó ó(M0
+indexSearcherLucene.Net.Search.IndexSearcher"__id*'
+%
+%3Lucene.Net.Search.IndexSearcherª
+∏
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csò ò(1!
+%5System.Threading.Tasks.Task"!System.Func<T, TResult>.Invoke(T)*
+System.Func<T, TResult>*2
+0
+indexSearcherLucene.Net.Search.IndexSearcher*
+4*Ñ
+4û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csõ õ(6
+Ì
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csõ õ(F
+%6@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>"__id*|*z'
+%OrchardCore.Lucene.LuceneIndexManager"O
+_timestamps@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>ü
+ú
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csõ) õ(/ 
+%7OrchardCore.Modules.IClock"__id*Q*O'
+%OrchardCore.Lucene.LuceneIndexManager"$
+_clockOrchardCore.Modules.IClockíè
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csõ) õ(6
+%8System.DateTime"%OrchardCore.Modules.IClock.UtcNow.get*"
+ 
+%7OrchardCore.Modules.IClock2
+UtcNow.getÆ
+´
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csõ õ(6
+%9"__mapSet*H
+F
+%6@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>*
+
+	indexNamestring*
+
+%8System.DateTime*
+2*›
+2û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csù	 ù(	"∂
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csù ù(	
+implicit return:
+	indexNamestring:#
+searcherSystem.Func<T, TResult>B)'
+%OrchardCore.Lucene.LuceneIndexManager

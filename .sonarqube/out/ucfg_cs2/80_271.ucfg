@@ -1,0 +1,73 @@
+
+yOrchardCore.OpenId.YesSql.Stores.OpenIdScopeStore<TScope>.FindByResourceAsync(string, System.Threading.CancellationToken)ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdScopeStore.cs}0 }(C"0*ú
+0ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdScopeStore.cs (-Ô
+Ï
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdScopeStore.cs (.
+
+%0bool"string.IsNullOrEmpty(string?)*
+"
+string*
+
+resourcestring*
+1
+2*–
+1û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdScopeStore.csÅ Å(eﬁ€
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdScopeStore.csÅ Å(f
+%1System.ArgumentException"System.ArgumentException√
+¿
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdScopeStore.csÅ Å(+
+
+%2void"<System.ArgumentException.ArgumentException(string?, string?)* 
+
+%1System.ArgumentException*)'
+%The resource cannot be null or empty.*
+""*
+3*©
+2û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdScopeStore.csÑ á(3Æ
+´
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdScopeStore.csÑ Ñ(<
+
+%3void"ASystem.Threading.CancellationToken.ThrowIfCancellationRequested()*9
+7
+cancellationToken"System.Threading.CancellationTokenü
+ú
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdScopeStore.csÜ Ü(
+%4YesSql.ISession"__id*\*Z;
+9OrchardCore.OpenId.YesSql.Stores.OpenIdScopeStore<TScope>"
+_sessionYesSql.ISessionô
+ñ
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdScopeStore.csÜ á(4
+%5YesSql.IQuery<T, TIndex>"ÖYesSql.QueryExtensions.Query<T, TIndex>(YesSql.ISession, System.Linq.Expressions.Expression<System.Func<TIndex, bool>>, bool, string)*"
+YesSql.QueryExtensions*
+
+%4YesSql.ISession*
+""*
+""*
+""∑¥
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdScopeStore.csÜ á(H4
+%6.System.Collections.Generic.IAsyncEnumerable<T>"$YesSql.IQuery<T>.ToAsyncEnumerable()* 
+
+%5YesSql.IQuery<T, TIndex>2ToAsyncEnumerable()"Ÿ
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdScopeStore.csÜ á(I6
+4
+%6.System.Collections.Generic.IAsyncEnumerable<T>*›
+3û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdScopeStore.csà	 à(	"∂
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdScopeStore.csà à(	
+implicit return:
+resourcestring:7
+cancellationToken"System.Threading.CancellationTokenB=;
+9OrchardCore.OpenId.YesSql.Stores.OpenIdScopeStore<TScope>

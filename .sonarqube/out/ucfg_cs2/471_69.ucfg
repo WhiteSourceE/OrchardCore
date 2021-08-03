@@ -1,0 +1,189 @@
+
+ëOrchardCore.Menu.Drivers.HtmlMenuItemPartDisplayDriver.UpdateAsync(OrchardCore.Menu.Models.HtmlMenuItemPart, OrchardCore.DisplayManagement.ModelBinding.IUpdateModel, OrchardCore.ContentManagement.Display.Models.UpdatePartEditorContext)¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Menu\Drivers\HtmlMenuItemPartDisplayDriver.cs83 8(>"0*•
+0¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Menu\Drivers\HtmlMenuItemPartDisplayDriver.cs: <(?¨
+¥
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Menu\Drivers\HtmlMenuItemPartDisplayDriver.cs: :(5M
+%0GOrchardCore.ContentManagement.Metadata.Models.ContentTypePartDefinition"ZOrchardCore.ContentManagement.Display.Models.BuildPartEditorContext.TypePartDefinition.get*Q
+O
+contextDOrchardCore.ContentManagement.Display.Models.UpdatePartEditorContext‡
+„
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Menu\Drivers\HtmlMenuItemPartDisplayDriver.cs: :(]8
+%12OrchardCore.Menu.Settings.HtmlMenuItemPartSettings"POrchardCore.ContentManagement.Metadata.Models.ContentDefinition.GetSettings<T>()*O
+M
+%0GOrchardCore.ContentManagement.Metadata.Models.ContentTypePartDefinition¬
+©
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Menu\Drivers\HtmlMenuItemPartDisplayDriver.cs: :(]>
+settings2OrchardCore.Menu.Settings.HtmlMenuItemPartSettings"__id*:
+8
+%12OrchardCore.Menu.Settings.HtmlMenuItemPartSettings¦£
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Menu\Drivers\HtmlMenuItemPartDisplayDriver.cs; ;(;?
+%29OrchardCore.Menu.ViewModels.HtmlMenuItemPartEditViewModel"9OrchardCore.Menu.ViewModels.HtmlMenuItemPartEditViewModelÔ
+Ñ
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Menu\Drivers\HtmlMenuItemPartDisplayDriver.cs; ;(9
+
+%3void"YOrchardCore.Menu.ViewModels.HtmlMenuItemPartEditViewModel.HtmlMenuItemPartEditViewModel()*A
+?
+%29OrchardCore.Menu.ViewModels.HtmlMenuItemPartEditViewModel·
+´
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Menu\Drivers\HtmlMenuItemPartDisplayDriver.cs; ;(;B
+model9OrchardCore.Menu.ViewModels.HtmlMenuItemPartEditViewModel"__id*A
+?
+%29OrchardCore.Menu.ViewModels.HtmlMenuItemPartEditViewModel»
+¸
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Menu\Drivers\HtmlMenuItemPartDisplayDriver.cs<9 <(?
+%4string"COrchardCore.DisplayManagement.Handlers.DisplayDriverBase.Prefix.get*<:
+8OrchardCore.DisplayManagement.Handlers.DisplayDriverBase„
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Menu\Drivers\HtmlMenuItemPartDisplayDriver.cs< <(@*
+%5$System.Threading.Tasks.Task<TResult>"cOrchardCore.DisplayManagement.ModelBinding.IUpdateModel.TryUpdateModelAsync<TModel>(TModel, string)*D
+B
+updater7OrchardCore.DisplayManagement.ModelBinding.IUpdateModel*D
+B
+model9OrchardCore.Menu.ViewModels.HtmlMenuItemPartEditViewModel*
+
+%4string2+TryUpdateModelAsync<TModel>(TModel, string)*
+1
+2*À
+1¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Menu\Drivers\HtmlMenuItemPartDisplayDriver.cs> ?(1Í
+Ê
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Menu\Drivers\HtmlMenuItemPartDisplayDriver.cs> >( /
+%6)OrchardCore.ContentManagement.ContentItem"<OrchardCore.ContentManagement.ContentElement.ContentItem.get*2
+0
+part(OrchardCore.Menu.Models.HtmlMenuItemPartÂ
+¿
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Menu\Drivers\HtmlMenuItemPartDisplayDriver.cs>/ >(9
+%7string"BOrchardCore.Menu.ViewModels.HtmlMenuItemPartEditViewModel.Name.get*D
+B
+model9OrchardCore.Menu.ViewModels.HtmlMenuItemPartEditViewModel¶
+³
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Menu\Drivers\HtmlMenuItemPartDisplayDriver.cs> >(9
+%8string"9OrchardCore.ContentManagement.ContentItem.DisplayText.set*1
+/
+%6)OrchardCore.ContentManagement.ContentItem*
+
+%7string½
+º
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Menu\Drivers\HtmlMenuItemPartDisplayDriver.cs? ?(1
+
+%9bool"COrchardCore.Menu.Settings.HtmlMenuItemPartSettings.SanitizeHtml.get*@
+>
+settings2OrchardCore.Menu.Settings.HtmlMenuItemPartSettings*
+3
+4*ƒ
+3¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Menu\Drivers\HtmlMenuItemPartDisplayDriver.cs?4 ?(]þ
+û
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Menu\Drivers\HtmlMenuItemPartDisplayDriver.cs?4 ?(I<
+%135OrchardCore.Infrastructure.Html.IHtmlSanitizerService"__id**Š8
+6OrchardCore.Menu.Drivers.HtmlMenuItemPartDisplayDriver"N
+_htmlSanitizerService5OrchardCore.Infrastructure.Html.IHtmlSanitizerServiceÃ
+À
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Menu\Drivers\HtmlMenuItemPartDisplayDriver.cs?S ?(]
+%14string"BOrchardCore.Menu.ViewModels.HtmlMenuItemPartEditViewModel.Html.get*D
+B
+model9OrchardCore.Menu.ViewModels.HtmlMenuItemPartEditViewModeläá
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Menu\Drivers\HtmlMenuItemPartDisplayDriver.cs?4 ?(^
+%15string"FOrchardCore.Infrastructure.Html.IHtmlSanitizerService.Sanitize(string)*>
+<
+%135OrchardCore.Infrastructure.Html.IHtmlSanitizerService*
+
+%14string2Sanitize(string)Ð
+Í
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Menu\Drivers\HtmlMenuItemPartDisplayDriver.cs?4 ?(^
+%11string"__id*
+
+%15stringÐ
+Í
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Menu\Drivers\HtmlMenuItemPartDisplayDriver.cs?4 ?(^
+%10string"__id*
+
+%11string*
+5*›
+4¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Menu\Drivers\HtmlMenuItemPartDisplayDriver.cs?a ?(kÃ
+À
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Menu\Drivers\HtmlMenuItemPartDisplayDriver.cs?a ?(k
+%16string"BOrchardCore.Menu.ViewModels.HtmlMenuItemPartEditViewModel.Html.get*D
+B
+model9OrchardCore.Menu.ViewModels.HtmlMenuItemPartEditViewModelÐ
+Í
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Menu\Drivers\HtmlMenuItemPartDisplayDriver.cs?a ?(k
+%12string"__id*
+
+%16stringÐ
+Í
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Menu\Drivers\HtmlMenuItemPartDisplayDriver.cs?a ?(k
+%10string"__id*
+
+%12string*
+5*Û
+5¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Menu\Drivers\HtmlMenuItemPartDisplayDriver.cs? @($±
+®
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Menu\Drivers\HtmlMenuItemPartDisplayDriver.cs? ?(k
+%17string"1OrchardCore.Menu.Models.HtmlMenuItemPart.Html.set*2
+0
+part(OrchardCore.Menu.Models.HtmlMenuItemPart*
+
+%10stringÂ
+¿
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Menu\Drivers\HtmlMenuItemPartDisplayDriver.cs@ @($
+%18string"AOrchardCore.Menu.ViewModels.HtmlMenuItemPartEditViewModel.Url.get*D
+B
+model9OrchardCore.Menu.ViewModels.HtmlMenuItemPartEditViewModel°
+­
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Menu\Drivers\HtmlMenuItemPartDisplayDriver.cs@ @($
+%19string"0OrchardCore.Menu.Models.HtmlMenuItemPart.Url.set*2
+0
+part(OrchardCore.Menu.Models.HtmlMenuItemPart*
+
+%18string*
+2*Ô
+2¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Menu\Drivers\HtmlMenuItemPartDisplayDriver.csC C(%À½
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Menu\Drivers\HtmlMenuItemPartDisplayDriver.csC C(&9
+%202OrchardCore.DisplayManagement.Views.IDisplayResult"¥OrchardCore.ContentManagement.Display.ContentDisplay.ContentPartDisplayDriver<TPart>.Edit(TPart, OrchardCore.ContentManagement.Display.Models.BuildPartEditorContext)*XV
+TOrchardCore.ContentManagement.Display.ContentDisplay.ContentPartDisplayDriver<TPart>*2
+0
+part(OrchardCore.Menu.Models.HtmlMenuItemPart*Q
+O
+contextDOrchardCore.ContentManagement.Display.Models.UpdatePartEditorContext2PEdit(TPart, OrchardCore.ContentManagement.Display.Models.BuildPartEditorContext)"ä
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Menu\Drivers\HtmlMenuItemPartDisplayDriver.csC C(';
+9
+%202OrchardCore.DisplayManagement.Views.IDisplayResult*é
+6¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Menu\Drivers\HtmlMenuItemPartDisplayDriver.csD	 D(	"¼
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Menu\Drivers\HtmlMenuItemPartDisplayDriver.csD D(	
+implicit return:0
+part(OrchardCore.Menu.Models.HtmlMenuItemPart:B
+updater7OrchardCore.DisplayManagement.ModelBinding.IUpdateModel:O
+contextDOrchardCore.ContentManagement.Display.Models.UpdatePartEditorContextB:8
+6OrchardCore.Menu.Drivers.HtmlMenuItemPartDisplayDriver

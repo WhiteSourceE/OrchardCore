@@ -1,0 +1,292 @@
+
+bOrchardCore.OpenId.Controllers.ApplicationController.Index(OrchardCore.Navigation.PagerParameters)¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.cs>( >(-"7*ﬁ
+0¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.cs@ @(`ˇ
+¸
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.cs@ @(,>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*é*ã6
+4OrchardCore.OpenId.Controllers.ApplicationController"Q
+_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationServiceµ
+≤
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.cs@< @(@,
+%1&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase 
+«
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.cs@B @(`1
+%2+OrchardCore.Security.Permissions.Permission"__id*g*e 
+OrchardCore.OpenId.Permissions"A
+ManageApplications+OrchardCore.Security.Permissions.Permission§
+°
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.cs@ @(a*
+%3$System.Threading.Tasks.Task<TResult>"ﬂMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission)*E"C
+AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*@
+>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService*.
+,
+%1&System.Security.Claims.ClaimsPrincipal*3
+1
+%2+OrchardCore.Security.Permissions.Permission*
+1
+2*¿
+1¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.csB B(æª
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.csB B(+
+%4%Microsoft.AspNetCore.Mvc.ForbidResult"0Microsoft.AspNetCore.Mvc.ControllerBase.Forbid()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2Forbid()"‘
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.csB B( -
++
+%4%Microsoft.AspNetCore.Mvc.ForbidResult*«1
+2¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.csE N(q∆
+√
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.csE% E(1'
+%5!OrchardCore.Settings.ISiteService"__id*m*k6
+4OrchardCore.OpenId.Controllers.ApplicationController"1
+_siteService!OrchardCore.Settings.ISiteService—Œ
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.csE% E(H*
+%6$System.Threading.Tasks.Task<TResult>"8OrchardCore.Settings.ISiteService.GetSiteSettingsAsync()*)
+'
+%5!OrchardCore.Settings.ISiteService2GetSiteSettingsAsync()‚
+ﬂ
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.csE E(H*
+siteSettingsOrchardCore.Settings.ISite"__id*
+""òï
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.csF3 F(H	
+%7int"'OrchardCore.Settings.ISite.PageSize.get*,
+*
+siteSettingsOrchardCore.Settings.ISite2PageSize.getÍÁ
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.csF F(I"
+%8OrchardCore.Navigation.Pager"OrchardCore.Navigation.Pagerı
+Ú
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.csF F(!
+
+%9void"OOrchardCore.Navigation.Pager.Pager(OrchardCore.Navigation.PagerParameters, int)*$
+"
+%8OrchardCore.Navigation.Pager*;
+9
+pagerParameters&OrchardCore.Navigation.PagerParameters*
+	
+%7int˚
+¯
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.csF F(I%
+pagerOrchardCore.Navigation.Pager"__id*$
+"
+%8OrchardCore.Navigation.Pagerí
+è
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.csG G(1I
+%10BOrchardCore.OpenId.Abstractions.Managers.IOpenIdApplicationManager"__id*ñ*ì6
+4OrchardCore.OpenId.Controllers.ApplicationController"Y
+_applicationManagerBOrchardCore.OpenId.Abstractions.Managers.IOpenIdApplicationManager≈¬
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.csG G(>0
+%11)System.Threading.Tasks.ValueTask<TResult>"dOpenIddict.Abstractions.IOpenIddictApplicationManager.CountAsync(System.Threading.CancellationToken)*K
+I
+%10BOrchardCore.OpenId.Abstractions.Managers.IOpenIdApplicationManager*
+""2.CountAsync(System.Threading.CancellationToken)≈
+¬
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.csG G(>
+countlong"__id*
+""Ø¨
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.csI L(E
+%12>OrchardCore.OpenId.ViewModels.OpenIdApplicationsIndexViewModel">OrchardCore.OpenId.ViewModels.OpenIdApplicationsIndexViewModel·
+ﬁ
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.csI I(<
+%13void"aOrchardCore.OpenId.ViewModels.OpenIdApplicationsIndexViewModel.OpenIdApplicationsIndexViewModel()*G
+E
+%12>OrchardCore.OpenId.ViewModels.OpenIdApplicationsIndexViewModelä
+á
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.csK K("
+%14dynamic"__id*J*H6
+4OrchardCore.OpenId.Controllers.ApplicationController"
+Newdynamic”
+–
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.csK K(F
+%15dynamic"HOrchardCore.OpenId.ViewModels.OpenIdApplicationsIndexViewModel.Pager.set*G
+E
+%12>OrchardCore.OpenId.ViewModels.OpenIdApplicationsIndexViewModel*
+""¿
+Ω
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.csI L(G
+model>OrchardCore.OpenId.ViewModels.OpenIdApplicationsIndexViewModel"__id*G
+E
+%12>OrchardCore.OpenId.ViewModels.OpenIdApplicationsIndexViewModelí
+è
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.csN. N(AI
+%16BOrchardCore.OpenId.Abstractions.Managers.IOpenIdApplicationManager"__id*ñ*ì6
+4OrchardCore.OpenId.Controllers.ApplicationController"Y
+_applicationManagerBOrchardCore.OpenId.Abstractions.Managers.IOpenIdApplicationManagerà
+Ö
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.csNL N(Z
+
+%17int")OrchardCore.Navigation.Pager.PageSize.get*'
+%
+pagerOrchardCore.Navigation.Pageró
+î
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.csN\ N(q
+
+%18int"0OrchardCore.Navigation.Pager.GetStartIndex(int?)*'
+%
+pagerOrchardCore.Navigation.Pager*
+""¸˘
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.csN. N(r5
+%19.System.Collections.Generic.IAsyncEnumerable<T>"oOpenIddict.Abstractions.IOpenIddictApplicationManager.ListAsync(int?, int?, System.Threading.CancellationToken)*K
+I
+%16BOrchardCore.OpenId.Abstractions.Managers.IOpenIdApplicationManager*
+
+
+%17int*
+
+
+%18int*
+""29ListAsync(int?, int?, System.Threading.CancellationToken)*
+3*∞
+3¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.csX	 X(	*
+4
+5*˙
+4¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.csP S(Q
+Ì
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.csP P("*
+%20#System.Collections.Generic.IList<T>"OOrchardCore.OpenId.ViewModels.OpenIdApplicationsIndexViewModel.Applications.get*I
+G
+model>OrchardCore.OpenId.ViewModels.OpenIdApplicationsIndexViewModelõò
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.csP' T(;
+%214OrchardCore.OpenId.ViewModels.OpenIdApplicationEntry"4OrchardCore.OpenId.ViewModels.OpenIdApplicationEntry√
+¿
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.csP+ P(A
+%22void"MOrchardCore.OpenId.ViewModels.OpenIdApplicationEntry.OpenIdApplicationEntry()*=
+;
+%214OrchardCore.OpenId.ViewModels.OpenIdApplicationEntryí
+è
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.csR( R(;I
+%23BOrchardCore.OpenId.Abstractions.Managers.IOpenIdApplicationManager"__id*ñ*ì6
+4OrchardCore.OpenId.Controllers.ApplicationController"Y
+_applicationManagerBOrchardCore.OpenId.Abstractions.Managers.IOpenIdApplicationManagerÄ˝
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.csR( R(\0
+%24)System.Threading.Tasks.ValueTask<TResult>"uOpenIddict.Abstractions.IOpenIddictApplicationManager.GetDisplayNameAsync(object, System.Threading.CancellationToken)*K
+I
+%23BOrchardCore.OpenId.Abstractions.Managers.IOpenIdApplicationManager*
+
+applicationobject*
+""2?GetDisplayNameAsync(object, System.Threading.CancellationToken)ƒ
+¡
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.csR R(\
+%25string"DOrchardCore.OpenId.ViewModels.OpenIdApplicationEntry.DisplayName.set*=
+;
+%214OrchardCore.OpenId.ViewModels.OpenIdApplicationEntry*
+""í
+è
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.csS S(2I
+%26BOrchardCore.OpenId.Abstractions.Managers.IOpenIdApplicationManager"__id*ñ*ì6
+4OrchardCore.OpenId.Controllers.ApplicationController"Y
+_applicationManagerBOrchardCore.OpenId.Abstractions.Managers.IOpenIdApplicationManageråâ
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.csS S(R0
+%27)System.Threading.Tasks.ValueTask<TResult>"ÅOrchardCore.OpenId.Abstractions.Managers.IOpenIdApplicationManager.GetPhysicalIdAsync(object, System.Threading.CancellationToken)*K
+I
+%26BOrchardCore.OpenId.Abstractions.Managers.IOpenIdApplicationManager*
+
+applicationobject*
+""2>GetPhysicalIdAsync(object, System.Threading.CancellationToken)ª
+∏
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.csS S(R
+%28string";OrchardCore.OpenId.ViewModels.OpenIdApplicationEntry.Id.set*=
+;
+%214OrchardCore.OpenId.ViewModels.OpenIdApplicationEntry*
+""≤
+Ø
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.csP T(
+%29void"
+__arrayAdd*,
+*
+%20#System.Collections.Generic.IList<T>*: *=
+;
+%214OrchardCore.OpenId.ViewModels.OpenIdApplicationEntry*
+3*Ã
+5¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.csW W(Í
+Á
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.csW W(
+%30void"*orchardcore.openid/views/application/index*
+
+%31*I
+G
+model>OrchardCore.OpenId.ViewModels.OpenIdApplicationsIndexViewModel*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject* 
+
+%HttpContextItemsAllobject*!
+
+%HttpContextItemsHtmlobject"¥
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.csW W(
+
+%30void*Â
+6¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.csX	 X(	"∫
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.csX X(	
+implicit return*ï
+7¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.cs>N >(Nè
+å
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.cs>( >(-W
+9
+pagerParameters&OrchardCore.Navigation.PagerParameters"
+PageSystem.Nullable<T>"__entrypointì
+ê
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.cs>( >(-[
+9
+pagerParameters&OrchardCore.Navigation.PagerParameters"
+PageSizeSystem.Nullable<T>"__entrypointΩ
+∫
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.cs>( >(-
+%32"__entrypoint*
+0:9
+pagerParameters&OrchardCore.Navigation.PagerParametersB86
+4OrchardCore.OpenId.Controllers.ApplicationController

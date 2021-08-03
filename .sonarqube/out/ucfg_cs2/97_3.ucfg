@@ -1,0 +1,95 @@
+
+iOrchardCore.Logging.AspNetExtensions.ConfigureNLog(Microsoft.Extensions.Hosting.IHostEnvironment, string)—
+ŒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Logging.NLog\WebHostBuilderExtensions.cs +  (8"0*¹
+0—
+ŒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Logging.NLog\WebHostBuilderExtensions.cs" &(+¥
+¢
+—
+ŒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Logging.NLog\WebHostBuilderExtensions.cs" "(,*
+%0$NLog.Config.ConfigurationItemFactory"0NLog.Config.ConfigurationItemFactory.Default.get*("&
+$NLog.Config.ConfigurationItemFactoryº
+·
+—
+ŒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Logging.NLog\WebHostBuilderExtensions.cs"G "(m 
+%1System.Reflection.TypeInfo"BSystem.Reflection.IntrospectionExtensions.GetTypeInfo(System.Type)*-"+
+)System.Reflection.IntrospectionExtensions*
+""ý
+ú
+—
+ŒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Logging.NLog\WebHostBuilderExtensions.cs"G "(v 
+%2System.Reflection.Assembly"System.Type.Assembly.get*"
+ 
+%1System.Reflection.TypeInfo×
+Ô
+—
+ŒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Logging.NLog\WebHostBuilderExtensions.cs" "(w
+
+%3void"ZNLog.Config.ConfigurationItemFactory.RegisterItemsFromAssembly(System.Reflection.Assembly)*,
+*
+%0$NLog.Config.ConfigurationItemFactory*"
+ 
+%2System.Reflection.Assemblyº
+·
+—
+ŒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Logging.NLog\WebHostBuilderExtensions.cs#) #(O 
+%4System.Reflection.TypeInfo"BSystem.Reflection.IntrospectionExtensions.GetTypeInfo(System.Type)*-"+
+)System.Reflection.IntrospectionExtensions*
+""ý
+ú
+—
+ŒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Logging.NLog\WebHostBuilderExtensions.cs#) #(X 
+%5System.Reflection.Assembly"System.Type.Assembly.get*"
+ 
+%4System.Reflection.TypeInfo¡
+ž
+—
+ŒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Logging.NLog\WebHostBuilderExtensions.cs# #(Y
+
+%6void"=NLog.LogManager.AddHiddenAssembly(System.Reflection.Assembly)*"
+NLog.LogManager*"
+ 
+%5System.Reflection.Assembly»¸
+—
+ŒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Logging.NLog\WebHostBuilderExtensions.cs$( $(;
+%7string"AMicrosoft.Extensions.Hosting.IHostEnvironment.ContentRootPath.get*6
+4
+env-Microsoft.Extensions.Hosting.IHostEnvironment2ContentRootPath.get›
+˜
+—
+ŒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Logging.NLog\WebHostBuilderExtensions.cs$ $(T
+%8string"&System.IO.Path.Combine(string, string)*"
+System.IO.Path*
+
+%7string*"
+ 
+configFileRelativePathstringÇ
+Ä
+—
+ŒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Logging.NLog\WebHostBuilderExtensions.cs$ $(T
+fileNamestring"__id*
+
+%8stringŠ
+‡
+—
+ŒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Logging.NLog\WebHostBuilderExtensions.cs% %(2
+%9NLog.LogFactory")NLog.LogManager.LoadConfiguration(string)*"
+NLog.LogManager*
+
+fileNamestringþ
+û
+—
+ŒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Logging.NLog\WebHostBuilderExtensions.cs& &(+'
+%10 NLog.Config.LoggingConfiguration"!NLog.LogManager.Configuration.get*"
+NLog.LogManager"Å
+—
+ŒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Logging.NLog\WebHostBuilderExtensions.cs& &(,)
+'
+%10 NLog.Config.LoggingConfiguration*Ï
+1—
+ŒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Logging.NLog\WebHostBuilderExtensions.cs'	 '(	"¯
+—
+ŒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Logging.NLog\WebHostBuilderExtensions.cs' '(	
+implicit return:4
+env-Microsoft.Extensions.Hosting.IHostEnvironment: 
+configFileRelativePathstringB("&
+$OrchardCore.Logging.AspNetExtensions

@@ -1,0 +1,5 @@
+×
+ËD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ReverseProxy\obj\Debug\netcoreapp3.1\Razor\Views\NavigationItemText-reverseproxy.Id.cshtml.g.csutf-8Î
+ÂD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ReverseProxy\obj\Debug\netcoreapp3.1\Razor\Views\ReverseProxySettings.Edit.cshtml.g.csutf-8Á
+µD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ReverseProxy\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.csutf-8Ð
+ÄD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ReverseProxy\obj\Debug\netcoreapp3.1\OrchardCore.ReverseProxy.RazorTargetAssemblyInfo.csutf-8

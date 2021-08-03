@@ -1,0 +1,13 @@
+¿
+³D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Create.cshtml.g.csutf-8½
+±D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Edit.cshtml.g.csutf-8¾
+²D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Index.cshtml.g.csutf-8á
+ÕD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\obj\Debug\netcoreapp3.1\Razor\Views\Items\AllShortcodeTemplatesDeploymentStep.Edit.cshtml.g.csutf-8ä
+ØD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\obj\Debug\netcoreapp3.1\Razor\Views\Items\AllShortcodeTemplatesDeploymentStep.Summary.cshtml.g.csutf-8æ
+ÚD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\obj\Debug\netcoreapp3.1\Razor\Views\Items\AllShortcodeTemplatesDeploymentStep.Thumbnail.cshtml.g.csutf-8â
+ÖD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\obj\Debug\netcoreapp3.1\Razor\Views\ShortcodeDescriptor-Button-Actions.SummaryAdmin.cshtml.g.csutf-8Ú
+ÎD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\obj\Debug\netcoreapp3.1\Razor\Views\ShortcodeDescriptor.Fields.SummaryAdmin.cshtml.g.csutf-8Ó
+ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\obj\Debug\netcoreapp3.1\Razor\Views\ShortcodeDescriptor.SummaryAdmin.cshtml.g.csutf-8Á
+µD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\obj\Debug\netcoreapp3.1\Razor\Views\ShortcodeModal.cshtml.g.csutf-8¿
+³D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.csutf-8Ì
+ÀD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\obj\Debug\netcoreapp3.1\OrchardCore.Shortcodes.RazorTargetAssemblyInfo.csutf-8

@@ -1,0 +1,402 @@
+
+GOrchardCore.Recipes.Controllers.AdminController.Execute(string, string)ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.csZ( Z(/"9*¡
+0ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.cs\ \(_ı
+Ú
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.cs\ \(,>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*â*Ü1
+/OrchardCore.Recipes.Controllers.AdminController"Q
+_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationService∞
+≠
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.cs\< \(@,
+%1&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase∆
+√
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.cs\B \(_1
+%2+OrchardCore.Security.Permissions.Permission"__id*h*f*
+(OrchardCore.Security.StandardPermissions"8
+	SiteOwner+OrchardCore.Security.Permissions.Permissionü
+ú
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.cs\ \(`*
+%3$System.Threading.Tasks.Task<TResult>"ﬂMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission)*E"C
+AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*@
+>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService*.
+,
+%1&System.Security.Claims.ClaimsPrincipal*3
+1
+%2+OrchardCore.Security.Permissions.Permission*
+1
+2*±
+1ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.cs^ ^(π∂
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.cs^ ^(+
+%4%Microsoft.AspNetCore.Mvc.ForbidResult"0Microsoft.AspNetCore.Mvc.ControllerBase.Forbid()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2Forbid()"œ
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.cs^ ^( -
++
+%4%Microsoft.AspNetCore.Mvc.ForbidResult*ä
+2ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.csa f(—
+Œ
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.csa7 a(H/
+%5)System.Collections.Generic.IEnumerable<T>"__id*u*s1
+/OrchardCore.Recipes.Controllers.AdminController">
+_recipeHarvesters)System.Collections.Generic.IEnumerable<T>¨
+©
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.csa7 a(m/
+%6)System.Collections.Generic.IEnumerable<T>"System.Linq.Enumerable.Select<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)*"
+System.Linq.Enumerable*1
+/
+%5)System.Collections.Generic.IEnumerable<T>*
+""ü
+ú
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.csa* a(n*
+%7$System.Threading.Tasks.Task<TResult>"zSystem.Threading.Tasks.Task.WhenAll<TResult>(System.Collections.Generic.IEnumerable<System.Threading.Tasks.Task<TResult>>)*"
+System.Threading.Tasks.Task*1
+/
+%6)System.Collections.Generic.IEnumerable<T>ù
+ö
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.csa a(nj
+recipeCollectionsUSystem.Collections.Generic.IEnumerable<OrchardCore.Recipes.Models.RecipeDescriptor>[]"__id*
+""î
+ë
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.csb b(>/
+%8)System.Collections.Generic.IEnumerable<T>"´System.Linq.Enumerable.SelectMany<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, System.Collections.Generic.IEnumerable<TResult>>)*"
+System.Linq.Enumerable*l
+j
+recipeCollectionsUSystem.Collections.Generic.IEnumerable<OrchardCore.Recipes.Models.RecipeDescriptor>[]*
+""í
+è
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.csb b(>4
+recipes)System.Collections.Generic.IEnumerable<T>"__id*1
+/
+%8)System.Collections.Generic.IEnumerable<T>Ø
+¨
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.csd d(q1
+%9+OrchardCore.Recipes.Models.RecipeDescriptor"{System.Linq.Enumerable.FirstOrDefault<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
+System.Linq.Enumerable*6
+4
+recipes)System.Collections.Generic.IEnumerable<T>*
+""ï
+í
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.csd d(q5
+recipe+OrchardCore.Recipes.Models.RecipeDescriptor"__id*3
+1
+%9+OrchardCore.Recipes.Models.RecipeDescriptor°
+û
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.csf f(
+%10bool""object.operator ==(object, object)*
+"
+object*7
+5
+recipe+OrchardCore.Recipes.Models.RecipeDescriptor*
+""*
+3
+4*◊
+3ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.csh i(/‘
+—
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.csh h(5
+%11.OrchardCore.DisplayManagement.Notify.INotifier"__id*r*p1
+/OrchardCore.Recipes.Controllers.AdminController";
+	_notifier.OrchardCore.DisplayManagement.Notify.INotifierÿ
+’
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.csh  h(!;
+%124Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer"__id*p*n1
+/OrchardCore.Recipes.Controllers.AdminController"9
+H4Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizeròï
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.csh  h(:@
+%139Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString"EMicrosoft.AspNetCore.Mvc.Localization.IHtmlLocalizer.this[string].get*=
+;
+%124Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer*
+Recipe was not found.2this[string].getï
+í
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.csh h(;
+%14void"®OrchardCore.DisplayManagement.Notify.NotifierExtensions.Error(OrchardCore.DisplayManagement.Notify.INotifier, Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString)*;"9
+7OrchardCore.DisplayManagement.Notify.NotifierExtensions*7
+5
+%11.OrchardCore.DisplayManagement.Notify.INotifier*B
+@
+%139Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlStringÔÏ
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.csi i(06
+%15/Microsoft.AspNetCore.Mvc.RedirectToActionResult"@Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToAction(string)*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*	
+Index2RedirectToAction(string)"⁄
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.csi i(18
+6
+%15/Microsoft.AspNetCore.Mvc.RedirectToActionResult*Î!
+4ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.csl s(;îë
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.csl l(>:
+%163System.Collections.Generic.Dictionary<TKey, TValue>"3System.Collections.Generic.Dictionary<TKey, TValue>∞
+≠
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.csl" l(<
+%17void"@System.Collections.Generic.Dictionary<TKey, TValue>.Dictionary()*<
+:
+%163System.Collections.Generic.Dictionary<TKey, TValue>´
+®
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.csl l(>B
+environment3System.Collections.Generic.Dictionary<TKey, TValue>"__id*<
+:
+%163System.Collections.Generic.Dictionary<TKey, TValue>÷
+”
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.csm m('0
+%18)System.Collections.Generic.IEnumerable<T>"__id*y*w1
+/OrchardCore.Recipes.Controllers.AdminController"B
+_environmentProviders)System.Collections.Generic.IEnumerable<T>®
+•
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.csm m(=/
+%19(System.Linq.IOrderedEnumerable<TElement>"zSystem.Linq.Enumerable.OrderBy<TSource, TKey>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TKey>)*"
+System.Linq.Enumerable*2
+0
+%18)System.Collections.Generic.IEnumerable<T>*
+""¿
+Ω
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.csmí m(ô+
+%20$Microsoft.Extensions.Logging.ILogger"__id*f*d1
+/OrchardCore.Recipes.Controllers.AdminController"/
+_logger$Microsoft.Extensions.Logging.ILoggerÙ
+Ò
+û
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.csm m(ö"
+%21System.Threading.Tasks.Task"œOrchardCore.Modules.InvokeExtensions.InvokeAsync<TEvents, T1>(System.Collections.Generic.IEnumerable<TEvents>, System.Func<TEvents, T1, System.Threading.Tasks.Task>, T1, Microsoft.Extensions.Logging.ILogger)*("&
+$OrchardCore.Modules.InvokeExtensions*1
+/
+%19(System.Linq.IOrderedEnumerable<TElement>*
+""*D
+B
+environment3System.Collections.Generic.Dictionary<TKey, TValue>*-
++
+%20$Microsoft.Extensions.Logging.ILoggerﬂ
+‹
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.cso o(,
+%22System.Guid"System.Guid.NewGuid()*"
+System.GuidÓ
+Î
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.cso o(:
+%23string"System.Guid.ToString(string?)*
+
+%22System.Guid*
+n—
+Œ
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.cso o(:
+executionIdstring"__id*
+
+%23string”
+–
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.css s(2
+%24+OrchardCore.Environment.Shell.ShellSettings"__id*t*r1
+/OrchardCore.Recipes.Controllers.AdminController"=
+_shellSettings+OrchardCore.Environment.Shell.ShellSettings∏
+µ
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.css# s(;
+%25"__id*
+""“
+œ
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.css s(;7
+%260OrchardCore.Environment.Shell.Models.TenantState"5OrchardCore.Environment.Shell.ShellSettings.State.set*4
+2
+%24+OrchardCore.Environment.Shell.ShellSettings*
+
+%25*
+5*„
+5ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.csw w(k÷
+”
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.csw w(%3
+%27,OrchardCore.Recipes.Services.IRecipeExecutor"__id*v*t1
+/OrchardCore.Recipes.Controllers.AdminController"?
+_recipeExecutor,OrchardCore.Recipes.Services.IRecipeExecutor£
+†
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.cswU w(k)
+%28"System.Threading.CancellationToken"+System.Threading.CancellationToken.None.get*&"$
+"System.Threading.CancellationTokenπ∂
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.csw w(l+
+%29$System.Threading.Tasks.Task<TResult>" OrchardCore.Recipes.Services.IRecipeExecutor.ExecuteAsync(string, OrchardCore.Recipes.Models.RecipeDescriptor, System.Collections.Generic.IDictionary<string, object>, System.Threading.CancellationToken)*5
+3
+%27,OrchardCore.Recipes.Services.IRecipeExecutor*
+
+executionIdstring*7
+5
+recipe+OrchardCore.Recipes.Models.RecipeDescriptor*D
+B
+environment3System.Collections.Generic.Dictionary<TKey, TValue>*+
+)
+%28"System.Threading.CancellationToken2ùExecuteAsync(string, OrchardCore.Recipes.Models.RecipeDescriptor, System.Collections.Generic.IDictionary<string, object>, System.Threading.CancellationToken)*
+6*ë
+6ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.cs| |(:”
+–
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.cs| |(2
+%30+OrchardCore.Environment.Shell.ShellSettings"__id*t*r1
+/OrchardCore.Recipes.Controllers.AdminController"=
+_shellSettings+OrchardCore.Environment.Shell.ShellSettings∏
+µ
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.cs|' |(:
+%31"__id*
+""“
+œ
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.cs| |(:7
+%320OrchardCore.Environment.Shell.Models.TenantState"5OrchardCore.Environment.Shell.ShellSettings.State.set*4
+2
+%30+OrchardCore.Environment.Shell.ShellSettings*
+
+%31*
+7
+8*¸
+7û
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.cs Ç(+…
+∆
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.cs (/
+%33(OrchardCore.Environment.Shell.IShellHost"__id*m*k1
+/OrchardCore.Recipes.Controllers.AdminController"6
+
+_shellHost(OrchardCore.Environment.Shell.IShellHost”
+–
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.cs6 (D2
+%34+OrchardCore.Environment.Shell.ShellSettings"__id*t*r1
+/OrchardCore.Recipes.Controllers.AdminController"=
+_shellSettings+OrchardCore.Environment.Shell.ShellSettings˚¯
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.cs (E"
+%35System.Threading.Tasks.Task"tOrchardCore.Environment.Shell.IShellHost.ReleaseShellContextAsync(OrchardCore.Environment.Shell.ShellSettings, bool)*1
+/
+%33(OrchardCore.Environment.Shell.IShellHost*4
+2
+%34+OrchardCore.Environment.Shell.ShellSettings*
+""2KReleaseShellContextAsync(OrchardCore.Environment.Shell.ShellSettings, bool)÷
+”
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.csÅ Å(5
+%36.OrchardCore.DisplayManagement.Notify.INotifier"__id*r*p1
+/OrchardCore.Recipes.Controllers.AdminController";
+	_notifier.OrchardCore.DisplayManagement.Notify.INotifier⁄
+◊
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.csÅ Å(;
+%374Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer"__id*p*n1
+/OrchardCore.Recipes.Controllers.AdminController"9
+H4Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer™
+ß
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.csÅO Å(a
+%38string";OrchardCore.Recipes.Models.RecipeDescriptor.DisplayName.get*7
+5
+recipe+OrchardCore.Recipes.Models.RecipeDescriptor„‡
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.csÅ Å(b@
+%399Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString"VMicrosoft.AspNetCore.Mvc.Localization.IHtmlLocalizer.this[string, params object[]].get*=
+;
+%374Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer*/-
++The recipe '{0}' has been run successfully.*
+
+%38string2!this[string, params object[]].getô
+ñ
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.csÅ Å(c
+%40void"™OrchardCore.DisplayManagement.Notify.NotifierExtensions.Success(OrchardCore.DisplayManagement.Notify.INotifier, Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString)*;"9
+7OrchardCore.DisplayManagement.Notify.NotifierExtensions*7
+5
+%36.OrchardCore.DisplayManagement.Notify.INotifier*B
+@
+%399Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlStringÒÓ
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.csÇ Ç(,6
+%41/Microsoft.AspNetCore.Mvc.RedirectToActionResult"@Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToAction(string)*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*	
+Index2RedirectToAction(string)"‹
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.csÇ Ç(-8
+6
+%41/Microsoft.AspNetCore.Mvc.RedirectToActionResult*ﬂ
+8ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.csÉ	 É(	"∑
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.csÉ É(	
+implicit return*◊
+
+9ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.csZQ Z(Q‰
+·
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.csZ( Z(/
+%42"__entrypoint*
+
+basePathstring*
+
+fileNamestringê
+ç
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.csY	 Y(
+%43"
+__annotate*B@
+>Microsoft.AspNetCore.Mvc.HttpPostAttribute.HttpPostAttribute()*
+
+basePathstringŒ
+À
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.csZ0 Z(?
+basePathstring"__annotation*
+
+%43ê
+ç
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.csY	 Y(
+%44"
+__annotate*B@
+>Microsoft.AspNetCore.Mvc.HttpPostAttribute.HttpPostAttribute()*
+
+fileNamestringŒ
+À
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Controllers\AdminController.csZA Z(P
+fileNamestring"__annotation*
+
+%44*
+0:
+basePathstring:
+fileNamestringB31
+/OrchardCore.Recipes.Controllers.AdminController

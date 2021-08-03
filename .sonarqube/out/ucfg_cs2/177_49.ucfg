@@ -1,0 +1,217 @@
+
+OOrchardCore.BackgroundTasks.Controllers.BackgroundTaskController.Create(string)®
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.csS) S(/"6*²
+0®
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.csU U(c—
+”
+®
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.csU U(,>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*š*—B
+@OrchardCore.BackgroundTasks.Controllers.BackgroundTaskController"Q
+_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationServiceÁ
+¾
+®
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.csU< U(@,
+%1&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBaseâ
+ß
+®
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.csUB U(c1
+%2+OrchardCore.Security.Permissions.Permission"__id*s*q)
+'OrchardCore.BackgroundTasks.Permissions"D
+ManageBackgroundTasks+OrchardCore.Security.Permissions.Permission°
+­
+®
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.csU U(d*
+%3$System.Threading.Tasks.Task<TResult>"ßMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission)*E"C
+AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*@
+>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService*.
+,
+%1&System.Security.Claims.ClaimsPrincipal*3
+1
+%2+OrchardCore.Security.Permissions.Permission*
+1
+2*ä
+1®
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.csW W(ÊÇ
+®
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.csW W(+
+%4%Microsoft.AspNetCore.Mvc.ForbidResult"0Microsoft.AspNetCore.Mvc.ControllerBase.Forbid()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2Forbid()"à
+®
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.csW W( -
++
+%4%Microsoft.AspNetCore.Mvc.ForbidResult*ä
+2®
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.csZ ^(º·
+®
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.csZ Z(ED
+%5>OrchardCore.BackgroundTasks.ViewModels.BackgroundTaskViewModel">OrchardCore.BackgroundTasks.ViewModels.BackgroundTaskViewModelâ
+ß
+®
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.csZ Z(3
+
+%6void"XOrchardCore.BackgroundTasks.ViewModels.BackgroundTaskViewModel.BackgroundTaskViewModel()*F
+D
+%5>OrchardCore.BackgroundTasks.ViewModels.BackgroundTaskViewModelÙ
+Ö
+®
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.csZ8 Z(C
+%7string";OrchardCore.BackgroundTasks.BackgroundTaskSettings.Name.set*F
+D
+%5>OrchardCore.BackgroundTasks.ViewModels.BackgroundTaskViewModel*
+
+namestringË
+È
+®
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.csZ Z(EG
+model>OrchardCore.BackgroundTasks.ViewModels.BackgroundTaskViewModel"__id*F
+D
+%5>OrchardCore.BackgroundTasks.ViewModels.BackgroundTaskViewModelô
+ñ
+®
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.cs\ \('/
+%8)System.Collections.Generic.IEnumerable<T>"__id*†*ƒB
+@OrchardCore.BackgroundTasks.Controllers.BackgroundTaskController"=
+_backgroundTasks)System.Collections.Generic.IEnumerable<T>ˆ
+…
+®
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.cs\ \(;1
+%9+OrchardCore.BackgroundTasks.IBackgroundTask"ŸOrchardCore.BackgroundTasks.BackgroundTaskExtensions.GetTaskByName(System.Collections.Generic.IEnumerable<OrchardCore.BackgroundTasks.IBackgroundTask>, string)*8"6
+4OrchardCore.BackgroundTasks.BackgroundTaskExtensions*1
+/
+%8)System.Collections.Generic.IEnumerable<T>*
+
+namestring¤
+¡
+®
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.cs\ \(;3
+task+OrchardCore.BackgroundTasks.IBackgroundTask"__id*3
+1
+%9+OrchardCore.BackgroundTasks.IBackgroundTask°
+­
+®
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.cs^ ^(
+%10bool""object.operator !=(object, object)*
+"
+object*5
+3
+task+OrchardCore.BackgroundTasks.IBackgroundTask*
+""*
+3
+4*‹
+3®
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.cs` e(8Ö
+Ó
+®
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.cs` `(89
+%112OrchardCore.BackgroundTasks.BackgroundTaskSettings"tOrchardCore.BackgroundTasks.BackgroundTaskExtensions.GetDefaultSettings(OrchardCore.BackgroundTasks.IBackgroundTask)*8"6
+4OrchardCore.BackgroundTasks.BackgroundTaskExtensions*5
+3
+task+OrchardCore.BackgroundTasks.IBackgroundTask·
+´
+®
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.cs` `(8>
+settings2OrchardCore.BackgroundTasks.BackgroundTaskSettings"__id*;
+9
+%112OrchardCore.BackgroundTasks.BackgroundTaskSettingsÂ
+¿
+®
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.csb b(.
+%12bool"=OrchardCore.BackgroundTasks.BackgroundTaskSettings.Enable.get*@
+>
+settings2OrchardCore.BackgroundTasks.BackgroundTaskSettingsÚ
+×
+®
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.csb b(.
+%13bool"=OrchardCore.BackgroundTasks.BackgroundTaskSettings.Enable.set*I
+G
+model>OrchardCore.BackgroundTasks.ViewModels.BackgroundTaskViewModel*
+
+%12boolÆ
+Ã
+®
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.csc! c(2
+%14string"?OrchardCore.BackgroundTasks.BackgroundTaskSettings.Schedule.get*@
+>
+settings2OrchardCore.BackgroundTasks.BackgroundTaskSettingsà
+Ý
+®
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.csc c(2
+%15string"?OrchardCore.BackgroundTasks.BackgroundTaskSettings.Schedule.set*I
+G
+model>OrchardCore.BackgroundTasks.ViewModels.BackgroundTaskViewModel*
+
+%14stringÆ
+Ã
+®
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.csd( d(9
+%16string"?OrchardCore.BackgroundTasks.BackgroundTaskSettings.Schedule.get*@
+>
+settings2OrchardCore.BackgroundTasks.BackgroundTaskSettingsó
+ð
+®
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.csd d(9
+%17string"ROrchardCore.BackgroundTasks.ViewModels.BackgroundTaskViewModel.DefaultSchedule.set*I
+G
+model>OrchardCore.BackgroundTasks.ViewModels.BackgroundTaskViewModel*
+
+%16stringÉ
+Æ
+®
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.cse$ e(8
+%18string"BOrchardCore.BackgroundTasks.BackgroundTaskSettings.Description.get*@
+>
+settings2OrchardCore.BackgroundTasks.BackgroundTaskSettingsã
+à
+®
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.cse e(8
+%19string"BOrchardCore.BackgroundTasks.BackgroundTaskSettings.Description.set*I
+G
+model>OrchardCore.BackgroundTasks.ViewModels.BackgroundTaskViewModel*
+
+%18string*
+4*ý
+4®
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.csh h(ƒ
+€
+®
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.csh h(
+%20void"7orchardcore.backgroundtasks/views/backgroundtask/create*
+
+%21*I
+G
+model>OrchardCore.BackgroundTasks.ViewModels.BackgroundTaskViewModel*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject* 
+
+%HttpContextItemsAllobject*!
+
+%HttpContextItemsHtmlobject"À
+®
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.csh h(
+
+%20void*ý
+5®
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.csi	 i(	"Æ
+®
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.csi i(	
+implicit return*—
+6®
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.csS< S(<Û
+Ø
+®
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.csS) S(/
+%22"__entrypoint*
+
+namestring*
+0:
+namestringBDB
+@OrchardCore.BackgroundTasks.Controllers.BackgroundTaskController

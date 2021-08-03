@@ -1,0 +1,248 @@
+
+pOrchardCore.Contents.Indexing.AspectsContentIndexHandler.BuildIndexAsync(OrchardCore.Indexing.BuildIndexContext)¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Indexing\AspectsContentIndexHandler.cs ()"0*•
+0¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Indexing\AspectsContentIndexHandler.cs (Í
+Á
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Indexing\AspectsContentIndexHandler.cs (,3
+%0-OrchardCore.ContentManagement.IContentManager"__id*Ä*~:
+8OrchardCore.Contents.Indexing.AspectsContentIndexHandler"@
+_contentManager-OrchardCore.ContentManagement.IContentManager 
+«
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Indexing\AspectsContentIndexHandler.csA (T/
+%1)OrchardCore.ContentManagement.ContentItem"6OrchardCore.Indexing.BuildIndexContext.ContentItem.get*3
+1
+context&OrchardCore.Indexing.BuildIndexContextîë
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Indexing\AspectsContentIndexHandler.csV (f5
+%2/OrchardCore.ContentManagement.Models.BodyAspect"/OrchardCore.ContentManagement.Models.BodyAspectØ
+¨
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Indexing\AspectsContentIndexHandler.csZ (d
+
+%3void"<OrchardCore.ContentManagement.Models.BodyAspect.BodyAspect()*7
+5
+%2/OrchardCore.ContentManagement.Models.BodyAspect«ƒ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Indexing\AspectsContentIndexHandler.cs (g*
+%4$System.Threading.Tasks.Task<TResult>"{OrchardCore.ContentManagement.IContentManager.PopulateAspectAsync<TAspect>(OrchardCore.ContentManagement.IContent, TAspect)*5
+3
+%0-OrchardCore.ContentManagement.IContentManager*1
+/
+%1)OrchardCore.ContentManagement.ContentItem*7
+5
+%2/OrchardCore.ContentManagement.Models.BodyAspect2MPopulateAspectAsync<TAspect>(OrchardCore.ContentManagement.IContent, TAspect)Û
+
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Indexing\AspectsContentIndexHandler.cs (g7
+body/OrchardCore.ContentManagement.Models.BodyAspect"__id*
+""´
+®
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Indexing\AspectsContentIndexHandler.cs (
+
+%5bool""object.operator !=(object, object)*
+"
+object*9
+7
+body/OrchardCore.ContentManagement.Models.BodyAspect*
+""*
+1
+2*¡
+1¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Indexing\AspectsContentIndexHandler.cs (P≈
+¬
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Indexing\AspectsContentIndexHandler.cs (%(
+%6"OrchardCore.Indexing.DocumentIndex"8OrchardCore.Indexing.BuildIndexContext.DocumentIndex.get*3
+1
+context&OrchardCore.Indexing.BuildIndexContext¿
+Ω
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Indexing\AspectsContentIndexHandler.cs (7
+%7"__id*
+""œ
+Ã
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Indexing\AspectsContentIndexHandler.cs (,
+%8&Microsoft.AspNetCore.Html.IHtmlContent"8OrchardCore.ContentManagement.Models.BodyAspect.Body.get*9
+7
+body/OrchardCore.ContentManagement.Models.BodyAspect¿
+Ω
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Indexing\AspectsContentIndexHandler.cs (0
+%9"__id*
+""¡
+æ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Indexing\AspectsContentIndexHandler.cs3 (P
+%10"__id*
+""©
+¶
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Indexing\AspectsContentIndexHandler.cs (Q
+%11void"ÅOrchardCore.Indexing.DocumentIndex.Set(string, Microsoft.AspNetCore.Html.IHtmlContent, OrchardCore.Indexing.DocumentIndexOptions)**
+(
+%6"OrchardCore.Indexing.DocumentIndex*
+
+%7*.
+,
+%8&Microsoft.AspNetCore.Html.IHtmlContent*
+""*
+2*ı&
+2¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Indexing\AspectsContentIndexHandler.cs *(/∆
+√
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Indexing\AspectsContentIndexHandler.cs (!)
+%12"OrchardCore.Indexing.DocumentIndex"8OrchardCore.Indexing.BuildIndexContext.DocumentIndex.get*3
+1
+context&OrchardCore.Indexing.BuildIndexContext¡
+æ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Indexing\AspectsContentIndexHandler.cs (8
+%13"__id*
+""À
+»
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Indexing\AspectsContentIndexHandler.cs   (#0
+%14)OrchardCore.ContentManagement.ContentItem"6OrchardCore.Indexing.BuildIndexContext.ContentItem.get*3
+1
+context&OrchardCore.Indexing.BuildIndexContext™
+ß
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Indexing\AspectsContentIndexHandler.cs   (/
+%15string"9OrchardCore.ContentManagement.ContentItem.DisplayText.get*2
+0
+%14)OrchardCore.ContentManagement.ContentItem¡
+æ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Indexing\AspectsContentIndexHandler.cs! !(,
+%16"__id*
+""¡
+æ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Indexing\AspectsContentIndexHandler.cs!/ !(L
+%17"__id*
+""Î
+Ë
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Indexing\AspectsContentIndexHandler.cs !(M
+%18void"aOrchardCore.Indexing.DocumentIndex.Set(string, string, OrchardCore.Indexing.DocumentIndexOptions)*+
+)
+%12"OrchardCore.Indexing.DocumentIndex*
+
+%13*
+
+%15string*
+""∆
+√
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Indexing\AspectsContentIndexHandler.cs# #(!)
+%19"OrchardCore.Indexing.DocumentIndex"8OrchardCore.Indexing.BuildIndexContext.DocumentIndex.get*3
+1
+context&OrchardCore.Indexing.BuildIndexContext¡
+æ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Indexing\AspectsContentIndexHandler.cs$ $(0
+%20"__id*
+""À
+»
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Indexing\AspectsContentIndexHandler.cs% %(#0
+%21)OrchardCore.ContentManagement.ContentItem"6OrchardCore.Indexing.BuildIndexContext.ContentItem.get*3
+1
+context&OrchardCore.Indexing.BuildIndexContext™
+ß
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Indexing\AspectsContentIndexHandler.cs% %(/
+%22string"9OrchardCore.ContentManagement.ContentItem.DisplayText.get*2
+0
+%21)OrchardCore.ContentManagement.ContentItem¡
+æ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Indexing\AspectsContentIndexHandler.cs& &(*
+%23"__id*
+""Ï
+È
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Indexing\AspectsContentIndexHandler.cs# &(+
+%24void"aOrchardCore.Indexing.DocumentIndex.Set(string, string, OrchardCore.Indexing.DocumentIndexOptions)*+
+)
+%19"OrchardCore.Indexing.DocumentIndex*
+
+%20*
+
+%22string*
+
+%23∆
+√
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Indexing\AspectsContentIndexHandler.cs( ((!)
+%25"OrchardCore.Indexing.DocumentIndex"8OrchardCore.Indexing.BuildIndexContext.DocumentIndex.get*3
+1
+context&OrchardCore.Indexing.BuildIndexContext¡
+æ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Indexing\AspectsContentIndexHandler.cs) )(:
+%26"__id*
+""À
+»
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Indexing\AspectsContentIndexHandler.cs* *(#0
+%27)OrchardCore.ContentManagement.ContentItem"6OrchardCore.Indexing.BuildIndexContext.ContentItem.get*3
+1
+context&OrchardCore.Indexing.BuildIndexContext™
+ß
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Indexing\AspectsContentIndexHandler.cs* *(/
+%28string"9OrchardCore.ContentManagement.ContentItem.DisplayText.get*2
+0
+%27)OrchardCore.ContentManagement.ContentItem*
+3
+4*◊
+4¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Indexing\AspectsContentIndexHandler.cs*0 *(B¬
+ø
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Indexing\AspectsContentIndexHandler.cs*0 *(D
+%29string"DOrchardCore.Mvc.Utilities.StringExtensions.ReplaceDiacritics(string)*.",
+*OrchardCore.Mvc.Utilities.StringExtensions*
+
+%28stringﬁ
+€
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Indexing\AspectsContentIndexHandler.cs*0 *(N
+%30string"string.ToLower()*
+
+%29string*
+3*‰
+3¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Indexing\AspectsContentIndexHandler.cs( +(*¡
+æ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Indexing\AspectsContentIndexHandler.cs+ +(*
+%31"__id*
+""Ï
+È
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Indexing\AspectsContentIndexHandler.cs( +(+
+%32void"aOrchardCore.Indexing.DocumentIndex.Set(string, string, OrchardCore.Indexing.DocumentIndexOptions)*+
+)
+%25"OrchardCore.Indexing.DocumentIndex*
+
+%26*
+
+%30string*
+
+%31*
+5*Ì
+5¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Indexing\AspectsContentIndexHandler.cs,	 ,(	"æ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Indexing\AspectsContentIndexHandler.cs, ,(	
+implicit return:1
+context&OrchardCore.Indexing.BuildIndexContextB<:
+8OrchardCore.Contents.Indexing.AspectsContentIndexHandler

@@ -1,0 +1,422 @@
+
+êOrchardCore.Markdown.GraphQL.MarkdownBodyQueryObjectType.ToHtml(GraphQL.Types.ResolveFieldContext<OrchardCore.Markdown.Models.MarkdownBodyPart>)¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.cs#* #(0"0*ß
+0¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.cs% %(8Ã
+…
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.cs%% %(/2
+%0,OrchardCore.Markdown.Models.MarkdownBodyPart"5GraphQL.Types.ResolveFieldContext<TSource>.Source.get*3
+1
+ctx*GraphQL.Types.ResolveFieldContext<TSource>´
+®
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.cs%% %(8
+%1string"9OrchardCore.Markdown.Models.MarkdownBodyPart.Markdown.get*4
+2
+%0,OrchardCore.Markdown.Models.MarkdownBodyPartÛ
+
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.cs% %(9
+
+%2bool"string.IsNullOrEmpty(string?)*
+"
+string*
+
+%1string*
+1
+2*Â
+1¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.cs' '(*Ã
+…
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.cs' '(!2
+%3,OrchardCore.Markdown.Models.MarkdownBodyPart"5GraphQL.Types.ResolveFieldContext<TSource>.Source.get*3
+1
+ctx*GraphQL.Types.ResolveFieldContext<TSource>´
+®
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.cs' '(*
+%4string"9OrchardCore.Markdown.Models.MarkdownBodyPart.Markdown.get*4
+2
+%3,OrchardCore.Markdown.Models.MarkdownBodyPart"π
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.cs' '(+
+
+%4string*®C
+2¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.cs* 8(&¥
+±
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.cs*" *(>
+%5System.IServiceProvider"vOrchardCore.Apis.GraphQL.ResolveFieldContextExtensions.ResolveServiceProvider<T>(GraphQL.Types.ResolveFieldContext<T>)*:"8
+6OrchardCore.Apis.GraphQL.ResolveFieldContextExtensions*3
+1
+ctx*GraphQL.Types.ResolveFieldContext<TSource>ˇ
+¸
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.cs* *(>*
+serviceProviderSystem.IServiceProvider"__id*
+
+%5System.IServiceProviderŸ
+÷
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.cs+" +(X4
+%6.OrchardCore.Markdown.Services.IMarkdownService"xMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<T>(System.IServiceProvider)*M"K
+IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*,
+*
+serviceProviderSystem.IServiceProvider≠
+™
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.cs+ +(XA
+markdownService.OrchardCore.Markdown.Services.IMarkdownService"__id*6
+4
+%6.OrchardCore.Markdown.Services.IMarkdownService‹
+Ÿ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.cs,# ,(Z7
+%71OrchardCore.Shortcodes.Services.IShortcodeService"xMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<T>(System.IServiceProvider)*M"K
+IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*,
+*
+serviceProviderSystem.IServiceProvider¥
+±
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.cs, ,(ZE
+shortcodeService1OrchardCore.Shortcodes.Services.IShortcodeService"__id*9
+7
+%71OrchardCore.Shortcodes.Services.IShortcodeServiceÎ
+Ë
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.cs-+ -(jF
+%8@OrchardCore.ContentManagement.Metadata.IContentDefinitionManager"xMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<T>(System.IServiceProvider)*M"K
+IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*,
+*
+serviceProviderSystem.IServiceProvider⁄
+◊
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.cs- -(j\
+contentDefinitionManager@OrchardCore.ContentManagement.Metadata.IContentDefinitionManager"__id*H
+F
+%8@OrchardCore.ContentManagement.Metadata.IContentDefinitionManagerÃ
+…
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.cs/S /(]2
+%9,OrchardCore.Markdown.Models.MarkdownBodyPart"5GraphQL.Types.ResolveFieldContext<TSource>.Source.get*3
+1
+ctx*GraphQL.Types.ResolveFieldContext<TSource>“
+œ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.cs/S /(i0
+%10)OrchardCore.ContentManagement.ContentItem"<OrchardCore.ContentManagement.ContentElement.ContentItem.get*4
+2
+%9,OrchardCore.Markdown.Models.MarkdownBodyPart™
+ß
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.cs/S /(u
+%11string"9OrchardCore.ContentManagement.ContentItem.ContentType.get*2
+0
+%10)OrchardCore.ContentManagement.ContentItem‡›
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.cs/( /(vJ
+%12COrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition"ZOrchardCore.ContentManagement.Metadata.IContentDefinitionManager.GetTypeDefinition(string)*^
+\
+contentDefinitionManager@OrchardCore.ContentManagement.Metadata.IContentDefinitionManager*
+
+%11string2GetTypeDefinition(string)ﬁ
+€
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.cs/ /(v\
+contentTypeDefinitionCOrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition"__id*L
+J
+%12COrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinitionç
+ä
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.cs0, 0(G0
+%13)System.Collections.Generic.IEnumerable<T>"MOrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition.Parts.get*^
+\
+contentTypeDefinitionCOrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition“
+œ
+ß
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.cs0, 0(ïN
+%14GOrchardCore.ContentManagement.Metadata.Models.ContentTypePartDefinition"{System.Linq.Enumerable.FirstOrDefault<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
+System.Linq.Enumerable*2
+0
+%13)System.Collections.Generic.IEnumerable<T>*
+""Î
+Ë
+ß
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.cs0 0(ïd
+contentTypePartDefinitionGOrchardCore.ContentManagement.Metadata.Models.ContentTypePartDefinition"__id*P
+N
+%14GOrchardCore.ContentManagement.Metadata.Models.ContentTypePartDefinition•
+¢
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.cs1 1(\=
+%156OrchardCore.Markdown.Settings.MarkdownBodyPartSettings"POrchardCore.ContentManagement.Metadata.Models.ContentDefinition.GetSettings<T>()*f
+d
+contentTypePartDefinitionGOrchardCore.ContentManagement.Metadata.Models.ContentTypePartDefinition∑
+¥
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.cs1 1(\B
+settings6OrchardCore.Markdown.Settings.MarkdownBodyPartSettings"__id*?
+=
+%156OrchardCore.Markdown.Settings.MarkdownBodyPartSettingsÕ
+ 
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.cs5. 5(83
+%16,OrchardCore.Markdown.Models.MarkdownBodyPart"5GraphQL.Types.ResolveFieldContext<TSource>.Source.get*3
+1
+ctx*GraphQL.Types.ResolveFieldContext<TSource>≠
+™
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.cs5. 5(A
+%17string"9OrchardCore.Markdown.Models.MarkdownBodyPart.Markdown.get*5
+3
+%16,OrchardCore.Markdown.Models.MarkdownBodyPart‡›
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.cs5 5(B
+%18string"=OrchardCore.Markdown.Services.IMarkdownService.ToHtml(string)*C
+A
+markdownService.OrchardCore.Markdown.Services.IMarkdownService*
+
+%17string2ToHtml(string)”
+–
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.cs5 5(B
+htmlstring"__id*
+
+%18string»
+≈
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.cs8 8(&
+%19bool"GOrchardCore.Markdown.Settings.MarkdownBodyPartSettings.SanitizeHtml.get*D
+B
+settings6OrchardCore.Markdown.Settings.MarkdownBodyPartSettings*
+3
+4*√4
+3¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.cs: E(MÕ
+ 
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.cs:, :(`0
+%20)OrchardCore.Liquid.ILiquidTemplateManager"pMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService<T>(System.IServiceProvider)*M"K
+IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*,
+*
+serviceProviderSystem.IServiceProvider™
+ß
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.cs: :(`B
+liquidTemplateManager)OrchardCore.Liquid.ILiquidTemplateManager"__id*2
+0
+%20)OrchardCore.Liquid.ILiquidTemplateManager…
+∆
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.cs;" ;(K,
+%21%System.Text.Encodings.Web.HtmlEncoder"pMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService<T>(System.IServiceProvider)*M"K
+IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*,
+*
+serviceProviderSystem.IServiceProviderò
+ï
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.cs; ;(K4
+htmlEncoder%System.Text.Encodings.Web.HtmlEncoder"__id*.
+,
+%21%System.Text.Encodings.Web.HtmlEncoder©¶
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.cs< B(@
+%229OrchardCore.Markdown.ViewModels.MarkdownBodyPartViewModel"9OrchardCore.Markdown.ViewModels.MarkdownBodyPartViewModel‘
+—
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.cs<  <(9
+%23void"UOrchardCore.Markdown.ViewModels.MarkdownBodyPartViewModel.MarkdownBodyPartViewModel()*B
+@
+%229OrchardCore.Markdown.ViewModels.MarkdownBodyPartViewModelÕ
+ 
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.cs> >()3
+%24,OrchardCore.Markdown.Models.MarkdownBodyPart"5GraphQL.Types.ResolveFieldContext<TSource>.Source.get*3
+1
+ctx*GraphQL.Types.ResolveFieldContext<TSource>≠
+™
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.cs> >(2
+%25string"9OrchardCore.Markdown.Models.MarkdownBodyPart.Markdown.get*5
+3
+%24,OrchardCore.Markdown.Models.MarkdownBodyPartÿ
+’
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.cs> >(2
+%26string"FOrchardCore.Markdown.ViewModels.MarkdownBodyPartViewModel.Markdown.set*B
+@
+%229OrchardCore.Markdown.ViewModels.MarkdownBodyPartViewModel*
+
+%25string’
+“
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.cs? ?(
+%27string"BOrchardCore.Markdown.ViewModels.MarkdownBodyPartViewModel.Html.set*B
+@
+%229OrchardCore.Markdown.ViewModels.MarkdownBodyPartViewModel*
+
+htmlstringÕ
+ 
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.cs@' @(13
+%28,OrchardCore.Markdown.Models.MarkdownBodyPart"5GraphQL.Types.ResolveFieldContext<TSource>.Source.get*3
+1
+ctx*GraphQL.Types.ResolveFieldContext<TSource>¨
+©
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.cs@ @(13
+%29,OrchardCore.Markdown.Models.MarkdownBodyPart"NOrchardCore.Markdown.ViewModels.MarkdownBodyPartViewModel.MarkdownBodyPart.set*B
+@
+%229OrchardCore.Markdown.ViewModels.MarkdownBodyPartViewModel*5
+3
+%28,OrchardCore.Markdown.Models.MarkdownBodyPartÕ
+ 
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.csA" A(,3
+%30,OrchardCore.Markdown.Models.MarkdownBodyPart"5GraphQL.Types.ResolveFieldContext<TSource>.Source.get*3
+1
+ctx*GraphQL.Types.ResolveFieldContext<TSource>”
+–
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.csA" A(80
+%31)OrchardCore.ContentManagement.ContentItem"<OrchardCore.ContentManagement.ContentElement.ContentItem.get*5
+3
+%30,OrchardCore.Markdown.Models.MarkdownBodyPart°
+û
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.csA A(80
+%32)OrchardCore.ContentManagement.ContentItem"IOrchardCore.Markdown.ViewModels.MarkdownBodyPartViewModel.ContentItem.set*B
+@
+%229OrchardCore.Markdown.ViewModels.MarkdownBodyPartViewModel*2
+0
+%31)OrchardCore.ContentManagement.ContentItem∫
+∑
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.cs< B(B
+model9OrchardCore.Markdown.ViewModels.MarkdownBodyPartViewModel"__id*B
+@
+%229OrchardCore.Markdown.ViewModels.MarkdownBodyPartViewModel¢ü
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.csD E(N+
+%33$System.Threading.Tasks.Task<TResult>"àOrchardCore.Liquid.ILiquidTemplateManager.RenderAsync(string, System.Text.Encodings.Web.TextEncoder, object, System.Action<Fluid.Scope>)*D
+B
+liquidTemplateManager)OrchardCore.Liquid.ILiquidTemplateManager*
+
+htmlstring*6
+4
+htmlEncoder%System.Text.Encodings.Web.HtmlEncoder*D
+B
+model9OrchardCore.Markdown.ViewModels.MarkdownBodyPartViewModel*
+""2^RenderAsync(string, System.Text.Encodings.Web.TextEncoder, object, System.Action<Fluid.Scope>) 
+«
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.csD E(N
+htmlstring"__id*
+""*
+4*¬
+4¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.csH O(%€ÿ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.csI M(
+%34Shortcodes.Context"Shortcodes.ContextÙ
+Ò
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.csI I(
+%35void"Shortcodes.Context.Context()*
+
+%34Shortcodes.ContextÕ
+ 
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.csK& K(03
+%36,OrchardCore.Markdown.Models.MarkdownBodyPart"5GraphQL.Types.ResolveFieldContext<TSource>.Source.get*3
+1
+ctx*GraphQL.Types.ResolveFieldContext<TSource>”
+–
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.csK& K(<0
+%37)OrchardCore.ContentManagement.ContentItem"<OrchardCore.ContentManagement.ContentElement.ContentItem.get*5
+3
+%36,OrchardCore.Markdown.Models.MarkdownBodyPart±
+Æ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.csK K(<
+%38object"#Shortcodes.Context.this[string].set*
+
+%34Shortcodes.Context*2
+0
+%37)OrchardCore.ContentManagement.ContentItemÂ
+‚
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.csL L(G
+%39object"#Shortcodes.Context.this[string].set*
+
+%34Shortcodes.Context*f
+d
+contentTypePartDefinitionGOrchardCore.ContentManagement.Metadata.Models.ContentTypePartDefinition‹Ÿ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.csH M(0
+%40)System.Threading.Tasks.ValueTask<TResult>"ZOrchardCore.Shortcodes.Services.IShortcodeService.ProcessAsync(string, Shortcodes.Context)*G
+E
+shortcodeService1OrchardCore.Shortcodes.Services.IShortcodeService*
+
+htmlstring*
+
+%34Shortcodes.Context2(ProcessAsync(string, Shortcodes.Context) 
+«
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.csH M(
+htmlstring"__id*
+""»
+≈
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.csO O(%
+%41bool"GOrchardCore.Markdown.Settings.MarkdownBodyPartSettings.SanitizeHtml.get*D
+B
+settings6OrchardCore.Markdown.Settings.MarkdownBodyPartSettings*
+5
+6*™
+5¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.csQ R(9·
+ﬁ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.csQ+ Q(f<
+%425OrchardCore.Infrastructure.Html.IHtmlSanitizerService"xMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<T>(System.IServiceProvider)*M"K
+IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*,
+*
+serviceProviderSystem.IServiceProvider¡
+æ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.csQ Q(fM
+htmlSanitizerService5OrchardCore.Infrastructure.Html.IHtmlSanitizerService"__id*>
+<
+%425OrchardCore.Infrastructure.Html.IHtmlSanitizerService¯ı
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.csR R(:
+%43string"FOrchardCore.Infrastructure.Html.IHtmlSanitizerService.Sanitize(string)*O
+M
+htmlSanitizerService5OrchardCore.Infrastructure.Html.IHtmlSanitizerService*
+
+htmlstring2Sanitize(string)”
+–
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.csR R(:
+htmlstring"__id*
+
+%43string*
+6*Í
+6¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.csU U("ª
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.csU U(
+
+htmlstring*Ì
+7¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.csV	 V(	"æ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Markdown\GraphQL\MarkdownBodyQueryObjectType.csV V(	
+implicit return:1
+ctx*GraphQL.Types.ResolveFieldContext<TSource>B<":
+8OrchardCore.Markdown.GraphQL.MarkdownBodyQueryObjectType

@@ -1,0 +1,270 @@
+
+™OrchardCore.Sitemaps.Controllers.AdminController.ListPost(OrchardCore.Sitemaps.ViewModels.ContentOptions, System.Collections.Generic.IEnumerable<string>) 
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\AdminController.csÊ( Ê(0"16*Î
+0 
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\AdminController.csÌ Ì(\ù
+ö
+ 
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\AdminController.csÌ Ì(,>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*Š*‡2
+0OrchardCore.Sitemaps.Controllers.AdminController"Q
+_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationService³
+°
+ 
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\AdminController.csÌ< Ì(@,
+%1&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBaseÆ
+Ã
+ 
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\AdminController.csÌB Ì(\1
+%2+OrchardCore.Security.Permissions.Permission"__id*e*c"
+ OrchardCore.Sitemaps.Permissions"=
+ManageSitemaps+OrchardCore.Security.Permissions.Permission¢
+Ÿ
+ 
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\AdminController.csÌ Ì(]*
+%3$System.Threading.Tasks.Task<TResult>"ßMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission)*E"C
+AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*@
+>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService*.
+,
+%1&System.Security.Claims.ClaimsPrincipal*3
+1
+%2+OrchardCore.Security.Permissions.Permission*
+1
+2*º
+1 
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\AdminController.csÎ Î(¼¹
+ 
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\AdminController.csÎ Î(+
+%4%Microsoft.AspNetCore.Mvc.ForbidResult"0Microsoft.AspNetCore.Mvc.ControllerBase.Forbid()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2Forbid()"Ò
+ 
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\AdminController.csÎ Î( -
++
+%4%Microsoft.AspNetCore.Mvc.ForbidResult*®
+2 
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\AdminController.csÑ Ñ(*
+3
+4*‹
+4 
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\AdminController.csÑ Ñ(Ý
+Ú
+ 
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\AdminController.csÑ Ñ( 	
+%5int"VSystem.Linq.Enumerable.Count<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*6
+4
+itemIds)System.Collections.Generic.IEnumerable<T>*
+3*®
+3 
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\AdminController.csÑ Ñ($*
+5
+6*‘
+5 
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\AdminController.csÓ Õ(*Û
+Ø
+ 
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\AdminController.csÓ) Ó(83
+%6-OrchardCore.Sitemaps.Services.ISitemapManager"__id*x*v2
+0OrchardCore.Sitemaps.Controllers.AdminController"@
+_sitemapManager-OrchardCore.Sitemaps.Services.ISitemapManageráÞ
+ 
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\AdminController.csÓ) Ó(L*
+%7$System.Threading.Tasks.Task<TResult>"AOrchardCore.Sitemaps.Services.ISitemapManager.LoadSitemapsAsync()*5
+3
+%6-OrchardCore.Sitemaps.Services.ISitemapManager2LoadSitemapsAsync()ï
+ì
+ 
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\AdminController.csÓ Ó(L9
+sitemapsList)System.Collections.Generic.IEnumerable<T>"__id*
+""¬
+©
+ 
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\AdminController.csÔ* Ô(`/
+%8)System.Collections.Generic.IEnumerable<T>"rSystem.Linq.Enumerable.Where<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
+System.Linq.Enumerable*;
+9
+sitemapsList)System.Collections.Generic.IEnumerable<T>*
+""¡
+ž
+ 
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\AdminController.csÔ Ô(`@
+checkedContentItems)System.Collections.Generic.IEnumerable<T>"__id*1
+/
+%8)System.Collections.Generic.IEnumerable<T>Ü
+Ù
+ 
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\AdminController.csÕ Õ(*8
+%92OrchardCore.Sitemaps.ViewModels.ContentsBulkAction"=OrchardCore.Sitemaps.ViewModels.ContentOptions.BulkAction.get*;
+9
+options.OrchardCore.Sitemaps.ViewModels.ContentOptions*
+7*®
+7 
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\AdminController.csÕ Õ(**
+8
+9*«
+8 
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\AdminController.csæ	 æ(	*
+6*°
+9 
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\AdminController.csÕ Õ(**
+10
+11*­
+10 
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\AdminController.csÚ- Ú(@*
+12*±
+12 
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\AdminController.csæ	 æ(	*
+13
+14*ª	
+13 
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\AdminController.csÜ Ü(SÜ
+Ù
+ 
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\AdminController.csÜ" Ü(14
+%10-OrchardCore.Sitemaps.Services.ISitemapManager"__id*x*v2
+0OrchardCore.Sitemaps.Controllers.AdminController"@
+_sitemapManager-OrchardCore.Sitemaps.Services.ISitemapManagerŸ
+œ
+ 
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\AdminController.csÜE Ü(S
+%11string"5OrchardCore.Sitemaps.Models.SitemapType.SitemapId.get*1
+/
+item'OrchardCore.Sitemaps.Models.SitemapTypeùö
+ 
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\AdminController.csÜ" Ü(T"
+%12System.Threading.Tasks.Task"HOrchardCore.Sitemaps.Services.ISitemapManager.DeleteSitemapAsync(string)*6
+4
+%10-OrchardCore.Sitemaps.Services.ISitemapManager*
+
+%11string2DeleteSitemapAsync(string)*
+12*ª
+14 
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\AdminController.csÞ Þ(LØ
+Õ
+ 
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\AdminController.csÞ Þ(!5
+%13.OrchardCore.DisplayManagement.Notify.INotifier"__id*s*q2
+0OrchardCore.Sitemaps.Controllers.AdminController";
+	_notifier.OrchardCore.DisplayManagement.Notify.INotifierÜ
+Ù
+ 
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\AdminController.csÞ* Þ(+;
+%144Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer"__id*q*o2
+0OrchardCore.Sitemaps.Controllers.AdminController"9
+H4Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer¤¡
+ 
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\AdminController.csÞ* Þ(M@
+%159Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString"EMicrosoft.AspNetCore.Mvc.Localization.IHtmlLocalizer.this[string].get*=
+;
+%144Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer*" 
+Sitemaps successfully removed.2this[string].getš
+—
+ 
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\AdminController.csÞ Þ(N
+%16void"ªOrchardCore.DisplayManagement.Notify.NotifierExtensions.Success(OrchardCore.DisplayManagement.Notify.INotifier, Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString)*;"9
+7OrchardCore.DisplayManagement.Notify.NotifierExtensions*7
+5
+%13.OrchardCore.DisplayManagement.Notify.INotifier*B
+@
+%159Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString*
+6*Ê
+11 
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\AdminController.csá á(?õò
+ 
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\AdminController.csá á(?)
+%17"System.ArgumentOutOfRangeException""System.ArgumentOutOfRangeException¢
+Ÿ
+ 
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\AdminController.csá" á(=
+%18void"@System.ArgumentOutOfRangeException.ArgumentOutOfRangeException()*+
+)
+%17"System.ArgumentOutOfRangeException*
+15*ú
+6 
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\AdminController.cså å(*ñî
+ 
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\AdminController.cså å(+6
+%19/Microsoft.AspNetCore.Mvc.RedirectToActionResult"@Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToAction(string)*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*
+List2RedirectToAction(string)"Ý
+ 
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\AdminController.cså å(,8
+6
+%19/Microsoft.AspNetCore.Mvc.RedirectToActionResult*â
+15 
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\AdminController.csæ	 æ(	"¸
+ 
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\AdminController.csæ æ(	
+implicit return*ú
+16 
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\AdminController.csÊp Ê(p”
+‘
+ 
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\AdminController.csÊ( Ê(0^
+9
+options.OrchardCore.Sitemaps.ViewModels.ContentOptions"!
+<Search>k__BackingFieldstring"__entrypointƒ
+€
+ 
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\AdminController.csÊ( Ê(0M
+9
+options.OrchardCore.Sitemaps.ViewModels.ContentOptions"
+Searchstring"__entrypoint½
+º
+ 
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\AdminController.csÊ( Ê(0†
+9
+options.OrchardCore.Sitemaps.ViewModels.ContentOptions"I
+#<ContentsBulkAction>k__BackingField"System.Collections.Generic.List<T>"__entrypoint«
+¨
+ 
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\AdminController.csÊ( Ê(0u
+9
+options.OrchardCore.Sitemaps.ViewModels.ContentOptions"8
+ContentsBulkAction"System.Collections.Generic.List<T>"__entrypointó
+ð
+ 
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\AdminController.csÊ( Ê(0
+%20"__entrypoint*6
+4
+itemIds)System.Collections.Generic.IEnumerable<T>µ
+²
+ 
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\AdminController.csÈ	 È(
+%21"
+__annotate*B@
+>Microsoft.AspNetCore.Mvc.HttpPostAttribute.HttpPostAttribute()*6
+4
+itemIds)System.Collections.Generic.IEnumerable<T>¿
+¼
+ 
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\AdminController.csÈ È(%
+%22"
+__annotate*LJ
+HMicrosoft.AspNetCore.Mvc.ActionNameAttribute.ActionNameAttribute(string)*6
+4
+itemIds)System.Collections.Generic.IEnumerable<T>È
+Å
+ 
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\AdminController.csÉ	 É(/
+%23"
+__annotate*US
+QOrchardCore.Routing.FormValueRequiredAttribute.FormValueRequiredAttribute(string)*6
+4
+itemIds)System.Collections.Generic.IEnumerable<T>…
+‚
+ 
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\AdminController.csÊT Ê(o4
+itemIds)System.Collections.Generic.IEnumerable<T>"__annotation*
+
+%21*
+
+%22*
+
+%23*
+0:9
+options.OrchardCore.Sitemaps.ViewModels.ContentOptions:4
+itemIds)System.Collections.Generic.IEnumerable<T>B42
+0OrchardCore.Sitemaps.Controllers.AdminController

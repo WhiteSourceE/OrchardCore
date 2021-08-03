@@ -1,0 +1,67 @@
+
+nOrchardCore.ContentManagement.GraphQL.Queries.ContentItemQuery.ResolveAsync(GraphQL.Types.ResolveFieldContext)¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\ContentItemQuery.cs2" 2(."0*¼
+0¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\ContentItemQuery.cs4 6(8Ñ
+Î
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\ContentItemQuery.cs4  4(L
+%0string"LGraphQL.Types.ResolveFieldContext<TSource>.GetArgument<TType>(string, TType)*.
+,
+context!GraphQL.Types.ResolveFieldContext*
+contentItemId*
+""Ù
+Ö
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\ContentItemQuery.cs4 4(L
+contentItemIdstring"__id*
+
+%0stringö
+ó
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\ContentItemQuery.cs5! 5(54
+%1.Microsoft.AspNetCore.Http.IHttpContextAccessor"__id**Š@
+>OrchardCore.ContentManagement.GraphQL.Queries.ContentItemQuery"F
+_httpContextAccessor.Microsoft.AspNetCore.Http.IHttpContextAccessoràÝ
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\ContentItemQuery.cs5! 5(A+
+%2%Microsoft.AspNetCore.Http.HttpContext">Microsoft.AspNetCore.Http.IHttpContextAccessor.HttpContext.get*6
+4
+%1.Microsoft.AspNetCore.Http.IHttpContextAccessor2HttpContext.get³
+°
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\ContentItemQuery.cs5! 5(Q
+%3System.IServiceProvider"9Microsoft.AspNetCore.Http.HttpContext.RequestServices.get*-
++
+%2%Microsoft.AspNetCore.Http.HttpContextÁ
+¾
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\ContentItemQuery.cs5! 5(o3
+%4-OrchardCore.ContentManagement.IContentManager"pMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService<T>(System.IServiceProvider)*M"K
+IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*
+
+%3System.IServiceProvider¨
+¥
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\ContentItemQuery.cs5 5(o?
+contentManager-OrchardCore.ContentManagement.IContentManager"__id*5
+3
+%4-OrchardCore.ContentManagement.IContentManager†ƒ
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\ContentItemQuery.cs6 6(9*
+%5$System.Threading.Tasks.Task<TResult>">OrchardCore.ContentManagement.IContentManager.GetAsync(string)*A
+?
+contentManager-OrchardCore.ContentManagement.IContentManager*
+
+contentItemIdstring2GetAsync(string)"Õ
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\ContentItemQuery.cs6 6(:,
+*
+%5$System.Threading.Tasks.Task<TResult>*é
+1¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\ContentItemQuery.cs7	 7(	"¼
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\ContentItemQuery.cs7 7(	
+implicit return:,
+context!GraphQL.Types.ResolveFieldContextBB@
+>OrchardCore.ContentManagement.GraphQL.Queries.ContentItemQuery

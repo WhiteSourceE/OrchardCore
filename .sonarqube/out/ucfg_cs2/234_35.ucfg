@@ -1,0 +1,156 @@
+
+IOrchardCore.Apis.GraphQL.Client.ContentResource.NamedQueryExecute(string)•
+ŠD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\ContentResource.cs5# 5(4"0*÷
+0•
+ŠD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\ContentResource.cs7 =(-áÞ
+•
+ŠD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\ContentResource.cs8 8(1$
+%0Newtonsoft.Json.Linq.JProperty"Newtonsoft.Json.Linq.JProperty¬
+©
+•
+ŠD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\ContentResource.cs8 8(
+
+%1void"9Newtonsoft.Json.Linq.JProperty.JProperty(string, object?)*&
+$
+%0Newtonsoft.Json.Linq.JProperty*
+
+namedquery*
+
+namestringÝÚ
+•
+ŠD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\ContentResource.cs7 9("
+%2Newtonsoft.Json.Linq.JObject"Newtonsoft.Json.Linq.JObject‚
+ÿ
+•
+ŠD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\ContentResource.cs7" 7()
+
+%3void"__mapSetAll*$
+"
+%2Newtonsoft.Json.Linq.JObject*&
+$
+%0Newtonsoft.Json.Linq.JPropertyô
+ñ
+•
+ŠD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\ContentResource.cs7 9(+
+requestJsonNewtonsoft.Json.Linq.JObject"__id*$
+"
+%2Newtonsoft.Json.Linq.JObject¡
+ž
+•
+ŠD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\ContentResource.cs;! ;(( 
+%4System.Net.Http.HttpClient"__id*\*Z1
+/OrchardCore.Apis.GraphQL.Client.ContentResource"%
+_clientSystem.Net.Http.HttpClientŒ‰
+•
+ŠD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\ContentResource.cs;F ;(\
+%5string"&Newtonsoft.Json.Linq.JToken.ToString()*-
++
+requestJsonNewtonsoft.Json.Linq.JObject2
+ToString()¸
+µ
+•
+ŠD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\ContentResource.cs;! ;(]*
+%6$System.Threading.Tasks.Task<TResult>"oOrchardCore.Apis.GraphQL.Client.HttpRequestExtensions.PostJsonAsync(System.Net.Http.HttpClient, string, string)*9"7
+5OrchardCore.Apis.GraphQL.Client.HttpRequestExtensions*"
+ 
+%4System.Net.Http.HttpClient*
+api/graphql*
+
+%5stringÚ
+×
+•
+ŠD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\ContentResource.cs; ;(]/
+response#System.Net.Http.HttpResponseMessage"__id*
+""—
+”
+•
+ŠD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\ContentResource.cs= =(-
+
+%7bool";System.Net.Http.HttpResponseMessage.IsSuccessStatusCode.get*1
+/
+response#System.Net.Http.HttpResponseMessage*
+1
+2*ä
+1•
+ŠD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\ContentResource.cs? ?(u£
+ 
+•
+ŠD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\ContentResource.cs?$ ?(7
+%8System.Net.HttpStatusCode"2System.Net.Http.HttpResponseMessage.StatusCode.get*1
+/
+response#System.Net.Http.HttpResponseMessageðí
+•
+ŠD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\ContentResource.cs?$ ?(B
+%9string"System.Enum.ToString()*!
+
+%8System.Net.HttpStatusCode2
+ToString()Ë
+È
+•
+ŠD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\ContentResource.cs?$ ?(H
+%10string"__concat*
+
+%9string*
+ £
+ 
+•
+ŠD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\ContentResource.cs?Q ?(a"
+%11System.Net.Http.HttpContent"/System.Net.Http.HttpResponseMessage.Content.get*1
+/
+response#System.Net.Http.HttpResponseMessageŸ
+œ
+•
+ŠD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\ContentResource.cs?Q ?(u+
+%12$System.Threading.Tasks.Task<TResult>"/System.Net.Http.HttpContent.ReadAsStringAsync()*$
+"
+%11System.Net.Http.HttpContentÍ
+Ê
+•
+ŠD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\ContentResource.cs?$ ?(u
+%13string"__concat*
+
+%10string*
+""ÆÃ
+•
+ŠD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\ContentResource.cs? ?(v
+%14System.Exception"System.Exceptionù
+ö
+•
+ŠD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\ContentResource.cs? ?(#
+%15void"#System.Exception.Exception(string?)*
+
+%14System.Exception*
+
+%13string*
+3*¾	
+2•
+ŠD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\ContentResource.csB B(K£
+ 
+•
+ŠD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\ContentResource.csB' B(7"
+%16System.Net.Http.HttpContent"/System.Net.Http.HttpResponseMessage.Content.get*1
+/
+response#System.Net.Http.HttpResponseMessageŸ
+œ
+•
+ŠD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\ContentResource.csB' B(K+
+%17$System.Threading.Tasks.Task<TResult>"/System.Net.Http.HttpContent.ReadAsStringAsync()*$
+"
+%16System.Net.Http.HttpContent–
+“
+•
+ŠD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\ContentResource.csB B(L#
+%18Newtonsoft.Json.Linq.JObject"*Newtonsoft.Json.Linq.JObject.Parse(string)* "
+Newtonsoft.Json.Linq.JObject*
+"""¿
+•
+ŠD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\ContentResource.csB B(M%
+#
+%18Newtonsoft.Json.Linq.JObject*Ë
+3•
+ŠD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\ContentResource.csC	 C(	"­
+•
+ŠD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\ContentResource.csC C(	
+implicit return:
+namestringB31
+/OrchardCore.Apis.GraphQL.Client.ContentResource

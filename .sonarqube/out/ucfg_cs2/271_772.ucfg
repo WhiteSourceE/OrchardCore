@@ -1,0 +1,91 @@
+
+OrchardCore.Workflows.Http.Handlers.WorkflowRoutesHandler.UpdateRouteEntriesAsync(OrchardCore.Workflows.Models.WorkflowContext)Ø
+§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Handlers\WorkflowInstanceRoutesHandler.cs( ((2"0*«&
+0Ø
+§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Handlers\WorkflowInstanceRoutesHandler.cs* .(?ÿ
+’
+Ø
+§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Handlers\WorkflowInstanceRoutesHandler.cs* *(++
+%0%OrchardCore.Workflows.Models.Workflow"9OrchardCore.Workflows.Models.WorkflowContext.Workflow.get*9
+7
+context,OrchardCore.Workflows.Models.WorkflowContextù
+ö
+Ø
+§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Handlers\WorkflowInstanceRoutesHandler.cs* *(+1
+workflow%OrchardCore.Workflows.Models.Workflow"__id*-
++
+%0%OrchardCore.Workflows.Models.WorkflowÄ
+˝
+Ø
+§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Handlers\WorkflowInstanceRoutesHandler.cs+% +(77
+%11OrchardCore.Workflows.Services.IWorkflowTypeStore"__id*â*Ü;
+9OrchardCore.Workflows.Http.Handlers.WorkflowRoutesHandler"G
+_workflowTypeStore1OrchardCore.Workflows.Services.IWorkflowTypeStore≤
+Ø
+Ø
+§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Handlers\WorkflowInstanceRoutesHandler.cs+A +(X
+%2string"8OrchardCore.Workflows.Models.Workflow.WorkflowTypeId.get*3
+1
+workflow%OrchardCore.Workflows.Models.WorkflowÇˇ
+Ø
+§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Handlers\WorkflowInstanceRoutesHandler.cs+% +(Y*
+%3$System.Threading.Tasks.Task<TResult>"BOrchardCore.Workflows.Services.IWorkflowTypeStore.GetAsync(string)*9
+7
+%11OrchardCore.Workflows.Services.IWorkflowTypeStore*
+
+%2string2GetAsync(string)˛
+˚
+Ø
+§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Handlers\WorkflowInstanceRoutesHandler.cs+ +(Y9
+workflowType)OrchardCore.Workflows.Models.WorkflowType"__id*
+""ÿ
+’
+Ø
+§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Handlers\WorkflowInstanceRoutesHandler.cs,^ ,(n+
+%4%OrchardCore.Workflows.Models.Workflow"9OrchardCore.Workflows.Models.WorkflowContext.Workflow.get*9
+7
+context,OrchardCore.Workflows.Models.WorkflowContext˚
+¯
+∞
+§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Handlers\WorkflowInstanceRoutesHandler.cs,p ,(Ä5
+%5/OrchardCore.Workflows.Services.IActivityLibrary"__id*Ö*Ç;
+9OrchardCore.Workflows.Http.Handlers.WorkflowRoutesHandler"C
+_activityLibrary/OrchardCore.Workflows.Services.IActivityLibrary±
+Æ
+∞
+§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Handlers\WorkflowInstanceRoutesHandler.cs, ,(Å/
+%6)System.Collections.Generic.IEnumerable<T>"‹OrchardCore.Workflows.Http.Services.WorkflowInstanceRouteEntries.GetWorkflowRoutesEntries(OrchardCore.Workflows.Models.WorkflowType, OrchardCore.Workflows.Models.Workflow, OrchardCore.Workflows.Services.IActivityLibrary)*D"B
+@OrchardCore.Workflows.Http.Services.WorkflowInstanceRouteEntries*;
+9
+workflowType)OrchardCore.Workflows.Models.WorkflowType*-
++
+%4%OrchardCore.Workflows.Models.Workflow*7
+5
+%5/OrchardCore.Workflows.Services.IActivityLibrary•
+¢
+∞
+§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Handlers\WorkflowInstanceRoutesHandler.cs, ,(Å4
+entries)System.Collections.Generic.IEnumerable<T>"__id*1
+/
+%6)System.Collections.Generic.IEnumerable<T>£
+†
+Ø
+§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Handlers\WorkflowInstanceRoutesHandler.cs. .('G
+%7AOrchardCore.Workflows.Http.Services.IWorkflowInstanceRouteEntries"__id*ú*ô;
+9OrchardCore.Workflows.Http.Handlers.WorkflowRoutesHandler"Z
+_workflowRouteEntriesAOrchardCore.Workflows.Http.Services.IWorkflowInstanceRouteEntriesˆÛ
+Ø
+§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Handlers\WorkflowInstanceRoutesHandler.cs. .(@!
+%8System.Threading.Tasks.Task"®OrchardCore.Workflows.Http.Services.IWorkflowRouteEntries.AddEntriesAsync(System.Collections.Generic.IEnumerable<OrchardCore.Workflows.Http.Models.WorkflowRoutesEntry>)*I
+G
+%7AOrchardCore.Workflows.Http.Services.IWorkflowInstanceRouteEntries*6
+4
+entries)System.Collections.Generic.IEnumerable<T>2nAddEntriesAsync(System.Collections.Generic.IEnumerable<OrchardCore.Workflows.Http.Models.WorkflowRoutesEntry>)*
+1*ˇ
+1Ø
+§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Handlers\WorkflowInstanceRoutesHandler.cs/	 /(	"«
+Ø
+§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Handlers\WorkflowInstanceRoutesHandler.cs/ /(	
+implicit return:7
+context,OrchardCore.Workflows.Models.WorkflowContextB=;
+9OrchardCore.Workflows.Http.Handlers.WorkflowRoutesHandler

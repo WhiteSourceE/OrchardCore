@@ -1,0 +1,67 @@
+
+VOrchardCore.Workflows.Services.SecurityTokenService.CreateToken<T>(T, System.TimeSpan)¡
+–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\SecurityTokenService.cs (!"0*Û
+0¡
+–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\SecurityTokenService.cs (Jœ
+™
+¡
+–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\SecurityTokenService.cs (;
+%0string"4Newtonsoft.Json.JsonConvert.SerializeObject(object?)*"
+Newtonsoft.Json.JsonConvert*
+
+payloadTÍ
+Ê
+¡
+–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\SecurityTokenService.cs (;
+jsonstring"__id*
+
+%0string€
+ý
+¡
+–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\SecurityTokenService.cs (!C
+%1=Microsoft.AspNetCore.DataProtection.ITimeLimitedDataProtector"__id*‹*ˆ5
+3OrchardCore.Workflows.Services.SecurityTokenService"O
+_dataProtector=Microsoft.AspNetCore.DataProtection.ITimeLimitedDataProtector°
+­
+¡
+–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\SecurityTokenService.cs0 (6 
+%2OrchardCore.Modules.IClock"__id*_*]5
+3OrchardCore.Workflows.Services.SecurityTokenService"$
+_clockOrchardCore.Modules.IClock•’
+¡
+–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\SecurityTokenService.cs0 (=
+%3System.DateTime"%OrchardCore.Modules.IClock.UtcNow.get*"
+ 
+%2OrchardCore.Modules.IClock2
+UtcNow.getœ
+™
+¡
+–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\SecurityTokenService.cs0 (K
+%4System.DateTime"$System.DateTime.Add(System.TimeSpan)*
+
+%3System.DateTime*
+
+lifetimeSystem.TimeSpanž
+›
+¡
+–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\SecurityTokenService.cs (L
+%5string"ªMicrosoft.AspNetCore.DataProtection.DataProtectionAdvancedExtensions.Protect(Microsoft.AspNetCore.DataProtection.ITimeLimitedDataProtector, string, System.DateTimeOffset)*H"F
+DMicrosoft.AspNetCore.DataProtection.DataProtectionAdvancedExtensions*E
+C
+%1=Microsoft.AspNetCore.DataProtection.ITimeLimitedDataProtector*
+
+jsonstring*
+
+%4System.DateTime"´
+¡
+–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\SecurityTokenService.cs (M
+
+%5string*ã
+1¡
+–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\SecurityTokenService.cs	 (	"¹
+¡
+–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\SecurityTokenService.cs (	
+implicit return:
+payloadT:
+lifetimeSystem.TimeSpanB75
+3OrchardCore.Workflows.Services.SecurityTokenService

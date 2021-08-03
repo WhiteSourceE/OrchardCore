@@ -1,0 +1,359 @@
+
+gOrchardCore.Users.Services.UserService.AuthenticateAsync(string, string, System.Action<string, string>)ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs"! "(2"0*ã
+0ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs$ $(2È
+Ê
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs$ $(3
+
+%0bool""string.IsNullOrWhiteSpace(string?)*
+"
+string*
+
+userNamestring*
+1
+2*´
+
+1ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs& '(æ
+ª
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs&( &()8
+%12Microsoft.Extensions.Localization.IStringLocalizer"__id*e*c(
+&OrchardCore.Users.Services.UserService"7
+S2Microsoft.Extensions.Localization.IStringLocalizerÅ˛
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs&( &(E7
+%21Microsoft.Extensions.Localization.LocalizedString"CMicrosoft.Extensions.Localization.IStringLocalizer.this[string].get*:
+8
+%12Microsoft.Extensions.Localization.IStringLocalizer*
+A user name is required.2this[string].get≠
+™
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs& &(F
+
+%3void"$System.Action<T1, T2>.Invoke(T1, T2)*
+System.Action<T1, T2>*
+
+UserName*9
+7
+%21Microsoft.Extensions.Localization.LocalizedString"ú
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs' '(
+""*ã
+2ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs* *(2È
+Ê
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs* *(3
+
+%4bool""string.IsNullOrWhiteSpace(string?)*
+"
+string*
+
+passwordstring*
+3
+4*™
+
+3ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs, -(æ
+ª
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs,( ,()8
+%52Microsoft.Extensions.Localization.IStringLocalizer"__id*e*c(
+&OrchardCore.Users.Services.UserService"7
+S2Microsoft.Extensions.Localization.IStringLocalizerÄ˝
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs,( ,(D7
+%61Microsoft.Extensions.Localization.LocalizedString"CMicrosoft.Extensions.Localization.IStringLocalizer.this[string].get*:
+8
+%52Microsoft.Extensions.Localization.IStringLocalizer*
+A password is required.2this[string].get≠
+™
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs, ,(E
+
+%7void"$System.Action<T1, T2>.Invoke(T1, T2)*
+System.Action<T1, T2>*
+
+Password*9
+7
+%61Microsoft.Extensions.Localization.LocalizedString"ú
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs- -(
+""*´
+
+4ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs0 1(≈
+¬
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs0 0()6
+%80Microsoft.AspNetCore.Identity.UserManager<TUser>"__id*n*l(
+&OrchardCore.Users.Services.UserService"@
+_userManager0Microsoft.AspNetCore.Identity.UserManager<TUser>ˆÛ
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs0 0(C*
+%9$System.Threading.Tasks.Task<TResult>"HMicrosoft.AspNetCore.Identity.UserManager<TUser>.FindByNameAsync(string)*8
+6
+%80Microsoft.AspNetCore.Identity.UserManager<TUser>*
+
+userNamestring2FindByNameAsync(string)∆
+√
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs0 0(C
+userOrchardCore.Users.IUser"__id*
+""ˇ
+¸
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs1 1(
+%10bool""object.operator ==(object, object)*
+"
+object*!
+
+userOrchardCore.Users.IUser*
+""*
+5
+6*õ
+5ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs3 4(À
+»
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs3 3((
+%11string"__id**
+string"
+Emptystringø
+º
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs3* 3(+9
+%122Microsoft.Extensions.Localization.IStringLocalizer"__id*e*c(
+&OrchardCore.Users.Services.UserService"7
+S2Microsoft.Extensions.Localization.IStringLocalizerùö
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs3* 3(a8
+%131Microsoft.Extensions.Localization.LocalizedString"CMicrosoft.Extensions.Localization.IStringLocalizer.this[string].get*;
+9
+%122Microsoft.Extensions.Localization.IStringLocalizer*64
+2The specified username/password couple is invalid.2this[string].get≤
+Ø
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs3 3(b
+%14void"$System.Action<T1, T2>.Invoke(T1, T2)*
+System.Action<T1, T2>*
+
+%11string*:
+8
+%131Microsoft.Extensions.Localization.LocalizedString"ú
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs4 4(
+""*æ
+6ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs7 8(#Ã
+…
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs7 7(-9
+%152Microsoft.AspNetCore.Identity.SignInManager<TUser>"__id*r*p(
+&OrchardCore.Users.Services.UserService"D
+_signInManager2Microsoft.AspNetCore.Identity.SignInManager<TUser>”–
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs7 7(n+
+%16$System.Threading.Tasks.Task<TResult>"`Microsoft.AspNetCore.Identity.SignInManager<TUser>.CheckPasswordSignInAsync(TUser, string, bool)*;
+9
+%152Microsoft.AspNetCore.Identity.SignInManager<TUser>*!
+
+userOrchardCore.Users.IUser*
+
+passwordstring*
+""2-CheckPasswordSignInAsync(TUser, string, bool)€
+ÿ
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs7 7(n4
+result*Microsoft.AspNetCore.Identity.SignInResult"__id*
+""ô
+ñ
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs8 8(#
+%17bool";Microsoft.AspNetCore.Identity.SignInResult.IsNotAllowed.get*6
+4
+result*Microsoft.AspNetCore.Identity.SignInResult*
+7
+8*ñ
+7ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs: ;(À
+»
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs: :((
+%18string"__id**
+string"
+Emptystringø
+º
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs:* :(+9
+%192Microsoft.Extensions.Localization.IStringLocalizer"__id*e*c(
+&OrchardCore.Users.Services.UserService"7
+S2Microsoft.Extensions.Localization.IStringLocalizeròï
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs:* :(\8
+%201Microsoft.Extensions.Localization.LocalizedString"CMicrosoft.Extensions.Localization.IStringLocalizer.this[string].get*;
+9
+%192Microsoft.Extensions.Localization.IStringLocalizer*1/
+-The specified user is not allowed to sign in.2this[string].get≤
+Ø
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs: :(]
+%21void"$System.Action<T1, T2>.Invoke(T1, T2)*
+System.Action<T1, T2>*
+
+%18string*:
+8
+%201Microsoft.Extensions.Localization.LocalizedString"ú
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs; ;(
+""*¡
+8ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs= =(-û
+õ
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs= =(-
+%22bool"@Microsoft.AspNetCore.Identity.SignInResult.RequiresTwoFactor.get*6
+4
+result*Microsoft.AspNetCore.Identity.SignInResult*
+9
+10*¥
+9ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs? @(À
+»
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs? ?((
+%23string"__id**
+string"
+Emptystringø
+º
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs?* ?(+9
+%242Microsoft.Extensions.Localization.IStringLocalizer"__id*e*c(
+&OrchardCore.Users.Services.UserService"7
+S2Microsoft.Extensions.Localization.IStringLocalizer∂≥
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs?* ?(z8
+%251Microsoft.Extensions.Localization.LocalizedString"CMicrosoft.Extensions.Localization.IStringLocalizer.this[string].get*;
+9
+%242Microsoft.Extensions.Localization.IStringLocalizer*OM
+KThe specified user is not allowed to sign in using password authentication.2this[string].get≤
+Ø
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs? ?({
+%26void"$System.Action<T1, T2>.Invoke(T1, T2)*
+System.Action<T1, T2>*
+
+%23string*:
+8
+%251Microsoft.Extensions.Localization.LocalizedString"ú
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs@ @(
+""*ª
+10ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csB B(&ñ
+ì
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csB B(&
+%27bool"8Microsoft.AspNetCore.Identity.SignInResult.Succeeded.get*6
+4
+result*Microsoft.AspNetCore.Identity.SignInResult*
+11
+12*ú
+11ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csD E(À
+»
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csD D((
+%28string"__id**
+string"
+Emptystringø
+º
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csD* D(+9
+%292Microsoft.Extensions.Localization.IStringLocalizer"__id*e*c(
+&OrchardCore.Users.Services.UserService"7
+S2Microsoft.Extensions.Localization.IStringLocalizerùö
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csD* D(a8
+%301Microsoft.Extensions.Localization.LocalizedString"CMicrosoft.Extensions.Localization.IStringLocalizer.this[string].get*;
+9
+%292Microsoft.Extensions.Localization.IStringLocalizer*64
+2The specified username/password couple is invalid.2this[string].get≤
+Ø
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csD D(b
+%31void"$System.Action<T1, T2>.Invoke(T1, T2)*
+System.Action<T1, T2>*
+
+%28string*:
+8
+%301Microsoft.Extensions.Localization.LocalizedString"ú
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csE E(
+""*˚
+12ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csH H(‡
+›
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csH H(
+%32OrchardCore.Users.IUser"__id*!
+
+userOrchardCore.Users.IUserÛ
+
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csH H()
+%33bool"+OrchardCore.Users.Models.User.IsEnabled.get* 
+
+%32OrchardCore.Users.IUser*
+13
+14*ó
+13ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csJ L(À
+»
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csJ J((
+%34string"__id**
+string"
+Emptystringø
+º
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csJ* J(+9
+%352Microsoft.Extensions.Localization.IStringLocalizer"__id*e*c(
+&OrchardCore.Users.Services.UserService"7
+S2Microsoft.Extensions.Localization.IStringLocalizeròï
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csJ* J(\8
+%361Microsoft.Extensions.Localization.LocalizedString"CMicrosoft.Extensions.Localization.IStringLocalizer.this[string].get*;
+9
+%352Microsoft.Extensions.Localization.IStringLocalizer*1/
+-The specified user is not allowed to sign in.2this[string].get≤
+Ø
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csJ J(]
+%37void"$System.Action<T1, T2>.Invoke(T1, T2)*
+System.Action<T1, T2>*
+
+%34string*:
+8
+%361Microsoft.Extensions.Localization.LocalizedString"ú
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csL L(
+""*“
+14ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csO O("∑
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csO O(!
+
+userOrchardCore.Users.IUser*ƒ
+15ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csP	 P(	"©
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csP P(	
+implicit return:
+userNamestring:
+passwordstring:$
+reportErrorSystem.Action<T1, T2>B*(
+&OrchardCore.Users.Services.UserService

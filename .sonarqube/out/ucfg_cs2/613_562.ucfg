@@ -1,0 +1,133 @@
+
+HOrchardCore.OpenId.Controllers.ValidationConfigurationController.Index()Æ
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ValidationConfigurationController.cs2) 2(."4*¨
+0Æ
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ValidationConfigurationController.cs4 4(fó
+î
+Æ
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ValidationConfigurationController.cs4 4(,>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*ö*óB
+@OrchardCore.OpenId.Controllers.ValidationConfigurationController"Q
+_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationService¡
+æ
+Æ
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ValidationConfigurationController.cs4< 4(@,
+%1&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase‹
+Ÿ
+Æ
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ValidationConfigurationController.cs4B 4(f1
+%2+OrchardCore.Security.Permissions.Permission"__id*m*k 
+OrchardCore.OpenId.Permissions"G
+ManageValidationSettings+OrchardCore.Security.Permissions.Permission∞
+≠
+Æ
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ValidationConfigurationController.cs4 4(g*
+%3$System.Threading.Tasks.Task<TResult>"ﬂMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission)*E"C
+AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*@
+>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService*.
+,
+%1&System.Security.Claims.ClaimsPrincipal*3
+1
+%2+OrchardCore.Security.Permissions.Permission*
+1
+2*‰
+1Æ
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ValidationConfigurationController.cs6 6( «
+Æ
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ValidationConfigurationController.cs6 6(+
+%4%Microsoft.AspNetCore.Mvc.ForbidResult"0Microsoft.AspNetCore.Mvc.ControllerBase.Forbid()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2Forbid()"‡
+Æ
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ValidationConfigurationController.cs6 6( -
++
+%4%Microsoft.AspNetCore.Mvc.ForbidResult*à 
+2Æ
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ValidationConfigurationController.cs9 <(å
+â
+Æ
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ValidationConfigurationController.cs9! 9(3:
+%54OrchardCore.OpenId.Services.IOpenIdValidationService"__id*ì*êB
+@OrchardCore.OpenId.Controllers.ValidationConfigurationController"J
+_validationService4OrchardCore.OpenId.Services.IOpenIdValidationService˚¯
+Æ
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ValidationConfigurationController.cs9! 9(F*
+%6$System.Threading.Tasks.Task<TResult>"GOrchardCore.OpenId.Services.IOpenIdValidationService.GetSettingsAsync()*<
+:
+%54OrchardCore.OpenId.Services.IOpenIdValidationService2GetSettingsAsync()Ñ
+Å
+Æ
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ValidationConfigurationController.cs9 9(F@
+settings4OrchardCore.OpenId.Settings.OpenIdValidationSettings"__id*
+""ù
+ö
+Æ
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ValidationConfigurationController.cs: :(?;
+%75OrchardCore.DisplayManagement.IDisplayManager<TModel>"__id*£*†B
+@OrchardCore.OpenId.Controllers.ValidationConfigurationController"Z
+!_validationSettingsDisplayManager5OrchardCore.DisplayManagement.IDisplayManager<TModel>§
+°
+Æ
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ValidationConfigurationController.cs:d :(xE
+%8?OrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessor"__id*†*ùB
+@OrchardCore.OpenId.Controllers.ValidationConfigurationController"W
+_updateModelAccessor?OrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessor°û
+Ø
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ValidationConfigurationController.cs:d :(Ö=
+%97OrchardCore.DisplayManagement.ModelBinding.IUpdateModel"POrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessor.ModelUpdater.get*G
+E
+%8?OrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessor2ModelUpdater.getØ¨
+Ø
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ValidationConfigurationController.cs: :(î+
+%10$System.Threading.Tasks.Task<TResult>"ïOrchardCore.DisplayManagement.IDisplayManager<TModel>.BuildEditorAsync(TModel, OrchardCore.DisplayManagement.ModelBinding.IUpdateModel, bool, string)*=
+;
+%75OrchardCore.DisplayManagement.IDisplayManager<TModel>*B
+@
+settings4OrchardCore.OpenId.Settings.OpenIdValidationSettings*?
+=
+%97OrchardCore.DisplayManagement.ModelBinding.IUpdateModel*
+""*
+""2_BuildEditorAsync(TModel, OrchardCore.DisplayManagement.ModelBinding.IUpdateModel, bool, string)Ú
+Ô
+Ø
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ValidationConfigurationController.cs: :(î-
+shape$OrchardCore.DisplayManagement.IShape"__id*
+""Ë
+Â
+Æ
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ValidationConfigurationController.cs< <(
+%11void"6orchardcore.openid/views/validationconfiguration/index*
+
+%12*/
+-
+shape$OrchardCore.DisplayManagement.IShape*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject* 
+
+%HttpContextItemsAllobject*!
+
+%HttpContextItemsHtmlobject"¿
+Æ
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ValidationConfigurationController.cs< <(
+
+%11void*˝
+3Æ
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ValidationConfigurationController.cs=	 =(	"∆
+Æ
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ValidationConfigurationController.cs= =(	
+implicit return*Ö
+4Æ
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ValidationConfigurationController.cs20 2(0…
+∆
+Æ
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ValidationConfigurationController.cs2) 2(.
+%13"__entrypoint*
+0BDB
+@OrchardCore.OpenId.Controllers.ValidationConfigurationController

@@ -1,0 +1,209 @@
+
+iOrchardCore.ContentTypes.Services.ContentDefinitionService.AddFieldToPart(string, string, string, string)™
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.cs… …(""0*π
+0™
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.csÀ À(.˛
+˚
+™
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.csÀ À(/
+
+%0bool"string.IsNullOrEmpty(string?)*
+"
+string*
+
+	fieldNamestring*
+1
+2*¿
+1™
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.csÕ Õ(=ÍÁ
+™
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.csÕ Õ(>
+%1System.ArgumentException"System.ArgumentExceptionõ
+ò
+™
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.csÕ Õ(+
+
+%2void"3System.ArgumentException.ArgumentException(string?)* 
+
+%1System.ArgumentException*
+""*
+3*∏
+2™
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.cs– ‘(&°
+û
+™
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.cs–! –(:F
+%3@OrchardCore.ContentManagement.Metadata.IContentDefinitionManager"__id*†*ù<
+:OrchardCore.ContentTypes.Services.ContentDefinitionService"]
+_contentDefinitionManager@OrchardCore.ContentManagement.Metadata.IContentDefinitionManager‘—
+™
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.cs–! –(WI
+%4COrchardCore.ContentManagement.Metadata.Models.ContentPartDefinition"[OrchardCore.ContentManagement.Metadata.IContentDefinitionManager.LoadPartDefinition(string)*H
+F
+%3@OrchardCore.ContentManagement.Metadata.IContentDefinitionManager*
+
+partNamestring2LoadPartDefinition(string)⁄
+◊
+™
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.cs– –(WU
+partDefinitionCOrchardCore.ContentManagement.Metadata.Models.ContentPartDefinition"__id*K
+I
+%4COrchardCore.ContentManagement.Metadata.Models.ContentPartDefinition°
+û
+™
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.cs—! —(:F
+%5@OrchardCore.ContentManagement.Metadata.IContentDefinitionManager"__id*†*ù<
+:OrchardCore.ContentTypes.Services.ContentDefinitionService"]
+_contentDefinitionManager@OrchardCore.ContentManagement.Metadata.IContentDefinitionManager‘—
+™
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.cs—! —(WI
+%6COrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition"[OrchardCore.ContentManagement.Metadata.IContentDefinitionManager.LoadTypeDefinition(string)*H
+F
+%5@OrchardCore.ContentManagement.Metadata.IContentDefinitionManager*
+
+partNamestring2LoadTypeDefinition(string)⁄
+◊
+™
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.cs— —(WU
+typeDefinitionCOrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition"__id*K
+I
+%6COrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinitionÕ
+ 
+™
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.cs‘ ‘(&
+
+%7bool""object.operator !=(object, object)*
+"
+object*W
+U
+typeDefinitionCOrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition*
+""*
+4
+5*÷	
+4™
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.cs÷ ÷(m°
+û
+™
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.cs÷ ÷()F
+%8@OrchardCore.ContentManagement.Metadata.IContentDefinitionManager"__id*†*ù<
+:OrchardCore.ContentTypes.Services.ContentDefinitionService"]
+_contentDefinitionManager@OrchardCore.ContentManagement.Metadata.IContentDefinitionManager˙
+˜
+™
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.cs÷ ÷(n
+
+%9void"ÑOrchardCore.ContentManagement.Metadata.ContentDefinitionManagerExtensions.AlterTypeDefinition(OrchardCore.ContentManagement.Metadata.IContentDefinitionManager, string, System.Action<OrchardCore.ContentManagement.Metadata.Builders.ContentTypeDefinitionBuilder>)*M"K
+IOrchardCore.ContentManagement.Metadata.ContentDefinitionManagerExtensions*H
+F
+%8@OrchardCore.ContentManagement.Metadata.IContentDefinitionManager*
+
+partNamestring*
+""*
+5*Ö)
+5™
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.csŸ ‰(≈
+¬
+™
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.csŸ Ÿ(.
+%10string"=OrchardCore.Mvc.Utilities.StringExtensions.ToSafeName(string)*.",
+*OrchardCore.Mvc.Utilities.StringExtensions*
+
+	fieldNamestring‹
+Ÿ
+™
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.csŸ Ÿ(.
+	fieldNamestring"__id*
+
+%10string¢
+ü
+™
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.cs€ €(%G
+%11@OrchardCore.ContentManagement.Metadata.IContentDefinitionManager"__id*†*ù<
+:OrchardCore.ContentTypes.Services.ContentDefinitionService"]
+_contentDefinitionManager@OrchardCore.ContentManagement.Metadata.IContentDefinitionManager˝
+˙
+´
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.cs€ ‹(ë
+%12void"ÑOrchardCore.ContentManagement.Metadata.ContentDefinitionManagerExtensions.AlterPartDefinition(OrchardCore.ContentManagement.Metadata.IContentDefinitionManager, string, System.Action<OrchardCore.ContentManagement.Metadata.Builders.ContentPartDefinitionBuilder>)*M"K
+IOrchardCore.ContentManagement.Metadata.ContentDefinitionManagerExtensions*I
+G
+%11@OrchardCore.ContentManagement.Metadata.IContentDefinitionManager*
+
+partNamestring*
+""˙
+˜
+™
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.csﬁ ﬁ(+0
+%13)System.Collections.Generic.IEnumerable<T>"__id*è*å<
+:OrchardCore.ContentTypes.Services.ContentDefinitionService"L
+_contentDefinitionEventHandlers)System.Collections.Generic.IEnumerable<T>±Æ
+™
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.csﬁp ‰(B
+%14;OrchardCore.ContentTypes.Events.ContentFieldAttachedContext";OrchardCore.ContentTypes.Events.ContentFieldAttachedContextﬂ
+‹
+´
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.csﬁt ﬁ(è
+%15void"YOrchardCore.ContentTypes.Events.ContentFieldAttachedContext.ContentFieldAttachedContext()*D
+B
+%14;OrchardCore.ContentTypes.Events.ContentFieldAttachedContextË
+Â
+™
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.cs‡ ‡(*
+%16string"KOrchardCore.ContentTypes.Events.ContentPartFieldContext.ContentPartName.set*D
+B
+%14;OrchardCore.ContentTypes.Events.ContentFieldAttachedContext*
+
+partNamestringˆ
+Û
+™
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.cs· ·(4
+%17string"TOrchardCore.ContentTypes.Events.ContentFieldAttachedContext.ContentFieldTypeName.set*D
+B
+%14;OrchardCore.ContentTypes.Events.ContentFieldAttachedContext*
+
+fieldTypeNamestringÍ
+Á
+™
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.cs‚ ‚(,
+%18string"LOrchardCore.ContentTypes.Events.ContentPartFieldContext.ContentFieldName.set*D
+B
+%14;OrchardCore.ContentTypes.Events.ContentFieldAttachedContext*
+
+	fieldNamestring˜
+Ù
+™
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.cs„ „(5
+%19string"WOrchardCore.ContentTypes.Events.ContentFieldAttachedContext.ContentFieldDisplayName.set*D
+B
+%14;OrchardCore.ContentTypes.Events.ContentFieldAttachedContext*
+
+displayNamestring÷
+”
+™
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.cs‰ ‰(+
+%20$Microsoft.Extensions.Logging.ILogger"__id*q*o<
+:OrchardCore.ContentTypes.Services.ContentDefinitionService"/
+_logger$Microsoft.Extensions.Logging.ILogger 
+«
+™
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.csﬁ ‰(
+%21void"ØOrchardCore.Modules.InvokeExtensions.Invoke<TEvents, T1>(System.Collections.Generic.IEnumerable<TEvents>, System.Action<TEvents, T1>, T1, Microsoft.Extensions.Logging.ILogger)*("&
+$OrchardCore.Modules.InvokeExtensions*2
+0
+%13)System.Collections.Generic.IEnumerable<T>*
+""*D
+B
+%14;OrchardCore.ContentTypes.Events.ContentFieldAttachedContext*-
++
+%20$Microsoft.Extensions.Logging.ILogger*
+3*ı
+3™
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.csÂ	 Â(	"¬
+™
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.csÂ Â(	
+implicit return:
+	fieldNamestring:
+displayNamestring:
+fieldTypeNamestring:
+partNamestringB><
+:OrchardCore.ContentTypes.Services.ContentDefinitionService

@@ -1,0 +1,206 @@
+
+™OrchardCore.Media.Core.DefaultMediaFileStoreCacheFileProvider.SetCacheAsync(System.IO.Stream, OrchardCore.FileStorage.IFileStoreEntry, System.Threading.CancellationToken)£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStoreCacheFileProvider.cs0 0('"0*‰
+0£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStoreCacheFileProvider.cs3 6(+∂
+≥
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStoreCacheFileProvider.cs3) 3(-
+%0string"@Microsoft.Extensions.FileProviders.PhysicalFileProvider.Root.get*;9
+7Microsoft.Extensions.FileProviders.PhysicalFileProvider∞≠
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStoreCacheFileProvider.cs3/ 3(B
+%1string"0OrchardCore.FileStorage.IFileStoreEntry.Path.get*;
+9
+fileStoreEntry'OrchardCore.FileStorage.IFileStoreEntry2Path.get‰
+·
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStoreCacheFileProvider.cs3/ 3(O
+%2string"string.Substring(int)*
+
+%1string*2ì
+ê
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStoreCacheFileProvider.cs3 3(P
+%3string"&System.IO.Path.Combine(string, string)*"
+System.IO.Path*
+
+%0string*
+
+%2string‘
+—
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStoreCacheFileProvider.cs3 3(P
+	cachePathstring"__id*
+
+%3stringå
+â
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStoreCacheFileProvider.cs4 4(<
+%4string"(System.IO.Path.GetDirectoryName(string?)*"
+System.IO.Path*
+
+	cachePathstring‘
+—
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStoreCacheFileProvider.cs4 4(<
+	directorystring"__id*
+
+%4stringä
+á
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStoreCacheFileProvider.cs6 6(,
+
+%5bool"#System.IO.Directory.Exists(string?)*"
+System.IO.Directory*
+
+	directorystring*
+1
+2*÷
+1£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStoreCacheFileProvider.cs8 8(3•
+¢
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStoreCacheFileProvider.cs8 8(4
+%6System.IO.DirectoryInfo"+System.IO.Directory.CreateDirectory(string)*"
+System.IO.Directory*
+
+	directorystring*
+2*¥
+2£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStoreCacheFileProvider.cs? ?()Ä
+˝
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStoreCacheFileProvider.cs? ?(*
+
+%7bool"System.IO.File.Exists(string?)*"
+System.IO.File*
+
+	cachePathstring*
+3
+4*∞
+3£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStoreCacheFileProvider.csA A()ˇ
+¸
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStoreCacheFileProvider.csA A(*
+
+%8void"System.IO.File.Delete(string)*"
+System.IO.File*
+
+	cachePathstring*
+4*¥
+4£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStoreCacheFileProvider.csC C(=è
+å
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStoreCacheFileProvider.csC( C(>
+%9System.IO.FileStream"System.IO.File.Create(string)*"
+System.IO.File*
+
+	cachePathstringÒ
+Ó
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStoreCacheFileProvider.csC C(>"
+
+fileStreamSystem.IO.FileStream"__id*
+
+%9System.IO.FileStream*
+5*Ë
+5£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStoreCacheFileProvider.csE E(`æ
+ª
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStoreCacheFileProvider.csE9 E(M
+%10"__id*
+""ˆÛ
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStoreCacheFileProvider.csE E(a"
+%11System.Threading.Tasks.Task"WSystem.IO.Stream.CopyToAsync(System.IO.Stream, int, System.Threading.CancellationToken)*
+
+streamSystem.IO.Stream*$
+"
+
+fileStreamSystem.IO.FileStream*
+
+%10*9
+7
+cancellationToken"System.Threading.CancellationToken2FCopyToAsync(System.IO.Stream, int, System.Threading.CancellationToken)*
+6*±
+6£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStoreCacheFileProvider.csY	 Y(	*
+7
+8*ˇ	
+7£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStoreCacheFileProvider.csJ K()“
+œ
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStoreCacheFileProvider.csJ J(+
+%12$Microsoft.Extensions.Logging.ILogger"__id*t*r?
+=OrchardCore.Media.Core.DefaultMediaFileStoreCacheFileProvider"/
+_logger$Microsoft.Extensions.Logging.ILoggerÒ
+Ó
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStoreCacheFileProvider.csJ J(K
+%13void"áMicrosoft.Extensions.Logging.LoggerExtensions.LogError(Microsoft.Extensions.Logging.ILogger, System.Exception, string, params object[])*1"/
+-Microsoft.Extensions.Logging.LoggerExtensions*-
++
+%12$Microsoft.Extensions.Logging.ILogger*
+
+exSystem.Exception*
+Error saving file {Path}*
+
+	cachePathstringÅ
+˛
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStoreCacheFileProvider.csK K(*
+%14bool"System.IO.File.Exists(string?)*"
+System.IO.File*
+
+	cachePathstring*
+9
+10*∂
+9£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStoreCacheFileProvider.csO O(-Ä
+˝
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStoreCacheFileProvider.csO O(.
+%15void"System.IO.File.Delete(string)*"
+System.IO.File*
+
+	cachePathstring*
+11
+10*˘
+11£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStoreCacheFileProvider.csS S(S“
+œ
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStoreCacheFileProvider.csS S(+
+%16$Microsoft.Extensions.Logging.ILogger"__id*t*r?
+=OrchardCore.Media.Core.DefaultMediaFileStoreCacheFileProvider"/
+_logger$Microsoft.Extensions.Logging.ILoggerÚ
+Ô
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStoreCacheFileProvider.csS S(T
+%17void"áMicrosoft.Extensions.Logging.LoggerExtensions.LogError(Microsoft.Extensions.Logging.ILogger, System.Exception, string, params object[])*1"/
+-Microsoft.Extensions.Logging.LoggerExtensions*-
++
+%16$Microsoft.Extensions.Logging.ILogger*
+
+eSystem.Exception*
+Error deleting file {Path}*
+
+	cachePathstring*
+8*Ø
+10£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStoreCacheFileProvider.csY	 Y(	*
+8*Á
+8£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStoreCacheFileProvider.csY	 Y(	"ª
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStoreCacheFileProvider.csY Y(	
+implicit return:
+streamSystem.IO.Stream:9
+fileStoreEntry'OrchardCore.FileStorage.IFileStoreEntry:7
+cancellationToken"System.Threading.CancellationTokenBA?
+=OrchardCore.Media.Core.DefaultMediaFileStoreCacheFileProvider

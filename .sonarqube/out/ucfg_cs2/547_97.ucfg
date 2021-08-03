@@ -1,0 +1,80 @@
+
+ZOrchardCore.Deployment.Remote.Services.RemoteClientService.DeleteRemoteClientAsync(string)®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Services\RemoteClientService.cs3 3(1"0*ˆ
+0®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Services\RemoteClientService.cs5 8($Ò
+Ó
+®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Services\RemoteClientService.cs5) 5(C*
+%0$System.Threading.Tasks.Task<TResult>"UOrchardCore.Deployment.Remote.Services.RemoteClientService.GetRemoteClientListAsync()*><
+:OrchardCore.Deployment.Remote.Services.RemoteClientServiceá
+Ñ
+®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Services\RemoteClientService.cs5 5(CI
+remoteClientList5OrchardCore.Deployment.Remote.Models.RemoteClientList"__id*
+""É
+Ä
+®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Services\RemoteClientService.cs6% 6(=*
+%1$System.Threading.Tasks.Task<TResult>"WOrchardCore.Deployment.Remote.Services.RemoteClientService.GetRemoteClientAsync(string)*><
+:OrchardCore.Deployment.Remote.Services.RemoteClientService*
+
+idstringˇ
+¸
+®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Services\RemoteClientService.cs6 6(=A
+remoteClient1OrchardCore.Deployment.Remote.Models.RemoteClient"__id*
+""∑
+¥
+®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Services\RemoteClientService.cs8 8($
+
+%2bool""object.operator !=(object, object)*
+"
+object*C
+A
+remoteClient1OrchardCore.Deployment.Remote.Models.RemoteClient*
+""*
+1
+2*®
+1®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Services\RemoteClientService.cs: ;(.Ó
+Î
+®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Services\RemoteClientService.cs: :(.(
+%3"System.Collections.Generic.List<T>"GOrchardCore.Deployment.Remote.Models.RemoteClientList.RemoteClients.get*K
+I
+remoteClientList5OrchardCore.Deployment.Remote.Models.RemoteClientListŸ
+÷
+®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Services\RemoteClientService.cs: :(C
+
+%4bool",System.Collections.Generic.List<T>.Remove(T)**
+(
+%3"System.Collections.Generic.List<T>*C
+A
+remoteClient1OrchardCore.Deployment.Remote.Models.RemoteClient™
+ß
+®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Services\RemoteClientService.cs; ;(
+%5YesSql.ISession"__id*]*[<
+:OrchardCore.Deployment.Remote.Services.RemoteClientService"
+_sessionYesSql.ISession¯ı
+®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Services\RemoteClientService.cs; ;(/
+
+%6void"*YesSql.ISession.Save(object, bool, string)*
+
+%5YesSql.ISession*K
+I
+remoteClientList5OrchardCore.Deployment.Remote.Models.RemoteClientList*
+""*
+""2Save(object, bool, string)*
+2*Ò
+2®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Services\RemoteClientService.cs=	 =(	"¿
+®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Services\RemoteClientService.cs= =(	
+implicit return:
+idstringB><
+:OrchardCore.Deployment.Remote.Services.RemoteClientService

@@ -1,0 +1,261 @@
+
+[OrchardCore.Workflows.Http.Controllers.HttpWorkflowController.GenerateUrl(int, string, int)´
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.cs3) 3(4"9*î
+0´
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.cs5 5(]ë
+é
+´
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.cs5 5(,>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*ó*î?
+=OrchardCore.Workflows.Http.Controllers.HttpWorkflowController"Q
+_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationServiceæ
+ª
+´
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.cs5< 5(@,
+%1&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase”
+–
+´
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.cs5B 5(]1
+%2+OrchardCore.Security.Permissions.Permission"__id*g*e#
+!OrchardCore.Workflows.Permissions">
+ManageWorkflows+OrchardCore.Security.Permissions.Permission≠
+™
+´
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.cs5 5(^*
+%3$System.Threading.Tasks.Task<TResult>"ﬂMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission)*E"C
+AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*@
+>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService*.
+,
+%1&System.Security.Claims.ClaimsPrincipal*3
+1
+%2+OrchardCore.Security.Permissions.Permission*
+1
+2*€
+1´
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.cs7 7(«ƒ
+´
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.cs7 7(+
+%4%Microsoft.AspNetCore.Mvc.ForbidResult"0Microsoft.AspNetCore.Mvc.ControllerBase.Forbid()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2Forbid()"›
+´
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.cs7 7( -
++
+%4%Microsoft.AspNetCore.Mvc.ForbidResult*·
+2´
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.cs: <($Ä
+˝
+´
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.cs:% :(77
+%51OrchardCore.Workflows.Services.IWorkflowTypeStore"__id*ç*ä?
+=OrchardCore.Workflows.Http.Controllers.HttpWorkflowController"G
+_workflowTypeStore1OrchardCore.Workflows.Services.IWorkflowTypeStoreÌ
+´
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.cs:% :(P*
+%6$System.Threading.Tasks.Task<TResult>"?OrchardCore.Workflows.Services.IWorkflowTypeStore.GetAsync(int)*9
+7
+%51OrchardCore.Workflows.Services.IWorkflowTypeStore*
+""2GetAsync(int)˙
+˜
+´
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.cs: :(P9
+workflowType)OrchardCore.Workflows.Models.WorkflowType"__id*
+""≤
+Ø
+´
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.cs< <($
+
+%7bool""object.operator ==(object, object)*
+"
+object*;
+9
+workflowType)OrchardCore.Workflows.Models.WorkflowType*
+""*
+3
+4*„
+3´
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.cs> >(!Õ 
+´
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.cs> >(!-
+%8'Microsoft.AspNetCore.Mvc.NotFoundResult"2Microsoft.AspNetCore.Mvc.ControllerBase.NotFound()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2
+NotFound()"ﬂ
+´
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.cs> >("/
+-
+%8'Microsoft.AspNetCore.Mvc.NotFoundResult*û
+4¨
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.csA A(úâ
+Ü
+´
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.csA A(-:
+%94OrchardCore.Workflows.Services.ISecurityTokenService"__id*ì*ê?
+=OrchardCore.Workflows.Http.Controllers.HttpWorkflowController"M
+_securityTokenService4OrchardCore.Workflows.Services.ISecurityTokenServiceª
+∏
+´
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.csAN A(i
+%10string"<OrchardCore.Workflows.Models.WorkflowType.WorkflowTypeId.get*;
+9
+workflowType)OrchardCore.Workflows.Models.WorkflowTypeûõ
+´
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.csA: A(v8
+%111OrchardCore.Workflows.Http.Models.WorkflowPayload"1OrchardCore.Workflows.Http.Models.WorkflowPayloadˆ
+Û
+´
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.csA> A(M
+%12void"QOrchardCore.Workflows.Http.Models.WorkflowPayload.WorkflowPayload(string, string)*:
+8
+%111OrchardCore.Workflows.Http.Models.WorkflowPayload*
+
+%10string*
+
+
+activityIdstring*
+5
+6*≠
+5≠
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.csAü A(¥»
+≈
+≠
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.csAü A(¥
+%16"__id*
+""Œ
+À
+≠
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.csAü A(¥
+
+%14int"__id*
+
+%16÷
+”
+≠
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.csAü A(¥
+%13double"__id*
+
+
+%14int*
+7*·
+6≠
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.csA∑ A(ƒÕ
+ 
+≠
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.csA∑ A(ƒ
+
+%15int"__id*
+""÷
+”
+≠
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.csA∑ A(ƒ
+%13double"__id*
+
+
+%15int*
+7*ê
+7´
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.csA D(í
+è
+¨
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.csAx A(≈
+%17System.TimeSpan" System.TimeSpan.FromDays(double)*"
+System.TimeSpan*
+
+%13double“œ
+¨
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.csA A(∆
+%18string"WOrchardCore.Workflows.Services.ISecurityTokenService.CreateToken<T>(T, System.TimeSpan)*<
+:
+%94OrchardCore.Workflows.Services.ISecurityTokenService*:
+8
+%111OrchardCore.Workflows.Http.Models.WorkflowPayload*
+
+%17System.TimeSpan2"CreateToken<T>(T, System.TimeSpan)⁄
+◊
+¨
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.csA A(∆
+tokenstring"__id*
+
+%18stringª
+∏
+´
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.csB B(*
+%19#Microsoft.AspNetCore.Mvc.IUrlHelper"/Microsoft.AspNetCore.Mvc.ControllerBase.Url.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase∏
+µ
+´
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.csB B(Q
+%20string"pMicrosoft.AspNetCore.Mvc.UrlHelperExtensions.Action(Microsoft.AspNetCore.Mvc.IUrlHelper, string, string, object)*0".
+,Microsoft.AspNetCore.Mvc.UrlHelperExtensions*,
+*
+%19#Microsoft.AspNetCore.Mvc.IUrlHelper*
+
+Invoke*
+HttpWorkflow*
+""◊
+‘
+´
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.csB B(Q
+urlstring"__id*
+
+%20stringﬂ‹
+´
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.csD D(.
+%21'Microsoft.AspNetCore.Mvc.OkObjectResult"2Microsoft.AspNetCore.Mvc.ControllerBase.Ok(object)*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*
+
+urlstring2
+Ok(object)"‡
+´
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.csD D(0
+.
+%21'Microsoft.AspNetCore.Mvc.OkObjectResult*˜
+8´
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.csE	 E(	"√
+´
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.csE E(	
+implicit return* 	
+9´
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.cs3n 3(nÓ
+Î
+´
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.cs3) 3(4
+%22"__entrypoint*
+""*
+
+
+activityIdstring*
+""†
+ù
+´
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.cs1	 1(
+%23"
+__annotate*B@
+>Microsoft.AspNetCore.Mvc.HttpPostAttribute.HttpPostAttribute()*
+
+
+activityIdstringì
+ê
+´
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.cs2	 2(
+%24"
+__annotate*53
+1OrchardCore.Admin.AdminAttribute.AdminAttribute()*
+
+
+activityIdstringÁ
+‰
+´
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Controllers\HttpWorkflowController.cs3I 3(Z
+
+activityIdstring"__annotation*
+
+%23*
+
+%24*
+0:
+workflowTypeIdint:
+
+activityIdstring:
+tokenLifeSpanintBA?
+=OrchardCore.Workflows.Http.Controllers.HttpWorkflowController

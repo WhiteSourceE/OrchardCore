@@ -1,0 +1,163 @@
+
+9OrchardCore.Lucene.LuceneIndexManager.DeleteIndex(string)ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csT T("0*ß
+0ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csV V(*
+1*Ω
+1ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csX X(BÎ
+Ë
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csX X(F
+%0@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>"__id*y*w'
+%OrchardCore.Lucene.LuceneIndexManager"L
+_writers@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>¢
+ü
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csX X(C
+
+%1bool"^System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>.TryGetValue(TKey, out TValue)*H
+F
+%0@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>*
+
+	indexNamestring*1
+/
+writer%OrchardCore.Lucene.IndexWriterWrapper*
+2
+3*‘
+2ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csZ [($û
+õ
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csZ Z(+
+
+%2bool"3OrchardCore.Lucene.IndexWriterWrapper.IsClosing.set*1
+/
+writer%OrchardCore.Lucene.IndexWriterWrapper*
+""â
+Ü
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs[ [($
+
+%3void"&Lucene.Net.Index.IndexWriter.Dispose()*1
+/
+writer%OrchardCore.Lucene.IndexWriterWrapper*
+3*ª
+3ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs^ ^(CÓ
+Î
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs^ ^(F
+%4@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>"__id*|*z'
+%OrchardCore.Lucene.LuceneIndexManager"O
+_indexPools@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>ù
+ö
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs^ ^(D
+
+%5bool"\System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>.TryRemove(TKey, out TValue)*H
+F
+%4@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>*
+
+	indexNamestring*.
+,
+reader"OrchardCore.Lucene.IndexReaderPool*
+4
+5*∂
+4ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs` `($å
+â
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs` `($
+
+%6void",OrchardCore.Lucene.IndexReaderPool.Dispose()*.
+,
+reader"OrchardCore.Lucene.IndexReaderPool*
+5*¨
+5ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csc g(0Ó
+Î
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csc c(F
+%7@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>"__id*|*z'
+%OrchardCore.Lucene.LuceneIndexManager"O
+_timestamps@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>ç
+ä
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csc c(C
+
+%8bool"\System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>.TryRemove(TKey, out TValue)*H
+F
+%7@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>*
+
+	indexNamestring*
+
+	timestampSystem.DateTime¯
+ı
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cse9 e(B
+%9string"__id*@*>'
+%OrchardCore.Lucene.LuceneIndexManager"
+	_rootPathstring®
+•
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cse" e(N
+%10string"0System.IO.PathExtensions.Combine(string, string)*"
+System.IO.PathExtensions*
+
+%9string*
+
+	indexNamestring–
+Õ
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cse e(N
+indexFolderstring"__id*
+
+%10stringÖ
+Ç
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csg g(1
+%11bool""System.IO.Directory.Exists(string)*"
+System.IO.Directory*
+
+indexFolderstring*
+6
+7*¿
+6ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csk k(:ì
+ê
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csk k(;
+%12void"(System.IO.Directory.Delete(string, bool)*"
+System.IO.Directory*
+
+indexFolderstring*
+""*
+7
+7*ª
+7ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csp p(8Ï
+È
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csp p(G
+%13@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>"__id*y*w'
+%OrchardCore.Lucene.LuceneIndexManager"L
+_writers@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>¢
+ü
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csp p(9
+%14bool"\System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>.TryRemove(TKey, out TValue)*I
+G
+%13@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>*
+
+	indexNamestring*1
+/
+writer%OrchardCore.Lucene.IndexWriterWrapper*
+8*Ÿ
+8ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csr	 r(	"¥
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csr r(	
+implicit return:
+	indexNamestringB)'
+%OrchardCore.Lucene.LuceneIndexManager

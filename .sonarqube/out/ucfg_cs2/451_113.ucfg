@@ -1,0 +1,78 @@
+
+ïOrchardCore.ContentManagement.GraphQL.DataLoaderExtensions.LoadPublishedContentItems(System.Collections.Generic.IEnumerable<string>, YesSql.ISession)´
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Extensions\DataLoaderExtensions.csD (]"0*π
+0´
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Extensions\DataLoaderExtensions.cs (&*
+1
+2*™
+2´
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Extensions\DataLoaderExtensions.cs* (?Ó
+Î
+´
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Extensions\DataLoaderExtensions.cs+ (?
+
+%0bool"TSystem.Linq.Enumerable.Any<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*=
+;
+contentItemIds)System.Collections.Generic.IEnumerable<T>*
+1
+3*Ç
+1´
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Extensions\DataLoaderExtensions.cs (<°û
+´
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Extensions\DataLoaderExtensions.cs (<9
+%13System.Collections.Generic.Dictionary<TKey, TValue>"3System.Collections.Generic.Dictionary<TKey, TValue>º
+π
+´
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Extensions\DataLoaderExtensions.cs (:
+
+%2void"@System.Collections.Generic.Dictionary<TKey, TValue>.Dictionary()*;
+9
+%13System.Collections.Generic.Dictionary<TKey, TValue>"Î
+´
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Extensions\DataLoaderExtensions.cs (=;
+9
+%13System.Collections.Generic.Dictionary<TKey, TValue>*ä
+3´
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Extensions\DataLoaderExtensions.cs! "(O¨
+©
+¨
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Extensions\DataLoaderExtensions.cs!+ !(ë
+%3YesSql.IQuery<T, TIndex>"ÖYesSql.QueryExtensions.Query<T, TIndex>(YesSql.ISession, System.Linq.Expressions.Expression<System.Func<TIndex, bool>>, bool, string)*"
+YesSql.QueryExtensions*
+
+sessionYesSql.ISession*
+""*
+""*
+""´®
+¨
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Extensions\DataLoaderExtensions.cs!+ !(ù*
+%4$System.Threading.Tasks.Task<TResult>"YesSql.IQuery<T>.ListAsync()* 
+
+%3YesSql.IQuery<T, TIndex>2ListAsync()Å
+˛
+¨
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Extensions\DataLoaderExtensions.cs! !(ù?
+contentItemsLoaded)System.Collections.Generic.IEnumerable<T>"__id*
+""á
+Ñ
+´
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Extensions\DataLoaderExtensions.cs" "(P9
+%53System.Collections.Generic.Dictionary<TKey, TValue>"©System.Linq.Enumerable.ToDictionary<TSource, TKey, TElement>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TKey>, System.Func<TSource, TElement>)*"
+System.Linq.Enumerable*A
+?
+contentItemsLoaded)System.Collections.Generic.IEnumerable<T>*
+""*
+"""Î
+´
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Extensions\DataLoaderExtensions.cs" "(Q;
+9
+%53System.Collections.Generic.Dictionary<TKey, TValue>*˜
+4´
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Extensions\DataLoaderExtensions.cs#	 #(	"√
+´
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Extensions\DataLoaderExtensions.cs# #(	
+implicit return:;
+contentItemIds)System.Collections.Generic.IEnumerable<T>:
+sessionYesSql.ISessionB>"<
+:OrchardCore.ContentManagement.GraphQL.DataLoaderExtensions

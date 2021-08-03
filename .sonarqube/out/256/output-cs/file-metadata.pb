@@ -1,0 +1,36 @@
+®
+¤D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\ContentDisplay\ContentDisplayDriver.csutf-8¯
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\ContentDisplay\ContentDisplayOptions.csutf-8³
+©D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\ContentDisplay\ContentFieldDisplayDriver.csutf-8¹
+¯D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\ContentDisplay\ContentFieldDisplayDriverOption.csutf-8»
+±D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\ContentDisplay\ContentFieldDisplayDriverResolver.csutf-8³
+©D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\ContentDisplay\ContentFieldDisplayOption.csutf-8Á
+·D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\ContentDisplay\ContentFieldServiceCollectionExtensions.csutf-8·
+­D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\ContentDisplay\ContentItemDisplayCoordinator.csutf-8¸
+®D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\ContentDisplay\ContentPartDisplayDriverOption.csutf-8º
+°D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\ContentDisplay\ContentPartDisplayDriverResolver.csutf-8·
+­D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\ContentDisplay\ContentPartDisplayDriverTPart.csutf-8²
+¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\ContentDisplay\ContentPartDisplayOption.csutf-8À
+¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\ContentDisplay\ContentPartServiceCollectionExtensions.csutf-8¯
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\ContentDisplay\IContentDisplayDriver.csutf-8°
+¦D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\ContentDisplay\IContentDisplayHandler.csutf-8´
+ªD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\ContentDisplay\IContentFieldDisplayDriver.csutf-8¼
+²D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\ContentDisplay\IContentFieldDisplayDriverResolver.csutf-8³
+©D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\ContentDisplay\IContentPartDisplayDriver.csutf-8»
+±D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\ContentDisplay\IContentPartDisplayDriverResolver.csutf-8¤
+šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\ContentItemDisplayManager.csutf-8¥
+›D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\IContentItemDisplayManager.csutf-8¢
+˜D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.csutf-8ª
+ D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Models\BuildFieldDisplayContext.csutf-8©
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Models\BuildFieldEditorContext.csutf-8©
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Models\BuildPartDisplayContext.csutf-8¨
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Models\BuildPartEditorContext.csutf-8ª
+ D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Models\UpdateFieldEditorContext.csutf-8©
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Models\UpdatePartEditorContext.csutf-8¸
+®D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Placement\ContentPlacementNodeFilterProviders.csutf-8­
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Razor\OrchardRazorHelperExtensions.csutf-8¦
+œD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\ServiceCollectionExtensions.csutf-8ª
+ D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\ViewModels\ContentItemViewModel.csutf-8ª
+ D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\ViewModels\ContentPartViewModel.csutf-8Ð
+ÄD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.csutf-8×
+ËD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\obj\Debug\netcoreapp3.1\OrchardCore.ContentManagement.Display.AssemblyInfo.csutf-8

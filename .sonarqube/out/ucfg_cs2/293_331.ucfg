@@ -1,0 +1,911 @@
+
+xOrchardCore.Environment.Shell.Distributed.DistributedShellHostedService.ExecuteAsync(System.Threading.CancellationToken)°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csA& A(2"0*£
+0°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csC I(&ÿ
+’
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csC F(4
+%0.System.Threading.CancellationTokenRegistration":System.Threading.CancellationToken.Register(System.Action)*5
+3
+stoppingToken"System.Threading.CancellationToken*
+""≥
+∞
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csI I(&
+%1System.TimeSpan"__id*m*kI
+GOrchardCore.Environment.Shell.Distributed.DistributedShellHostedService"
+MinIdleTimeSystem.TimeSpan„
+‡
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csI I(&
+idleTimeSystem.TimeSpan"__id*
+
+%1System.TimeSpan*
+1*‹
+1°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csK K(9™
+ß
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csK K(9
+
+%2bool">System.Threading.CancellationToken.IsCancellationRequested.get*5
+3
+stoppingToken"System.Threading.CancellationToken*
+2
+3*¥
+2°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csP P(CÇ
+ˇ
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csP P(D*
+%3$System.Threading.Tasks.Task<TResult>"âOrchardCore.Environment.Shell.Distributed.DistributedShellHostedService.TryWaitAsync(System.TimeSpan, System.Threading.CancellationToken)*KI
+GOrchardCore.Environment.Shell.Distributed.DistributedShellHostedService*
+
+idleTimeSystem.TimeSpan*5
+3
+stoppingToken"System.Threading.CancellationToken*
+4
+5*Æ
+4£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csË	 Ë(	*
+3*‚	
+5°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csV V(kÊ
+„
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csV V(#.
+%4(OrchardCore.Environment.Shell.IShellHost"__id*Ü*ÉI
+GOrchardCore.Environment.Shell.Distributed.DistributedShellHostedService"6
+
+_shellHost(OrchardCore.Environment.Shell.IShellHostª
+∏
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csV7 V(S
+%5"__id*
+""âÜ
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csV V(l
+
+%6bool"|OrchardCore.Environment.Shell.IShellHost.TryGetShellContext(string, out OrchardCore.Environment.Shell.Builders.ShellContext)*0
+.
+%4(OrchardCore.Environment.Shell.IShellHost*
+
+%5*G
+E
+defaultContext3OrchardCore.Environment.Shell.Builders.ShellContext2STryGetShellContext(string, out OrchardCore.Environment.Shell.Builders.ShellContext)*
+6
+7*£
+7°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csW W(LÂ
+‚
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csW W(/1
+%7+OrchardCore.Environment.Shell.ShellSettings"@OrchardCore.Environment.Shell.Builders.ShellContext.Settings.get*G
+E
+defaultContext3OrchardCore.Environment.Shell.Builders.ShellContextÀ
+»
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csW W(56
+%80OrchardCore.Environment.Shell.Models.TenantState"5OrchardCore.Environment.Shell.ShellSettings.State.get*3
+1
+%7+OrchardCore.Environment.Shell.ShellSettingsª
+∏
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csW9 W(L
+%9"__id*
+""*
+6
+8*Æ
+6£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csË	 Ë(	*
+1*¿
+8°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.cs] `(2å
+â
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.cs]( ](Z+
+%10$System.Threading.Tasks.Task<TResult>"üOrchardCore.Environment.Shell.Distributed.DistributedShellHostedService.GetOrCreateDistributedContextAsync(OrchardCore.Environment.Shell.Builders.ShellContext)*KI
+GOrchardCore.Environment.Shell.Distributed.DistributedShellHostedService*G
+E
+defaultContext3OrchardCore.Environment.Shell.Builders.ShellContext˛
+˚
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.cs] ](ZG
+context<OrchardCore.Environment.Shell.Distributed.DistributedContext"__id*
+""*
+9
+10*∏
+10°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.cs`3 `(Dà
+Ö
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.cs`4 `(DA
+%11:Microsoft.Extensions.Caching.Distributed.IDistributedCache"QOrchardCore.Environment.Shell.Distributed.DistributedContext.DistributedCache.get*I
+G
+context<OrchardCore.Environment.Shell.Distributed.DistributedContext*
+9*∑
+9°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.cs` a(0¬
+ø
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.cs` `(DN
+distributedCache:Microsoft.Extensions.Caching.Distributed.IDistributedCache"__id*C
+A
+%11:Microsoft.Extensions.Caching.Distributed.IDistributedCacheæ
+ª
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csa a(0
+%12bool""object.operator ==(object, object)*
+"
+object*P
+N
+distributedCache:Microsoft.Extensions.Caching.Distributed.IDistributedCache*
+""*
+11
+12*Ø
+11£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csË	 Ë(	*
+1*Æ
+12°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csg g()*
+13*á	
+13°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csj j(`º
+π
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csjO j(`
+%13"__id*
+""Ω
+∫
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csj/ j(a+
+%14$System.Threading.Tasks.Task<TResult>"∫Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(Microsoft.Extensions.Caching.Distributed.IDistributedCache, string, System.Threading.CancellationToken)*G"E
+CMicrosoft.Extensions.Caching.Distributed.DistributedCacheExtensions*P
+N
+distributedCache:Microsoft.Extensions.Caching.Distributed.IDistributedCache*
+
+%13*
+""œ
+Ã
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csj j(a
+shellChangedIdstring"__id*
+""*
+14
+15
+16*Û
+14°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csl/ l(<æ
+ª
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csl0 l(<
+%15bool"AOrchardCore.Modules.ExceptionExtensions.IsFatal(System.Exception)*+")
+'OrchardCore.Modules.ExceptionExtensions*
+
+exSystem.Exception*
+17
+15*·
+17°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.cso o(G 
+«
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.cso# o(H
+%16System.TimeSpan"ÇOrchardCore.Environment.Shell.Distributed.DistributedShellHostedService.NextIdleTimeBeforeRetry(System.TimeSpan, System.Exception)*KI
+GOrchardCore.Environment.Shell.Distributed.DistributedShellHostedService*
+
+idleTimeSystem.TimeSpan*
+
+exSystem.Exception‰
+·
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.cso o(H
+idleTimeSystem.TimeSpan"__id*
+
+%16System.TimeSpan*
+1*€
+15°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.cst w(.¥
+±
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.cst t(*
+%17System.TimeSpan"__id*m*kI
+GOrchardCore.Environment.Shell.Distributed.DistributedShellHostedService"
+MinIdleTimeSystem.TimeSpan‰
+·
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.cst t(*
+idleTimeSystem.TimeSpan"__id*
+
+%17System.TimeSpanà
+Ö
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csw w(.
+%18bool""string.operator ==(string, string)*
+"
+string*
+
+shellChangedIdstring*
+""*
+18
+19*Ô
+19°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csw2 w(S¶
+£
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csw2 w(A
+%19string"__id*h*fI
+GOrchardCore.Environment.Shell.Distributed.DistributedShellHostedService"
+_shellChangedIdstringë
+é
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csw2 w(S
+%20bool""string.operator ==(string, string)*
+"
+string*
+
+%19string*
+
+shellChangedIdstring*
+18
+20*Ø
+18£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csË	 Ë(	*
+1*Æ
+20°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.cs} }()*
+21*è	
+21£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csÄ Ä(`æ
+ª
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csÄO Ä(`
+%21"__id*
+""ø
+º
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csÄ/ Ä(a+
+%22$System.Threading.Tasks.Task<TResult>"∫Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(Microsoft.Extensions.Caching.Distributed.IDistributedCache, string, System.Threading.CancellationToken)*G"E
+CMicrosoft.Extensions.Caching.Distributed.DistributedCacheExtensions*P
+N
+distributedCache:Microsoft.Extensions.Caching.Distributed.IDistributedCache*
+
+%21*
+""—
+Œ
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csÄ Ä(a
+shellCreatedIdstring"__id*
+""*
+22
+23
+16*˜
+22£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csÇ/ Ç(<¿
+Ω
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csÇ0 Ç(<
+%23bool"AOrchardCore.Modules.ExceptionExtensions.IsFatal(System.Exception)*+")
+'OrchardCore.Modules.ExceptionExtensions*
+
+exSystem.Exception*
+24
+23*Ø
+24§
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csÑ Ñ(Å‹
+Ÿ
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csÑ Ñ(+
+%24$Microsoft.Extensions.Logging.ILogger"__id*~*|I
+GOrchardCore.Environment.Shell.Distributed.DistributedShellHostedService"/
+_logger$Microsoft.Extensions.Logging.ILoggerù
+ö
+§
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csÑ Ñ(Ç
+%25void"áMicrosoft.Extensions.Logging.LoggerExtensions.LogError(Microsoft.Extensions.Logging.ILogger, System.Exception, string, params object[])*1"/
+-Microsoft.Extensions.Logging.LoggerExtensions*-
++
+%24$Microsoft.Extensions.Logging.ILogger*
+
+exSystem.Exception*VT
+RUnable to read the distributed cache before checking if a tenant has been created.*
+""*
+1*ù
+23£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csâ å(.È
+Ê
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csâ& â(0/
+%26(OrchardCore.Environment.Shell.IShellHost"__id*Ü*ÉI
+GOrchardCore.Environment.Shell.Distributed.DistributedShellHostedService"6
+
+_shellHost(OrchardCore.Environment.Shell.IShellHost€ÿ
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csâ& â(A0
+%27)System.Collections.Generic.IEnumerable<T>"9OrchardCore.Environment.Shell.IShellHost.GetAllSettings()*1
+/
+%26(OrchardCore.Environment.Shell.IShellHost2GetAllSettings()˝
+˙
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csâ& â(J)
+%28"System.Collections.Generic.List<T>"WSystem.Linq.Enumerable.ToList<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*2
+0
+%27)System.Collections.Generic.IEnumerable<T>è
+å
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csâ â(J1
+allSettings"System.Collections.Generic.List<T>"__id*+
+)
+%28"System.Collections.Generic.List<T>ä
+á
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.cså å(.
+%29bool""string.operator !=(string, string)*
+"
+string*
+
+shellCreatedIdstring*
+""*
+25
+26*ı
+25£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.cså2 å(S®
+•
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.cså2 å(A
+%30string"__id*h*fI
+GOrchardCore.Environment.Shell.Distributed.DistributedShellHostedService"
+_shellCreatedIdstringì
+ê
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.cså2 å(S
+%31bool""string.operator !=(string, string)*
+"
+string*
+
+%30string*
+
+shellCreatedIdstring*
+27
+26*Ù
+27£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csè î(2ä
+á
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csè+ è(@:
+%323OrchardCore.Environment.Shell.IShellSettingsManager"__id*ú*ôI
+GOrchardCore.Environment.Shell.Distributed.DistributedShellHostedService"L
+_shellSettingsManager3OrchardCore.Environment.Shell.IShellSettingsManager¸˘
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csè+ è(Y+
+%33$System.Threading.Tasks.Task<TResult>"LOrchardCore.Environment.Shell.IShellSettingsManager.LoadSettingsNamesAsync()*<
+:
+%323OrchardCore.Environment.Shell.IShellSettingsManager2LoadSettingsNamesAsync()µ
+≤
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csê$ ê(C0
+%34)System.Collections.Generic.IEnumerable<T>"System.Linq.Enumerable.Select<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)*"
+System.Linq.Enumerable*3
+1
+allSettings"System.Collections.Generic.List<T>*
+""æ
+ª
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csè$ ê(D0
+%35)System.Collections.Generic.IEnumerable<T>"àSystem.Linq.Enumerable.Except<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*
+""*2
+0
+%34)System.Collections.Generic.IEnumerable<T>‰
+·
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csè$ ë(&
+%36string[]"XSystem.Linq.Enumerable.ToArray<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*2
+0
+%35)System.Collections.Generic.IEnumerable<T>’
+“
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csè ë(&
+namesstring[]"__id*
+
+%36string[]*
+28*¥
+28£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csË	 Ë(	*
+29
+26*÷	
+29£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csñ ñ(^ä
+á
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csñ2 ñ(G:
+%373OrchardCore.Environment.Shell.IShellSettingsManager"__id*ú*ôI
+GOrchardCore.Environment.Shell.Distributed.DistributedShellHostedService"L
+_shellSettingsManager3OrchardCore.Environment.Shell.IShellSettingsManagerêç
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csñ2 ñ(_+
+%38$System.Threading.Tasks.Task<TResult>"MOrchardCore.Environment.Shell.IShellSettingsManager.LoadSettingsAsync(string)*<
+:
+%373OrchardCore.Environment.Shell.IShellSettingsManager*
+
+namestring2LoadSettingsAsync(string)É
+Ä
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csñ ñ(`
+%39void"
+__arrayAdd*3
+1
+allSettings"System.Collections.Generic.List<T>*: *
+""*
+28*Ê
+26£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csõ ü(8Ú
+Ô
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csõ) õ(8
+%40System.DateTime"System.DateTime.UtcNow.get*"
+System.DateTimeÏ
+È
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csõ õ(8!
+_busyStartTimeSystem.DateTime"__id*
+
+%40System.DateTimeœ
+Ã
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csú ú(-
+syncingSuccessbool"__id*
+""*
+30*¥
+30£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csË	 Ë(	*
+31
+32*î
+31£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.cs¢ ¢(E›
+⁄
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.cs¢# ¢(F+
+%41$System.Threading.Tasks.Task<TResult>"ÄOrchardCore.Environment.Shell.Distributed.DistributedShellHostedService.TryWaitAfterBusyTime(System.Threading.CancellationToken)*KI
+GOrchardCore.Environment.Shell.Distributed.DistributedShellHostedService*5
+3
+stoppingToken"System.Threading.CancellationToken*
+33
+34*∞
+33£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csË	 Ë(	*
+32*œ
+34£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csß ®(3ö
+ó
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csß( ß(3G
+%42@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>"__id*ü*úI
+GOrchardCore.Environment.Shell.Distributed.DistributedShellHostedService"O
+_semaphores@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>©
+¶
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csß= ß(J
+%43string"4OrchardCore.Environment.Shell.ShellSettings.Name.get*9
+7
+settings+OrchardCore.Environment.Shell.ShellSettings†
+ù
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csß( ß(i%
+%44System.Threading.SemaphoreSlim"jSystem.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>.GetOrAdd(TKey, System.Func<TKey, TValue>)*I
+G
+%42@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>*
+
+%43string*
+""Ö
+Ç
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csß ß(i+
+	semaphoreSystem.Threading.SemaphoreSlim"__id*'
+%
+%44System.Threading.SemaphoreSlim®
+•
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.cs® ®(3"
+%45System.Threading.Tasks.Task"*System.Threading.SemaphoreSlim.WaitAsync()*-
++
+	semaphoreSystem.Threading.SemaphoreSlim*
+35*¯
+35£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.cs¨  ≠(1©
+¶
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.cs¨_ ¨(l
+%46string"4OrchardCore.Environment.Shell.ShellSettings.Name.get*9
+7
+settings+OrchardCore.Environment.Shell.ShellSettingsÙ
+Ò
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.cs¨R ¨(m
+%47string"\OrchardCore.Environment.Shell.Distributed.DistributedShellHostedService.ReleaseIdKey(string)*KI
+GOrchardCore.Environment.Shell.Distributed.DistributedShellHostedService*
+
+%46string«
+ƒ
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.cs¨2 ¨(n+
+%48$System.Threading.Tasks.Task<TResult>"∫Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(Microsoft.Extensions.Caching.Distributed.IDistributedCache, string, System.Threading.CancellationToken)*G"E
+CMicrosoft.Extensions.Caching.Distributed.DistributedCacheExtensions*P
+N
+distributedCache:Microsoft.Extensions.Caching.Distributed.IDistributedCache*
+
+%47string*
+""Ã
+…
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.cs¨  ¨(n
+	releaseIdstring"__id*
+""Ö
+Ç
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.cs≠  ≠(1
+%49bool""string.operator !=(string, string)*
+"
+string*
+
+	releaseIdstring*
+""*
+36
+37*€
+36£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.cs∞$ ±(Eõ
+ò
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.cs∞1 ∞(=G
+%50@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>"__id*†*ùI
+GOrchardCore.Environment.Shell.Distributed.DistributedShellHostedService"P
+_identifiers@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>©
+¶
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.cs∞G ∞(T
+%51string"4OrchardCore.Environment.Shell.ShellSettings.Name.get*9
+7
+settings+OrchardCore.Environment.Shell.ShellSettingsª
+∏
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.cs∞1 ∞(t@
+%529OrchardCore.Environment.Shell.Distributed.ShellIdentifier"jSystem.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>.GetOrAdd(TKey, System.Func<TKey, TValue>)*I
+G
+%50@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>*
+
+%51string*
+""º
+π
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.cs∞$ ∞(tG
+
+identifier9OrchardCore.Environment.Shell.Distributed.ShellIdentifier"__id*B
+@
+%529OrchardCore.Environment.Shell.Distributed.ShellIdentifierÃ
+…
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.cs±$ ±(8
+%53string"GOrchardCore.Environment.Shell.Distributed.ShellIdentifier.ReleaseId.get*I
+G
+
+identifier9OrchardCore.Environment.Shell.Distributed.ShellIdentifieré
+ã
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.cs±$ ±(E
+%54bool""string.operator !=(string, string)*
+"
+string*
+
+%53string*
+
+	releaseIdstring*
+38
+37*ã
+38£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.cs¥$ ∑(j„
+‡
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.cs¥$ ¥(D
+%55string"GOrchardCore.Environment.Shell.Distributed.ShellIdentifier.ReleaseId.set*I
+G
+
+identifier9OrchardCore.Environment.Shell.Distributed.ShellIdentifier*
+
+	releaseIdstringÈ
+Ê
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.cs∑* ∑(4/
+%56(OrchardCore.Environment.Shell.IShellHost"__id*Ü*ÉI
+GOrchardCore.Environment.Shell.Distributed.DistributedShellHostedService"6
+
+_shellHost(OrchardCore.Environment.Shell.IShellHostÜÉ
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.cs∑* ∑(k"
+%57System.Threading.Tasks.Task"tOrchardCore.Environment.Shell.IShellHost.ReleaseShellContextAsync(OrchardCore.Environment.Shell.ShellSettings, bool)*1
+/
+%56(OrchardCore.Environment.Shell.IShellHost*9
+7
+settings+OrchardCore.Environment.Shell.ShellSettings*
+""2KReleaseShellContextAsync(OrchardCore.Environment.Shell.ShellSettings, bool)*
+37*ı
+37£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csº  Ω(0©
+¶
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csº] º(j
+%58string"4OrchardCore.Environment.Shell.ShellSettings.Name.get*9
+7
+settings+OrchardCore.Environment.Shell.ShellSettingsÛ
+
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csºQ º(k
+%59string"[OrchardCore.Environment.Shell.Distributed.DistributedShellHostedService.ReloadIdKey(string)*KI
+GOrchardCore.Environment.Shell.Distributed.DistributedShellHostedService*
+
+%58string«
+ƒ
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csº1 º(l+
+%60$System.Threading.Tasks.Task<TResult>"∫Microsoft.Extensions.Caching.Distributed.DistributedCacheExtensions.GetStringAsync(Microsoft.Extensions.Caching.Distributed.IDistributedCache, string, System.Threading.CancellationToken)*G"E
+CMicrosoft.Extensions.Caching.Distributed.DistributedCacheExtensions*P
+N
+distributedCache:Microsoft.Extensions.Caching.Distributed.IDistributedCache*
+
+%59string*
+""À
+»
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csº  º(l
+reloadIdstring"__id*
+""Ñ
+Å
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csΩ  Ω(0
+%61bool""string.operator !=(string, string)*
+"
+string*
+
+reloadIdstring*
+""*
+39
+40*Ÿ
+39£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.cs¿$ ¡(Cõ
+ò
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.cs¿1 ¿(=G
+%62@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>"__id*†*ùI
+GOrchardCore.Environment.Shell.Distributed.DistributedShellHostedService"P
+_identifiers@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>©
+¶
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.cs¿G ¿(T
+%63string"4OrchardCore.Environment.Shell.ShellSettings.Name.get*9
+7
+settings+OrchardCore.Environment.Shell.ShellSettingsª
+∏
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.cs¿1 ¿(t@
+%649OrchardCore.Environment.Shell.Distributed.ShellIdentifier"jSystem.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>.GetOrAdd(TKey, System.Func<TKey, TValue>)*I
+G
+%62@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>*
+
+%63string*
+""º
+π
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.cs¿$ ¿(tG
+
+identifier9OrchardCore.Environment.Shell.Distributed.ShellIdentifier"__id*B
+@
+%649OrchardCore.Environment.Shell.Distributed.ShellIdentifierÀ
+»
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.cs¡$ ¡(7
+%65string"FOrchardCore.Environment.Shell.Distributed.ShellIdentifier.ReloadId.get*I
+G
+
+identifier9OrchardCore.Environment.Shell.Distributed.ShellIdentifierç
+ä
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.cs¡$ ¡(C
+%66bool""string.operator !=(string, string)*
+"
+string*
+
+%65string*
+
+reloadIdstring*
+41
+40*á
+41£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csƒ$ «(i·
+ﬁ
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csƒ$ ƒ(B
+%67string"FOrchardCore.Environment.Shell.Distributed.ShellIdentifier.ReloadId.set*I
+G
+
+identifier9OrchardCore.Environment.Shell.Distributed.ShellIdentifier*
+
+reloadIdstringÈ
+Ê
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.cs«* «(4/
+%68(OrchardCore.Environment.Shell.IShellHost"__id*Ü*ÉI
+GOrchardCore.Environment.Shell.Distributed.DistributedShellHostedService"6
+
+_shellHost(OrchardCore.Environment.Shell.IShellHostÑÅ
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.cs«* «(j"
+%69System.Threading.Tasks.Task"sOrchardCore.Environment.Shell.IShellHost.ReloadShellContextAsync(OrchardCore.Environment.Shell.ShellSettings, bool)*1
+/
+%68(OrchardCore.Environment.Shell.IShellHost*9
+7
+settings+OrchardCore.Environment.Shell.ShellSettings*
+""2JReloadShellContextAsync(OrchardCore.Environment.Shell.ShellSettings, bool)*
+40*¥
+40£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csË	 Ë(	*
+42
+43*˜
+42£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csÀ3 À(@¿
+Ω
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csÀ4 À(@
+%70bool"AOrchardCore.Modules.ExceptionExtensions.IsFatal(System.Exception)*+")
+'OrchardCore.Modules.ExceptionExtensions*
+
+exSystem.Exception*
+44
+43*¥
+44§
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csÕ Œ(èœ
+Ã
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csÕ Õ(2
+syncingSuccessbool"__id*
+""‹
+Ÿ
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csŒ Œ(#+
+%71$Microsoft.Extensions.Logging.ILogger"__id*~*|I
+GOrchardCore.Environment.Shell.Distributed.DistributedShellHostedService"/
+_logger$Microsoft.Extensions.Logging.ILogger´
+®
+•
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csŒÇ Œ(è
+%72string"4OrchardCore.Environment.Shell.ShellSettings.Name.get*9
+7
+settings+OrchardCore.Environment.Shell.ShellSettings°
+û
+§
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csŒ Œ(ê
+%73void"áMicrosoft.Extensions.Logging.LoggerExtensions.LogError(Microsoft.Extensions.Logging.ILogger, System.Exception, string, params object[])*1"/
+-Microsoft.Extensions.Logging.LoggerExtensions*-
++
+%71$Microsoft.Extensions.Logging.ILogger*
+
+exSystem.Exception*QO
+MUnable to read the distributed cache while syncing the tenant '{TenantName}'.*
+
+%72string*
+32*≈
+43£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.cs” ”(/é
+ã
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.cs” ”(/
+
+%74int"(System.Threading.SemaphoreSlim.Release()*-
++
+	semaphoreSystem.Threading.SemaphoreSlim*
+30
+16*¥
+32£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csÿ ÿ(&*
+45
+46*ú
+45£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.cs⁄ €(8≥
+∞
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.cs⁄ ⁄(8fI
+GOrchardCore.Environment.Shell.Distributed.DistributedShellHostedService"
+_shellChangedIdstring"__id*
+
+shellChangedIdstring≥
+∞
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.cs€ €(8fI
+GOrchardCore.Environment.Shell.Distributed.DistributedShellHostedService"
+_shellCreatedIdstring"__id*
+
+shellCreatedIdstring*
+46*∑
+46£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csË	 Ë(	*
+47
+1
+16*ˆ
+47£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csﬁ+ ﬁ(8¿
+Ω
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csﬁ, ﬁ(8
+%75bool"AOrchardCore.Modules.ExceptionExtensions.IsFatal(System.Exception)*+")
+'OrchardCore.Modules.ExceptionExtensions*
+
+exSystem.Exception*
+48
+1*Ä
+48£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.cs‡ ‡(w‹
+Ÿ
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.cs‡ ‡(+
+%76$Microsoft.Extensions.Logging.ILogger"__id*~*|I
+GOrchardCore.Environment.Shell.Distributed.DistributedShellHostedService"/
+_logger$Microsoft.Extensions.Logging.ILoggerÔ
+Ï
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.cs‡ ‡(x
+%77void"áMicrosoft.Extensions.Logging.LoggerExtensions.LogError(Microsoft.Extensions.Logging.ILogger, System.Exception, string, params object[])*1"/
+-Microsoft.Extensions.Logging.LoggerExtensions*-
++
+%76$Microsoft.Extensions.Logging.ILogger*
+
+exSystem.Exception*)'
+%Error while executing '{ServiceName}'*
+""*
+1*·
+3£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.cs‰ Â(ô
+ñ
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.cs‰ ‰(`I
+GOrchardCore.Environment.Shell.Distributed.DistributedShellHostedService"
+_terminatedbool"__id*
+""è
+å
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csÂ Â(C
+%78<OrchardCore.Environment.Shell.Distributed.DistributedContext"__id*ò*ïI
+GOrchardCore.Environment.Shell.Distributed.DistributedShellHostedService"H
+_context<OrchardCore.Environment.Shell.Distributed.DistributedContext*
+49
+50*¯
+50£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csÂ Â(≈
+¬
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csÂ Â(
+%79void"FOrchardCore.Environment.Shell.Distributed.DistributedContext.Release()*E
+C
+%78<OrchardCore.Environment.Shell.Distributed.DistributedContext*
+49*“
+49£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csÊ Á(Õ
+ 
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csÊ Ê("ìI
+GOrchardCore.Environment.Shell.Distributed.DistributedShellHostedService"F
+_defaultContext3OrchardCore.Environment.Shell.Builders.ShellContext"__id*
+""œ
+Ã
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csÁ Á(ïI
+GOrchardCore.Environment.Shell.Distributed.DistributedShellHostedService"H
+_context<OrchardCore.Environment.Shell.Distributed.DistributedContext"__id*
+""*
+16*Ë
+16£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csË	 Ë(	"ª
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Distributed\DistributedShellHostedService.csË Ë(	
+implicit return:3
+stoppingToken"System.Threading.CancellationTokenBKI
+GOrchardCore.Environment.Shell.Distributed.DistributedShellHostedService

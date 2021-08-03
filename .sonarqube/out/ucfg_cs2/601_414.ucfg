@@ -1,0 +1,122 @@
+
+ÆOrchardCore.Contents.Sitemaps.ContentTypesSitemapSourceBuilder.BuildUrlAsync(OrchardCore.Sitemaps.Builders.SitemapBuilderContext, OrchardCore.ContentManagement.ContentItem, System.Xml.Linq.XElement)¬
+¡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceBuilder.csX! X(."0*Ñ
+0¬
+¡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceBuilder.csZ [(-÷
+ô
+¬
+¡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceBuilder.csZ. Z(=3
+%0-OrchardCore.ContentManagement.IContentManager"__id*‡*„@
+>OrchardCore.Contents.Sitemaps.ContentTypesSitemapSourceBuilder"@
+_contentManager-OrchardCore.ContentManagement.IContentManagerº
+·
+¬
+¡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceBuilder.csZ. Z(u*
+%1$System.Threading.Tasks.Task<TResult>"ªOrchardCore.ContentManagement.ContentManagerExtensions.PopulateAspectAsync<TAspect>(OrchardCore.ContentManagement.IContentManager, OrchardCore.ContentManagement.IContent)*:"8
+6OrchardCore.ContentManagement.ContentManagerExtensions*5
+3
+%0-OrchardCore.ContentManagement.IContentManager*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItem
+Š
+¬
+¡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceBuilder.csZ Z(uK
+sitemapMetadataAspect2OrchardCore.Sitemaps.Aspects.SitemapMetadataAspect"__id*
+""Í
+Ê
+¬
+¡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceBuilder.cs[ [(-
+
+%2bool">OrchardCore.Sitemaps.Aspects.SitemapMetadataAspect.Exclude.get*M
+K
+sitemapMetadataAspect2OrchardCore.Sitemaps.Aspects.SitemapMetadataAspect*
+1
+2*ì
+1¬
+¡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceBuilder.cs] ]("·
+¬
+¡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceBuilder.cs] ](
+""*æ
+2¬
+¡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceBuilder.cs` e(ª
+§
+¬
+¡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceBuilder.cs`! `(AD
+%3>OrchardCore.Sitemaps.Services.IRouteableContentTypeCoordinator"__id*©*¦@
+>OrchardCore.Contents.Sitemaps.ContentTypesSitemapSourceBuilder"b
+ _routeableContentTypeCoordinator>OrchardCore.Sitemaps.Services.IRouteableContentTypeCoordinatorÂ¿
+¬
+¡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceBuilder.cs`! `(e*
+%4$System.Threading.Tasks.Task<TResult>"¬OrchardCore.Sitemaps.Services.IRouteableContentTypeCoordinator.GetRouteAsync(OrchardCore.Sitemaps.Builders.SitemapBuilderContext, OrchardCore.ContentManagement.ContentItem)*F
+D
+%3>OrchardCore.Sitemaps.Services.IRouteableContentTypeCoordinator*@
+>
+context3OrchardCore.Sitemaps.Builders.SitemapBuilderContext*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItem2mGetRouteAsync(OrchardCore.Sitemaps.Builders.SitemapBuilderContext, OrchardCore.ContentManagement.ContentItem)Ô
+Ñ
+¬
+¡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceBuilder.cs` `(e
+locValuestring"__id*
+""É
+Æ
+¬
+¡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceBuilder.csb# b(, 
+%5System.Xml.Linq.XNamespace"__id*m*k@
+>OrchardCore.Contents.Sitemaps.ContentTypesSitemapSourceBuilder"'
+	NamespaceSystem.Xml.Linq.XNamespaceç
+ä
+¬
+¡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceBuilder.csb# b(4
+%6System.Xml.Linq.XName"ISystem.Xml.Linq.XNamespace.operator +(System.Xml.Linq.XNamespace, string)*"
+System.Xml.Linq.XNamespace*"
+ 
+%5System.Xml.Linq.XNamespace*
+locìé
+¬
+¡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceBuilder.csb b(5
+%7System.Xml.Linq.XElement"System.Xml.Linq.XElement¹
+¶
+¬
+¡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceBuilder.csb b("
+
+%8void"8System.Xml.Linq.XElement.XElement(System.Xml.Linq.XName)* 
+
+%7System.Xml.Linq.XElement*
+
+%6System.Xml.Linq.XNameû
+ø
+¬
+¡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceBuilder.csb b(5
+locSystem.Xml.Linq.XElement"__id* 
+
+%7System.Xml.Linq.XElementŸ
+œ
+¬
+¡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceBuilder.csc c(
+
+%9void"&System.Xml.Linq.XContainer.Add(object)*!
+
+locSystem.Xml.Linq.XElement*
+
+locValuestring­
+ª
+¬
+¡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceBuilder.csd d(
+%10void"&System.Xml.Linq.XContainer.Add(object)*!
+
+urlSystem.Xml.Linq.XElement*!
+
+locSystem.Xml.Linq.XElement"·
+¬
+¡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceBuilder.cse e(
+""*ù
+3¬
+¡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceBuilder.csf	 f(	"Ä
+¬
+¡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Sitemaps\ContentTypesSitemapSourceBuilder.csf f(	
+implicit return:>
+context3OrchardCore.Sitemaps.Builders.SitemapBuilderContext:8
+contentItem)OrchardCore.ContentManagement.ContentItem:
+urlSystem.Xml.Linq.XElementBB@
+>OrchardCore.Contents.Sitemaps.ContentTypesSitemapSourceBuilder

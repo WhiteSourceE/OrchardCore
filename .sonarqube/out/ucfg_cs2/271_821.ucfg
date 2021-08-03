@@ -1,0 +1,103 @@
+
+UOrchardCore.Workflows.Services.SecurityTokenService.TryDecryptToken<T>(string, out T)¡
+–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\SecurityTokenService.cs (#"0*ò
+0¡
+–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\SecurityTokenService.cs (Ã
+À
+¡
+–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\SecurityTokenService.cs (
+payloadT"__id*
+""*
+1*ó
+1¡
+–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\SecurityTokenService.cs" $(@€
+ý
+¡
+–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\SecurityTokenService.cs" "()C
+%0=Microsoft.AspNetCore.DataProtection.ITimeLimitedDataProtector"__id*‹*ˆ5
+3OrchardCore.Workflows.Services.SecurityTokenService"O
+_dataProtector=Microsoft.AspNetCore.DataProtection.ITimeLimitedDataProtector³
+°
+¡
+–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\SecurityTokenService.cs" "(N
+%1string"°Microsoft.AspNetCore.DataProtection.DataProtectionAdvancedExtensions.Unprotect(Microsoft.AspNetCore.DataProtection.ITimeLimitedDataProtector, string, out System.DateTimeOffset)*H"F
+DMicrosoft.AspNetCore.DataProtection.DataProtectionAdvancedExtensions*E
+C
+%0=Microsoft.AspNetCore.DataProtection.ITimeLimitedDataProtector*
+
+tokenstring*%
+#
+
+expirationSystem.DateTimeOffsetÍ
+Ê
+¡
+–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\SecurityTokenService.cs" "(N
+jsonstring"__id*
+
+%1string°
+­
+¡
+–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\SecurityTokenService.cs$ $( 
+%2OrchardCore.Modules.IClock"__id*_*]5
+3OrchardCore.Workflows.Services.SecurityTokenService"$
+_clockOrchardCore.Modules.IClock•’
+¡
+–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\SecurityTokenService.cs$ $(!
+%3System.DateTime"%OrchardCore.Modules.IClock.UtcNow.get*"
+ 
+%2OrchardCore.Modules.IClock2
+UtcNow.get”
+‘
+¡
+–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\SecurityTokenService.cs$$ $(@
+%4System.DateTimeOffset"'System.DateTimeOffset.ToUniversalTime()*%
+#
+
+expirationSystem.DateTimeOffsetÖ
+Ó
+¡
+–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\SecurityTokenService.cs$ $(@
+
+%5bool"NSystem.DateTimeOffset.operator <(System.DateTimeOffset, System.DateTimeOffset)*"
+System.DateTimeOffset*
+
+%3System.DateTime*
+
+%4System.DateTimeOffset*
+2
+3*¿
+2¡
+–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\SecurityTokenService.cs& '(
+š
+¡
+–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\SecurityTokenService.cs& &(D
+%6T"8Newtonsoft.Json.JsonConvert.DeserializeObject<T>(string)*"
+Newtonsoft.Json.JsonConvert*
+
+jsonstringÆ
+Ã
+¡
+–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\SecurityTokenService.cs& &(D
+payloadT"__id*	
+
+%6T"¬
+¡
+–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\SecurityTokenService.cs' '( 
+""*¯
+3¡
+–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\SecurityTokenService.cs/	 /(	*
+4
+4*Ö
+4¡
+–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\SecurityTokenService.cs. .("¬
+¡
+–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\SecurityTokenService.cs. .(
+""*ã
+5¡
+–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\SecurityTokenService.cs/	 /(	"¹
+¡
+–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\SecurityTokenService.cs/ /(	
+implicit return:
+tokenstring:
+payloadTB75
+3OrchardCore.Workflows.Services.SecurityTokenService

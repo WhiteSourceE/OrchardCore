@@ -1,0 +1,270 @@
+
+^OrchardCore.Email.Services.SmtpSettingsConfiguration.Configure(OrchardCore.Email.SmtpSettings)¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpSettingsConfiguration.cs ("0*®C
+0¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpSettingsConfiguration.cs ,(<¿
+¼
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpSettingsConfiguration.cs ( '
+%0!OrchardCore.Settings.ISiteService"__id*f*d6
+4OrchardCore.Email.Services.SmtpSettingsConfiguration"*
+_site!OrchardCore.Settings.ISiteServiceÑÎ
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpSettingsConfiguration.cs (7*
+%1$System.Threading.Tasks.Task<TResult>"8OrchardCore.Settings.ISiteService.GetSiteSettingsAsync()*)
+'
+%0!OrchardCore.Settings.ISiteService2GetSiteSettingsAsync()Å
+Â
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpSettingsConfiguration.cs (:
+%24System.Runtime.CompilerServices.TaskAwaiter<TResult>"1System.Threading.Tasks.Task<TResult>.GetAwaiter()*,
+*
+%1$System.Threading.Tasks.Task<TResult>Ê
+Ç
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpSettingsConfiguration.cs () 
+%3OrchardCore.Settings.ISite"@System.Runtime.CompilerServices.TaskAwaiter<TResult>.GetResult()*<
+:
+%24System.Runtime.CompilerServices.TaskAwaiter<TResult>è
+å
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpSettingsConfiguration.cs (#$
+%4OrchardCore.Email.SmtpSettings"IOrchardCore.Entities.EntityExtensions.As<T>(OrchardCore.Entities.IEntity)*)"'
+%OrchardCore.Entities.EntityExtensions*"
+ 
+%3OrchardCore.Settings.ISite‚
+ÿ
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpSettingsConfiguration.cs (#*
+settingsOrchardCore.Email.SmtpSettings"__id*&
+$
+%4OrchardCore.Email.SmtpSettings–
+“
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpSettingsConfiguration.cs $  (:
+%5string"0OrchardCore.Email.SmtpSettings.DefaultSender.get*,
+*
+settingsOrchardCore.Email.SmtpSettings¥
+¢
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpSettingsConfiguration.cs   (:
+%6string"0OrchardCore.Email.SmtpSettings.DefaultSender.set*+
+)
+optionsOrchardCore.Email.SmtpSettings*
+
+%5stringµ
+²
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpSettingsConfiguration.cs!% !(<*
+%7$OrchardCore.Email.SmtpDeliveryMethod"1OrchardCore.Email.SmtpSettings.DeliveryMethod.get*,
+*
+settingsOrchardCore.Email.SmtpSettingsâ
+ß
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpSettingsConfiguration.cs! !(<*
+%8$OrchardCore.Email.SmtpDeliveryMethod"1OrchardCore.Email.SmtpSettings.DeliveryMethod.set*+
+)
+optionsOrchardCore.Email.SmtpSettings*,
+*
+%7$OrchardCore.Email.SmtpDeliveryMethod 
+
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpSettingsConfiguration.cs". "(N
+%9string":OrchardCore.Email.SmtpSettings.PickupDirectoryLocation.get*,
+*
+settingsOrchardCore.Email.SmtpSettings°
+­
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpSettingsConfiguration.cs" "(N
+%10string":OrchardCore.Email.SmtpSettings.PickupDirectoryLocation.set*+
+)
+optionsOrchardCore.Email.SmtpSettings*
+
+%9stringŽ
+‹
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpSettingsConfiguration.cs# #((
+%11string"'OrchardCore.Email.SmtpSettings.Host.get*,
+*
+settingsOrchardCore.Email.SmtpSettingsž
+›
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpSettingsConfiguration.cs# #((
+%12string"'OrchardCore.Email.SmtpSettings.Host.set*+
+)
+optionsOrchardCore.Email.SmtpSettings*
+
+%11string‹
+ˆ
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpSettingsConfiguration.cs$ $((
+
+%13int"'OrchardCore.Email.SmtpSettings.Port.get*,
+*
+settingsOrchardCore.Email.SmtpSettings˜
+•
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpSettingsConfiguration.cs$ $((
+
+%14int"'OrchardCore.Email.SmtpSettings.Port.set*+
+)
+optionsOrchardCore.Email.SmtpSettings*
+
+
+%13intº
+·
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpSettingsConfiguration.cs%' %(@-
+%15&OrchardCore.Email.SmtpEncryptionMethod"3OrchardCore.Email.SmtpSettings.EncryptionMethod.get*,
+*
+settingsOrchardCore.Email.SmtpSettingsê
+ç
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpSettingsConfiguration.cs% %(@-
+%16&OrchardCore.Email.SmtpEncryptionMethod"3OrchardCore.Email.SmtpSettings.EncryptionMethod.set*+
+)
+optionsOrchardCore.Email.SmtpSettings*/
+-
+%15&OrchardCore.Email.SmtpEncryptionMethodœ
+™
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpSettingsConfiguration.cs&+ &(H
+%17bool"7OrchardCore.Email.SmtpSettings.AutoSelectEncryption.get*,
+*
+settingsOrchardCore.Email.SmtpSettingsª
+§
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpSettingsConfiguration.cs& &(H
+%18bool"7OrchardCore.Email.SmtpSettings.AutoSelectEncryption.set*+
+)
+optionsOrchardCore.Email.SmtpSettings*
+
+%17boolš
+—
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpSettingsConfiguration.cs') '(D
+%19bool"5OrchardCore.Email.SmtpSettings.RequireCredentials.get*,
+*
+settingsOrchardCore.Email.SmtpSettings¨
+¥
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpSettingsConfiguration.cs' '(D
+%20bool"5OrchardCore.Email.SmtpSettings.RequireCredentials.set*+
+)
+optionsOrchardCore.Email.SmtpSettings*
+
+%19bool
+š
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpSettingsConfiguration.cs(, ((J
+%21bool"8OrchardCore.Email.SmtpSettings.UseDefaultCredentials.get*,
+*
+settingsOrchardCore.Email.SmtpSettings«
+¨
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpSettingsConfiguration.cs( ((J
+%22bool"8OrchardCore.Email.SmtpSettings.UseDefaultCredentials.set*+
+)
+optionsOrchardCore.Email.SmtpSettings*
+
+%21bool’
+
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpSettingsConfiguration.cs) )(0
+%23string"+OrchardCore.Email.SmtpSettings.UserName.get*,
+*
+settingsOrchardCore.Email.SmtpSettings¢
+Ÿ
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpSettingsConfiguration.cs) )(0
+%24string"+OrchardCore.Email.SmtpSettings.UserName.set*+
+)
+optionsOrchardCore.Email.SmtpSettings*
+
+%23string’
+
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpSettingsConfiguration.cs,+ ,(<
+%25string"+OrchardCore.Email.SmtpSettings.Password.get*,
+*
+settingsOrchardCore.Email.SmtpSettingsö
+ó
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpSettingsConfiguration.cs, ,(=
+%26bool""string.IsNullOrWhiteSpace(string?)*
+"
+string*
+
+%25string*
+1
+2*§
+1¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpSettingsConfiguration.cs0 1(Lˆ
+…
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpSettingsConfiguration.cs0$ 0(;B
+%27;Microsoft.AspNetCore.DataProtection.IDataProtectionProvider"__id*“*6
+4OrchardCore.Email.Services.SmtpSettingsConfiguration"V
+_dataProtectionProvider;Microsoft.AspNetCore.DataProtection.IDataProtectionProviderŸœ
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpSettingsConfiguration.cs0$ 0(n9
+%282Microsoft.AspNetCore.DataProtection.IDataProtector"SMicrosoft.AspNetCore.DataProtection.IDataProtectionProvider.CreateProtector(string)*D
+B
+%27;Microsoft.AspNetCore.DataProtection.IDataProtectionProvider*
+""2CreateProtector(string)¬
+©
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpSettingsConfiguration.cs0 0(n?
+	protector2Microsoft.AspNetCore.DataProtection.IDataProtector"__id*;
+9
+%282Microsoft.AspNetCore.DataProtection.IDataProtector’
+
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpSettingsConfiguration.cs1; 1(L
+%29string"+OrchardCore.Email.SmtpSettings.Password.get*,
+*
+settingsOrchardCore.Email.SmtpSettingsÞ
+Û
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpSettingsConfiguration.cs1' 1(M
+%30string"ˆMicrosoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Unprotect(Microsoft.AspNetCore.DataProtection.IDataProtector, string)*F"D
+BMicrosoft.AspNetCore.DataProtection.DataProtectionCommonExtensions*A
+?
+	protector2Microsoft.AspNetCore.DataProtection.IDataProtector*
+
+%29string¢
+Ÿ
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpSettingsConfiguration.cs1 1(M
+%31string"+OrchardCore.Email.SmtpSettings.Password.set*+
+)
+optionsOrchardCore.Email.SmtpSettings*
+
+%30string*
+3
+2*ô
+3£
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpSettingsConfiguration.cs5 5(‚È
+Å
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpSettingsConfiguration.cs5 5(+
+%32$Microsoft.Extensions.Logging.ILogger"__id*k*i6
+4OrchardCore.Email.Services.SmtpSettingsConfiguration"/
+_logger$Microsoft.Extensions.Logging.ILoggerø
+õ
+£
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpSettingsConfiguration.cs5 5(ƒ
+%33void"uMicrosoft.Extensions.Logging.LoggerExtensions.LogError(Microsoft.Extensions.Logging.ILogger, string, params object[])*1"/
+-Microsoft.Extensions.Logging.LoggerExtensions*-
++
+%32$Microsoft.Extensions.Logging.ILogger*_]
+[The Smtp password could not be decrypted. It may have been encrypted using a different key.*
+""*
+2*å
+2¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpSettingsConfiguration.cs8	 8(	"º
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpSettingsConfiguration.cs8 8(	
+implicit return:)
+optionsOrchardCore.Email.SmtpSettingsB86
+4OrchardCore.Email.Services.SmtpSettingsConfiguration

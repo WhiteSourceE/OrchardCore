@@ -1,0 +1,68 @@
+
+POrchardCore.Documents.DocumentEntityManager<TDocumentEntity>.GetAsync<T>(string) 
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentEntityManager.cs (%"0*ó
+0 
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentEntityManager.cs (Bò
+ï
+ 
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentEntityManager.cs! (17
+%01OrchardCore.Documents.IDocumentManager<TDocument>"__id*Š*‡>
+<OrchardCore.Documents.DocumentEntityManager<TDocumentEntity>"E
+_documentManager1OrchardCore.Documents.IDocumentManager<TDocument>èå
+ 
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentEntityManager.cs! (M*
+%1$System.Threading.Tasks.Task<TResult>"€OrchardCore.Documents.IDocumentManager<TDocument>.GetOrCreateImmutableAsync(System.Func<System.Threading.Tasks.Task<TDocument>>)*9
+7
+%01OrchardCore.Documents.IDocumentManager<TDocument>*
+""2NGetOrCreateImmutableAsync(System.Func<System.Threading.Tasks.Task<TDocument>>)Ñ
+Î
+ 
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentEntityManager.cs (M
+documentTDocumentEntity"__id*
+""¦£
+ 
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentEntityManager.cs (#"
+%2Newtonsoft.Json.Linq.JObject"+OrchardCore.Entities.IEntity.Properties.get*
+
+documentTDocumentEntity2Properties.getå
+â
+ 
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentEntityManager.cs (C
+
+%3bool"RNewtonsoft.Json.Linq.JObject.TryGetValue(string, out Newtonsoft.Json.Linq.JToken?)*$
+"
+%2Newtonsoft.Json.Linq.JObject*
+
+keystring*&
+$
+valueNewtonsoft.Json.Linq.JToken*
+1
+2*Ü
+1 
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentEntityManager.cs (*‚
+ÿ
+ 
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentEntityManager.cs (*
+%4T")Newtonsoft.Json.Linq.JToken.ToObject<T>()*&
+$
+valueNewtonsoft.Json.Linq.JToken"®
+ 
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentEntityManager.cs (+	
+
+%4T*½
+2 
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentEntityManager.cs (¨¥
+ 
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentEntityManager.cs (B
+%5<OrchardCore.Documents.DocumentEntityManager<TDocumentEntity>"<OrchardCore.Documents.DocumentEntityManager<TDocumentEntity>"é
+ 
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentEntityManager.cs (D
+B
+%5<OrchardCore.Documents.DocumentEntityManager<TDocumentEntity>*á
+3 
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentEntityManager.cs	 (	"¸
+ 
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentEntityManager.cs (	
+implicit return:
+keystringB@>
+<OrchardCore.Documents.DocumentEntityManager<TDocumentEntity>

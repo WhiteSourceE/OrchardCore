@@ -1,0 +1,44 @@
+º
+ÉD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\AdminMenu.cs 8r	
+!"#$xÇ!§
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs_ 88j¥Ω¬œræ	
+ !"$%&'()*+,-./01245679:;<=>@ACEFGHJKLMOQRSUWXYZ[\^_`bcefghijklnopqrsuwxyz{|~ÄÇÉÑÖÜáâãåçéèêëíìîïñóòôõúûü†°¢§•¶®©™´¨≠Æ∞≤≥µ∂∑π∫ªæ¿¡√ƒ∆«»… ÀÃÕŒ–—“”‘’÷◊ÿŸ⁄€‹›ﬁ‡·‚„ÂÊËÈÍÎÏÌÓÒÛÙˆ˜¯˘˙˚¸˝ˇÄÅÇÉÑÖÜáàâäãåçéèëíîïñóòôöõúùû†°¢£§•¶ß®©™´¨≠Æ∞±≤≥¥µ∂π∫ªºΩæø¿¡¬√ƒ≈∆x.Ç≥./012456;=@ACEGJLOQRSU^_bijpru{~ÑÜâãíîñòõ°§•´≠∞≤µ∂ªæ¿√ƒ∆» À–—÷◊€‹›‡‚ÂÎÌÒÛ˙¸ˇÅÉÑÖÜàäãçëñòú¢§®©™´¨≤≥¥µªΩæ¬Ÿ
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Deployment\PlacementsDeploymentSource.cs	 8r!	
+ "#$%&'(xÇ"æ
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Deployment\PlacementsDeploymentStep.cs 8jr	
+ÇÕ
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Deployment\PlacementsDeploymentStepDriver.cs 8r	
+Çõ
+ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Manifest.csr
+≠
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Models\PlacementsDocument.cs 8r	
+Ç
+π
+ÖD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Permissions.cs 8r	
+ !"Ç–
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Recipes\PlacementStep.cs 8jr"	
+ !"#%&'()*xÇ "#%ƒ
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Services\DatabasePlacementsStore.cs 8jr	Ç¡
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Services\FilePlacementsStore.cs 8jr	
+ÇØ
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Services\IPlacementStore.csj		
+r°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Services\PlacementProvider.cs 8jBr\	 !"#%&'()*+-./1235679;<=>@ACDFGHIJKLNOPQSTUVXYZ[]^_`abdegijklmnopxÇ)*13579;=@CFHNPSUXZ]_dgl‡
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Services\PlacementsManager.cs 8r-	
+ !"$%&(*+-./12356789xÇ &(*/135Ù
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Settings\PlacementContentPartDefinitionDriver.cs 8r2	
+ !"#$%&()*+,-.012345789:Ç #(+03Ö
+≥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Settings\PlacementContentPartFieldDefinitionDisplayDriver.cs
+ 8r8	
+ !#$%&'()*,-./012356789:;=>?@Ç
+#,5˚
+´D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Settings\PlacementContentTypePartDefinitionDriver.cs	 8r7	
+ "#$%&'()+,-./012456789:<=>?Ç	"+4å
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Startup.cs 8j+0r[	
+ "#$%'(),-.1245689:;<=?@ABCDFGHIJKMNOPQRSTVWXYZ[\]^`abcdefghijÇ$%'(),-.168;<?BCFIJMPQ[\efg∫
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\ViewModels\ContentSettingsViewModel.cs 8r	¥
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\ViewModels\EditShapePlacementViewModel.cs 8r		
+ƒ
+°D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\ViewModels\ListShapePlacementsViewModel.cs 8r	
+ Æ
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\ViewModels\ShapePlacementViewModel.cs 8r

@@ -1,0 +1,346 @@
+
+cOrchardCore.Queries.Sql.GraphQL.Queries.SqlQueryFieldTypeProvider.BuildAsync(GraphQL.Types.ISchema)ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.cs% %($"0*Î
+0ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.cs' +(<¸
+˘
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.cs' '(34
+%0.Microsoft.AspNetCore.Http.IHttpContextAccessor"__id*ê*çC
+AOrchardCore.Queries.Sql.GraphQL.Queries.SqlQueryFieldTypeProvider"F
+_httpContextAccessor.Microsoft.AspNetCore.Http.IHttpContextAccessor„‡
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.cs' '(?+
+%1%Microsoft.AspNetCore.Http.HttpContext">Microsoft.AspNetCore.Http.IHttpContextAccessor.HttpContext.get*6
+4
+%0.Microsoft.AspNetCore.Http.IHttpContextAccessor2HttpContext.get∂
+≥
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.cs' '(O
+%2System.IServiceProvider"9Microsoft.AspNetCore.Http.HttpContext.RequestServices.get*-
++
+%1%Microsoft.AspNetCore.Http.HttpContext∏
+µ
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.cs' '(k'
+%3!OrchardCore.Queries.IQueryManager"pMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService<T>(System.IServiceProvider)*M"K
+IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*
+
+%2System.IServiceProviderë
+é
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.cs' '(k1
+queryManager!OrchardCore.Queries.IQueryManager"__id*)
+'
+%3!OrchardCore.Queries.IQueryManagerÿ’
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.cs)  )(?*
+%4$System.Threading.Tasks.Task<TResult>"4OrchardCore.Queries.IQueryManager.ListQueriesAsync()*3
+1
+queryManager!OrchardCore.Queries.IQueryManager2ListQueriesAsync()Ò
+Ó
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.cs) )(?4
+queries)System.Collections.Generic.IEnumerable<T>"__id*
+""˙
+˜
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.cs+" +(</
+%5)System.Collections.Generic.IEnumerable<T>"FSystem.Linq.Enumerable.OfType<TResult>(System.Collections.IEnumerable)*"
+System.Linq.Enumerable*6
+4
+queries)System.Collections.Generic.IEnumerable<T>*
+1*µ
+1ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.csS	 S(	*
+2
+3*¬
+2ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.cs- -(:é
+ã
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.cs-. -(:
+%6string"$OrchardCore.Queries.Query.Schema.get*+
+)
+query OrchardCore.Queries.Sql.SqlQuery˘
+ˆ
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.cs- -(;
+
+%7bool""string.IsNullOrWhiteSpace(string?)*
+"
+string*
+
+%6string*
+4
+5*≤
+4ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.csS	 S(	*
+1*ó
+5ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.cs0 0(%å
+â
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.cs0 0(%
+%8string""OrchardCore.Queries.Query.Name.get*+
+)
+query OrchardCore.Queries.Sql.SqlQuery”
+–
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.cs0 0(%
+namestring"__id*
+
+%8string*
+6*´
+
+6ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.cs4 5(7é
+ã
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.cs44 4(@
+%9string"$OrchardCore.Queries.Query.Schema.get*+
+)
+query OrchardCore.Queries.Sql.SqlQuery∞
+≠
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.cs4& 4(A#
+%10Newtonsoft.Json.Linq.JObject"*Newtonsoft.Json.Linq.JObject.Parse(string)* "
+Newtonsoft.Json.Linq.JObject*
+
+%9stringá
+Ñ
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.cs4 4(A+
+querySchemaNewtonsoft.Json.Linq.JObject"__id*%
+#
+%10Newtonsoft.Json.Linq.JObject•
+¢
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.cs5 5(8
+%11bool"0Newtonsoft.Json.Linq.JObject.ContainsKey(string)*-
++
+querySchemaNewtonsoft.Json.Linq.JObject*
+type*
+7
+8*¥
+7ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.cs7 7(y˙
+˜
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.cs7 7(:
+%123Microsoft.Extensions.Logging.ILogger<TCategoryName>"__id*à*ÖC
+AOrchardCore.Queries.Sql.GraphQL.Queries.SqlQueryFieldTypeProvider">
+_logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>Ç
+ˇ
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.cs7 7(z
+%13void"uMicrosoft.Extensions.Logging.LoggerExtensions.LogError(Microsoft.Extensions.Logging.ILogger, string, params object[])*1"/
+-Microsoft.Extensions.Logging.LoggerExtensions*<
+:
+%123Microsoft.Extensions.Logging.ILogger<TCategoryName>*LJ
+HThe Query '{Name}' schema is invalid, the 'type' property was not found.*
+
+namestring*
+1*›	
+8ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.cs: =(Cî
+ë
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.cs: :(2"
+%14Newtonsoft.Json.Linq.JToken"__mapGet*-
++
+querySchemaNewtonsoft.Json.Linq.JObject*
+typeñì
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.cs: :(=
+%15string"&Newtonsoft.Json.Linq.JToken.ToString()*$
+"
+%14Newtonsoft.Json.Linq.JToken2
+ToString()‘
+—
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.cs: :(=
+typestring"__id*
+
+%15stringù
+ö
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.cs=( =(D"
+%16Newtonsoft.Json.Linq.JToken"__mapGet*-
++
+querySchemaNewtonsoft.Json.Linq.JObject*
+fieldTypeName*
+9
+10*Ã
+10ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.cs=E =(Nñì
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.cs=E =(P
+%17string"&Newtonsoft.Json.Linq.JToken.ToString()*$
+"
+%16Newtonsoft.Json.Linq.JToken2
+ToString()*
+9*∑
+9ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.csS	 S(	*
+11
+12*
+11ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.cs=T =(^ç
+ä
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.cs=T =(^
+%21string""OrchardCore.Queries.Query.Name.get*+
+)
+query OrchardCore.Queries.Sql.SqlQuery”
+–
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.cs=T =(^
+%20string"__id*
+
+%21string”
+–
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.cs=T =(^
+%18string"__id*
+
+%20string*
+12*˚
+12ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.cs= ?(Z›
+⁄
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.cs= =(^
+fieldTypeNamestring"__id*
+
+%18string¬
+ø
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.cs?8 ?(Z
+%22"__id*
+""õ
+ò
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.cs? ?([
+%23bool"2string.StartsWith(string, System.StringComparison)*
+
+typestring*
+ContentItem/*
+
+%22*
+13
+14*∆
+13ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.csA B(gÒ
+Ó
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.csA* A(<
+%24string"string.Remove(int, int)*
+
+typestring*2 *2€
+ÿ
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.csA A(<
+contentTypestring"__id*
+
+%24stringø
+º
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.csB$ B(h
+%25GraphQL.Types.FieldType"§OrchardCore.Queries.Sql.GraphQL.Queries.SqlQueryFieldTypeProvider.BuildContentTypeFieldType(GraphQL.Types.ISchema, string, OrchardCore.Queries.Sql.SqlQuery, string)*EC
+AOrchardCore.Queries.Sql.GraphQL.Queries.SqlQueryFieldTypeProvider*!
+
+schemaGraphQL.Types.ISchema*
+
+contentTypestring*+
+)
+query OrchardCore.Queries.Sql.SqlQuery*
+
+fieldTypeNamestring˚
+¯
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.csB B(h$
+	fieldTypeGraphQL.Types.FieldType"__id* 
+
+%25GraphQL.Types.FieldType*
+15*Â
+14ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.csF F(_∞
+≠
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.csF$ F(`
+%26GraphQL.Types.FieldType"¢OrchardCore.Queries.Sql.GraphQL.Queries.SqlQueryFieldTypeProvider.BuildSchemaBasedFieldType(OrchardCore.Queries.Sql.SqlQuery, Newtonsoft.Json.Linq.JToken, string)*EC
+AOrchardCore.Queries.Sql.GraphQL.Queries.SqlQueryFieldTypeProvider*+
+)
+query OrchardCore.Queries.Sql.SqlQuery*-
++
+querySchemaNewtonsoft.Json.Linq.JObject*
+
+fieldTypeNamestring˚
+¯
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.csF F(`$
+	fieldTypeGraphQL.Types.FieldType"__id* 
+
+%26GraphQL.Types.FieldType*
+15*’
+15ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.csI I()ö
+ó
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.csI I()
+%27bool""object.operator !=(object, object)*
+"
+object*&
+$
+	fieldTypeGraphQL.Types.FieldType*
+""*
+16
+17*·
+16ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.csK K(7£†
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.csK K($%
+%28GraphQL.Types.IObjectGraphType"GraphQL.Types.ISchema.Query.get*!
+
+schemaGraphQL.Types.ISchema2	Query.getÑÅ
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.csK K(8
+%29GraphQL.Types.FieldType"AGraphQL.Types.IComplexGraphType.AddField(GraphQL.Types.FieldType)*'
+%
+%28GraphQL.Types.IObjectGraphType*&
+$
+	fieldTypeGraphQL.Types.FieldType2!AddField(GraphQL.Types.FieldType)*
+17*∑
+17ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.csS	 S(	*
+18
+1*¬
+18ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.csP P(Y˙
+˜
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.csP P(:
+%303Microsoft.Extensions.Logging.ILogger<TCategoryName>"__id*à*ÖC
+AOrchardCore.Queries.Sql.GraphQL.Queries.SqlQueryFieldTypeProvider">
+_logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>è
+å
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.csP P(Z
+%31void"áMicrosoft.Extensions.Logging.LoggerExtensions.LogError(Microsoft.Extensions.Logging.ILogger, System.Exception, string, params object[])*1"/
+-Microsoft.Extensions.Logging.LoggerExtensions*<
+:
+%303Microsoft.Extensions.Logging.ILogger<TCategoryName>*
+
+eSystem.Exception*-+
+)The Query '{Name}' has an invalid schema.*
+
+namestring*
+1*Ô
+3ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.csS	 S(	"ø
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Sql\GraphQL\SqlQueryFieldTypeProvider.csS S(	
+implicit return:
+schemaGraphQL.Types.ISchemaBEC
+AOrchardCore.Queries.Sql.GraphQL.Queries.SqlQueryFieldTypeProvider

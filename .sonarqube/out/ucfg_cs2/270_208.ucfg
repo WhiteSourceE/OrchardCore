@@ -1,0 +1,155 @@
+
+gOrchardCore.Rules.Services.RoleConditionEvaluator.EvaluateAsync(OrchardCore.Rules.Models.RoleCondition)Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Rules\Services\RoleConditionEvaluator.cs( (5"0*ú
+0Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Rules\Services\RoleConditionEvaluator.cs "(9Ô
+Ñ
+Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Rules\Services\RoleConditionEvaluator.cs  ((3
+%0-Microsoft.AspNetCore.Identity.IdentityOptions"__id*r*p3
+1OrchardCore.Rules.Services.RoleConditionEvaluator"9
+_options-Microsoft.AspNetCore.Identity.IdentityOptionsÙ
+Ö
+Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Rules\Services\RoleConditionEvaluator.cs  (79
+%13Microsoft.AspNetCore.Identity.ClaimsIdentityOptions"@Microsoft.AspNetCore.Identity.IdentityOptions.ClaimsIdentity.get*5
+3
+%0-Microsoft.AspNetCore.Identity.IdentityOptions·
+´
+Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Rules\Services\RoleConditionEvaluator.cs  (E
+%2string"EMicrosoft.AspNetCore.Identity.ClaimsIdentityOptions.RoleClaimType.get*;
+9
+%13Microsoft.AspNetCore.Identity.ClaimsIdentityOptionsÔ
+Ñ
+Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Rules\Services\RoleConditionEvaluator.cs (E
+roleClaimTypestring"__id*
+
+%2stringÛ
+Ø
+Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Rules\Services\RoleConditionEvaluator.cs #  (42
+%3,OrchardCore.Rules.IConditionOperatorResolver"__id*z*x3
+1OrchardCore.Rules.Services.RoleConditionEvaluator"A
+_operatorResolver,OrchardCore.Rules.IConditionOperatorResolverÁ
+¾
+Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Rules\Services\RoleConditionEvaluator.cs I  (\-
+%4'OrchardCore.Rules.Models.StringOperator"4OrchardCore.Rules.Models.RoleCondition.Operation.get*5
+3
+	condition&OrchardCore.Rules.Models.RoleConditionØÕ
+Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Rules\Services\RoleConditionEvaluator.cs #  (])
+%5#OrchardCore.Rules.IOperatorComparer"eOrchardCore.Rules.IConditionOperatorResolver.GetOperatorComparer(OrchardCore.Rules.ConditionOperator)*4
+2
+%3,OrchardCore.Rules.IConditionOperatorResolver*/
+-
+%4'OrchardCore.Rules.Models.StringOperator28GetOperatorComparer(OrchardCore.Rules.ConditionOperator)‘
+Ž
+Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Rules\Services\RoleConditionEvaluator.cs   (]7
+operatorComparer#OrchardCore.Rules.IOperatorComparer"__id*+
+)
+%5#OrchardCore.Rules.IOperatorComparerâ
+ß
+Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Rules\Services\RoleConditionEvaluator.cs" "((4
+%6.Microsoft.AspNetCore.Http.IHttpContextAccessor"__id**}3
+1OrchardCore.Rules.Services.RoleConditionEvaluator"F
+_httpContextAccessor.Microsoft.AspNetCore.Http.IHttpContextAccessorÛØ
+Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Rules\Services\RoleConditionEvaluator.cs" "(4+
+%7%Microsoft.AspNetCore.Http.HttpContext">Microsoft.AspNetCore.Http.IHttpContextAccessor.HttpContext.get*6
+4
+%6.Microsoft.AspNetCore.Http.IHttpContextAccessor2HttpContext.get²
+¯
+Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Rules\Services\RoleConditionEvaluator.cs" "(9,
+%8&System.Security.Claims.ClaimsPrincipal".Microsoft.AspNetCore.Http.HttpContext.User.get*-
++
+%7%Microsoft.AspNetCore.Http.HttpContext*
+1
+2*ð
+2Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Rules\Services\RoleConditionEvaluator.cs": $([ÅÂ
+Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Rules\Services\RoleConditionEvaluator.cs"; "(A/
+%9)System.Collections.Generic.IEnumerable<T>"1System.Security.Claims.ClaimsPrincipal.Claims.get*.
+,
+%8&System.Security.Claims.ClaimsPrincipal2
+Claims.getû
+ø
+Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Rules\Services\RoleConditionEvaluator.cs": $(\
+%10bool"pSystem.Linq.Enumerable.Any<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
+System.Linq.Enumerable*1
+/
+%9)System.Collections.Generic.IEnumerable<T>*
+""*
+1*™
+1Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Rules\Services\RoleConditionEvaluator.cs" %(!é
+æ
+Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Rules\Services\RoleConditionEvaluator.cs" %(!
+%11bool"&System.Nullable<T>.GetValueOrDefault()*
+
+%10bool*
+3
+4*”
+3Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Rules\Services\RoleConditionEvaluator.cs%$ %((¿
+¼
+Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Rules\Services\RoleConditionEvaluator.cs%$ %((0
+%15)System.Threading.Tasks.ValueTask<TResult>"__id*`*^)
+'OrchardCore.Rules.ConditionEvaluator<T>"1
+True)System.Threading.Tasks.ValueTask<TResult>‘
+Ž
+Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Rules\Services\RoleConditionEvaluator.cs%$ %((0
+%13)System.Threading.Tasks.ValueTask<TResult>"__id*2
+0
+%15)System.Threading.Tasks.ValueTask<TResult>‘
+Ž
+Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Rules\Services\RoleConditionEvaluator.cs%$ %((0
+%12)System.Threading.Tasks.ValueTask<TResult>"__id*2
+0
+%13)System.Threading.Tasks.ValueTask<TResult>*
+5*•
+4Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Rules\Services\RoleConditionEvaluator.cs%+ %(0À
+½
+Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Rules\Services\RoleConditionEvaluator.cs%+ %(00
+%16)System.Threading.Tasks.ValueTask<TResult>"__id*a*_)
+'OrchardCore.Rules.ConditionEvaluator<T>"2
+False)System.Threading.Tasks.ValueTask<TResult>‘
+Ž
+Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Rules\Services\RoleConditionEvaluator.cs%+ %(00
+%14)System.Threading.Tasks.ValueTask<TResult>"__id*2
+0
+%16)System.Threading.Tasks.ValueTask<TResult>‘
+Ž
+Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Rules\Services\RoleConditionEvaluator.cs%+ %(00
+%12)System.Threading.Tasks.ValueTask<TResult>"__id*2
+0
+%14)System.Threading.Tasks.ValueTask<TResult>*
+5*þ
+5Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Rules\Services\RoleConditionEvaluator.cs&	 &(	"Ö
+Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Rules\Services\RoleConditionEvaluator.cs" %(12
+0
+%12)System.Threading.Tasks.ValueTask<TResult>*ß
+6Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Rules\Services\RoleConditionEvaluator.cs&	 &(	"·
+Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Rules\Services\RoleConditionEvaluator.cs& &(	
+implicit return:3
+	condition&OrchardCore.Rules.Models.RoleConditionB53
+1OrchardCore.Rules.Services.RoleConditionEvaluator

@@ -1,0 +1,118 @@
+
+ÅOrchardCore.OpenId.Services.Managers.OpenIdTokenManager<TToken>.FindByPhysicalIdAsync(string, System.Threading.CancellationToken)¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdTokenManager.cs!) !(>"0*™
+0¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdTokenManager.cs# #(/˜
+Ù
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdTokenManager.cs# #(0
+
+%0bool"string.IsNullOrEmpty(string?)*
+"
+string*
+
+
+identifierstring*
+1
+2*ﬁ
+1¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdTokenManager.cs% %(i‚ﬂ
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdTokenManager.cs% %(j
+%1System.ArgumentException"System.ArgumentException…
+∆
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdTokenManager.cs% %(+
+
+%2void"<System.ArgumentException.ArgumentException(string?, string?)* 
+
+%1System.ArgumentException*+)
+'The identifier cannot be null or empty.*
+""*
+3*¡
+2¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdTokenManager.cs( ((;”
+–
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdTokenManager.cs( ((;
+%35OpenIddict.Abstractions.IOpenIddictTokenStore<TToken>"8OpenIddict.Core.OpenIddictTokenManager<TToken>.Store.get*20
+.OpenIddict.Core.OpenIddictTokenManager<TToken>∏
+µ
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdTokenManager.cs( ((;I
+store@OrchardCore.OpenId.Abstractions.Stores.IOpenIdTokenStore<TToken>"__id*=
+;
+%35OpenIddict.Abstractions.IOpenIddictTokenStore<TToken>*
+4
+5*õ
+
+4¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdTokenManager.cs) )(I¡æ
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdTokenManager.cs) )(J/
+%7)System.Threading.Tasks.ValueTask<TResult>"ÇOrchardCore.OpenId.Abstractions.Stores.IOpenIdTokenStore<TToken>.FindByPhysicalIdAsync(string, System.Threading.CancellationToken)*K
+I
+store@OrchardCore.OpenId.Abstractions.Stores.IOpenIdTokenStore<TToken>*
+
+
+identifierstring*9
+7
+cancellationToken"System.Threading.CancellationToken2AFindByPhysicalIdAsync(string, System.Threading.CancellationToken)í
+è
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdTokenManager.cs) )(J/
+%5)System.Threading.Tasks.ValueTask<TResult>"__id*1
+/
+%7)System.Threading.Tasks.ValueTask<TResult>í
+è
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdTokenManager.cs) )(J/
+%4)System.Threading.Tasks.ValueTask<TResult>"__id*1
+/
+%5)System.Threading.Tasks.ValueTask<TResult>*
+6*«
+5¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdTokenManager.cs* *(A”
+–
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdTokenManager.cs* *(;
+%85OpenIddict.Abstractions.IOpenIddictTokenStore<TToken>"8OpenIddict.Core.OpenIddictTokenManager<TToken>.Store.get*20
+.OpenIddict.Core.OpenIddictTokenManager<TToken>óî
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdTokenManager.cs* *(B/
+%9)System.Threading.Tasks.ValueTask<TResult>"oOpenIddict.Abstractions.IOpenIddictTokenStore<TToken>.FindByIdAsync(string, System.Threading.CancellationToken)*=
+;
+%85OpenIddict.Abstractions.IOpenIddictTokenStore<TToken>*
+
+
+identifierstring*9
+7
+cancellationToken"System.Threading.CancellationToken29FindByIdAsync(string, System.Threading.CancellationToken)í
+è
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdTokenManager.cs* *(B/
+%6)System.Threading.Tasks.ValueTask<TResult>"__id*1
+/
+%9)System.Threading.Tasks.ValueTask<TResult>í
+è
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdTokenManager.cs* *(B/
+%4)System.Threading.Tasks.ValueTask<TResult>"__id*1
+/
+%6)System.Threading.Tasks.ValueTask<TResult>*
+6*É
+6¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdTokenManager.cs+	 +(	"ÿ
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdTokenManager.cs( *(C1
+/
+%4)System.Threading.Tasks.ValueTask<TResult>*Â
+3¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdTokenManager.cs+	 +(	"∫
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdTokenManager.cs+ +(	
+implicit return:
+
+identifierstring:7
+cancellationToken"System.Threading.CancellationTokenBCA
+?OrchardCore.OpenId.Services.Managers.OpenIdTokenManager<TToken>

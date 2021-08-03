@@ -1,0 +1,16 @@
+¼
+°D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Index.cshtml.g.csutf-8Ý
+ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\obj\Debug\netcoreapp3.1\Razor\Views\Items\SiteSettingsDeploymentStep.Fields.Edit.cshtml.g.csutf-8à
+ÔD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\obj\Debug\netcoreapp3.1\Razor\Views\Items\SiteSettingsDeploymentStep.Fields.Summary.cshtml.g.csutf-8â
+ÖD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\obj\Debug\netcoreapp3.1\Razor\Views\Items\SiteSettingsDeploymentStep.Fields.Thumbnail.cshtml.g.csutf-8å
+ÙD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\obj\Debug\netcoreapp3.1\Razor\Views\Items\SiteSettingsPropertyDeploymentStep.Fields.Edit.cshtml.g.csutf-8è
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\obj\Debug\netcoreapp3.1\Razor\Views\Items\SiteSettingsPropertyDeploymentStep.Fields.Summary.cshtml.g.csutf-8ê
+ÞD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\obj\Debug\netcoreapp3.1\Razor\Views\Items\SiteSettingsPropertyDeploymentStep.Fields.Thumbnail.cshtml.g.csutf-8Î
+ÂD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\obj\Debug\netcoreapp3.1\Razor\Views\NavigationItemText-general.Id.cshtml.g.csutf-8¾
+²D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\obj\Debug\netcoreapp3.1\Razor\Views\Settings.Edit.cshtml.g.csutf-8×
+ËD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\obj\Debug\netcoreapp3.1\Razor\Views\Shared\DisplayTemplates\CurrentCulture.cshtml.g.csutf-8Ù
+ÍD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\obj\Debug\netcoreapp3.1\Razor\Views\Shared\DisplayTemplates\RemovableCulture.cshtml.g.csutf-8Â
+¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\obj\Debug\netcoreapp3.1\Razor\Views\SiteSettings.Edit.cshtml.g.csutf-8È
+¼D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\obj\Debug\netcoreapp3.1\Razor\Views\SiteSettings.SaveButton.cshtml.g.csutf-8½
+±D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.csutf-8È
+¼D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Settings\obj\Debug\netcoreapp3.1\OrchardCore.Settings.RazorTargetAssemblyInfo.csutf-8

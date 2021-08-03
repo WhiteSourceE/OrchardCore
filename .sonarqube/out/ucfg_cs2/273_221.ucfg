@@ -1,0 +1,94 @@
+
+ØOrchardCore.Forms.Workflows.Activities.AddModelValidationErrorTask.Execute(OrchardCore.Workflows.Models.WorkflowExecutionContext, OrchardCore.Workflows.Models.ActivityContext)∞
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Forms\Workflows\Activities\AddModelValidationErrorTask.cs00 0(7"0*ï
+0∞
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Forms\Workflows\Activities\AddModelValidationErrorTask.cs2 4(®
+•
+∞
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Forms\Workflows\Activities\AddModelValidationErrorTask.cs2 2(.E
+%0?OrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessor"__id*¢*üD
+BOrchardCore.Forms.Workflows.Activities.AddModelValidationErrorTask"W
+_updateModelAccessor?OrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessor¢ü
+∞
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Forms\Workflows\Activities\AddModelValidationErrorTask.cs2 2(;=
+%17OrchardCore.DisplayManagement.ModelBinding.IUpdateModel"POrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessor.ModelUpdater.get*G
+E
+%0?OrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessor2ModelUpdater.get¡
+æ
+∞
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Forms\Workflows\Activities\AddModelValidationErrorTask.cs2 2(;B
+updater7OrchardCore.DisplayManagement.ModelBinding.IUpdateModel"__id*?
+=
+%17OrchardCore.DisplayManagement.ModelBinding.IUpdateModel¿
+Ω
+∞
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Forms\Workflows\Activities\AddModelValidationErrorTask.cs4 4(
+
+%2bool""object.operator ==(object, object)*
+"
+object*D
+B
+updater7OrchardCore.DisplayManagement.ModelBinding.IUpdateModel*
+""*
+1
+2*ª
+1∞
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Forms\Workflows\Activities\AddModelValidationErrorTask.cs6 6(yÄ˝
+∞
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Forms\Workflows\Activities\AddModelValidationErrorTask.cs6 6(z&
+%3 System.InvalidOperationException" System.InvalidOperationException˙
+˜
+∞
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Forms\Workflows\Activities\AddModelValidationErrorTask.cs6 6(3
+
+%4void"CSystem.InvalidOperationException.InvalidOperationException(string?)*(
+&
+%3 System.InvalidOperationException*GE
+CCannot add model validation errors when there's no Updater present.*
+3*˜
+2∞
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Forms\Workflows\Activities\AddModelValidationErrorTask.cs9 :("ñì
+∞
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Forms\Workflows\Activities\AddModelValidationErrorTask.cs9 9(@
+%5:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary"FOrchardCore.DisplayManagement.ModelBinding.IUpdateModel.ModelState.get*D
+B
+updater7OrchardCore.DisplayManagement.ModelBinding.IUpdateModel2ModelState.getÿ
+’
+∞
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Forms\Workflows\Activities\AddModelValidationErrorTask.cs9- 9(0
+%6string"JOrchardCore.Forms.Workflows.Activities.AddModelValidationErrorTask.Key.get*FD
+BOrchardCore.Forms.Workflows.Activities.AddModelValidationErrorTask·
+ﬁ
+∞
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Forms\Workflows\Activities\AddModelValidationErrorTask.cs92 9(>
+%7string"SOrchardCore.Forms.Workflows.Activities.AddModelValidationErrorTask.ErrorMessage.get*FD
+BOrchardCore.Forms.Workflows.Activities.AddModelValidationErrorTaskÄ
+˝
+∞
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Forms\Workflows\Activities\AddModelValidationErrorTask.cs9 9(?
+
+%8void"XMicrosoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary.AddModelError(string, string)*B
+@
+%5:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary*
+
+%6string*
+
+%7stringÎ
+Ë
+∞
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Forms\Workflows\Activities\AddModelValidationErrorTask.cs: :(#>
+%98OrchardCore.Workflows.Activities.ActivityExecutionResult":OrchardCore.Workflows.Activities.Activity.Outcomes(string)*-+
+)OrchardCore.Workflows.Activities.Activity*
+Done"ı
+∞
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Forms\Workflows\Activities\AddModelValidationErrorTask.cs: :($@
+>
+%98OrchardCore.Workflows.Activities.ActivityExecutionResult*Å
+3∞
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Forms\Workflows\Activities\AddModelValidationErrorTask.cs;	 ;(	"»
+∞
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Forms\Workflows\Activities\AddModelValidationErrorTask.cs; ;(	
+implicit return:H
+workflowContext5OrchardCore.Workflows.Models.WorkflowExecutionContext:?
+activityContext,OrchardCore.Workflows.Models.ActivityContextBFD
+BOrchardCore.Forms.Workflows.Activities.AddModelValidationErrorTask

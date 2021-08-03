@@ -1,0 +1,448 @@
+
+DOrchardCore.Lists.Controllers.RemotePublishingController.Rsd(string)¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs) (,"8*√
+0¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs (0œ
+Ã
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs (*
+%0$Microsoft.Extensions.Logging.ILogger"__id*o*m:
+8OrchardCore.Lists.Controllers.RemotePublishingController"/
+_logger$Microsoft.Extensions.Logging.ILogger¿
+Ω
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs" (0
+%1"__id*
+""˜Ù
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs (1
+
+%2bool"UMicrosoft.Extensions.Logging.ILogger.IsEnabled(Microsoft.Extensions.Logging.LogLevel)*,
+*
+%0$Microsoft.Extensions.Logging.ILogger*
+
+%120IsEnabled(Microsoft.Extensions.Logging.LogLevel)*
+1
+2*±
+1¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs (0œ
+Ã
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs (*
+%3$Microsoft.Extensions.Logging.ILogger"__id*o*m:
+8OrchardCore.Lists.Controllers.RemotePublishingController"/
+_logger$Microsoft.Extensions.Logging.ILogger´
+®
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs (1
+
+%4void"uMicrosoft.Extensions.Logging.LoggerExtensions.LogDebug(Microsoft.Extensions.Logging.ILogger, string, params object[])*1"/
+-Microsoft.Extensions.Logging.LoggerExtensions*,
+*
+%3$Microsoft.Extensions.Logging.ILogger*
+RSD requested*
+""*
+2*∆
+2¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs  "(#Í
+Á
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs $  (33
+%5-OrchardCore.ContentManagement.IContentManager"__id*Ä*~:
+8OrchardCore.Lists.Controllers.RemotePublishingController"@
+_contentManager-OrchardCore.ContentManagement.IContentManager¸˘
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs $  (K*
+%6$System.Threading.Tasks.Task<TResult>">OrchardCore.ContentManagement.IContentManager.GetAsync(string)*5
+3
+%5-OrchardCore.ContentManagement.IContentManager*
+
+contentItemIdstring2GetAsync(string)Ù
+Ò
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs   (K8
+contentItem)OrchardCore.ContentManagement.ContentItem"__id*
+""¨
+©
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs" "(#
+
+%7bool""object.operator ==(object, object)*
+"
+object*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItem*
+""*
+3
+4*‘
+3¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs$ $(!»≈
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs$ $(!-
+%8'Microsoft.AspNetCore.Mvc.NotFoundResult"2Microsoft.AspNetCore.Mvc.ControllerBase.NotFound()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2
+NotFound()"⁄
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs$ $("/
+-
+%8'Microsoft.AspNetCore.Mvc.NotFoundResult*ü	
+4¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs' )( ¥
+±
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs' '(5'
+%9!OrchardCore.Lists.Models.ListPart"hOrchardCore.ContentManagement.ContentItemExtensions.As<TPart>(OrchardCore.ContentManagement.ContentItem)*7"5
+3OrchardCore.ContentManagement.ContentItemExtensions*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItemå
+â
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs' '(5-
+listPart!OrchardCore.Lists.Models.ListPart"__id*)
+'
+%9!OrchardCore.Lists.Models.ListPart¢
+ü
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs) )( 
+%10bool""object.operator ==(object, object)*
+"
+object*/
+-
+listPart!OrchardCore.Lists.Models.ListPart*
+""*
+5
+6*÷
+5¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs+ +(!…∆
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs+ +(!.
+%11'Microsoft.AspNetCore.Mvc.NotFoundResult"2Microsoft.AspNetCore.Mvc.ControllerBase.NotFound()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2
+NotFound()"€
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs+ +("0
+.
+%11'Microsoft.AspNetCore.Mvc.NotFoundResult*∑j
+6¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs. C(5Ù
+Ò
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs. .(N
+manifestUristring"__id*)'
+%http://archipelago.phrasewise.com/rsd∂
+≥
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs0 0(*
+%12#Microsoft.AspNetCore.Mvc.IUrlHelper"/Microsoft.AspNetCore.Mvc.ControllerBase.Url.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBaseº
+π
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs0W 0(^,
+%13%Microsoft.AspNetCore.Http.HttpRequest"3Microsoft.AspNetCore.Mvc.ControllerBase.Request.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBaseù
+ö
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs0W 0(e
+%14string"0Microsoft.AspNetCore.Http.HttpRequest.Scheme.get*.
+,
+%13%Microsoft.AspNetCore.Http.HttpRequest√
+¿
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs0 0(f
+%15string"xMicrosoft.AspNetCore.Mvc.UrlHelperExtensions.Action(Microsoft.AspNetCore.Mvc.IUrlHelper, string, string, object, string)*0".
+,Microsoft.AspNetCore.Mvc.UrlHelperExtensions*,
+*
+%12#Microsoft.AspNetCore.Mvc.IUrlHelper*	
+Index*
+Home*
+""*
+
+%14string“
+œ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs0 0(f
+urlstring"__id*
+
+%15string∂
+≥
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs3 3(1
+%16System.Xml.Linq.XName")System.Xml.Linq.XName.Get(string, string)*"
+System.Xml.Linq.XName*	
+service*
+
+manifestUristringπ
+∂
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs4 4(A
+%17System.Xml.Linq.XName")System.Xml.Linq.XName.Get(string, string)*"
+System.Xml.Linq.XName*
+
+engineName*
+
+manifestUristringÁ‰
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs4 4(Q
+%18System.Xml.Linq.XElement"System.Xml.Linq.XElementœ
+Ã
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs4 4(
+%19void"@System.Xml.Linq.XElement.XElement(System.Xml.Linq.XName, object)*!
+
+%18System.Xml.Linq.XElement*
+
+%17System.Xml.Linq.XName*
+Orchard CMSπ
+∂
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs5 5(A
+%20System.Xml.Linq.XName")System.Xml.Linq.XName.Get(string, string)*"
+System.Xml.Linq.XName*
+
+engineLink*
+
+manifestUristringÁ‰
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs5 5(]
+%21System.Xml.Linq.XElement"System.Xml.Linq.XElement€
+ÿ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs5 5(
+%22void"@System.Xml.Linq.XElement.XElement(System.Xml.Linq.XName, object)*!
+
+%21System.Xml.Linq.XElement*
+
+%20System.Xml.Linq.XName*
+https://orchardcore.netª
+∏
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs6 6(C
+%23System.Xml.Linq.XName")System.Xml.Linq.XName.Get(string, string)*"
+System.Xml.Linq.XName*
+homePageLink*
+
+manifestUristringÁ‰
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs6 6(_
+%24System.Xml.Linq.XElement"System.Xml.Linq.XElement€
+ÿ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs6 6(
+%25void"@System.Xml.Linq.XElement.XElement(System.Xml.Linq.XName, object)*!
+
+%24System.Xml.Linq.XElement*
+
+%23System.Xml.Linq.XName*
+https://orchardcore.net≥
+∞
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs7 7(;
+%26System.Xml.Linq.XName")System.Xml.Linq.XName.Get(string, string)*"
+System.Xml.Linq.XName*
+apis*
+
+manifestUristring≤
+Ø
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs8! 8(>
+%27System.Xml.Linq.XName")System.Xml.Linq.XName.Get(string, string)*"
+System.Xml.Linq.XName*
+api*
+
+manifestUristringÎË
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs9 9(<!
+%28System.Xml.Linq.XAttribute"System.Xml.Linq.XAttributeæ
+ª
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs9 9(&
+%29void"DSystem.Xml.Linq.XAttribute.XAttribute(System.Xml.Linq.XName, object)*#
+!
+%28System.Xml.Linq.XAttribute*
+name*
+
+MetaWeblogÎË
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs: :(9!
+%30System.Xml.Linq.XAttribute"System.Xml.Linq.XAttributeª
+∏
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs: :(&
+%31void"DSystem.Xml.Linq.XAttribute.XAttribute(System.Xml.Linq.XName, object)*#
+!
+%30System.Xml.Linq.XAttribute*
+	preferred*
+""ÎË
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs; ;(6!
+%32System.Xml.Linq.XAttribute"System.Xml.Linq.XAttribute¬
+ø
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs; ;(&
+%33void"DSystem.Xml.Linq.XAttribute.XAttribute(System.Xml.Linq.XName, object)*#
+!
+%32System.Xml.Linq.XAttribute*	
+apiLink*
+
+urlstring¥
+±
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs<1 <(J
+%34string";OrchardCore.ContentManagement.ContentItem.ContentItemId.get*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItemÎË
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs< <(K!
+%35System.Xml.Linq.XAttribute"System.Xml.Linq.XAttribute¡
+æ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs< <(&
+%36void"DSystem.Xml.Linq.XAttribute.XAttribute(System.Xml.Linq.XName, object)*#
+!
+%35System.Xml.Linq.XAttribute*
+
+blogID*
+
+%34stringÁ‰
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs8 <(L
+%37System.Xml.Linq.XElement"System.Xml.Linq.XElement€
+ÿ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs8 8( 
+%38void"ISystem.Xml.Linq.XElement.XElement(System.Xml.Linq.XName, params object[])*!
+
+%37System.Xml.Linq.XElement*
+
+%27System.Xml.Linq.XName*#
+!
+%28System.Xml.Linq.XAttribute*#
+!
+%30System.Xml.Linq.XAttribute*#
+!
+%32System.Xml.Linq.XAttribute*#
+!
+%35System.Xml.Linq.XAttributeÁ‰
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs7 <(M
+%39System.Xml.Linq.XElement"System.Xml.Linq.XElement·
+ﬁ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs7 7(
+%40void"@System.Xml.Linq.XElement.XElement(System.Xml.Linq.XName, object)*!
+
+%39System.Xml.Linq.XElement*
+
+%26System.Xml.Linq.XName*!
+
+%37System.Xml.Linq.XElementÁ‰
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs2 <(N
+%41System.Xml.Linq.XElement"System.Xml.Linq.XElement”
+–
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs2 2(&
+%42void"ISystem.Xml.Linq.XElement.XElement(System.Xml.Linq.XName, params object[])*!
+
+%41System.Xml.Linq.XElement*
+
+%16System.Xml.Linq.XName*!
+
+%18System.Xml.Linq.XElement*!
+
+%21System.Xml.Linq.XElement*!
+
+%24System.Xml.Linq.XElement*!
+
+%39System.Xml.Linq.XElement˙
+˜
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs2 <(N#
+optionsSystem.Xml.Linq.XElement"__id*!
+
+%41System.Xml.Linq.XElement≤
+Ø
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs?( ?(E
+%43System.Xml.Linq.XName")System.Xml.Linq.XName.Get(string, string)*"
+System.Xml.Linq.XName*
+rsd*
+
+manifestUristringÎË
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs@( @(H!
+%44System.Xml.Linq.XAttribute"System.Xml.Linq.XAttribute∫
+∑
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs@, @(6
+%45void"DSystem.Xml.Linq.XAttribute.XAttribute(System.Xml.Linq.XName, object)*#
+!
+%44System.Xml.Linq.XAttribute*	
+version*
+1.0Á‰
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs>$ A(0
+%46System.Xml.Linq.XElement"System.Xml.Linq.XElementì
+ê
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs>( >(0
+%47void"ISystem.Xml.Linq.XElement.XElement(System.Xml.Linq.XName, params object[])*!
+
+%46System.Xml.Linq.XElement*
+
+%43System.Xml.Linq.XName*#
+!
+%44System.Xml.Linq.XAttribute*%
+#
+optionsSystem.Xml.Linq.XElementÈÊ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs> A(1 
+%48System.Xml.Linq.XDocument"System.Xml.Linq.XDocument∂
+≥
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs> >(#
+%49void"4System.Xml.Linq.XDocument.XDocument(params object[])*"
+ 
+%48System.Xml.Linq.XDocument*!
+
+%46System.Xml.Linq.XElement¯
+ı
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs> A(1 
+docSystem.Xml.Linq.XDocument"__id*"
+ 
+%48System.Xml.Linq.XDocumentçä
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.csC C()
+%50string" System.Xml.Linq.XNode.ToString()*"
+ 
+docSystem.Xml.Linq.XDocument2
+ToString()Å˛
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.csC C(6-
+%51&Microsoft.AspNetCore.Mvc.ContentResult"?Microsoft.AspNetCore.Mvc.ControllerBase.Content(string, string)*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*
+
+%50string*
+
+text/xml2Content(string, string)"⁄
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.csC C(7/
+-
+%51&Microsoft.AspNetCore.Mvc.ContentResult*Ì
+7¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.csD	 D(	"æ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.csD D(	
+implicit return*ê
+8¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.csB (B‹
+Ÿ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Controllers\RemotePublishingController.cs) (,
+%52"__entrypoint*
+
+contentItemIdstring*
+0:
+contentItemIdstringB<:
+8OrchardCore.Lists.Controllers.RemotePublishingController

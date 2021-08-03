@@ -1,0 +1,374 @@
+
+uOrchardCore.Contents.Deployment.AddToDeploymentPlan.AddToDeploymentPlanController.AddContentItem(int, string, string)ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.cs/) /(7"12*õ
+0¿
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.cs1 1(Äπ
+∂
+ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.cs1 1(->
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*´*®S
+QOrchardCore.Contents.Deployment.AddToDeploymentPlan.AddToDeploymentPlanController"Q
+_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationService“
+œ
+ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.cs1= 1(A,
+%1&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBaseÙ
+Ò
+¿
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.cs1C 1(Ä1
+%2+OrchardCore.Security.Permissions.Permission"__id*s*q*
+(OrchardCore.Deployment.CommonPermissions"C
+ManageDeploymentPlan+OrchardCore.Security.Permissions.Permission¬
+ø
+¿
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.cs1 1(Å*
+%3$System.Threading.Tasks.Task<TResult>"ﬂMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission)*E"C
+AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*@
+>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService*.
+,
+%1&System.Security.Claims.ClaimsPrincipal*3
+1
+%2+OrchardCore.Security.Permissions.Permission*
+1
+2*á
+1ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.cs2 2(pπ
+∂
+ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.cs2 2(+>
+%48Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*´*®S
+QOrchardCore.Contents.Deployment.AddToDeploymentPlan.AddToDeploymentPlanController"Q
+_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationService“
+œ
+ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.cs2; 2(?,
+%5&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBaseÂ
+‚
+ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.cs2A 2(p1
+%6+OrchardCore.Security.Permissions.Permission"__id*e*c*
+(OrchardCore.Deployment.CommonPermissions"5
+Export+OrchardCore.Security.Permissions.Permission¡
+æ
+ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.cs2 2(q*
+%7$System.Threading.Tasks.Task<TResult>"ﬂMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission)*E"C
+AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*@
+>
+%48Microsoft.AspNetCore.Authorization.IAuthorizationService*.
+,
+%5&System.Security.Claims.ClaimsPrincipal*3
+1
+%6+OrchardCore.Security.Permissions.Permission*
+2*Õ
+2ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.cs1 3(*
+3
+4*ó
+3ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.cs5 5(€ÿ
+ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.cs5 5(+
+%8%Microsoft.AspNetCore.Mvc.ForbidResult"0Microsoft.AspNetCore.Mvc.ControllerBase.Forbid()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2Forbid()"Ò
+ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.cs5 5( -
++
+%8%Microsoft.AspNetCore.Mvc.ForbidResult*ˇ
+4ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.cs8 :(&ÿ
+’
+ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.cs8' 8(/
+%9YesSql.ISession"__id*t*rS
+QOrchardCore.Contents.Deployment.AddToDeploymentPlan.AddToDeploymentPlanController"
+_sessionYesSql.ISession˝
+˙
+ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.cs8' 8(Z+
+%10$System.Threading.Tasks.Task<TResult>"BYesSql.SessionExtensions.GetAsync<T>(YesSql.ISession, int, string)*"
+YesSql.SessionExtensions*
+
+%9YesSql.ISession*
+""*
+""å
+â
+ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.cs8 8(Z7
+deploymentPlan%OrchardCore.Deployment.DeploymentPlan"__id*
+""≈
+¬
+ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.cs: :(&
+%11bool""object.operator ==(object, object)*
+"
+object*9
+7
+deploymentPlan%OrchardCore.Deployment.DeploymentPlan*
+""*
+5
+6*°
+5ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.cs< <(!‚ﬂ
+ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.cs< <(!.
+%12'Microsoft.AspNetCore.Mvc.NotFoundResult"2Microsoft.AspNetCore.Mvc.ControllerBase.NotFound()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2
+NotFound()"Ù
+ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.cs< <("0
+.
+%12'Microsoft.AspNetCore.Mvc.NotFoundResult*·
+6ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.cs? A(#û
+õ
+ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.cs?$ ?(34
+%13-OrchardCore.ContentManagement.IContentManager"__id*ö*óS
+QOrchardCore.Contents.Deployment.AddToDeploymentPlan.AddToDeploymentPlanController"@
+_contentManager-OrchardCore.ContentManagement.IContentManageróî
+ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.cs?$ ?(K+
+%14$System.Threading.Tasks.Task<TResult>">OrchardCore.ContentManagement.IContentManager.GetAsync(string)*6
+4
+%13-OrchardCore.ContentManagement.IContentManager*
+
+contentItemIdstring2GetAsync(string)ç
+ä
+ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.cs? ?(K8
+contentItem)OrchardCore.ContentManagement.ContentItem"__id*
+""∆
+√
+ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.csA A(#
+%15bool""object.operator ==(object, object)*
+"
+object*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItem*
+""*
+7
+8*°
+7ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.csC C(!‚ﬂ
+ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.csC C(!.
+%16'Microsoft.AspNetCore.Mvc.NotFoundResult"2Microsoft.AspNetCore.Mvc.ControllerBase.NotFound()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2
+NotFound()"Ù
+ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.csC C("0
+.
+%16'Microsoft.AspNetCore.Mvc.NotFoundResult*Ÿ
+8ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.csH H(l∫
+∑
+ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.csH H(,?
+%178Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*´*®S
+QOrchardCore.Contents.Deployment.AddToDeploymentPlan.AddToDeploymentPlanController"Q
+_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationService”
+–
+ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.csH< H(@-
+%18&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBaseÈ
+Ê
+ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.csHB H(_2
+%19+OrchardCore.Security.Permissions.Permission"__id*h*f(
+&OrchardCore.Contents.CommonPermissions":
+EditContent+OrchardCore.Security.Permissions.Permissionâ
+Ü
+ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.csH H(m+
+%20$System.Threading.Tasks.Task<TResult>"ÁMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission, object)*E"C
+AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*A
+?
+%178Microsoft.AspNetCore.Authorization.IAuthorizationService*/
+-
+%18&System.Security.Claims.ClaimsPrincipal*4
+2
+%19+OrchardCore.Security.Permissions.Permission*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItem*
+9
+10*ô
+9ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.csJ J(‹Ÿ
+ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.csJ J(,
+%21%Microsoft.AspNetCore.Mvc.ForbidResult"0Microsoft.AspNetCore.Mvc.ControllerBase.Forbid()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2Forbid()"Ú
+ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.csJ J( .
+,
+%21%Microsoft.AspNetCore.Mvc.ForbidResult*ﬁ4
+10ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.csM V(*ë
+é
+ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.csM2 M(<0
+%22)System.Collections.Generic.IEnumerable<T>"__id*ë*éS
+QOrchardCore.Contents.Deployment.AddToDeploymentPlan.AddToDeploymentPlanController"7
+
+_factories)System.Collections.Generic.IEnumerable<T>–
+Õ
+ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.csM2 M(}4
+%23-OrchardCore.Deployment.IDeploymentStepFactory"{System.Linq.Enumerable.FirstOrDefault<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
+System.Linq.Enumerable*2
+0
+%22)System.Collections.Generic.IEnumerable<T>*
+""ÓÎ
+¿
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.csM2 M(Ü,
+%24%OrchardCore.Deployment.DeploymentStep"6OrchardCore.Deployment.IDeploymentStepFactory.Create()*6
+4
+%23-OrchardCore.Deployment.IDeploymentStepFactory2Create()É
+Ä
+¿
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.csM M(Ü
+%25"__id*.
+,
+%24%OrchardCore.Deployment.DeploymentStep¨
+©
+¿
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.csM M(ÜU
+stepMOrchardCore.Contents.Deployment.AddToDeploymentPlan.ContentItemDeploymentStep"__id*
+
+%25Õ
+ 
+ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.csN! N(:
+%26string";OrchardCore.ContentManagement.ContentItem.ContentItemId.get*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItemü
+ú
+ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.csN N(:
+%27string"_OrchardCore.Contents.Deployment.AddToDeploymentPlan.ContentItemDeploymentStep.ContentItemId.set*W
+U
+stepMOrchardCore.Contents.Deployment.AddToDeploymentPlan.ContentItemDeploymentStep*
+
+%26stringÊ
+„
+ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.csP P(*)
+%28"System.Collections.Generic.List<T>"9OrchardCore.Deployment.DeploymentPlan.DeploymentSteps.get*9
+7
+deploymentPlan%OrchardCore.Deployment.DeploymentPlanË
+Â
+ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.csP P(4
+%29void"
+__arrayAdd*+
+)
+%28"System.Collections.Generic.List<T>*: *W
+U
+stepMOrchardCore.Contents.Deployment.AddToDeploymentPlan.ContentItemDeploymentStepö
+ó
+ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.csR R(5
+%30.OrchardCore.DisplayManagement.Notify.INotifier"__id*ï*íS
+QOrchardCore.Contents.Deployment.AddToDeploymentPlan.AddToDeploymentPlanController";
+	_notifier.OrchardCore.DisplayManagement.Notify.INotifierû
+õ
+ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.csR R(;
+%314Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer"__id*ì*êS
+QOrchardCore.Contents.Deployment.AddToDeploymentPlan.AddToDeploymentPlanController"9
+H4Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer◊‘
+ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.csR R(U@
+%329Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString"EMicrosoft.AspNetCore.Mvc.Localization.IHtmlLocalizer.this[string].get*=
+;
+%314Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer*64
+2Content added successfully to the deployment plan.2this[string].getπ
+∂
+ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.csR R(V
+%33void"™OrchardCore.DisplayManagement.Notify.NotifierExtensions.Success(OrchardCore.DisplayManagement.Notify.INotifier, Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString)*;"9
+7OrchardCore.DisplayManagement.Notify.NotifierExtensions*7
+5
+%30.OrchardCore.DisplayManagement.Notify.INotifier*B
+@
+%329Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlStringŸ
+÷
+ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.csT T(
+%34YesSql.ISession"__id*t*rS
+QOrchardCore.Contents.Deployment.AddToDeploymentPlan.AddToDeploymentPlanController"
+_sessionYesSql.ISessionˇ¸
+ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.csT T()
+%35void"*YesSql.ISession.Save(object, bool, string)*
+
+%34YesSql.ISession*9
+7
+deploymentPlan%OrchardCore.Deployment.DeploymentPlan*
+""*
+""2Save(object, bool, string)îë
+ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.csV V(+3
+%36,Microsoft.AspNetCore.Mvc.LocalRedirectResult"=Microsoft.AspNetCore.Mvc.ControllerBase.LocalRedirect(string)*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*
+
+	returnUrlstring2LocalRedirect(string)"˘
+ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.csV V(,5
+3
+%36,Microsoft.AspNetCore.Mvc.LocalRedirectResult*†
+11ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.csW	 W(	"◊
+ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.csW W(	
+implicit return*æ
+12ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.cs/u /(uî
+ë
+ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.cs/) /(7
+%37"__entrypoint*
+""*
+
+	returnUrlstring*
+
+contentItemIdstring≥
+∞
+ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.cs.	 .(
+%38"
+__annotate*B@
+>Microsoft.AspNetCore.Mvc.HttpPostAttribute.HttpPostAttribute()*
+
+	returnUrlstringÒ
+Ó
+ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.cs/N /(^
+	returnUrlstring"__annotation*
+
+%38∑
+¥
+ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.cs.	 .(
+%39"
+__annotate*B@
+>Microsoft.AspNetCore.Mvc.HttpPostAttribute.HttpPostAttribute()*
+
+contentItemIdstringı
+Ú
+ø
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Deployment\AddToDeploymentPlan\AddToDeploymentPlanController.cs/` /(t
+contentItemIdstring"__annotation*
+
+%39*
+0:
+deploymentPlanIdint:
+	returnUrlstring:
+contentItemIdstringBUS
+QOrchardCore.Contents.Deployment.AddToDeploymentPlan.AddToDeploymentPlanController

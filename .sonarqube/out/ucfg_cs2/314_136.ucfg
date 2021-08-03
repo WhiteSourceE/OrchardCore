@@ -1,0 +1,231 @@
+
+ïOrchardCore.ContentManagement.Handlers.ContentPartHandlerCoordinator.DraftSavingAsync(OrchardCore.ContentManagement.Handlers.SaveDraftContentContext)¨
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\Handlers\ContentPartHandlerCoordinator.csﬂ# ﬂ(3"0*©
+0¨
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\Handlers\ContentPartHandlerCoordinator.cs· ‚(-≠
+™
+¨
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\Handlers\ContentPartHandlerCoordinator.cs·( ·(AF
+%0@OrchardCore.ContentManagement.Metadata.IContentDefinitionManager"__id*™*ßF
+DOrchardCore.ContentManagement.Handlers.ContentPartHandlerCoordinator"]
+_contentDefinitionManager@OrchardCore.ContentManagement.Metadata.IContentDefinitionManager˚
+¯
+¨
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\Handlers\ContentPartHandlerCoordinator.cs·T ·(g/
+%1)OrchardCore.ContentManagement.ContentItem"IOrchardCore.ContentManagement.Handlers.ContentContextBase.ContentItem.get*K
+I
+context>OrchardCore.ContentManagement.Handlers.SaveDraftContentContextÆ
+´
+¨
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\Handlers\ContentPartHandlerCoordinator.cs·T ·(s
+%2string"9OrchardCore.ContentManagement.ContentItem.ContentType.get*1
+/
+%1)OrchardCore.ContentManagement.ContentItemŒÀ
+¨
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\Handlers\ContentPartHandlerCoordinator.cs·( ·(tI
+%3COrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition"ZOrchardCore.ContentManagement.Metadata.IContentDefinitionManager.GetTypeDefinition(string)*H
+F
+%0@OrchardCore.ContentManagement.Metadata.IContentDefinitionManager*
+
+%2string2GetTypeDefinition(string)„
+‡
+¨
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\Handlers\ContentPartHandlerCoordinator.cs· ·(t\
+contentTypeDefinitionCOrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition"__id*K
+I
+%3COrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition÷
+”
+¨
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\Handlers\ContentPartHandlerCoordinator.cs‚ ‚(-
+
+%4bool""object.operator ==(object, object)*
+"
+object*^
+\
+contentTypeDefinitionCOrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition*
+""*
+1
+2*Ï
+1¨
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\Handlers\ContentPartHandlerCoordinator.csÙ	 Ù(	"∑
+¨
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\Handlers\ContentPartHandlerCoordinator.cs„ „(
+""*Ã
+2¨
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\Handlers\ContentPartHandlerCoordinator.csÂ/ Â(Jí
+è
+¨
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\Handlers\ContentPartHandlerCoordinator.csÂ/ Â(J/
+%5)System.Collections.Generic.IEnumerable<T>"MOrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition.Parts.get*^
+\
+contentTypeDefinitionCOrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition*
+3*∫
+3¨
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\Handlers\ContentPartHandlerCoordinator.csÙ	 Ù(	*
+4
+5*ï&
+4¨
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\Handlers\ContentPartHandlerCoordinator.csÁ Î( ∫
+∑
+¨
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\Handlers\ContentPartHandlerCoordinator.csÁ Á(@I
+%6COrchardCore.ContentManagement.Metadata.Models.ContentPartDefinition"ZOrchardCore.ContentManagement.Metadata.Models.ContentTypePartDefinition.PartDefinition.get*_
+]
+typePartDefinitionGOrchardCore.ContentManagement.Metadata.Models.ContentTypePartDefinition◊
+‘
+¨
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\Handlers\ContentPartHandlerCoordinator.csÁ Á(E
+%7string"HOrchardCore.ContentManagement.Metadata.Models.ContentDefinition.Name.get*K
+I
+%6COrchardCore.ContentManagement.Metadata.Models.ContentPartDefinition‹
+Ÿ
+¨
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\Handlers\ContentPartHandlerCoordinator.csÁ Á(E
+partNamestring"__id*
+
+%7string£
+†
+¨
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\Handlers\ContentPartHandlerCoordinator.csË  Ë(3D
+%8>OrchardCore.ContentManagement.ITypeActivatorFactory<TInstance>"__id*¢*üF
+DOrchardCore.ContentManagement.Handlers.ContentPartHandlerCoordinator"U
+_contentPartFactory>OrchardCore.ContentManagement.ITypeActivatorFactory<TInstance>¬ø
+¨
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\Handlers\ContentPartHandlerCoordinator.csË  Ë(N=
+%97OrchardCore.ContentManagement.ITypeActivator<TInstance>"WOrchardCore.ContentManagement.ITypeActivatorFactory<TInstance>.GetTypeActivator(string)*F
+D
+%8>OrchardCore.ContentManagement.ITypeActivatorFactory<TInstance>*
+
+partNamestring2GetTypeActivator(string)ø
+º
+¨
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\Handlers\ContentPartHandlerCoordinator.csË Ë(ND
+	activator7OrchardCore.ContentManagement.ITypeActivator<TInstance>"__id*?
+=
+%97OrchardCore.ContentManagement.ITypeActivator<TInstance>¸
+˘
+¨
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\Handlers\ContentPartHandlerCoordinator.csÈ È(.0
+%10)OrchardCore.ContentManagement.ContentItem"IOrchardCore.ContentManagement.Handlers.ContentContextBase.ContentItem.get*K
+I
+context>OrchardCore.ContentManagement.Handlers.SaveDraftContentContext⁄◊
+¨
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\Handlers\ContentPartHandlerCoordinator.csÈ3 È(A
+%11System.Type"@OrchardCore.ContentManagement.ITypeActivator<TInstance>.Type.get*F
+D
+	activator7OrchardCore.ContentManagement.ITypeActivator<TInstance>2Type.getÏ
+È
+¨
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\Handlers\ContentPartHandlerCoordinator.csÈC È(Z
+%12string"HOrchardCore.ContentManagement.Metadata.Models.ContentDefinition.Name.get*_
+]
+typePartDefinitionGOrchardCore.ContentManagement.Metadata.Models.ContentTypePartDefinitionÔ
+Ï
+¨
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\Handlers\ContentPartHandlerCoordinator.csÈ È([3
+%13,OrchardCore.ContentManagement.ContentElement"vOrchardCore.ContentManagement.ContentExtensions.Get(OrchardCore.ContentManagement.ContentElement, System.Type, string)*3"1
+/OrchardCore.ContentManagement.ContentExtensions*2
+0
+%10)OrchardCore.ContentManagement.ContentItem*
+
+%11System.Type*
+
+%12string§
+°
+¨
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\Handlers\ContentPartHandlerCoordinator.csÈ È(j3
+%14,OrchardCore.ContentManagement.ContentElement"__id*5
+3
+%13,OrchardCore.ContentManagement.ContentElement¢
+ü
+¨
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\Handlers\ContentPartHandlerCoordinator.csÈ È(j1
+part)OrchardCore.ContentManagement.ContentPart"__id*5
+3
+%14,OrchardCore.ContentManagement.ContentElement¨
+©
+¨
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\Handlers\ContentPartHandlerCoordinator.csÎ Î( 
+%15bool""object.operator !=(object, object)*
+"
+object*3
+1
+part)OrchardCore.ContentManagement.ContentPart*
+""*
+6
+3*§
+6≠
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\Handlers\ContentPartHandlerCoordinator.csÌ Ò(è¥
+±
+¨
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\Handlers\ContentPartHandlerCoordinator.csÌ' Ì(BI
+%16BOrchardCore.ContentManagement.Handlers.IContentPartHandlerResolver"__id*Æ*´F
+DOrchardCore.ContentManagement.Handlers.ContentPartHandlerCoordinator"a
+_contentPartHandlerResolverBOrchardCore.ContentManagement.Handlers.IContentPartHandlerResolverÆ´
+¨
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\Handlers\ContentPartHandlerCoordinator.csÌ' Ì(X*
+%17#System.Collections.Generic.IList<T>"VOrchardCore.ContentManagement.Handlers.IContentPartHandlerResolver.GetHandlers(string)*K
+I
+%16BOrchardCore.ContentManagement.Handlers.IContentPartHandlerResolver*
+
+partNamestring2GetHandlers(string)õ
+ò
+¨
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\Handlers\ContentPartHandlerCoordinator.csÌ Ì(X3
+partHandlers#System.Collections.Generic.IList<T>"__id*,
+*
+%17#System.Collections.Generic.IList<T>‰
+·
+Æ
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\Handlers\ContentPartHandlerCoordinator.csÓá Ó(é+
+%18$Microsoft.Extensions.Logging.ILogger"__id*{*yF
+DOrchardCore.ContentManagement.Handlers.ContentPartHandlerCoordinator"/
+_logger$Microsoft.Extensions.Logging.ILoggerœ
+Ã
+≠
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\Handlers\ContentPartHandlerCoordinator.csÓ Ó(è"
+%19System.Threading.Tasks.Task"€OrchardCore.Modules.InvokeExtensions.InvokeAsync<TEvents, T1, T2>(System.Collections.Generic.IEnumerable<TEvents>, System.Func<TEvents, T1, T2, System.Threading.Tasks.Task>, T1, T2, Microsoft.Extensions.Logging.ILogger)*("&
+$OrchardCore.Modules.InvokeExtensions*5
+3
+partHandlers#System.Collections.Generic.IList<T>*
+""*K
+I
+context>OrchardCore.ContentManagement.Handlers.SaveDraftContentContext*3
+1
+part)OrchardCore.ContentManagement.ContentPart*-
++
+%18$Microsoft.Extensions.Logging.ILoggerÙ
+Ò
+¨
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\Handlers\ContentPartHandlerCoordinator.csÒ Ò('0
+%20)System.Collections.Generic.IEnumerable<T>"__id*á*ÑF
+DOrchardCore.ContentManagement.Handlers.ContentPartHandlerCoordinator":
+_partHandlers)System.Collections.Generic.IEnumerable<T>‰
+·
+Æ
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\Handlers\ContentPartHandlerCoordinator.csÒà Ò(è+
+%21$Microsoft.Extensions.Logging.ILogger"__id*{*yF
+DOrchardCore.ContentManagement.Handlers.ContentPartHandlerCoordinator"/
+_logger$Microsoft.Extensions.Logging.ILoggerÃ
+…
+≠
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\Handlers\ContentPartHandlerCoordinator.csÒ Ò(ê"
+%22System.Threading.Tasks.Task"€OrchardCore.Modules.InvokeExtensions.InvokeAsync<TEvents, T1, T2>(System.Collections.Generic.IEnumerable<TEvents>, System.Func<TEvents, T1, T2, System.Threading.Tasks.Task>, T1, T2, Microsoft.Extensions.Logging.ILogger)*("&
+$OrchardCore.Modules.InvokeExtensions*2
+0
+%20)System.Collections.Generic.IEnumerable<T>*
+""*K
+I
+context>OrchardCore.ContentManagement.Handlers.SaveDraftContentContext*3
+1
+part)OrchardCore.ContentManagement.ContentPart*-
++
+%21$Microsoft.Extensions.Logging.ILogger*
+3*˘
+5¨
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\Handlers\ContentPartHandlerCoordinator.csÙ	 Ù(	"ƒ
+¨
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\Handlers\ContentPartHandlerCoordinator.csÙ Ù(	
+implicit return:I
+context>OrchardCore.ContentManagement.Handlers.SaveDraftContentContextBHF
+DOrchardCore.ContentManagement.Handlers.ContentPartHandlerCoordinator

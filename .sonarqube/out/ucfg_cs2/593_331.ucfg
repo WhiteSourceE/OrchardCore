@@ -1,0 +1,182 @@
+
+EOrchardCore.ContentTypes.Controllers.AdminController.EditPart(string)§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Controllers\AdminController.csÍ( Í(0"6*Ï
+0§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Controllers\AdminController.csÏ Ï(^Å
+˛
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Controllers\AdminController.csÏ Ï(,>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*é*ã6
+4OrchardCore.ContentTypes.Controllers.AdminController"Q
+_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationService∑
+¥
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Controllers\AdminController.csÏ< Ï(@,
+%1&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase–
+Õ
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Controllers\AdminController.csÏB Ï(^1
+%2+OrchardCore.Security.Permissions.Permission"__id*k*i&
+$OrchardCore.ContentTypes.Permissions"?
+EditContentTypes+OrchardCore.Security.Permissions.Permission¶
+£
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Controllers\AdminController.csÏ Ï(_*
+%3$System.Threading.Tasks.Task<TResult>"ﬂMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission)*E"C
+AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*@
+>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService*.
+,
+%1&System.Security.Claims.ClaimsPrincipal*3
+1
+%2+OrchardCore.Security.Permissions.Permission*
+1
+2*∆
+1§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Controllers\AdminController.csÓ Ó(¿Ω
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Controllers\AdminController.csÓ Ó(+
+%4%Microsoft.AspNetCore.Mvc.ForbidResult"0Microsoft.AspNetCore.Mvc.ControllerBase.Forbid()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2Forbid()"÷
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Controllers\AdminController.csÓ Ó( -
++
+%4%Microsoft.AspNetCore.Mvc.ForbidResult*¬
+2§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Controllers\AdminController.csÒ Û(-ï
+í
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Controllers\AdminController.csÒ( Ò(AF
+%5@OrchardCore.ContentManagement.Metadata.IContentDefinitionManager"__id*ö*ó6
+4OrchardCore.ContentTypes.Controllers.AdminController"]
+_contentDefinitionManager@OrchardCore.ContentManagement.Metadata.IContentDefinitionManager∆√
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Controllers\AdminController.csÒ( Ò(WI
+%6COrchardCore.ContentManagement.Metadata.Models.ContentPartDefinition"ZOrchardCore.ContentManagement.Metadata.IContentDefinitionManager.GetPartDefinition(string)*H
+F
+%5@OrchardCore.ContentManagement.Metadata.IContentDefinitionManager*
+
+idstring2GetPartDefinition(string)€
+ÿ
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Controllers\AdminController.csÒ Ò(W\
+contentPartDefinitionCOrchardCore.ContentManagement.Metadata.Models.ContentPartDefinition"__id*K
+I
+%6COrchardCore.ContentManagement.Metadata.Models.ContentPartDefinitionŒ
+À
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Controllers\AdminController.csÛ Û(-
+
+%7bool""object.operator ==(object, object)*
+"
+object*^
+\
+contentPartDefinitionCOrchardCore.ContentManagement.Metadata.Models.ContentPartDefinition*
+""*
+3
+4*Œ
+3§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Controllers\AdminController.csı ı(!∆√
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Controllers\AdminController.csı ı(!-
+%8'Microsoft.AspNetCore.Mvc.NotFoundResult"2Microsoft.AspNetCore.Mvc.ControllerBase.NotFound()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2
+NotFound()"ÿ
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Controllers\AdminController.csı ı("/
+-
+%8'Microsoft.AspNetCore.Mvc.NotFoundResult*˚!
+4§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Controllers\AdminController.cs¯ ˚(!ûõ
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Controllers\AdminController.cs¯ ¯(H;
+%95OrchardCore.ContentTypes.ViewModels.EditPartViewModel"5OrchardCore.ContentTypes.ViewModels.EditPartViewModelÂ
+‚
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Controllers\AdminController.cs¯  ¯(1
+%10void"åOrchardCore.ContentTypes.ViewModels.EditPartViewModel.EditPartViewModel(OrchardCore.ContentManagement.Metadata.Models.ContentPartDefinition)*=
+;
+%95OrchardCore.ContentTypes.ViewModels.EditPartViewModel*^
+\
+contentPartDefinitionCOrchardCore.ContentManagement.Metadata.Models.ContentPartDefinition≥
+∞
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Controllers\AdminController.cs¯ ¯(HB
+	viewModel5OrchardCore.ContentTypes.ViewModels.EditPartViewModel"__id*=
+;
+%95OrchardCore.ContentTypes.ViewModels.EditPartViewModelü
+ú
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Controllers\AdminController.cs˘% ˘(EH
+%11AOrchardCore.ContentTypes.Editors.IContentDefinitionDisplayManager"__id*¢*ü6
+4OrchardCore.ContentTypes.Controllers.AdminController"e
+ _contentDefinitionDisplayManagerAOrchardCore.ContentTypes.Editors.IContentDefinitionDisplayManagerê
+ç
+•
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Controllers\AdminController.cs˘r ˘(ÜF
+%12?OrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessor"__id*î*ë6
+4OrchardCore.ContentTypes.Controllers.AdminController"W
+_updateModelAccessor?OrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessorôñ
+•
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Controllers\AdminController.cs˘r ˘(ì>
+%137OrchardCore.DisplayManagement.ModelBinding.IUpdateModel"POrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessor.ModelUpdater.get*H
+F
+%12?OrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessor2ModelUpdater.get «
+•
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Controllers\AdminController.cs˘% ˘(î+
+%14$System.Threading.Tasks.Task<TResult>"‹OrchardCore.ContentTypes.Editors.IContentDefinitionDisplayManager.BuildPartEditorAsync(OrchardCore.ContentManagement.Metadata.Models.ContentPartDefinition, OrchardCore.DisplayManagement.ModelBinding.IUpdateModel, string)*J
+H
+%11AOrchardCore.ContentTypes.Editors.IContentDefinitionDisplayManager*^
+\
+contentPartDefinitionCOrchardCore.ContentManagement.Metadata.Models.ContentPartDefinition*@
+>
+%137OrchardCore.DisplayManagement.ModelBinding.IUpdateModel*
+""2öBuildPartEditorAsync(OrchardCore.ContentManagement.Metadata.Models.ContentPartDefinition, OrchardCore.DisplayManagement.ModelBinding.IUpdateModel, string)À
+»
+•
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Controllers\AdminController.cs˘ ˘(î
+%15dynamic"@OrchardCore.ContentTypes.ViewModels.EditPartViewModel.Editor.set*D
+B
+	viewModel5OrchardCore.ContentTypes.ViewModels.EditPartViewModel*
+""Í
+Á
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Controllers\AdminController.cs˚ ˚("
+%16void"-orchardcore.contenttypes/views/admin/editpart*
+
+%17*D
+B
+	viewModel5OrchardCore.ContentTypes.ViewModels.EditPartViewModel*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject* 
+
+%HttpContextItemsAllobject*!
+
+%HttpContextItemsHtmlobject"∂
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Controllers\AdminController.cs˚ ˚(#
+
+%16void*È
+5§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Controllers\AdminController.cs¸	 ¸(	"º
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Controllers\AdminController.cs¸ ¸(	
+implicit return*Å
+6§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Controllers\AdminController.csÍ; Í(;œ
+Ã
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Controllers\AdminController.csÍ( Í(0
+%18"__entrypoint*
+
+idstring*
+0:
+idstringB86
+4OrchardCore.ContentTypes.Controllers.AdminController

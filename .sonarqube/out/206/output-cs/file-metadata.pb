@@ -1,0 +1,16 @@
+¼
+²D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentLocalization.Abstractions\ContentLocalizationOrchardHelperExtensions.csutf-8Ÿ
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentLocalization.Abstractions\CultureAspect.csutf-8¹
+¯D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentLocalization.Abstractions\Handlers\ContentLocalizationHandlerBase.csutf-8½
+³D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentLocalization.Abstractions\Handlers\ContentLocalizationPartHandlerBase.csutf-8¶
+¬D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentLocalization.Abstractions\Handlers\IContentLocalizationHandler.csutf-8º
+°D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentLocalization.Abstractions\Handlers\IContentLocalizationPartHandler.csutf-8µ
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentLocalization.Abstractions\Handlers\LocalizationContentContext.csutf-8­
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentLocalization.Abstractions\IContentLocalizationManager.csutf-8ž
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentLocalization.Abstractions\ILocalizable.csutf-8ª
+ D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentLocalization.Abstractions\Models\LocalizationEntry.csutf-8©
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentLocalization.Abstractions\Models\LocalizationPart.csutf-8³
+©D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentLocalization.Abstractions\Records\LocalizedContentItemIndex.csutf-8¤
+šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentLocalization.Abstractions\Records\Migrations.csutf-8Ð
+ÄD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentLocalization.Abstractions\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.csutf-8Þ
+ÒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentLocalization.Abstractions\obj\Debug\net5.0\OrchardCore.ContentLocalization.Abstractions.AssemblyInfo.csutf-8

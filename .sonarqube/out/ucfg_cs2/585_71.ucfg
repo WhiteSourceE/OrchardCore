@@ -1,0 +1,238 @@
+
+qOrchardCore.Facebook.Recipes.FacebookSettingsStep.ExecuteAsync(OrchardCore.Recipes.Models.RecipeExecutionContext)Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Recipes\FacebookSettingsStep.cs (&"0*Ç
+0Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Recipes\FacebookSettingsStep.cs (g¯
+¬
+Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Recipes\FacebookSettingsStep.cs (+
+%0string":OrchardCore.Recipes.Models.RecipeExecutionContext.Name.get*>
+<
+context1OrchardCore.Recipes.Models.RecipeExecutionContext¹
+¶
+Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Recipes\FacebookSettingsStep.csE (g
+%1"__id*
+""©
+¦
+Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Recipes\FacebookSettingsStep.cs (h
+
+%2bool"8string.Equals(string?, string?, System.StringComparison)*
+"
+string*
+
+%0string*
+FacebookCoreSettings*
+
+%1*
+1
+2*Ò
+1Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Recipes\FacebookSettingsStep.cs'	 '(	"ª
+Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Recipes\FacebookSettingsStep.cs (
+""*‡ 
+2Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Recipes\FacebookSettingsStep.cs !((Å
+Â
+Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Recipes\FacebookSettingsStep.cs ($"
+%6Newtonsoft.Json.Linq.JObject":OrchardCore.Recipes.Models.RecipeExecutionContext.Step.get*>
+<
+context1OrchardCore.Recipes.Models.RecipeExecutionContext¸
+µ
+Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Recipes\FacebookSettingsStep.cs (N@
+%7:OrchardCore.Facebook.Recipes.FacebookCoreSettingsStepModel")Newtonsoft.Json.Linq.JToken.ToObject<T>()*$
+"
+%6Newtonsoft.Json.Linq.JObject´
+±
+Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Recipes\FacebookSettingsStep.cs (NC
+model:OrchardCore.Facebook.Recipes.FacebookCoreSettingsStepModel"__id*B
+@
+%7:OrchardCore.Facebook.Recipes.FacebookCoreSettingsStepModelÛ
+Ø
+Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Recipes\FacebookSettingsStep.cs! (.4
+%8.OrchardCore.Facebook.Services.IFacebookService"__id*x*v3
+1OrchardCore.Facebook.Recipes.FacebookSettingsStep"?
+_loginService.OrchardCore.Facebook.Services.IFacebookServiceàÝ
+Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Recipes\FacebookSettingsStep.cs! (A*
+%9$System.Threading.Tasks.Task<TResult>"AOrchardCore.Facebook.Services.IFacebookService.GetSettingsAsync()*6
+4
+%8.OrchardCore.Facebook.Services.IFacebookService2GetSettingsAsync()ï
+ì
+Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Recipes\FacebookSettingsStep.cs (A:
+settings.OrchardCore.Facebook.Settings.FacebookSettings"__id*
+""Á
+¾
+Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Recipes\FacebookSettingsStep.cs ((
+%10string"DOrchardCore.Facebook.Recipes.FacebookCoreSettingsStepModel.AppId.get*E
+C
+model:OrchardCore.Facebook.Recipes.FacebookCoreSettingsStepModel½
+º
+Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Recipes\FacebookSettingsStep.cs ((
+%11string"8OrchardCore.Facebook.Settings.FacebookSettings.AppId.set*<
+:
+settings.OrchardCore.Facebook.Settings.FacebookSettings*
+
+%10stringÅ
+Â
+Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Recipes\FacebookSettingsStep.cs !  (0
+%12string"HOrchardCore.Facebook.Recipes.FacebookCoreSettingsStepModel.AppSecret.get*E
+C
+model:OrchardCore.Facebook.Recipes.FacebookCoreSettingsStepModelÁ
+¾
+Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Recipes\FacebookSettingsStep.cs   (0
+%13string"<OrchardCore.Facebook.Settings.FacebookSettings.AppSecret.set*<
+:
+settings.OrchardCore.Facebook.Settings.FacebookSettings*
+
+%12stringÁ
+¾
+Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Recipes\FacebookSettingsStep.cs! !((
+%14string"DOrchardCore.Facebook.Recipes.FacebookCoreSettingsStepModel.SdkJs.get*E
+C
+model:OrchardCore.Facebook.Recipes.FacebookCoreSettingsStepModelÊ
+Ç
+Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Recipes\FacebookSettingsStep.cs! !((
+%4string"__id*
+
+%14stringÉ
+Æ
+Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Recipes\FacebookSettingsStep.cs! !((
+%3string"__id*
+
+%4string*
+3
+4*¾
+3Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Recipes\FacebookSettingsStep.cs!, !(4Å
+Â
+Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Recipes\FacebookSettingsStep.cs!, !(4
+%5string"__id*
+
+sdk.jsÉ
+Æ
+Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Recipes\FacebookSettingsStep.cs!, !(4
+%3string"__id*
+
+%5string*
+4*à
+4Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Recipes\FacebookSettingsStep.cs! $(,¼
+¹
+Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Recipes\FacebookSettingsStep.cs! !(4
+%18string"8OrchardCore.Facebook.Settings.FacebookSettings.SdkJs.set*<
+:
+settings.OrchardCore.Facebook.Settings.FacebookSettings*
+
+%3stringÀ
+½
+Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Recipes\FacebookSettingsStep.cs" "(*
+%19bool"EOrchardCore.Facebook.Recipes.FacebookCoreSettingsStepModel.FBInit.get*E
+C
+model:OrchardCore.Facebook.Recipes.FacebookCoreSettingsStepModelº
+·
+Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Recipes\FacebookSettingsStep.cs" "(*
+%20bool"9OrchardCore.Facebook.Settings.FacebookSettings.FBInit.set*<
+:
+settings.OrchardCore.Facebook.Settings.FacebookSettings*
+
+%19boolÈ
+Å
+Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Recipes\FacebookSettingsStep.cs#$ #(6
+%21string"KOrchardCore.Facebook.Recipes.FacebookCoreSettingsStepModel.FBInitParams.get*E
+C
+model:OrchardCore.Facebook.Recipes.FacebookCoreSettingsStepModelÄ
+Á
+Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Recipes\FacebookSettingsStep.cs# #(6
+%22string"?OrchardCore.Facebook.Settings.FacebookSettings.FBInitParams.set*<
+:
+settings.OrchardCore.Facebook.Settings.FacebookSettings*
+
+%21stringÃ
+À
+Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Recipes\FacebookSettingsStep.cs$ $(,
+%23string"FOrchardCore.Facebook.Recipes.FacebookCoreSettingsStepModel.Version.get*E
+C
+model:OrchardCore.Facebook.Recipes.FacebookCoreSettingsStepModelË
+È
+Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Recipes\FacebookSettingsStep.cs$ $(,
+%16string"__id*
+
+%23stringË
+È
+Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Recipes\FacebookSettingsStep.cs$ $(,
+%15string"__id*
+
+%16string*
+5
+6*¾
+5Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Recipes\FacebookSettingsStep.cs$0 $(5Ã
+À
+Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Recipes\FacebookSettingsStep.cs$0 $(5
+%17string"__id*
+3.2Ë
+È
+Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Recipes\FacebookSettingsStep.cs$0 $(5
+%15string"__id*
+
+%17string*
+6*Ç
+
+6Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Recipes\FacebookSettingsStep.cs$ &(<¿
+¼
+Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Recipes\FacebookSettingsStep.cs$ $(5
+%24string":OrchardCore.Facebook.Settings.FacebookSettings.Version.set*<
+:
+settings.OrchardCore.Facebook.Settings.FacebookSettings*
+
+%15stringÜ
+Ù
+Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Recipes\FacebookSettingsStep.cs& &(5
+%25.OrchardCore.Facebook.Services.IFacebookService"__id*x*v3
+1OrchardCore.Facebook.Recipes.FacebookSettingsStep"?
+_loginService.OrchardCore.Facebook.Services.IFacebookServiceùö
+Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Recipes\FacebookSettingsStep.cs& &(="
+%26System.Threading.Tasks.Task"rOrchardCore.Facebook.Services.IFacebookService.UpdateSettingsAsync(OrchardCore.Facebook.Settings.FacebookSettings)*7
+5
+%25.OrchardCore.Facebook.Services.IFacebookService*<
+:
+settings.OrchardCore.Facebook.Settings.FacebookSettings2CUpdateSettingsAsync(OrchardCore.Facebook.Settings.FacebookSettings)*
+7*ß
+7Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Recipes\FacebookSettingsStep.cs'	 '(	"·
+Ÿ
+”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Recipes\FacebookSettingsStep.cs' '(	
+implicit return:<
+context1OrchardCore.Recipes.Models.RecipeExecutionContextB53
+1OrchardCore.Facebook.Recipes.FacebookSettingsStep

@@ -1,0 +1,159 @@
+
+\OrchardCore.Locking.LocalLock.TryAcquireLockAsync(string, System.TimeSpan, System.TimeSpan?)Ç
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.cs)9 )(L"0*Ã
+0Ç
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.cs+ -(Lß
+§
+Ç
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.cs+ +(5-
+%0'OrchardCore.Locking.LocalLock.Semaphore":OrchardCore.Locking.LocalLock.GetOrCreateSemaphore(string)*!
+OrchardCore.Locking.LocalLock*
+
+keystringı
+Ú
+Ç
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.cs+ +(54
+	semaphore'OrchardCore.Locking.LocalLock.Semaphore"__id*/
+-
+%0'OrchardCore.Locking.LocalLock.Semaphoreô
+ñ
+Ç
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.cs- -(%$
+%1System.Threading.SemaphoreSlim"1OrchardCore.Locking.LocalLock.Semaphore.Value.get*6
+4
+	semaphore'OrchardCore.Locking.LocalLock.SemaphoreŸ
+÷
+Ç
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.cs-; -(L
+%2System.TimeSpan"__id*2*0
+System.TimeSpan"
+MaxValueSystem.TimeSpanü
+ú
+Ç
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.cs-0 -(L
+
+%3bool"=System.TimeSpan.operator !=(System.TimeSpan, System.TimeSpan)*"
+System.TimeSpan*
+
+timeoutSystem.TimeSpan*
+
+%2System.TimeSpan*
+1
+2*î
+1Ç
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.cs-O -(V√
+¿
+Ç
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.cs-O -(V
+%5System.TimeSpan"__id*
+
+timeoutSystem.TimeSpanæ
+ª
+Ç
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.cs-O -(V
+%4System.TimeSpan"__id*
+
+%5System.TimeSpan*
+3*¸
+2Ç
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.cs-Y -(qÍ
+Á
+Ç
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.cs-Y -(q
+%7System.TimeSpan"__id*C*A
+System.Threading.Timeout"#
+InfiniteTimeSpanSystem.TimeSpanæ
+ª
+Ç
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.cs-Y -(q
+%6System.TimeSpan"__id*
+
+%7System.TimeSpanæ
+ª
+Ç
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.cs-Y -(q
+%4System.TimeSpan"__id*
+
+%6System.TimeSpan*
+3*√
+3Ç
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.cs- -(r∞
+≠
+Ç
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.cs- -(r*
+%8$System.Threading.Tasks.Task<TResult>"9System.Threading.SemaphoreSlim.WaitAsync(System.TimeSpan)*&
+$
+%1System.Threading.SemaphoreSlim*
+
+%4System.TimeSpan*
+4
+5*ò
+4Ç
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.cs/ /(F"ç
+Ç
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.cs/ /(G
+""*õ
+5Ç
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.cs2 2(0ê
+ç
+Ç
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.cs2 2(*
+%9$Microsoft.Extensions.Logging.ILogger"__id*T*R
+OrchardCore.Locking.LocalLock"/
+_logger$Microsoft.Extensions.Logging.ILoggerù
+ö
+Ç
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.cs2" 2(0
+%10"__id*
+""’“
+Ç
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.cs2 2(1
+%11bool"UMicrosoft.Extensions.Logging.ILogger.IsEnabled(Microsoft.Extensions.Logging.LogLevel)*,
+*
+%9$Microsoft.Extensions.Logging.ILogger*
+
+%1020IsEnabled(Microsoft.Extensions.Logging.LogLevel)*
+6
+7*Ù
+6Ç
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.cs4 5(+ë
+é
+Ç
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.cs4 4(+
+%12$Microsoft.Extensions.Logging.ILogger"__id*T*R
+OrchardCore.Locking.LocalLock"/
+_logger$Microsoft.Extensions.Logging.ILogger—
+Œ
+Ç
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.cs5 5(+
+%13string"System.TimeSpan.ToString()*
+
+timeoutSystem.TimeSpan¸
+˘
+Ç
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.cs4 5(,
+%14void"wMicrosoft.Extensions.Logging.LoggerExtensions.LogWarning(Microsoft.Extensions.Logging.ILogger, string, params object[])*1"/
+-Microsoft.Extensions.Logging.LoggerExtensions*-
++
+%12$Microsoft.Extensions.Logging.ILogger*hf
+dTimeout elapsed before acquiring the named lock '{LockName}' after the given timeout of '{Timeout}'.*
+
+keystring*
+
+%13string*
+7*ò
+7Ç
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.cs8 8( "ç
+Ç
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.cs8 8(!
+""*•
+8Ç
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.cs9	 9(	"ö
+Ç
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.cs9 9(	
+implicit return:
+keystring:
+timeoutSystem.TimeSpan: 
+
+expirationSystem.Nullable<T>B!
+OrchardCore.Locking.LocalLock

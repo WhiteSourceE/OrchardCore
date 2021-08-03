@@ -1,0 +1,343 @@
+
+lOrchardCore.Users.Controllers.ChangeEmailController.Index(OrchardCore.Users.ViewModels.ChangeEmailViewModel)°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.cs5) 5(."12*‘
+0°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.cs7 7(;ƒ
+¡
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.cs7 7($'
+%0!OrchardCore.Settings.ISiteService"__id*l*j5
+3OrchardCore.Users.Controllers.ChangeEmailController"1
+_siteService!OrchardCore.Settings.ISiteService–Õ
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.cs7 7(;*
+%1$System.Threading.Tasks.Task<TResult>"8OrchardCore.Settings.ISiteService.GetSiteSettingsAsync()*)
+'
+%0!OrchardCore.Settings.ISiteService2GetSiteSettingsAsync()Ÿ
+÷
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.cs7 7(V2
+%2,OrchardCore.Users.Models.ChangeEmailSettings"IOrchardCore.Entities.EntityExtensions.As<T>(OrchardCore.Entities.IEntity)*)"'
+%OrchardCore.Entities.EntityExtensions*
+""¨
+©
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.cs7 7(g
+
+%3bool"AOrchardCore.Users.Models.ChangeEmailSettings.AllowChangeEmail.get*4
+2
+%2,OrchardCore.Users.Models.ChangeEmailSettings*
+1
+2*≈
+1°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.cs9 9(!√¿
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.cs9 9(!-
+%4'Microsoft.AspNetCore.Mvc.NotFoundResult"2Microsoft.AspNetCore.Mvc.ControllerBase.NotFound()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2
+NotFound()"’
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.cs9 9("/
+-
+%4'Microsoft.AspNetCore.Mvc.NotFoundResult*¬
+2°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.cs< <("Œ
+À
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.cs< <(@
+%5:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary"6Microsoft.AspNetCore.Mvc.ControllerBase.ModelState.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBaseø
+º
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.cs< <("
+
+%6bool"FMicrosoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary.IsValid.get*B
+@
+%5:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary*
+3
+4*∆
+3°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.cs> A(]–
+Õ
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.cs>! >(--
+%7'OrchardCore.Users.Services.IUserService"__id*r*p5
+3OrchardCore.Users.Controllers.ChangeEmailController"7
+_userService'OrchardCore.Users.Services.IUserService¥
+±
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.cs>H >(L,
+%8&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase‚ﬂ
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.cs>! >(M*
+%9$System.Threading.Tasks.Task<TResult>"iOrchardCore.Users.Services.IUserService.GetAuthenticatedUserAsync(System.Security.Claims.ClaimsPrincipal)*/
+-
+%7'OrchardCore.Users.Services.IUserService*.
+,
+%8&System.Security.Claims.ClaimsPrincipal2AGetAuthenticatedUserAsync(System.Security.Claims.ClaimsPrincipal)÷
+”
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.cs> >(M
+userOrchardCore.Users.IUser"__id*
+""„
+‡
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.cs?* ?(67
+%100Microsoft.AspNetCore.Identity.UserManager<TUser>"__id*{*y5
+3OrchardCore.Users.Controllers.ChangeEmailController"@
+_userManager0Microsoft.AspNetCore.Identity.UserManager<TUser>±
+Æ
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.cs?H ?(S
+%11string";OrchardCore.Users.ViewModels.ChangeEmailViewModel.Email.get*<
+:
+model1OrchardCore.Users.ViewModels.ChangeEmailViewModelÖÇ
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.cs?* ?(T+
+%12$System.Threading.Tasks.Task<TResult>"IMicrosoft.AspNetCore.Identity.UserManager<TUser>.FindByEmailAsync(string)*9
+7
+%100Microsoft.AspNetCore.Identity.UserManager<TUser>*
+
+%11string2FindByEmailAsync(string)ﬂ
+‹
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.cs? ?(T(
+userWithEmailOrchardCore.Users.IUser"__id*
+""◊
+‘
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.csA A(
+%13"__id*!
+
+userOrchardCore.Users.IUserË
+Â
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.csA A(&
+%14string"'OrchardCore.Users.Models.User.Email.get*
+
+%13±
+Æ
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.csA. A(9
+%15string";OrchardCore.Users.ViewModels.ChangeEmailViewModel.Email.get*<
+:
+model1OrchardCore.Users.ViewModels.ChangeEmailViewModelº
+π
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.csA; A(]
+%16"__id*
+""ê
+ç
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.csA A(^
+%17bool"/string.Equals(string?, System.StringComparison)*
+
+%14string*
+
+%15string*
+
+%16*
+5
+6*ü
+5°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.csC C(aœ
+Ã
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.csC C(A
+%18:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary"6Microsoft.AspNetCore.Mvc.ControllerBase.ModelState.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase‹
+Ÿ
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.csC6 C(79
+%192Microsoft.Extensions.Localization.IStringLocalizer"__id*r*p5
+3OrchardCore.Users.Controllers.ChangeEmailController"7
+S2Microsoft.Extensions.Localization.IStringLocalizer¢ü
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.csC6 C(b8
+%201Microsoft.Extensions.Localization.LocalizedString"CMicrosoft.Extensions.Localization.IStringLocalizer.this[string].get*;
+9
+%192Microsoft.Extensions.Localization.IStringLocalizer*+)
+'This email is already your current one.2this[string].getö
+ó
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.csC C(c
+%21void"XMicrosoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary.AddModelError(string, string)*C
+A
+%18:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary*	
+Email*:
+8
+%201Microsoft.Extensions.Localization.LocalizedString*
+4* 
+6°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.csE E(.ò
+ï
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.csE E(.
+%22bool""object.operator !=(object, object)*
+"
+object**
+(
+userWithEmailOrchardCore.Users.IUser*
+""*
+7
+8*·
+7°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.csE2 E(Yçä
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.csE2 E(?
+%23string"$OrchardCore.Users.IUser.UserName.get*!
+
+userOrchardCore.Users.IUser2UserName.getñì
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.csEC E(Y
+%24string"$OrchardCore.Users.IUser.UserName.get**
+(
+userWithEmailOrchardCore.Users.IUser2UserName.getÜ
+É
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.csE2 E(Y
+%25bool""string.operator !=(string, string)*
+"
+string*
+
+%23string*
+
+%24string*
+9
+8*¢
+9°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.csG G(dœ
+Ã
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.csG G(A
+%26:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary"6Microsoft.AspNetCore.Mvc.ControllerBase.ModelState.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase‹
+Ÿ
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.csG6 G(79
+%272Microsoft.Extensions.Localization.IStringLocalizer"__id*r*p5
+3OrchardCore.Users.Controllers.ChangeEmailController"7
+S2Microsoft.Extensions.Localization.IStringLocalizer•¢
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.csG6 G(e8
+%281Microsoft.Extensions.Localization.LocalizedString"CMicrosoft.Extensions.Localization.IStringLocalizer.this[string].get*;
+9
+%272Microsoft.Extensions.Localization.IStringLocalizer*.,
+*A user with the same email already exists.2this[string].getö
+ó
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.csG G(f
+%29void"XMicrosoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary.AddModelError(string, string)*C
+A
+%26:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary*	
+Email*:
+8
+%281Microsoft.Extensions.Localization.LocalizedString*
+4*…
+
+8°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.csK L(P—
+Œ
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.csK K(*.
+%30'OrchardCore.Users.Services.IUserService"__id*r*p5
+3OrchardCore.Users.Controllers.ChangeEmailController"7
+_userService'OrchardCore.Users.Services.IUserService±
+Æ
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.csKB K(M
+%31string";OrchardCore.Users.ViewModels.ChangeEmailViewModel.Email.get*<
+:
+model1OrchardCore.Users.ViewModels.ChangeEmailViewModeléã
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.csK L(Q+
+%32$System.Threading.Tasks.Task<TResult>"xOrchardCore.Users.Services.IUserService.ChangeEmailAsync(OrchardCore.Users.IUser, string, System.Action<string, string>)*0
+.
+%30'OrchardCore.Users.Services.IUserService*!
+
+userOrchardCore.Users.IUser*
+
+%31string*
+""2PChangeEmailAsync(OrchardCore.Users.IUser, string, System.Action<string, string>)*
+10
+4*’
+10°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.csN N(b±
+Æ
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.csN/ N(2*
+%33#Microsoft.AspNetCore.Mvc.IUrlHelper"/Microsoft.AspNetCore.Mvc.ControllerBase.Url.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBaseÆ
+´
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.csN/ N(c
+%34string"hMicrosoft.AspNetCore.Mvc.UrlHelperExtensions.Action(Microsoft.AspNetCore.Mvc.IUrlHelper, string, string)*0".
+,Microsoft.AspNetCore.Mvc.UrlHelperExtensions*,
+*
+%33#Microsoft.AspNetCore.Mvc.IUrlHelper*
+ChangeEmailConfirmation*
+ChangeEmailÌ
+Í
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.csN N(d-
+%35&Microsoft.AspNetCore.Mvc.IActionResult"KOrchardCore.Users.Controllers.ChangeEmailController.RedirectToLocal(string)*75
+3OrchardCore.Users.Controllers.ChangeEmailController*
+
+%34string"’
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.csN N(e/
+-
+%35&Microsoft.AspNetCore.Mvc.IActionResult*ª
+4°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.csS S(€
+ÿ
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.csS S(
+%36void")orchardcore.users/views/changeemail/index*
+
+%37*<
+:
+model1OrchardCore.Users.ViewModels.ChangeEmailViewModel*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject* 
+
+%HttpContextItemsAllobject*!
+
+%HttpContextItemsHtmlobject"≥
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.csS S(
+
+%36void*‰
+11°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.csT	 T(	"π
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.csT T(	
+implicit return*ã
+12°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.cs5J 5(Jï
+í
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.cs5) 5(.^
+:
+model1OrchardCore.Users.ViewModels.ChangeEmailViewModel" 
+<Email>k__BackingFieldstring"__entrypointÑ
+Å
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.cs5) 5(.M
+:
+model1OrchardCore.Users.ViewModels.ChangeEmailViewModel"
+Emailstring"__entrypointº
+π
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ChangeEmailController.cs5) 5(.
+%38"__entrypoint*
+0::
+model1OrchardCore.Users.ViewModels.ChangeEmailViewModelB75
+3OrchardCore.Users.Controllers.ChangeEmailController

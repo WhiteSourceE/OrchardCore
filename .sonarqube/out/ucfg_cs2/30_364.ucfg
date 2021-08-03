@@ -1,0 +1,137 @@
+
+lOrchardCore.Environment.Shell.ShellHost.CreateSetupContextAsync(OrchardCore.Environment.Shell.ShellSettings)Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.csÒ# Ò(:"0*¢
+0Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.csÛ Û(0ö
+ó
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.csÛ Û(*
+%0$Microsoft.Extensions.Logging.ILogger"__id*^*\)
+'OrchardCore.Environment.Shell.ShellHost"/
+_logger$Microsoft.Extensions.Logging.ILoggerú
+ô
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.csÛ" Û(0
+%1"__id*
+""”–
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.csÛ Û(1
+
+%2bool"UMicrosoft.Extensions.Logging.ILogger.IsEnabled(Microsoft.Extensions.Logging.LogLevel)*,
+*
+%0$Microsoft.Extensions.Logging.ILogger*
+
+%120IsEnabled(Microsoft.Extensions.Logging.LogLevel)*
+1
+2*Õ
+1Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.csı ı(Iö
+ó
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.csı ı(*
+%3$Microsoft.Extensions.Logging.ILogger"__id*^*\)
+'OrchardCore.Environment.Shell.ShellHost"/
+_logger$Microsoft.Extensions.Logging.ILogger†
+ù
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.csı ı(J
+
+%4void"uMicrosoft.Extensions.Logging.LoggerExtensions.LogDebug(Microsoft.Extensions.Logging.ILogger, string, params object[])*1"/
+-Microsoft.Extensions.Logging.LoggerExtensions*,
+*
+%3$Microsoft.Extensions.Logging.ILogger**(
+&Creating shell context for root setup.*
+""*
+2*°
+2Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.cs¯ ¯('é
+ã
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.cs¯ ¯('
+
+%5bool""object.operator ==(object, object)*
+"
+object*@
+>
+defaultSettings+OrchardCore.Environment.Shell.ShellSettings*
+""*
+3
+4*Ê
+3Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.cs˚ ˛(/∆
+√
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.cs˚$ ˚(99
+%63OrchardCore.Environment.Shell.IShellSettingsManager"__id*{*y)
+'OrchardCore.Environment.Shell.ShellHost"L
+_shellSettingsManager3OrchardCore.Environment.Shell.IShellSettingsManagerﬁ€
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.cs˚$ ˚(Q1
+%7+OrchardCore.Environment.Shell.ShellSettings"KOrchardCore.Environment.Shell.IShellSettingsManager.CreateDefaultSettings()*;
+9
+%63OrchardCore.Environment.Shell.IShellSettingsManager2CreateDefaultSettings()Å
+˛
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.cs˚ ˚(Q<
+shellSettings+OrchardCore.Environment.Shell.ShellSettings"__id*3
+1
+%7+OrchardCore.Environment.Shell.ShellSettingsú
+ô
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.cs¸% ¸(A
+%8"__id*
+""î
+ë
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.cs¸ ¸(A
+%9string"4OrchardCore.Environment.Shell.ShellSettings.Name.set*>
+<
+shellSettings+OrchardCore.Environment.Shell.ShellSettings*
+
+%8ù
+ö
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.cs˝& ˝(?
+%10"__id*
+""¡
+æ
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.cs˝ ˝(?7
+%110OrchardCore.Environment.Shell.Models.TenantState"5OrchardCore.Environment.Shell.ShellSettings.State.set*>
+<
+shellSettings+OrchardCore.Environment.Shell.ShellSettings*
+
+%10é
+ã
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.cs˛ ˛(/>
+defaultSettings+OrchardCore.Environment.Shell.ShellSettings"__id*>
+<
+shellSettings+OrchardCore.Environment.Shell.ShellSettings*
+4*£	
+4Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.csÅ Å(Oÿ
+’
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.csÅ Å('B
+%12;OrchardCore.Environment.Shell.Builders.IShellContextFactory"__id*É*Ä)
+'OrchardCore.Environment.Shell.ShellHost"S
+_shellContextFactory;OrchardCore.Environment.Shell.Builders.IShellContextFactoryÜÉ
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.csÅ Å(P+
+%13$System.Threading.Tasks.Task<TResult>"ÄOrchardCore.Environment.Shell.Builders.IShellContextFactory.CreateSetupContextAsync(OrchardCore.Environment.Shell.ShellSettings)*D
+B
+%12;OrchardCore.Environment.Shell.Builders.IShellContextFactory*@
+>
+defaultSettings+OrchardCore.Environment.Shell.ShellSettings2DCreateSetupContextAsync(OrchardCore.Environment.Shell.ShellSettings)"¥
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.csÅ Å(Q-
++
+%13$System.Threading.Tasks.Task<TResult>*•
+5Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.csÇ	 Ç(	"ö
+Ç
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.csÇ Ç(	
+implicit return:>
+defaultSettings+OrchardCore.Environment.Shell.ShellSettingsB+)
+'OrchardCore.Environment.Shell.ShellHost

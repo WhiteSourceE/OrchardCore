@@ -1,0 +1,406 @@
+
+ëOrchardCore.ContentManagement.Display.Liquid.ConsoleLogFilter.ProcessAsync(Fluid.Values.FluidValue, Fluid.FilterArguments, Fluid.TemplateContext)£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs% (1"0*ˆ
+0£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs (O÷
+”
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs (&9
+%03System.Collections.Generic.Dictionary<TKey, TValue>"__id*j*h
+ 
+contextFluid.TemplateContext"D
+AmbientValues3System.Collections.Generic.Dictionary<TKey, TValue>È
+Ê
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs (P
+
+%1bool"QSystem.Collections.Generic.Dictionary<TKey, TValue>.TryGetValue(TKey, out TValue)*;
+9
+%03System.Collections.Generic.Dictionary<TKey, TValue>*
+
+Services*
+
+servicesobject*
+1
+2*÷
+1£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs ([„‡
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs (\
+%2System.ArgumentException"System.ArgumentExceptionø
+º
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs (+
+
+%3void"3System.ArgumentException.ArgumentException(string?)* 
+
+%2System.ArgumentException*1/
+-Services missing while invoking 'console_log'*
+3*±
+2£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs (À
+»
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs (1
+%4"__id*
+
+servicesobjectØ
+¨
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs (Y3
+%5-Microsoft.Extensions.Hosting.IHostEnvironment"xMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<T>(System.IServiceProvider)*M"K
+IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*
+
+%4ú
+ô
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs (Y4
+env-Microsoft.Extensions.Hosting.IHostEnvironment"__id*5
+3
+%5-Microsoft.Extensions.Hosting.IHostEnvironmentÑ
+Å
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs (/
+%6object"'Fluid.Values.FluidValue.ToObjectValue()*"
+ 
+inputFluid.Values.FluidValue“
+œ
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs (/
+contentobject"__id*
+
+%6objectÇ
+ˇ
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs (
+
+%7bool""object.operator ==(object, object)*
+"
+object*
+
+contentobject*
+""*
+4
+5*◊
+5£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs# (5£
+†
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs# (5
+
+%8bool"uMicrosoft.Extensions.Hosting.HostEnvironmentEnvExtensions.IsProduction(Microsoft.Extensions.Hosting.IHostEnvironment)*=";
+9Microsoft.Extensions.Hosting.HostEnvironmentEnvExtensions*6
+4
+env-Microsoft.Extensions.Hosting.IHostEnvironment*
+4
+6*Ë	
+4£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs (Bå
+â
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs1 (B
+%9Fluid.Values.NilValue"__id*>*<
+Fluid.Values.NilValue"!
+InstanceFluid.Values.NilValueÜÉ
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs (C0
+%10)System.Threading.Tasks.ValueTask<TResult>")System.Threading.Tasks.ValueTask<TResult>«
+ƒ
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs (0
+%11void"<System.Threading.Tasks.ValueTask<TResult>.ValueTask(TResult)*2
+0
+%10)System.Threading.Tasks.ValueTask<TResult>*
+
+%9Fluid.Values.NilValue"⁄
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs (D2
+0
+%10)System.Threading.Tasks.ValueTask<TResult>*©
+6£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs   (;’
+“
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs   (;6
+%12/OrchardCore.DisplayManagement.StringBuilderPool"=OrchardCore.DisplayManagement.StringBuilderPool.GetInstance()*3"1
+/OrchardCore.DisplayManagement.StringBuilderPool†
+ù
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs   (;5
+sb/OrchardCore.DisplayManagement.StringBuilderPool"__id*8
+6
+%12/OrchardCore.DisplayManagement.StringBuilderPool*
+7*˝
+7£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs" $(3≤
+Ø
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs" "( 
+%13System.Text.StringBuilder"__id*_*]
+5
+sb/OrchardCore.DisplayManagement.StringBuilderPool"$
+BuilderSystem.Text.StringBuilder¥
+±
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs" "(9 
+%14System.Text.StringBuilder")System.Text.StringBuilder.Append(string?)*"
+ 
+%13System.Text.StringBuilder*
+<script>console.log(›
+⁄
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs$ $(3
+stringContentstring"__id*
+
+contentobject*
+8
+9*‰
+
+8£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs& &(M≤
+Ø
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs& &( 
+%15System.Text.StringBuilder"__id*_*]
+5
+sb/OrchardCore.DisplayManagement.StringBuilderPool"$
+BuilderSystem.Text.StringBuilder°
+û
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs& &(+ 
+%16System.Text.StringBuilder")System.Text.StringBuilder.Append(string?)*"
+ 
+%15System.Text.StringBuilder*
+"µ
+≤
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs& &(A 
+%17System.Text.StringBuilder")System.Text.StringBuilder.Append(string?)*"
+ 
+%16System.Text.StringBuilder*
+
+stringContentstring°
+û
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs& &(N 
+%18System.Text.StringBuilder")System.Text.StringBuilder.Append(string?)*"
+ 
+%17System.Text.StringBuilder*
+"*
+10*®
+9£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs( ((8Ú
+Ô
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs( ((8,
+jTokenContentNewtonsoft.Json.Linq.JToken"__id*
+
+contentobject*
+11
+12*≤
+11£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs* *(>≤
+Ø
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs* *( 
+%19System.Text.StringBuilder"__id*_*]
+5
+sb/OrchardCore.DisplayManagement.StringBuilderPool"$
+BuilderSystem.Text.StringBuilderúô
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs*& *(>
+%20string"&Newtonsoft.Json.Linq.JToken.ToString()*.
+,
+jTokenContentNewtonsoft.Json.Linq.JToken2
+ToString()´
+®
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs* *(? 
+%21System.Text.StringBuilder")System.Text.StringBuilder.Append(string?)*"
+ 
+%19System.Text.StringBuilder*
+
+%20string*
+10*µ
+12£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs, ,(;˛
+˚
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs, ,(;8
+contentItem)OrchardCore.ContentManagement.ContentItem"__id*
+
+contentobject*
+13
+14*¥
+13£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs. .(a≤
+Ø
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs. .( 
+%22System.Text.StringBuilder"__id*_*]
+5
+sb/OrchardCore.DisplayManagement.StringBuilderPool"$
+BuilderSystem.Text.StringBuilderà
+Ö
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs.& .(b#
+%23Newtonsoft.Json.Linq.JObject"ZOrchardRazorHelperExtensions.ConvertContentItem(OrchardCore.ContentManagement.ContentItem)* "
+OrchardRazorHelperExtensions*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItemìê
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs.& .(m
+%24string"&Newtonsoft.Json.Linq.JToken.ToString()*%
+#
+%23Newtonsoft.Json.Linq.JObject2
+ToString()´
+®
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs. .(n 
+%25System.Text.StringBuilder")System.Text.StringBuilder.Append(string?)*"
+ 
+%22System.Text.StringBuilder*
+
+%24string*
+10*™
+14£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs0 0(0Û
+
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs0 0(0-
+shape$OrchardCore.DisplayManagement.IShape"__id*
+
+contentobject*
+15
+16*¡
+15£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs2 2(D≤
+Ø
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs2 2( 
+%26System.Text.StringBuilder"__id*_*]
+5
+sb/OrchardCore.DisplayManagement.StringBuilderPool"$
+BuilderSystem.Text.StringBuilderï
+í
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs2& 2(9#
+%27Newtonsoft.Json.Linq.JObject"`OrchardCore.DisplayManagement.IShapeExtensions.ShapeToJson(OrchardCore.DisplayManagement.IShape)*2"0
+.OrchardCore.DisplayManagement.IShapeExtensions*/
+-
+shape$OrchardCore.DisplayManagement.IShapeìê
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs2& 2(D
+%28string"&Newtonsoft.Json.Linq.JToken.ToString()*%
+#
+%27Newtonsoft.Json.Linq.JObject2
+ToString()´
+®
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs2 2(E 
+%29System.Text.StringBuilder")System.Text.StringBuilder.Append(string?)*"
+ 
+%26System.Text.StringBuilder*
+
+%28string*
+10*∫
+16£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs6 6(I≤
+Ø
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs6 6( 
+%30System.Text.StringBuilder"__id*_*]
+5
+sb/OrchardCore.DisplayManagement.StringBuilderPool"$
+BuilderSystem.Text.StringBuilder§
+°
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs6& 6(J
+%31string"4Newtonsoft.Json.JsonConvert.SerializeObject(object?)*"
+Newtonsoft.Json.JsonConvert*
+
+contentobject´
+®
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs6 6(K 
+%32System.Text.StringBuilder")System.Text.StringBuilder.Append(string?)*"
+ 
+%30System.Text.StringBuilder*
+
+%31string*
+10*Ü
+10£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs9 =(7≤
+Ø
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs9 9( 
+%33System.Text.StringBuilder"__id*_*]
+5
+sb/OrchardCore.DisplayManagement.StringBuilderPool"$
+BuilderSystem.Text.StringBuilder™
+ß
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs9 9(/ 
+%34System.Text.StringBuilder")System.Text.StringBuilder.Append(string?)*"
+ 
+%33System.Text.StringBuilder*
+
+)</script>≤
+Ø
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs;- ;(7 
+%35System.Text.StringBuilder"__id*_*]
+5
+sb/OrchardCore.DisplayManagement.StringBuilderPool"$
+BuilderSystem.Text.StringBuilderÇ
+ˇ
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs;- ;(B
+%36string"$System.Text.StringBuilder.ToString()*"
+ 
+%35System.Text.StringBuilder‰·
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs; ;(J
+%37Fluid.Values.StringValue"Fluid.Values.StringValue¶
+£
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs;! ;(,
+%38void"2Fluid.Values.StringValue.StringValue(string, bool)*!
+
+%37Fluid.Values.StringValue*
+
+%36string*
+""ˆ
+Û
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs; ;(J"
+resultFluid.Values.StringValue"__id*!
+
+%37Fluid.Values.StringValueÜÉ
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs= =(80
+%39)System.Threading.Tasks.ValueTask<TResult>")System.Threading.Tasks.ValueTask<TResult>Œ
+À
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs= =(0
+%40void"<System.Threading.Tasks.ValueTask<TResult>.ValueTask(TResult)*2
+0
+%39)System.Threading.Tasks.ValueTask<TResult>*$
+"
+resultFluid.Values.StringValue"⁄
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs= =(92
+0
+%39)System.Threading.Tasks.ValueTask<TResult>*Ø
+17£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs?	 ?(	*
+3*Á
+3£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs?	 ?(	"ª
+£
+òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Display\Liquid\ConsoleLogFilter.cs? ?(	
+implicit return: 
+inputFluid.Values.FluidValue:"
+	argumentsFluid.FilterArguments: 
+contextFluid.TemplateContextBA?
+=OrchardCore.ContentManagement.Display.Liquid.ConsoleLogFilter

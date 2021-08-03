@@ -1,0 +1,56 @@
+
+aOrchardCore.Modules.Clock.ConvertToTimeZone(System.DateTimeOffset, OrchardCore.Modules.ITimeZone)‡
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\Clock.cs< <(/"0*«
+0‡
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\Clock.cs> ?(<·
+´
+‡
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\Clock.cs>! >(R
+%0NodaTime.OffsetDateTime"ANodaTime.OffsetDateTime.FromDateTimeOffset(System.DateTimeOffset)*"
+NodaTime.OffsetDateTime*)
+'
+dateTimeOffSetSystem.DateTimeOffsetß
+Ü
+‡
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\Clock.cs> >(R)
+offsetDateTimeNodaTime.OffsetDateTime"__id*
+
+%0NodaTime.OffsetDateTimeÆ
+Ã
+‡
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\Clock.cs?* ?(<
+%1"__id*+
+)
+timeZoneOrchardCore.Modules.ITimeZoneá
+Þ
+‡
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\Clock.cs?) ?(J
+%2NodaTime.DateTimeZone"-OrchardCore.Modules.TimeZone.DateTimeZone.get*
+
+%1®
+«
+‡
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\Clock.cs? ?(K
+%3NodaTime.ZonedDateTime"5NodaTime.OffsetDateTime.InZone(NodaTime.DateTimeZone)*+
+)
+offsetDateTimeNodaTime.OffsetDateTime*
+
+%2NodaTime.DateTimeZoneõ
+ò
+‡
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\Clock.cs? ?(^
+%4System.DateTimeOffset")NodaTime.ZonedDateTime.ToDateTimeOffset()*
+
+%3NodaTime.ZonedDateTime"©
+‡
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\Clock.cs? ?(_
+
+%4System.DateTimeOffset*¯
+1‡
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\Clock.cs@	 @(	"Ÿ
+‡
+}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\Clock.cs@ @(	
+implicit return:'
+dateTimeOffSetSystem.DateTimeOffset:)
+timeZoneOrchardCore.Modules.ITimeZoneB
+OrchardCore.Modules.Clock

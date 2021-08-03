@@ -1,0 +1,94 @@
+
+àQueryOrchardRazorHelperExtensions.QueryAsync(OrchardCore.IOrchardHelper, string, System.Collections.Generic.IDictionary<string, object>)©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Razor\QueryOrchardRazorHelperExtensions.cs* (4"0*ä
+0©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Razor\QueryOrchardRazorHelperExtensions.cs (»≈
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Razor\QueryOrchardRazorHelperExtensions.cs (4+
+%0%Microsoft.AspNetCore.Http.HttpContext"*OrchardCore.IOrchardHelper.HttpContext.get*-
++
+orchardHelperOrchardCore.IOrchardHelper2HttpContext.get∏
+µ
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Razor\QueryOrchardRazorHelperExtensions.cs (D
+%1System.IServiceProvider"9Microsoft.AspNetCore.Http.HttpContext.RequestServices.get*-
++
+%0%Microsoft.AspNetCore.Http.HttpContext∫
+∑
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Razor\QueryOrchardRazorHelperExtensions.cs (`'
+%2!OrchardCore.Queries.IQueryManager"pMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService<T>(System.IServiceProvider)*M"K
+IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*
+
+%1System.IServiceProviderì
+ê
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Razor\QueryOrchardRazorHelperExtensions.cs (`1
+queryManager!OrchardCore.Queries.IQueryManager"__id*)
+'
+%2!OrchardCore.Queries.IQueryManager˜Ù
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Razor\QueryOrchardRazorHelperExtensions.cs (?*
+%3$System.Threading.Tasks.Task<TResult>"7OrchardCore.Queries.IQueryManager.GetQueryAsync(string)*3
+1
+queryManager!OrchardCore.Queries.IQueryManager*
+
+	queryNamestring2GetQueryAsync(string)·
+ﬁ
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Razor\QueryOrchardRazorHelperExtensions.cs (?"
+queryOrchardCore.Queries.Query"__id*
+""ô
+ñ
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Razor\QueryOrchardRazorHelperExtensions.cs (
+
+%4bool""object.operator ==(object, object)*
+"
+object*$
+"
+queryOrchardCore.Queries.Query*
+""*
+1
+2*Ê
+1©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Razor\QueryOrchardRazorHelperExtensions.cs ("¥
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Razor\QueryOrchardRazorHelperExtensions.cs (
+""*∂
+2©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Razor\QueryOrchardRazorHelperExtensions.cs (ÎË
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Razor\QueryOrchardRazorHelperExtensions.cs (L*
+%5$System.Threading.Tasks.Task<TResult>"ÜOrchardCore.Queries.IQueryManager.ExecuteQueryAsync(OrchardCore.Queries.Query, System.Collections.Generic.IDictionary<string, object>)*3
+1
+queryManager!OrchardCore.Queries.IQueryManager*$
+"
+queryOrchardCore.Queries.Query*D
+B
+
+parameters4System.Collections.Generic.IDictionary<TKey, TValue>2dExecuteQueryAsync(OrchardCore.Queries.Query, System.Collections.Generic.IDictionary<string, object>)Í
+Á
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Razor\QueryOrchardRazorHelperExtensions.cs (L+
+result!OrchardCore.Queries.IQueryResults"__id*
+""«ƒ
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Razor\QueryOrchardRazorHelperExtensions.cs (/
+%6)System.Collections.Generic.IEnumerable<T>"+OrchardCore.Queries.IQueryResults.Items.get*-
++
+result!OrchardCore.Queries.IQueryResults2	Items.get"ﬂ
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Razor\QueryOrchardRazorHelperExtensions.cs (1
+/
+%6)System.Collections.Generic.IEnumerable<T>*Û
+3©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Razor\QueryOrchardRazorHelperExtensions.cs ("¡
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Queries\Razor\QueryOrchardRazorHelperExtensions.cs (
+implicit return:+
+orchardHelperOrchardCore.IOrchardHelper:
+	queryNamestring:B
+
+parameters4System.Collections.Generic.IDictionary<TKey, TValue>B%"#
+!QueryOrchardRazorHelperExtensions

@@ -1,0 +1,101 @@
+
+~OrchardCore.Modules.ModularTenantRouterMiddleware.InitializePipelineAsync(OrchardCore.Environment.Shell.Builders.ShellContext)ó
+åD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularTenantRouterMiddleware.csB B(2"0*æ
+0ó
+åD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularTenantRouterMiddleware.csD G('˜
+Ù
+ó
+åD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularTenantRouterMiddleware.csD D('F
+%0@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>"__id*â*Ü3
+1OrchardCore.Modules.ModularTenantRouterMiddleware"O
+_semaphores@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>Ÿ
+÷
+ó
+åD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularTenantRouterMiddleware.csD1 D(F1
+%1+OrchardCore.Environment.Shell.ShellSettings"@OrchardCore.Environment.Shell.Builders.ShellContext.Settings.get*E
+C
+shellContext3OrchardCore.Environment.Shell.Builders.ShellContextñ
+ì
+ó
+åD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularTenantRouterMiddleware.csD1 D(K
+%2string"4OrchardCore.Environment.Shell.ShellSettings.Name.get*3
+1
+%1+OrchardCore.Environment.Shell.ShellSettingsë
+é
+ó
+åD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularTenantRouterMiddleware.csD D(g$
+%3System.Threading.SemaphoreSlim"jSystem.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>.GetOrAdd(TKey, System.Func<TKey, TValue>)*H
+F
+%0@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>*
+
+%2string*
+""¯
+ı
+ó
+åD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularTenantRouterMiddleware.csD D(g+
+	semaphoreSystem.Threading.SemaphoreSlim"__id*&
+$
+%3System.Threading.SemaphoreSlimõ
+ò
+ó
+åD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularTenantRouterMiddleware.csG G('!
+%4System.Threading.Tasks.Task"*System.Threading.SemaphoreSlim.WaitAsync()*-
++
+	semaphoreSystem.Threading.SemaphoreSlim*
+1*Æ
+1ó
+åD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularTenantRouterMiddleware.csK K(1„
+‡
+ó
+åD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularTenantRouterMiddleware.csK K();
+%55OrchardCore.Environment.Shell.Builders.IShellPipeline"@OrchardCore.Environment.Shell.Builders.ShellContext.Pipeline.get*E
+C
+shellContext3OrchardCore.Environment.Shell.Builders.ShellContext†
+ù
+ó
+åD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularTenantRouterMiddleware.csK K(1
+
+%6bool""object.operator ==(object, object)*
+"
+object*=
+;
+%55OrchardCore.Environment.Shell.Builders.IShellPipeline*
+""*
+2
+3*§
+2ó
+åD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularTenantRouterMiddleware.csM M(A⁄
+◊
+ó
+åD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularTenantRouterMiddleware.csM, M(A;
+%75OrchardCore.Environment.Shell.Builders.IShellPipeline"GOrchardCore.Modules.ModularTenantRouterMiddleware.BuildTenantPipeline()*53
+1OrchardCore.Modules.ModularTenantRouterMiddleware¢
+ü
+ó
+åD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularTenantRouterMiddleware.csM M(A;
+%85OrchardCore.Environment.Shell.Builders.IShellPipeline"@OrchardCore.Environment.Shell.Builders.ShellContext.Pipeline.set*E
+C
+shellContext3OrchardCore.Environment.Shell.Builders.ShellContext*=
+;
+%75OrchardCore.Environment.Shell.Builders.IShellPipeline*
+3*¢
+3ó
+åD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularTenantRouterMiddleware.csT	 T(	*
+4*©
+4ó
+åD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularTenantRouterMiddleware.csR R(#Å
+˛
+ó
+åD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularTenantRouterMiddleware.csR R(#	
+%9int"(System.Threading.SemaphoreSlim.Release()*-
++
+	semaphoreSystem.Threading.SemaphoreSlim*
+5
+5*œ
+5ó
+åD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularTenantRouterMiddleware.csT	 T(	"Ø
+ó
+åD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularTenantRouterMiddleware.csT T(	
+implicit return:C
+shellContext3OrchardCore.Environment.Shell.Builders.ShellContextB53
+1OrchardCore.Modules.ModularTenantRouterMiddleware

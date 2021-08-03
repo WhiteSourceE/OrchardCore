@@ -1,0 +1,51 @@
+
+êOrchardCore.Users.Services.UserAuthorizationHandler.HasAuthorizationToManageAnyRoleAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, System.Collections.Generic.IEnumerable<string>)¡
+–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Services\UserAuthorizationHandler.csd! d(E"0*¬
+0¡
+–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Services\UserAuthorizationHandler.csf% f(.*
+1*¯
+1¡
+–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Services\UserAuthorizationHandler.cso	 o(	*
+2
+3*Ú	
+2¢
+–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Services\UserAuthorizationHandler.csh h(ƒì
+é
+¢
+–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Services\UserAuthorizationHandler.cshD h(„1
+%0+OrchardCore.Security.Permissions.Permission"POrchardCore.Users.CommonPermissions.CreatePermissionForManageUsersInRole(string)*'"%
+#OrchardCore.Users.CommonPermissions*
+
+roleNamestring¸
+µ
+¢
+–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Services\UserAuthorizationHandler.csh h(…*
+%1$System.Threading.Tasks.Task<TResult>"ßMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission)*E"C
+AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*R
+P
+authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationService*0
+.
+user&System.Security.Claims.ClaimsPrincipal*3
+1
+%0+OrchardCore.Security.Permissions.Permission*
+4
+1*Ö
+4¡
+–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Services\UserAuthorizationHandler.csj j("¬
+¡
+–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Services\UserAuthorizationHandler.csj j( 
+""*Ö
+3¡
+–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Services\UserAuthorizationHandler.csn n("¬
+¡
+–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Services\UserAuthorizationHandler.csn n(
+""*ã
+5¡
+–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Services\UserAuthorizationHandler.cso	 o(	"¹
+¡
+–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Services\UserAuthorizationHandler.cso o(	
+implicit return:P
+authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationService:.
+user&System.Security.Claims.ClaimsPrincipal:6
+	roleNames)System.Collections.Generic.IEnumerable<T>B75
+3OrchardCore.Users.Services.UserAuthorizationHandler

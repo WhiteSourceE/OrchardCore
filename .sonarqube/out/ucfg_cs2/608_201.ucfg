@@ -1,0 +1,96 @@
+
+≠OrchardCore.Lists.Services.ContainerService.ApplyPagingContentIndexFilter(System.DateTime?, System.DateTime?, bool, YesSql.IQuery<OrchardCore.ContentManagement.ContentItem>)õ
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Services\ContainerService.cs≈ ≈(9"0*€
+0õ
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Services\ContainerService.cs« …(èå
+õ
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Services\ContainerService.cs« «(;
+%0YesSql.IQuery<T, TIndex>"YesSql.IQuery<T>.With<TIndex>()*
+
+queryYesSql.IQuery<T>2With<TIndex>()Ò
+Ó
+õ
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Services\ContainerService.cs« «(;&
+
+indexQueryYesSql.IQuery<T, TIndex>"__id* 
+
+%0YesSql.IQuery<T, TIndex>©
+¶
+õ
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Services\ContainerService.cs… …(
+
+%1bool"=System.DateTime.operator !=(System.DateTime, System.DateTime)*"
+System.DateTime*
+
+beforeSystem.Nullable<T>*
+""*
+1
+2*¡
+1õ
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Services\ContainerService.csÀ À(;òï
+õ
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Services\ContainerService.csÀ À(<
+%2YesSql.IQuery<T, TIndex>"]YesSql.IQuery<T, TIndex>.Where(System.Linq.Expressions.Expression<System.Func<TIndex, bool>>)*(
+&
+
+indexQueryYesSql.IQuery<T, TIndex>*
+""2DWhere(System.Linq.Expressions.Expression<System.Func<TIndex, bool>>)*
+2*‘
+2õ
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Services\ContainerService.csŒ Œ(®
+•
+õ
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Services\ContainerService.csŒ Œ(
+
+%3bool"=System.DateTime.operator !=(System.DateTime, System.DateTime)*"
+System.DateTime*
+
+afterSystem.Nullable<T>*
+""*
+3
+4*¡
+3õ
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Services\ContainerService.cs– –(:òï
+õ
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Services\ContainerService.cs– –(;
+%4YesSql.IQuery<T, TIndex>"]YesSql.IQuery<T, TIndex>.Where(System.Linq.Expressions.Expression<System.Func<TIndex, bool>>)*(
+&
+
+indexQueryYesSql.IQuery<T, TIndex>*
+""2DWhere(System.Linq.Expressions.Expression<System.Func<TIndex, bool>>)*
+4*©
+4õ
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Services\ContainerService.cs” ”(*
+5
+6*…
+5õ
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Services\ContainerService.cs’ ’(4†ù
+õ
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Services\ContainerService.cs’ ’(5
+%5YesSql.IQuery<T, TIndex>"aYesSql.IQuery<T, TIndex>.OrderBy(System.Linq.Expressions.Expression<System.Func<TIndex, object>>)*(
+&
+
+indexQueryYesSql.IQuery<T, TIndex>*
+""2HOrderBy(System.Linq.Expressions.Expression<System.Func<TIndex, object>>)*
+7*›
+6õ
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Services\ContainerService.csŸ Ÿ(>¥±
+õ
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Services\ContainerService.csŸ Ÿ(?
+%6YesSql.IQuery<T, TIndex>"kYesSql.IQuery<T, TIndex>.OrderByDescending(System.Linq.Expressions.Expression<System.Func<TIndex, object>>)*(
+&
+
+indexQueryYesSql.IQuery<T, TIndex>*
+""2ROrderByDescending(System.Linq.Expressions.Expression<System.Func<TIndex, object>>)*
+7*◊
+7õ
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Services\ContainerService.cs€	 €(	"≥
+õ
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Services\ContainerService.cs€ €(	
+implicit return:
+beforeSystem.Nullable<T>:
+afterSystem.Nullable<T>:
+
+orderByAscbool:
+queryYesSql.IQuery<T>B/"-
++OrchardCore.Lists.Services.ContainerService

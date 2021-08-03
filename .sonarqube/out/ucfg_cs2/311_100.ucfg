@@ -1,0 +1,384 @@
+
+‰OrchardCore.Deployment.Remote.Controllers.ImportRemoteInstanceController.Import(OrchardCore.Deployment.Remote.ViewModels.ImportViewModel)¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.cs() ((/"15*ñ$
+0¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.cs* 0($ª
+§
+¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.cs*) *(=@
+%0:OrchardCore.Deployment.Remote.Services.RemoteClientService"__id*£* J
+HOrchardCore.Deployment.Remote.Controllers.ImportRemoteInstanceController"R
+_remoteClientService:OrchardCore.Deployment.Remote.Services.RemoteClientServiceƒ
+€
+¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.cs*) *(X*
+%1$System.Threading.Tasks.Task<TResult>"UOrchardCore.Deployment.Remote.Services.RemoteClientService.GetRemoteClientListAsync()*B
+@
+%0:OrchardCore.Deployment.Remote.Services.RemoteClientService•
+’
+¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.cs* *(XI
+remoteClientList5OrchardCore.Deployment.Remote.Models.RemoteClientList"__id*
+""ü
+ù
+¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.cs, ,(=(
+%2"System.Collections.Generic.List<T>"GOrchardCore.Deployment.Remote.Models.RemoteClientList.RemoteClients.get*K
+I
+remoteClientList5OrchardCore.Deployment.Remote.Models.RemoteClientListÂ
+¿
+¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.cs, ,(s7
+%31OrchardCore.Deployment.Remote.Models.RemoteClient"{System.Linq.Enumerable.FirstOrDefault<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
+System.Linq.Enumerable**
+(
+%2"System.Collections.Generic.List<T>*
+""À
+½
+¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.cs, ,(sA
+remoteClient1OrchardCore.Deployment.Remote.Models.RemoteClient"__id*9
+7
+%31OrchardCore.Deployment.Remote.Models.RemoteClient‘
+Ž
+¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.cs. .(&
+%4System.Text.Encoding"System.Text.Encoding.UTF8.get*"
+System.Text.Encoding”
+‘
+¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.cs.1 .(?8
+%52Microsoft.AspNetCore.DataProtection.IDataProtector"__id*•*’J
+HOrchardCore.Deployment.Remote.Controllers.ImportRemoteInstanceController"D
+_dataProtector2Microsoft.AspNetCore.DataProtection.IDataProtectorÖ
+Ó
+¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.cs.J .(f
+%6byte[]"EOrchardCore.Deployment.Remote.Models.RemoteClient.ProtectedApiKey.get*C
+A
+remoteClient1OrchardCore.Deployment.Remote.Models.RemoteClientïì
+¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.cs.1 .(g
+%7byte[]"DMicrosoft.AspNetCore.DataProtection.IDataProtector.Unprotect(byte[])*:
+8
+%52Microsoft.AspNetCore.DataProtection.IDataProtector*
+
+%6byte[]2Unprotect(byte[])³°
+¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.cs. .(h
+%8string"&System.Text.Encoding.GetString(byte[])*
+
+%4System.Text.Encoding*
+
+%7byte[]2GetString(byte[])ä
+á
+¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.cs. .(h
+apiKeystring"__id*
+
+%8stringÅ
+Â
+¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.cs0 0($
+
+%9bool""object.operator ==(object, object)*
+"
+object*C
+A
+remoteClient1OrchardCore.Deployment.Remote.Models.RemoteClient*
+""*
+1
+2*½
+2¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.cs0( 0(>Õ
+Ò
+¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.cs0( 0(4
+%10string"COrchardCore.Deployment.Remote.ViewModels.ImportViewModel.ApiKey.get*C
+A
+model8OrchardCore.Deployment.Remote.ViewModels.ImportViewModelž
+›
+¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.cs0( 0(>
+%11bool""string.operator !=(string, string)*
+"
+string*
+
+%10string*
+
+apiKeystring*
+1
+3*“	
+3¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.cs0B 0(mÙ
+Ö
+¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.cs0B 0(R
+%12string"GOrchardCore.Deployment.Remote.ViewModels.ImportViewModel.ClientName.get*C
+A
+model8OrchardCore.Deployment.Remote.ViewModels.ImportViewModelÒ
+Ï
+¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.cs0V 0(m
+%13string"@OrchardCore.Deployment.Remote.Models.RemoteClient.ClientName.get*C
+A
+remoteClient1OrchardCore.Deployment.Remote.Models.RemoteClient›
+˜
+¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.cs0B 0(m
+%14bool""string.operator !=(string, string)*
+"
+string*
+
+%12string*
+
+%13string*
+1
+4*ò	
+1¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.cs2 2(bÑ
+Î
+¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.cs2' 2(@
+%15"__id*
+""Ò
+Ï
+¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.cs2" 2(@
+%16"__id*
+
+%15ž›
+¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.cs2 2(c,
+%17%Microsoft.AspNetCore.Mvc.ObjectResult"?Microsoft.AspNetCore.Mvc.ControllerBase.StatusCode(int, object)*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*
+
+%16*" 
+The Api Key was not recognized2StatusCode(int, object)"é
+¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.cs2 2(d.
+,
+%17%Microsoft.AspNetCore.Mvc.ObjectResult*â
+4¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.cs6 9(g
+þ
+¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.cs6" 6(8
+%18string" System.IO.Path.GetTempFileName()*"
+System.IO.Pathð
+í
+¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.cs6" 6(A
+%19string"__concat*
+
+%18string*
+.zipî
+ë
+¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.cs6 6(A
+tempArchiveNamestring"__id*
+
+%19stringý
+ú
+¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.cs9; 9(M
+%20string"System.IO.Path.GetTempPath()*"
+System.IO.Pathƒ
+€
+¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.cs9O 9(g
+%21string""System.IO.Path.GetRandomFileName()*"
+System.IO.Path½
+º
+¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.cs9$ 9(h
+%22string"0System.IO.PathExtensions.Combine(string, string)*"
+System.IO.PathExtensions*
+
+%20string*
+
+%21stringð
+í
+¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.cs9 9(h
+tempArchiveFolderstring"__id*
+
+%22string*
+5*í
+5¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.cs= =(E©
+¦
+¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.cs=  =(F
+%23System.IO.FileStream"System.IO.File.Create(string)*"
+System.IO.File*
+
+tempArchiveNamestringý
+ú
+¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.cs= =(F
+fsSystem.IO.FileStream"__id*
+
+%23System.IO.FileStream*
+6*˜
+6¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.cs? ?(6ó
+ð
+¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.cs? ?('*
+%24#Microsoft.AspNetCore.Http.IFormFile"DOrchardCore.Deployment.Remote.ViewModels.ImportViewModel.Content.get*C
+A
+model8OrchardCore.Deployment.Remote.ViewModels.ImportViewModelÞÛ
+¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.cs? ?(7"
+%25System.Threading.Tasks.Task"eMicrosoft.AspNetCore.Http.IFormFile.CopyToAsync(System.IO.Stream, System.Threading.CancellationToken)*,
+*
+%24#Microsoft.AspNetCore.Http.IFormFile*
+
+fsSystem.IO.FileStream*
+""2ACopyToAsync(System.IO.Stream, System.Threading.CancellationToken)*
+7*»
+7¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.csB D(pê
+ç
+¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.csB B(N
+%26void"@System.IO.Compression.ZipFile.ExtractToDirectory(string, string)*!"
+System.IO.Compression.ZipFile*
+
+tempArchiveNamestring*
+
+tempArchiveFolderstring™
+–
+¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.csD D((9
+%272OrchardCore.Deployment.Services.IDeploymentManager"__id*™*–J
+HOrchardCore.Deployment.Remote.Controllers.ImportRemoteInstanceController"H
+_deploymentManager2OrchardCore.Deployment.Services.IDeploymentManagerµ²
+¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.csDF D(q>
+%287Microsoft.Extensions.FileProviders.PhysicalFileProvider"7Microsoft.Extensions.FileProviders.PhysicalFileProvider€
+ý
+¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.csDJ D(^
+%29void"TMicrosoft.Extensions.FileProviders.PhysicalFileProvider.PhysicalFileProvider(string)*@
+>
+%287Microsoft.Extensions.FileProviders.PhysicalFileProvider*
+
+tempArchiveFolderstring³°
+¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.csD D(r"
+%30System.Threading.Tasks.Task"OrchardCore.Deployment.Services.IDeploymentManager.ImportDeploymentPackageAsync(Microsoft.Extensions.FileProviders.IFileProvider)*;
+9
+%272OrchardCore.Deployment.Services.IDeploymentManager*@
+>
+%287Microsoft.Extensions.FileProviders.PhysicalFileProvider2NImportDeploymentPackageAsync(Microsoft.Extensions.FileProviders.IFileProvider)*
+8*â
+8¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.csH H(9š
+—
+¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.csH H(:
+%31bool"System.IO.File.Exists(string?)*"
+System.IO.File*
+
+tempArchiveNamestring*
+9
+10*Þ
+9¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.csJ J(9™
+–
+¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.csJ J(:
+%32void"System.IO.File.Delete(string)*"
+System.IO.File*
+
+tempArchiveNamestring*
+10*ð
+10¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.csM M(6¦
+£
+¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.csM M(7
+%33bool"#System.IO.Directory.Exists(string?)*"
+System.IO.Directory*
+
+tempArchiveFolderstring*
+11
+12*ù
+11¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.csO O(<³
+°
+¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.csO O(=
+%34void"(System.IO.Directory.Delete(string, bool)*"
+System.IO.Directory*
+
+tempArchiveFolderstring*
+""*
+12*Ç
+12¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.csT	 T(	*
+13
+14*ï
+13¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.csS S(ÇÄ
+¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.csS S((
+%35!Microsoft.AspNetCore.Mvc.OkResult",Microsoft.AspNetCore.Mvc.ControllerBase.Ok()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2Ok()"å
+¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.csS S(*
+(
+%35!Microsoft.AspNetCore.Mvc.OkResult*Ž
+14¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.csT	 T(	"Î
+¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.csT T(	
+implicit return*æ
+15¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.cs(F ((F¶
+³
+¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.cs() ((/j
+A
+model8OrchardCore.Deployment.Remote.ViewModels.ImportViewModel"%
+<ClientName>k__BackingFieldstring"__entrypoint¥
+¢
+¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.cs() ((/Y
+A
+model8OrchardCore.Deployment.Remote.ViewModels.ImportViewModel"
+
+ClientNamestring"__entrypoint²
+¯
+¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.cs() ((/f
+A
+model8OrchardCore.Deployment.Remote.ViewModels.ImportViewModel"!
+<ApiKey>k__BackingFieldstring"__entrypoint¡
+ž
+¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.cs() ((/U
+A
+model8OrchardCore.Deployment.Remote.ViewModels.ImportViewModel"
+ApiKeystring"__entrypointÑ
+Î
+¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.cs() ((/„
+A
+model8OrchardCore.Deployment.Remote.ViewModels.ImportViewModel"?
+<Content>k__BackingField#Microsoft.AspNetCore.Http.IFormFile"__entrypoint¿
+¼
+¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.cs() ((/s
+A
+model8OrchardCore.Deployment.Remote.ViewModels.ImportViewModel".
+Content#Microsoft.AspNetCore.Http.IFormFile"__entrypointÑ
+Î
+¶
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\ImportRemoteInstanceController.cs() ((/
+%36"__entrypoint*
+0:A
+model8OrchardCore.Deployment.Remote.ViewModels.ImportViewModelBLJ
+HOrchardCore.Deployment.Remote.Controllers.ImportRemoteInstanceController

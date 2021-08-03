@@ -1,0 +1,301 @@
+
+oOrchardCore.Users.Controllers.AdminController.EditPassword(OrchardCore.Users.ViewModels.ResetPasswordViewModel)ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.csÁ) Á(5"9*‚
+0ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.csÈ Î(ÿ
+’
+ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.csÈ È()6
+%00Microsoft.AspNetCore.Identity.UserManager<TUser>"__id*u*s/
+-OrchardCore.Users.Controllers.AdminController"@
+_userManager0Microsoft.AspNetCore.Identity.UserManager<TUser>∞
+≠
+ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.csÈ; È(F
+%1string"=OrchardCore.Users.ViewModels.ResetPasswordViewModel.Email.get*>
+<
+model3OrchardCore.Users.ViewModels.ResetPasswordViewModel˛˚
+ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.csÈ È(G*
+%2$System.Threading.Tasks.Task<TResult>"IMicrosoft.AspNetCore.Identity.UserManager<TUser>.FindByEmailAsync(string)*8
+6
+%00Microsoft.AspNetCore.Identity.UserManager<TUser>*
+
+%1string2FindByEmailAsync(string)∑
+¥
+ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.csÈ È(O
+%3"__id*
+""ÿ
+’
+ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.csÈ È(O%
+userOrchardCore.Users.Models.User"__id*
+
+%3ê
+ç
+ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.csÎ Î(
+
+%4bool""object.operator ==(object, object)*
+"
+object*'
+%
+userOrchardCore.Users.Models.User*
+""*
+1
+2*π
+1ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.csÌ Ì(!øº
+ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.csÌ Ì(!-
+%5'Microsoft.AspNetCore.Mvc.NotFoundResult"2Microsoft.AspNetCore.Mvc.ControllerBase.NotFound()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2
+NotFound()"—
+ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.csÌ Ì("/
+-
+%5'Microsoft.AspNetCore.Mvc.NotFoundResult*Á
+2ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.cs (_Û
+
+ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.cs (,>
+%68Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*á*Ñ/
+-OrchardCore.Users.Controllers.AdminController"Q
+_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationService∞
+≠
+ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.cs< (@,
+%7&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBaseΩ
+∫
+ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.csB (Y1
+%8+OrchardCore.Security.Permissions.Permission"__id*_*]
+OrchardCore.Users.Permissions":
+ManageUsers+OrchardCore.Security.Permissions.Permission–
+Õ
+ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.cs (`*
+%9$System.Threading.Tasks.Task<TResult>"ÁMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission, object)*E"C
+AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*@
+>
+%68Microsoft.AspNetCore.Authorization.IAuthorizationService*.
+,
+%7&System.Security.Claims.ClaimsPrincipal*3
+1
+%8+OrchardCore.Security.Permissions.Permission*'
+%
+userOrchardCore.Users.Models.User*
+3
+4*≥
+3ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.csÚ Ú(∫∑
+ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.csÚ Ú(,
+%10%Microsoft.AspNetCore.Mvc.ForbidResult"0Microsoft.AspNetCore.Mvc.ControllerBase.Forbid()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2Forbid()"–
+ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.csÚ Ú( .
+,
+%10%Microsoft.AspNetCore.Mvc.ForbidResult*π
+4ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.csı ı("À
+»
+ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.csı ı(A
+%11:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary"6Microsoft.AspNetCore.Mvc.ControllerBase.ModelState.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBaseΩ
+∫
+ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.csı ı("
+%12bool"FMicrosoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary.IsValid.get*C
+A
+%11:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary*
+5
+6*ä
+5ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.cs˜ ˘(yŸ
+÷
+ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.cs˜" ˜(.7
+%130Microsoft.AspNetCore.Identity.UserManager<TUser>"__id*u*s/
+-OrchardCore.Users.Controllers.AdminController"@
+_userManager0Microsoft.AspNetCore.Identity.UserManager<TUser>µ≤
+ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.cs˜" ˜(T+
+%14$System.Threading.Tasks.Task<TResult>"WMicrosoft.AspNetCore.Identity.UserManager<TUser>.GeneratePasswordResetTokenAsync(TUser)*9
+7
+%130Microsoft.AspNetCore.Identity.UserManager<TUser>*'
+%
+userOrchardCore.Users.Models.User2&GeneratePasswordResetTokenAsync(TUser)¬
+ø
+ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.cs˜ ˜(T
+tokenstring"__id*
+""«
+ƒ
+ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.cs˘ ˘(&.
+%15'OrchardCore.Users.Services.IUserService"__id*l*j/
+-OrchardCore.Users.Controllers.AdminController"7
+_userService'OrchardCore.Users.Services.IUserService±
+Æ
+ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.cs˘: ˘(E
+%16string"=OrchardCore.Users.ViewModels.ResetPasswordViewModel.Email.get*>
+<
+model3OrchardCore.Users.ViewModels.ResetPasswordViewModel∑
+¥
+ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.cs˘N ˘(_
+%17string"COrchardCore.Users.ViewModels.ResetPasswordViewModel.NewPassword.get*>
+<
+model3OrchardCore.Users.ViewModels.ResetPasswordViewModelÀ
+»
+ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.cs˘a ˘(kA
+%18:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary"6Microsoft.AspNetCore.Mvc.ControllerBase.ModelState.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase˝˙
+ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.cs˘ ˘(z+
+%19$System.Threading.Tasks.Task<TResult>"qOrchardCore.Users.Services.IUserService.ResetPasswordAsync(string, string, string, System.Action<string, string>)*0
+.
+%15'OrchardCore.Users.Services.IUserService*
+
+%16string*
+
+tokenstring*
+
+%17string*
+""2IResetPasswordAsync(string, string, string, System.Action<string, string>)*
+7
+6*ÿ
+7ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.cs˚ ˝(9“
+œ
+ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.cs˚ ˚(5
+%20.OrchardCore.DisplayManagement.Notify.INotifier"__id*p*n/
+-OrchardCore.Users.Controllers.AdminController";
+	_notifier.OrchardCore.DisplayManagement.Notify.INotifier÷
+”
+ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.cs˚& ˚(';
+%214Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer"__id*n*l/
+-OrchardCore.Users.Controllers.AdminController"9
+H4Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizerûõ
+ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.cs˚& ˚(F@
+%229Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString"EMicrosoft.AspNetCore.Mvc.Localization.IHtmlLocalizer.this[string].get*=
+;
+%214Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer*
+Password updated correctly.2this[string].getó
+î
+ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.cs˚ ˚(G
+%23void"™OrchardCore.DisplayManagement.Notify.NotifierExtensions.Success(OrchardCore.DisplayManagement.Notify.INotifier, Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString)*;"9
+7OrchardCore.DisplayManagement.Notify.NotifierExtensions*7
+5
+%20.OrchardCore.DisplayManagement.Notify.INotifier*B
+@
+%229Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlStringÏÈ
+ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.cs˝ ˝(:6
+%24/Microsoft.AspNetCore.Mvc.RedirectToActionResult"@Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToAction(string)*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*
+""2RedirectToAction(string)"⁄
+ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.cs˝ ˝(;8
+6
+%24/Microsoft.AspNetCore.Mvc.RedirectToActionResult*≤
+6ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.csÅ Å(⁄
+◊
+ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.csÅ Å(
+%25void"*orchardcore.users/views/admin/editpassword*
+
+%26*>
+<
+model3OrchardCore.Users.ViewModels.ResetPasswordViewModel*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject* 
+
+%HttpContextItemsAllobject*!
+
+%HttpContextItemsHtmlobject"Ø
+ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.csÅ Å(
+
+%25void*€
+8ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.csÇ	 Ç(	"µ
+ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.csÇ Ç(	
+implicit return*É
+9ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.csÁS Á(Sì
+ê
+ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.csÁ) Á(5`
+<
+model3OrchardCore.Users.ViewModels.ResetPasswordViewModel" 
+<Email>k__BackingFieldstring"__entrypointÇ
+ˇ
+ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.csÁ) Á(5O
+<
+model3OrchardCore.Users.ViewModels.ResetPasswordViewModel"
+Emailstring"__entrypointô
+ñ
+ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.csÁ) Á(5f
+<
+model3OrchardCore.Users.ViewModels.ResetPasswordViewModel"&
+<NewPassword>k__BackingFieldstring"__entrypointà
+Ö
+ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.csÁ) Á(5U
+<
+model3OrchardCore.Users.ViewModels.ResetPasswordViewModel"
+NewPasswordstring"__entrypoint¢
+ü
+ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.csÁ) Á(5o
+<
+model3OrchardCore.Users.ViewModels.ResetPasswordViewModel"/
+%<PasswordConfirmation>k__BackingFieldstring"__entrypointë
+é
+ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.csÁ) Á(5^
+<
+model3OrchardCore.Users.ViewModels.ResetPasswordViewModel"
+PasswordConfirmationstring"__entrypointò
+ï
+ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.csÁ) Á(5e
+<
+model3OrchardCore.Users.ViewModels.ResetPasswordViewModel"%
+<ResetToken>k__BackingFieldstring"__entrypointá
+Ñ
+ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.csÁ) Á(5T
+<
+model3OrchardCore.Users.ViewModels.ResetPasswordViewModel"
+
+ResetTokenstring"__entrypoint∏
+µ
+ù
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.csÁ) Á(5
+%27"__entrypoint*
+0:<
+model3OrchardCore.Users.ViewModels.ResetPasswordViewModelB1/
+-OrchardCore.Users.Controllers.AdminController

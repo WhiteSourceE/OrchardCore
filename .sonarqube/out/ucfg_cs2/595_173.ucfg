@@ -1,0 +1,273 @@
+
+®OrchardCore.Lucene.Deployment.LuceneIndexDeploymentSource.ProcessDeploymentStepAsync(OrchardCore.Deployment.DeploymentStep, OrchardCore.Deployment.DeploymentPlanResult)ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Deployment\LuceneIndexDeploymentSource.cs (4"0*º
+0ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Deployment\LuceneIndexDeploymentSource.cs ('ë
+é
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Deployment\LuceneIndexDeploymentSource.cs" (C+
+%0%OrchardCore.Deployment.DeploymentStep"__id*/
+-
+step%OrchardCore.Deployment.DeploymentStepÆ
+´
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Deployment\LuceneIndexDeploymentSource.cs (CJ
+luceneIndexStep7OrchardCore.Lucene.Deployment.LuceneIndexDeploymentStep"__id*-
++
+%0%OrchardCore.Deployment.DeploymentStepø
+º
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Deployment\LuceneIndexDeploymentSource.cs ('
+
+%1bool""object.operator ==(object, object)*
+"
+object*L
+J
+luceneIndexStep7OrchardCore.Lucene.Deployment.LuceneIndexDeploymentStep*
+""*
+1
+2*‚
+1ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Deployment\LuceneIndexDeploymentSource.cs0	 0(	"≤
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Deployment\LuceneIndexDeploymentSource.cs (
+""*…
+2ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Deployment\LuceneIndexDeploymentSource.cs (9˘
+ˆ
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Deployment\LuceneIndexDeploymentSource.cs& (A3
+%2-OrchardCore.Lucene.LuceneIndexSettingsService"__id*é*ã;
+9OrchardCore.Lucene.Deployment.LuceneIndexDeploymentSource"L
+_luceneIndexSettingsService-OrchardCore.Lucene.LuceneIndexSettingsService“
+œ
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Deployment\LuceneIndexDeploymentSource.cs& (T*
+%3$System.Threading.Tasks.Task<TResult>"@OrchardCore.Lucene.LuceneIndexSettingsService.GetSettingsAsync()*5
+3
+%2-OrchardCore.Lucene.LuceneIndexSettingsService˜
+Ù
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Deployment\LuceneIndexDeploymentSource.cs (T:
+indexSettings)System.Collections.Generic.IEnumerable<T>"__id*
+""ÌÍ
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Deployment\LuceneIndexDeploymentSource.cs (#!
+%4Newtonsoft.Json.Linq.JArray"Newtonsoft.Json.Linq.JArrayÑ
+Å
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Deployment\LuceneIndexDeploymentSource.cs (!
+
+%5void"$Newtonsoft.Json.Linq.JArray.JArray()*#
+!
+%4Newtonsoft.Json.Linq.JArray˝
+˙
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Deployment\LuceneIndexDeploymentSource.cs (##
+dataNewtonsoft.Json.Linq.JArray"__id*#
+!
+%4Newtonsoft.Json.Linq.JArrayœ
+Ã
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Deployment\LuceneIndexDeploymentSource.cs (9
+
+%6bool"FOrchardCore.Lucene.Deployment.LuceneIndexDeploymentStep.IncludeAll.get*L
+J
+luceneIndexStep7OrchardCore.Lucene.Deployment.LuceneIndexDeploymentStep*
+3
+4*ì
+3ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Deployment\LuceneIndexDeploymentSource.cs< (a¬
+ø
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Deployment\LuceneIndexDeploymentSource.cs< (b0
+%10)System.Collections.Generic.IEnumerable<T>"System.Linq.Enumerable.Select<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)*"
+System.Linq.Enumerable*<
+:
+indexSettings)System.Collections.Generic.IEnumerable<T>*
+""Ë
+Â
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Deployment\LuceneIndexDeploymentSource.cs< (l
+%11string[]"XSystem.Linq.Enumerable.ToArray<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*2
+0
+%10)System.Collections.Generic.IEnumerable<T>÷
+”
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Deployment\LuceneIndexDeploymentSource.cs< (l
+%8string[]"__id*
+
+%11string[]’
+“
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Deployment\LuceneIndexDeploymentSource.cs< (l
+%7string[]"__id*
+
+%8string[]*
+5*æ
+4®
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Deployment\LuceneIndexDeploymentSource.cso (â’
+“
+®
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Deployment\LuceneIndexDeploymentSource.cso (â
+%12string[]"FOrchardCore.Lucene.Deployment.LuceneIndexDeploymentStep.IndexNames.get*L
+J
+luceneIndexStep7OrchardCore.Lucene.Deployment.LuceneIndexDeploymentStep◊
+‘
+®
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Deployment\LuceneIndexDeploymentSource.cso (â
+%9string[]"__id*
+
+%12string[]÷
+”
+®
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Deployment\LuceneIndexDeploymentSource.cso (â
+%7string[]"__id*
+
+%9string[]*
+5*ï
+5ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Deployment\LuceneIndexDeploymentSource.cs !(/‡
+›
+®
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Deployment\LuceneIndexDeploymentSource.cs (â
+indicesToAddstring[]"__id*
+
+%7string[]*
+6*µ
+6ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Deployment\LuceneIndexDeploymentSource.cs0	 0(	*
+7
+8*”
+7ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Deployment\LuceneIndexDeploymentSource.cs# #(9±
+Æ
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Deployment\LuceneIndexDeploymentSource.cs#* #(9
+%13string":OrchardCore.Lucene.Model.LuceneIndexSettings.IndexName.get*7
+5
+index,OrchardCore.Lucene.Model.LuceneIndexSettingsÁ
+‰
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Deployment\LuceneIndexDeploymentSource.cs# #(:
+%14bool"bSystem.Linq.Enumerable.Contains<TSource>(System.Collections.Generic.IEnumerable<TSource>, TSource)*"
+System.Linq.Enumerable*
+
+indicesToAddstring[]*
+
+%13string*
+9
+6*Ó
+9ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Deployment\LuceneIndexDeploymentSource.cs% '(Aûõ
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Deployment\LuceneIndexDeploymentSource.cs%, %(Y:
+%153System.Collections.Generic.Dictionary<TKey, TValue>"3System.Collections.Generic.Dictionary<TKey, TValue>∫
+∑
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Deployment\LuceneIndexDeploymentSource.cs%0 %(W
+%16void"@System.Collections.Generic.Dictionary<TKey, TValue>.Dictionary()*<
+:
+%153System.Collections.Generic.Dictionary<TKey, TValue>ª
+∏
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Deployment\LuceneIndexDeploymentSource.cs% %(YH
+indexSettingsDict3System.Collections.Generic.Dictionary<TKey, TValue>"__id*<
+:
+%153System.Collections.Generic.Dictionary<TKey, TValue>±
+Æ
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Deployment\LuceneIndexDeploymentSource.cs&* &(9
+%17string":OrchardCore.Lucene.Model.LuceneIndexSettings.IndexName.get*7
+5
+index,OrchardCore.Lucene.Model.LuceneIndexSettings⁄
+◊
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Deployment\LuceneIndexDeploymentSource.cs& &(A
+%18void"__mapSet*J
+H
+indexSettingsDict3System.Collections.Generic.Dictionary<TKey, TValue>*
+
+%17string*7
+5
+index,OrchardCore.Lucene.Model.LuceneIndexSettingsÒ
+Ó
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Deployment\LuceneIndexDeploymentSource.cs' '(B#
+%19Newtonsoft.Json.Linq.JObject"/Newtonsoft.Json.Linq.JObject.FromObject(object)* "
+Newtonsoft.Json.Linq.JObject*J
+H
+indexSettingsDict3System.Collections.Generic.Dictionary<TKey, TValue>ò
+ï
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Deployment\LuceneIndexDeploymentSource.cs' '(C
+%20void"
+__arrayAdd*%
+#
+dataNewtonsoft.Json.Linq.JArray*: *%
+#
+%19Newtonsoft.Json.Linq.JObject*
+6*Å
+8ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Deployment\LuceneIndexDeploymentSource.cs, .(-…
+∆
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Deployment\LuceneIndexDeploymentSource.cs, ,(*
+%21#System.Collections.Generic.IList<T>"5OrchardCore.Deployment.DeploymentPlanResult.Steps.get*7
+5
+result+OrchardCore.Deployment.DeploymentPlanResultÙÒ
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Deployment\LuceneIndexDeploymentSource.cs- -(5%
+%22Newtonsoft.Json.Linq.JProperty"Newtonsoft.Json.Linq.JProperty∫
+∑
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Deployment\LuceneIndexDeploymentSource.cs- -(
+%23void"9Newtonsoft.Json.Linq.JProperty.JProperty(string, object?)*'
+%
+%22Newtonsoft.Json.Linq.JProperty*
+name*
+lucene-indexÙÒ
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Deployment\LuceneIndexDeploymentSource.cs. .(.%
+%24Newtonsoft.Json.Linq.JProperty"Newtonsoft.Json.Linq.JProperty“
+œ
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Deployment\LuceneIndexDeploymentSource.cs. .(
+%25void"9Newtonsoft.Json.Linq.JProperty.JProperty(string, object?)*'
+%
+%24Newtonsoft.Json.Linq.JProperty*	
+Indices*%
+#
+dataNewtonsoft.Json.Linq.JArrayÌ
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Deployment\LuceneIndexDeploymentSource.cs, /(#
+%26Newtonsoft.Json.Linq.JObject"Newtonsoft.Json.Linq.JObjectÍ
+Á
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Deployment\LuceneIndexDeploymentSource.cs,! ,((
+%27void"5Newtonsoft.Json.Linq.JObject.JObject(params object[])*%
+#
+%26Newtonsoft.Json.Linq.JObject*'
+%
+%22Newtonsoft.Json.Linq.JProperty*'
+%
+%24Newtonsoft.Json.Linq.JPropertyü
+ú
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Deployment\LuceneIndexDeploymentSource.cs, /(
+%28void"
+__arrayAdd*,
+*
+%21#System.Collections.Generic.IList<T>*: *%
+#
+%26Newtonsoft.Json.Linq.JObject*
+10*
+10ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Deployment\LuceneIndexDeploymentSource.cs0	 0(	"ø
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Deployment\LuceneIndexDeploymentSource.cs0 0(	
+implicit return:-
+step%OrchardCore.Deployment.DeploymentStep:5
+result+OrchardCore.Deployment.DeploymentPlanResultB=;
+9OrchardCore.Lucene.Deployment.LuceneIndexDeploymentSource

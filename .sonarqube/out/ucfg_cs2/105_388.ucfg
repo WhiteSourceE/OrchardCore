@@ -1,0 +1,259 @@
+
+µOrchardCore.Environment.Shell.Builders.CompositionStrategy.ComposeAsync(OrchardCore.Environment.Shell.ShellSettings, OrchardCore.Environment.Shell.Descriptor.Models.ShellDescriptor)î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\CompositionStrategy.cs* (6"0*˝
+0î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\CompositionStrategy.cs (0ø
+º
+î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\CompositionStrategy.cs (*
+%0$Microsoft.Extensions.Logging.ILogger"__id*q*o<
+:OrchardCore.Environment.Shell.Builders.CompositionStrategy"/
+_logger$Microsoft.Extensions.Logging.ILoggerÆ
+´
+î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\CompositionStrategy.cs" (0
+%1"__id*
+""Â‚
+î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\CompositionStrategy.cs (1
+
+%2bool"UMicrosoft.Extensions.Logging.ILogger.IsEnabled(Microsoft.Extensions.Logging.LogLevel)*,
+*
+%0$Microsoft.Extensions.Logging.ILogger*
+
+%120IsEnabled(Microsoft.Extensions.Logging.LogLevel)*
+1
+2*É
+1î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\CompositionStrategy.cs (6ø
+º
+î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\CompositionStrategy.cs (*
+%3$Microsoft.Extensions.Logging.ILogger"__id*q*o<
+:OrchardCore.Environment.Shell.Builders.CompositionStrategy"/
+_logger$Microsoft.Extensions.Logging.ILoggerü
+ú
+î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\CompositionStrategy.cs (7
+
+%4void"uMicrosoft.Extensions.Logging.LoggerExtensions.LogDebug(Microsoft.Extensions.Logging.ILogger, string, params object[])*1"/
+-Microsoft.Extensions.Logging.LoggerExtensions*,
+*
+%3$Microsoft.Extensions.Logging.ILogger*
+Composing blueprint*
+""*
+2*Ü
+2î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\CompositionStrategy.cs" ((,‰
+·
+î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\CompositionStrategy.cs" "(2)
+%5#System.Collections.Generic.IList<T>"LOrchardCore.Environment.Shell.Descriptor.Models.ShellDescriptor.Features.get*O
+M
+
+descriptor?OrchardCore.Environment.Shell.Descriptor.Models.ShellDescriptorù
+ö
+î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\CompositionStrategy.cs" "(D/
+%6)System.Collections.Generic.IEnumerable<T>"System.Linq.Enumerable.Select<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)*"
+System.Linq.Enumerable*+
+)
+%5#System.Collections.Generic.IList<T>*
+""”
+–
+î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\CompositionStrategy.cs" "(N
+%7string[]"XSystem.Linq.Enumerable.ToArray<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*1
+/
+%6)System.Collections.Generic.IEnumerable<T>Ã
+…
+î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\CompositionStrategy.cs" "(N
+featureNamesstring[]"__id*
+
+%7string[]Î
+Ë
+î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\CompositionStrategy.cs$! $(2:
+%84OrchardCore.Environment.Extensions.IExtensionManager"__id*å*â<
+:OrchardCore.Environment.Shell.Builders.CompositionStrategy"I
+_extensionManager4OrchardCore.Environment.Extensions.IExtensionManagerèå
+î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\CompositionStrategy.cs$! $(R*
+%9$System.Threading.Tasks.Task<TResult>"POrchardCore.Environment.Extensions.IExtensionManager.LoadFeaturesAsync(string[])*<
+:
+%84OrchardCore.Environment.Extensions.IExtensionManager*
+
+featureNamesstring[]2LoadFeaturesAsync(string[])ﬂ
+‹
+î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\CompositionStrategy.cs$ $(R5
+features)System.Collections.Generic.IEnumerable<T>"__id*
+""ãà
+î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\CompositionStrategy.cs& &(>:
+%103System.Collections.Generic.Dictionary<TKey, TValue>"3System.Collections.Generic.Dictionary<TKey, TValue>ß
+§
+î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\CompositionStrategy.cs& &(<
+%11void"@System.Collections.Generic.Dictionary<TKey, TValue>.Dictionary()*<
+:
+%103System.Collections.Generic.Dictionary<TKey, TValue>û
+õ
+î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\CompositionStrategy.cs& &(>>
+entries3System.Collections.Generic.Dictionary<TKey, TValue>"__id*<
+:
+%103System.Collections.Generic.Dictionary<TKey, TValue>*
+3*¢
+3î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\CompositionStrategy.csA	 A(	*
+4
+5*Å
+4î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\CompositionStrategy.cs*- *(Bﬂ
+‹
+î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\CompositionStrategy.cs*- *(B0
+%12)System.Collections.Generic.IEnumerable<T>"JOrchardCore.Environment.Extensions.Features.FeatureEntry.ExportedTypes.get*E
+C
+feature8OrchardCore.Environment.Extensions.Features.FeatureEntry*
+6*¢
+6î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\CompositionStrategy.csA	 A(	*
+7
+3*õ	
+7î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\CompositionStrategy.cs, .(JÒ
+Ó
+î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\CompositionStrategy.cs,+ ,(p*
+%13#System.Collections.Generic.IList<T>"XOrchardCore.Modules.RequireFeaturesAttribute.GetRequiredFeatureNamesForType(System.Type)*0".
+,OrchardCore.Modules.RequireFeaturesAttribute*
+
+exportedTypeSystem.Typeá
+Ñ
+î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\CompositionStrategy.cs, ,(p7
+requiredFeatures#System.Collections.Generic.IList<T>"__id*,
+*
+%13#System.Collections.Generic.IList<T>¯
+ı
+î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\CompositionStrategy.cs. .(K
+%14bool"pSystem.Linq.Enumerable.All<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
+System.Linq.Enumerable*9
+7
+requiredFeatures#System.Collections.Generic.IList<T>*
+""*
+8
+6*˚
+8î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\CompositionStrategy.cs0 0(9Ÿ
+÷
+î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\CompositionStrategy.cs0 0(:
+%15void"__mapSet*@
+>
+entries3System.Collections.Generic.Dictionary<TKey, TValue>*
+
+exportedTypeSystem.Type*E
+C
+feature8OrchardCore.Environment.Extensions.Features.FeatureEntry*
+6*Ø
+5î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\CompositionStrategy.cs5 <(0ùö
+î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\CompositionStrategy.cs5 :(C
+%16<OrchardCore.Environment.Shell.Builders.Models.ShellBlueprint"<OrchardCore.Environment.Shell.Builders.Models.ShellBlueprintΩ
+∫
+î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\CompositionStrategy.cs5 5(+
+%17void"MOrchardCore.Environment.Shell.Builders.Models.ShellBlueprint.ShellBlueprint()*E
+C
+%16<OrchardCore.Environment.Shell.Builders.Models.ShellBlueprintõ
+ò
+î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\CompositionStrategy.cs7 7(#2
+%18+OrchardCore.Environment.Shell.ShellSettings"IOrchardCore.Environment.Shell.Builders.Models.ShellBlueprint.Settings.set*E
+C
+%16<OrchardCore.Environment.Shell.Builders.Models.ShellBlueprint*9
+7
+settings+OrchardCore.Environment.Shell.ShellSettings«
+ƒ
+î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\CompositionStrategy.cs8 8('F
+%19?OrchardCore.Environment.Shell.Descriptor.Models.ShellDescriptor"KOrchardCore.Environment.Shell.Builders.Models.ShellBlueprint.Descriptor.set*E
+C
+%16<OrchardCore.Environment.Shell.Builders.Models.ShellBlueprint*O
+M
+
+descriptor?OrchardCore.Environment.Shell.Descriptor.Models.ShellDescriptorØ
+¨
+î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\CompositionStrategy.cs9 9(&;
+%204System.Collections.Generic.IDictionary<TKey, TValue>"MOrchardCore.Environment.Shell.Builders.Models.ShellBlueprint.Dependencies.set*E
+C
+%16<OrchardCore.Environment.Shell.Builders.Models.ShellBlueprint*@
+>
+entries3System.Collections.Generic.Dictionary<TKey, TValue>Ø
+¨
+î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\CompositionStrategy.cs5 :(F
+result<OrchardCore.Environment.Shell.Builders.Models.ShellBlueprint"__id*E
+C
+%16<OrchardCore.Environment.Shell.Builders.Models.ShellBlueprint¿
+Ω
+î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\CompositionStrategy.cs< <(+
+%21$Microsoft.Extensions.Logging.ILogger"__id*q*o<
+:OrchardCore.Environment.Shell.Builders.CompositionStrategy"/
+_logger$Microsoft.Extensions.Logging.ILoggerØ
+¨
+î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\CompositionStrategy.cs<" <(0
+%22"__id*
+""ËÂ
+î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\CompositionStrategy.cs< <(1
+%23bool"UMicrosoft.Extensions.Logging.ILogger.IsEnabled(Microsoft.Extensions.Logging.LogLevel)*-
++
+%21$Microsoft.Extensions.Logging.ILogger*
+
+%2220IsEnabled(Microsoft.Extensions.Logging.LogLevel)*
+9
+10*å
+9î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\CompositionStrategy.cs> >(;¿
+Ω
+î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\CompositionStrategy.cs> >(+
+%24$Microsoft.Extensions.Logging.ILogger"__id*q*o<
+:OrchardCore.Environment.Shell.Builders.CompositionStrategy"/
+_logger$Microsoft.Extensions.Logging.ILogger¶
+£
+î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\CompositionStrategy.cs> >(<
+%25void"uMicrosoft.Extensions.Logging.LoggerExtensions.LogDebug(Microsoft.Extensions.Logging.ILogger, string, params object[])*1"/
+-Microsoft.Extensions.Logging.LoggerExtensions*-
++
+%24$Microsoft.Extensions.Logging.ILogger*
+Done composing blueprint*
+""*
+10*ˇ
+10î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\CompositionStrategy.cs@ @("·
+î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\CompositionStrategy.cs@ @(H
+F
+result<OrchardCore.Environment.Shell.Builders.Models.ShellBlueprint* 
+11î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\CompositionStrategy.csA	 A(	"¨
+î
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\CompositionStrategy.csA A(	
+implicit return:7
+settings+OrchardCore.Environment.Shell.ShellSettings:M
+
+descriptor?OrchardCore.Environment.Shell.Descriptor.Models.ShellDescriptorB><
+:OrchardCore.Environment.Shell.Builders.CompositionStrategy

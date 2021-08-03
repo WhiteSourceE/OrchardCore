@@ -1,0 +1,139 @@
+
+˜OrchardCore.Apis.GraphQL.GraphQLMiddleware.Invoke(Microsoft.AspNetCore.Http.HttpContext, Microsoft.AspNetCore.Authorization.IAuthorizationService, Microsoft.AspNetCore.Authentication.IAuthenticationService, OrchardCore.Apis.GraphQL.ISchemaFactory)ò
+çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cs+ +( "0*õ
+0ò
+çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cs- -()Ú
+Ô
+ò
+çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cs- -(*
+
+%0bool"bOrchardCore.Apis.GraphQL.GraphQLMiddleware.IsGraphQLRequest(Microsoft.AspNetCore.Http.HttpContext)*.,
+*OrchardCore.Apis.GraphQL.GraphQLMiddleware*2
+0
+context%Microsoft.AspNetCore.Http.HttpContext*
+1
+2*·
+1ò
+çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cs/ /(#ª
+∏
+ò
+çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cs/ /(/
+%1)Microsoft.AspNetCore.Http.RequestDelegate"__id*d*b,
+*OrchardCore.Apis.GraphQL.GraphQLMiddleware"2
+_next)Microsoft.AspNetCore.Http.RequestDelegate˝
+˙
+ò
+çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cs/ /($!
+%2System.Threading.Tasks.Task"WMicrosoft.AspNetCore.Http.RequestDelegate.Invoke(Microsoft.AspNetCore.Http.HttpContext)*-+
+)Microsoft.AspNetCore.Http.RequestDelegate*2
+0
+context%Microsoft.AspNetCore.Http.HttpContext*
+3*Ü
+
+2ò
+çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cs3 5(0ùö
+ò
+çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cs3/ 3(f*
+%3$System.Threading.Tasks.Task<TResult>"{Microsoft.AspNetCore.Authentication.IAuthenticationService.AuthenticateAsync(Microsoft.AspNetCore.Http.HttpContext, string)*U
+S
+authenticationService:Microsoft.AspNetCore.Authentication.IAuthenticationService*2
+0
+context%Microsoft.AspNetCore.Http.HttpContext*
+Api2@AuthenticateAsync(Microsoft.AspNetCore.Http.HttpContext, string)˙
+˜
+ò
+çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cs3 3(fL
+authenticateResult6Microsoft.AspNetCore.Authentication.AuthenticateResult"__id*
+""¿
+Ω
+ò
+çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cs5 5(0
+
+%4bool"DMicrosoft.AspNetCore.Authentication.AuthenticateResult.Succeeded.get*N
+L
+authenticateResult6Microsoft.AspNetCore.Authentication.AuthenticateResult*
+4
+5*Î
+4ò
+çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cs7 7(?‚
+ﬂ
+ò
+çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cs7# 7(?,
+%5&System.Security.Claims.ClaimsPrincipal"DMicrosoft.AspNetCore.Authentication.AuthenticateResult.Principal.get*N
+L
+authenticateResult6Microsoft.AspNetCore.Authentication.AuthenticateResult‡
+›
+ò
+çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cs7 7(?,
+%6&System.Security.Claims.ClaimsPrincipal".Microsoft.AspNetCore.Http.HttpContext.User.set*2
+0
+context%Microsoft.AspNetCore.Http.HttpContext*.
+,
+%5&System.Security.Claims.ClaimsPrincipal*
+5*ê
+5ò
+çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cs: <(∞
+≠
+ò
+çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cs:K :(W,
+%7&System.Security.Claims.ClaimsPrincipal".Microsoft.AspNetCore.Http.HttpContext.User.get*2
+0
+context%Microsoft.AspNetCore.Http.HttpContext¬
+ø
+ò
+çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cs:Y :(s1
+%8+OrchardCore.Security.Permissions.Permission"__id*i*g&
+$OrchardCore.Apis.GraphQL.Permissions"=
+ExecuteGraphQL+OrchardCore.Security.Permissions.Permission¨
+©
+ò
+çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cs:' :(t*
+%9$System.Threading.Tasks.Task<TResult>"ﬂMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission)*E"C
+AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*R
+P
+authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationService*.
+,
+%7&System.Security.Claims.ClaimsPrincipal*3
+1
+%8+OrchardCore.Security.Permissions.Permission¿
+Ω
+ò
+çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cs: :(t
+
+authorizedbool"__id*
+""*
+6
+7*í
+6ò
+çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cs> >(=Ï
+È
+ò
+çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cs> >(>"
+%10System.Threading.Tasks.Task"áOrchardCore.Apis.GraphQL.GraphQLMiddleware.ExecuteAsync(Microsoft.AspNetCore.Http.HttpContext, OrchardCore.Apis.GraphQL.ISchemaFactory)*.,
+*OrchardCore.Apis.GraphQL.GraphQLMiddleware*2
+0
+context%Microsoft.AspNetCore.Http.HttpContext*:
+8
+schemaService'OrchardCore.Apis.GraphQL.ISchemaFactory*
+3*˙
+7ò
+çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csB B(6‘
+—
+ò
+çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csB B(7"
+%11System.Threading.Tasks.Task"ÖMicrosoft.AspNetCore.Authentication.AuthenticationHttpContextExtensions.ChallengeAsync(Microsoft.AspNetCore.Http.HttpContext, string)*K"I
+GMicrosoft.AspNetCore.Authentication.AuthenticationHttpContextExtensions*2
+0
+context%Microsoft.AspNetCore.Http.HttpContext*
+Api*
+3*—
+3ò
+çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csE	 E(	"∞
+ò
+çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csE E(	
+implicit return:0
+context%Microsoft.AspNetCore.Http.HttpContext:P
+authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationService:S
+authenticationService:Microsoft.AspNetCore.Authentication.IAuthenticationService:8
+schemaService'OrchardCore.Apis.GraphQL.ISchemaFactoryB.,
+*OrchardCore.Apis.GraphQL.GraphQLMiddleware

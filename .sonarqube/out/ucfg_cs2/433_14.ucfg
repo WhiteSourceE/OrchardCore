@@ -1,0 +1,161 @@
+
+ñOrchardCore.Shells.Azure.Configuration.BlobShellConfigurationSources.AddSourcesAsync(string, Microsoft.Extensions.Configuration.IConfigurationBuilder)™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.cs% %()"0*©
+0™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.cs' *( ¶
+£
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.cs'A '(K
+%0string"__id*`*^F
+DOrchardCore.Shells.Azure.Configuration.BlobShellConfigurationSources"
+
+_containerstringù
+ö
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.cs' '(h
+%1string"iOrchardCore.FileStorage.IFileStoreExtensions.Combine(OrchardCore.FileStorage.IFileStore, params string[])*0".
+,OrchardCore.FileStorage.IFileStoreExtensions*
+""*
+
+%0string*
+
+tenantstring*
+appsettings.json›
+⁄
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.cs' '(h
+appSettingsstring"__id*
+
+%1stringÜ
+É
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.cs(! ((18
+%22OrchardCore.Shells.Azure.Services.IShellsFileStore"__id*ì*êF
+DOrchardCore.Shells.Azure.Configuration.BlobShellConfigurationSources"F
+_shellsFileStore2OrchardCore.Shells.Azure.Services.IShellsFileStoreòï
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.cs(! ((O*
+%3$System.Threading.Tasks.Task<TResult>"KOrchardCore.Shells.Azure.Services.IShellsFileStore.GetFileInfoAsync(string)*:
+8
+%22OrchardCore.Shells.Azure.Services.IShellsFileStore*
+
+appSettingsstring2GetFileInfoAsync(string)Û
+
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.cs( ((O3
+fileInfo'OrchardCore.FileStorage.IFileStoreEntry"__id*
+""´
+®
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.cs* *( 
+
+%4bool""object.operator ==(object, object)*
+"
+object*5
+3
+fileInfo'OrchardCore.FileStorage.IFileStoreEntry*
+""*
+1
+2*±
+1™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.cs*$ *(Aö
+ó
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.cs*$ *(0D
+%5>OrchardCore.Shells.Azure.Configuration.BlobShellStorageOptions"__id*õ*òF
+DOrchardCore.Shells.Azure.Configuration.BlobShellConfigurationSources"N
+_blobOptions>OrchardCore.Shells.Azure.Configuration.BlobShellStorageOptionsŸ
+÷
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.cs*$ *(A
+
+%6bool"SOrchardCore.Shells.Azure.Configuration.BlobShellStorageOptions.MigrateFromFiles.get*F
+D
+%5>OrchardCore.Shells.Azure.Configuration.BlobShellStorageOptions*
+3
+2*¸
+3™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.cs, ,(E¡
+æ
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.cs, ,(F*
+%7$System.Threading.Tasks.Task<TResult>"lOrchardCore.Shells.Azure.Configuration.BlobShellConfigurationSources.TryMigrateFromFileAsync(string, string)*HF
+DOrchardCore.Shells.Azure.Configuration.BlobShellConfigurationSources*
+
+tenantstring*
+
+appSettingsstring*
+4
+2*œ	
+4™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.cs. .(RÜ
+É
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.cs.% .(58
+%82OrchardCore.Shells.Azure.Services.IShellsFileStore"__id*ì*êF
+DOrchardCore.Shells.Azure.Configuration.BlobShellConfigurationSources"F
+_shellsFileStore2OrchardCore.Shells.Azure.Services.IShellsFileStoreòï
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.cs.% .(S*
+%9$System.Threading.Tasks.Task<TResult>"KOrchardCore.Shells.Azure.Services.IShellsFileStore.GetFileInfoAsync(string)*:
+8
+%82OrchardCore.Shells.Azure.Services.IShellsFileStore*
+
+appSettingsstring2GetFileInfoAsync(string)Û
+
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.cs. .(S3
+fileInfo'OrchardCore.FileStorage.IFileStoreEntry"__id*
+""*
+2*Á
+2™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.cs1 1( ¨
+©
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.cs1 1( 
+%10bool""object.operator !=(object, object)*
+"
+object*5
+3
+fileInfo'OrchardCore.FileStorage.IFileStoreEntry*
+""*
+5
+6*ı
+5™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.cs3 4(,á
+Ñ
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.cs3# 3(39
+%112OrchardCore.Shells.Azure.Services.IShellsFileStore"__id*ì*êF
+DOrchardCore.Shells.Azure.Configuration.BlobShellConfigurationSources"F
+_shellsFileStore2OrchardCore.Shells.Azure.Services.IShellsFileStoreûõ
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.cs3# 3(S+
+%12$System.Threading.Tasks.Task<TResult>"MOrchardCore.Shells.Azure.Services.IShellsFileStore.GetFileStreamAsync(string)*;
+9
+%112OrchardCore.Shells.Azure.Services.IShellsFileStore*
+
+appSettingsstring2GetFileStreamAsync(string)⁄
+◊
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.cs3 3(S
+streamSystem.IO.Stream"__id*
+""µ
+≤
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.cs4 4(-?
+%138Microsoft.Extensions.Configuration.IConfigurationBuilder"òMicrosoft.Extensions.Configuration.JsonConfigurationExtensions.AddJsonStream(Microsoft.Extensions.Configuration.IConfigurationBuilder, System.IO.Stream)*B"@
+>Microsoft.Extensions.Configuration.JsonConfigurationExtensions*E
+C
+builder8Microsoft.Extensions.Configuration.IConfigurationBuilder*
+
+streamSystem.IO.Stream*
+6*ı
+6™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.cs6	 6(	"¬
+™
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.cs6 6(	
+implicit return:
+tenantstring:C
+builder8Microsoft.Extensions.Configuration.IConfigurationBuilderBHF
+DOrchardCore.Shells.Azure.Configuration.BlobShellConfigurationSources

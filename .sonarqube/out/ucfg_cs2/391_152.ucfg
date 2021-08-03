@@ -1,0 +1,339 @@
+
+YOrchardCore.Layers.Controllers.LayerRuleController.Create(string, string, string, string)†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Controllers\LayerRuleController.cs9) 9(/"12*Ã
+0†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Controllers\LayerRuleController.cs; ;(Z˚
+¯
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Controllers\LayerRuleController.cs; ;(,>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*å*â4
+2OrchardCore.Layers.Controllers.LayerRuleController"Q
+_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationService≥
+∞
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Controllers\LayerRuleController.cs;< ;(@,
+%1&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase¬
+ø
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Controllers\LayerRuleController.cs;B ;(Z1
+%2+OrchardCore.Security.Permissions.Permission"__id*a*_ 
+OrchardCore.Layers.Permissions";
+ManageLayers+OrchardCore.Security.Permissions.Permission¢
+ü
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Controllers\LayerRuleController.cs; ;([*
+%3$System.Threading.Tasks.Task<TResult>"ﬂMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission)*E"C
+AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*@
+>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService*.
+,
+%1&System.Security.Claims.ClaimsPrincipal*3
+1
+%2+OrchardCore.Security.Permissions.Permission*
+1
+2*∫
+1†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Controllers\LayerRuleController.cs= =(ºπ
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Controllers\LayerRuleController.cs= =(+
+%4%Microsoft.AspNetCore.Mvc.ForbidResult"0Microsoft.AspNetCore.Mvc.ControllerBase.Forbid()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2Forbid()"“
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Controllers\LayerRuleController.cs= =( -
++
+%4%Microsoft.AspNetCore.Mvc.ForbidResult*ª
+2†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Controllers\LayerRuleController.cs@ C(”
+–
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Controllers\LayerRuleController.cs@ @(,/
+%5)OrchardCore.Layers.Services.ILayerService"__id*t*r4
+2OrchardCore.Layers.Controllers.LayerRuleController":
+_layerService)OrchardCore.Layers.Services.ILayerService”–
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Controllers\LayerRuleController.cs@ @(=*
+%6$System.Threading.Tasks.Task<TResult>":OrchardCore.Layers.Services.ILayerService.GetLayersAsync()*1
+/
+%5)OrchardCore.Layers.Services.ILayerService2GetLayersAsync()Ë
+Â
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Controllers\LayerRuleController.cs@ @(=2
+layers(OrchardCore.Layers.Models.LayersDocument"__id*
+""ª
+∏
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Controllers\LayerRuleController.csA A(%(
+%7"System.Collections.Generic.List<T>"3OrchardCore.Layers.Models.LayersDocument.Layers.get*4
+2
+layers(OrchardCore.Layers.Models.LayersDocumentö
+ó
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Controllers\LayerRuleController.csA A(V%
+%8OrchardCore.Layers.Models.Layer"{System.Linq.Enumerable.FirstOrDefault<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
+System.Linq.Enumerable**
+(
+%7"System.Collections.Generic.List<T>*
+""ˇ
+¸
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Controllers\LayerRuleController.csA A(V(
+layerOrchardCore.Layers.Models.Layer"__id*'
+%
+%8OrchardCore.Layers.Models.Layerñ
+ì
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Controllers\LayerRuleController.csC C(
+
+%9bool""object.operator ==(object, object)*
+"
+object**
+(
+layerOrchardCore.Layers.Models.Layer*
+""*
+3
+4*ƒ
+3†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Controllers\LayerRuleController.csE E(!√¿
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Controllers\LayerRuleController.csE E(!.
+%10'Microsoft.AspNetCore.Mvc.NotFoundResult"2Microsoft.AspNetCore.Mvc.ControllerBase.NotFound()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2
+NotFound()"’
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Controllers\LayerRuleController.csE E("0
+.
+%10'Microsoft.AspNetCore.Mvc.NotFoundResult*Ω
+4†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Controllers\LayerRuleController.csH J(&†
+ù
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Controllers\LayerRuleController.csH4 H(C
+%11OrchardCore.Rules.Rule"-OrchardCore.Layers.Models.Layer.LayerRule.get**
+(
+layerOrchardCore.Layers.Models.Layer∑
+¥
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Controllers\LayerRuleController.csH! H(V'
+%12 OrchardCore.Rules.ConditionGroup"oOrchardCore.Layers.Controllers.LayerRuleController.FindConditionGroup(OrchardCore.Rules.ConditionGroup, string)*64
+2OrchardCore.Layers.Controllers.LayerRuleController*
+
+%11OrchardCore.Rules.Rule*
+
+conditionGroupIdstringã
+à
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Controllers\LayerRuleController.csH H(V2
+conditionGroup OrchardCore.Rules.ConditionGroup"__id*)
+'
+%12 OrchardCore.Rules.ConditionGroup°
+û
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Controllers\LayerRuleController.csJ J(&
+%13bool""object.operator ==(object, object)*
+"
+object*4
+2
+conditionGroup OrchardCore.Rules.ConditionGroup*
+""*
+5
+6*ƒ
+5†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Controllers\LayerRuleController.csL L(!√¿
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Controllers\LayerRuleController.csL L(!.
+%14'Microsoft.AspNetCore.Mvc.NotFoundResult"2Microsoft.AspNetCore.Mvc.ControllerBase.NotFound()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2
+NotFound()"’
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Controllers\LayerRuleController.csL L("0
+.
+%14'Microsoft.AspNetCore.Mvc.NotFoundResult*¨
+6†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Controllers\LayerRuleController.csO O(I—
+Œ
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Controllers\LayerRuleController.csO O(&0
+%15)System.Collections.Generic.IEnumerable<T>"__id*q*o4
+2OrchardCore.Layers.Controllers.LayerRuleController"7
+
+_factories)System.Collections.Generic.IEnumerable<T>ß
+§
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Controllers\LayerRuleController.csO O(J*
+%16#OrchardCore.Rules.IConditionFactory"{System.Linq.Enumerable.FirstOrDefault<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
+System.Linq.Enumerable*2
+0
+%15)System.Collections.Generic.IEnumerable<T>*
+""*
+7
+8*ﬁ
+8†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Controllers\LayerRuleController.csOK O(R∞≠
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Controllers\LayerRuleController.csOK O(T"
+%17OrchardCore.Rules.Condition",OrchardCore.Rules.IConditionFactory.Create()*,
+*
+%16#OrchardCore.Rules.IConditionFactory2Create()*
+7*»
+7†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Controllers\LayerRuleController.csO Q(!¸
+˘
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Controllers\LayerRuleController.csO O(T(
+	conditionOrchardCore.Rules.Condition"__id*$
+"
+%17OrchardCore.Rules.Conditionó
+î
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Controllers\LayerRuleController.csQ Q(!
+%18bool""object.operator ==(object, object)*
+"
+object**
+(
+	conditionOrchardCore.Rules.Condition*
+""*
+9
+10*ƒ
+9†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Controllers\LayerRuleController.csS S(!√¿
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Controllers\LayerRuleController.csS S(!.
+%19'Microsoft.AspNetCore.Mvc.NotFoundResult"2Microsoft.AspNetCore.Mvc.ControllerBase.NotFound()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2
+NotFound()"’
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Controllers\LayerRuleController.csS S("0
+.
+%19'Microsoft.AspNetCore.Mvc.NotFoundResult*÷(
+10†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Controllers\LayerRuleController.csV ^(ùö
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Controllers\LayerRuleController.csV \(=
+%206OrchardCore.Layers.ViewModels.LayerRuleCreateViewModel"6OrchardCore.Layers.ViewModels.LayerRuleCreateViewModel«
+ƒ
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Controllers\LayerRuleController.csV V(4
+%21void"QOrchardCore.Layers.ViewModels.LayerRuleCreateViewModel.LayerRuleCreateViewModel()*?
+=
+%206OrchardCore.Layers.ViewModels.LayerRuleCreateViewModel…
+∆
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Controllers\LayerRuleController.csX X(
+%22string"?OrchardCore.Layers.ViewModels.LayerRuleCreateViewModel.Name.set*?
+=
+%206OrchardCore.Layers.ViewModels.LayerRuleCreateViewModel*
+
+namestringò
+ï
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Controllers\LayerRuleController.csY# Y(=
+%23string"+OrchardCore.Rules.Condition.ConditionId.get*4
+2
+conditionGroup OrchardCore.Rules.ConditionGroup‘
+—
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Controllers\LayerRuleController.csY Y(=
+%24string"KOrchardCore.Layers.ViewModels.LayerRuleCreateViewModel.ConditionGroupId.set*?
+=
+%206OrchardCore.Layers.ViewModels.LayerRuleCreateViewModel*
+
+%23string“
+œ
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Controllers\LayerRuleController.csZ Z($
+%25string"HOrchardCore.Layers.ViewModels.LayerRuleCreateViewModel.ConditionType.set*?
+=
+%206OrchardCore.Layers.ViewModels.LayerRuleCreateViewModel*
+
+typestring
+Ì
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Controllers\LayerRuleController.cs[ [(.<
+%265OrchardCore.DisplayManagement.IDisplayManager<TModel>"__id*É*Ä4
+2OrchardCore.Layers.Controllers.LayerRuleController"H
+_displayManager5OrchardCore.DisplayManagement.IDisplayManager<TModel>â
+Ü
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Controllers\LayerRuleController.cs[T [(hF
+%27?OrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessor"__id*í*è4
+2OrchardCore.Layers.Controllers.LayerRuleController"W
+_updateModelAccessor?OrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessorîë
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Controllers\LayerRuleController.cs[T [(u>
+%287OrchardCore.DisplayManagement.ModelBinding.IUpdateModel"POrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessor.ModelUpdater.get*H
+F
+%27?OrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessor2ModelUpdater.getãà
+°
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Controllers\LayerRuleController.cs[ [(É+
+%29$System.Threading.Tasks.Task<TResult>"ïOrchardCore.DisplayManagement.IDisplayManager<TModel>.BuildEditorAsync(TModel, OrchardCore.DisplayManagement.ModelBinding.IUpdateModel, bool, string)*>
+<
+%265OrchardCore.DisplayManagement.IDisplayManager<TModel>**
+(
+	conditionOrchardCore.Rules.Condition*@
+>
+%287OrchardCore.DisplayManagement.ModelBinding.IUpdateModel*
+""*
+""2_BuildEditorAsync(TModel, OrchardCore.DisplayManagement.ModelBinding.IUpdateModel, bool, string)√
+¿
+°
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Controllers\LayerRuleController.cs[ [(É
+%30dynamic"AOrchardCore.Layers.ViewModels.LayerRuleCreateViewModel.Editor.set*?
+=
+%206OrchardCore.Layers.ViewModels.LayerRuleCreateViewModel*
+""Æ
+´
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Controllers\LayerRuleController.csV \(?
+model6OrchardCore.Layers.ViewModels.LayerRuleCreateViewModel"__id*?
+=
+%206OrchardCore.Layers.ViewModels.LayerRuleCreateViewModelﬂ
+‹
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Controllers\LayerRuleController.cs^ ^(
+%31void")orchardcore.layers/views/layerrule/create*
+
+%32*A
+?
+model6OrchardCore.Layers.ViewModels.LayerRuleCreateViewModel*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject* 
+
+%HttpContextItemsAllobject*!
+
+%HttpContextItemsHtmlobject"≤
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Controllers\LayerRuleController.cs^ ^(
+
+%31void*‚
+11†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Controllers\LayerRuleController.cs_	 _(	"∏
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Controllers\LayerRuleController.cs_ _(	
+implicit return*√
+12†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Controllers\LayerRuleController.cs9t 9(tî
+ë
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Controllers\LayerRuleController.cs9) 9(/
+%33"__entrypoint*
+
+	queryTypestring*
+
+namestring*
+
+typestring*
+
+conditionGroupIdstring*
+0:
+	queryTypestring:
+namestring:
+typestring:
+conditionGroupIdstringB64
+2OrchardCore.Layers.Controllers.LayerRuleController

@@ -1,0 +1,307 @@
+
+kOrchardCore.Email.Controllers.AdminController.IndexPost(OrchardCore.Email.ViewModels.SmtpSettingsViewModel)õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Controllers\AdminController.cs+) +(2"10*¥
+0õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Controllers\AdminController.cs- -(aÒ
+Ó
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Controllers\AdminController.cs- -(,>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*á*Ñ/
+-OrchardCore.Email.Controllers.AdminController"Q
+_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationServiceÆ
+´
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Controllers\AdminController.cs-< -(@,
+%1&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase√
+¿
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Controllers\AdminController.cs-B -(a1
+%2+OrchardCore.Security.Permissions.Permission"__id*g*e
+OrchardCore.Email.Permissions"B
+ManageEmailSettings+OrchardCore.Security.Permissions.Permissionù
+ö
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Controllers\AdminController.cs- -(b*
+%3$System.Threading.Tasks.Task<TResult>"ﬂMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission)*E"C
+AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*@
+>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService*.
+,
+%1&System.Security.Claims.ClaimsPrincipal*3
+1
+%2+OrchardCore.Security.Permissions.Permission*
+1
+2*´
+1õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Controllers\AdminController.cs/ /(∑¥
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Controllers\AdminController.cs/ /(+
+%4%Microsoft.AspNetCore.Mvc.ForbidResult"0Microsoft.AspNetCore.Mvc.ControllerBase.Forbid()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2Forbid()"Õ
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Controllers\AdminController.cs/ /( -
++
+%4%Microsoft.AspNetCore.Mvc.ForbidResult*∞
+2õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Controllers\AdminController.cs2 2("»
+≈
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Controllers\AdminController.cs2 2(@
+%5:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary"6Microsoft.AspNetCore.Mvc.ControllerBase.ModelState.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBaseπ
+∂
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Controllers\AdminController.cs2 2("
+
+%6bool"FMicrosoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary.IsValid.get*B
+@
+%5:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary*
+3
+4*ä
+3õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Controllers\AdminController.cs4 8(%∂
+≥
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Controllers\AdminController.cs4 4(?#
+%7OrchardCore.Email.MailMessage"|OrchardCore.Email.Controllers.AdminController.CreateMessageFromViewModel(OrchardCore.Email.ViewModels.SmtpSettingsViewModel)*1/
+-OrchardCore.Email.Controllers.AdminController*=
+;
+model2OrchardCore.Email.ViewModels.SmtpSettingsViewModel¯
+ı
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Controllers\AdminController.cs4 4(?(
+messageOrchardCore.Email.MailMessage"__id*%
+#
+%7OrchardCore.Email.MailMessage≤
+Ø
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Controllers\AdminController.cs6# 6(/$
+%8OrchardCore.Email.ISmtpService"__id*c*a/
+-OrchardCore.Email.Controllers.AdminController".
+_smtpServiceOrchardCore.Email.ISmtpServiceîë
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Controllers\AdminController.cs6# 6(B*
+%9$System.Threading.Tasks.Task<TResult>"GOrchardCore.Email.ISmtpService.SendAsync(OrchardCore.Email.MailMessage)*&
+$
+%8OrchardCore.Email.ISmtpService**
+(
+messageOrchardCore.Email.MailMessage2(SendAsync(OrchardCore.Email.MailMessage)◊
+‘
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Controllers\AdminController.cs6 6(B&
+resultOrchardCore.Email.SmtpResult"__id*
+""Ñ
+Å
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Controllers\AdminController.cs8 8(%
+%10bool"*OrchardCore.Email.SmtpResult.Succeeded.get*(
+&
+resultOrchardCore.Email.SmtpResult*
+5
+6*œ
+5õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Controllers\AdminController.cs:* :(7¶
+£
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Controllers\AdminController.cs:* :(70
+%11)System.Collections.Generic.IEnumerable<T>"'OrchardCore.Email.SmtpResult.Errors.get*(
+&
+resultOrchardCore.Email.SmtpResult*
+7*©
+7õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Controllers\AdminController.csH	 H(	*
+8
+4*ï	
+8õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Controllers\AdminController.cs< <(F…
+∆
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Controllers\AdminController.cs< <("A
+%12:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary"6Microsoft.AspNetCore.Mvc.ControllerBase.ModelState.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase∏µ
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Controllers\AdminController.cs<6 <(F
+%13string"<Microsoft.Extensions.Localization.LocalizedString.ToString()*<
+:
+error1Microsoft.Extensions.Localization.LocalizedString2
+ToString()Â
+‚
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Controllers\AdminController.cs< <(G
+%14void"XMicrosoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary.AddModelError(string, string)*C
+A
+%12:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary*
+**
+
+%13string*
+7*¡
+6ú
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Controllers\AdminController.csA C(ë–
+Õ
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Controllers\AdminController.csA A(5
+%15.OrchardCore.DisplayManagement.Notify.INotifier"__id*p*n/
+-OrchardCore.Email.Controllers.AdminController";
+	_notifier.OrchardCore.DisplayManagement.Notify.INotifier‘
+—
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Controllers\AdminController.csA& A(';
+%164Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer"__id*n*l/
+-OrchardCore.Email.Controllers.AdminController"9
+H4Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizerõò
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Controllers\AdminController.csA& A(E@
+%179Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString"EMicrosoft.AspNetCore.Mvc.Localization.IHtmlLocalizer.this[string].get*=
+;
+%164Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer*
+Message sent successfully.2this[string].getï
+í
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Controllers\AdminController.csA A(F
+%18void"™OrchardCore.DisplayManagement.Notify.NotifierExtensions.Success(OrchardCore.DisplayManagement.Notify.INotifier, Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString)*;"9
+7OrchardCore.DisplayManagement.Notify.NotifierExtensions*7
+5
+%15.OrchardCore.DisplayManagement.Notify.INotifier*B
+@
+%179Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString´
+®
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Controllers\AdminController.csC$ C('*
+%19#Microsoft.AspNetCore.Mvc.IUrlHelper"/Microsoft.AspNetCore.Mvc.ControllerBase.Url.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase∑
+¥
+ú
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Controllers\AdminController.csCp C(ë
+%20"__id*
+""°
+û
+ú
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Controllers\AdminController.csC$ C(î
+%21string"pMicrosoft.AspNetCore.Mvc.UrlHelperExtensions.Action(Microsoft.AspNetCore.Mvc.IUrlHelper, string, string, object)*0".
+,Microsoft.AspNetCore.Mvc.UrlHelperExtensions*,
+*
+%19#Microsoft.AspNetCore.Mvc.IUrlHelper*	
+Index*	
+Admin*
+""‹Ÿ
+ú
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Controllers\AdminController.csC C(ï.
+%22'Microsoft.AspNetCore.Mvc.RedirectResult"8Microsoft.AspNetCore.Mvc.ControllerBase.Redirect(string)*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*
+
+%21string2Redirect(string)"—
+ú
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Controllers\AdminController.csC C(ñ0
+.
+%22'Microsoft.AspNetCore.Mvc.RedirectResult*Ë
+4õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Controllers\AdminController.csG G(ıÚ
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Controllers\AdminController.csG G(*
+%23#Microsoft.AspNetCore.Mvc.ViewResult"0Microsoft.AspNetCore.Mvc.Controller.View(object)*'%
+#Microsoft.AspNetCore.Mvc.Controller*=
+;
+model2OrchardCore.Email.ViewModels.SmtpSettingsViewModel2View(object)"Ã
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Controllers\AdminController.csG G(,
+*
+%23#Microsoft.AspNetCore.Mvc.ViewResult*◊
+9õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Controllers\AdminController.csH	 H(	"≥
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Controllers\AdminController.csH H(	
+implicit return*Î
+10õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Controllers\AdminController.cs+O +(Oç
+ä
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Controllers\AdminController.cs+) +(2\
+;
+model2OrchardCore.Email.ViewModels.SmtpSettingsViewModel"
+<To>k__BackingFieldstring"__entrypoint¸
+˘
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Controllers\AdminController.cs+) +(2K
+;
+model2OrchardCore.Email.ViewModels.SmtpSettingsViewModel"
+Tostring"__entrypointë
+é
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Controllers\AdminController.cs+) +(2`
+;
+model2OrchardCore.Email.ViewModels.SmtpSettingsViewModel"!
+<Sender>k__BackingFieldstring"__entrypointÄ
+˝
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Controllers\AdminController.cs+) +(2O
+;
+model2OrchardCore.Email.ViewModels.SmtpSettingsViewModel"
+Senderstring"__entrypointé
+ã
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Controllers\AdminController.cs+) +(2]
+;
+model2OrchardCore.Email.ViewModels.SmtpSettingsViewModel"
+<Bcc>k__BackingFieldstring"__entrypoint˝
+˙
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Controllers\AdminController.cs+) +(2L
+;
+model2OrchardCore.Email.ViewModels.SmtpSettingsViewModel"
+Bccstring"__entrypointç
+ä
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Controllers\AdminController.cs+) +(2\
+;
+model2OrchardCore.Email.ViewModels.SmtpSettingsViewModel"
+<Cc>k__BackingFieldstring"__entrypoint¸
+˘
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Controllers\AdminController.cs+) +(2K
+;
+model2OrchardCore.Email.ViewModels.SmtpSettingsViewModel"
+Ccstring"__entrypointí
+è
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Controllers\AdminController.cs+) +(2a
+;
+model2OrchardCore.Email.ViewModels.SmtpSettingsViewModel""
+<ReplyTo>k__BackingFieldstring"__entrypointÅ
+˛
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Controllers\AdminController.cs+) +(2P
+;
+model2OrchardCore.Email.ViewModels.SmtpSettingsViewModel"
+ReplyTostring"__entrypointí
+è
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Controllers\AdminController.cs+) +(2a
+;
+model2OrchardCore.Email.ViewModels.SmtpSettingsViewModel""
+<Subject>k__BackingFieldstring"__entrypointÅ
+˛
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Controllers\AdminController.cs+) +(2P
+;
+model2OrchardCore.Email.ViewModels.SmtpSettingsViewModel"
+Subjectstring"__entrypointè
+å
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Controllers\AdminController.cs+) +(2^
+;
+model2OrchardCore.Email.ViewModels.SmtpSettingsViewModel"
+<Body>k__BackingFieldstring"__entrypoint˛
+˚
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Controllers\AdminController.cs+) +(2M
+;
+model2OrchardCore.Email.ViewModels.SmtpSettingsViewModel"
+Bodystring"__entrypoint∂
+≥
+õ
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Controllers\AdminController.cs+) +(2
+%24"__entrypoint*
+0:;
+model2OrchardCore.Email.ViewModels.SmtpSettingsViewModelB1/
+-OrchardCore.Email.Controllers.AdminController

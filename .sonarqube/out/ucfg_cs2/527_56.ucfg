@@ -1,0 +1,51 @@
+
+∞OrchardCore.ContentTypes.ViewModels.ContentTypeSelection.Build(OrchardCore.ContentManagement.Metadata.IContentDefinitionManager, System.Collections.Generic.IEnumerable<string>)≠
+¢D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\ViewModels\SelectContentTypesViewModel.cs- (2"0*Œ
+0≠
+¢D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\ViewModels\SelectContentTypesViewModel.cs  (≥∞
+≠
+¢D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\ViewModels\SelectContentTypesViewModel.cs (&/
+%0)System.Collections.Generic.IEnumerable<T>"VOrchardCore.ContentManagement.Metadata.IContentDefinitionManager.ListTypeDefinitions()*^
+\
+contentDefinitionManager@OrchardCore.ContentManagement.Metadata.IContentDefinitionManager2ListTypeDefinitions()º
+π
+≠
+¢D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\ViewModels\SelectContentTypesViewModel.cs (/
+%1)System.Collections.Generic.IEnumerable<T>"System.Linq.Enumerable.Select<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)*"
+System.Linq.Enumerable*1
+/
+%0)System.Collections.Generic.IEnumerable<T>*
+""∂
+≥
+≠
+¢D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\ViewModels\SelectContentTypesViewModel.cs (H.
+%2(System.Linq.IOrderedEnumerable<TElement>"zSystem.Linq.Enumerable.OrderBy<TSource, TKey>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TKey>)*"
+System.Linq.Enumerable*1
+/
+%1)System.Collections.Generic.IEnumerable<T>*
+""ù
+ö
+≠
+¢D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\ViewModels\SelectContentTypesViewModel.cs (@
+%3:OrchardCore.ContentTypes.ViewModels.ContentTypeSelection[]"XSystem.Linq.Enumerable.ToArray<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*0
+.
+%2(System.Linq.IOrderedEnumerable<TElement>…
+∆
+≠
+¢D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\ViewModels\SelectContentTypesViewModel.cs (J
+contentTypes:OrchardCore.ContentTypes.ViewModels.ContentTypeSelection[]"__id*B
+@
+%3:OrchardCore.ContentTypes.ViewModels.ContentTypeSelection[]"˛
+≠
+¢D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\ViewModels\SelectContentTypesViewModel.cs   ( L
+J
+contentTypes:OrchardCore.ContentTypes.ViewModels.ContentTypeSelection[]*˚
+1≠
+¢D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\ViewModels\SelectContentTypesViewModel.cs!	 !(	"≈
+≠
+¢D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\ViewModels\SelectContentTypesViewModel.cs! !(	
+implicit return:\
+contentDefinitionManager@OrchardCore.ContentManagement.Metadata.IContentDefinitionManager:A
+selectedContentTypes)System.Collections.Generic.IEnumerable<T>B<":
+8OrchardCore.ContentTypes.ViewModels.ContentTypeSelection

@@ -1,0 +1,14 @@
+§
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Localization.Core\ContentRootPoFileLocationProvider.csutf-8∂
+¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Localization.Core\DataAnnotations\DataAnnotationsDefaultErrorMessages.csutf-8ú
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Localization.Core\DefaultPluralRuleProvider.csutf-8µ
+´D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Localization.Core\Extensions\LocalizationServiceCollectionExtensions.csutf-8ñ
+åD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Localization.Core\LocalizationManager.csutf-8≠
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Localization.Core\PortableObject\PoFilesTranslationsProvider.csutf-8ö
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Localization.Core\PortableObject\PoParser.csutf-8≠
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Localization.Core\PortableObject\PortableObjectHtmlLocalizer.csutf-8¥
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Localization.Core\PortableObject\PortableObjectHtmlLocalizerFactory.csutf-8Ø
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Localization.Core\PortableObject\PortableObjectStringLocalizer.csutf-8∂
+¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Localization.Core\PortableObject\PortableObjectStringLocalizerFactory.csutf-8¡
+µD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Localization.Core\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.csutf-8¿
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Localization.Core\obj\Debug\net5.0\OrchardCore.Localization.Core.AssemblyInfo.csutf-8

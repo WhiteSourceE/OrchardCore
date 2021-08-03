@@ -1,0 +1,118 @@
+
+‘OrchardCore.OpenId.Services.Managers.OpenIdAuthorizationManager<TAuthorization>.FindByPhysicalIdAsync(string, System.Threading.CancellationToken)ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdAuthorizationManager.cs"1 "(F"0*º
+0ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdAuthorizationManager.cs$ $(/ÿ
+ü
+ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdAuthorizationManager.cs$ $(0
+
+%0bool"string.IsNullOrEmpty(string?)*
+"
+string*
+
+
+identifierstring*
+1
+2*ö
+1ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdAuthorizationManager.cs& &(iêç
+ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdAuthorizationManager.cs& &(j
+%1System.ArgumentException"System.ArgumentExceptionÑ
+Î
+ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdAuthorizationManager.cs& &(+
+
+%2void"<System.ArgumentException.ArgumentException(string?, string?)* 
+
+%1System.ArgumentException*+)
+'The identifier cannot be null or empty.*
+""*
+3*¥
+2ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdAuthorizationManager.cs) )(I‹
+ˆ
+ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdAuthorizationManager.cs) )(K
+%3EOpenIddict.Abstractions.IOpenIddictAuthorizationStore<TAuthorization>"HOpenIddict.Core.OpenIddictAuthorizationManager<TAuthorization>.Store.get*B@
+>OpenIddict.Core.OpenIddictAuthorizationManager<TAuthorization>Ü
+Ù
+ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdAuthorizationManager.cs) )(IU
+storeLOrchardCore.OpenId.Abstractions.Stores.IOpenIdApplicationStore<TApplication>"__id*M
+K
+%3EOpenIddict.Abstractions.IOpenIddictAuthorizationStore<TAuthorization>*
+4
+5*Ó
+
+4ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdAuthorizationManager.cs* *(IáÞ
+ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdAuthorizationManager.cs* *(J/
+%7)System.Threading.Tasks.ValueTask<TResult>"ŽOrchardCore.OpenId.Abstractions.Stores.IOpenIdApplicationStore<TApplication>.FindByPhysicalIdAsync(string, System.Threading.CancellationToken)*W
+U
+storeLOrchardCore.OpenId.Abstractions.Stores.IOpenIdApplicationStore<TApplication>*
+
+
+identifierstring*9
+7
+cancellationToken"System.Threading.CancellationToken2AFindByPhysicalIdAsync(string, System.Threading.CancellationToken)š
+—
+ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdAuthorizationManager.cs* *(J/
+%5)System.Threading.Tasks.ValueTask<TResult>"__id*1
+/
+%7)System.Threading.Tasks.ValueTask<TResult>š
+—
+ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdAuthorizationManager.cs* *(J/
+%4)System.Threading.Tasks.ValueTask<TResult>"__id*1
+/
+%5)System.Threading.Tasks.ValueTask<TResult>*
+6*¿
+5ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdAuthorizationManager.cs+ +(A‹
+ˆ
+ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdAuthorizationManager.cs+ +(K
+%8EOpenIddict.Abstractions.IOpenIddictAuthorizationStore<TAuthorization>"HOpenIddict.Core.OpenIddictAuthorizationManager<TAuthorization>.Store.get*B@
+>OpenIddict.Core.OpenIddictAuthorizationManager<TAuthorization>¿¼
+ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdAuthorizationManager.cs+ +(B/
+%9)System.Threading.Tasks.ValueTask<TResult>"OpenIddict.Abstractions.IOpenIddictAuthorizationStore<TAuthorization>.FindByIdAsync(string, System.Threading.CancellationToken)*M
+K
+%8EOpenIddict.Abstractions.IOpenIddictAuthorizationStore<TAuthorization>*
+
+
+identifierstring*9
+7
+cancellationToken"System.Threading.CancellationToken29FindByIdAsync(string, System.Threading.CancellationToken)š
+—
+ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdAuthorizationManager.cs+ +(B/
+%6)System.Threading.Tasks.ValueTask<TResult>"__id*1
+/
+%9)System.Threading.Tasks.ValueTask<TResult>š
+—
+ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdAuthorizationManager.cs+ +(B/
+%4)System.Threading.Tasks.ValueTask<TResult>"__id*1
+/
+%6)System.Threading.Tasks.ValueTask<TResult>*
+6*“
+6ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdAuthorizationManager.cs,	 ,(	"à
+ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdAuthorizationManager.cs) +(C1
+/
+%4)System.Threading.Tasks.ValueTask<TResult>*õ
+3ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdAuthorizationManager.cs,	 ,(	"Â
+ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdAuthorizationManager.cs, ,(	
+implicit return:
+
+identifierstring:7
+cancellationToken"System.Threading.CancellationTokenBSQ
+OOrchardCore.OpenId.Services.Managers.OpenIdAuthorizationManager<TAuthorization>

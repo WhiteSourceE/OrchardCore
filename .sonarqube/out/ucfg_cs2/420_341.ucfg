@@ -1,0 +1,213 @@
+
+|OrchardCore.Users.Services.EmailClaimsProvider.GenerateAsync(OrchardCore.Users.IUser, System.Security.Claims.ClaimsIdentity)ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Services\EmailClaimsProvider.cs ('"0*∂
+0ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Services\EmailClaimsProvider.cs (â
+Ü
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Services\EmailClaimsProvider.cs (
+
+%0bool""object.operator ==(object, object)*
+"
+object*!
+
+userOrchardCore.Users.IUser*
+""*
+1
+2*™
+1ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Services\EmailClaimsProvider.cs (<‰·
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Services\EmailClaimsProvider.cs (="
+%1System.ArgumentNullException"System.ArgumentNullExceptionô
+ñ
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Services\EmailClaimsProvider.cs (/
+
+%2void";System.ArgumentNullException.ArgumentNullException(string?)*$
+"
+%1System.ArgumentNullException*
+""*
+3*∆
+2ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Services\EmailClaimsProvider.cs (ô
+ñ
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Services\EmailClaimsProvider.cs (
+
+%3bool""object.operator ==(object, object)*
+"
+object*1
+/
+claims%System.Security.Claims.ClaimsIdentity*
+""*
+4
+5*™
+4ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Services\EmailClaimsProvider.cs (>‰·
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Services\EmailClaimsProvider.cs (?"
+%4System.ArgumentNullException"System.ArgumentNullExceptionô
+ñ
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Services\EmailClaimsProvider.cs (/
+
+%5void";System.ArgumentNullException.ArgumentNullException(string?)*$
+"
+%4System.ArgumentNullException*
+""*
+3*√
+
+5ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Services\EmailClaimsProvider.cs! "(+ÿ
+’
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Services\EmailClaimsProvider.cs! !(*6
+%60Microsoft.AspNetCore.Identity.UserManager<TUser>"__id*v*t0
+.OrchardCore.Users.Services.EmailClaimsProvider"@
+_userManager0Microsoft.AspNetCore.Identity.UserManager<TUser>àÖ
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Services\EmailClaimsProvider.cs! !(>*
+%7$System.Threading.Tasks.Task<TResult>"EMicrosoft.AspNetCore.Identity.UserManager<TUser>.GetEmailAsync(TUser)*8
+6
+%60Microsoft.AspNetCore.Identity.UserManager<TUser>*!
+
+userOrchardCore.Users.IUser2GetEmailAsync(TUser)¡
+æ
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Services\EmailClaimsProvider.cs! !(>
+emailstring"__id*
+""Ï
+È
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Services\EmailClaimsProvider.cs" "(,
+
+%8bool"string.IsNullOrEmpty(string?)*
+"
+string*
+
+emailstring*
+6
+3*˚
+6ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Services\EmailClaimsProvider.cs$ '(E‰·
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Services\EmailClaimsProvider.cs$  $(9"
+%9System.Security.Claims.Claim"System.Security.Claims.Claimß
+§
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Services\EmailClaimsProvider.cs$$ $()
+%10void"2System.Security.Claims.Claim.Claim(string, string)*$
+"
+%9System.Security.Claims.Claim*	
+email*
+
+emailstring˛˚
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Services\EmailClaimsProvider.cs$ $(:
+%11void"LSystem.Security.Claims.ClaimsIdentity.AddClaim(System.Security.Claims.Claim)*1
+/
+claims%System.Security.Claims.ClaimsIdentity*$
+"
+%9System.Security.Claims.Claim2&AddClaim(System.Security.Claims.Claim)Ÿ
+÷
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Services\EmailClaimsProvider.cs&& &(27
+%120Microsoft.AspNetCore.Identity.UserManager<TUser>"__id*v*t0
+.OrchardCore.Users.Services.EmailClaimsProvider"@
+_userManager0Microsoft.AspNetCore.Identity.UserManager<TUser>öó
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Services\EmailClaimsProvider.cs&& &(N+
+%13$System.Threading.Tasks.Task<TResult>"MMicrosoft.AspNetCore.Identity.UserManager<TUser>.IsEmailConfirmedAsync(TUser)*9
+7
+%120Microsoft.AspNetCore.Identity.UserManager<TUser>*!
+
+userOrchardCore.Users.IUser2IsEmailConfirmedAsync(TUser)√
+¿
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Services\EmailClaimsProvider.cs& &(N
+	confirmedbool"__id*
+""*
+7
+8*ô
+7ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Services\EmailClaimsProvider.cs'H '(WŸ
+÷
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Services\EmailClaimsProvider.cs'H '(W
+%17string"__id* *
+bool"
+
+TrueStringstring»
+≈
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Services\EmailClaimsProvider.cs'H '(W
+%15string"__id*
+
+%17string»
+≈
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Services\EmailClaimsProvider.cs'H '(W
+%14string"__id*
+
+%15string*
+9*ö
+8ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Services\EmailClaimsProvider.cs'Z '(j⁄
+◊
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Services\EmailClaimsProvider.cs'Z '(j
+%18string"__id*!*
+bool"
+FalseStringstring»
+≈
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Services\EmailClaimsProvider.cs'Z '(j
+%16string"__id*
+
+%18string»
+≈
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Services\EmailClaimsProvider.cs'Z '(j
+%14string"__id*
+
+%16string*
+9*í
+
+9ù
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Services\EmailClaimsProvider.cs' '(É∏
+µ
+ù
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Services\EmailClaimsProvider.cs'l '(É
+%19"__id*
+""Ê„
+ù
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Services\EmailClaimsProvider.cs'  '(Ñ#
+%20System.Security.Claims.Claim"System.Security.Claims.Claim¿
+Ω
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Services\EmailClaimsProvider.cs'$ '()
+%21void":System.Security.Claims.Claim.Claim(string, string, string)*%
+#
+%20System.Security.Claims.Claim*
+email_verified*
+
+%14string*
+
+%19Ä˝
+ù
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Services\EmailClaimsProvider.cs' '(Ö
+%22void"LSystem.Security.Claims.ClaimsIdentity.AddClaim(System.Security.Claims.Claim)*1
+/
+claims%System.Security.Claims.ClaimsIdentity*%
+#
+%20System.Security.Claims.Claim2&AddClaim(System.Security.Claims.Claim)*
+3*Ÿ
+3ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Services\EmailClaimsProvider.cs)	 )(	"¥
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Services\EmailClaimsProvider.cs) )(	
+implicit return:
+userOrchardCore.Users.IUser:/
+claims%System.Security.Claims.ClaimsIdentityB20
+.OrchardCore.Users.Services.EmailClaimsProvider

@@ -1,0 +1,446 @@
+
+uOrchardCore.Users.Controllers.RegistrationController.Register(OrchardCore.Users.ViewModels.RegisterViewModel, string)¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csD) D(1"14*Ó
+0¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csF H(S∆
+√
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csF" F(.'
+%0!OrchardCore.Settings.ISiteService"__id*m*k6
+4OrchardCore.Users.Controllers.RegistrationController"1
+_siteService!OrchardCore.Settings.ISiteService—Œ
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csF" F(E*
+%1$System.Threading.Tasks.Task<TResult>"8OrchardCore.Settings.ISiteService.GetSiteSettingsAsync()*)
+'
+%0!OrchardCore.Settings.ISiteService2GetSiteSettingsAsync()€
+ÿ
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csF F(a3
+%2-OrchardCore.Users.Models.RegistrationSettings"IOrchardCore.Entities.EntityExtensions.As<T>(OrchardCore.Entities.IEntity)*)"'
+%OrchardCore.Entities.EntityExtensions*
+""†
+ù
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csF F(a9
+settings-OrchardCore.Users.Models.RegistrationSettings"__id*5
+3
+%2-OrchardCore.Users.Models.RegistrationSettingsﬁ
+€
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csH H()3
+%3-OrchardCore.Users.Models.UserRegistrationType"BOrchardCore.Users.Models.RegistrationSettings.UsersCanRegister.get*;
+9
+settings-OrchardCore.Users.Models.RegistrationSettingsº
+π
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csH- H(S
+%4"__id*
+""*
+1
+2*»
+1¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csJ J(!ƒ¡
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csJ J(!-
+%5'Microsoft.AspNetCore.Mvc.NotFoundResult"2Microsoft.AspNetCore.Mvc.ControllerBase.NotFound()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2
+NotFound()"÷
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csJ J("/
+-
+%5'Microsoft.AspNetCore.Mvc.NotFoundResult*–
+2¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csM M(0´
+®
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csM% M(0
+%6string"8OrchardCore.Users.ViewModels.RegisterViewModel.Email.get*9
+7
+model.OrchardCore.Users.ViewModels.RegisterViewModelÔ
+Ï
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csM M(1
+
+%7bool"string.IsNullOrEmpty(string?)*
+"
+string*
+
+%6string*
+3
+4*å
+3¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csO O(Hœ
+Ã
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csO O(@
+%8:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary"6Microsoft.AspNetCore.Mvc.ControllerBase.ModelState.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase›
+⁄
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csO2 O(38
+%92Microsoft.Extensions.Localization.IStringLocalizer"__id*s*q6
+4OrchardCore.Users.Controllers.RegistrationController"7
+S2Microsoft.Extensions.Localization.IStringLocalizerçä
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csO2 O(I8
+%101Microsoft.Extensions.Localization.LocalizedString"CMicrosoft.Extensions.Localization.IStringLocalizer.this[string].get*:
+8
+%92Microsoft.Extensions.Localization.IStringLocalizer*
+Email is required.2this[string].getö
+ó
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csO O(J
+%11void"XMicrosoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary.AddModelError(string, string)*B
+@
+%8:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary*	
+Email*:
+8
+%101Microsoft.Extensions.Localization.LocalizedString*
+4*ä	
+4¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csR R(;ﬂ
+‹
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csR R(&/
+%12(OrchardCore.Email.IEmailAddressValidator"__id*~*|6
+4OrchardCore.Users.Controllers.RegistrationController"B
+_emailAddressValidator(OrchardCore.Email.IEmailAddressValidator¨
+©
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csR0 R(;
+%13string"8OrchardCore.Users.ViewModels.RegisterViewModel.Email.get*9
+7
+model.OrchardCore.Users.ViewModels.RegisterViewModel∆√
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csR R(<
+%14bool"9OrchardCore.Email.IEmailAddressValidator.Validate(string)*1
+/
+%12(OrchardCore.Email.IEmailAddressValidator*
+
+%13string2Validate(string)*
+5
+6*œ
+5¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csU W()Â
+‚
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csU* U(67
+%150Microsoft.AspNetCore.Identity.UserManager<TUser>"__id*|*z6
+4OrchardCore.Users.Controllers.RegistrationController"@
+_userManager0Microsoft.AspNetCore.Identity.UserManager<TUser>¨
+©
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csUH U(S
+%16string"8OrchardCore.Users.ViewModels.RegisterViewModel.Email.get*9
+7
+model.OrchardCore.Users.ViewModels.RegisterViewModelÜÉ
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csU* U(T+
+%17$System.Threading.Tasks.Task<TResult>"IMicrosoft.AspNetCore.Identity.UserManager<TUser>.FindByEmailAsync(string)*9
+7
+%150Microsoft.AspNetCore.Identity.UserManager<TUser>*
+
+%16string2FindByEmailAsync(string)‡
+›
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csU U(T(
+userWithEmailOrchardCore.Users.IUser"__id*
+""ô
+ñ
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csW W()
+%18bool""object.operator !=(object, object)*
+"
+object**
+(
+userWithEmailOrchardCore.Users.IUser*
+""*
+7
+8*®
+7¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csY Y(d–
+Õ
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csY Y(A
+%19:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary"6Microsoft.AspNetCore.Mvc.ControllerBase.ModelState.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBaseﬁ
+€
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csY6 Y(79
+%202Microsoft.Extensions.Localization.IStringLocalizer"__id*s*q6
+4OrchardCore.Users.Controllers.RegistrationController"7
+S2Microsoft.Extensions.Localization.IStringLocalizer¶£
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csY6 Y(e8
+%211Microsoft.Extensions.Localization.LocalizedString"CMicrosoft.Extensions.Localization.IStringLocalizer.this[string].get*;
+9
+%202Microsoft.Extensions.Localization.IStringLocalizer*.,
+*A user with the same email already exists.2this[string].getõ
+ò
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csY Y(f
+%22void"XMicrosoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary.AddModelError(string, string)*C
+A
+%19:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary*	
+Email*:
+8
+%211Microsoft.Extensions.Localization.LocalizedString*
+8*å
+6¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.cs^ ^(D–
+Õ
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.cs^ ^(A
+%23:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary"6Microsoft.AspNetCore.Mvc.ControllerBase.ModelState.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBaseﬁ
+€
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.cs^2 ^(39
+%242Microsoft.Extensions.Localization.IStringLocalizer"__id*s*q6
+4OrchardCore.Users.Controllers.RegistrationController"7
+S2Microsoft.Extensions.Localization.IStringLocalizeräá
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.cs^2 ^(E8
+%251Microsoft.Extensions.Localization.LocalizedString"CMicrosoft.Extensions.Localization.IStringLocalizer.this[string].get*;
+9
+%242Microsoft.Extensions.Localization.IStringLocalizer*
+Invalid email.2this[string].getõ
+ò
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.cs^ ^(F
+%26void"XMicrosoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary.AddModelError(string, string)*C
+A
+%23:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary*	
+Email*:
+8
+%251Microsoft.Extensions.Localization.LocalizedString*
+8*∫
+8¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csa c(&À»
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csa a(
+%ViewBagDataAllobject"objectÃ…
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csa a(
+%ViewBagDataHtmlobject"object¸
+˘
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csa a(-
+%27"__mapSet*
+
+%ViewBagDataAllobject*
+	ReturnUrl*
+
+	returnUrlstringÓ
+Î
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csa a(-
+%28"__mapSet*
+
+%ViewBagDataHtmlobject*
+	ReturnUrl*
+""˘ˆ
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csc c('
+%29bool"@Microsoft.AspNetCore.Mvc.ControllerBase.TryValidateModel(object)*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*9
+7
+model.OrchardCore.Users.ViewModels.RegisterViewModel2TryValidateModel(object)*
+9
+10* 
+9¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csc+ c(=–
+Õ
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csc+ c(5A
+%30:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary"6Microsoft.AspNetCore.Mvc.ControllerBase.ModelState.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase¬
+ø
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csc+ c(=
+%31bool"FMicrosoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary.IsValid.get*C
+A
+%30:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary*
+11
+10*ü
+11¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csf f(^ﬁ
+€
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csf3 f(49
+%322Microsoft.Extensions.Localization.IStringLocalizer"__id*s*q6
+4OrchardCore.Users.Controllers.RegistrationController"7
+S2Microsoft.Extensions.Localization.IStringLocalizerêç
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csf3 f(L8
+%331Microsoft.Extensions.Localization.LocalizedString"CMicrosoft.Extensions.Localization.IStringLocalizer.this[string].get*;
+9
+%322Microsoft.Extensions.Localization.IStringLocalizer*
+Confirm your account2this[string].get»
+≈
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csfN f(U+
+%34$Microsoft.Extensions.Logging.ILogger"__id*k*i6
+4OrchardCore.Users.Controllers.RegistrationController"/
+_logger$Microsoft.Extensions.Logging.ILogger≤
+Ø
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csf f(V+
+%35$System.Threading.Tasks.Task<TResult>"¬OrchardCore.Users.Controllers.ControllerExtensions.RegisterUser(Microsoft.AspNetCore.Mvc.Controller, OrchardCore.Users.ViewModels.RegisterViewModel, string, Microsoft.Extensions.Logging.ILogger)*6"4
+2OrchardCore.Users.Controllers.ControllerExtensions*86
+4OrchardCore.Users.Controllers.RegistrationController*9
+7
+model.OrchardCore.Users.ViewModels.RegisterViewModel*:
+8
+%331Microsoft.Extensions.Localization.LocalizedString*-
++
+%34$Microsoft.Extensions.Logging.ILoggerı
+Ú
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csf f(^
+%36bool""object.operator !=(object, object)*
+"
+object*
+""*
+""*
+12
+10*˚
+12¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csh h(4ˆ
+Û
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csh h(5-
+%37&Microsoft.AspNetCore.Mvc.IActionResult"LOrchardCore.Users.Controllers.RegistrationController.RedirectToLocal(string)*86
+4OrchardCore.Users.Controllers.RegistrationController*
+
+	returnUrlstring"÷
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csh h(6/
+-
+%37&Microsoft.AspNetCore.Mvc.IActionResult*¿
+10¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csm m(›
+⁄
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csm m(
+%38void"-orchardcore.users/views/registration/register*
+
+%39*9
+7
+model.OrchardCore.Users.ViewModels.RegisterViewModel*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject* 
+
+%HttpContextItemsAllobject*!
+
+%HttpContextItemsHtmlobject"¥
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csm m(
+
+%38void*Ê
+13¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csn	 n(	"∫
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csn n(	
+implicit return*˚
+14¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csDc D(cñ
+ì
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csD) D(1^
+7
+model.OrchardCore.Users.ViewModels.RegisterViewModel"#
+<UserName>k__BackingFieldstring"__entrypointÖ
+Ç
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csD) D(1M
+7
+model.OrchardCore.Users.ViewModels.RegisterViewModel"
+UserNamestring"__entrypointì
+ê
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csD) D(1[
+7
+model.OrchardCore.Users.ViewModels.RegisterViewModel" 
+<Email>k__BackingFieldstring"__entrypointÇ
+ˇ
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csD) D(1J
+7
+model.OrchardCore.Users.ViewModels.RegisterViewModel"
+Emailstring"__entrypointñ
+ì
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csD) D(1^
+7
+model.OrchardCore.Users.ViewModels.RegisterViewModel"#
+<Password>k__BackingFieldstring"__entrypointÖ
+Ç
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csD) D(1M
+7
+model.OrchardCore.Users.ViewModels.RegisterViewModel"
+Passwordstring"__entrypointù
+ö
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csD) D(1e
+7
+model.OrchardCore.Users.ViewModels.RegisterViewModel"*
+ <ConfirmPassword>k__BackingFieldstring"__entrypointå
+â
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csD) D(1T
+7
+model.OrchardCore.Users.ViewModels.RegisterViewModel"
+ConfirmPasswordstring"__entrypoint‘
+—
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csD) D(1
+%40"__entrypoint*
+
+	returnUrlstringñ
+ì
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csA	 A(
+%41"
+__annotate*B@
+>Microsoft.AspNetCore.Mvc.HttpPostAttribute.HttpPostAttribute()*
+
+	returnUrlstring¨
+©
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csB	 B(
+%42"
+__annotate*XV
+TMicrosoft.AspNetCore.Authorization.AllowAnonymousAttribute.AllowAnonymousAttribute()*
+
+	returnUrlstring∂
+≥
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csC	 C(!
+%43"
+__annotate*b`
+^Microsoft.AspNetCore.Mvc.ValidateAntiForgeryTokenAttribute.ValidateAntiForgeryTokenAttribute()*
+
+	returnUrlstringÊ
+„
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csDK D(b
+	returnUrlstring"__annotation*
+
+%41*
+
+%42*
+
+%43*
+0:7
+model.OrchardCore.Users.ViewModels.RegisterViewModel:
+	returnUrlstringB86
+4OrchardCore.Users.Controllers.RegistrationController

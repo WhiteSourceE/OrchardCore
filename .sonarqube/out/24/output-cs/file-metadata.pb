@@ -1,0 +1,17 @@
+°
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement.Abstractions\IResourceManager.csutf-8©
+üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement.Abstractions\IResourceManifestBuilder.csutf-8™
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement.Abstractions\IResourceManifestProvider.csutf-8ß
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement.Abstractions\IResourceManifestState.csutf-8ö
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement.Abstractions\LinkEntry.csutf-8ö
+êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement.Abstractions\MetaEntry.csutf-8®
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement.Abstractions\Properties\AssemblyInfo.csutf-8†
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement.Abstractions\RequireSettings.csutf-8£
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement.Abstractions\ResourceDefinition.csutf-8°
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement.Abstractions\ResourceLocation.csutf-8™
+†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement.Abstractions\ResourceManagementOptions.csutf-8°
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement.Abstractions\ResourceManifest.csutf-8°
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement.Abstractions\ResourcePosition.csutf-8®
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement.Abstractions\ResourceRequiredContext.csutf-8÷
+ D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement.Abstractions\obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.csutf-8„
+◊D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement.Abstractions\obj\Debug\netcoreapp3.1\OrchardCore.ResourceManagement.Abstractions.AssemblyInfo.csutf-8

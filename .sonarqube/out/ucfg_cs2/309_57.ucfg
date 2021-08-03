@@ -1,0 +1,295 @@
+
+≈OrchardCore.GitHub.Drivers.GitHubAuthenticationSettingsDisplayDriver.UpdateAsync(OrchardCore.GitHub.Settings.GitHubAuthenticationSettings, OrchardCore.DisplayManagement.Handlers.BuildEditorContext)≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Drivers\GithubAuthenticationSettingsDisplayDriver.csO3 O(>"0*ı
+0≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Drivers\GithubAuthenticationSettingsDisplayDriver.csQ Q(P‘
+—
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Drivers\GithubAuthenticationSettingsDisplayDriver.csQ Q(
+%0string"DOrchardCore.DisplayManagement.Handlers.BuildShapeContext.GroupId.get*F
+D
+context9OrchardCore.DisplayManagement.Handlers.BuildEditorContextÃ
+…
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Drivers\GithubAuthenticationSettingsDisplayDriver.csQ# Q(P
+%1"__id*
+""å
+â
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Drivers\GithubAuthenticationSettingsDisplayDriver.csQ Q(P
+
+%2bool""string.operator ==(string, string)*
+"
+string*
+
+%0string*
+
+%1*
+1
+2*æ
+1≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Drivers\GithubAuthenticationSettingsDisplayDriver.csS S(;ä
+á
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Drivers\GithubAuthenticationSettingsDisplayDriver.csS S(/4
+%3.Microsoft.AspNetCore.Http.IHttpContextAccessor"__id*ì*êF
+DOrchardCore.GitHub.Drivers.GitHubAuthenticationSettingsDisplayDriver"F
+_httpContextAccessor.Microsoft.AspNetCore.Http.IHttpContextAccessorÓÎ
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Drivers\GithubAuthenticationSettingsDisplayDriver.csS S(;+
+%4%Microsoft.AspNetCore.Http.HttpContext">Microsoft.AspNetCore.Http.IHttpContextAccessor.HttpContext.get*6
+4
+%3.Microsoft.AspNetCore.Http.IHttpContextAccessor2HttpContext.get*
+3
+4*Ö
+4≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Drivers\GithubAuthenticationSettingsDisplayDriver.csS< S(A≈
+¬
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Drivers\GithubAuthenticationSettingsDisplayDriver.csS= S(A,
+%5&System.Security.Claims.ClaimsPrincipal".Microsoft.AspNetCore.Http.HttpContext.User.get*-
++
+%4%Microsoft.AspNetCore.Http.HttpContext*
+3*í
+3≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Drivers\GithubAuthenticationSettingsDisplayDriver.csS T( û
+õ
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Drivers\GithubAuthenticationSettingsDisplayDriver.csS S(A.
+user&System.Security.Claims.ClaimsPrincipal"__id*.
+,
+%5&System.Security.Claims.ClaimsPrincipalÆ
+´
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Drivers\GithubAuthenticationSettingsDisplayDriver.csT T( 
+
+%6bool""object.operator ==(object, object)*
+"
+object*0
+.
+user&System.Security.Claims.ClaimsPrincipal*
+""*
+5
+6*Ä
+6≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Drivers\GithubAuthenticationSettingsDisplayDriver.csT$ T(|ü
+ú
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Drivers\GithubAuthenticationSettingsDisplayDriver.csT+ T(@>
+%78Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*û*õF
+DOrchardCore.GitHub.Drivers.GitHubAuthenticationSettingsDisplayDriver"Q
+_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationService‚
+ﬂ
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Drivers\GithubAuthenticationSettingsDisplayDriver.csTV T(|1
+%8+OrchardCore.Security.Permissions.Permission"__id*o*m 
+OrchardCore.GitHub.Permissions"I
+ManageGitHubAuthentication+OrchardCore.Security.Permissions.Permission∂
+≥
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Drivers\GithubAuthenticationSettingsDisplayDriver.csT+ T(}*
+%9$System.Threading.Tasks.Task<TResult>"ﬂMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission)*E"C
+AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*@
+>
+%78Microsoft.AspNetCore.Authorization.IAuthorizationService*0
+.
+user&System.Security.Claims.ClaimsPrincipal*3
+1
+%8+OrchardCore.Security.Permissions.Permission*
+5
+7*¯
+5≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Drivers\GithubAuthenticationSettingsDisplayDriver.csV V("Ω
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Drivers\GithubAuthenticationSettingsDisplayDriver.csV V( 
+""*’
+7≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Drivers\GithubAuthenticationSettingsDisplayDriver.csY \(6…∆
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Drivers\GithubAuthenticationSettingsDisplayDriver.csY Y(GJ
+%10COrchardCore.GitHub.ViewModels.GitHubAuthenticationSettingsViewModel"COrchardCore.GitHub.ViewModels.GitHubAuthenticationSettingsViewModelÄ
+˝
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Drivers\GithubAuthenticationSettingsDisplayDriver.csY  Y(E
+%11void"kOrchardCore.GitHub.ViewModels.GitHubAuthenticationSettingsViewModel.GitHubAuthenticationSettingsViewModel()*L
+J
+%10COrchardCore.GitHub.ViewModels.GitHubAuthenticationSettingsViewModel⁄
+◊
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Drivers\GithubAuthenticationSettingsDisplayDriver.csY Y(GL
+modelCOrchardCore.GitHub.ViewModels.GitHubAuthenticationSettingsViewModel"__id*L
+J
+%10COrchardCore.GitHub.ViewModels.GitHubAuthenticationSettingsViewModelÜ
+É
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Drivers\GithubAuthenticationSettingsDisplayDriver.csZ Z(%>
+%127OrchardCore.DisplayManagement.ModelBinding.IUpdateModel"DOrchardCore.DisplayManagement.Handlers.BuildShapeContext.Updater.get*F
+D
+context9OrchardCore.DisplayManagement.Handlers.BuildEditorContext 
+«
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Drivers\GithubAuthenticationSettingsDisplayDriver.csZA Z(G
+%13string"COrchardCore.DisplayManagement.Handlers.DisplayDriverBase.Prefix.get*<:
+8OrchardCore.DisplayManagement.Handlers.DisplayDriverBaseöó
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Drivers\GithubAuthenticationSettingsDisplayDriver.csZ Z(H+
+%14$System.Threading.Tasks.Task<TResult>"cOrchardCore.DisplayManagement.ModelBinding.IUpdateModel.TryUpdateModelAsync<TModel>(TModel, string)*@
+>
+%127OrchardCore.DisplayManagement.ModelBinding.IUpdateModel*N
+L
+modelCOrchardCore.GitHub.ViewModels.GitHubAuthenticationSettingsViewModel*
+
+%13string2+TryUpdateModelAsync<TModel>(TModel, string)Ü
+É
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Drivers\GithubAuthenticationSettingsDisplayDriver.cs\ \(#>
+%157OrchardCore.DisplayManagement.ModelBinding.IUpdateModel"DOrchardCore.DisplayManagement.Handlers.BuildShapeContext.Updater.get*F
+D
+context9OrchardCore.DisplayManagement.Handlers.BuildEditorContextïí
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Drivers\GithubAuthenticationSettingsDisplayDriver.cs\ \(.A
+%16:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary"FOrchardCore.DisplayManagement.ModelBinding.IUpdateModel.ModelState.get*@
+>
+%157OrchardCore.DisplayManagement.ModelBinding.IUpdateModel2ModelState.get“
+œ
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Drivers\GithubAuthenticationSettingsDisplayDriver.cs\ \(6
+%17bool"FMicrosoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary.IsValid.get*C
+A
+%16:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary*
+8
+2*©1
+8≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Drivers\GithubAuthenticationSettingsDisplayDriver.cs^ d(L®
+•
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Drivers\GithubAuthenticationSettingsDisplayDriver.cs^$ ^(;B
+%18;Microsoft.AspNetCore.DataProtection.IDataProtectionProvider"__id*£*†F
+DOrchardCore.GitHub.Drivers.GitHubAuthenticationSettingsDisplayDriver"V
+_dataProtectionProvider;Microsoft.AspNetCore.DataProtection.IDataProtectionProviderÕ
+ 
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Drivers\GithubAuthenticationSettingsDisplayDriver.cs^L ^(y
+%19"__id*
+""∞≠
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Drivers\GithubAuthenticationSettingsDisplayDriver.cs^$ ^(z9
+%202Microsoft.AspNetCore.DataProtection.IDataProtector"SMicrosoft.AspNetCore.DataProtection.IDataProtectionProvider.CreateProtector(string)*D
+B
+%18;Microsoft.AspNetCore.DataProtection.IDataProtectionProvider*
+
+%192CreateProtector(string)º
+π
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Drivers\GithubAuthenticationSettingsDisplayDriver.cs^ ^(z?
+	protector2Microsoft.AspNetCore.DataProtection.IDataProtector"__id*;
+9
+%202Microsoft.AspNetCore.DataProtection.IDataProtectorÈ
+Ê
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Drivers\GithubAuthenticationSettingsDisplayDriver.cs`( `(6
+%21string"POrchardCore.GitHub.ViewModels.GitHubAuthenticationSettingsViewModel.ClientID.get*N
+L
+modelCOrchardCore.GitHub.ViewModels.GitHubAuthenticationSettingsViewModelÁ
+‰
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Drivers\GithubAuthenticationSettingsDisplayDriver.cs` `(6
+%22string"EOrchardCore.GitHub.Settings.GitHubAuthenticationSettings.ClientID.set*F
+D
+settings8OrchardCore.GitHub.Settings.GitHubAuthenticationSettings*
+
+%21stringÌ
+Í
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Drivers\GithubAuthenticationSettingsDisplayDriver.csa> a(P
+%23string"TOrchardCore.GitHub.ViewModels.GitHubAuthenticationSettingsViewModel.ClientSecret.get*N
+L
+modelCOrchardCore.GitHub.ViewModels.GitHubAuthenticationSettingsViewModelÏ
+È
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Drivers\GithubAuthenticationSettingsDisplayDriver.csa, a(Q
+%24string"ÜMicrosoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Protect(Microsoft.AspNetCore.DataProtection.IDataProtector, string)*F"D
+BMicrosoft.AspNetCore.DataProtection.DataProtectionCommonExtensions*A
+?
+	protector2Microsoft.AspNetCore.DataProtection.IDataProtector*
+
+%23stringÎ
+Ë
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Drivers\GithubAuthenticationSettingsDisplayDriver.csa a(Q
+%25string"IOrchardCore.GitHub.Settings.GitHubAuthenticationSettings.ClientSecret.set*F
+D
+settings8OrchardCore.GitHub.Settings.GitHubAuthenticationSettings*
+
+%24stringÏ
+È
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Drivers\GithubAuthenticationSettingsDisplayDriver.csb, b(=
+%26string"SOrchardCore.GitHub.ViewModels.GitHubAuthenticationSettingsViewModel.CallbackUrl.get*N
+L
+modelCOrchardCore.GitHub.ViewModels.GitHubAuthenticationSettingsViewModelâ
+Ü
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Drivers\GithubAuthenticationSettingsDisplayDriver.csb b(=+
+%27$Microsoft.AspNetCore.Http.PathString"IOrchardCore.GitHub.Settings.GitHubAuthenticationSettings.CallbackPath.set*F
+D
+settings8OrchardCore.GitHub.Settings.GitHubAuthenticationSettings*
+
+%26stringÈ
+Ê
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Drivers\GithubAuthenticationSettingsDisplayDriver.csc* c(:
+%28bool"ROrchardCore.GitHub.ViewModels.GitHubAuthenticationSettingsViewModel.SaveTokens.get*N
+L
+modelCOrchardCore.GitHub.ViewModels.GitHubAuthenticationSettingsViewModelÂ
+‚
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Drivers\GithubAuthenticationSettingsDisplayDriver.csc c(:
+%29bool"GOrchardCore.GitHub.Settings.GitHubAuthenticationSettings.SaveTokens.set*F
+D
+settings8OrchardCore.GitHub.Settings.GitHubAuthenticationSettings*
+
+%28boolı
+Ú
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Drivers\GithubAuthenticationSettingsDisplayDriver.csd d($/
+%30(OrchardCore.Environment.Shell.IShellHost"__id*É*ÄF
+DOrchardCore.GitHub.Drivers.GitHubAuthenticationSettingsDisplayDriver"6
+
+_shellHost(OrchardCore.Environment.Shell.IShellHostˇ
+¸
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Drivers\GithubAuthenticationSettingsDisplayDriver.csd> d(L2
+%31+OrchardCore.Environment.Shell.ShellSettings"__id*ä*áF
+DOrchardCore.GitHub.Drivers.GitHubAuthenticationSettingsDisplayDriver"=
+_shellSettings+OrchardCore.Environment.Shell.ShellSettingsêç
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Drivers\GithubAuthenticationSettingsDisplayDriver.csd d(M"
+%32System.Threading.Tasks.Task"tOrchardCore.Environment.Shell.IShellHost.ReleaseShellContextAsync(OrchardCore.Environment.Shell.ShellSettings, bool)*1
+/
+%30(OrchardCore.Environment.Shell.IShellHost*4
+2
+%31+OrchardCore.Environment.Shell.ShellSettings*
+""2KReleaseShellContextAsync(OrchardCore.Environment.Shell.ShellSettings, bool)*
+2*Ä	
+2≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Drivers\GithubAuthenticationSettingsDisplayDriver.csg g(4ÖÇ
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Drivers\GithubAuthenticationSettingsDisplayDriver.csg g(5+
+%33$System.Threading.Tasks.Task<TResult>"√OrchardCore.GitHub.Drivers.GitHubAuthenticationSettingsDisplayDriver.EditAsync(OrchardCore.GitHub.Settings.GitHubAuthenticationSettings, OrchardCore.DisplayManagement.Handlers.BuildEditorContext)*HF
+DOrchardCore.GitHub.Drivers.GitHubAuthenticationSettingsDisplayDriver*F
+D
+settings8OrchardCore.GitHub.Settings.GitHubAuthenticationSettings*F
+D
+context9OrchardCore.DisplayManagement.Handlers.BuildEditorContext2~EditAsync(OrchardCore.GitHub.Settings.GitHubAuthenticationSettings, OrchardCore.DisplayManagement.Handlers.BuildEditorContext)"Ω
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Drivers\GithubAuthenticationSettingsDisplayDriver.csg g(6
+""*Ö
+9≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Drivers\GithubAuthenticationSettingsDisplayDriver.csh	 h(	" 
+≤
+ßD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Drivers\GithubAuthenticationSettingsDisplayDriver.csh h(	
+implicit return:D
+settings8OrchardCore.GitHub.Settings.GitHubAuthenticationSettings:D
+context9OrchardCore.DisplayManagement.Handlers.BuildEditorContextBHF
+DOrchardCore.GitHub.Drivers.GitHubAuthenticationSettingsDisplayDriver

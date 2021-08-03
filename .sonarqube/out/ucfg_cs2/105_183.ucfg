@@ -1,0 +1,146 @@
+
+ÄOrchardCore.Environment.Shell.Builders.ShellContextFactory.CreateDescribedContextAsync(OrchardCore.Environment.Shell.ShellSettings, OrchardCore.Environment.Shell.Descriptor.Models.ShellDescriptor)”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContextFactory.csB( B(C"0*ý
+0”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContextFactory.csD D(0¿
+¼
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContextFactory.csD D(*
+%0$Microsoft.Extensions.Logging.ILogger"__id*q*o<
+:OrchardCore.Environment.Shell.Builders.ShellContextFactory"/
+_logger$Microsoft.Extensions.Logging.ILogger®
+«
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContextFactory.csD" D(0
+%1"__id*
+""åâ
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContextFactory.csD D(1
+
+%2bool"UMicrosoft.Extensions.Logging.ILogger.IsEnabled(Microsoft.Extensions.Logging.LogLevel)*,
+*
+%0$Microsoft.Extensions.Logging.ILogger*
+
+%120IsEnabled(Microsoft.Extensions.Logging.LogLevel)*
+1
+2*È	
+1”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContextFactory.csF F(f¿
+¼
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContextFactory.csF F(*
+%3$Microsoft.Extensions.Logging.ILogger"__id*q*o<
+:OrchardCore.Environment.Shell.Builders.ShellContextFactory"/
+_logger$Microsoft.Extensions.Logging.ILogger™
+–
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContextFactory.csFY F(f
+%4string"4OrchardCore.Environment.Shell.ShellSettings.Name.get*9
+7
+settings+OrchardCore.Environment.Shell.ShellSettingsÈ
+Å
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContextFactory.csF F(g
+
+%5void"uMicrosoft.Extensions.Logging.LoggerExtensions.LogDebug(Microsoft.Extensions.Logging.ILogger, string, params object[])*1"/
+-Microsoft.Extensions.Logging.LoggerExtensions*,
+*
+%3$Microsoft.Extensions.Logging.ILogger*86
+4Creating described context for tenant '{TenantName}'*
+
+%4string*
+2*‘(
+2”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContextFactory.csI R(*À
+½
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContextFactory.csI I(5!
+%6System.Threading.Tasks.Task"FOrchardCore.Environment.Shell.ShellSettings.EnsureConfigurationAsync()*9
+7
+settings+OrchardCore.Environment.Shell.ShellSettingsü
+ù
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContextFactory.csK" K(6A
+%7;OrchardCore.Environment.Shell.Builders.ICompositionStrategy"__id*–*“<
+:OrchardCore.Environment.Shell.Builders.ShellContextFactory"S
+_compositionStrategy;OrchardCore.Environment.Shell.Builders.ICompositionStrategyÑÎ
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContextFactory.csK" K(^*
+%8$System.Threading.Tasks.Task<TResult>"¶OrchardCore.Environment.Shell.Builders.ICompositionStrategy.ComposeAsync(OrchardCore.Environment.Shell.ShellSettings, OrchardCore.Environment.Shell.Descriptor.Models.ShellDescriptor)*C
+A
+%7;OrchardCore.Environment.Shell.Builders.ICompositionStrategy*9
+7
+settings+OrchardCore.Environment.Shell.ShellSettings*T
+R
+shellDescriptor?OrchardCore.Environment.Shell.Descriptor.Models.ShellDescriptor2zComposeAsync(OrchardCore.Environment.Shell.ShellSettings, OrchardCore.Environment.Shell.Descriptor.Models.ShellDescriptor)ó
+ð
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContextFactory.csK K(^I
+	blueprint<OrchardCore.Environment.Shell.Builders.Models.ShellBlueprint"__id*
+""‚
+ÿ
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContextFactory.csL L(1C
+%9=OrchardCore.Environment.Shell.Builders.IShellContainerFactory"__id*š*—<
+:OrchardCore.Environment.Shell.Builders.ShellContextFactory"W
+_shellContainerFactory=OrchardCore.Environment.Shell.Builders.IShellContainerFactoryÀ½
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContextFactory.csL L(V
+%10System.IServiceProvider"¸OrchardCore.Environment.Shell.Builders.IShellContainerFactory.CreateContainer(OrchardCore.Environment.Shell.ShellSettings, OrchardCore.Environment.Shell.Builders.Models.ShellBlueprint)*E
+C
+%9=OrchardCore.Environment.Shell.Builders.IShellContainerFactory*9
+7
+settings+OrchardCore.Environment.Shell.ShellSettings*K
+I
+	blueprint<OrchardCore.Environment.Shell.Builders.Models.ShellBlueprint2zCreateContainer(OrchardCore.Environment.Shell.ShellSettings, OrchardCore.Environment.Shell.Builders.Models.ShellBlueprint)ç
+ä
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContextFactory.csL L(V#
+providerSystem.IServiceProvider"__id* 
+
+%10System.IServiceProvider‹ˆ
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContextFactory.csN S(:
+%113OrchardCore.Environment.Shell.Builders.ShellContext"3OrchardCore.Environment.Shell.Builders.ShellContext©
+¦
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContextFactory.csN N(#
+%12void"BOrchardCore.Environment.Shell.Builders.ShellContext.ShellContext()*<
+:
+%113OrchardCore.Environment.Shell.Builders.ShellContext‰
+†
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContextFactory.csP P(#2
+%13+OrchardCore.Environment.Shell.ShellSettings"@OrchardCore.Environment.Shell.Builders.ShellContext.Settings.set*<
+:
+%113OrchardCore.Environment.Shell.Builders.ShellContext*9
+7
+settings+OrchardCore.Environment.Shell.ShellSettings­
+ª
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContextFactory.csQ Q(%C
+%14<OrchardCore.Environment.Shell.Builders.Models.ShellBlueprint"AOrchardCore.Environment.Shell.Builders.ShellContext.Blueprint.set*<
+:
+%113OrchardCore.Environment.Shell.Builders.ShellContext*K
+I
+	blueprint<OrchardCore.Environment.Shell.Builders.Models.ShellBlueprintè
+å
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContextFactory.csR R(*
+%15System.IServiceProvider"GOrchardCore.Environment.Shell.Builders.ShellContext.ServiceProvider.set*<
+:
+%113OrchardCore.Environment.Shell.Builders.ShellContext*%
+#
+providerSystem.IServiceProvider"Õ
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContextFactory.csN S(<
+:
+%113OrchardCore.Environment.Shell.Builders.ShellContext*É
+3”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContextFactory.csT	 T(	"¬
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\Builders\ShellContextFactory.csT T(	
+implicit return:7
+settings+OrchardCore.Environment.Shell.ShellSettings:R
+shellDescriptor?OrchardCore.Environment.Shell.Descriptor.Models.ShellDescriptorB><
+:OrchardCore.Environment.Shell.Builders.ShellContextFactory

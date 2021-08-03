@@ -1,0 +1,550 @@
+
+qOrchardCore.Environment.Shell.ShellSettingsManager.SaveSettingsAsync(OrchardCore.Environment.Shell.ShellSettings)é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.csê ê(+"0*“
+0é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.csí í((®
+•
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.csí í($
+%0System.Threading.SemaphoreSlim"__id*f*d4
+2OrchardCore.Environment.Shell.ShellSettingsManager",
+
+_semaphoreSystem.Threading.SemaphoreSlimã
+à
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.csí í((!
+%1System.Threading.Tasks.Task"*System.Threading.SemaphoreSlim.WaitAsync()*&
+$
+%0System.Threading.SemaphoreSlim*
+1*Û
+1é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.csï ó($æ
+ª
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.csï ï(0!
+%2System.Threading.Tasks.Task"MOrchardCore.Environment.Shell.ShellSettingsManager.EnsureConfigurationAsync()*64
+2OrchardCore.Environment.Shell.ShellSettingsManagerì
+ê
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.csó ó($
+
+%3bool""object.operator ==(object, object)*
+"
+object*9
+7
+settings+OrchardCore.Environment.Shell.ShellSettings*
+""*
+2
+3*Ä
+2é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.csô ô(D÷”
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.csô ô(E"
+%4System.ArgumentNullException"System.ArgumentNullExceptionã
+à
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.csô ô(3
+
+%5void";System.ArgumentNullException.ArgumentNullException(string?)*$
+"
+%4System.ArgumentNullException*
+""*
+4*å6
+3é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.csú ´(7åâ
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.csú$ ú(>=
+%67Microsoft.Extensions.Configuration.ConfigurationBuilder"7Microsoft.Extensions.Configuration.ConfigurationBuilder±
+Æ
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.csú( ú(<
+
+%7void"NMicrosoft.Extensions.Configuration.ConfigurationBuilder.ConfigurationBuilder()*?
+=
+%67Microsoft.Extensions.Configuration.ConfigurationBuilder“
+œ
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.csù& ù(47
+%81Microsoft.Extensions.Configuration.IConfiguration"__id*}*{4
+2OrchardCore.Environment.Shell.ShellSettingsManager"C
+_configuration1Microsoft.Extensions.Configuration.IConfigurationÕ
+ 
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.csú$ ù(5>
+%98Microsoft.Extensions.Configuration.IConfigurationBuilder"πMicrosoft.Extensions.Configuration.ChainedBuilderExtensions.AddConfiguration(Microsoft.Extensions.Configuration.IConfigurationBuilder, Microsoft.Extensions.Configuration.IConfiguration)*?"=
+;Microsoft.Extensions.Configuration.ChainedBuilderExtensions*?
+=
+%67Microsoft.Extensions.Configuration.ConfigurationBuilder*9
+7
+%81Microsoft.Extensions.Configuration.IConfiguration”
+–
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.csû& û(48
+%101Microsoft.Extensions.Configuration.IConfiguration"__id*}*{4
+2OrchardCore.Environment.Shell.ShellSettingsManager"C
+_configuration1Microsoft.Extensions.Configuration.IConfigurationî
+ë
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.csû@ û(M
+%11string"4OrchardCore.Environment.Shell.ShellSettings.Name.get*9
+7
+settings+OrchardCore.Environment.Shell.ShellSettings¸˘
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.csû& û(N?
+%128Microsoft.Extensions.Configuration.IConfigurationSection"DMicrosoft.Extensions.Configuration.IConfiguration.GetSection(string)*:
+8
+%101Microsoft.Extensions.Configuration.IConfiguration*
+
+%11string2GetSection(string)◊
+‘
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.csú$ û(O?
+%138Microsoft.Extensions.Configuration.IConfigurationBuilder"πMicrosoft.Extensions.Configuration.ChainedBuilderExtensions.AddConfiguration(Microsoft.Extensions.Configuration.IConfigurationBuilder, Microsoft.Extensions.Configuration.IConfiguration)*?"=
+;Microsoft.Extensions.Configuration.ChainedBuilderExtensions*@
+>
+%98Microsoft.Extensions.Configuration.IConfigurationBuilder*A
+?
+%128Microsoft.Extensions.Configuration.IConfigurationSection‡›
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.csú$ ü(<
+%145Microsoft.Extensions.Configuration.IConfigurationRoot"@Microsoft.Extensions.Configuration.IConfigurationBuilder.Build()*A
+?
+%138Microsoft.Extensions.Configuration.IConfigurationBuilder2Build()¢
+ü
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.csú ü(F
+configuration5Microsoft.Extensions.Configuration.IConfigurationRoot"__id*>
+<
+%145Microsoft.Extensions.Configuration.IConfigurationRootıÚ
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.cs°$ §(2
+%15+OrchardCore.Environment.Shell.ShellSettings"+OrchardCore.Environment.Shell.ShellSettingsî
+ë
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.cs°( °(5
+%16void";OrchardCore.Environment.Shell.ShellSettings.ShellSettings()*4
+2
+%15+OrchardCore.Environment.Shell.ShellSettingsî
+ë
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.cs£ £((
+%17string"4OrchardCore.Environment.Shell.ShellSettings.Name.get*9
+7
+settings+OrchardCore.Environment.Shell.ShellSettings†
+ù
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.cs£ £((
+%18string"4OrchardCore.Environment.Shell.ShellSettings.Name.set*4
+2
+%15+OrchardCore.Environment.Shell.ShellSettings*
+
+%17stringé
+ã
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.cs° §(<
+shellSettings+OrchardCore.Environment.Shell.ShellSettings"__id*4
+2
+%15+OrchardCore.Environment.Shell.ShellSettingsﬂ
+‹
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.cs¶ ¶(1
+%19void"vMicrosoft.Extensions.Configuration.ConfigurationBinder.Bind(Microsoft.Extensions.Configuration.IConfiguration, object)*:"8
+6Microsoft.Extensions.Configuration.ConfigurationBinder*H
+F
+configuration5Microsoft.Extensions.Configuration.IConfigurationRoot*>
+<
+shellSettings+OrchardCore.Environment.Shell.ShellSettingsÃ
+…
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.cs®% ®(F#
+%20Newtonsoft.Json.Linq.JObject"/Newtonsoft.Json.Linq.JObject.FromObject(object)* "
+Newtonsoft.Json.Linq.JObject*>
+<
+shellSettings+OrchardCore.Environment.Shell.ShellSettingsÒ
+Ó
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.cs® ®(F.
+configSettingsNewtonsoft.Json.Linq.JObject"__id*%
+#
+%20Newtonsoft.Json.Linq.JObject«
+ƒ
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.cs©% ©(A#
+%21Newtonsoft.Json.Linq.JObject"/Newtonsoft.Json.Linq.JObject.FromObject(object)* "
+Newtonsoft.Json.Linq.JObject*9
+7
+settings+OrchardCore.Environment.Shell.ShellSettingsÒ
+Ó
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.cs© ©(A.
+tenantSettingsNewtonsoft.Json.Linq.JObject"__id*%
+#
+%21Newtonsoft.Json.Linq.JObject*
+5*ú
+5é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.cs‡	 ‡(	*
+6
+7*“
+6é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.cs≠ ∞(2ß
+§
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.cs≠C ≠(O
+%22string"=System.Collections.Generic.KeyValuePair<TKey, TValue>.Key.get*C
+A
+property5System.Collections.Generic.KeyValuePair<TKey, TValue>¶£
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.cs≠& ≠(P
+%23string",Newtonsoft.Json.Linq.JToken.Value<T>(object)*0
+.
+tenantSettingsNewtonsoft.Json.Linq.JObject*
+
+%22string2Value<T>(object)¬
+ø
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.cs≠ ≠(P
+tenantValuestring"__id*
+
+%23stringß
+§
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.csÆC Æ(O
+%24string"=System.Collections.Generic.KeyValuePair<TKey, TValue>.Key.get*C
+A
+property5System.Collections.Generic.KeyValuePair<TKey, TValue>¶£
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.csÆ& Æ(P
+%25string",Newtonsoft.Json.Linq.JToken.Value<T>(object)*0
+.
+configSettingsNewtonsoft.Json.Linq.JObject*
+
+%24string2Value<T>(object)¬
+ø
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.csÆ Æ(P
+configValuestring"__id*
+
+%25stringÉ
+Ä
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.cs∞ ∞(2
+%26bool""string.operator !=(string, string)*
+"
+string*
+
+tenantValuestring*
+
+configValuestring*
+8
+9*«
+8é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.cs≤ ≤(Bß
+§
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.cs≤' ≤(3
+%27string"=System.Collections.Generic.KeyValuePair<TKey, TValue>.Key.get*C
+A
+property5System.Collections.Generic.KeyValuePair<TKey, TValue>Å
+˛
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.cs≤ ≤(B
+%28"__mapSet*0
+.
+tenantSettingsNewtonsoft.Json.Linq.JObject*
+
+%27string*
+
+tenantValuestring*
+5*∂
+9é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.cs∂ ∂(;ß
+§
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.cs∂' ∂(3
+%29string"=System.Collections.Generic.KeyValuePair<TKey, TValue>.Key.get*C
+A
+property5System.Collections.Generic.KeyValuePair<TKey, TValue>
+Ì
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.cs∂ ∂(;
+%30"__mapSet*0
+.
+tenantSettingsNewtonsoft.Json.Linq.JObject*
+
+%29string*
+""*
+5*æ"
+7é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.cs∫ ƒ(0Í
+Á
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.cs∫ ∫(-
+%31bool"__mapRemove*0
+.
+tenantSettingsNewtonsoft.Json.Linq.JObject*
+Name˘
+ˆ
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.csº º(&I
+%32BOrchardCore.Environment.Shell.Configuration.IShellsSettingsSources"__id*ë*é4
+2OrchardCore.Environment.Shell.ShellSettingsManager"V
+_settingsSourcesBOrchardCore.Environment.Shell.Configuration.IShellsSettingsSourcesî
+ë
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.csº1 º(>
+%33string"4OrchardCore.Environment.Shell.ShellSettings.Name.get*9
+7
+settings+OrchardCore.Environment.Shell.ShellSettings≠
+™
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.csº@ º(u:
+%343System.Collections.Generic.Dictionary<TKey, TValue>")Newtonsoft.Json.Linq.JToken.ToObject<T>()*0
+.
+tenantSettingsNewtonsoft.Json.Linq.JObjectÆ´
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.csº º(v"
+%35System.Threading.Tasks.Task"åOrchardCore.Environment.Shell.Configuration.IShellsSettingsSources.SaveAsync(string, System.Collections.Generic.IDictionary<string, string>)*K
+I
+%32BOrchardCore.Environment.Shell.Configuration.IShellsSettingsSources*
+
+%33string*<
+:
+%343System.Collections.Generic.Dictionary<TKey, TValue>2ISaveAsync(string, System.Collections.Generic.IDictionary<string, string>)◊‘
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.csæ# æ(0#
+%36Newtonsoft.Json.Linq.JObject"Newtonsoft.Json.Linq.JObject
+Ì
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.csæ' æ(.
+%37void"&Newtonsoft.Json.Linq.JObject.JObject()*%
+#
+%36Newtonsoft.Json.Linq.JObjectÔ
+Ï
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.csæ æ(0,
+tenantConfigNewtonsoft.Json.Linq.JObject"__id*%
+#
+%36Newtonsoft.Json.Linq.JObject€
+ÿ
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.cs¿ ¿(:F
+%38?OrchardCore.Environment.Shell.Configuration.IShellConfiguration"BOrchardCore.Environment.Shell.ShellSettings.ShellConfiguration.get*9
+7
+settings+OrchardCore.Environment.Shell.ShellSettings‡›
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.cs¿ ¿(H0
+%39)System.Collections.Generic.IEnumerable<T>"?Microsoft.Extensions.Configuration.IConfiguration.GetChildren()*H
+F
+%38?OrchardCore.Environment.Shell.Configuration.IShellConfiguration2GetChildren()í
+è
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.cs¿ ¡(70
+%40)System.Collections.Generic.IEnumerable<T>"rSystem.Linq.Enumerable.Where<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
+System.Linq.Enumerable*2
+0
+%39)System.Collections.Generic.IEnumerable<T>*
+""Å
+˛
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.cs¿ ¬(A
+%41:Microsoft.Extensions.Configuration.IConfigurationSection[]"XSystem.Linq.Enumerable.ToArray<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*2
+0
+%40)System.Collections.Generic.IEnumerable<T>ß
+§
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.cs¿ ¬(F
+sections:Microsoft.Extensions.Configuration.IConfigurationSection[]"__id*C
+A
+%41:Microsoft.Extensions.Configuration.IConfigurationSection[]*
+10*ü
+10é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.cs‡	 ‡(	*
+11
+12*å
+11é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.cs∆ ∆(Jµ≤
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.cs∆! ∆(,
+%42string"@Microsoft.Extensions.Configuration.IConfigurationSection.Key.get*E
+C
+section8Microsoft.Extensions.Configuration.IConfigurationSection2Key.get≠
+™
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.cs∆ ∆(-
+%43string"<OrchardCore.Environment.Shell.ShellSettings.this[string].get*9
+7
+settings+OrchardCore.Environment.Shell.ShellSettings*
+
+%42stringµ≤
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.cs∆? ∆(J
+%44string"@Microsoft.Extensions.Configuration.IConfigurationSection.Key.get*E
+C
+section8Microsoft.Extensions.Configuration.IConfigurationSection2Key.get‘—
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.cs∆1 ∆(K
+%45string"BMicrosoft.Extensions.Configuration.IConfiguration.this[string].get*H
+F
+configuration5Microsoft.Extensions.Configuration.IConfigurationRoot*
+
+%44string2this[string].getÛ
+
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.cs∆ ∆(K
+%46bool""string.operator !=(string, string)*
+"
+string*
+
+%43string*
+
+%45string*
+13
+14*µ
+
+13é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.cs» »(Hµ≤
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.cs»% »(0
+%47string"@Microsoft.Extensions.Configuration.IConfigurationSection.Key.get*E
+C
+section8Microsoft.Extensions.Configuration.IConfigurationSection2Key.getµ≤
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.cs»= »(H
+%48string"@Microsoft.Extensions.Configuration.IConfigurationSection.Key.get*E
+C
+section8Microsoft.Extensions.Configuration.IConfigurationSection2Key.get≠
+™
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.cs»4 »(I
+%49string"<OrchardCore.Environment.Shell.ShellSettings.this[string].get*9
+7
+settings+OrchardCore.Environment.Shell.ShellSettings*
+
+%48string˜
+Ù
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.cs» »(I
+%50"__mapSet*.
+,
+tenantConfigNewtonsoft.Json.Linq.JObject*
+
+%47string*
+
+%49string*
+10*ƒ
+14é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.csÃ Ã(8µ≤
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.csÃ% Ã(0
+%51string"@Microsoft.Extensions.Configuration.IConfigurationSection.Key.get*E
+C
+section8Microsoft.Extensions.Configuration.IConfigurationSection2Key.getÓ
+Î
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.csÃ Ã(8
+%52"__mapSet*.
+,
+tenantConfigNewtonsoft.Json.Linq.JObject*
+
+%51string*
+""*
+10*—
+12é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.cs– “(8Ë
+Â
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.cs– –(+
+%53bool"__mapRemove*.
+,
+tenantConfigNewtonsoft.Json.Linq.JObject*
+Nameµ
+≤
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.cs“ “(,%
+%54System.Threading.SemaphoreSlim"__id*r*p4
+2OrchardCore.Environment.Shell.ShellSettingsManager"8
+_tenantConfigSemaphoreSystem.Threading.SemaphoreSlimç
+ä
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.cs“ “(8"
+%55System.Threading.Tasks.Task"*System.Threading.SemaphoreSlim.WaitAsync()*'
+%
+%54System.Threading.SemaphoreSlim*
+4
+15*°
+15é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.cs’ ’({Ö
+Ç
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.cs’ ’(.M
+%56FOrchardCore.Environment.Shell.Configuration.IShellConfigurationSources"__id*ô*ñ4
+2OrchardCore.Environment.Shell.ShellSettingsManager"^
+_tenantConfigSourcesFOrchardCore.Environment.Shell.Configuration.IShellConfigurationSourcesî
+ë
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.cs’9 ’(F
+%57string"4OrchardCore.Environment.Shell.ShellSettings.Name.get*9
+7
+settings+OrchardCore.Environment.Shell.ShellSettings´
+®
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.cs’H ’({:
+%583System.Collections.Generic.Dictionary<TKey, TValue>")Newtonsoft.Json.Linq.JToken.ToObject<T>()*.
+,
+tenantConfigNewtonsoft.Json.Linq.JObject∂≥
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.cs’ ’(|"
+%59System.Threading.Tasks.Task"êOrchardCore.Environment.Shell.Configuration.IShellConfigurationSources.SaveAsync(string, System.Collections.Generic.IDictionary<string, string>)*O
+M
+%56FOrchardCore.Environment.Shell.Configuration.IShellConfigurationSources*
+
+%57string*<
+:
+%583System.Collections.Generic.Dictionary<TKey, TValue>2ISaveAsync(string, System.Collections.Generic.IDictionary<string, string>)*
+16*Ã
+16é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.csŸ Ÿ(4µ
+≤
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.csŸ Ÿ(*%
+%60System.Threading.SemaphoreSlim"__id*r*p4
+2OrchardCore.Environment.Shell.ShellSettingsManager"8
+_tenantConfigSemaphoreSystem.Threading.SemaphoreSlimÛ
+
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.csŸ Ÿ(4
+
+%61int"(System.Threading.SemaphoreSlim.Release()*'
+%
+%60System.Threading.SemaphoreSlim*
+17
+4*ö
+17é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.cs‡	 ‡(	*
+4*¿
+4é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.csﬁ ﬁ($©
+¶
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.csﬁ ﬁ(%
+%62System.Threading.SemaphoreSlim"__id*f*d4
+2OrchardCore.Environment.Shell.ShellSettingsManager",
+
+_semaphoreSystem.Threading.SemaphoreSlimÛ
+
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.csﬁ ﬁ($
+
+%63int"(System.Threading.SemaphoreSlim.Release()*'
+%
+%62System.Threading.SemaphoreSlim*
+18
+18*æ
+18é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.cs‡	 ‡(	"¶
+é
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellSettingsManager.cs‡ ‡(	
+implicit return:7
+settings+OrchardCore.Environment.Shell.ShellSettingsB64
+2OrchardCore.Environment.Shell.ShellSettingsManager

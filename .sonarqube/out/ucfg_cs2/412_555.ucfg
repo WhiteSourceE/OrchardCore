@@ -1,0 +1,106 @@
+
+πOrchardCore.Workflows.UserTasks.Drivers.UserTaskEventContentDriver.GetUserTaskActions(OrchardCore.Workflows.Models.WorkflowState, string, System.Collections.Generic.IEnumerable<string>)∞
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\UserTasks\Drivers\UserTaskEventContentDriver.csq$ q(6"0*
+0∞
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\UserTasks\Drivers\UserTaskEventContentDriver.css s(Z
+Ì
+∞
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\UserTasks\Drivers\UserTaskEventContentDriver.css s(,:
+%04System.Collections.Generic.IDictionary<TKey, TValue>"=OrchardCore.Workflows.Models.WorkflowState.ActivityStates.get*=
+;
+workflowState*OrchardCore.Workflows.Models.WorkflowStateºπ
+∞
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\UserTasks\Drivers\UserTaskEventContentDriver.css s([
+
+%1bool"RSystem.Collections.Generic.IDictionary<TKey, TValue>.TryGetValue(TKey, out TValue)*<
+:
+%04System.Collections.Generic.IDictionary<TKey, TValue>*
+
+
+activityIdstring*/
+-
+activityStateNewtonsoft.Json.Linq.JObject2TryGetValue(TKey, out TValue)*
+1
+2*≤
+1∞
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\UserTasks\Drivers\UserTaskEventContentDriver.csu w((Ñ
+Å
+∞
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\UserTasks\Drivers\UserTaskEventContentDriver.csu u(/5
+%2/OrchardCore.Workflows.Services.IActivityLibrary"__id*é*ãD
+BOrchardCore.Workflows.UserTasks.Drivers.UserTaskEventContentDriver"C
+_activityLibrary/OrchardCore.Workflows.Services.IActivityLibraryœ
+Ã
+∞
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\UserTasks\Drivers\UserTaskEventContentDriver.csu u(x>
+%38OrchardCore.Workflows.UserTasks.Activities.UserTaskEvent"¶OrchardCore.Workflows.Services.ActivityLibraryExtensions.InstantiateActivity<T>(OrchardCore.Workflows.Services.IActivityLibrary, string, Newtonsoft.Json.Linq.JObject)*<":
+8OrchardCore.Workflows.Services.ActivityLibraryExtensions*7
+5
+%2/OrchardCore.Workflows.Services.IActivityLibrary*
+""*/
+-
+activityStateNewtonsoft.Json.Linq.JObjectƒ
+¡
+∞
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\UserTasks\Drivers\UserTaskEventContentDriver.csu u(xD
+activity8OrchardCore.Workflows.UserTasks.Activities.UserTaskEvent"__id*@
+>
+%38OrchardCore.Workflows.UserTasks.Activities.UserTaskEventÌ
+Í
+∞
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\UserTasks\Drivers\UserTaskEventContentDriver.csw w(")
+%4#System.Collections.Generic.IList<T>"BOrchardCore.Workflows.UserTasks.Activities.UserTaskEvent.Roles.get*F
+D
+activity8OrchardCore.Workflows.UserTasks.Activities.UserTaskEvent·
+ﬁ
+∞
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\UserTasks\Drivers\UserTaskEventContentDriver.csw w((
+
+%5bool"TSystem.Linq.Enumerable.Any<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*+
+)
+%4#System.Collections.Generic.IList<T>*
+3
+4*”
+3∞
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\UserTasks\Drivers\UserTaskEventContentDriver.csw, w(Zí
+è
+∞
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\UserTasks\Drivers\UserTaskEventContentDriver.csw- w([
+
+%6bool"pSystem.Linq.Enumerable.Any<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
+System.Linq.Enumerable*8
+6
+	userRoles)System.Collections.Generic.IEnumerable<T>*
+""*
+5
+4*ª
+5∞
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\UserTasks\Drivers\UserTaskEventContentDriver.cs	 (	*
+2*≠
+4∞
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\UserTasks\Drivers\UserTaskEventContentDriver.csz' z(7Ô
+Ï
+∞
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\UserTasks\Drivers\UserTaskEventContentDriver.csz' z(7)
+%7#System.Collections.Generic.IList<T>"DOrchardCore.Workflows.UserTasks.Activities.UserTaskEvent.Actions.get*F
+D
+activity8OrchardCore.Workflows.UserTasks.Activities.UserTaskEvent*
+6*æ
+6∞
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\UserTasks\Drivers\UserTaskEventContentDriver.cs	 (	*
+7
+2*ª
+7∞
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\UserTasks\Drivers\UserTaskEventContentDriver.cs|! |('*
+6*Å
+2∞
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\UserTasks\Drivers\UserTaskEventContentDriver.cs	 (	"»
+∞
+•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\UserTasks\Drivers\UserTaskEventContentDriver.cs (	
+implicit return:;
+workflowState*OrchardCore.Workflows.Models.WorkflowState:
+
+activityIdstring:6
+	userRoles)System.Collections.Generic.IEnumerable<T>BFD
+BOrchardCore.Workflows.UserTasks.Drivers.UserTaskEventContentDriver

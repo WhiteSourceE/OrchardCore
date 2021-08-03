@@ -1,0 +1,103 @@
+
+sOrchardCore.Themes.Services.ThemeService.DisableFeaturesAsync(System.Collections.Generic.IEnumerable<string>, bool)ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\Services\ThemeService.csÑ Ñ(."0*Ë
+0ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\Services\ThemeService.csÜ ã(,€
+ÿ
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\Services\ThemeService.csÜ$ Ü(5:
+%04OrchardCore.Environment.Extensions.IExtensionManager"__id*y*w*
+(OrchardCore.Themes.Services.ThemeService"I
+_extensionManager4OrchardCore.Environment.Extensions.IExtensionManager‡›
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\Services\ThemeService.csÜ$ á(/
+%1)System.Collections.Generic.IEnumerable<T>"BOrchardCore.Environment.Extensions.IExtensionManager.GetFeatures()*<
+:
+%04OrchardCore.Environment.Extensions.IExtensionManager2GetFeatures()ö
+ó
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\Services\ThemeService.csÜ$ à(6/
+%2)System.Collections.Generic.IEnumerable<T>"rSystem.Linq.Enumerable.Where<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
+System.Linq.Enumerable*1
+/
+%1)System.Collections.Generic.IEnumerable<T>*
+""ó
+î
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\Services\ThemeService.csÜ à(6>
+featuresToDisable)System.Collections.Generic.IEnumerable<T>"__id*1
+/
+%2)System.Collections.Generic.IEnumerable<T>›
+⁄
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\Services\ThemeService.csä! ä(69
+%33OrchardCore.Environment.Shell.IShellFeaturesManager"__id*|*z*
+(OrchardCore.Themes.Services.ThemeService"L
+_shellFeaturesManager3OrchardCore.Environment.Shell.IShellFeaturesManagerÑ
+Å
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\Services\ThemeService.csä! ä(e*
+%4$System.Threading.Tasks.Task<TResult>"ÓOrchardCore.Environment.Shell.ShellFeaturesManagerExtensions.DisableFeaturesAsync(OrchardCore.Environment.Shell.IShellFeaturesManager, System.Collections.Generic.IEnumerable<OrchardCore.Environment.Extensions.Features.IFeatureInfo>, bool)*@">
+<OrchardCore.Environment.Shell.ShellFeaturesManagerExtensions*;
+9
+%33OrchardCore.Environment.Shell.IShellFeaturesManager*@
+>
+featuresToDisable)System.Collections.Generic.IEnumerable<T>*
+""„
+‡
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\Services\ThemeService.csä ä(e5
+features)System.Collections.Generic.IEnumerable<T>"__id*
+""*
+1*¶
+1ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\Services\ThemeService.csè	 è(	*
+2
+3*“
+2ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\Services\ThemeService.csç ç(E«
+ƒ
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\Services\ThemeService.csç ç(4
+%5.OrchardCore.DisplayManagement.Notify.INotifier"__id*k*i*
+(OrchardCore.Themes.Services.ThemeService";
+	_notifier.OrchardCore.DisplayManagement.Notify.INotifierÀ
+»
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\Services\ThemeService.csç" ç(#:
+%64Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer"__id*i*g*
+(OrchardCore.Themes.Services.ThemeService"9
+H4Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer¿Ω
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\Services\ThemeService.csç9 ç(E
+%7string"AOrchardCore.Environment.Extensions.Features.IFeatureInfo.Name.get*E
+C
+feature8OrchardCore.Environment.Extensions.Features.IFeatureInfo2Name.getøº
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\Services\ThemeService.csç" ç(F?
+%89Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString"VMicrosoft.AspNetCore.Mvc.Localization.IHtmlLocalizer.this[string, params object[]].get*<
+:
+%64Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer*
+{0} was disabled.*
+
+%7string2!this[string, params object[]].getè
+å
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\Services\ThemeService.csç ç(G
+
+%9void"™OrchardCore.DisplayManagement.Notify.NotifierExtensions.Success(OrchardCore.DisplayManagement.Notify.INotifier, Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString)*;"9
+7OrchardCore.DisplayManagement.Notify.NotifierExtensions*6
+4
+%5.OrchardCore.DisplayManagement.Notify.INotifier*A
+?
+%89Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString*
+1*—
+3ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\Services\ThemeService.csè	 è(	"∞
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\Services\ThemeService.csè è(	
+implicit return:7
+
+featureIds)System.Collections.Generic.IEnumerable<T>:
+forceboolB,*
+(OrchardCore.Themes.Services.ThemeService

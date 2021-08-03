@@ -1,0 +1,501 @@
+
+KOrchardCore.Taxonomies.Controllers.TagController.CreatePost(string, string)û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.cs0) 0(3"14*»
+0û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.cs2 2(^˜
+Ù
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.cs2 2(,>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*ä*á2
+0OrchardCore.Taxonomies.Controllers.TagController"Q
+_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationService±
+Æ
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.cs2< 2(@,
+%1&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase»
+≈
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.cs2B 2(^1
+%2+OrchardCore.Security.Permissions.Permission"__id*i*g$
+"OrchardCore.Taxonomies.Permissions"?
+ManageTaxonomies+OrchardCore.Security.Permissions.Permission†
+ù
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.cs2 2(_*
+%3$System.Threading.Tasks.Task<TResult>"ﬂMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission)*E"C
+AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*@
+>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService*.
+,
+%1&System.Security.Claims.ClaimsPrincipal*3
+1
+%2+OrchardCore.Security.Permissions.Permission*
+1
+2*Ã
+1û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.cs4 4(%Ã…
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.cs4 4(%1
+%4+Microsoft.AspNetCore.Mvc.UnauthorizedResult"6Microsoft.AspNetCore.Mvc.ControllerBase.Unauthorized()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2Unauthorized()"÷
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.cs4 4(&3
+1
+%4+Microsoft.AspNetCore.Mvc.UnauthorizedResult* 
+2û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.cs7 ;(Sã
+à
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.cs9( 9(AF
+%5@OrchardCore.ContentManagement.Metadata.IContentDefinitionManager"__id*ñ*ì2
+0OrchardCore.Taxonomies.Controllers.TagController"]
+_contentDefinitionManager@OrchardCore.ContentManagement.Metadata.IContentDefinitionManageræª
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.cs9( 9(_I
+%6COrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition"ZOrchardCore.ContentManagement.Metadata.IContentDefinitionManager.GetTypeDefinition(string)*H
+F
+%5@OrchardCore.ContentManagement.Metadata.IContentDefinitionManager*
+
+Taxonomy2GetTypeDefinition(string)’
+“
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.cs9 9(_\
+contentTypeDefinitionCOrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition"__id*K
+I
+%6COrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition°
+û
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.cs; ;(II
+%7COrchardCore.ContentManagement.Metadata.Settings.ContentTypeSettings"POrchardCore.ContentManagement.Metadata.Models.ContentDefinition.GetSettings<T>()*^
+\
+contentTypeDefinitionCOrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition–
+Õ
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.cs; ;(S
+
+%8bool"QOrchardCore.ContentManagement.Metadata.Settings.ContentTypeSettings.Draftable.get*K
+I
+%7COrchardCore.ContentManagement.Metadata.Settings.ContentTypeSettings*
+3
+4*À
+3û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.cs= =(fŸ
+÷
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.cs=! =(03
+%9-OrchardCore.ContentManagement.IContentManager"__id*x*v2
+0OrchardCore.Taxonomies.Controllers.TagController"@
+_contentManager-OrchardCore.ContentManagement.IContentManagerƒ
+¡
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.cs=Q =(f3
+%10,OrchardCore.ContentManagement.VersionOptions"7OrchardCore.ContentManagement.VersionOptions.Latest.get*0".
+,OrchardCore.ContentManagement.VersionOptionsêç
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.cs=! =(g+
+%11$System.Threading.Tasks.Task<TResult>"lOrchardCore.ContentManagement.IContentManager.GetAsync(string, OrchardCore.ContentManagement.VersionOptions)*5
+3
+%9-OrchardCore.ContentManagement.IContentManager*!
+
+taxonomyContentItemIdstring*5
+3
+%10,OrchardCore.ContentManagement.VersionOptions2>GetAsync(string, OrchardCore.ContentManagement.VersionOptions)È
+Ê
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.cs= =(g5
+taxonomy)OrchardCore.ContentManagement.ContentItem"__id*
+""*
+5*‘
+4û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.csA A(m⁄
+◊
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.csA! A(04
+%12-OrchardCore.ContentManagement.IContentManager"__id*x*v2
+0OrchardCore.Taxonomies.Controllers.TagController"@
+_contentManager-OrchardCore.ContentManagement.IContentManagerÀ
+»
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.csAQ A(m3
+%13,OrchardCore.ContentManagement.VersionOptions">OrchardCore.ContentManagement.VersionOptions.DraftRequired.get*0".
+,OrchardCore.ContentManagement.VersionOptionsëé
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.csA! A(n+
+%14$System.Threading.Tasks.Task<TResult>"lOrchardCore.ContentManagement.IContentManager.GetAsync(string, OrchardCore.ContentManagement.VersionOptions)*6
+4
+%12-OrchardCore.ContentManagement.IContentManager*!
+
+taxonomyContentItemIdstring*5
+3
+%13,OrchardCore.ContentManagement.VersionOptions2>GetAsync(string, OrchardCore.ContentManagement.VersionOptions)È
+Ê
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.csA A(n5
+taxonomy)OrchardCore.ContentManagement.ContentItem"__id*
+""*
+5*—
+5û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.csD D( ¢
+ü
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.csD D( 
+%15bool""object.operator ==(object, object)*
+"
+object*7
+5
+taxonomy)OrchardCore.ContentManagement.ContentItem*
+""*
+6
+7*æ
+6û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.csF F(!¡æ
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.csF F(!.
+%16'Microsoft.AspNetCore.Mvc.NotFoundResult"2Microsoft.AspNetCore.Mvc.ControllerBase.NotFound()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2
+NotFound()"”
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.csF F("0
+.
+%16'Microsoft.AspNetCore.Mvc.NotFoundResult* ?
+7û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.csI X(#≥
+∞
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.csI I(21
+%17*OrchardCore.Taxonomies.Models.TaxonomyPart"hOrchardCore.ContentManagement.ContentItemExtensions.As<TPart>(OrchardCore.ContentManagement.ContentItem)*7"5
+3OrchardCore.ContentManagement.ContentItemExtensions*7
+5
+taxonomy)OrchardCore.ContentManagement.ContentItemì
+ê
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.csI I(22
+part*OrchardCore.Taxonomies.Models.TaxonomyPart"__id*3
+1
+%17*OrchardCore.Taxonomies.Models.TaxonomyPart⁄
+◊
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.csN$ N(34
+%18-OrchardCore.ContentManagement.IContentManager"__id*x*v2
+0OrchardCore.Taxonomies.Controllers.TagController"@
+_contentManager-OrchardCore.ContentManagement.IContentManager©
+¶
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.csN= N(Q
+%19string">OrchardCore.Taxonomies.Models.TaxonomyPart.TermContentType.get*4
+2
+part*OrchardCore.Taxonomies.Models.TaxonomyPartÏÈ
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.csN$ N(R+
+%20$System.Threading.Tasks.Task<TResult>">OrchardCore.ContentManagement.IContentManager.NewAsync(string)*6
+4
+%18-OrchardCore.ContentManagement.IContentManager*
+
+%19string2NewAsync(string)Ï
+È
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.csN N(R8
+contentItem)OrchardCore.ContentManagement.ContentItem"__id*
+""√
+¿
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.csO O(1
+%21string"9OrchardCore.ContentManagement.ContentItem.DisplayText.set*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItem*
+
+displayTextstring»
+≈
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.csP P((3
+%22,OrchardCore.ContentManagement.ContentElement"tOrchardCore.ContentManagement.ContentExtensions.Weld<TElement>(OrchardCore.ContentManagement.ContentElement, object)*3"1
+/OrchardCore.ContentManagement.ContentExtensions*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItem*
+""◊
+‘
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.csQ Q(]0
+%23)OrchardCore.ContentManagement.ContentItem"ÅOrchardCore.ContentManagement.ContentItemExtensions.Alter<TPart>(OrchardCore.ContentManagement.ContentItem, System.Action<TPart>)*7"5
+3OrchardCore.ContentManagement.ContentItemExtensions*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItem*
+""•¢
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.csS' S(LB
+%24;OrchardCore.ContentManagement.Handlers.UpdateContentContext";OrchardCore.ContentManagement.Handlers.UpdateContentContext∞
+≠
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.csS+ S(?
+%25void"{OrchardCore.ContentManagement.Handlers.UpdateContentContext.UpdateContentContext(OrchardCore.ContentManagement.ContentItem)*D
+B
+%24;OrchardCore.ContentManagement.Handlers.UpdateContentContext*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItem≈
+¬
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.csS S(LS
+updateContentContext;OrchardCore.ContentManagement.Handlers.UpdateContentContext"__id*D
+B
+%24;OrchardCore.ContentManagement.Handlers.UpdateContentContext”
+–
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.csU U("0
+%26)System.Collections.Generic.IEnumerable<T>"__id*u*s2
+0OrchardCore.Taxonomies.Controllers.TagController"=
+_contentHandlers)System.Collections.Generic.IEnumerable<T>¬
+ø
+†
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.csUï U(ú+
+%27$Microsoft.Extensions.Logging.ILogger"__id*g*e2
+0OrchardCore.Taxonomies.Controllers.TagController"/
+_logger$Microsoft.Extensions.Logging.ILoggerá
+Ñ
+ü
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.csU U(ù"
+%28System.Threading.Tasks.Task"œOrchardCore.Modules.InvokeExtensions.InvokeAsync<TEvents, T1>(System.Collections.Generic.IEnumerable<TEvents>, System.Func<TEvents, T1, System.Threading.Tasks.Task>, T1, Microsoft.Extensions.Logging.ILogger)*("&
+$OrchardCore.Modules.InvokeExtensions*2
+0
+%26)System.Collections.Generic.IEnumerable<T>*
+""*U
+S
+updateContentContext;OrchardCore.ContentManagement.Handlers.UpdateContentContext*-
++
+%27$Microsoft.Extensions.Logging.ILogger”
+–
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.csV V("0
+%29)System.Collections.Generic.IEnumerable<T>"__id*u*s2
+0OrchardCore.Taxonomies.Controllers.TagController"=
+_contentHandlers)System.Collections.Generic.IEnumerable<T>Ä
+˝
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.csV V(,0
+%30)System.Collections.Generic.IEnumerable<T>"XSystem.Linq.Enumerable.Reverse<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*2
+0
+%29)System.Collections.Generic.IEnumerable<T>¬
+ø
+†
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.csVû V(•+
+%31$Microsoft.Extensions.Logging.ILogger"__id*g*e2
+0OrchardCore.Taxonomies.Controllers.TagController"/
+_logger$Microsoft.Extensions.Logging.ILoggerá
+Ñ
+ü
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.csV V(¶"
+%32System.Threading.Tasks.Task"œOrchardCore.Modules.InvokeExtensions.InvokeAsync<TEvents, T1>(System.Collections.Generic.IEnumerable<TEvents>, System.Func<TEvents, T1, System.Threading.Tasks.Task>, T1, Microsoft.Extensions.Logging.ILogger)*("&
+$OrchardCore.Modules.InvokeExtensions*2
+0
+%30)System.Collections.Generic.IEnumerable<T>*
+""*U
+S
+updateContentContext;OrchardCore.ContentManagement.Handlers.UpdateContentContext*-
++
+%31$Microsoft.Extensions.Logging.ILoggerÃ
+…
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.csX X(A
+%33:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary"6Microsoft.AspNetCore.Mvc.ControllerBase.ModelState.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBaseæ
+ª
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.csX X(#
+%34bool"FMicrosoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary.IsValid.get*C
+A
+%33:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary*
+8
+9*∆
+8û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.csZ Z(#«ƒ
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.csZ Z(#0
+%35)Microsoft.AspNetCore.Mvc.BadRequestResult"4Microsoft.AspNetCore.Mvc.ControllerBase.BadRequest()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2BadRequest()"’
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.csZ Z($2
+0
+%35)Microsoft.AspNetCore.Mvc.BadRequestResult*ˇ
+
+9û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.cs^ a(R‘
+—
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.cs^ ^(M0
+%36)OrchardCore.ContentManagement.ContentItem"ÅOrchardCore.ContentManagement.ContentItemExtensions.Alter<TPart>(OrchardCore.ContentManagement.ContentItem, System.Action<TPart>)*7"5
+3OrchardCore.ContentManagement.ContentItemExtensions*7
+5
+taxonomy)OrchardCore.ContentManagement.ContentItem*
+""¢
+ü
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.csa a(HJ
+%37COrchardCore.ContentManagement.Metadata.Settings.ContentTypeSettings"POrchardCore.ContentManagement.Metadata.Models.ContentDefinition.GetSettings<T>()*^
+\
+contentTypeDefinitionCOrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition“
+œ
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.csa a(R
+%38bool"QOrchardCore.ContentManagement.Metadata.Settings.ContentTypeSettings.Draftable.get*L
+J
+%37COrchardCore.ContentManagement.Metadata.Settings.ContentTypeSettings*
+10
+11*‰
+10û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.csc c(;⁄
+◊
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.csc c(%4
+%39-OrchardCore.ContentManagement.IContentManager"__id*x*v2
+0OrchardCore.Taxonomies.Controllers.TagController"@
+_contentManager-OrchardCore.ContentManagement.IContentManagerŸ÷
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.csc c(<"
+%40System.Threading.Tasks.Task"eOrchardCore.ContentManagement.IContentManager.PublishAsync(OrchardCore.ContentManagement.ContentItem)*6
+4
+%39-OrchardCore.ContentManagement.IContentManager*7
+5
+taxonomy)OrchardCore.ContentManagement.ContentItem27PublishAsync(OrchardCore.ContentManagement.ContentItem)*
+12*§
+11û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.csg g(&ó
+î
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.csg g(
+%41YesSql.ISession"__id*S*Q2
+0OrchardCore.Taxonomies.Controllers.TagController"
+_sessionYesSql.ISession‹Ÿ
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.csg g('
+%42void"*YesSql.ISession.Save(object, bool, string)*
+
+%41YesSql.ISession*7
+5
+taxonomy)OrchardCore.ContentManagement.ContentItem*
+""*
+""2Save(object, bool, string)*
+12*ç
+12û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.csj p(ôñ
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.csj n(<
+%435OrchardCore.Taxonomies.ViewModels.CreatedTagViewModel"5OrchardCore.Taxonomies.ViewModels.CreatedTagViewModelæ
+ª
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.csj  j(3
+%44void"KOrchardCore.Taxonomies.ViewModels.CreatedTagViewModel.CreatedTagViewModel()*>
+<
+%435OrchardCore.Taxonomies.ViewModels.CreatedTagViewModel¨
+©
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.csl  l(9
+%45string";OrchardCore.ContentManagement.ContentItem.ContentItemId.get*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItemÕ
+ 
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.csl l(9
+%46string"GOrchardCore.Taxonomies.ViewModels.CreatedTagViewModel.ContentItemId.set*>
+<
+%435OrchardCore.Taxonomies.ViewModels.CreatedTagViewModel*
+
+%45string™
+ß
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.csm m(5
+%47string"9OrchardCore.ContentManagement.ContentItem.DisplayText.get*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItemÀ
+»
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.csm m(5
+%48string"EOrchardCore.Taxonomies.ViewModels.CreatedTagViewModel.DisplayText.set*>
+<
+%435OrchardCore.Taxonomies.ViewModels.CreatedTagViewModel*
+
+%47stringÆ
+´
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.csj n(B
+	viewModel5OrchardCore.Taxonomies.ViewModels.CreatedTagViewModel"__id*>
+<
+%435OrchardCore.Taxonomies.ViewModels.CreatedTagViewModeláÑ
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.csp p( .
+%49'Microsoft.AspNetCore.Mvc.OkObjectResult"2Microsoft.AspNetCore.Mvc.ControllerBase.Ok(object)*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*D
+B
+	viewModel5OrchardCore.Taxonomies.ViewModels.CreatedTagViewModel2
+Ok(object)"”
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.csp p(!0
+.
+%49'Microsoft.AspNetCore.Mvc.OkObjectResult*ﬁ
+13û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.csq	 q(	"∂
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.csq q(	
+implicit return*Ï
+14û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.cs0e 0(eı
+Ú
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.cs0) 0(3
+%50"__entrypoint*!
+
+taxonomyContentItemIdstring*
+
+displayTextstringû
+õ
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.cs.	 .(
+%51"
+__annotate*B@
+>Microsoft.AspNetCore.Mvc.HttpPostAttribute.HttpPostAttribute()*!
+
+taxonomyContentItemIdstring®
+•
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.cs/	 /(
+%52"
+__annotate*LJ
+HMicrosoft.AspNetCore.Mvc.ActionNameAttribute.ActionNameAttribute(string)*!
+
+taxonomyContentItemIdstringÂ
+‚
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.cs04 0(P
+taxonomyContentItemIdstring"__annotation*
+
+%51*
+
+%52î
+ë
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.cs.	 .(
+%53"
+__annotate*B@
+>Microsoft.AspNetCore.Mvc.HttpPostAttribute.HttpPostAttribute()*
+
+displayTextstringû
+õ
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.cs/	 /(
+%54"
+__annotate*LJ
+HMicrosoft.AspNetCore.Mvc.ActionNameAttribute.ActionNameAttribute(string)*
+
+displayTextstring€
+ÿ
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\TagController.cs0R 0(d
+displayTextstring"__annotation*
+
+%53*
+
+%54*
+0:
+taxonomyContentItemIdstring:
+displayTextstringB42
+0OrchardCore.Taxonomies.Controllers.TagController

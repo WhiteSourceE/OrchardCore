@@ -1,0 +1,59 @@
+
+HOrchardCore.Locking.LocalLock.AcquireLockAsync(string, System.TimeSpan?)‚
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.cs# (3"0*§
+0‚
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.cs "(9§
+¤
+‚
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.cs (5-
+%0'OrchardCore.Locking.LocalLock.Semaphore":OrchardCore.Locking.LocalLock.GetOrCreateSemaphore(string)*!
+OrchardCore.Locking.LocalLock*
+
+keystringõ
+ò
+‚
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.cs (54
+	semaphore'OrchardCore.Locking.LocalLock.Semaphore"__id*/
+-
+%0'OrchardCore.Locking.LocalLock.Semaphore™
+–
+‚
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.cs   (!$
+%1System.Threading.SemaphoreSlim"1OrchardCore.Locking.LocalLock.Semaphore.Value.get*6
+4
+	semaphore'OrchardCore.Locking.LocalLock.Semaphoreÿ
+ü
+‚
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.cs   (-!
+%2System.Threading.Tasks.Task"*System.Threading.SemaphoreSlim.WaitAsync()*&
+$
+%1System.Threading.SemaphoreSlimÚ×
+‚
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.cs" "(:*
+%3$OrchardCore.Locking.LocalLock.Locker"$OrchardCore.Locking.LocalLock.LockerÉ
+Æ
+‚
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.cs" "(
+
+%4void"…OrchardCore.Locking.LocalLock.Locker.Locker(OrchardCore.Locking.LocalLock, OrchardCore.Locking.LocalLock.Semaphore, System.TimeSpan?)*,
+*
+%3$OrchardCore.Locking.LocalLock.Locker*!
+OrchardCore.Locking.LocalLock*6
+4
+	semaphore'OrchardCore.Locking.LocalLock.Semaphore*"
+ 
+
+expirationSystem.Nullable<T>"³
+‚
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.cs" "(;,
+*
+%3$OrchardCore.Locking.LocalLock.Locker*¥
+1‚
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.cs#	 #(	"š
+‚
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.cs# #(	
+implicit return:
+keystring: 
+
+expirationSystem.Nullable<T>B!
+OrchardCore.Locking.LocalLock

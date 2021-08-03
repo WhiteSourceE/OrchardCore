@@ -1,0 +1,120 @@
+
+YOrchardCore.Media.GraphQL.MediaAssetQuery.ResolveAsync(GraphQL.Types.ResolveFieldContext)—
+ŒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\GraphQL\MediaAssetQuery.cs49 4(E"0*Ú
+0—
+ŒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\GraphQL\MediaAssetQuery.cs6 =(%§
+¤
+—
+ŒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\GraphQL\MediaAssetQuery.cs6! 6(H
+%0System.IServiceProvider"vOrchardCore.Apis.GraphQL.ResolveFieldContextExtensions.ResolveServiceProvider<T>(GraphQL.Types.ResolveFieldContext<T>)*:"8
+6OrchardCore.Apis.GraphQL.ResolveFieldContextExtensions*5
+3
+resolveContext!GraphQL.Types.ResolveFieldContext¨
+¥
+—
+ŒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\GraphQL\MediaAssetQuery.cs6! 6(f'
+%1!OrchardCore.Media.IMediaFileStore"pMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService<T>(System.IServiceProvider)*M"K
+IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*
+
+%0System.IServiceProviderƒ
+€
+—
+ŒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\GraphQL\MediaAssetQuery.cs6 6(f3
+mediaFileStore!OrchardCore.Media.IMediaFileStore"__id*)
+'
+%1!OrchardCore.Media.IMediaFileStoreÐ
+Í
+—
+ŒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\GraphQL\MediaAssetQuery.cs8: 8(F
+%2string"__id**
+string"
+EmptystringÊ
+Ç
+—
+ŒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\GraphQL\MediaAssetQuery.cs8 8(G
+%3string"LGraphQL.Types.ResolveFieldContext<TSource>.GetArgument<TType>(string, TType)*5
+3
+resolveContext!GraphQL.Types.ResolveFieldContext*
+path*
+
+%2stringÃ
+À
+—
+ŒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\GraphQL\MediaAssetQuery.cs8 8(G
+pathstring"__id*
+
+%3stringÑ
+Î
+—
+ŒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\GraphQL\MediaAssetQuery.cs9( 9(b
+
+%4bool"LGraphQL.Types.ResolveFieldContext<TSource>.GetArgument<TType>(string, TType)*5
+3
+resolveContext!GraphQL.Types.ResolveFieldContext*
+includeSubDirectories*
+""Ð
+Í
+—
+ŒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\GraphQL\MediaAssetQuery.cs9 9(b
+includeSubDirectoriesbool"__id*
+
+
+%4bool°­
+—
+ŒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\GraphQL\MediaAssetQuery.cs; ;(_4
+%5.System.Collections.Generic.IAsyncEnumerable<T>"IOrchardCore.FileStorage.IFileStore.GetDirectoryContentAsync(string, bool)*5
+3
+mediaFileStore!OrchardCore.Media.IMediaFileStore*
+
+pathstring*
+
+includeSubDirectoriesbool2&GetDirectoryContentAsync(string, bool)—
+”
+—
+ŒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\GraphQL\MediaAssetQuery.cs; ;(_:
+allFiles.System.Collections.Generic.IAsyncEnumerable<T>"__id*6
+4
+%5.System.Collections.Generic.IAsyncEnumerable<T>*
+1
+2*‡
+1—
+ŒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\GraphQL\MediaAssetQuery.cs? ?(3Â
+¿
+—
+ŒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\GraphQL\MediaAssetQuery.cs? ?(3/
+%6)System.Threading.Tasks.ValueTask<TResult>"ŠSystem.Linq.AsyncEnumerable.ToListAsync<TSource>(System.Collections.Generic.IAsyncEnumerable<TSource>, System.Threading.CancellationToken)*"
+System.Linq.AsyncEnumerable*<
+:
+allFiles.System.Collections.Generic.IAsyncEnumerable<T>*
+"""¢
+—
+ŒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\GraphQL\MediaAssetQuery.cs? ?(4
+""*¼	
+2—
+ŒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\GraphQL\MediaAssetQuery.csC C(?¸
+µ
+—
+ŒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\GraphQL\MediaAssetQuery.csC C(@4
+%7.System.Collections.Generic.IAsyncEnumerable<T>"|System.Linq.AsyncEnumerable.Where<TSource>(System.Collections.Generic.IAsyncEnumerable<TSource>, System.Func<TSource, bool>)*"
+System.Linq.AsyncEnumerable*<
+:
+allFiles.System.Collections.Generic.IAsyncEnumerable<T>*
+""¼
+¹
+—
+ŒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\GraphQL\MediaAssetQuery.csC C(N/
+%8)System.Threading.Tasks.ValueTask<TResult>"ŠSystem.Linq.AsyncEnumerable.ToListAsync<TSource>(System.Collections.Generic.IAsyncEnumerable<TSource>, System.Threading.CancellationToken)*"
+System.Linq.AsyncEnumerable*6
+4
+%7.System.Collections.Generic.IAsyncEnumerable<T>*
+"""¢
+—
+ŒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\GraphQL\MediaAssetQuery.csC C(O
+""*Ï
+3—
+ŒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\GraphQL\MediaAssetQuery.csE	 E(	"¯
+—
+ŒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\GraphQL\MediaAssetQuery.csE E(	
+implicit return:3
+resolveContext!GraphQL.Types.ResolveFieldContextB-+
+)OrchardCore.Media.GraphQL.MediaAssetQuery

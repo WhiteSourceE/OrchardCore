@@ -1,0 +1,95 @@
+
+@OrchardCore.Documents.DefaultDocumentSerializer.Compress(byte[])§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DefaultDocumentSerializer.csH H('"0*™
+0§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DefaultDocumentSerializer.csJ L(M‡›
+§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DefaultDocumentSerializer.csJ J(4
+%0System.IO.MemoryStream"System.IO.MemoryStreamï
+í
+§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DefaultDocumentSerializer.csJ" J(.
+
+%1void"+System.IO.MemoryStream.MemoryStream(byte[])*
+
+%0System.IO.MemoryStream*
+
+databyte[]Ò
+Ó
+§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DefaultDocumentSerializer.csJ J(4
+inputSystem.IO.MemoryStream"__id*
+
+%0System.IO.MemoryStream‡›
+§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DefaultDocumentSerializer.csK K(1
+%2System.IO.MemoryStream"System.IO.MemoryStream˝
+˙
+§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DefaultDocumentSerializer.csK# K(/
+
+%3void"%System.IO.MemoryStream.MemoryStream()*
+
+%2System.IO.MemoryStreamÚ
+Ô
+§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DefaultDocumentSerializer.csK K(1 
+outputSystem.IO.MemoryStream"__id*
+
+%2System.IO.MemoryStreamæ
+ª
+§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DefaultDocumentSerializer.csL5 L(M
+%4"__id*
+""ÙÒ
+§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DefaultDocumentSerializer.csL L(N&
+%5 System.IO.Compression.GZipStream" System.IO.Compression.GZipStreamÚ
+Ô
+§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DefaultDocumentSerializer.csL" L(,
+
+%6void"dSystem.IO.Compression.GZipStream.GZipStream(System.IO.Stream, System.IO.Compression.CompressionMode)*(
+&
+%5 System.IO.Compression.GZipStream*"
+ 
+outputSystem.IO.MemoryStream*
+
+%4Ñ
+Å
+§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DefaultDocumentSerializer.csL L(N(
+gzip System.IO.Compression.GZipStream"__id*(
+&
+%5 System.IO.Compression.GZipStream*
+1*‚
+1§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DefaultDocumentSerializer.csN N(!∞
+≠
+§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DefaultDocumentSerializer.csN N("
+
+%7void")System.IO.Stream.CopyTo(System.IO.Stream)*!
+
+inputSystem.IO.MemoryStream**
+(
+gzip System.IO.Compression.GZipStream*
+2*
+2§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DefaultDocumentSerializer.csQ Q(#âÜ
+§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DefaultDocumentSerializer.csQ Q(#
+%8byte[]" System.IO.MemoryStream.ToArray()*"
+ 
+outputSystem.IO.MemoryStream2	ToArray()"∑
+§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DefaultDocumentSerializer.csQ Q($
+
+%8byte[]*È
+3§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DefaultDocumentSerializer.csR	 R(	"º
+§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DefaultDocumentSerializer.csR R(	
+implicit return:
+databyte[]B3"1
+/OrchardCore.Documents.DefaultDocumentSerializer

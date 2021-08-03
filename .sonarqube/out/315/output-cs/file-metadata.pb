@@ -1,0 +1,11 @@
+³
+§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\obj\Debug\net5.0\Razor\Views\Admin\Create.cshtml.g.csutf-8±
+¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\obj\Debug\net5.0\Razor\Views\Admin\Edit.cshtml.g.csutf-8²
+¦D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\obj\Debug\net5.0\Razor\Views\Admin\Index.cshtml.g.csutf-8È
+¼D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\obj\Debug\net5.0\Razor\Views\Items\AllRolesDeploymentStep.Edit.cshtml.g.csutf-8Ë
+¿D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\obj\Debug\net5.0\Razor\Views\Items\AllRolesDeploymentStep.Summary.cshtml.g.csutf-8Í
+ÁD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\obj\Debug\net5.0\Razor\Views\Items\AllRolesDeploymentStep.Thumbnail.cshtml.g.csutf-8Â
+¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\obj\Debug\net5.0\Razor\Views\NavigationItemText-roles.Id.cshtml.g.csutf-8Ì
+ÀD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\obj\Debug\net5.0\Razor\Views\Shared\Components\SelectRoles\Default.cshtml.g.csutf-8³
+§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.csutf-8»
+¯D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\obj\Debug\net5.0\OrchardCore.Roles.RazorTargetAssemblyInfo.csutf-8

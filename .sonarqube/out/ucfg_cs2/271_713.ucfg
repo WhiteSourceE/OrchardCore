@@ -1,0 +1,122 @@
+
+gOrchardCore.Workflows.Services.WorkflowTypeStore.DeleteAsync(OrchardCore.Workflows.Models.WorkflowType)ž
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowTypeStore.csG G(%"0*í
+
+0ž
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowTypeStore.csJ L(.–
+“
+ž
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowTypeStore.csJ" J(*
+%0YesSql.ISession"__id*S*Q2
+0OrchardCore.Workflows.Services.WorkflowTypeStore"
+_sessionYesSql.ISession™
+–
+ž
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowTypeStore.csJ" J(
+%1YesSql.IQuery<T, TIndex>"…YesSql.QueryExtensions.Query<T, TIndex>(YesSql.ISession, System.Linq.Expressions.Expression<System.Func<TIndex, bool>>, bool, string)*"
+YesSql.QueryExtensions*
+
+%0YesSql.ISession*
+""*
+""*
+""ž›
+Ÿ
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowTypeStore.csJ" J(‹*
+%2$System.Threading.Tasks.Task<TResult>"YesSql.IQuery<T>.ListAsync()* 
+
+%1YesSql.IQuery<T, TIndex>2ListAsync()ë
+è
+Ÿ
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowTypeStore.csJ J(‹6
+	workflows)System.Collections.Generic.IEnumerable<T>"__id*
+""*
+1*¬
+1ž
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowTypeStore.csU	 U(	*
+2
+3*‹
+2ž
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowTypeStore.csN N((–
+“
+ž
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowTypeStore.csN N(
+%3YesSql.ISession"__id*S*Q2
+0OrchardCore.Workflows.Services.WorkflowTypeStore"
+_sessionYesSql.ISessionÆÃ
+ž
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowTypeStore.csN N()
+
+%4void"&YesSql.ISession.Delete(object, string)*
+
+%3YesSql.ISession*3
+1
+workflow%OrchardCore.Workflows.Models.Workflow*
+""2Delete(object, string)*
+1*œ
+3ž
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowTypeStore.csR T(m–
+“
+ž
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowTypeStore.csR R(
+%5YesSql.ISession"__id*S*Q2
+0OrchardCore.Workflows.Services.WorkflowTypeStore"
+_sessionYesSql.ISessionÎË
+ž
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowTypeStore.csR R()
+
+%6void"&YesSql.ISession.Delete(object, string)*
+
+%5YesSql.ISession*;
+9
+workflowType)OrchardCore.Workflows.Models.WorkflowType*
+""2Delete(object, string)œ™
+ž
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowTypeStore.csS S(F=
+%77OrchardCore.Workflows.Models.WorkflowTypeDeletedContext"7OrchardCore.Workflows.Models.WorkflowTypeDeletedContext­
+ª
+ž
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowTypeStore.csS S(8
+
+%8void"}OrchardCore.Workflows.Models.WorkflowTypeDeletedContext.WorkflowTypeDeletedContext(OrchardCore.Workflows.Models.WorkflowType)*?
+=
+%77OrchardCore.Workflows.Models.WorkflowTypeDeletedContext*;
+9
+workflowType)OrchardCore.Workflows.Models.WorkflowType¯
+¬
+ž
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowTypeStore.csS S(FB
+context7OrchardCore.Workflows.Models.WorkflowTypeDeletedContext"__id*?
+=
+%77OrchardCore.Workflows.Models.WorkflowTypeDeletedContextË
+È
+ž
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowTypeStore.csT T(/
+%9)System.Collections.Generic.IEnumerable<T>"__id*n*l2
+0OrchardCore.Workflows.Services.WorkflowTypeStore"6
+	_handlers)System.Collections.Generic.IEnumerable<T>À
+½
+ž
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowTypeStore.csTf T(m+
+%10$Microsoft.Extensions.Logging.ILogger"__id*g*e2
+0OrchardCore.Workflows.Services.WorkflowTypeStore"/
+_logger$Microsoft.Extensions.Logging.ILoggerô
+ñ
+ž
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowTypeStore.csT T(n"
+%11System.Threading.Tasks.Task"ÏOrchardCore.Modules.InvokeExtensions.InvokeAsync<TEvents, T1>(System.Collections.Generic.IEnumerable<TEvents>, System.Func<TEvents, T1, System.Threading.Tasks.Task>, T1, Microsoft.Extensions.Logging.ILogger)*("&
+$OrchardCore.Modules.InvokeExtensions*1
+/
+%9)System.Collections.Generic.IEnumerable<T>*
+""*D
+B
+context7OrchardCore.Workflows.Models.WorkflowTypeDeletedContext*-
++
+%10$Microsoft.Extensions.Logging.ILogger*
+4*Ý
+4ž
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowTypeStore.csU	 U(	"¶
+ž
+“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowTypeStore.csU U(	
+implicit return:9
+workflowType)OrchardCore.Workflows.Models.WorkflowTypeB42
+0OrchardCore.Workflows.Services.WorkflowTypeStore

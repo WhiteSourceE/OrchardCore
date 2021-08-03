@@ -1,0 +1,167 @@
+
+†OrchardCore.Users.Drivers.CustomUserSettingsDisplayDriver.UpdateAsync(OrchardCore.Users.Models.User, OrchardCore.DisplayManagement.Handlers.UpdateEditorContext)ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Drivers\CustomUserSettingsDisplayDriver.csE3 E(>"0*ﬁ
+0ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Drivers\CustomUserSettingsDisplayDriver.csG H(MÙ
+Ò
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Drivers\CustomUserSettingsDisplayDriver.csG G(04
+%0.Microsoft.AspNetCore.Http.IHttpContextAccessor"__id*à*Ö;
+9OrchardCore.Users.Drivers.CustomUserSettingsDisplayDriver"F
+_httpContextAccessor.Microsoft.AspNetCore.Http.IHttpContextAccessor„‡
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Drivers\CustomUserSettingsDisplayDriver.csG G(<+
+%1%Microsoft.AspNetCore.Http.HttpContext">Microsoft.AspNetCore.Http.IHttpContextAccessor.HttpContext.get*6
+4
+%0.Microsoft.AspNetCore.Http.IHttpContextAccessor2HttpContext.get∫
+∑
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Drivers\CustomUserSettingsDisplayDriver.csG G(A,
+%2&System.Security.Claims.ClaimsPrincipal".Microsoft.AspNetCore.Http.HttpContext.User.get*-
++
+%1%Microsoft.AspNetCore.Http.HttpContextò
+ï
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Drivers\CustomUserSettingsDisplayDriver.csG G(A3
+	userClaim&System.Security.Claims.ClaimsPrincipal"__id*.
+,
+%2&System.Security.Claims.ClaimsPrincipalÙ
+Ò
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Drivers\CustomUserSettingsDisplayDriver.csH2 H(M/
+%3)System.Collections.Generic.IEnumerable<T>"UOrchardCore.Users.Drivers.CustomUserSettingsDisplayDriver.GetContentTypeDefinitions()*=;
+9OrchardCore.Users.Drivers.CustomUserSettingsDisplayDriver*
+1*µ
+1ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Drivers\CustomUserSettingsDisplayDriver.csV	 V(	*
+2
+3*˛
+2®
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Drivers\CustomUserSettingsDisplayDriver.csJ J(ñâ
+Ü
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Drivers\CustomUserSettingsDisplayDriver.csJ J(0>
+%48Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*ì*ê;
+9OrchardCore.Users.Drivers.CustomUserSettingsDisplayDriver"Q
+_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationServiceÖ
+Ç
+®
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Drivers\CustomUserSettingsDisplayDriver.csJK J(ó1
+%5+OrchardCore.Security.Permissions.Permission"åOrchardCore.Users.CustomUserSettingsPermissions.CreatePermissionForType(OrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition)*3"1
+/OrchardCore.Users.CustomUserSettingsPermissions*^
+\
+contentTypeDefinitionCOrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition±
+Æ
+®
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Drivers\CustomUserSettingsDisplayDriver.csJ J(ò*
+%6$System.Threading.Tasks.Task<TResult>"ﬂMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission)*E"C
+AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*@
+>
+%48Microsoft.AspNetCore.Authorization.IAuthorizationService*5
+3
+	userClaim&System.Security.Claims.ClaimsPrincipal*3
+1
+%5+OrchardCore.Security.Permissions.Permission*
+4
+5*≤
+4ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Drivers\CustomUserSettingsDisplayDriver.csV	 V(	*
+1*ø 
+5ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Drivers\CustomUserSettingsDisplayDriver.csO R(\ 
+«
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Drivers\CustomUserSettingsDisplayDriver.csO O(!
+isNewbool"__id*
+""Ì
+Í
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Drivers\CustomUserSettingsDisplayDriver.csP( P(m*
+%7$System.Threading.Tasks.Task<TResult>"¡OrchardCore.Users.Drivers.CustomUserSettingsDisplayDriver.GetUserSettingsAsync(OrchardCore.Users.Models.User, OrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition, System.Action)*=;
+9OrchardCore.Users.Drivers.CustomUserSettingsDisplayDriver*'
+%
+userOrchardCore.Users.Models.User*^
+\
+contentTypeDefinitionCOrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition*
+""ı
+Ú
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Drivers\CustomUserSettingsDisplayDriver.csP P(m8
+contentItem)OrchardCore.ContentManagement.ContentItem"__id*
+""û
+õ
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Drivers\CustomUserSettingsDisplayDriver.csQ Q(0F
+%8@OrchardCore.ContentManagement.Display.IContentItemDisplayManager"__id*†*ù;
+9OrchardCore.Users.Drivers.CustomUserSettingsDisplayDriver"^
+_contentItemDisplayManager@OrchardCore.ContentManagement.Display.IContentItemDisplayManager˚
+¯
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Drivers\CustomUserSettingsDisplayDriver.csQP Q(_=
+%97OrchardCore.DisplayManagement.ModelBinding.IUpdateModel"DOrchardCore.DisplayManagement.Handlers.BuildShapeContext.Updater.get*G
+E
+context:OrchardCore.DisplayManagement.Handlers.UpdateEditorContextüú
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Drivers\CustomUserSettingsDisplayDriver.csQ Q(g+
+%10$System.Threading.Tasks.Task<TResult>"ÃOrchardCore.ContentManagement.Display.IContentItemDisplayManager.UpdateEditorAsync(OrchardCore.ContentManagement.ContentItem, OrchardCore.DisplayManagement.ModelBinding.IUpdateModel, bool, string, string)*H
+F
+%8@OrchardCore.ContentManagement.Display.IContentItemDisplayManager*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItem*?
+=
+%97OrchardCore.DisplayManagement.ModelBinding.IUpdateModel*
+
+isNewbool*
+""*
+""2ãUpdateEditorAsync(OrchardCore.ContentManagement.ContentItem, OrchardCore.DisplayManagement.ModelBinding.IUpdateModel, bool, string, string)ß
+§
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Drivers\CustomUserSettingsDisplayDriver.csR R(#
+%11Newtonsoft.Json.Linq.JObject"*OrchardCore.Entities.Entity.Properties.get*'
+%
+userOrchardCore.Users.Models.UserÊ
+„
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Drivers\CustomUserSettingsDisplayDriver.csR  R(:
+%12string"HOrchardCore.ContentManagement.Metadata.Models.ContentDefinition.Name.get*^
+\
+contentTypeDefinitionCOrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition·
+ﬁ
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Drivers\CustomUserSettingsDisplayDriver.csR> R(]#
+%13Newtonsoft.Json.Linq.JObject"/Newtonsoft.Json.Linq.JObject.FromObject(object)* "
+Newtonsoft.Json.Linq.JObject*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItemù
+ö
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Drivers\CustomUserSettingsDisplayDriver.csR R(]
+%14"__mapSet*%
+#
+%11Newtonsoft.Json.Linq.JObject*
+
+%12string*%
+#
+%13Newtonsoft.Json.Linq.JObject*
+1*ı
+3ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Drivers\CustomUserSettingsDisplayDriver.csU U(0êç
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Drivers\CustomUserSettingsDisplayDriver.csU U(1+
+%15$System.Threading.Tasks.Task<TResult>"ùOrchardCore.Users.Drivers.CustomUserSettingsDisplayDriver.EditAsync(OrchardCore.Users.Models.User, OrchardCore.DisplayManagement.Handlers.BuildEditorContext)*=;
+9OrchardCore.Users.Drivers.CustomUserSettingsDisplayDriver*'
+%
+userOrchardCore.Users.Models.User*G
+E
+context:OrchardCore.DisplayManagement.Handlers.UpdateEditorContext2cEditAsync(OrchardCore.Users.Models.User, OrchardCore.DisplayManagement.Handlers.BuildEditorContext)"≤
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Drivers\CustomUserSettingsDisplayDriver.csU U(2
+""*Ô
+6ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Drivers\CustomUserSettingsDisplayDriver.csV	 V(	"ø
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Drivers\CustomUserSettingsDisplayDriver.csV V(	
+implicit return:%
+userOrchardCore.Users.Models.User:E
+context:OrchardCore.DisplayManagement.Handlers.UpdateEditorContextB=;
+9OrchardCore.Users.Drivers.CustomUserSettingsDisplayDriver

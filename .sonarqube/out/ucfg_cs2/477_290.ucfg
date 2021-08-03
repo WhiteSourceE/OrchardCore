@@ -1,0 +1,885 @@
+
+^OrchardCore.Lucene.LuceneIndexManager.CreateLuceneDocument(OrchardCore.Indexing.DocumentIndex)û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs¥ ¥(-"0*ÿ
+0û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs∂ º(7ËÂ
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs∂ ∫(#
+%0Lucene.Net.Documents.Document"Lucene.Net.Documents.DocumentÅ
+˛
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs∂ ∂("
+
+%1void"(Lucene.Net.Documents.Document.Document()*%
+#
+%0Lucene.Net.Documents.Documentü
+ú
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csπ1 π(L
+%2string"4OrchardCore.Indexing.DocumentIndex.ContentItemId.get*5
+3
+documentIndex"OrchardCore.Indexing.DocumentIndex’
+“
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csπ1 π(W
+%3string"string.ToString()*
+
+%2string∏
+µ
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csπY π(h
+%4"__id*
+""ÓÎ
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csπ π(i&
+%5 Lucene.Net.Documents.StringField" Lucene.Net.Documents.StringFieldÂ
+‚
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csπ π(
+
+%6void"^Lucene.Net.Documents.StringField.StringField(string, string, Lucene.Net.Documents.Field.Store)*(
+&
+%5 Lucene.Net.Documents.StringField*
+ContentItemId*
+
+%3string*
+
+%4˜
+Ù
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs∂ ∫($
+docLucene.Net.Documents.Document"__id*%
+#
+%0Lucene.Net.Documents.Documentµ
+≤
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csº" º(7(
+%7"System.Collections.Generic.List<T>".OrchardCore.Indexing.DocumentIndex.Entries.get*5
+3
+documentIndex"OrchardCore.Indexing.DocumentIndex*
+1*¨
+1û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csé	 é(	*
+2
+3*’
+2û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csæ æ(L⁄
+◊
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csæ æ()/
+%8)OrchardCore.Indexing.DocumentIndexOptions"AOrchardCore.Indexing.DocumentIndex.DocumentIndexEntry.Options.get*@
+>
+entry5OrchardCore.Indexing.DocumentIndex.DocumentIndexEntry∏
+µ
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csæ2 æ(L
+%9"__id*
+""é
+ã
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csæ æ(M
+%10bool" System.Enum.HasFlag(System.Enum)*1
+/
+%8)OrchardCore.Indexing.DocumentIndexOptions*
+
+%9*
+4
+5*≈
+4û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csø ø(-π
+∂
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csø ø(-
+%14"__id*
+""‹
+Ÿ
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csø ø(-'
+%12 Lucene.Net.Documents.Field.Store"__id*
+
+%14˛
+˚
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csø ø(-'
+%11 Lucene.Net.Documents.Field.Store"__id*)
+'
+%12 Lucene.Net.Documents.Field.Store*
+6*≈
+5û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs¿ ¿(,π
+∂
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs¿ ¿(,
+%15"__id*
+""‹
+Ÿ
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs¿ ¿(,'
+%13 Lucene.Net.Documents.Field.Store"__id*
+
+%15˛
+˚
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs¿ ¿(,'
+%11 Lucene.Net.Documents.Field.Store"__id*)
+'
+%13 Lucene.Net.Documents.Field.Store*
+6*Ü
+6û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csæ ¬("Ä
+˝
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csæ ¿(,)
+store Lucene.Net.Documents.Field.Store"__id*)
+'
+%11 Lucene.Net.Documents.Field.Store◊
+‘
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs¬ ¬("/
+%16(OrchardCore.Indexing.DocumentIndex.Types">OrchardCore.Indexing.DocumentIndex.DocumentIndexEntry.Type.get*@
+>
+entry5OrchardCore.Indexing.DocumentIndex.DocumentIndexEntry*
+7*¨
+7û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs¬ ¬("*
+8
+9*≈
+8û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs∆ ∆(sµ
+≤
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs∆0 ∆(:
+%17string">OrchardCore.Indexing.DocumentIndex.DocumentIndexEntry.Name.get*@
+>
+entry5OrchardCore.Indexing.DocumentIndex.DocumentIndexEntry∂
+≥
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs∆M ∆(X
+%18object"?OrchardCore.Indexing.DocumentIndex.DocumentIndexEntry.Value.get*@
+>
+entry5OrchardCore.Indexing.DocumentIndex.DocumentIndexEntry˙
+˜
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs∆< ∆(Y
+%19string" System.Convert.ToString(object?)*"
+System.Convert*
+
+%18objectﬂ
+‹
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs∆< ∆(l
+%20string"string.ToLowerInvariant()*
+
+%19stringÔÏ
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs∆  ∆(t'
+%21 Lucene.Net.Documents.StringField" Lucene.Net.Documents.StringFieldã
+à
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs∆$ ∆(/
+%22void"^Lucene.Net.Documents.StringField.StringField(string, string, Lucene.Net.Documents.Field.Store)*)
+'
+%21 Lucene.Net.Documents.StringField*
+
+%17string*
+
+%20string*+
+)
+store Lucene.Net.Documents.Field.Store…
+∆
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs∆ ∆(u
+%23void"CLucene.Net.Documents.Document.Add(Lucene.Net.Index.IIndexableField)*&
+$
+docLucene.Net.Documents.Document*)
+'
+%21 Lucene.Net.Documents.StringField*
+1*Æ
+9û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs¬ ¬("*
+10
+11*Â
+10û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs   (/∂
+≥
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs   ('
+%24object"?OrchardCore.Indexing.DocumentIndex.DocumentIndexEntry.Value.get*@
+>
+entry5OrchardCore.Indexing.DocumentIndex.DocumentIndexEntry˙
+˜
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs   (/
+%25bool""object.operator !=(object, object)*
+"
+object*
+
+%24object*
+""*
+12
+13*Ë
+12û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csÃ  Ã(=∂
+≥
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csÃ  Ã(+
+%26object"?OrchardCore.Indexing.DocumentIndex.DocumentIndexEntry.Value.get*@
+>
+entry5OrchardCore.Indexing.DocumentIndex.DocumentIndexEntry*
+14
+15*≈
+14ü
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csŒ  Œ(©µ
+≤
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csŒ8 Œ(B
+%27string">OrchardCore.Indexing.DocumentIndex.DocumentIndexEntry.Name.get*@
+>
+entry5OrchardCore.Indexing.DocumentIndex.DocumentIndexEntry∂
+≥
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csŒl Œ(w
+%28object"?OrchardCore.Indexing.DocumentIndex.DocumentIndexEntry.Value.get*@
+>
+entry5OrchardCore.Indexing.DocumentIndex.DocumentIndexEntry¬
+ø
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csŒ\ Œ(w
+%29"__id*
+
+%28objectÌ
+Í
+ü
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csŒ[ Œ(Ñ
+%30System.DateTime"%System.DateTimeOffset.UtcDateTime.get*
+
+%29ª
+∏
+†
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csŒÜ Œ(°
+%31"__id*
+""‰
+·
+ü
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csŒD Œ(¢
+%32string"gLucene.Net.Documents.DateTools.DateToString(System.DateTime, Lucene.Net.Documents.DateTools.Resolution)*"" 
+Lucene.Net.Documents.DateTools*
+
+%30System.DateTime*
+
+%31Ì
+ü
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csŒ( Œ(™'
+%33 Lucene.Net.Documents.StringField" Lucene.Net.Documents.StringFieldã
+à
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csŒ, Œ(7
+%34void"^Lucene.Net.Documents.StringField.StringField(string, string, Lucene.Net.Documents.Field.Store)*)
+'
+%33 Lucene.Net.Documents.StringField*
+
+%27string*
+
+%32string*+
+)
+store Lucene.Net.Documents.Field.Store 
+«
+ü
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csŒ  Œ(´
+%35void"CLucene.Net.Documents.Document.Add(Lucene.Net.Index.IIndexableField)*&
+$
+docLucene.Net.Documents.Document*)
+'
+%33 Lucene.Net.Documents.StringField*
+16*¡
+15ü
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs“  “(©µ
+≤
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs“8 “(B
+%36string">OrchardCore.Indexing.DocumentIndex.DocumentIndexEntry.Name.get*@
+>
+entry5OrchardCore.Indexing.DocumentIndex.DocumentIndexEntry∂
+≥
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs“f “(q
+%37object"?OrchardCore.Indexing.DocumentIndex.DocumentIndexEntry.Value.get*@
+>
+entry5OrchardCore.Indexing.DocumentIndex.DocumentIndexEntry¬
+ø
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs“\ “(q
+%38"__id*
+
+%37objectÈ
+Ê
+ü
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs“[ “(Ñ
+%39System.DateTime"!System.DateTime.ToUniversalTime()*
+
+%38ª
+∏
+†
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs“Ü “(°
+%40"__id*
+""‰
+·
+ü
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs“D “(¢
+%41string"gLucene.Net.Documents.DateTools.DateToString(System.DateTime, Lucene.Net.Documents.DateTools.Resolution)*"" 
+Lucene.Net.Documents.DateTools*
+
+%39System.DateTime*
+
+%40Ì
+ü
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs“( “(™'
+%42 Lucene.Net.Documents.StringField" Lucene.Net.Documents.StringFieldã
+à
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs“, “(7
+%43void"^Lucene.Net.Documents.StringField.StringField(string, string, Lucene.Net.Documents.Field.Store)*)
+'
+%42 Lucene.Net.Documents.StringField*
+
+%36string*
+
+%41string*+
+)
+store Lucene.Net.Documents.Field.Store 
+«
+ü
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs“  “(´
+%44void"CLucene.Net.Documents.Document.Add(Lucene.Net.Index.IIndexableField)*&
+$
+docLucene.Net.Documents.Document*)
+'
+%42 Lucene.Net.Documents.StringField*
+16*®
+13û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs◊ ◊(Mµ
+≤
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs◊4 ◊(>
+%45string">OrchardCore.Indexing.DocumentIndex.DocumentIndexEntry.Name.get*@
+>
+entry5OrchardCore.Indexing.DocumentIndex.DocumentIndexEntryÔÏ
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs◊$ ◊(N'
+%46 Lucene.Net.Documents.StringField" Lucene.Net.Documents.StringFieldÑ
+Å
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs◊( ◊(3
+%47void"^Lucene.Net.Documents.StringField.StringField(string, string, Lucene.Net.Documents.Field.Store)*)
+'
+%46 Lucene.Net.Documents.StringField*
+
+%45string*
+NULL*+
+)
+store Lucene.Net.Documents.Field.Store…
+∆
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs◊ ◊(O
+%48void"CLucene.Net.Documents.Document.Add(Lucene.Net.Index.IIndexableField)*&
+$
+docLucene.Net.Documents.Document*)
+'
+%46 Lucene.Net.Documents.StringField*
+16*™
+16û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csé	 é(	*
+1*Ø
+11û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs¬ ¬("*
+17
+18*Â
+17û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs‹ ‹(/∂
+≥
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs‹ ‹('
+%49object"?OrchardCore.Indexing.DocumentIndex.DocumentIndexEntry.Value.get*@
+>
+entry5OrchardCore.Indexing.DocumentIndex.DocumentIndexEntry˙
+˜
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs‹ ‹(/
+%50bool""object.operator !=(object, object)*
+"
+object*
+
+%49object*
+""*
+19
+20*Ã
+19û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs‹3 ‹(g∂
+≥
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs‹B ‹(M
+%51object"?OrchardCore.Indexing.DocumentIndex.DocumentIndexEntry.Value.get*@
+>
+entry5OrchardCore.Indexing.DocumentIndex.DocumentIndexEntry„‡
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs‹B ‹(X
+%52string"object.ToString()*
+
+%51object2
+ToString()˚
+¯
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs‹3 ‹(h
+%53bool"int.TryParse(string?, out int)*"
+int*
+
+%52string*
+
+valueint*
+21
+20*’
+21û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csﬁ ﬁ(bµ
+≤
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csﬁ3 ﬁ(=
+%54string">OrchardCore.Indexing.DocumentIndex.DocumentIndexEntry.Name.get*@
+>
+entry5OrchardCore.Indexing.DocumentIndex.DocumentIndexEntry∂
+≥
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csﬁO ﬁ(Z
+%55object"?OrchardCore.Indexing.DocumentIndex.DocumentIndexEntry.Value.get*@
+>
+entry5OrchardCore.Indexing.DocumentIndex.DocumentIndexEntryˆ
+Û
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csﬁ? ﬁ([
+
+%56int"System.Convert.ToInt32(object?)*"
+System.Convert*
+
+%55objectÌÍ
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csﬁ$ ﬁ(c&
+%57Lucene.Net.Documents.Int32Field"Lucene.Net.Documents.Int32FieldÇ
+ˇ
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csﬁ( ﬁ(2
+%58void"YLucene.Net.Documents.Int32Field.Int32Field(string, int, Lucene.Net.Documents.Field.Store)*(
+&
+%57Lucene.Net.Documents.Int32Field*
+
+%54string*
+
+
+%56int*+
+)
+store Lucene.Net.Documents.Field.Store»
+≈
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csﬁ ﬁ(d
+%59void"CLucene.Net.Documents.Document.Add(Lucene.Net.Index.IIndexableField)*&
+$
+docLucene.Net.Documents.Document*(
+&
+%57Lucene.Net.Documents.Int32Field*
+22*®
+20û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs‚ ‚(Mµ
+≤
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs‚4 ‚(>
+%60string">OrchardCore.Indexing.DocumentIndex.DocumentIndexEntry.Name.get*@
+>
+entry5OrchardCore.Indexing.DocumentIndex.DocumentIndexEntryÔÏ
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs‚$ ‚(N'
+%61 Lucene.Net.Documents.StringField" Lucene.Net.Documents.StringFieldÑ
+Å
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs‚( ‚(3
+%62void"^Lucene.Net.Documents.StringField.StringField(string, string, Lucene.Net.Documents.Field.Store)*)
+'
+%61 Lucene.Net.Documents.StringField*
+
+%60string*
+NULL*+
+)
+store Lucene.Net.Documents.Field.Store…
+∆
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs‚ ‚(O
+%63void"CLucene.Net.Documents.Document.Add(Lucene.Net.Index.IIndexableField)*&
+$
+docLucene.Net.Documents.Document*)
+'
+%61 Lucene.Net.Documents.StringField*
+22*™
+22û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csé	 é(	*
+1*Ø
+18û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs¬ ¬("*
+23
+24*Â
+23û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csË Ë(/∂
+≥
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csË Ë('
+%64object"?OrchardCore.Indexing.DocumentIndex.DocumentIndexEntry.Value.get*@
+>
+entry5OrchardCore.Indexing.DocumentIndex.DocumentIndexEntry˙
+˜
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csË Ë(/
+%65bool""object.operator !=(object, object)*
+"
+object*
+
+%64object*
+""*
+25
+26*Â
+25û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csÍ Í(dµ
+≤
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csÍ4 Í(>
+%66string">OrchardCore.Indexing.DocumentIndex.DocumentIndexEntry.Name.get*@
+>
+entry5OrchardCore.Indexing.DocumentIndex.DocumentIndexEntry∂
+≥
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csÍQ Í(\
+%67object"?OrchardCore.Indexing.DocumentIndex.DocumentIndexEntry.Value.get*@
+>
+entry5OrchardCore.Indexing.DocumentIndex.DocumentIndexEntry˙
+˜
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csÍ@ Í(]
+%68double" System.Convert.ToDouble(object?)*"
+System.Convert*
+
+%67objectÔÏ
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csÍ$ Í(e'
+%69 Lucene.Net.Documents.DoubleField" Lucene.Net.Documents.DoubleFieldã
+à
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csÍ( Í(3
+%70void"^Lucene.Net.Documents.DoubleField.DoubleField(string, double, Lucene.Net.Documents.Field.Store)*)
+'
+%69 Lucene.Net.Documents.DoubleField*
+
+%66string*
+
+%68double*+
+)
+store Lucene.Net.Documents.Field.Store…
+∆
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csÍ Í(f
+%71void"CLucene.Net.Documents.Document.Add(Lucene.Net.Index.IIndexableField)*&
+$
+docLucene.Net.Documents.Document*)
+'
+%69 Lucene.Net.Documents.DoubleField*
+27*®
+26û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csÓ Ó(Mµ
+≤
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csÓ4 Ó(>
+%72string">OrchardCore.Indexing.DocumentIndex.DocumentIndexEntry.Name.get*@
+>
+entry5OrchardCore.Indexing.DocumentIndex.DocumentIndexEntryÔÏ
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csÓ$ Ó(N'
+%73 Lucene.Net.Documents.StringField" Lucene.Net.Documents.StringFieldÑ
+Å
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csÓ( Ó(3
+%74void"^Lucene.Net.Documents.StringField.StringField(string, string, Lucene.Net.Documents.Field.Store)*)
+'
+%73 Lucene.Net.Documents.StringField*
+
+%72string*
+NULL*+
+)
+store Lucene.Net.Documents.Field.Store…
+∆
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csÓ Ó(O
+%75void"CLucene.Net.Documents.Document.Add(Lucene.Net.Index.IIndexableField)*&
+$
+docLucene.Net.Documents.Document*)
+'
+%73 Lucene.Net.Documents.StringField*
+27*™
+27û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csé	 é(	*
+1*Æ
+24û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs¬ ¬("*
+28
+1*Â
+28û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csÛ Û(/∂
+≥
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csÛ Û('
+%76object"?OrchardCore.Indexing.DocumentIndex.DocumentIndexEntry.Value.get*@
+>
+entry5OrchardCore.Indexing.DocumentIndex.DocumentIndexEntry˙
+˜
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csÛ Û(/
+%77bool""object.operator !=(object, object)*
+"
+object*
+
+%76object*
+""*
+29
+30*’
+29û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csÛ3 Û(e∂
+≥
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csÛZ Û(e
+%78object"?OrchardCore.Indexing.DocumentIndex.DocumentIndexEntry.Value.get*@
+>
+entry5OrchardCore.Indexing.DocumentIndex.DocumentIndexEntry˙
+˜
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csÛI Û(f
+%79string" System.Convert.ToString(object?)*"
+System.Convert*
+
+%78objectÌ
+Í
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csÛ4 Û(g
+%80bool"string.IsNullOrEmpty(string?)*
+"
+string*
+
+%79string*
+31
+30*‹
+31û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csı  ı(R€
+ÿ
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csı  ı(-0
+%81)OrchardCore.Indexing.DocumentIndexOptions"AOrchardCore.Indexing.DocumentIndex.DocumentIndexEntry.Options.get*@
+>
+entry5OrchardCore.Indexing.DocumentIndex.DocumentIndexEntryπ
+∂
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csı6 ı(R
+%82"__id*
+""ê
+ç
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csı  ı(S
+%83bool" System.Enum.HasFlag(System.Enum)*2
+0
+%81)OrchardCore.Indexing.DocumentIndexOptions*
+
+%82*
+32
+33*Ÿ
+32û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs˜  ˜(fµ
+≤
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs˜6 ˜(@
+%84string">OrchardCore.Indexing.DocumentIndex.DocumentIndexEntry.Name.get*@
+>
+entry5OrchardCore.Indexing.DocumentIndex.DocumentIndexEntry∂
+≥
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs˜S ˜(^
+%85object"?OrchardCore.Indexing.DocumentIndex.DocumentIndexEntry.Value.get*@
+>
+entry5OrchardCore.Indexing.DocumentIndex.DocumentIndexEntry˙
+˜
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs˜B ˜(_
+%86string" System.Convert.ToString(object?)*"
+System.Convert*
+
+%85objectÎË
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs˜( ˜(g%
+%87Lucene.Net.Documents.TextField"Lucene.Net.Documents.TextFieldÖ
+Ç
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs˜, ˜(5
+%88void"ZLucene.Net.Documents.TextField.TextField(string, string, Lucene.Net.Documents.Field.Store)*'
+%
+%87Lucene.Net.Documents.TextField*
+
+%84string*
+
+%86string*+
+)
+store Lucene.Net.Documents.Field.Store«
+ƒ
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs˜  ˜(h
+%89void"CLucene.Net.Documents.Document.Add(Lucene.Net.Index.IIndexableField)*&
+$
+docLucene.Net.Documents.Document*'
+%
+%87Lucene.Net.Documents.TextField*
+34*Â
+33û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs˚  ˚(hµ
+≤
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs˚8 ˚(B
+%90string">OrchardCore.Indexing.DocumentIndex.DocumentIndexEntry.Name.get*@
+>
+entry5OrchardCore.Indexing.DocumentIndex.DocumentIndexEntry∂
+≥
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs˚U ˚(`
+%91object"?OrchardCore.Indexing.DocumentIndex.DocumentIndexEntry.Value.get*@
+>
+entry5OrchardCore.Indexing.DocumentIndex.DocumentIndexEntry˙
+˜
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs˚D ˚(a
+%92string" System.Convert.ToString(object?)*"
+System.Convert*
+
+%91objectÔÏ
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs˚( ˚(i'
+%93 Lucene.Net.Documents.StringField" Lucene.Net.Documents.StringFieldã
+à
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs˚, ˚(7
+%94void"^Lucene.Net.Documents.StringField.StringField(string, string, Lucene.Net.Documents.Field.Store)*)
+'
+%93 Lucene.Net.Documents.StringField*
+
+%90string*
+
+%92string*+
+)
+store Lucene.Net.Documents.Field.Store…
+∆
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs˚  ˚(j
+%95void"CLucene.Net.Documents.Document.Add(Lucene.Net.Index.IIndexableField)*&
+$
+docLucene.Net.Documents.Document*)
+'
+%93 Lucene.Net.Documents.StringField*
+34*‹
+30û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csÄ  Ä(R€
+ÿ
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csÄ  Ä(-0
+%96)OrchardCore.Indexing.DocumentIndexOptions"AOrchardCore.Indexing.DocumentIndex.DocumentIndexEntry.Options.get*@
+>
+entry5OrchardCore.Indexing.DocumentIndex.DocumentIndexEntryπ
+∂
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csÄ6 Ä(R
+%97"__id*
+""ê
+ç
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csÄ  Ä(S
+%98bool" System.Enum.HasFlag(System.Enum)*2
+0
+%96)OrchardCore.Indexing.DocumentIndexOptions*
+
+%97*
+35
+36*°
+35û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csÇ  Ç(Oµ
+≤
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csÇ6 Ç(@
+%99string">OrchardCore.Indexing.DocumentIndex.DocumentIndexEntry.Name.get*@
+>
+entry5OrchardCore.Indexing.DocumentIndex.DocumentIndexEntryÏÈ
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csÇ( Ç(P&
+%100Lucene.Net.Documents.TextField"Lucene.Net.Documents.TextFieldÄ
+˝
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csÇ, Ç(5
+%101void"ZLucene.Net.Documents.TextField.TextField(string, string, Lucene.Net.Documents.Field.Store)*(
+&
+%100Lucene.Net.Documents.TextField*
+
+%99string*
+NULL*+
+)
+store Lucene.Net.Documents.Field.Store…
+∆
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csÇ  Ç(Q
+%102void"CLucene.Net.Documents.Document.Add(Lucene.Net.Index.IIndexableField)*&
+$
+docLucene.Net.Documents.Document*(
+&
+%100Lucene.Net.Documents.TextField*
+34*Ø
+36û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csÜ  Ü(Q∂
+≥
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csÜ8 Ü(B
+%103string">OrchardCore.Indexing.DocumentIndex.DocumentIndexEntry.Name.get*@
+>
+entry5OrchardCore.Indexing.DocumentIndex.DocumentIndexEntryÌ
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csÜ( Ü(R(
+%104 Lucene.Net.Documents.StringField" Lucene.Net.Documents.StringFieldá
+Ñ
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csÜ, Ü(7
+%105void"^Lucene.Net.Documents.StringField.StringField(string, string, Lucene.Net.Documents.Field.Store)**
+(
+%104 Lucene.Net.Documents.StringField*
+
+%103string*
+NULL*+
+)
+store Lucene.Net.Documents.Field.StoreÀ
+»
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csÜ  Ü(S
+%106void"CLucene.Net.Documents.Document.Add(Lucene.Net.Index.IIndexableField)*&
+$
+docLucene.Net.Documents.Document**
+(
+%104 Lucene.Net.Documents.StringField*
+34*™
+34û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csé	 é(	*
+1*
+3û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csç ç("…
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csç ç(&
+$
+docLucene.Net.Documents.Document*ﬁ
+37û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csé	 é(	"∂
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csé é(	
+implicit return:3
+documentIndex"OrchardCore.Indexing.DocumentIndexB)'
+%OrchardCore.Lucene.LuceneIndexManager

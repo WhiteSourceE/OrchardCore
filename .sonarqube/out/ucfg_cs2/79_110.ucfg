@@ -1,0 +1,185 @@
+
+|OrchardCore.Documents.DocumentManager<TDocument>.UpdateAsync(TDocument, System.Func<TDocument, System.Threading.Tasks.Task>)ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.csg g("0*œ
+0ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.csi i(Uÿ
+’
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.csi i(6
+%00Microsoft.Extensions.Caching.Memory.IMemoryCache"__id*x*v2
+0OrchardCore.Documents.DocumentManager<TDocument>"@
+_memoryCache0Microsoft.Extensions.Caching.Memory.IMemoryCacheŒ
+À
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.csi4 i(<3
+%1-OrchardCore.Documents.Options.DocumentOptions"__id*q*o2
+0OrchardCore.Documents.DocumentManager<TDocument>"9
+_options-OrchardCore.Documents.Options.DocumentOptions°
+û
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.csi4 i(E
+%2string":OrchardCore.Documents.Options.DocumentOptions.CacheKey.get*5
+3
+%1-OrchardCore.Documents.Options.DocumentOptions‘
+—
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.csi i(V
+
+%3bool"ãMicrosoft.Extensions.Caching.Memory.CacheExtensions.TryGetValue<TItem>(Microsoft.Extensions.Caching.Memory.IMemoryCache, object, out TItem)*7"5
+3Microsoft.Extensions.Caching.Memory.CacheExtensions*8
+6
+%00Microsoft.Extensions.Caching.Memory.IMemoryCache*
+
+%2string*
+
+cached	TDocument*
+1
+2*∑
+1ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.csiZ i(lå
+â
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.csiZ i(l
+
+%4bool""object.operator ==(object, object)*
+"
+object*
+
+document	TDocument*
+
+cached	TDocument*
+3
+2*“
+3ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.csk k(RÍÁ
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.csk k(S&
+%5 System.InvalidOperationException" System.InvalidOperationExceptionΩ
+∫
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.csk k(3
+
+%6void"CSystem.InvalidOperationException.InvalidOperationException(string?)*(
+&
+%5 System.InvalidOperationException* 
+Can't update a cached object*
+4*∑
+2ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.csn n(åâ
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.csn n(
+%7string"3OrchardCore.Data.Documents.IDocument.Identifier.get*
+
+document	TDocument2Identifier.get*
+5
+6*ô
+5ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.csn$ n(<Ò
+Ó
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.csn$ n(<
+%8string"$OrchardCore.IdGenerator.GenerateId()*"
+OrchardCore.IdGenerator*
+6*€
+6ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.csn p(ÿ
+’
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.csn n(<
+%9string"__concat*
+
+%7string*
+
+%8stringùö
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.csn n(<
+%10string"3OrchardCore.Data.Documents.IDocument.Identifier.set*
+
+document	TDocument*
+
+%9string2Identifier.setµ
+≤
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.csp p(
+%11"__id*
+""*
+7
+8*é
+7ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.csr {(/Õ
+ 
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.csr r(%0
+%12)OrchardCore.Data.Documents.IDocumentStore"__id*s*q2
+0OrchardCore.Documents.DocumentManager<TDocument>";
+_documentStore)OrchardCore.Data.Documents.IDocumentStoreœ
+Ã
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.cs{ {(4
+%13-OrchardCore.Documents.Options.DocumentOptions"__id*q*o2
+0OrchardCore.Documents.DocumentManager<TDocument>"9
+_options-OrchardCore.Documents.Options.DocumentOptions∑
+¥
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.cs{ {()
+%14System.Nullable<T>"BOrchardCore.Documents.Options.DocumentOptions.CheckConcurrency.get*6
+4
+%13-OrchardCore.Documents.Options.DocumentOptionsË
+Â
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.cs{ {(/
+%15bool"System.Nullable<T>.Value.get*
+
+%14System.Nullable<T>ﬁ€
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.csr {(0"
+%16System.Threading.Tasks.Task"nOrchardCore.Data.Documents.IDocumentStore.UpdateAsync<T>(T, System.Func<T, System.Threading.Tasks.Task>, bool)*2
+0
+%12)OrchardCore.Data.Documents.IDocumentStore*
+
+document	TDocument*
+""*
+
+%15bool2DUpdateAsync<T>(T, System.Func<T, System.Threading.Tasks.Task>, bool)"√
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.csr {(1$
+"
+%16System.Threading.Tasks.Task*≠
+8õ
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.cs å(%í
+è
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.cs (%Q2
+0OrchardCore.Documents.DocumentManager<TDocument>"
+_volatileCache	TDocument"__id*
+
+document	TDocumentœ
+Ã
+ú
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.csÇ Ç(0
+%17)OrchardCore.Data.Documents.IDocumentStore"__id*s*q2
+0OrchardCore.Documents.DocumentManager<TDocument>";
+_documentStore)OrchardCore.Data.Documents.IDocumentStore¡æ
+ú
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.csÇ ä(
+%18void"~OrchardCore.Data.Documents.IDocumentStore.AfterCommitSuccess<T>(OrchardCore.Data.Documents.DocumentStoreCommitSuccessDelegate)*2
+0
+%17)OrchardCore.Data.Documents.IDocumentStore*
+""2TAfterCommitSuccess<T>(OrchardCore.Data.Documents.DocumentStoreCommitSuccessDelegate)ñ
+ì
+ú
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.cså å(%"
+%19System.Threading.Tasks.Task"-System.Threading.Tasks.Task.CompletedTask.get*"
+System.Threading.Tasks.Task"≈
+ú
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.cså å(&$
+"
+%19System.Threading.Tasks.Task*Ÿ
+4ú
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.csç	 ç(	"¥
+ú
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.csç ç(	
+implicit return:
+document	TDocument:+
+afterUpdateAsyncSystem.Func<T, TResult>B42
+0OrchardCore.Documents.DocumentManager<TDocument>

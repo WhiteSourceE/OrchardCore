@@ -1,0 +1,125 @@
+
+©OrchardCore.Localization.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, System.IServiceProvider)Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Localization\Startup.cs) )(&"0*Ü/
+0Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Localization\Startup.cs+ 7(.¸
+µ
+Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Localization\Startup.cs+& +(X3
+%0-OrchardCore.Localization.ILocalizationService"pMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService<T>(System.IServiceProvider)*M"K
+IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*,
+*
+serviceProviderSystem.IServiceProvider—
+”
+Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Localization\Startup.cs+ +(XD
+localizationService-OrchardCore.Localization.ILocalizationService"__id*5
+3
+%0-OrchardCore.Localization.ILocalizationServiceêç
+Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Localization\Startup.cs-! -(M*
+%1$System.Threading.Tasks.Task<TResult>"FOrchardCore.Localization.ILocalizationService.GetDefaultCultureAsync()*F
+D
+localizationService-OrchardCore.Localization.ILocalizationService2GetDefaultCultureAsync()±
+®
+Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Localization\Startup.cs-! -(Z:
+%24System.Runtime.CompilerServices.TaskAwaiter<TResult>"1System.Threading.Tasks.Task<TResult>.GetAwaiter()*,
+*
+%1$System.Threading.Tasks.Task<TResult>¢
+Ÿ
+Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Localization\Startup.cs-! -(f
+%3string"@System.Runtime.CompilerServices.TaskAwaiter<TResult>.GetResult()*<
+:
+%24System.Runtime.CompilerServices.TaskAwaiter<TResult>Ä
+Á
+Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Localization\Startup.cs- -(f
+defaultCulturestring"__id*
+
+%3stringðí
+Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Localization\Startup.cs.$ .(S*
+%4$System.Threading.Tasks.Task<TResult>"IOrchardCore.Localization.ILocalizationService.GetSupportedCulturesAsync()*F
+D
+localizationService-OrchardCore.Localization.ILocalizationService2GetSupportedCulturesAsync()±
+®
+Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Localization\Startup.cs.$ .(`:
+%54System.Runtime.CompilerServices.TaskAwaiter<TResult>"1System.Threading.Tasks.Task<TResult>.GetAwaiter()*,
+*
+%4$System.Threading.Tasks.Task<TResult>¤
+¡
+Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Localization\Startup.cs.$ .(l
+%6string[]"@System.Runtime.CompilerServices.TaskAwaiter<TResult>.GetResult()*<
+:
+%54System.Runtime.CompilerServices.TaskAwaiter<TResult>Ë
+È
+Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Localization\Startup.cs. .(l
+supportedCulturesstring[]"__id*
+
+%6string[]º
+·
+Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Localization\Startup.cs0 0(\5
+%7/Microsoft.Extensions.Options.IOptions<TOptions>"pMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService<T>(System.IServiceProvider)*M"K
+IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*,
+*
+serviceProviderSystem.IServiceProviderÒÏ
+Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Localization\Startup.cs0 0(b=
+%87Microsoft.AspNetCore.Builder.RequestLocalizationOptions"9Microsoft.Extensions.Options.IOptions<TOptions>.Value.get*7
+5
+%7/Microsoft.Extensions.Options.IOptions<TOptions>2	Value.getŸ
+œ
+Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Localization\Startup.cs0 0(bB
+options7Microsoft.AspNetCore.Builder.RequestLocalizationOptions"__id*?
+=
+%87Microsoft.AspNetCore.Builder.RequestLocalizationOptionsˆ
+…
+Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Localization\Startup.cs1 1(5=
+%97Microsoft.AspNetCore.Builder.RequestLocalizationOptions"QMicrosoft.AspNetCore.Builder.RequestLocalizationOptions.SetDefaultCulture(string)*D
+B
+options7Microsoft.AspNetCore.Builder.RequestLocalizationOptions*
+
+defaultCulturestringš
+—
+Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Localization\Startup.cs2 3(8>
+%107Microsoft.AspNetCore.Builder.RequestLocalizationOptions"]Microsoft.AspNetCore.Builder.RequestLocalizationOptions.AddSupportedCultures(params string[])*D
+B
+options7Microsoft.AspNetCore.Builder.RequestLocalizationOptions*
+
+supportedCulturesstring[]˜
+•
+Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Localization\Startup.cs2 4(:>
+%117Microsoft.AspNetCore.Builder.RequestLocalizationOptions"_Microsoft.AspNetCore.Builder.RequestLocalizationOptions.AddSupportedUICultures(params string[])*@
+>
+%107Microsoft.AspNetCore.Builder.RequestLocalizationOptions*
+
+supportedCulturesstring[]Ë
+È
+Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Localization\Startup.cs7 7(/7
+%120Microsoft.AspNetCore.Builder.IApplicationBuilder"»Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseRequestLocalization(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Builder.RequestLocalizationOptions)*=";
+9Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions*9
+7
+app0Microsoft.AspNetCore.Builder.IApplicationBuilder*D
+B
+options7Microsoft.AspNetCore.Builder.RequestLocalizationOptions*
+1*½
+1Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Localization\Startup.cs8	 8(	"¦
+Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Localization\Startup.cs8 8(	
+implicit return:7
+app0Microsoft.AspNetCore.Builder.IApplicationBuilder:<
+routes2Microsoft.AspNetCore.Routing.IEndpointRouteBuilder:*
+serviceProviderSystem.IServiceProviderB$"
+ OrchardCore.Localization.Startup

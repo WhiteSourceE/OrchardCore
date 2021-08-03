@@ -1,0 +1,155 @@
+
+=OrchardCore.AdminMenu.Controllers.NodeController.List(string)û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs1) 1(-"6*∆
+0û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs3 3(]˜
+Ù
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs3 3(,>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*ä*á2
+0OrchardCore.AdminMenu.Controllers.NodeController"Q
+_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationService±
+Æ
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs3< 3(@,
+%1&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase∆
+√
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs3B 3(]1
+%2+OrchardCore.Security.Permissions.Permission"__id*g*e#
+!OrchardCore.AdminMenu.Permissions">
+ManageAdminMenu+OrchardCore.Security.Permissions.Permission†
+ù
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs3 3(^*
+%3$System.Threading.Tasks.Task<TResult>"ﬂMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission)*E"C
+AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*@
+>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService*.
+,
+%1&System.Security.Claims.ClaimsPrincipal*3
+1
+%2+OrchardCore.Security.Permissions.Permission*
+1
+2*¥
+1û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs5 5(∫∑
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs5 5(+
+%4%Microsoft.AspNetCore.Mvc.ForbidResult"0Microsoft.AspNetCore.Mvc.ControllerBase.Forbid()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2Forbid()"–
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs5 5( -
++
+%4%Microsoft.AspNetCore.Mvc.ForbidResult*•
+2û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs8 ;(!·
+ﬁ
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs8& 8(76
+%50OrchardCore.AdminMenu.Services.IAdminMenuService"__id*}*{2
+0OrchardCore.AdminMenu.Controllers.NodeController"E
+_adminMenuService0OrchardCore.AdminMenu.Services.IAdminMenuServiceÌÍ
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs8& 8(O*
+%6$System.Threading.Tasks.Task<TResult>"HOrchardCore.AdminMenu.Services.IAdminMenuService.GetAdminMenuListAsync()*8
+6
+%50OrchardCore.AdminMenu.Services.IAdminMenuService2GetAdminMenuListAsync()Ô
+Ï
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs8 8(O;
+adminMenuList*OrchardCore.AdminMenu.Models.AdminMenuList"__id*
+""·
+ﬁ
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs9 9(-6
+%70OrchardCore.AdminMenu.Services.IAdminMenuService"__id*}*{2
+0OrchardCore.AdminMenu.Controllers.NodeController"E
+_adminMenuService0OrchardCore.AdminMenu.Services.IAdminMenuServiceòï
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs9 9(Q,
+%8&OrchardCore.AdminMenu.Models.AdminMenu"uOrchardCore.AdminMenu.Services.IAdminMenuService.GetAdminMenuById(OrchardCore.AdminMenu.Models.AdminMenuList, string)*8
+6
+%70OrchardCore.AdminMenu.Services.IAdminMenuService*=
+;
+adminMenuList*OrchardCore.AdminMenu.Models.AdminMenuList*
+
+idstring2DGetAdminMenuById(OrchardCore.AdminMenu.Models.AdminMenuList, string)è
+å
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs9 9(Q3
+	adminMenu&OrchardCore.AdminMenu.Models.AdminMenu"__id*.
+,
+%8&OrchardCore.AdminMenu.Models.AdminMenuü
+ú
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs; ;(!
+
+%9bool""object.operator ==(object, object)*
+"
+object*5
+3
+	adminMenu&OrchardCore.AdminMenu.Models.AdminMenu*
+""*
+3
+4*æ
+3û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs= =(!¡æ
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs= =(!.
+%10'Microsoft.AspNetCore.Mvc.NotFoundResult"2Microsoft.AspNetCore.Mvc.ControllerBase.NotFound()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2
+NotFound()"”
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs= =("0
+.
+%10'Microsoft.AspNetCore.Mvc.NotFoundResult*©	
+4û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs@ @(=Æ
+´
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs@ @(>+
+%11$System.Threading.Tasks.Task<TResult>"nOrchardCore.AdminMenu.Controllers.NodeController.BuildDisplayViewModel(OrchardCore.AdminMenu.Models.AdminMenu)*42
+0OrchardCore.AdminMenu.Controllers.NodeController*5
+3
+	adminMenu&OrchardCore.AdminMenu.Models.AdminMenuû
+õ
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs@ @(?
+%12void"%orchardcore.adminmenu/views/node/list*
+
+%13*
+""*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject* 
+
+%HttpContextItemsAllobject*!
+
+%HttpContextItemsHtmlobject"∞
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs@ @(@
+
+%12void*›
+5û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.csA	 A(	"∂
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.csA A(	
+implicit return*ı
+6û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs18 1(8…
+∆
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs1) 1(-
+%14"__entrypoint*
+
+idstring*
+0:
+idstringB42
+0OrchardCore.AdminMenu.Controllers.NodeController

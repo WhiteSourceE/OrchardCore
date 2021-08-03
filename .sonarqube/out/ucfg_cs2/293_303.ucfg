@@ -1,0 +1,172 @@
+
+cOrchardCore.Modules.HttpContextExtensions.SetBaseUrl(Microsoft.AspNetCore.Http.HttpContext, string)”
+‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.csÍ Í(%"0*þ
+0”
+‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.csÏ Ï(D®
+«
+”
+‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.csÏ' Ï(7
+%0"__id*
+""¨
+¥
+”
+‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.csÏ Ï(E
+
+%1bool">System.Uri.TryCreate(string?, System.UriKind, out System.Uri?)*"
+
+System.Uri*
+
+baseUrlstring*
+
+%0*
+
+uri
+System.Uri*
+1
+2*§
+1”
+‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.csÑ Õ(8®
+«
+”
+‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.csÑ Ñ(+
+%2%Microsoft.AspNetCore.Http.HttpRequest"1Microsoft.AspNetCore.Http.HttpContext.Request.get*2
+0
+context%Microsoft.AspNetCore.Http.HttpContextÔ
+Ñ
+”
+‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.csÑ) Ñ(3
+%3string"System.Uri.Scheme.get*
+
+uri
+System.Uri™
+–
+”
+‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.csÑ Ñ(3
+%4string"0Microsoft.AspNetCore.Http.HttpRequest.Scheme.set*-
++
+%2%Microsoft.AspNetCore.Http.HttpRequest*
+
+%3string®
+«
+”
+‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.csÒ Ò(+
+%5%Microsoft.AspNetCore.Http.HttpRequest"1Microsoft.AspNetCore.Http.HttpContext.Request.get*2
+0
+context%Microsoft.AspNetCore.Http.HttpContextÒ
+Ï
+”
+‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.csÒ6 Ò(>
+%6string"System.Uri.Host.get*
+
+uri
+System.UriÏ
+Ì
+”
+‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.csÒ@ Ò(H	
+%7int"System.Uri.Port.get*
+
+uri
+System.Uriìé
+”
+‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.csÒ' Ò(I*
+%8$Microsoft.AspNetCore.Http.HostString"$Microsoft.AspNetCore.Http.HostString¯
+¬
+”
+‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.csÒ+ Ò(5
+
+%9void"<Microsoft.AspNetCore.Http.HostString.HostString(string, int)*,
+*
+%8$Microsoft.AspNetCore.Http.HostString*
+
+%6string*
+	
+%7intÔ
+Ñ
+”
+‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.csÒ Ò(I+
+%10$Microsoft.AspNetCore.Http.HostString".Microsoft.AspNetCore.Http.HttpRequest.Host.set*-
++
+%5%Microsoft.AspNetCore.Http.HttpRequest*,
+*
+%8$Microsoft.AspNetCore.Http.HostString¯
+¬
+”
+‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.csÓ Ó(,
+%11%Microsoft.AspNetCore.Http.HttpRequest"1Microsoft.AspNetCore.Http.HttpContext.Request.get*2
+0
+context%Microsoft.AspNetCore.Http.HttpContextÛ
+Ø
+”
+‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.csÓ+ Ó(;
+%12string"System.Uri.AbsolutePath.get*
+
+uri
+System.Uri¼
+¹
+”
+‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.csÓ Ó(;+
+%13$Microsoft.AspNetCore.Http.PathString"2Microsoft.AspNetCore.Http.HttpRequest.PathBase.set*.
+,
+%11%Microsoft.AspNetCore.Http.HttpRequest*
+
+%12stringÔ
+Ñ
+”
+‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.csÕ/ Õ(8
+%14string"System.Uri.Query.get*
+
+uri
+System.Uriè
+å
+”
+‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.csÕ Õ(9
+%15bool""string.IsNullOrWhiteSpace(string?)*
+"
+string*
+
+%14string*
+3
+2*£
+3”
+‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.cs× ×(K¯
+¬
+”
+‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.cs× ×(#,
+%16%Microsoft.AspNetCore.Http.HttpRequest"1Microsoft.AspNetCore.Http.HttpContext.Request.get*2
+0
+context%Microsoft.AspNetCore.Http.HttpContextÔ
+Ñ
+”
+‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.cs×B ×(K
+%17string"System.Uri.Query.get*
+
+uri
+System.Uriïì
+”
+‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.cs×2 ×(L,
+%18%Microsoft.AspNetCore.Http.QueryString"%Microsoft.AspNetCore.Http.QueryString¤
+¡
+”
+‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.cs×6 ×(A
+%19void":Microsoft.AspNetCore.Http.QueryString.QueryString(string?)*.
+,
+%18%Microsoft.AspNetCore.Http.QueryString*
+
+%17stringß
+Ü
+”
+‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.cs× ×(L,
+%20%Microsoft.AspNetCore.Http.QueryString"5Microsoft.AspNetCore.Http.HttpRequest.QueryString.set*.
+,
+%16%Microsoft.AspNetCore.Http.HttpRequest*.
+,
+%18%Microsoft.AspNetCore.Http.QueryString*
+2*É
+2”
+‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.csÚ	 Ú(	"¬
+”
+‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.csÚ Ú(	
+implicit return:0
+context%Microsoft.AspNetCore.Http.HttpContext:
+baseUrlstringB-"+
+)OrchardCore.Modules.HttpContextExtensions

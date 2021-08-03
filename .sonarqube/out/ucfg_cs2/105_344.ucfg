@@ -1,0 +1,203 @@
+
+qOrchardCore.Environment.Shell.ShellHost.GetOrCreateShellContextAsync(OrchardCore.Environment.Shell.ShellSettings)Ä
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.csM( M(D"0*‡
+0Ä
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.csO O(%“
+œ
+Ä
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.csO O(%<
+shell3OrchardCore.Environment.Shell.Builders.ShellContext"__id*
+""*
+1*õ
+1Ä
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.csQ Q( ä
+á
+Ä
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.csQ Q( 
+
+%0bool""object.operator ==(object, object)*
+"
+object*>
+<
+shell3OrchardCore.Environment.Shell.Builders.ShellContext*
+""*
+2
+3*Ä	
+2Ä
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.csS S(Hÿ
+’
+Ä
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.csS S(#F
+%1@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>"__id*Å*)
+'OrchardCore.Environment.Shell.ShellHost"R
+_shellContexts@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>Ö
+Ç
+Ä
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.csS0 S(=
+%2string"4OrchardCore.Environment.Shell.ShellSettings.Name.get*9
+7
+settings+OrchardCore.Environment.Shell.ShellSettingså
+â
+Ä
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.csS S(I
+
+%3bool"^System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>.TryGetValue(TKey, out TValue)*H
+F
+%1@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>*
+
+%2string*>
+<
+shell3OrchardCore.Environment.Shell.Builders.ShellContext*
+4
+5*Ÿ
+4Ä
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.csU W(/€
+ÿ
+Ä
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.csU$ U(4F
+%4@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>"__id*Ñ*Å)
+'OrchardCore.Environment.Shell.ShellHost"T
+_shellSemaphores@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>Ö
+Ç
+Ä
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.csU> U(K
+%5string"4OrchardCore.Environment.Shell.ShellSettings.Name.get*9
+7
+settings+OrchardCore.Environment.Shell.ShellSettings˙
+˜
+Ä
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.csU$ U(l$
+%6System.Threading.SemaphoreSlim"jSystem.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>.GetOrAdd(TKey, System.Func<TKey, TValue>)*H
+F
+%4@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>*
+
+%5string*
+""·
+ﬁ
+Ä
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.csU U(l+
+	semaphoreSystem.Threading.SemaphoreSlim"__id*&
+$
+%6System.Threading.SemaphoreSlimÑ
+Å
+Ä
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.csW W(/!
+%7System.Threading.Tasks.Task"*System.Threading.SemaphoreSlim.WaitAsync()*-
++
+	semaphoreSystem.Threading.SemaphoreSlim*
+6*Å	
+6Ä
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.cs[ [(Pÿ
+’
+Ä
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.cs[ [(+F
+%8@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>"__id*Å*)
+'OrchardCore.Environment.Shell.ShellHost"R
+_shellContexts@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>Ö
+Ç
+Ä
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.cs[8 [(E
+%9string"4OrchardCore.Environment.Shell.ShellSettings.Name.get*9
+7
+settings+OrchardCore.Environment.Shell.ShellSettingsç
+ä
+Ä
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.cs[ [(Q
+%10bool"^System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>.TryGetValue(TKey, out TValue)*H
+F
+%8@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>*
+
+%9string*>
+<
+shell3OrchardCore.Environment.Shell.Builders.ShellContext*
+7
+8*·
+7Ä
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.cs] ^(5â
+Ü
+Ä
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.cs]* ](K+
+%11$System.Threading.Tasks.Task<TResult>"lOrchardCore.Environment.Shell.ShellHost.CreateShellContextAsync(OrchardCore.Environment.Shell.ShellSettings)*+)
+'OrchardCore.Environment.Shell.ShellHost*9
+7
+settings+OrchardCore.Environment.Shell.ShellSettings“
+œ
+Ä
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.cs] ](K<
+shell3OrchardCore.Environment.Shell.Builders.ShellContext"__id*
+""Ú
+Ô
+Ä
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.cs^ ^(6
+%12void"pOrchardCore.Environment.Shell.ShellHost.AddAndRegisterShell(OrchardCore.Environment.Shell.Builders.ShellContext)*+)
+'OrchardCore.Environment.Shell.ShellHost*>
+<
+shell3OrchardCore.Environment.Shell.Builders.ShellContext*
+8*ã
+8Ä
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.csq	 q(	*
+9*˝
+9Ä
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.csc c(+Î
+Ë
+Ä
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.csc c(+
+
+%13int"(System.Threading.SemaphoreSlim.Release()*-
++
+	semaphoreSystem.Threading.SemaphoreSlim*
+5
+10*ß
+5Ä
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.csg g("ï
+í
+Ä
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.csg g("
+%14bool"@OrchardCore.Environment.Shell.Builders.ShellContext.Released.get*>
+<
+shell3OrchardCore.Environment.Shell.Builders.ShellContext*
+11
+1*û
+
+11Ä
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.csk l( Ÿ
+÷
+Ä
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.csk k("G
+%15@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>"__id*Å*)
+'OrchardCore.Environment.Shell.ShellHost"R
+_shellContexts@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>Ü
+É
+Ä
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.csk- k(:
+%16string"4OrchardCore.Environment.Shell.ShellSettings.Name.get*9
+7
+settings+OrchardCore.Environment.Shell.ShellSettings’
+“
+Ä
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.csk k(B
+%17bool"\System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>.TryRemove(TKey, out TValue)*I
+G
+%15@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>*
+
+%16string*
+""“
+œ
+Ä
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.csl l( <
+shell3OrchardCore.Environment.Shell.Builders.ShellContext"__id*
+""*
+1*Ã
+3Ä
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.csp p("√
+Ä
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.csp p(>
+<
+shell3OrchardCore.Environment.Shell.Builders.ShellContext*¢
+10Ä
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.csq	 q(	"ò
+Ä
+vD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellHost.csq q(	
+implicit return:7
+settings+OrchardCore.Environment.Shell.ShellSettingsB+)
+'OrchardCore.Environment.Shell.ShellHost

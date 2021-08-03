@@ -1,0 +1,414 @@
+
+äOrchardCore.Shells.Azure.Configuration.BlobShellsSettingsSources.SaveAsync(string, System.Collections.Generic.IDictionary<string, string>)¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.cs6 6(#"0*ö
+0¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.cs8 <( ˛
+˚
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.cs:! :(18
+%02OrchardCore.Shells.Azure.Services.IShellsFileStore"__id*è*åB
+@OrchardCore.Shells.Azure.Configuration.BlobShellsSettingsSources"F
+_shellsFileStore2OrchardCore.Shells.Azure.Services.IShellsFileStore¿
+Ω
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.cs:C :(S
+%1"__id*
+""ÉÄ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.cs:! :(T*
+%2$System.Threading.Tasks.Task<TResult>"KOrchardCore.Shells.Azure.Services.IShellsFileStore.GetFileInfoAsync(string)*:
+8
+%02OrchardCore.Shells.Azure.Services.IShellsFileStore*
+
+%12GetFileInfoAsync(string)Ô
+Ï
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.cs: :(T3
+fileInfo'OrchardCore.FileStorage.IFileStoreEntry"__id*
+""ß
+§
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.cs< <( 
+
+%3bool""object.operator !=(object, object)*
+"
+object*5
+3
+fileInfo'OrchardCore.FileStorage.IFileStoreEntry*
+""*
+1
+2*ÿ
+
+1¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.cs> >(^˛
+˚
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.cs>* >(:8
+%42OrchardCore.Shells.Azure.Services.IShellsFileStore"__id*è*åB
+@OrchardCore.Shells.Azure.Configuration.BlobShellsSettingsSources"F
+_shellsFileStore2OrchardCore.Shells.Azure.Services.IShellsFileStore¿
+Ω
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.cs>N >(^
+%5"__id*
+""áÑ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.cs>* >(_*
+%6$System.Threading.Tasks.Task<TResult>"MOrchardCore.Shells.Azure.Services.IShellsFileStore.GetFileStreamAsync(string)*:
+8
+%42OrchardCore.Shells.Azure.Services.IShellsFileStore*
+
+%52GetFileStreamAsync(string)÷
+”
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.cs> >(_
+streamSystem.IO.Stream"__id*
+""*
+3*√
+3¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.cs@ @(E‚ﬂ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.cs@. @(F
+%7System.IO.StreamReader"System.IO.StreamReader≠
+™
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.cs@2 @(>
+
+%8void"5System.IO.StreamReader.StreamReader(System.IO.Stream)*
+
+%7System.IO.StreamReader*
+
+streamSystem.IO.Stream˙
+˜
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.cs@ @(F&
+streamReaderSystem.IO.StreamReader"__id*
+
+%7System.IO.StreamReader*
+4*Ä
+4¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.csB# B(KÚÔ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.csB, B(L$
+%9Newtonsoft.Json.JsonTextReader"Newtonsoft.Json.JsonTextReader–
+Õ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.csB0 B(>
+%10void"CNewtonsoft.Json.JsonTextReader.JsonTextReader(System.IO.TextReader)*&
+$
+%9Newtonsoft.Json.JsonTextReader*(
+&
+streamReaderSystem.IO.StreamReaderÑ
+Å
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.csB# B(L(
+readerNewtonsoft.Json.JsonTextReader"__id*&
+$
+%9Newtonsoft.Json.JsonTextReader*
+5*π
+5¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.csD D(Ló
+î
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.csD4 D(M+
+%11$System.Threading.Tasks.Task<TResult>"fNewtonsoft.Json.Linq.JObject.LoadAsync(Newtonsoft.Json.JsonReader, System.Threading.CancellationToken)* "
+Newtonsoft.Json.Linq.JObject**
+(
+readerNewtonsoft.Json.JsonTextReader*
+""Î
+Ë
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.csD D(M/
+tenantsSettingsNewtonsoft.Json.Linq.JObject"__id*
+""*
+6*±
+6¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.csk	 k(	*
+7*±
+7¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.csk	 k(	*
+8*ª
+2¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.csK K(/ÔÏ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.csK" K(/#
+%12Newtonsoft.Json.Linq.JObject"Newtonsoft.Json.Linq.JObjectà
+Ö
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.csK& K(-
+%13void"&Newtonsoft.Json.Linq.JObject.JObject()*%
+#
+%12Newtonsoft.Json.Linq.JObjectä
+á
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.csK K(//
+tenantsSettingsNewtonsoft.Json.Linq.JObject"__id*%
+#
+%12Newtonsoft.Json.Linq.JObject*
+8*ˇ	
+8¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.csN N(:«
+ƒ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.csN N(;"
+%17Newtonsoft.Json.Linq.JToken".Newtonsoft.Json.Linq.JObject.GetValue(string?)*1
+/
+tenantsSettingsNewtonsoft.Json.Linq.JObject*
+
+tenantstring¸
+˘
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.csN N(F"
+%18Newtonsoft.Json.Linq.JToken"__id*$
+"
+%17Newtonsoft.Json.Linq.JToken˝
+˙
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.csN N(F#
+%15Newtonsoft.Json.Linq.JObject"__id*$
+"
+%18Newtonsoft.Json.Linq.JToken˛
+˚
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.csN N(F#
+%14Newtonsoft.Json.Linq.JObject"__id*%
+#
+%15Newtonsoft.Json.Linq.JObject*
+9
+10*±	
+9¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.csNJ N(WÔÏ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.csNJ N(W#
+%19Newtonsoft.Json.Linq.JObject"Newtonsoft.Json.Linq.JObjectà
+Ö
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.csNN N(U
+%20void"&Newtonsoft.Json.Linq.JObject.JObject()*%
+#
+%19Newtonsoft.Json.Linq.JObject˛
+˚
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.csNJ N(W#
+%16Newtonsoft.Json.Linq.JObject"__id*%
+#
+%19Newtonsoft.Json.Linq.JObject˛
+˚
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.csNJ N(W#
+%14Newtonsoft.Json.Linq.JObject"__id*%
+#
+%16Newtonsoft.Json.Linq.JObject*
+10*£
+10¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.csN P()É
+Ä
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.csN N(W(
+settingsNewtonsoft.Json.Linq.JObject"__id*%
+#
+%14Newtonsoft.Json.Linq.JObjectÁ‰
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.csP  P()0
+%21)System.Collections.Generic.ICollection<T>"=System.Collections.Generic.IDictionary<TKey, TValue>.Keys.get*>
+<
+data4System.Collections.Generic.IDictionary<TKey, TValue>2Keys.get*
+11*∑
+11¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.csk	 k(	*
+12
+13*’
+12¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.csR R(%ñ
+ì
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.csR R(
+%22string"__mapGet*>
+<
+data4System.Collections.Generic.IDictionary<TKey, TValue>*
+
+keystringÇ
+ˇ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.csR R(%
+%23bool""string.operator !=(string, string)*
+"
+string*
+
+%22string*
+""*
+14
+15*⁄
+14¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.csT T(,ñ
+ì
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.csT$ T(-
+%24string"__mapGet*>
+<
+data4System.Collections.Generic.IDictionary<TKey, TValue>*
+
+keystringã
+à
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.csT T(-
+%25"__mapSet**
+(
+settingsNewtonsoft.Json.Linq.JObject*
+
+keystring*
+
+%24string*
+11*π
+15¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.csX X('É
+Ä
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.csX X((
+%26bool"__mapRemove**
+(
+settingsNewtonsoft.Json.Linq.JObject*
+
+keystring*
+11*Œ	
+13¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.cs\ ^(8∞
+≠
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.cs\ \(.
+%27"__mapSet*1
+/
+tenantsSettingsNewtonsoft.Json.Linq.JObject*
+
+tenantstring**
+(
+settingsNewtonsoft.Json.Linq.JObject„‡
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.cs^& ^(8
+%28System.IO.MemoryStream"System.IO.MemoryStreamÅ
+˛
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.cs^* ^(6
+%29void"%System.IO.MemoryStream.MemoryStream()*
+
+%28System.IO.MemoryStream˚
+¯
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.cs^ ^(8&
+memoryStreamSystem.IO.MemoryStream"__id*
+
+%28System.IO.MemoryStream*
+16*’
+16¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.cs` `(G„‡
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.cs`* `(H
+%30System.IO.StreamWriter"System.IO.StreamWriterª
+∏
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.cs`. `(:
+%31void"5System.IO.StreamWriter.StreamWriter(System.IO.Stream)*
+
+%30System.IO.StreamWriter*(
+&
+memoryStreamSystem.IO.MemoryStream˚
+¯
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.cs` `(H&
+streamWriterSystem.IO.StreamWriter"__id*
+
+%30System.IO.StreamWriter*
+17*¸
+17¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.csb b(oÛ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.csb, b(q%
+%32Newtonsoft.Json.JsonTextWriter"Newtonsoft.Json.JsonTextWriter—
+Œ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.csb0 b(>
+%33void"CNewtonsoft.Json.JsonTextWriter.JsonTextWriter(System.IO.TextWriter)*'
+%
+%32Newtonsoft.Json.JsonTextWriter*(
+&
+streamWriterSystem.IO.StreamWriter¡
+æ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.csb\ b(o
+%34"__id*
+""¨
+©
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.csbO b(o!
+%35Newtonsoft.Json.Formatting")Newtonsoft.Json.JsonWriter.Formatting.set*'
+%
+%32Newtonsoft.Json.JsonTextWriter*
+
+%34â
+Ü
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.csb b(q,
+
+jsonWriterNewtonsoft.Json.JsonTextWriter"__id*'
+%
+%32Newtonsoft.Json.JsonTextWriter*
+18*µ
+18¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.csd g(g©
+¶
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.csd d(F"
+%36System.Threading.Tasks.Task"lNewtonsoft.Json.Linq.JToken.WriteToAsync(Newtonsoft.Json.JsonWriter, params Newtonsoft.Json.JsonConverter[])*1
+/
+tenantsSettingsNewtonsoft.Json.Linq.JObject*.
+,
+
+jsonWriterNewtonsoft.Json.JsonTextWriter*
+""áÑ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.cse e(5"
+%37System.Threading.Tasks.Task"MNewtonsoft.Json.JsonTextWriter.FlushAsync(System.Threading.CancellationToken)*.
+,
+
+jsonWriterNewtonsoft.Json.JsonTextWriter*
+""2.FlushAsync(System.Threading.CancellationToken)öó
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.csf f(1
+%38long"#System.IO.MemoryStream.Position.set*(
+&
+memoryStreamSystem.IO.MemoryStream*2 2Position.setˇ
+¸
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.csg g(.9
+%392OrchardCore.Shells.Azure.Services.IShellsFileStore"__id*è*åB
+@OrchardCore.Shells.Azure.Configuration.BlobShellsSettingsSources"F
+_shellsFileStore2OrchardCore.Shells.Azure.Services.IShellsFileStore¡
+æ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.csgI g(Y
+%40"__id*
+""Ê„
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.csg g(h+
+%41$System.Threading.Tasks.Task<TResult>"fOrchardCore.Shells.Azure.Services.IShellsFileStore.CreateFileFromStreamAsync(string, System.IO.Stream)*;
+9
+%392OrchardCore.Shells.Azure.Services.IShellsFileStore*
+
+%40*(
+&
+memoryStreamSystem.IO.MemoryStream23CreateFileFromStreamAsync(string, System.IO.Stream)*
+19*≥
+19¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.csk	 k(	*
+20*≥
+20¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.csk	 k(	*
+21*Ó
+21¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.csk	 k(	"æ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.csk k(	
+implicit return:
+tenantstring:<
+data4System.Collections.Generic.IDictionary<TKey, TValue>BDB
+@OrchardCore.Shells.Azure.Configuration.BlobShellsSettingsSources

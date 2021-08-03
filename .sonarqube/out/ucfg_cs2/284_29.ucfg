@@ -1,0 +1,90 @@
+
+¢OrchardCore.Https.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, System.IServiceProvider)†
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Https\Startup.cs (&"0*ÿ
+0†
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Https\Startup.cs (%³
+°
+†
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Https\Startup.cs (M.
+%0(OrchardCore.Https.Services.IHttpsService"xMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<T>(System.IServiceProvider)*M"K
+IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*,
+*
+serviceProviderSystem.IServiceProviderù
+ö
+†
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Https\Startup.cs (M3
+service(OrchardCore.Https.Services.IHttpsService"__id*0
+.
+%0(OrchardCore.Https.Services.IHttpsServiceÀ½
+†
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Https\Startup.cs (5*
+%1$System.Threading.Tasks.Task<TResult>";OrchardCore.Https.Services.IHttpsService.GetSettingsAsync()*5
+3
+service(OrchardCore.Https.Services.IHttpsService2GetSettingsAsync()©
+¦
+†
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Https\Startup.cs (B:
+%24System.Runtime.CompilerServices.TaskAwaiter<TResult>"1System.Threading.Tasks.Task<TResult>.GetAwaiter()*,
+*
+%1$System.Threading.Tasks.Task<TResult>¼
+¹
+†
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Https\Startup.cs (N.
+%3(OrchardCore.Https.Settings.HttpsSettings"@System.Runtime.CompilerServices.TaskAwaiter<TResult>.GetResult()*<
+:
+%24System.Runtime.CompilerServices.TaskAwaiter<TResult>ú
+÷
+†
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Https\Startup.cs (N4
+settings(OrchardCore.Https.Settings.HttpsSettings"__id*0
+.
+%3(OrchardCore.Https.Settings.HttpsSettings‹
+ˆ
+†
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Https\Startup.cs (%
+
+%4bool"9OrchardCore.Https.Settings.HttpsSettings.RequireHttps.get*6
+4
+settings(OrchardCore.Https.Settings.HttpsSettings*
+1
+2*Ó
+1†
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Https\Startup.cs ()¿
+¼
+†
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Https\Startup.cs ()6
+%50Microsoft.AspNetCore.Builder.IApplicationBuilder"Microsoft.AspNetCore.Builder.HttpsPolicyBuilderExtensions.UseHttpsRedirection(Microsoft.AspNetCore.Builder.IApplicationBuilder)*=";
+9Microsoft.AspNetCore.Builder.HttpsPolicyBuilderExtensions*9
+7
+app0Microsoft.AspNetCore.Builder.IApplicationBuilder*
+2*³
+2†
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Https\Startup.cs   (6œ
+™
+†
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Https\Startup.cs   (6
+
+%6bool"JOrchardCore.Https.Settings.HttpsSettings.EnableStrictTransportSecurity.get*6
+4
+settings(OrchardCore.Https.Settings.HttpsSettings*
+3
+4*¹
+3†
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Https\Startup.cs" "(¥
+¢
+†
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Https\Startup.cs" "(6
+%70Microsoft.AspNetCore.Builder.IApplicationBuilder"lMicrosoft.AspNetCore.Builder.HstsBuilderExtensions.UseHsts(Microsoft.AspNetCore.Builder.IApplicationBuilder)*6"4
+2Microsoft.AspNetCore.Builder.HstsBuilderExtensions*9
+7
+app0Microsoft.AspNetCore.Builder.IApplicationBuilder*
+4*­
+4†
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Https\Startup.cs$	 $(	"ž
+†
+|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Https\Startup.cs$ $(	
+implicit return:7
+app0Microsoft.AspNetCore.Builder.IApplicationBuilder:<
+routes2Microsoft.AspNetCore.Routing.IEndpointRouteBuilder:*
+serviceProviderSystem.IServiceProviderB
+OrchardCore.Https.Startup

@@ -1,0 +1,530 @@
+
+éOrchardCore.AdminMenu.Controllers.MenuController.List(OrchardCore.AdminMenu.ViewModels.ContentOptions, OrchardCore.Navigation.PagerParameters)û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cs7) 7(-"9*∆
+0û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cs9 9(]˜
+Ù
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cs9 9(,>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*ä*á2
+0OrchardCore.AdminMenu.Controllers.MenuController"Q
+_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationService±
+Æ
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cs9< 9(@,
+%1&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase∆
+√
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cs9B 9(]1
+%2+OrchardCore.Security.Permissions.Permission"__id*g*e#
+!OrchardCore.AdminMenu.Permissions">
+ManageAdminMenu+OrchardCore.Security.Permissions.Permission†
+ù
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cs9 9(^*
+%3$System.Threading.Tasks.Task<TResult>"ﬂMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission)*E"C
+AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*@
+>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService*.
+,
+%1&System.Security.Claims.ClaimsPrincipal*3
+1
+%2+OrchardCore.Security.Permissions.Permission*
+1
+2*¥
+1û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cs; ;(∫∑
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cs; ;(+
+%4%Microsoft.AspNetCore.Mvc.ForbidResult"0Microsoft.AspNetCore.Mvc.ControllerBase.Forbid()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2Forbid()"–
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cs; ;( -
++
+%4%Microsoft.AspNetCore.Mvc.ForbidResult*Ú
+2û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cs> C(9æ
+ª
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cs>% >(1'
+%5!OrchardCore.Settings.ISiteService"__id*i*g2
+0OrchardCore.AdminMenu.Controllers.MenuController"1
+_siteService!OrchardCore.Settings.ISiteServiceÕ 
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cs>% >(H*
+%6$System.Threading.Tasks.Task<TResult>"8OrchardCore.Settings.ISiteService.GetSiteSettingsAsync()*)
+'
+%5!OrchardCore.Settings.ISiteService2GetSiteSettingsAsync()ﬁ
+€
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cs> >(H*
+siteSettingsOrchardCore.Settings.ISite"__id*
+""îë
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cs?3 ?(H	
+%7int"'OrchardCore.Settings.ISite.PageSize.get*,
+*
+siteSettingsOrchardCore.Settings.ISite2PageSize.getÊ„
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cs? ?(I"
+%8OrchardCore.Navigation.Pager"OrchardCore.Navigation.PagerÒ
+Ó
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cs? ?(!
+
+%9void"OOrchardCore.Navigation.Pager.Pager(OrchardCore.Navigation.PagerParameters, int)*$
+"
+%8OrchardCore.Navigation.Pager*;
+9
+pagerParameters&OrchardCore.Navigation.PagerParameters*
+	
+%7int˜
+Ù
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cs? ?(I%
+pagerOrchardCore.Navigation.Pager"__id*$
+"
+%8OrchardCore.Navigation.Pager‚
+ﬂ
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csA' A(87
+%100OrchardCore.AdminMenu.Services.IAdminMenuService"__id*}*{2
+0OrchardCore.AdminMenu.Controllers.MenuController"E
+_adminMenuService0OrchardCore.AdminMenu.Services.IAdminMenuServiceÔÏ
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csA' A(P+
+%11$System.Threading.Tasks.Task<TResult>"HOrchardCore.AdminMenu.Services.IAdminMenuService.GetAdminMenuListAsync()*9
+7
+%100OrchardCore.AdminMenu.Services.IAdminMenuService2GetAdminMenuListAsync()Á
+‰
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csA A([3
+adminMenuList"System.Collections.Generic.List<T>"__id*
+""≠
+™
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csC+ C(9
+%12string":OrchardCore.AdminMenu.ViewModels.ContentOptions.Search.get*<
+:
+options/OrchardCore.AdminMenu.ViewModels.ContentOptionsÚ
+Ô
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csC C(:
+%13bool""string.IsNullOrWhiteSpace(string?)*
+"
+string*
+
+%12string*
+3
+4*›	
+3û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csE E(|•
+¢
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csE  E(}0
+%14)System.Collections.Generic.IEnumerable<T>"rSystem.Linq.Enumerable.Where<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
+System.Linq.Enumerable*5
+3
+adminMenuList"System.Collections.Generic.List<T>*
+""˘
+ˆ
+ü
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csE  E(Ü)
+%15"System.Collections.Generic.List<T>"WSystem.Linq.Enumerable.ToList<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*2
+0
+%14)System.Collections.Generic.IEnumerable<T>ç
+ä
+ü
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csE E(Ü3
+adminMenuList"System.Collections.Generic.List<T>"__id*+
+)
+%15"System.Collections.Generic.List<T>*
+4*ô
+4û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csH L(P€
+ÿ
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csH H(-
+
+%16int"VSystem.Linq.Enumerable.Count<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*5
+3
+adminMenuList"System.Collections.Generic.List<T>∆
+√
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csH H(-
+countint"__id*
+
+
+%16intì
+ê
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csJ J(2
+
+%17int"0OrchardCore.Navigation.Pager.GetStartIndex(int?)*'
+%
+pagerOrchardCore.Navigation.Pager*
+""À
+»
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csJ J(2
+
+startIndexint"__id*
+
+
+%17intÑ
+Å
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csK K()
+
+%18int")OrchardCore.Navigation.Pager.PageSize.get*'
+%
+pagerOrchardCore.Navigation.Pager…
+∆
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csK K()
+pageSizeint"__id*
+
+
+%18intÛ
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csL4 L(P)
+%19"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>â
+Ü
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csL8 L(N
+%20void")System.Collections.Generic.List<T>.List()*+
+)
+%19"System.Collections.Generic.List<T>ç
+ä
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csL* L(P4
+results)System.Collections.Generic.IEnumerable<T>"__id*+
+)
+%19"System.Collections.Generic.List<T>*
+5*Ï
+5û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csR T(ö
+ó
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csR S(!0
+%21)System.Collections.Generic.IEnumerable<T>"ZSystem.Linq.Enumerable.Skip<TSource>(System.Collections.Generic.IEnumerable<TSource>, int)*"
+System.Linq.Enumerable*5
+3
+adminMenuList"System.Collections.Generic.List<T>*
+
+
+startIndexintï
+í
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csR T(0
+%22)System.Collections.Generic.IEnumerable<T>"ZSystem.Linq.Enumerable.Take<TSource>(System.Collections.Generic.IEnumerable<TSource>, int)*"
+System.Linq.Enumerable*2
+0
+%21)System.Collections.Generic.IEnumerable<T>*
+
+pageSizeint¯
+ı
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csR U()
+%23"System.Collections.Generic.List<T>"WSystem.Linq.Enumerable.ToList<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*2
+0
+%22)System.Collections.Generic.IEnumerable<T>ç
+ä
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csR U(4
+results)System.Collections.Generic.IEnumerable<T>"__id*+
+)
+%23"System.Collections.Generic.List<T>*
+6
+7*Ê
+6û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csY Z(R¿
+Ω
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csY Y(+
+%24$Microsoft.Extensions.Logging.ILogger"__id*g*e2
+0OrchardCore.AdminMenu.Controllers.MenuController"/
+_logger$Microsoft.Extensions.Logging.ILoggerÛ
+
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csY Y(V
+%25void"áMicrosoft.Extensions.Logging.LoggerExtensions.LogError(Microsoft.Extensions.Logging.ILogger, System.Exception, string, params object[])*1"/
+-Microsoft.Extensions.Logging.LoggerExtensions*-
++
+%24$Microsoft.Extensions.Logging.ILogger*
+
+exSystem.Exception*20
+.Error when retrieving the list of admin menus.*
+""÷
+”
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csZ Z(5
+%26.OrchardCore.DisplayManagement.Notify.INotifier"__id*s*q2
+0OrchardCore.AdminMenu.Controllers.MenuController";
+	_notifier.OrchardCore.DisplayManagement.Notify.INotifier⁄
+◊
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csZ  Z(!;
+%274Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer"__id*q*o2
+0OrchardCore.AdminMenu.Controllers.MenuController"9
+H4Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer≤Ø
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csZ  Z(S@
+%289Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString"EMicrosoft.AspNetCore.Mvc.Localization.IHtmlLocalizer.this[string].get*=
+;
+%274Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer*20
+.Error when retrieving the list of admin menus.2this[string].getñ
+ì
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csZ Z(T
+%29void"®OrchardCore.DisplayManagement.Notify.NotifierExtensions.Error(OrchardCore.DisplayManagement.Notify.INotifier, Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString)*;"9
+7OrchardCore.DisplayManagement.Notify.NotifierExtensions*7
+5
+%26.OrchardCore.DisplayManagement.Notify.INotifier*B
+@
+%289Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString*
+7*√G
+7û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cs^ n(˚¯
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cs^ ^(+-
+%30&Microsoft.AspNetCore.Routing.RouteData"&Microsoft.AspNetCore.Routing.RouteDatañ
+ì
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cs^  ^()
+%31void"2Microsoft.AspNetCore.Routing.RouteData.RouteData()*/
+-
+%30&Microsoft.AspNetCore.Routing.RouteDataê
+ç
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cs^ ^(+3
+	routeData&Microsoft.AspNetCore.Routing.RouteData"__id*/
+-
+%30&Microsoft.AspNetCore.Routing.RouteData»
+≈
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cs_ _(8
+%321Microsoft.AspNetCore.Routing.RouteValueDictionary"1Microsoft.AspNetCore.Routing.RouteData.Values.get*5
+3
+	routeData&Microsoft.AspNetCore.Routing.RouteData≠
+™
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cs_3 _(A
+%33string":OrchardCore.AdminMenu.ViewModels.ContentOptions.Search.get*<
+:
+options/OrchardCore.AdminMenu.ViewModels.ContentOptionsú
+ô
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cs_ _(B
+%34void"__mapSet*:
+8
+%321Microsoft.AspNetCore.Routing.RouteValueDictionary*
+Options.Search*
+
+%33stringÇ
+ˇ
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csa$ a('
+%35dynamic"__id*F*D2
+0OrchardCore.AdminMenu.Controllers.MenuController"
+Newdynamic…
+∆
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csa a(`
+
+pagerShapedynamic"__id*
+""ùö
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csc h(>
+%367OrchardCore.AdminMenu.ViewModels.AdminMenuListViewModel"7OrchardCore.AdminMenu.ViewModels.AdminMenuListViewModel≈
+¬
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csc c(2
+%37void"POrchardCore.AdminMenu.ViewModels.AdminMenuListViewModel.AdminMenuListViewModel()*@
+>
+%367OrchardCore.AdminMenu.ViewModels.AdminMenuListViewModel≥
+∞
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cse e(U0
+%38)System.Collections.Generic.IEnumerable<T>"System.Linq.Enumerable.Select<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)*"
+System.Linq.Enumerable*6
+4
+results)System.Collections.Generic.IEnumerable<T>*
+""¯
+ı
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cse e(^)
+%39"System.Collections.Generic.List<T>"WSystem.Linq.Enumerable.ToList<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*2
+0
+%38)System.Collections.Generic.IEnumerable<T>Ü
+É
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cse e(^*
+%40#System.Collections.Generic.IList<T>"EOrchardCore.AdminMenu.ViewModels.AdminMenuListViewModel.AdminMenu.set*@
+>
+%367OrchardCore.AdminMenu.ViewModels.AdminMenuListViewModel*+
+)
+%39"System.Collections.Generic.List<T>°
+û
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csf f(!6
+%41/OrchardCore.AdminMenu.ViewModels.ContentOptions"COrchardCore.AdminMenu.ViewModels.AdminMenuListViewModel.Options.set*@
+>
+%367OrchardCore.AdminMenu.ViewModels.AdminMenuListViewModel*<
+:
+options/OrchardCore.AdminMenu.ViewModels.ContentOptions“
+œ
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csg g("
+%42dynamic"AOrchardCore.AdminMenu.ViewModels.AdminMenuListViewModel.Pager.set*@
+>
+%367OrchardCore.AdminMenu.ViewModels.AdminMenuListViewModel*
+
+
+pagerShapedynamicÆ
+´
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csc h(@
+model7OrchardCore.AdminMenu.ViewModels.AdminMenuListViewModel"__id*@
+>
+%367OrchardCore.AdminMenu.ViewModels.AdminMenuListViewModelÂ
+‚
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csj j(6
+%43/OrchardCore.AdminMenu.ViewModels.ContentOptions"COrchardCore.AdminMenu.ViewModels.AdminMenuListViewModel.Options.get*B
+@
+model7OrchardCore.AdminMenu.ViewModels.AdminMenuListViewModelÛ
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csj/ l()
+%44"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>â
+Ü
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csj3 j(G
+%45void")System.Collections.Generic.List<T>.List()*+
+)
+%44"System.Collections.Generic.List<T>ëé
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csk k(f8
+%461Microsoft.AspNetCore.Mvc.Rendering.SelectListItem"1Microsoft.AspNetCore.Mvc.Rendering.SelectListItem±
+Æ
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csk k("
+%47void"BMicrosoft.AspNetCore.Mvc.Rendering.SelectListItem.SelectListItem()*:
+8
+%461Microsoft.AspNetCore.Mvc.Rendering.SelectListItem÷
+”
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csk. k(/9
+%482Microsoft.Extensions.Localization.IStringLocalizer"__id*o*m2
+0OrchardCore.AdminMenu.Controllers.MenuController"7
+S2Microsoft.Extensions.Localization.IStringLocalizer˛˚
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csk. k(98
+%491Microsoft.Extensions.Localization.LocalizedString"CMicrosoft.Extensions.Localization.IStringLocalizer.this[string].get*;
+9
+%482Microsoft.Extensions.Localization.IStringLocalizer*
+
+Delete2this[string].getÁ
+‰
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csk' k(9
+%50string":Microsoft.AspNetCore.Mvc.Rendering.SelectListItem.Text.set*:
+8
+%461Microsoft.AspNetCore.Mvc.Rendering.SelectListItem*:
+8
+%491Microsoft.Extensions.Localization.LocalizedString¥
+±
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csk; k(d
+%51string";Microsoft.AspNetCore.Mvc.Rendering.SelectListItem.Value.set*:
+8
+%461Microsoft.AspNetCore.Mvc.Rendering.SelectListItem*
+""˛
+˚
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csj l()
+%52"System.Collections.Generic.List<T>"FOrchardCore.AdminMenu.ViewModels.ContentOptions.ContentsBulkAction.set*8
+6
+%43/OrchardCore.AdminMenu.ViewModels.ContentOptions*+
+)
+%44"System.Collections.Generic.List<T>⁄
+◊
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csn n(
+%53void"%orchardcore.adminmenu/views/menu/list*
+
+%54*B
+@
+model7OrchardCore.AdminMenu.ViewModels.AdminMenuListViewModel*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject* 
+
+%HttpContextItemsAllobject*!
+
+%HttpContextItemsHtmlobject"∞
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csn n(
+
+%53void*›
+8û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cso	 o(	"∂
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cso o(	
+implicit return*å
+9û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cs7f 7(fì
+ê
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cs7) 7(-_
+:
+options/OrchardCore.AdminMenu.ViewModels.ContentOptions"!
+<Search>k__BackingFieldstring"__entrypointÇ
+ˇ
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cs7) 7(-N
+:
+options/OrchardCore.AdminMenu.ViewModels.ContentOptions"
+Searchstring"__entrypointº
+π
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cs7) 7(-á
+:
+options/OrchardCore.AdminMenu.ViewModels.ContentOptions"I
+#<ContentsBulkAction>k__BackingField"System.Collections.Generic.List<T>"__entrypoint™
+ß
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cs7) 7(-v
+:
+options/OrchardCore.AdminMenu.ViewModels.ContentOptions"8
+ContentsBulkAction"System.Collections.Generic.List<T>"__entrypointã
+à
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cs7) 7(-W
+9
+pagerParameters&OrchardCore.Navigation.PagerParameters"
+PageSystem.Nullable<T>"__entrypointè
+å
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cs7) 7(-[
+9
+pagerParameters&OrchardCore.Navigation.PagerParameters"
+PageSizeSystem.Nullable<T>"__entrypointπ
+∂
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cs7) 7(-
+%55"__entrypoint*
+0::
+options/OrchardCore.AdminMenu.ViewModels.ContentOptions:9
+pagerParameters&OrchardCore.Navigation.PagerParametersB42
+0OrchardCore.AdminMenu.Controllers.MenuController

@@ -1,0 +1,103 @@
+
+OOrchardCore.FileStorage.AzureBlob.BlobFileStore.TryCreateDirectoryAsync(string)ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs≤  ≤(7"0*â	
+0ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs∏ ∫(,‘
+—
+ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs∏ ∏(1$
+%0Azure.Storage.Blobs.BlobClient"HOrchardCore.FileStorage.AzureBlob.BlobFileStore.GetBlobReference(string)*31
+/OrchardCore.FileStorage.AzureBlob.BlobFileStore*
+
+pathstring˜
+Ù
+ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs∏ ∏(1*
+blobFileAzure.Storage.Blobs.BlobClient"__id*&
+$
+%0Azure.Storage.Blobs.BlobClientêç
+ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs∫ ∫(,*
+%1$System.Threading.Tasks.Task<TResult>"^Azure.Storage.Blobs.Specialized.BlobBaseClient.ExistsAsync(System.Threading.CancellationToken)*,
+*
+blobFileAzure.Storage.Blobs.BlobClient*
+""2/ExistsAsync(System.Threading.CancellationToken)*
+1
+2*˙
+1ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.csº º(^œ
+Ã
+ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.csº- º(
+%2string"__concat*
+""*
+
+pathstringÕ
+ 
+ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.csº- º(
+%3string"__concat*
+
+%2string*
+""¸˘
+ò
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.csº º(Ä0
+%4*OrchardCore.FileStorage.FileStoreException"*OrchardCore.FileStorage.FileStoreException¥
+±
+ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.csº º(,
+
+%5void"EOrchardCore.FileStorage.FileStoreException.FileStoreException(string)*2
+0
+%4*OrchardCore.FileStorage.FileStoreException*
+
+%3string*
+3*ù
+2ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.csø ¿(%„
+‡
+ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.csø& ø(E*
+%6$System.Threading.Tasks.Task<TResult>"QOrchardCore.FileStorage.AzureBlob.BlobFileStore.GetBlobDirectoryReference(string)*31
+/OrchardCore.FileStorage.AzureBlob.BlobFileStore*
+
+pathstringÍ
+Á
+ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.csø ø(E=
+blobDirectory,Azure.Storage.Blobs.Models.BlobHierarchyItem"__id*
+""¢
+ü
+ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs¿ ¿(%
+
+%7bool""object.operator ==(object, object)*
+"
+object*?
+=
+blobDirectory,Azure.Storage.Blobs.Models.BlobHierarchyItem*
+""*
+4
+5*˙
+4ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs¬ ¬(/’
+“
+ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs¬ ¬(0!
+%8System.Threading.Tasks.Task"LOrchardCore.FileStorage.AzureBlob.BlobFileStore.CreateDirectoryAsync(string)*31
+/OrchardCore.FileStorage.AzureBlob.BlobFileStore*
+
+pathstring*
+5*¬
+5ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs≈ ≈("¢
+ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs≈ ≈(
+""*œ
+3ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs∆	 ∆(	"Ø
+ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs∆ ∆(	
+implicit return:
+pathstringB31
+/OrchardCore.FileStorage.AzureBlob.BlobFileStore

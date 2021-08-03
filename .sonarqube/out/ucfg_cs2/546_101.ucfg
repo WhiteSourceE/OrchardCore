@@ -1,0 +1,725 @@
+
+ÜOrchardCore.Placements.Controllers.AdminController.Edit(OrchardCore.Placements.ViewModels.EditShapePlacementViewModel, string, string)¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs©) ©(-"19*ﬁ
+0¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs´ ´(^˝
+˙
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs´ ´(,>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*å*â4
+2OrchardCore.Placements.Controllers.AdminController"Q
+_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationServiceµ
+≤
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs´< ´(@,
+%1&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBaseÃ
+…
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs´B ´(^1
+%2+OrchardCore.Security.Permissions.Permission"__id*i*g$
+"OrchardCore.Placements.Permissions"?
+ManagePlacements+OrchardCore.Security.Permissions.Permission§
+°
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs´ ´(_*
+%3$System.Threading.Tasks.Task<TResult>"ﬂMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission)*E"C
+AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*@
+>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService*.
+,
+%1&System.Security.Claims.ClaimsPrincipal*3
+1
+%2+OrchardCore.Security.Permissions.Permission*
+1
+2*¿
+1¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs≠ ≠(æª
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs≠ ≠(+
+%4%Microsoft.AspNetCore.Mvc.ForbidResult"0Microsoft.AspNetCore.Mvc.ControllerBase.Forbid()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2Forbid()"‘
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs≠ ≠( -
++
+%4%Microsoft.AspNetCore.Mvc.ForbidResult*å
+2¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs∞ ≤("À»
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs∞ ∞(
+%ViewBagDataAllobject"objectÃ…
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs∞ ∞(
+%ViewBagDataHtmlobject"object˚
+¯
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs∞ ∞(-
+%5"__mapSet*
+
+%ViewBagDataAllobject*
+	ReturnUrl*
+
+	returnUrlstringÌ
+Í
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs∞ ∞(-
+%6"__mapSet*
+
+%ViewBagDataHtmlobject*
+	ReturnUrl*
+""Œ
+À
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs≤ ≤("
+
+%7bool"JOrchardCore.Placements.ViewModels.EditShapePlacementViewModel.Creating.get*L
+J
+	viewModel=OrchardCore.Placements.ViewModels.EditShapePlacementViewModel*
+3
+4*‡
+3¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs≤& ≤(sÎ
+Ë
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs≤, ≤(>7
+%81OrchardCore.Placements.Services.PlacementsManager"__id*Å*4
+2OrchardCore.Placements.Controllers.AdminController"G
+_placementsManager1OrchardCore.Placements.Services.PlacementsManager—
+Œ
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs≤W ≤(j
+%9string"KOrchardCore.Placements.ViewModels.EditShapePlacementViewModel.ShapeType.get*L
+J
+	viewModel=OrchardCore.Placements.ViewModels.EditShapePlacementViewModelÛ
+
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs≤, ≤(k+
+%10$System.Threading.Tasks.Task<TResult>"QOrchardCore.Placements.Services.PlacementsManager.GetShapePlacementsAsync(string)*9
+7
+%81OrchardCore.Placements.Services.PlacementsManager*
+
+%9stringı
+Ú
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs≤& ≤(s
+%11bool""object.operator !=(object, object)*
+"
+object*
+""*
+""*
+5
+4*á
+5¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csµ ∂(%‹
+Ÿ
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csµ µ(5
+%12.OrchardCore.DisplayManagement.Notify.INotifier"__id*u*s4
+2OrchardCore.Placements.Controllers.AdminController";
+	_notifier.OrchardCore.DisplayManagement.Notify.INotifier‡
+›
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csµ" µ(#;
+%134Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer"__id*s*q4
+2OrchardCore.Placements.Controllers.AdminController"9
+H4Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer”
+–
+£
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csµn µ(Å
+%14string"KOrchardCore.Placements.ViewModels.EditShapePlacementViewModel.ShapeType.get*L
+J
+	viewModel=OrchardCore.Placements.ViewModels.EditShapePlacementViewModelÄ˝
+£
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csµ" µ(Ç@
+%159Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString"VMicrosoft.AspNetCore.Mvc.Localization.IHtmlLocalizer.this[string, params object[]].get*=
+;
+%134Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer*HF
+DPlacement rules for "{0}" already exists. Please edit existing rule.*
+
+%14string2!this[string, params object[]].getù
+ö
+£
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csµ µ(É
+%16void"™OrchardCore.DisplayManagement.Notify.NotifierExtensions.Warning(OrchardCore.DisplayManagement.Notify.INotifier, Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString)*;"9
+7OrchardCore.DisplayManagement.Notify.NotifierExtensions*7
+5
+%12.OrchardCore.DisplayManagement.Notify.INotifier*B
+@
+%159Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlStringÍ
+Á
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs∂ ∂(&
+%17void"'orchardcore.placements/views/admin/edit*
+
+%18*L
+J
+	viewModel=OrchardCore.Placements.ViewModels.EditShapePlacementViewModel*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject* 
+
+%HttpContextItemsAllobject*!
+
+%HttpContextItemsHtmlobject"¥
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs∂ ∂('
+
+%17void*∆
+4¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csª< ª(zŒ
+À
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csªk ª(z
+%22string"GOrchardCore.Placements.ViewModels.EditShapePlacementViewModel.Nodes.get*L
+J
+	viewModel=OrchardCore.Placements.ViewModels.EditShapePlacementViewModelÌ
+Í
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csª< ª({W
+%23POrchardCore.DisplayManagement.Descriptors.ShapePlacementStrategy.PlacementNode[]"8Newtonsoft.Json.JsonConvert.DeserializeObject<T>(string)*"
+Newtonsoft.Json.JsonConvert*
+
+%22stringª
+∏
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csª< ª({0
+%20)System.Collections.Generic.IEnumerable<T>"__id*Y
+W
+%23POrchardCore.DisplayManagement.Descriptors.ShapePlacementStrategy.PlacementNode[]î
+ë
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csª< ª({0
+%19)System.Collections.Generic.IEnumerable<T>"__id*2
+0
+%20)System.Collections.Generic.IEnumerable<T>*
+6
+7*‹
+6£
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csª ª(í‘—
+£
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csª ª(ìW
+%24POrchardCore.DisplayManagement.Descriptors.ShapePlacementStrategy.PlacementNode[]"POrchardCore.DisplayManagement.Descriptors.ShapePlacementStrategy.PlacementNode[]º
+π
+£
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csª ª(ì0
+%21)System.Collections.Generic.IEnumerable<T>"__id*Y
+W
+%24POrchardCore.DisplayManagement.Descriptors.ShapePlacementStrategy.PlacementNode[]ï
+í
+£
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csª ª(ì0
+%19)System.Collections.Generic.IEnumerable<T>"__id*2
+0
+%21)System.Collections.Generic.IEnumerable<T>*
+7*í
+7¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csª+ ¿((†
+ù
+£
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csª+ ª(ì;
+placementNodes)System.Collections.Generic.IEnumerable<T>"__id*2
+0
+%19)System.Collections.Generic.IEnumerable<T>±
+Æ
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csæ! æ(M0
+%25)System.Collections.Generic.IEnumerable<T>"rSystem.Linq.Enumerable.Where<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
+System.Linq.Enumerable*=
+;
+placementNodes)System.Collections.Generic.IEnumerable<T>*
+""ü
+ú
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csæ æ(M;
+placementNodes)System.Collections.Generic.IEnumerable<T>"__id*2
+0
+%25)System.Collections.Generic.IEnumerable<T>Ê
+„
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs¿ ¿((
+%26bool"TSystem.Linq.Enumerable.Any<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*=
+;
+placementNodes)System.Collections.Generic.IEnumerable<T>*
+8
+9*é
+8¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs√ ∆(eÏ
+È
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs√ √(,8
+%271OrchardCore.Placements.Services.PlacementsManager"__id*Å*4
+2OrchardCore.Placements.Controllers.AdminController"G
+_placementsManager1OrchardCore.Placements.Services.PlacementsManager“
+œ
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs√H √([
+%28string"KOrchardCore.Placements.ViewModels.EditShapePlacementViewModel.ShapeType.get*L
+J
+	viewModel=OrchardCore.Placements.ViewModels.EditShapePlacementViewModelß
+§
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs√ √(l"
+%29System.Threading.Tasks.Task"ÃOrchardCore.Placements.Services.PlacementsManager.UpdateShapePlacementsAsync(string, System.Collections.Generic.IEnumerable<OrchardCore.DisplayManagement.Descriptors.ShapePlacementStrategy.PlacementNode>)*:
+8
+%271OrchardCore.Placements.Services.PlacementsManager*
+
+%28string*=
+;
+placementNodes)System.Collections.Generic.IEnumerable<T>◊
+‘
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csƒ ƒ(.
+%30bool"JOrchardCore.Placements.ViewModels.EditShapePlacementViewModel.Creating.set*L
+J
+	viewModel=OrchardCore.Placements.ViewModels.EditShapePlacementViewModel*
+""‹
+Ÿ
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs∆ ∆(5
+%31.OrchardCore.DisplayManagement.Notify.INotifier"__id*u*s4
+2OrchardCore.Placements.Controllers.AdminController";
+	_notifier.OrchardCore.DisplayManagement.Notify.INotifier‡
+›
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs∆& ∆(';
+%324Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer"__id*s*q4
+2OrchardCore.Placements.Controllers.AdminController"9
+H4Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer“
+œ
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs∆R ∆(e
+%33string"KOrchardCore.Placements.ViewModels.EditShapePlacementViewModel.ShapeType.get*L
+J
+	viewModel=OrchardCore.Placements.ViewModels.EditShapePlacementViewModelﬂ‹
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs∆& ∆(f@
+%349Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString"VMicrosoft.AspNetCore.Mvc.Localization.IHtmlLocalizer.this[string, params object[]].get*=
+;
+%324Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer*(&
+$The "{0}" placement have been saved.*
+
+%33string2!this[string, params object[]].getú
+ô
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs∆ ∆(g
+%35void"™OrchardCore.DisplayManagement.Notify.NotifierExtensions.Success(OrchardCore.DisplayManagement.Notify.INotifier, Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString)*;"9
+7OrchardCore.DisplayManagement.Notify.NotifierExtensions*7
+5
+%31.OrchardCore.DisplayManagement.Notify.INotifier*B
+@
+%349Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString*
+10*Ñ
+9¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs» »(+œ
+Ã
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs» »(+
+%36bool"JOrchardCore.Placements.ViewModels.EditShapePlacementViewModel.Creating.get*L
+J
+	viewModel=OrchardCore.Placements.ViewModels.EditShapePlacementViewModel*
+11
+12*ﬁ
+11¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs  À()‹
+Ÿ
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs   (5
+%37.OrchardCore.DisplayManagement.Notify.INotifier"__id*u*s4
+2OrchardCore.Placements.Controllers.AdminController";
+	_notifier.OrchardCore.DisplayManagement.Notify.INotifier‡
+›
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs &  (';
+%384Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer"__id*s*q4
+2OrchardCore.Placements.Controllers.AdminController"9
+H4Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer“
+œ
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs K  (^
+%39string"KOrchardCore.Placements.ViewModels.EditShapePlacementViewModel.ShapeType.get*L
+J
+	viewModel=OrchardCore.Placements.ViewModels.EditShapePlacementViewModelÿ’
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs &  (_@
+%409Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString"VMicrosoft.AspNetCore.Mvc.Localization.IHtmlLocalizer.this[string, params object[]].get*=
+;
+%384Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer*!
+The "{0}" placement is empty.*
+
+%39string2!this[string, params object[]].getú
+ô
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs   (`
+%41void"™OrchardCore.DisplayManagement.Notify.NotifierExtensions.Warning(OrchardCore.DisplayManagement.Notify.INotifier, Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString)*;"9
+7OrchardCore.DisplayManagement.Notify.NotifierExtensions*7
+5
+%37.OrchardCore.DisplayManagement.Notify.INotifier*B
+@
+%409Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlStringÍ
+Á
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csÀ À(*
+%42void"'orchardcore.placements/views/admin/edit*
+
+%43*L
+J
+	viewModel=OrchardCore.Placements.ViewModels.EditShapePlacementViewModel*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject* 
+
+%HttpContextItemsAllobject*!
+
+%HttpContextItemsHtmlobject"¥
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csÀ À(+
+
+%42void*˛
+12¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs– —(fÏ
+È
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs– –(,8
+%441OrchardCore.Placements.Services.PlacementsManager"__id*Å*4
+2OrchardCore.Placements.Controllers.AdminController"G
+_placementsManager1OrchardCore.Placements.Services.PlacementsManager“
+œ
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs–H –([
+%45string"KOrchardCore.Placements.ViewModels.EditShapePlacementViewModel.ShapeType.get*L
+J
+	viewModel=OrchardCore.Placements.ViewModels.EditShapePlacementViewModelÔ
+Ï
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs– –(\"
+%46System.Threading.Tasks.Task"TOrchardCore.Placements.Services.PlacementsManager.RemoveShapePlacementsAsync(string)*:
+8
+%441OrchardCore.Placements.Services.PlacementsManager*
+
+%45string‹
+Ÿ
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs— —(5
+%47.OrchardCore.DisplayManagement.Notify.INotifier"__id*u*s4
+2OrchardCore.Placements.Controllers.AdminController";
+	_notifier.OrchardCore.DisplayManagement.Notify.INotifier‡
+›
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs—& —(';
+%484Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer"__id*s*q4
+2OrchardCore.Placements.Controllers.AdminController"9
+H4Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer“
+œ
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs—S —(f
+%49string"KOrchardCore.Placements.ViewModels.EditShapePlacementViewModel.ShapeType.get*L
+J
+	viewModel=OrchardCore.Placements.ViewModels.EditShapePlacementViewModel‡›
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs—& —(g@
+%509Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString"VMicrosoft.AspNetCore.Mvc.Localization.IHtmlLocalizer.this[string, params object[]].get*=
+;
+%484Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer*)'
+%The "{0}" placement has been deleted.*
+
+%49string2!this[string, params object[]].getú
+ô
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs— —(h
+%51void"™OrchardCore.DisplayManagement.Notify.NotifierExtensions.Success(OrchardCore.DisplayManagement.Notify.INotifier, Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString)*;"9
+7OrchardCore.DisplayManagement.Notify.NotifierExtensions*7
+5
+%47.OrchardCore.DisplayManagement.Notify.INotifier*B
+@
+%509Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString*
+10*∑
+10¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csÊ	 Ê(	*
+13
+14
+15*º
+14¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs÷ ◊(%‹
+Ÿ
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs÷ ÷(5
+%52.OrchardCore.DisplayManagement.Notify.INotifier"__id*u*s4
+2OrchardCore.Placements.Controllers.AdminController";
+	_notifier.OrchardCore.DisplayManagement.Notify.INotifier‡
+›
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs÷  ÷(!;
+%534Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer"__id*s*q4
+2OrchardCore.Placements.Controllers.AdminController"9
+H4Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizeröó
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs÷[ ÷(p
+%54string"System.Exception.Message.get*6
+4
+jsonException#Newtonsoft.Json.JsonReaderException2Message.getÌ
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs÷  ÷(q@
+%559Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString"VMicrosoft.AspNetCore.Mvc.Localization.IHtmlLocalizer.this[string, params object[]].get*=
+;
+%534Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer*97
+5An error occurred while parsing the placement<br/>{0}*
+
+%54string2!this[string, params object[]].getö
+ó
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs÷ ÷(r
+%56void"®OrchardCore.DisplayManagement.Notify.NotifierExtensions.Error(OrchardCore.DisplayManagement.Notify.INotifier, Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString)*;"9
+7OrchardCore.DisplayManagement.Notify.NotifierExtensions*7
+5
+%52.OrchardCore.DisplayManagement.Notify.INotifier*B
+@
+%559Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlStringÍ
+Á
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs◊ ◊(&
+%57void"'orchardcore.placements/views/admin/edit*
+
+%58*L
+J
+	viewModel=OrchardCore.Placements.ViewModels.EditShapePlacementViewModel*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject* 
+
+%HttpContextItemsAllobject*!
+
+%HttpContextItemsHtmlobject"¥
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs◊ ◊('
+
+%57void*•
+13¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs€ ›(%‹
+Ÿ
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs€ €(5
+%59.OrchardCore.DisplayManagement.Notify.INotifier"__id*u*s4
+2OrchardCore.Placements.Controllers.AdminController";
+	_notifier.OrchardCore.DisplayManagement.Notify.INotifier‡
+›
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs€  €(!;
+%604Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer"__id*s*q4
+2OrchardCore.Placements.Controllers.AdminController"9
+H4Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizerµ≤
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs€  €(R@
+%619Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString"EMicrosoft.AspNetCore.Mvc.Localization.IHtmlLocalizer.this[string].get*=
+;
+%604Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer*1/
+-An error occurred while saving the placement.2this[string].getö
+ó
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs€ €(S
+%62void"®OrchardCore.DisplayManagement.Notify.NotifierExtensions.Error(OrchardCore.DisplayManagement.Notify.INotifier, Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString)*;"9
+7OrchardCore.DisplayManagement.Notify.NotifierExtensions*7
+5
+%59.OrchardCore.DisplayManagement.Notify.INotifier*B
+@
+%619Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString∆
+√
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs‹ ‹(+
+%63$Microsoft.Extensions.Logging.ILogger"__id*i*g4
+2OrchardCore.Placements.Controllers.AdminController"/
+_logger$Microsoft.Extensions.Logging.ILoggerı
+Ú
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs‹ ‹(T
+%64void"áMicrosoft.Extensions.Logging.LoggerExtensions.LogError(Microsoft.Extensions.Logging.ILogger, System.Exception, string, params object[])*1"/
+-Microsoft.Extensions.Logging.LoggerExtensions*-
++
+%63$Microsoft.Extensions.Logging.ILogger*
+
+eSystem.Exception*1/
+-An error occurred while saving the placement.*
+""Í
+Á
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs› ›(&
+%65void"'orchardcore.placements/views/admin/edit*
+
+%66*L
+J
+	viewModel=OrchardCore.Placements.ViewModels.EditShapePlacementViewModel*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject* 
+
+%HttpContextItemsAllobject*!
+
+%HttpContextItemsHtmlobject"¥
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs› ›('
+
+%65void*ƒ
+15¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs‡ ‡(+é
+ã
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs‡ ‡(+
+%67bool""string.operator !=(string, string)*
+"
+string*
+
+submitstring*
+SaveAndContinue*
+16
+17*Ç
+16¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs‚ ‚(;˝
+˙
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs‚ ‚(<-
+%68&Microsoft.AspNetCore.Mvc.IActionResult"UOrchardCore.Placements.Controllers.AdminController.RedirectToReturnUrlOrIndex(string)*64
+2OrchardCore.Placements.Controllers.AdminController*
+
+	returnUrlstring"÷
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs‚ ‚(=/
+-
+%68&Microsoft.AspNetCore.Mvc.IActionResult*Õ
+17¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csÂ Â(!Í
+Á
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csÂ Â("
+%69void"'orchardcore.placements/views/admin/edit*
+
+%70*L
+J
+	viewModel=OrchardCore.Placements.ViewModels.EditShapePlacementViewModel*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject* 
+
+%HttpContextItemsAllobject*!
+
+%HttpContextItemsHtmlobject"¥
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csÂ Â(#
+
+%69void*Ê
+18¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csÊ	 Ê(	"∫
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csÊ Ê(	
+implicit return*“
+19¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs©| ©(|™
+ß
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs©) ©(-r
+J
+	viewModel=OrchardCore.Placements.ViewModels.EditShapePlacementViewModel"$
+<ShapeType>k__BackingFieldstring"__entrypointô
+ñ
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs©) ©(-a
+J
+	viewModel=OrchardCore.Placements.ViewModels.EditShapePlacementViewModel"
+	ShapeTypestring"__entrypoint¶
+£
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs©) ©(-n
+J
+	viewModel=OrchardCore.Placements.ViewModels.EditShapePlacementViewModel" 
+<Nodes>k__BackingFieldstring"__entrypointï
+í
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs©) ©(-]
+J
+	viewModel=OrchardCore.Placements.ViewModels.EditShapePlacementViewModel"
+Nodesstring"__entrypointË
+Â
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs©) ©(-
+%71"__entrypoint*
+
+submitstring*
+
+	returnUrlstringì
+ê
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs®	 ®(
+%72"
+__annotate*B@
+>Microsoft.AspNetCore.Mvc.HttpPostAttribute.HttpPostAttribute()*
+
+submitstringù
+ö
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs® ®(%
+%73"
+__annotate*LJ
+HMicrosoft.AspNetCore.Mvc.ActionNameAttribute.ActionNameAttribute(string)*
+
+submitstring⁄
+◊
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs©U ©(b
+submitstring"__annotation*
+
+%72*
+
+%73ñ
+ì
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs®	 ®(
+%74"
+__annotate*B@
+>Microsoft.AspNetCore.Mvc.HttpPostAttribute.HttpPostAttribute()*
+
+	returnUrlstring†
+ù
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs® ®(%
+%75"
+__annotate*LJ
+HMicrosoft.AspNetCore.Mvc.ActionNameAttribute.ActionNameAttribute(string)*
+
+	returnUrlstring›
+⁄
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs©d ©({
+	returnUrlstring"__annotation*
+
+%74*
+
+%75*
+0:J
+	viewModel=OrchardCore.Placements.ViewModels.EditShapePlacementViewModel:
+submitstring:
+	returnUrlstringB64
+2OrchardCore.Placements.Controllers.AdminController

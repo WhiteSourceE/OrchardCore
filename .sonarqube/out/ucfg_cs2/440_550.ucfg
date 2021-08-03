@@ -1,0 +1,54 @@
+
+§OrchardCore.OpenId.Services.OpenIdServerService.GetSigningCertificateDirectory(OrchardCore.Environment.Shell.ShellOptions, OrchardCore.Environment.Shell.ShellSettings)Ÿ
+’D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Services\OpenIdServerService.csÕ% Õ(C"0*õ
+0Ÿ
+’D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Services\OpenIdServerService.csÖ Ù(C¶
+³
+Ÿ
+’D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Services\OpenIdServerService.cs× ×(1
+%0string"HOrchardCore.Environment.Shell.ShellOptions.ShellsApplicationDataPath.get*7
+5
+options*OrchardCore.Environment.Shell.ShellOptions°
+­
+Ÿ
+’D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Services\OpenIdServerService.csØ Ø(+
+%1string"BOrchardCore.Environment.Shell.ShellOptions.ShellsContainerName.get*7
+5
+options*OrchardCore.Environment.Shell.ShellOptions¤
+¡
+Ÿ
+’D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Services\OpenIdServerService.csÙ Ù(
+%2string"4OrchardCore.Environment.Shell.ShellSettings.Name.get*9
+7
+settings+OrchardCore.Environment.Shell.ShellSettings×
+Ô
+Ÿ
+’D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Services\OpenIdServerService.csÖ) Ù(D
+%3string"6System.IO.Path.Combine(string, string, string, string)*"
+System.IO.Path*
+
+%0string*
+
+%1string*
+
+%2string*&$
+"IdentityModel-Signing-Certificatesš
+—
+Ÿ
+’D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Services\OpenIdServerService.csÖ Ù(E
+%4System.IO.DirectoryInfo"+System.IO.Directory.CreateDirectory(string)*"
+System.IO.Directory*
+
+%3string"Ã
+Ÿ
+’D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Services\OpenIdServerService.csÖ Ù(E
+
+%4System.IO.DirectoryInfo*ß
+1Ÿ
+’D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Services\OpenIdServerService.csÙF Ù(F"·
+Ÿ
+’D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Services\OpenIdServerService.csÙE Ù(F
+implicit return:5
+options*OrchardCore.Environment.Shell.ShellOptions:7
+settings+OrchardCore.Environment.Shell.ShellSettingsB3"1
+/OrchardCore.OpenId.Services.OpenIdServerService

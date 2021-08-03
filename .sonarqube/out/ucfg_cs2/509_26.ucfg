@@ -1,0 +1,163 @@
+
+6OrchardCore.Redis.Services.RedisService.ConnectAsync()ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Services\RedisService.cs (&"0*“
+0ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Services\RedisService.cs ( £
+†
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Services\RedisService.cs (#
+%0StackExchange.Redis.IDatabase"4OrchardCore.Redis.Services.RedisService.Database.get*+)
+'OrchardCore.Redis.Services.RedisServiceÜ
+É
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Services\RedisService.cs ( 
+
+%1bool""object.operator !=(object, object)*
+"
+object*%
+#
+%0StackExchange.Redis.IDatabase*
+""*
+1
+2*æ
+1ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Services\RedisService.cs6	 6(	"†
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Services\RedisService.cs! !(
+""*‹
+2ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Services\RedisService.cs$ $((§
+°
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Services\RedisService.cs$ $($
+%2System.Threading.SemaphoreSlim"__id*[*Y)
+'OrchardCore.Redis.Services.RedisService",
+
+_semaphoreSystem.Threading.SemaphoreSlimí
+è
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Services\RedisService.cs$ $((!
+%3System.Threading.Tasks.Task"*System.Threading.SemaphoreSlim.WaitAsync()*&
+$
+%2System.Threading.SemaphoreSlim*
+3*“
+3ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Services\RedisService.cs( (($£
+†
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Services\RedisService.cs( ((#
+%4StackExchange.Redis.IDatabase"4OrchardCore.Redis.Services.RedisService.Database.get*+)
+'OrchardCore.Redis.Services.RedisServiceÜ
+É
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Services\RedisService.cs( (($
+
+%5bool""object.operator ==(object, object)*
+"
+object*%
+#
+%4StackExchange.Redis.IDatabase*
+""*
+4
+5*Ø
+4ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Services\RedisService.cs* +(7ƒ
+¡
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Services\RedisService.cs*J *(R5
+%6/Microsoft.Extensions.Options.IOptions<TOptions>"__id*j*h)
+'OrchardCore.Redis.Services.RedisService";
+_options/Microsoft.Extensions.Options.IOptions<TOptions>¿Ω
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Services\RedisService.cs*J *(X$
+%7OrchardCore.Redis.RedisOptions"9Microsoft.Extensions.Options.IOptions<TOptions>.Value.get*7
+5
+%6/Microsoft.Extensions.Options.IOptions<TOptions>2	Value.get¨
+©
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Services\RedisService.cs*J *(m.
+%8(StackExchange.Redis.ConfigurationOptions"7OrchardCore.Redis.RedisOptions.ConfigurationOptions.get*&
+$
+%7OrchardCore.Redis.RedisOptions®
+•
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Services\RedisService.cs*' *(n*
+%9$System.Threading.Tasks.Task<TResult>"vStackExchange.Redis.ConnectionMultiplexer.ConnectAsync(StackExchange.Redis.ConfigurationOptions, System.IO.TextWriter)*-"+
+)StackExchange.Redis.ConnectionMultiplexer*0
+.
+%8(StackExchange.Redis.ConfigurationOptions*
+""ª
+∏
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Services\RedisService.cs* *(n1
+%10*StackExchange.Redis.IConnectionMultiplexer"6OrchardCore.Redis.Services.RedisService.Connection.set*+)
+'OrchardCore.Redis.Services.RedisService*
+""≥
+∞
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Services\RedisService.cs+ +()1
+%11*StackExchange.Redis.IConnectionMultiplexer"6OrchardCore.Redis.Services.RedisService.Connection.get*+)
+'OrchardCore.Redis.Services.RedisServiceÂ‚
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Services\RedisService.cs+ +(7$
+%12StackExchange.Redis.IDatabase"CStackExchange.Redis.IConnectionMultiplexer.GetDatabase(int, object)*3
+1
+%11*StackExchange.Redis.IConnectionMultiplexer*
+""*
+""2GetDatabase(int, object)Ã
+…
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Services\RedisService.cs+ +(7$
+%13StackExchange.Redis.IDatabase"4OrchardCore.Redis.Services.RedisService.Database.set*+)
+'OrchardCore.Redis.Services.RedisService*&
+$
+%12StackExchange.Redis.IDatabase*
+5*£
+5ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Services\RedisService.cs6	 6(	*
+6
+7*™
+6ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Services\RedisService.cs0 0(AÆ
+´
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Services\RedisService.cs0 0(+
+%14$Microsoft.Extensions.Logging.ILogger"__id*^*\)
+'OrchardCore.Redis.Services.RedisService"/
+_logger$Microsoft.Extensions.Logging.ILogger÷
+”
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Services\RedisService.cs0 0(B
+%15void"áMicrosoft.Extensions.Logging.LoggerExtensions.LogError(Microsoft.Extensions.Logging.ILogger, System.Exception, string, params object[])*1"/
+-Microsoft.Extensions.Logging.LoggerExtensions*-
++
+%14$Microsoft.Extensions.Logging.ILogger*
+
+eSystem.Exception*
+Unable to connect to Redis.*
+""*
+7*»
+7ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Services\RedisService.cs4 4($•
+¢
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Services\RedisService.cs4 4(%
+%16System.Threading.SemaphoreSlim"__id*[*Y)
+'OrchardCore.Redis.Services.RedisService",
+
+_semaphoreSystem.Threading.SemaphoreSlim˙
+˜
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Services\RedisService.cs4 4($
+
+%17int"(System.Threading.SemaphoreSlim.Release()*'
+%
+%16System.Threading.SemaphoreSlim*
+8
+8*À
+8ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Services\RedisService.cs6	 6(	"≠
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Services\RedisService.cs6 6(	
+implicit returnB+)
+'OrchardCore.Redis.Services.RedisService

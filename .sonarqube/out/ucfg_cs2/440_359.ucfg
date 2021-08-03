@@ -1,0 +1,101 @@
+
+dOrchardCore.OpenId.Services.OpenIdServerService.GetSettingsFromContainer(OrchardCore.Settings.ISite)ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Services\OpenIdServerService.cs@% @(="0*º
+0ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Services\OpenIdServerService.csB B(_Ø¨
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Services\OpenIdServerService.csB B($"
+%0Newtonsoft.Json.Linq.JObject"+OrchardCore.Entities.IEntity.Properties.get*)
+'
+	containerOrchardCore.Settings.ISite2Properties.get‹
+Ÿ
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Services\OpenIdServerService.csB B(`
+
+%1bool"RNewtonsoft.Json.Linq.JObject.TryGetValue(string, out Newtonsoft.Json.Linq.JToken?)*$
+"
+%0Newtonsoft.Json.Linq.JObject*
+""*)
+'
+settingsNewtonsoft.Json.Linq.JToken*
+1
+2*¥
+1ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Services\OpenIdServerService.csD D(@±
+Æ
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Services\OpenIdServerService.csD D(@6
+%20OrchardCore.OpenId.Settings.OpenIdServerSettings")Newtonsoft.Json.Linq.JToken.ToObject<T>()*)
+'
+settingsNewtonsoft.Json.Linq.JToken"⁄
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Services\OpenIdServerService.csD D(A8
+6
+%20OrchardCore.OpenId.Settings.OpenIdServerSettings*ˇ
+2ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Services\OpenIdServerService.csJ Q(:çä
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Services\OpenIdServerService.csJ R(6
+%30OrchardCore.OpenId.Settings.OpenIdServerSettings"0OrchardCore.OpenId.Settings.OpenIdServerSettings≤
+Ø
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Services\OpenIdServerService.csJ J(+
+
+%4void"GOrchardCore.OpenId.Settings.OpenIdServerSettings.OpenIdServerSettings()*8
+6
+%30OrchardCore.OpenId.Settings.OpenIdServerSettings¬
+ø
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Services\OpenIdServerService.csL L(1
+
+%5bool"OOrchardCore.OpenId.Settings.OpenIdServerSettings.AllowAuthorizationCodeFlow.set*8
+6
+%30OrchardCore.OpenId.Settings.OpenIdServerSettings*
+""Ω
+∫
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Services\OpenIdServerService.csM M(,
+
+%6bool"JOrchardCore.OpenId.Settings.OpenIdServerSettings.AllowRefreshTokenFlow.set*8
+6
+%30OrchardCore.OpenId.Settings.OpenIdServerSettings*
+""Ò
+Ó
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Services\OpenIdServerService.csN N(@*
+%7$Microsoft.AspNetCore.Http.PathString"NOrchardCore.OpenId.Settings.OpenIdServerSettings.AuthorizationEndpointPath.set*8
+6
+%30OrchardCore.OpenId.Settings.OpenIdServerSettings*
+/connect/authorizeÁ
+‰
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Services\OpenIdServerService.csO O(6*
+%8$Microsoft.AspNetCore.Http.PathString"GOrchardCore.OpenId.Settings.OpenIdServerSettings.LogoutEndpointPath.set*8
+6
+%30OrchardCore.OpenId.Settings.OpenIdServerSettings*
+/connect/logoutÂ
+‚
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Services\OpenIdServerService.csP P(4*
+%9$Microsoft.AspNetCore.Http.PathString"FOrchardCore.OpenId.Settings.OpenIdServerSettings.TokenEndpointPath.set*8
+6
+%30OrchardCore.OpenId.Settings.OpenIdServerSettings*
+/connect/tokenÏ
+È
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Services\OpenIdServerService.csQ Q(:+
+%10$Microsoft.AspNetCore.Http.PathString"IOrchardCore.OpenId.Settings.OpenIdServerSettings.UserinfoEndpointPath.set*8
+6
+%30OrchardCore.OpenId.Settings.OpenIdServerSettings*
+/connect/userinfo"⁄
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Services\OpenIdServerService.csJ R(8
+6
+%30OrchardCore.OpenId.Settings.OpenIdServerSettings*€
+3ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Services\OpenIdServerService.csS	 S(	"µ
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Services\OpenIdServerService.csS S(	
+implicit return:'
+	containerOrchardCore.Settings.ISiteB31
+/OrchardCore.OpenId.Services.OpenIdServerService

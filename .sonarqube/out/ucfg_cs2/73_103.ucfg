@@ -1,0 +1,342 @@
+
+RResourceCdnHelperExtensions.ResourceUrl(OrchardCore.IOrchardHelper, string, bool?)¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.cs ($"0*±
+0¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.cs (B≈¬
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.cs (/+
+%0%Microsoft.AspNetCore.Http.HttpContext"*OrchardCore.IOrchardHelper.HttpContext.get*-
++
+orchardHelperOrchardCore.IOrchardHelper2HttpContext.getµ
+≤
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.cs (?
+%1System.IServiceProvider"9Microsoft.AspNetCore.Http.HttpContext.RequestServices.get*-
++
+%0%Microsoft.AspNetCore.Http.HttpContextÕ
+ 
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.cs (y5
+%2/Microsoft.Extensions.Options.IOptions<TOptions>"xMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<T>(System.IServiceProvider)*M"K
+IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*
+
+%1System.IServiceProviderÎË
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.cs (>
+%38OrchardCore.ResourceManagement.ResourceManagementOptions"9Microsoft.Extensions.Options.IOptions<TOptions>.Value.get*7
+5
+%2/Microsoft.Extensions.Options.IOptions<TOptions>2	Value.getπ
+∂
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.cs (C
+options8OrchardCore.ResourceManagement.ResourceManagementOptions"__id*@
+>
+%38OrchardCore.ResourceManagement.ResourceManagementOptions≈¬
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.cs" (;+
+%4%Microsoft.AspNetCore.Http.HttpContext"*OrchardCore.IOrchardHelper.HttpContext.get*-
++
+orchardHelperOrchardCore.IOrchardHelper2HttpContext.getµ
+≤
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.cs" (K
+%5System.IServiceProvider"9Microsoft.AspNetCore.Http.HttpContext.RequestServices.get*-
++
+%4%Microsoft.AspNetCore.Http.HttpContextÿ
+’
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.cs" (v@
+%6:Microsoft.AspNetCore.Mvc.ViewFeatures.IFileVersionProvider"xMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<T>(System.IServiceProvider)*M"K
+IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*
+
+%5System.IServiceProvider…
+∆
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.cs (vQ
+fileVersionProvider:Microsoft.AspNetCore.Mvc.ViewFeatures.IFileVersionProvider"__id*B
+@
+%6:Microsoft.AspNetCore.Mvc.ViewFeatures.IFileVersionProvider¿
+Ω
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.cs* (B
+%7"__id*
+""ñ
+ì
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.cs (C
+
+%8bool"2string.StartsWith(string, System.StringComparison)*
+
+resourcePathstring*
+~/*
+
+%7*
+1
+2*‘
+1¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.cs (b≈¬
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.cs (4+
+%9%Microsoft.AspNetCore.Http.HttpContext"*OrchardCore.IOrchardHelper.HttpContext.get*-
++
+orchardHelperOrchardCore.IOrchardHelper2HttpContext.getº
+π
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.cs (<,
+%10%Microsoft.AspNetCore.Http.HttpRequest"1Microsoft.AspNetCore.Http.HttpContext.Request.get*-
++
+%9%Microsoft.AspNetCore.Http.HttpContextΩ
+∫
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.cs (E+
+%11$Microsoft.AspNetCore.Http.PathString"2Microsoft.AspNetCore.Http.HttpRequest.PathBase.get*.
+,
+%10%Microsoft.AspNetCore.Http.HttpRequestÚ
+Ô
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.csJ (c
+%12string"string.Substring(int)*
+
+resourcePathstring*2È
+Ê
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.cs (d+
+%13$Microsoft.AspNetCore.Http.PathString"NMicrosoft.AspNetCore.Http.PathString.Add(Microsoft.AspNetCore.Http.PathString)*-
++
+%11$Microsoft.AspNetCore.Http.PathString*
+
+%12stringö
+ó
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.cs (j
+%14string".Microsoft.AspNetCore.Http.PathString.Value.get*-
++
+%13$Microsoft.AspNetCore.Http.PathString€
+ÿ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.cs (j
+resourcePathstring"__id*
+
+%14string*
+2*¬
+2¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.cs ( ã
+à
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.cs ( 
+%15bool""string.operator !=(string, string)*
+"
+string*
+
+resourcePathstring*
+""*
+3
+4*∏
+3¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.cs& (<Å
+˛
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.cs& (<
+%16bool"System.Nullable<T>.HasValue.get*%
+#
+appendVersionSystem.Nullable<T>*
+5
+6*¥
+5¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.cs@ (U*
+7
+6*∏
+6¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.cs ((Å
+˛
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.cs ((
+%17bool"System.Nullable<T>.HasValue.get*%
+#
+appendVersionSystem.Nullable<T>*
+8
+4*É
+8¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.cs, (IÃ
+…
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.cs, (A
+%18bool"JOrchardCore.ResourceManagement.ResourceManagementOptions.AppendVersion.get*E
+C
+options8OrchardCore.ResourceManagement.ResourceManagementOptions*
+7
+4*˜
+7¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.cs (|∆√
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.csD (],
+%19%Microsoft.AspNetCore.Http.HttpContext"*OrchardCore.IOrchardHelper.HttpContext.get*-
++
+orchardHelperOrchardCore.IOrchardHelper2HttpContext.getΩ
+∫
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.csD (e,
+%20%Microsoft.AspNetCore.Http.HttpRequest"1Microsoft.AspNetCore.Http.HttpContext.Request.get*.
+,
+%19%Microsoft.AspNetCore.Http.HttpContextΩ
+∫
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.csD (n+
+%21$Microsoft.AspNetCore.Http.PathString"2Microsoft.AspNetCore.Http.HttpRequest.PathBase.get*.
+,
+%20%Microsoft.AspNetCore.Http.HttpRequestúô
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.cs (}
+%22string"}Microsoft.AspNetCore.Mvc.ViewFeatures.IFileVersionProvider.AddFileVersionToPath(Microsoft.AspNetCore.Http.PathString, string)*S
+Q
+fileVersionProvider:Microsoft.AspNetCore.Mvc.ViewFeatures.IFileVersionProvider*-
++
+%21$Microsoft.AspNetCore.Http.PathString*
+
+resourcePathstring2BAddFileVersionToPath(Microsoft.AspNetCore.Http.PathString, string)€
+ÿ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.cs (}
+resourcePathstring"__id*
+
+%22string*
+4*Ä
+4¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.cs (»
+≈
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.cs (
+%23bool"FOrchardCore.ResourceManagement.ResourceManagementOptions.DebugMode.get*E
+C
+options8OrchardCore.ResourceManagement.ResourceManagementOptions*
+9
+10*¸
+9¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.cs" (JÀ
+»
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.cs8 (J
+%24string"GOrchardCore.ResourceManagement.ResourceManagementOptions.CdnBaseUrl.get*E
+C
+options8OrchardCore.ResourceManagement.ResourceManagementOptionsı
+Ú
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.cs# (K
+%25bool"string.IsNullOrEmpty(string?)*
+"
+string*
+
+%24string*
+11
+10*ú
+11¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.cs! !(S¡
+æ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.cs!1 !(S
+%26"__id*
+""û
+õ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.cs! !(T
+%27bool"2string.StartsWith(string, System.StringComparison)*
+
+resourcePathstring*
+
+https://*
+
+%26*
+12
+10*õ
+12¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.cs" "(R¡
+æ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.cs"0 "(R
+%28"__id*
+""ù
+ö
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.cs" "(S
+%29bool"2string.StartsWith(string, System.StringComparison)*
+
+resourcePathstring*	
+http://*
+
+%28*
+13
+10*ñ
+13¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.cs# #(M¡
+æ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.cs#+ #(M
+%30"__id*
+""ò
+ï
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.cs# #(N
+%31bool"2string.StartsWith(string, System.StringComparison)*
+
+resourcePathstring*
+//*
+
+%30*
+14
+10*õ
+14¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.cs$ $(R¡
+æ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.cs$0 $(R
+%32"__id*
+""ù
+ö
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.cs$ $(S
+%33bool"2string.StartsWith(string, System.StringComparison)*
+
+resourcePathstring*	
+file://*
+
+%32*
+15
+10*“
+15¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.cs& &(<À
+»
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.cs& &(-
+%34string"GOrchardCore.ResourceManagement.ResourceManagementOptions.CdnBaseUrl.get*E
+C
+options8OrchardCore.ResourceManagement.ResourceManagementOptions
+Ì
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.cs& &(<
+%35string"__concat*
+
+%34string*
+
+resourcePathstring€
+ÿ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.cs& &(<
+resourcePathstring"__id*
+
+%35string*
+10*Û
+10¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.cs) )("√
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.cs) )(
+
+resourcePathstring*Ó
+16¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.cs* *("æ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ResourceManagement\Razor\ResourceCdnHelperExtensions.cs* *(
+implicit return:+
+orchardHelperOrchardCore.IOrchardHelper:
+resourcePathstring:#
+appendVersionSystem.Nullable<T>B"
+ResourceCdnHelperExtensions

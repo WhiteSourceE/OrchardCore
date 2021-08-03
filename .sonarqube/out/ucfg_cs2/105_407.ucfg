@@ -1,0 +1,85 @@
+
+±OrchardCore.Modules.ModularBackgroundService.UpdateSchedulers(System.Collections.Generic.IEnumerable<string>, System.Action<OrchardCore.BackgroundTasks.BackgroundTaskScheduler>)î
+áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.csÆ Æ(%"0*Ñ
+0î
+áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.cs∞ ≤($Ô
+Ï
+î
+áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.cs∞ ∞("F
+%0@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>"__id*Ñ*Å.
+,OrchardCore.Modules.ModularBackgroundService"O
+_schedulers@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>≠
+™
+î
+áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.cs∞ ∞(Q/
+%1)System.Collections.Generic.IEnumerable<T>"rSystem.Linq.Enumerable.Where<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
+System.Linq.Enumerable*H
+F
+%0@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>*
+""£
+†
+î
+áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.cs∞ ∞(f/
+%2)System.Collections.Generic.IEnumerable<T>"System.Linq.Enumerable.Select<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)*"
+System.Linq.Enumerable*1
+/
+%1)System.Collections.Generic.IEnumerable<T>*
+""”
+–
+î
+áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.cs∞ ∞(p
+%3string[]"XSystem.Linq.Enumerable.ToArray<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*1
+/
+%2)System.Collections.Generic.IEnumerable<T>ƒ
+¡
+î
+áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.cs∞ ∞(p
+keysstring[]"__id*
+
+%3string[]*
+1*¢
+1î
+áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.csπ	 π(	*
+2
+3*º
+2î
+áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.cs¥ ¥(VÔ
+Ï
+î
+áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.cs¥ ¥(F
+%4@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>"__id*Ñ*Å.
+,OrchardCore.Modules.ModularBackgroundService"O
+_schedulers@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>•
+¢
+î
+áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.cs¥ ¥(W
+
+%5bool"^System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>.TryGetValue(TKey, out TValue)*H
+F
+%4@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>*
+
+keystring*B
+@
+	scheduler3OrchardCore.BackgroundTasks.BackgroundTaskScheduler*
+4
+1*æ
+4î
+áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.cs∂ ∂($ú
+ô
+î
+áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.cs∂ ∂(%
+
+%6void"System.Action<T>.Invoke(T)*
+System.Action<T>*B
+@
+	scheduler3OrchardCore.BackgroundTasks.BackgroundTaskScheduler*
+1*…
+3î
+áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.csπ	 π(	"¨
+î
+áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.csπ π(	
+implicit return:4
+tenants)System.Collections.Generic.IEnumerable<T>:
+actionSystem.Action<T>B0.
+,OrchardCore.Modules.ModularBackgroundService

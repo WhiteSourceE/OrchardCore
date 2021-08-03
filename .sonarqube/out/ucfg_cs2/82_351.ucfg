@@ -1,0 +1,110 @@
+
+ƒOrchardCore.OpenId.YesSql.Stores.OpenIdAuthorizationStore<TAuthorization>.ListAsync(int?, int?, System.Threading.CancellationToken)¦
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csÕ8 Õ(A"0*’
+
+0¦
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.cs× Ù(·
+´
+¦
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.cs× ×( 
+%0YesSql.ISession"__id*l*jK
+IOrchardCore.OpenId.YesSql.Stores.OpenIdAuthorizationStore<TAuthorization>"
+_sessionYesSql.ISession»
+¸
+¦
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.cs× ×(8
+%1YesSql.IQuery<T>"8YesSql.QueryExtensions.Query<T>(YesSql.ISession, string)*"
+YesSql.QueryExtensions*
+
+%0YesSql.ISession*
+""ç
+ä
+¦
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.cs× ×(8
+queryYesSql.IQuery<T>"__id*
+
+%1YesSql.IQuery<T>ù
+ö
+¦
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csÙ Ù(
+
+%2bool"System.Nullable<T>.HasValue.get*
+
+offsetSystem.Nullable<T>*
+1
+2*«
+1¦
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csÛ Û(/õ
+ò
+¦
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csÛ# Û(/	
+%3int"System.Nullable<T>.Value.get*
+
+offsetSystem.Nullable<T>•’
+¦
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csÛ Û(0
+%4YesSql.IQuery<T>"YesSql.IQuery<T>.Skip(int)*
+
+queryYesSql.IQuery<T>*
+	
+%3int2	Skip(int)ç
+ä
+¦
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csÛ Û(0
+queryYesSql.IQuery<T>"__id*
+
+%4YesSql.IQuery<T>*
+2*¯
+2¦
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csÞ Þ(ø
+õ
+¦
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csÞ Þ(
+
+%5bool"System.Nullable<T>.HasValue.get*
+
+countSystem.Nullable<T>*
+3
+4*ª
+3¦
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csà à(.ô
+ñ
+¦
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csà# à(.	
+%6int"System.Nullable<T>.Value.get*
+
+countSystem.Nullable<T>•’
+¦
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csà à(/
+%7YesSql.IQuery<T>"YesSql.IQuery<T>.Take(int)*
+
+queryYesSql.IQuery<T>*
+	
+%6int2	Take(int)ç
+ä
+¦
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csà à(/
+queryYesSql.IQuery<T>"__id*
+
+%7YesSql.IQuery<T>*
+4*Í
+4¦
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csã ã(,º·
+¦
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csã ã(,4
+%8.System.Collections.Generic.IAsyncEnumerable<T>"$YesSql.IQuery<T>.ToAsyncEnumerable()*
+
+queryYesSql.IQuery<T>2ToAsyncEnumerable()"á
+¦
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csã ã(-6
+4
+%8.System.Collections.Generic.IAsyncEnumerable<T>*í
+5¦
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csä	 ä(	"¾
+¦
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csä ä(	
+implicit return:
+countSystem.Nullable<T>:
+offsetSystem.Nullable<T>:7
+cancellationToken"System.Threading.CancellationTokenBMK
+IOrchardCore.OpenId.YesSql.Stores.OpenIdAuthorizationStore<TAuthorization>

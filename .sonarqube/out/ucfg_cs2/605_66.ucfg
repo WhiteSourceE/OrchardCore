@@ -1,0 +1,372 @@
+
+8OrchardCore.Cors.Controllers.AdminController.IndexPOST()ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.csU( U(1"7*¨
+0ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.csW W(`Ô
+Ï
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.csW W(,>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*Ü*É.
+,OrchardCore.Cors.Controllers.AdminController"Q
+_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationService≠
+™
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.csW< W(@,
+%1&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase¿
+Ω
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.csWB W(`1
+%2+OrchardCore.Security.Permissions.Permission"__id*e*c
+OrchardCore.Cors.Permissions"A
+ManageCorsSettings+OrchardCore.Security.Permissions.Permissionú
+ô
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.csW W(a*
+%3$System.Threading.Tasks.Task<TResult>"ﬂMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission)*E"C
+AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*@
+>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService*.
+,
+%1&System.Security.Claims.ClaimsPrincipal*3
+1
+%2+OrchardCore.Security.Permissions.Permission*
+1
+2*¿
+1ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.csY Y(%»≈
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.csY Y(%1
+%4+Microsoft.AspNetCore.Mvc.UnauthorizedResult"6Microsoft.AspNetCore.Mvc.ControllerBase.Unauthorized()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2Unauthorized()"“
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.csY Y(&3
+1
+%4+Microsoft.AspNetCore.Mvc.UnauthorizedResult* "
+2ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.cs\ b(;åâ
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.cs\ \(37
+%51OrchardCore.Cors.ViewModels.CorsSettingsViewModel"1OrchardCore.Cors.ViewModels.CorsSettingsViewModel≤
+Ø
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.cs\ \(1
+
+%6void"IOrchardCore.Cors.ViewModels.CorsSettingsViewModel.CorsSettingsViewModel()*9
+7
+%51OrchardCore.Cors.ViewModels.CorsSettingsViewModelù
+ö
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.cs\ \(3:
+model1OrchardCore.Cors.ViewModels.CorsSettingsViewModel"__id*9
+7
+%51OrchardCore.Cors.ViewModels.CorsSettingsViewModelØ
+¨
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.cs] ]($+
+%7%Microsoft.AspNetCore.Http.HttpRequest"3Microsoft.AspNetCore.Mvc.ControllerBase.Request.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase∞
+≠
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.cs] ]()/
+%8)Microsoft.AspNetCore.Http.IFormCollection".Microsoft.AspNetCore.Http.HttpRequest.Form.get*-
++
+%7%Microsoft.AspNetCore.Http.HttpRequestÁ‰
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.cs] ](92
+%9,Microsoft.Extensions.Primitives.StringValues":Microsoft.AspNetCore.Http.IFormCollection.this[string].get*1
+/
+%8)Microsoft.AspNetCore.Http.IFormCollection*
+CorsSettings2this[string].getŸ
+÷
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.cs] ](A
+%10string"VSystem.Linq.Enumerable.First<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*4
+2
+%9,Microsoft.Extensions.Primitives.StringValuesÕ
+ 
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.cs] ](A
+
+configJsonstring"__id*
+
+%10stringÕ
+ 
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.cs^ ^(]8
+%111OrchardCore.Cors.ViewModels.CorsPolicyViewModel[]"8Newtonsoft.Json.JsonConvert.DeserializeObject<T>(string)*"
+Newtonsoft.Json.JsonConvert*
+
+
+configJsonstringî
+ë
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.cs^ ^(]8
+%121OrchardCore.Cors.ViewModels.CorsPolicyViewModel[]">OrchardCore.Cors.ViewModels.CorsSettingsViewModel.Policies.set*<
+:
+model1OrchardCore.Cors.ViewModels.CorsSettingsViewModel*:
+8
+%111OrchardCore.Cors.ViewModels.CorsPolicyViewModel[]ÔÏ
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.cs` `(<)
+%13"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>Ö
+Ç
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.cs`# `(:
+%14void")System.Collections.Generic.List<T>.List()*+
+)
+%13"System.Collections.Generic.List<T>á
+Ñ
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.cs` `(<2
+corsPolicies"System.Collections.Generic.List<T>"__id*+
+)
+%13"System.Collections.Generic.List<T>ÿ
+’
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.csb- b(;8
+%151OrchardCore.Cors.ViewModels.CorsPolicyViewModel[]">OrchardCore.Cors.ViewModels.CorsSettingsViewModel.Policies.get*<
+:
+model1OrchardCore.Cors.ViewModels.CorsSettingsViewModel*
+3*®
+3ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.cs}	 }(	*
+4
+5*à4
+4ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.csd n(EÅ˛
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.csd! p(2
+%16+OrchardCore.Cors.Settings.CorsPolicySetting"+OrchardCore.Cors.Settings.CorsPolicySetting§
+°
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.csd% d(6
+%17void"?OrchardCore.Cors.Settings.CorsPolicySetting.CorsPolicySetting()*4
+2
+%16+OrchardCore.Cors.Settings.CorsPolicySetting∞
+≠
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.csf f(0
+%18string"8OrchardCore.Cors.ViewModels.CorsPolicyViewModel.Name.get*E
+C
+settingViewModel/OrchardCore.Cors.ViewModels.CorsPolicyViewModel¨
+©
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.csf f(0
+%19string"4OrchardCore.Cors.Settings.CorsPolicySetting.Name.set*4
+2
+%16+OrchardCore.Cors.Settings.CorsPolicySetting*
+
+%18string∏
+µ
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.csg% g(D
+%20bool"BOrchardCore.Cors.ViewModels.CorsPolicyViewModel.AllowAnyHeader.get*E
+C
+settingViewModel/OrchardCore.Cors.ViewModels.CorsPolicyViewModel≤
+Ø
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.csg g(D
+%21bool">OrchardCore.Cors.Settings.CorsPolicySetting.AllowAnyHeader.set*4
+2
+%16+OrchardCore.Cors.Settings.CorsPolicySetting*
+
+%20bool∏
+µ
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.csh% h(D
+%22bool"BOrchardCore.Cors.ViewModels.CorsPolicyViewModel.AllowAnyMethod.get*E
+C
+settingViewModel/OrchardCore.Cors.ViewModels.CorsPolicyViewModel≤
+Ø
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.csh h(D
+%23bool">OrchardCore.Cors.Settings.CorsPolicySetting.AllowAnyMethod.set*4
+2
+%16+OrchardCore.Cors.Settings.CorsPolicySetting*
+
+%22bool∏
+µ
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.csi% i(D
+%24bool"BOrchardCore.Cors.ViewModels.CorsPolicyViewModel.AllowAnyOrigin.get*E
+C
+settingViewModel/OrchardCore.Cors.ViewModels.CorsPolicyViewModel≤
+Ø
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.csi i(D
+%25bool">OrchardCore.Cors.Settings.CorsPolicySetting.AllowAnyOrigin.set*4
+2
+%16+OrchardCore.Cors.Settings.CorsPolicySetting*
+
+%24bool∫
+∑
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.csj' j(H
+%26bool"DOrchardCore.Cors.ViewModels.CorsPolicyViewModel.AllowCredentials.get*E
+C
+settingViewModel/OrchardCore.Cors.ViewModels.CorsPolicyViewModel¥
+±
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.csj j(H
+%27bool"@OrchardCore.Cors.Settings.CorsPolicySetting.AllowCredentials.set*4
+2
+%16+OrchardCore.Cors.Settings.CorsPolicySetting*
+
+%26boolº
+π
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.csk% k(D
+%28string[]"BOrchardCore.Cors.ViewModels.CorsPolicyViewModel.AllowedHeaders.get*E
+C
+settingViewModel/OrchardCore.Cors.ViewModels.CorsPolicyViewModel∫
+∑
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.csk k(D
+%29string[]">OrchardCore.Cors.Settings.CorsPolicySetting.AllowedHeaders.set*4
+2
+%16+OrchardCore.Cors.Settings.CorsPolicySetting*
+
+%28string[]º
+π
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.csl% l(D
+%30string[]"BOrchardCore.Cors.ViewModels.CorsPolicyViewModel.AllowedMethods.get*E
+C
+settingViewModel/OrchardCore.Cors.ViewModels.CorsPolicyViewModel∫
+∑
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.csl l(D
+%31string[]">OrchardCore.Cors.Settings.CorsPolicySetting.AllowedMethods.set*4
+2
+%16+OrchardCore.Cors.Settings.CorsPolicySetting*
+
+%30string[]º
+π
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.csm% m(D
+%32string[]"BOrchardCore.Cors.ViewModels.CorsPolicyViewModel.AllowedOrigins.get*E
+C
+settingViewModel/OrchardCore.Cors.ViewModels.CorsPolicyViewModel∫
+∑
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.csm m(D
+%33string[]">OrchardCore.Cors.Settings.CorsPolicySetting.AllowedOrigins.set*4
+2
+%16+OrchardCore.Cors.Settings.CorsPolicySetting*
+
+%32string[]π
+∂
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.csn% n(E
+%34bool"COrchardCore.Cors.ViewModels.CorsPolicyViewModel.IsDefaultPolicy.get*E
+C
+settingViewModel/OrchardCore.Cors.ViewModels.CorsPolicyViewModel≥
+∞
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.csn n(E
+%35bool"?OrchardCore.Cors.Settings.CorsPolicySetting.IsDefaultPolicy.set*4
+2
+%16+OrchardCore.Cors.Settings.CorsPolicySetting*
+
+%34bool©
+¶
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.csd p(
+%36void"
+__arrayAdd*4
+2
+corsPolicies"System.Collections.Generic.List<T>*: *4
+2
+%16+OrchardCore.Cors.Settings.CorsPolicySetting*
+3*›!
+5ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.css |(˜Ù
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.css v(-
+%37&OrchardCore.Cors.Settings.CorsSettings"&OrchardCore.Cors.Settings.CorsSettingsï
+í
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.css# s(/
+%38void"5OrchardCore.Cors.Settings.CorsSettings.CorsSettings()*/
+-
+%37&OrchardCore.Cors.Settings.CorsSettingsÓ
+Î
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.csu u('0
+%39)System.Collections.Generic.IEnumerable<T>"3OrchardCore.Cors.Settings.CorsSettings.Policies.set*/
+-
+%37&OrchardCore.Cors.Settings.CorsSettings*4
+2
+corsPolicies"System.Collections.Generic.List<T>è
+å
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.css v(6
+corsSettings&OrchardCore.Cors.Settings.CorsSettings"__id*/
+-
+%37&OrchardCore.Cors.Settings.CorsSettingsø
+º
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.csx x(,
+%40%OrchardCore.Cors.Services.CorsService"__id*i*g.
+,OrchardCore.Cors.Controllers.AdminController"5
+_corsService%OrchardCore.Cors.Services.CorsServiceë
+é
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.csx x(@"
+%41System.Threading.Tasks.Task"aOrchardCore.Cors.Services.CorsService.UpdateSettingsAsync(OrchardCore.Cors.Settings.CorsSettings)*.
+,
+%40%OrchardCore.Cors.Services.CorsService*8
+6
+corsSettings&OrchardCore.Cors.Settings.CorsSettingsŒ
+À
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.csz z(5
+%42.OrchardCore.DisplayManagement.Notify.INotifier"__id*o*m.
+,OrchardCore.Cors.Controllers.AdminController";
+	_notifier.OrchardCore.DisplayManagement.Notify.INotifierÈ
+Ê
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.csz z( F
+%43?Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer<TResource>"__id*y*w.
+,OrchardCore.Cors.Controllers.AdminController"E
+TH?Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer<TResource>∑¥
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.csz z(P@
+%449Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString"EMicrosoft.AspNetCore.Mvc.Localization.IHtmlLocalizer.this[string].get*H
+F
+%43?Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer<TResource>*0.
+,The CORS settings have updated successfully.2this[string].getî
+ë
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.csz z(Q
+%45void"™OrchardCore.DisplayManagement.Notify.NotifierExtensions.Success(OrchardCore.DisplayManagement.Notify.INotifier, Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString)*;"9
+7OrchardCore.DisplayManagement.Notify.NotifierExtensions*7
+5
+%42.OrchardCore.DisplayManagement.Notify.INotifier*B
+@
+%449Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlStringÛ
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.cs| |(*
+%46#Microsoft.AspNetCore.Mvc.ViewResult"0Microsoft.AspNetCore.Mvc.Controller.View(object)*'%
+#Microsoft.AspNetCore.Mvc.Controller*<
+:
+model1OrchardCore.Cors.ViewModels.CorsSettingsViewModel2View(object)"À
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.cs| |(,
+*
+%46#Microsoft.AspNetCore.Mvc.ViewResult*’
+6ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.cs}	 }(	"≤
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.cs} }(	
+implicit return*›
+7ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.csU3 U(3µ
+≤
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Cors\Controllers\AdminController.csU( U(1
+%47"__entrypoint*
+0B0.
+,OrchardCore.Cors.Controllers.AdminController

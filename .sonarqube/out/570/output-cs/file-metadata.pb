@@ -1,0 +1,7 @@
+Ì
+ÀD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentPreview\obj\Debug\netcoreapp3.1\Razor\Views\ContentPreview.Button.cshtml.g.csutf-8Ï
+ÃD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentPreview\obj\Debug\netcoreapp3.1\Razor\Views\PreviewPartSettings.Edit.cshtml.g.csutf-8Ä
+¸D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentPreview\obj\Debug\netcoreapp3.1\Razor\Views\Preview\Index.cshtml.g.csutf-8Å
+¹D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentPreview\obj\Debug\netcoreapp3.1\Razor\Views\Preview\Render.cshtml.g.csutf-8Ã
+·D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentPreview\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.csutf-8Ô
+ÈD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentPreview\obj\Debug\netcoreapp3.1\OrchardCore.ContentPreview.RazorTargetAssemblyInfo.csutf-8

@@ -1,0 +1,2 @@
+Ì
+ÀD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Application.Mvc.Targets\obj\Debug\net5.0\OrchardCore.Application.Mvc.Targets.AssemblyInfo.csutf-8

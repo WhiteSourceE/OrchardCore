@@ -1,0 +1,278 @@
+
+ûOrchardCore.Shortcodes.Controllers.AdminController.IndexPost(OrchardCore.Shortcodes.ViewModels.ContentOptions, System.Collections.Generic.IEnumerable<string>)¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\Controllers\AdminController.cs≥( ≥(1"16*Ê
+0¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\Controllers\AdminController.csµ µ(f˝
+˙
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\Controllers\AdminController.csµ µ(,>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*å*â4
+2OrchardCore.Shortcodes.Controllers.AdminController"Q
+_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationServiceµ
+≤
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\Controllers\AdminController.csµ< µ(@,
+%1&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase‘
+—
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\Controllers\AdminController.csµB µ(f1
+%2+OrchardCore.Security.Permissions.Permission"__id*q*o$
+"OrchardCore.Shortcodes.Permissions"G
+ManageShortcodeTemplates+OrchardCore.Security.Permissions.Permission§
+°
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\Controllers\AdminController.csµ µ(g*
+%3$System.Threading.Tasks.Task<TResult>"ﬂMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission)*E"C
+AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*@
+>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService*.
+,
+%1&System.Security.Claims.ClaimsPrincipal*3
+1
+%2+OrchardCore.Security.Permissions.Permission*
+1
+2*¿
+1¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\Controllers\AdminController.cs∑ ∑(æª
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\Controllers\AdminController.cs∑ ∑(+
+%4%Microsoft.AspNetCore.Mvc.ForbidResult"0Microsoft.AspNetCore.Mvc.ControllerBase.Forbid()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2Forbid()"‘
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\Controllers\AdminController.cs∑ ∑( -
++
+%4%Microsoft.AspNetCore.Mvc.ForbidResult*∞
+2¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\Controllers\AdminController.cs∫ ∫(*
+3
+4*è
+4¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\Controllers\AdminController.cs∫ ∫(ﬂ
+‹
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\Controllers\AdminController.cs∫ ∫( 	
+%5int"VSystem.Linq.Enumerable.Count<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*6
+4
+itemIds)System.Collections.Generic.IEnumerable<T>*
+3*∞
+3¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\Controllers\AdminController.cs∫ ∫($*
+5
+6*ê
+5¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\Controllers\AdminController.csº æ(*Ñ
+Å
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\Controllers\AdminController.csº7 º(Q?
+%69OrchardCore.Shortcodes.Services.ShortcodeTemplatesManager"__id*í*è4
+2OrchardCore.Shortcodes.Controllers.AdminController"W
+_shortcodeTemplatesManager9OrchardCore.Shortcodes.Services.ShortcodeTemplatesManager¯
+ı
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\Controllers\AdminController.csº7 º(w*
+%7$System.Threading.Tasks.Task<TResult>"_OrchardCore.Shortcodes.Services.ShortcodeTemplatesManager.LoadShortcodeTemplatesDocumentAsync()*A
+?
+%69OrchardCore.Shortcodes.Services.ShortcodeTemplatesManageré
+ã
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\Controllers\AdminController.csº º(wV
+shortcodeTemplatesDocument8OrchardCore.Shortcodes.Models.ShortcodeTemplatesDocument"__id*
+""é
+ã
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\Controllers\AdminController.csΩ* Ω(W9
+%83System.Collections.Generic.Dictionary<TKey, TValue>"OOrchardCore.Shortcodes.Models.ShortcodeTemplatesDocument.ShortcodeTemplates.get*X
+V
+shortcodeTemplatesDocument8OrchardCore.Shortcodes.Models.ShortcodeTemplatesDocumentÆ
+´
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\Controllers\AdminController.csΩ* Ω({/
+%9)System.Collections.Generic.IEnumerable<T>"rSystem.Linq.Enumerable.Where<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
+System.Linq.Enumerable*;
+9
+%83System.Collections.Generic.Dictionary<TKey, TValue>*
+""£
+†
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\Controllers\AdminController.csΩ Ω({@
+checkedContentItems)System.Collections.Generic.IEnumerable<T>"__id*1
+/
+%9)System.Collections.Generic.IEnumerable<T>Â
+‚
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\Controllers\AdminController.csæ æ(*;
+%104OrchardCore.Shortcodes.ViewModels.ContentsBulkAction"?OrchardCore.Shortcodes.ViewModels.ContentOptions.BulkAction.get*=
+;
+options0OrchardCore.Shortcodes.ViewModels.ContentOptions*
+7*∞
+7¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\Controllers\AdminController.csæ æ(**
+8
+9*≠
+8¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\Controllers\AdminController.csœ	 œ(	*
+6*≤
+9¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\Controllers\AdminController.csæ æ(**
+10
+11*Ø
+10¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\Controllers\AdminController.cs√- √(@*
+12*≥
+12¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\Controllers\AdminController.csœ	 œ(	*
+13
+14*ı	
+13¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\Controllers\AdminController.cs≈ ≈(bÖ
+Ç
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\Controllers\AdminController.cs≈" ≈(<@
+%119OrchardCore.Shortcodes.Services.ShortcodeTemplatesManager"__id*í*è4
+2OrchardCore.Shortcodes.Controllers.AdminController"W
+_shortcodeTemplatesManager9OrchardCore.Shortcodes.Services.ShortcodeTemplatesManager∑
+¥
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\Controllers\AdminController.cs≈Z ≈(b
+%12string"=System.Collections.Generic.KeyValuePair<TKey, TValue>.Key.get*?
+=
+item5System.Collections.Generic.KeyValuePair<TKey, TValue>Å
+˛
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\Controllers\AdminController.cs≈" ≈(c"
+%13System.Threading.Tasks.Task"^OrchardCore.Shortcodes.Services.ShortcodeTemplatesManager.RemoveShortcodeTemplateAsync(string)*B
+@
+%119OrchardCore.Shortcodes.Services.ShortcodeTemplatesManager*
+
+%12string*
+12*√
+14¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\Controllers\AdminController.cs« «(W‹
+Ÿ
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\Controllers\AdminController.cs« «(!5
+%14.OrchardCore.DisplayManagement.Notify.INotifier"__id*u*s4
+2OrchardCore.Shortcodes.Controllers.AdminController";
+	_notifier.OrchardCore.DisplayManagement.Notify.INotifier‡
+›
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\Controllers\AdminController.cs«* «(+;
+%154Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer"__id*s*q4
+2OrchardCore.Shortcodes.Controllers.AdminController"9
+H4Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer±Æ
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\Controllers\AdminController.cs«* «(X@
+%169Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString"EMicrosoft.AspNetCore.Mvc.Localization.IHtmlLocalizer.this[string].get*=
+;
+%154Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer*-+
+)Shortcode templates successfully removed.2this[string].getú
+ô
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\Controllers\AdminController.cs« «(Y
+%17void"™OrchardCore.DisplayManagement.Notify.NotifierExtensions.Success(OrchardCore.DisplayManagement.Notify.INotifier, Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString)*;"9
+7OrchardCore.DisplayManagement.Notify.NotifierExtensions*7
+5
+%14.OrchardCore.DisplayManagement.Notify.INotifier*B
+@
+%169Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString*
+6*–
+11¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\Controllers\AdminController.cs   (?˜Ù
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\Controllers\AdminController.cs   (?)
+%18"System.ArgumentOutOfRangeException""System.ArgumentOutOfRangeException§
+°
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\Controllers\AdminController.cs "  (=
+%19void"@System.ArgumentOutOfRangeException.ArgumentOutOfRangeException()*+
+)
+%18"System.ArgumentOutOfRangeException*
+15*Å
+6¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\Controllers\AdminController.csŒ Œ(+ÙÒ
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\Controllers\AdminController.csŒ Œ(,6
+%20/Microsoft.AspNetCore.Mvc.RedirectToActionResult"@Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToAction(string)*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*	
+Index2RedirectToAction(string)"ﬂ
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\Controllers\AdminController.csŒ Œ(-8
+6
+%20/Microsoft.AspNetCore.Mvc.RedirectToActionResult*Ê
+15¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\Controllers\AdminController.csœ	 œ(	"∫
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\Controllers\AdminController.csœ œ(	
+implicit return*ñ
+16¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\Controllers\AdminController.cs≥q ≥(qò
+ï
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\Controllers\AdminController.cs≥( ≥(1`
+;
+options0OrchardCore.Shortcodes.ViewModels.ContentOptions"!
+<Search>k__BackingFieldstring"__entrypointá
+Ñ
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\Controllers\AdminController.cs≥( ≥(1O
+;
+options0OrchardCore.Shortcodes.ViewModels.ContentOptions"
+Searchstring"__entrypoint¡
+æ
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\Controllers\AdminController.cs≥( ≥(1à
+;
+options0OrchardCore.Shortcodes.ViewModels.ContentOptions"I
+#<ContentsBulkAction>k__BackingField"System.Collections.Generic.List<T>"__entrypointØ
+¨
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\Controllers\AdminController.cs≥( ≥(1w
+;
+options0OrchardCore.Shortcodes.ViewModels.ContentOptions"8
+ContentsBulkAction"System.Collections.Generic.List<T>"__entrypointı
+Ú
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\Controllers\AdminController.cs≥( ≥(1
+%21"__entrypoint*6
+4
+itemIds)System.Collections.Generic.IEnumerable<T>∑
+¥
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\Controllers\AdminController.cs±	 ±(
+%22"
+__annotate*B@
+>Microsoft.AspNetCore.Mvc.HttpPostAttribute.HttpPostAttribute()*6
+4
+itemIds)System.Collections.Generic.IEnumerable<T>¡
+æ
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\Controllers\AdminController.cs± ±(&
+%23"
+__annotate*LJ
+HMicrosoft.AspNetCore.Mvc.ActionNameAttribute.ActionNameAttribute(string)*6
+4
+itemIds)System.Collections.Generic.IEnumerable<T> 
+«
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\Controllers\AdminController.cs≤	 ≤(/
+%24"
+__annotate*US
+QOrchardCore.Routing.FormValueRequiredAttribute.FormValueRequiredAttribute(string)*6
+4
+itemIds)System.Collections.Generic.IEnumerable<T>á
+Ñ
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Shortcodes\Controllers\AdminController.cs≥U ≥(p4
+itemIds)System.Collections.Generic.IEnumerable<T>"__annotation*
+
+%22*
+
+%23*
+
+%24*
+0:;
+options0OrchardCore.Shortcodes.ViewModels.ContentOptions:4
+itemIds)System.Collections.Generic.IEnumerable<T>B64
+2OrchardCore.Shortcodes.Controllers.AdminController

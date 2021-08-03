@@ -1,0 +1,929 @@
+
+>OrchardCore.Environment.Shell.ShellStateUpdater.ApplyChanges()à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.cs' '(&"0*¬
+0à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.cs) )(6®
+•
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.cs) )(*
+%0$Microsoft.Extensions.Logging.ILogger"__id*f*d1
+/OrchardCore.Environment.Shell.ShellStateUpdater"/
+_logger$Microsoft.Extensions.Logging.ILogger¢
+ü
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.cs)" )(6
+%1"__id*
+""Ÿ÷
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.cs) )(7
+
+%2bool"UMicrosoft.Extensions.Logging.ILogger.IsEnabled(Microsoft.Extensions.Logging.LogLevel)*,
+*
+%0$Microsoft.Extensions.Logging.ILogger*
+
+%120IsEnabled(Microsoft.Extensions.Logging.LogLevel)*
+1
+2*¬
+1à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.cs+ +(g®
+•
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.cs+ +(*
+%3$Microsoft.Extensions.Logging.ILogger"__id*f*d1
+/OrchardCore.Environment.Shell.ShellStateUpdater"/
+_logger$Microsoft.Extensions.Logging.ILogger∏
+µ
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.cs+Y +(b1
+%4+OrchardCore.Environment.Shell.ShellSettings"__id*o*m1
+/OrchardCore.Environment.Shell.ShellStateUpdater"8
+	_settings+OrchardCore.Environment.Shell.ShellSettingsá
+Ñ
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.cs+Y +(g
+%5string"4OrchardCore.Environment.Shell.ShellSettings.Name.get*3
+1
+%4+OrchardCore.Environment.Shell.ShellSettingsº
+π
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.cs+ +(h
+
+%6void"{Microsoft.Extensions.Logging.LoggerExtensions.LogInformation(Microsoft.Extensions.Logging.ILogger, string, params object[])*1"/
+-Microsoft.Extensions.Logging.LoggerExtensions*,
+*
+%3$Microsoft.Extensions.Logging.ILogger*20
+.Applying changes for for tenant '{TenantName}'*
+
+%5string*
+2*õE
+2â
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.cs. Q(á”
+–
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.cs.' .(8:
+%74OrchardCore.Environment.Extensions.IExtensionManager"__id*Ä*~1
+/OrchardCore.Environment.Shell.ShellStateUpdater"I
+_extensionManager4OrchardCore.Environment.Extensions.IExtensionManager◊‘
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.cs.' .(L*
+%8$System.Threading.Tasks.Task<TResult>"HOrchardCore.Environment.Extensions.IExtensionManager.LoadFeaturesAsync()*<
+:
+%74OrchardCore.Environment.Extensions.IExtensionManager2LoadFeaturesAsync()Ÿ
+÷
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.cs. .(L;
+loadedFeatures)System.Collections.Generic.IEnumerable<T>"__id*
+""∆
+√
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.cs0# 0(06
+%90OrchardCore.Environment.Shell.IShellStateManager"__id*x*v1
+/OrchardCore.Environment.Shell.ShellStateUpdater"A
+_stateManager0OrchardCore.Environment.Shell.IShellStateManager“œ
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.cs0# 0(E+
+%10$System.Threading.Tasks.Task<TResult>"EOrchardCore.Environment.Shell.IShellStateManager.GetShellStateAsync()*8
+6
+%90OrchardCore.Environment.Shell.IShellStateManager2GetShellStateAsync()⁄
+◊
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.cs0 0(E<
+
+shellState.OrchardCore.Environment.Shell.State.ShellState"__id*
+""§
+°
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.cs3  9(0
+%11)System.Collections.Generic.IEnumerable<T>"System.Linq.Enumerable.Select<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)*"
+System.Linq.Enumerable*=
+;
+loadedFeatures)System.Collections.Generic.IEnumerable<T>*
+""å
+â
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.cs3  :(;0
+%12)System.Collections.Generic.IEnumerable<T>"rSystem.Linq.Enumerable.Where<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
+System.Linq.Enumerable*2
+0
+%11)System.Collections.Generic.IEnumerable<T>*
+""ß
+§
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.cs3  ;(Ï
+%13‰<anonymous type: OrchardCore.Environment.Extensions.Features.FeatureEntry Feature, OrchardCore.Environment.Extensions.Features.IFeatureInfo FeatureDescriptor, OrchardCore.Environment.Shell.State.ShellFeatureState FeatureState>[]"XSystem.Linq.Enumerable.ToArray<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*2
+0
+%12)System.Collections.Generic.IEnumerable<T>ˇ
+¸
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.cs3 ;(ˆ
+loadedEntries‰<anonymous type: OrchardCore.Environment.Extensions.Features.FeatureEntry Feature, OrchardCore.Environment.Extensions.Features.IFeatureInfo FeatureDescriptor, OrchardCore.Environment.Shell.State.ShellFeatureState FeatureState>[]"__id*Ô
+Ï
+%13‰<anonymous type: OrchardCore.Environment.Extensions.Features.FeatureEntry Feature, OrchardCore.Environment.Extensions.Features.IFeatureInfo FeatureDescriptor, OrchardCore.Environment.Shell.State.ShellFeatureState FeatureState>[]∂
+≥
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.cs>" >(5)
+%14"System.Collections.Generic.List<T>";OrchardCore.Environment.Shell.State.ShellState.Features.get*>
+<
+
+shellState.OrchardCore.Environment.Shell.State.ShellState·
+ﬁ
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.cs>= >(n0
+%15)System.Collections.Generic.IEnumerable<T>"System.Linq.Enumerable.Select<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)*"
+System.Linq.Enumerable*˘
+ˆ
+loadedEntries‰<anonymous type: OrchardCore.Environment.Extensions.Features.FeatureEntry Feature, OrchardCore.Environment.Extensions.Features.IFeatureInfo FeatureDescriptor, OrchardCore.Environment.Shell.State.ShellFeatureState FeatureState>[]*
+""»
+≈
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.cs>" >(o0
+%16)System.Collections.Generic.IEnumerable<T>"àSystem.Linq.Enumerable.Except<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*+
+)
+%14"System.Collections.Generic.List<T>*2
+0
+%15)System.Collections.Generic.IEnumerable<T>Ü
+É
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.cs> >(o<
+additionalState)System.Collections.Generic.IEnumerable<T>"__id*2
+0
+%16)System.Collections.Generic.IEnumerable<T>•
+¢
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csA2 N(0
+%17)System.Collections.Generic.IEnumerable<T>"System.Linq.Enumerable.Select<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)*"
+System.Linq.Enumerable*>
+<
+additionalState)System.Collections.Generic.IEnumerable<T>*
+""ó
+î
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csA N(0
+%18)System.Collections.Generic.IEnumerable<T>"àSystem.Linq.Enumerable.Concat<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*˘
+ˆ
+loadedEntries‰<anonymous type: OrchardCore.Environment.Extensions.Features.FeatureEntry Feature, OrchardCore.Environment.Extensions.Features.IFeatureInfo FeatureDescriptor, OrchardCore.Environment.Shell.State.ShellFeatureState FeatureState>[]*2
+0
+%17)System.Collections.Generic.IEnumerable<T>ß
+§
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csA N(Ï
+%19‰<anonymous type: OrchardCore.Environment.Extensions.Features.FeatureEntry Feature, OrchardCore.Environment.Extensions.Features.IFeatureInfo FeatureDescriptor, OrchardCore.Environment.Shell.State.ShellFeatureState FeatureState>[]"XSystem.Linq.Enumerable.ToArray<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*2
+0
+%18)System.Collections.Generic.IEnumerable<T>¸
+˘
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csA N(Û
+
+allEntries‰<anonymous type: OrchardCore.Environment.Extensions.Features.FeatureEntry Feature, OrchardCore.Environment.Extensions.Features.IFeatureInfo FeatureDescriptor, OrchardCore.Environment.Shell.State.ShellFeatureState FeatureState>[]"__id*Ô
+Ï
+%19‰<anonymous type: OrchardCore.Environment.Extensions.Features.FeatureEntry Feature, OrchardCore.Environment.Extensions.Features.IFeatureInfo FeatureDescriptor, OrchardCore.Environment.Shell.State.ShellFeatureState FeatureState>[]Ø
+¨
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csQ" Q(60
+%20)System.Collections.Generic.IEnumerable<T>"XSystem.Linq.Enumerable.Reverse<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*ˆ
+Û
+
+allEntries‰<anonymous type: OrchardCore.Environment.Extensions.Features.FeatureEntry Feature, OrchardCore.Environment.Extensions.Features.IFeatureInfo FeatureDescriptor, OrchardCore.Environment.Shell.State.ShellFeatureState FeatureState>[]ç
+ä
+â
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csQ" Q(à0
+%21)System.Collections.Generic.IEnumerable<T>"rSystem.Linq.Enumerable.Where<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
+System.Linq.Enumerable*2
+0
+%20)System.Collections.Generic.IEnumerable<T>*
+""*
+3*ò
+3ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csÑ	 Ñ(	*
+4
+5*«
+4à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csS S(:©
+¶
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csS S(+
+%22$Microsoft.Extensions.Logging.ILogger"__id*f*d1
+/OrchardCore.Environment.Shell.ShellStateUpdater"/
+_logger$Microsoft.Extensions.Logging.ILogger£
+†
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csS& S(:
+%23"__id*
+""‹Ÿ
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csS S(;
+%24bool"UMicrosoft.Extensions.Logging.ILogger.IsEnabled(Microsoft.Extensions.Logging.LogLevel)*-
++
+%22$Microsoft.Extensions.Logging.ILogger*
+
+%2320IsEnabled(Microsoft.Extensions.Logging.LogLevel)*
+6
+7*¥
+6à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csU U(l©
+¶
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csU U(+
+%25$Microsoft.Extensions.Logging.ILogger"__id*f*d1
+/OrchardCore.Environment.Shell.ShellStateUpdater"/
+_logger$Microsoft.Extensions.Logging.ILogger≤
+Ø
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csUP U(]?
+%268OrchardCore.Environment.Extensions.Features.FeatureEntry"Ó<anonymous type: OrchardCore.Environment.Extensions.Features.FeatureEntry Feature, OrchardCore.Environment.Extensions.Features.IFeatureInfo FeatureDescriptor, OrchardCore.Environment.Shell.State.ShellFeatureState FeatureState>.Feature.get*Ô
+Ï
+entry‚<anonymous type: OrchardCore.Environment.Extensions.Features.FeatureEntry Feature, OrchardCore.Environment.Extensions.Features.IFeatureInfo FeatureDescriptor, OrchardCore.Environment.Shell.State.ShellFeatureState FeatureState>‹
+Ÿ
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csUP U(i?
+%278OrchardCore.Environment.Extensions.Features.IFeatureInfo"HOrchardCore.Environment.Extensions.Features.FeatureEntry.FeatureInfo.get*A
+?
+%268OrchardCore.Environment.Extensions.Features.FeatureEntry©¶
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csUP U(l
+%28string"?OrchardCore.Environment.Extensions.Features.IFeatureInfo.Id.get*A
+?
+%278OrchardCore.Environment.Extensions.Features.IFeatureInfo2Id.get≤
+Ø
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csU U(m
+%29void"{Microsoft.Extensions.Logging.LoggerExtensions.LogInformation(Microsoft.Extensions.Logging.ILogger, string, params object[])*1"/
+-Microsoft.Extensions.Logging.LoggerExtensions*-
++
+%25$Microsoft.Extensions.Logging.ILogger*%#
+!Disabling feature '{FeatureName}'*
+
+%28string*
+7*ë3
+7â
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csX Z(ò¡
+æ
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csX X(+0
+%30)System.Collections.Generic.IEnumerable<T>"__id*y*w1
+/OrchardCore.Environment.Shell.ShellStateUpdater"B
+_featureEventHandlers)System.Collections.Generic.IEnumerable<T>≥
+∞
+â
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csXw X(Ñ?
+%318OrchardCore.Environment.Extensions.Features.FeatureEntry"Ó<anonymous type: OrchardCore.Environment.Extensions.Features.FeatureEntry Feature, OrchardCore.Environment.Extensions.Features.IFeatureInfo FeatureDescriptor, OrchardCore.Environment.Shell.State.ShellFeatureState FeatureState>.Feature.get*Ô
+Ï
+entry‚<anonymous type: OrchardCore.Environment.Extensions.Features.FeatureEntry Feature, OrchardCore.Environment.Extensions.Features.IFeatureInfo FeatureDescriptor, OrchardCore.Environment.Shell.State.ShellFeatureState FeatureState>›
+⁄
+â
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csXw X(ê?
+%328OrchardCore.Environment.Extensions.Features.IFeatureInfo"HOrchardCore.Environment.Extensions.Features.FeatureEntry.FeatureInfo.get*A
+?
+%318OrchardCore.Environment.Extensions.Features.FeatureEntry´
+®
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csXí X(ô+
+%33$Microsoft.Extensions.Logging.ILogger"__id*f*d1
+/OrchardCore.Environment.Shell.ShellStateUpdater"/
+_logger$Microsoft.Extensions.Logging.ILogger›
+⁄
+â
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csX X(ö"
+%34System.Threading.Tasks.Task"œOrchardCore.Modules.InvokeExtensions.InvokeAsync<TEvents, T1>(System.Collections.Generic.IEnumerable<TEvents>, System.Func<TEvents, T1, System.Threading.Tasks.Task>, T1, Microsoft.Extensions.Logging.ILogger)*("&
+$OrchardCore.Modules.InvokeExtensions*2
+0
+%30)System.Collections.Generic.IEnumerable<T>*
+""*A
+?
+%328OrchardCore.Environment.Extensions.Features.IFeatureInfo*-
++
+%33$Microsoft.Extensions.Logging.ILogger«
+ƒ
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csY Y(#7
+%350OrchardCore.Environment.Shell.IShellStateManager"__id*x*v1
+/OrchardCore.Environment.Shell.ShellStateUpdater"A
+_stateManager0OrchardCore.Environment.Shell.IShellStateManager¥
+±
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csY< Y(N<
+%365OrchardCore.Environment.Shell.State.ShellFeatureState"Û<anonymous type: OrchardCore.Environment.Extensions.Features.FeatureEntry Feature, OrchardCore.Environment.Extensions.Features.IFeatureInfo FeatureDescriptor, OrchardCore.Environment.Shell.State.ShellFeatureState FeatureState>.FeatureState.get*Ô
+Ï
+entry‚<anonymous type: OrchardCore.Environment.Extensions.Features.FeatureEntry Feature, OrchardCore.Environment.Extensions.Features.IFeatureInfo FeatureDescriptor, OrchardCore.Environment.Shell.State.ShellFeatureState FeatureState>£
+†
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csYP Y(l
+%37"__id*
+""ÉÄ
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csY Y(m"
+%38System.Threading.Tasks.Task"ºOrchardCore.Environment.Shell.IShellStateManager.UpdateEnabledStateAsync(OrchardCore.Environment.Shell.State.ShellFeatureState, OrchardCore.Environment.Shell.State.ShellFeatureState.State)*9
+7
+%350OrchardCore.Environment.Shell.IShellStateManager*>
+<
+%365OrchardCore.Environment.Shell.State.ShellFeatureState*
+
+%372ãUpdateEnabledStateAsync(OrchardCore.Environment.Shell.State.ShellFeatureState, OrchardCore.Environment.Shell.State.ShellFeatureState.State)¡
+æ
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csZ Z(+0
+%39)System.Collections.Generic.IEnumerable<T>"__id*y*w1
+/OrchardCore.Environment.Shell.ShellStateUpdater"B
+_featureEventHandlers)System.Collections.Generic.IEnumerable<T>≥
+∞
+â
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csZv Z(É?
+%408OrchardCore.Environment.Extensions.Features.FeatureEntry"Ó<anonymous type: OrchardCore.Environment.Extensions.Features.FeatureEntry Feature, OrchardCore.Environment.Extensions.Features.IFeatureInfo FeatureDescriptor, OrchardCore.Environment.Shell.State.ShellFeatureState FeatureState>.Feature.get*Ô
+Ï
+entry‚<anonymous type: OrchardCore.Environment.Extensions.Features.FeatureEntry Feature, OrchardCore.Environment.Extensions.Features.IFeatureInfo FeatureDescriptor, OrchardCore.Environment.Shell.State.ShellFeatureState FeatureState>›
+⁄
+â
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csZv Z(è?
+%418OrchardCore.Environment.Extensions.Features.IFeatureInfo"HOrchardCore.Environment.Extensions.Features.FeatureEntry.FeatureInfo.get*A
+?
+%408OrchardCore.Environment.Extensions.Features.FeatureEntry´
+®
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csZë Z(ò+
+%42$Microsoft.Extensions.Logging.ILogger"__id*f*d1
+/OrchardCore.Environment.Shell.ShellStateUpdater"/
+_logger$Microsoft.Extensions.Logging.ILogger›
+⁄
+â
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csZ Z(ô"
+%43System.Threading.Tasks.Task"œOrchardCore.Modules.InvokeExtensions.InvokeAsync<TEvents, T1>(System.Collections.Generic.IEnumerable<TEvents>, System.Func<TEvents, T1, System.Threading.Tasks.Task>, T1, Microsoft.Extensions.Logging.ILogger)*("&
+$OrchardCore.Modules.InvokeExtensions*2
+0
+%39)System.Collections.Generic.IEnumerable<T>*
+""*A
+?
+%418OrchardCore.Environment.Extensions.Features.IFeatureInfo*-
++
+%42$Microsoft.Extensions.Logging.ILogger*
+3*÷
+5â
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.cs^" ^(àØ
+¨
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.cs^" ^(60
+%44)System.Collections.Generic.IEnumerable<T>"XSystem.Linq.Enumerable.Reverse<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*ˆ
+Û
+
+allEntries‰<anonymous type: OrchardCore.Environment.Extensions.Features.FeatureEntry Feature, OrchardCore.Environment.Extensions.Features.IFeatureInfo FeatureDescriptor, OrchardCore.Environment.Shell.State.ShellFeatureState FeatureState>[]ç
+ä
+â
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.cs^" ^(â0
+%45)System.Collections.Generic.IEnumerable<T>"rSystem.Linq.Enumerable.Where<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
+System.Linq.Enumerable*2
+0
+%44)System.Collections.Generic.IEnumerable<T>*
+""*
+8*ô
+8ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csÑ	 Ñ(	*
+9
+10*…
+9à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.cs` `(:©
+¶
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.cs` `(+
+%46$Microsoft.Extensions.Logging.ILogger"__id*f*d1
+/OrchardCore.Environment.Shell.ShellStateUpdater"/
+_logger$Microsoft.Extensions.Logging.ILogger£
+†
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.cs`& `(:
+%47"__id*
+""‹Ÿ
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.cs` `(;
+%48bool"UMicrosoft.Extensions.Logging.ILogger.IsEnabled(Microsoft.Extensions.Logging.LogLevel)*-
++
+%46$Microsoft.Extensions.Logging.ILogger*
+
+%4720IsEnabled(Microsoft.Extensions.Logging.LogLevel)*
+11
+12*π
+11à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csb b(o©
+¶
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csb b(+
+%49$Microsoft.Extensions.Logging.ILogger"__id*f*d1
+/OrchardCore.Environment.Shell.ShellStateUpdater"/
+_logger$Microsoft.Extensions.Logging.ILogger≤
+Ø
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csbS b(`?
+%508OrchardCore.Environment.Extensions.Features.FeatureEntry"Ó<anonymous type: OrchardCore.Environment.Extensions.Features.FeatureEntry Feature, OrchardCore.Environment.Extensions.Features.IFeatureInfo FeatureDescriptor, OrchardCore.Environment.Shell.State.ShellFeatureState FeatureState>.Feature.get*Ô
+Ï
+entry‚<anonymous type: OrchardCore.Environment.Extensions.Features.FeatureEntry Feature, OrchardCore.Environment.Extensions.Features.IFeatureInfo FeatureDescriptor, OrchardCore.Environment.Shell.State.ShellFeatureState FeatureState>‹
+Ÿ
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csbS b(l?
+%518OrchardCore.Environment.Extensions.Features.IFeatureInfo"HOrchardCore.Environment.Extensions.Features.FeatureEntry.FeatureInfo.get*A
+?
+%508OrchardCore.Environment.Extensions.Features.FeatureEntry©¶
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csbS b(o
+%52string"?OrchardCore.Environment.Extensions.Features.IFeatureInfo.Id.get*A
+?
+%518OrchardCore.Environment.Extensions.Features.IFeatureInfo2Id.getµ
+≤
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csb b(p
+%53void"{Microsoft.Extensions.Logging.LoggerExtensions.LogInformation(Microsoft.Extensions.Logging.ILogger, string, params object[])*1"/
+-Microsoft.Extensions.Logging.LoggerExtensions*-
++
+%49$Microsoft.Extensions.Logging.ILogger*(&
+$Uninstalling feature '{FeatureName}'*
+
+%52string*
+12*ñ3
+12â
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.cse g(õ¡
+æ
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.cse e(+0
+%54)System.Collections.Generic.IEnumerable<T>"__id*y*w1
+/OrchardCore.Environment.Shell.ShellStateUpdater"B
+_featureEventHandlers)System.Collections.Generic.IEnumerable<T>≥
+∞
+â
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csez e(á?
+%558OrchardCore.Environment.Extensions.Features.FeatureEntry"Ó<anonymous type: OrchardCore.Environment.Extensions.Features.FeatureEntry Feature, OrchardCore.Environment.Extensions.Features.IFeatureInfo FeatureDescriptor, OrchardCore.Environment.Shell.State.ShellFeatureState FeatureState>.Feature.get*Ô
+Ï
+entry‚<anonymous type: OrchardCore.Environment.Extensions.Features.FeatureEntry Feature, OrchardCore.Environment.Extensions.Features.IFeatureInfo FeatureDescriptor, OrchardCore.Environment.Shell.State.ShellFeatureState FeatureState>›
+⁄
+â
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csez e(ì?
+%568OrchardCore.Environment.Extensions.Features.IFeatureInfo"HOrchardCore.Environment.Extensions.Features.FeatureEntry.FeatureInfo.get*A
+?
+%558OrchardCore.Environment.Extensions.Features.FeatureEntry´
+®
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.cseï e(ú+
+%57$Microsoft.Extensions.Logging.ILogger"__id*f*d1
+/OrchardCore.Environment.Shell.ShellStateUpdater"/
+_logger$Microsoft.Extensions.Logging.ILogger›
+⁄
+â
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.cse e(ù"
+%58System.Threading.Tasks.Task"œOrchardCore.Modules.InvokeExtensions.InvokeAsync<TEvents, T1>(System.Collections.Generic.IEnumerable<TEvents>, System.Func<TEvents, T1, System.Threading.Tasks.Task>, T1, Microsoft.Extensions.Logging.ILogger)*("&
+$OrchardCore.Modules.InvokeExtensions*2
+0
+%54)System.Collections.Generic.IEnumerable<T>*
+""*A
+?
+%568OrchardCore.Environment.Extensions.Features.IFeatureInfo*-
++
+%57$Microsoft.Extensions.Logging.ILogger«
+ƒ
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csf f(#7
+%590OrchardCore.Environment.Shell.IShellStateManager"__id*x*v1
+/OrchardCore.Environment.Shell.ShellStateUpdater"A
+_stateManager0OrchardCore.Environment.Shell.IShellStateManager¥
+±
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csf> f(P<
+%605OrchardCore.Environment.Shell.State.ShellFeatureState"Û<anonymous type: OrchardCore.Environment.Extensions.Features.FeatureEntry Feature, OrchardCore.Environment.Extensions.Features.IFeatureInfo FeatureDescriptor, OrchardCore.Environment.Shell.State.ShellFeatureState FeatureState>.FeatureState.get*Ô
+Ï
+entry‚<anonymous type: OrchardCore.Environment.Extensions.Features.FeatureEntry Feature, OrchardCore.Environment.Extensions.Features.IFeatureInfo FeatureDescriptor, OrchardCore.Environment.Shell.State.ShellFeatureState FeatureState>£
+†
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csfR f(n
+%61"__id*
+""áÑ
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csf f(o"
+%62System.Threading.Tasks.Task"æOrchardCore.Environment.Shell.IShellStateManager.UpdateInstalledStateAsync(OrchardCore.Environment.Shell.State.ShellFeatureState, OrchardCore.Environment.Shell.State.ShellFeatureState.State)*9
+7
+%590OrchardCore.Environment.Shell.IShellStateManager*>
+<
+%605OrchardCore.Environment.Shell.State.ShellFeatureState*
+
+%612çUpdateInstalledStateAsync(OrchardCore.Environment.Shell.State.ShellFeatureState, OrchardCore.Environment.Shell.State.ShellFeatureState.State)¡
+æ
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csg g(+0
+%63)System.Collections.Generic.IEnumerable<T>"__id*y*w1
+/OrchardCore.Environment.Shell.ShellStateUpdater"B
+_featureEventHandlers)System.Collections.Generic.IEnumerable<T>≥
+∞
+â
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csgy g(Ü?
+%648OrchardCore.Environment.Extensions.Features.FeatureEntry"Ó<anonymous type: OrchardCore.Environment.Extensions.Features.FeatureEntry Feature, OrchardCore.Environment.Extensions.Features.IFeatureInfo FeatureDescriptor, OrchardCore.Environment.Shell.State.ShellFeatureState FeatureState>.Feature.get*Ô
+Ï
+entry‚<anonymous type: OrchardCore.Environment.Extensions.Features.FeatureEntry Feature, OrchardCore.Environment.Extensions.Features.IFeatureInfo FeatureDescriptor, OrchardCore.Environment.Shell.State.ShellFeatureState FeatureState>›
+⁄
+â
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csgy g(í?
+%658OrchardCore.Environment.Extensions.Features.IFeatureInfo"HOrchardCore.Environment.Extensions.Features.FeatureEntry.FeatureInfo.get*A
+?
+%648OrchardCore.Environment.Extensions.Features.FeatureEntry´
+®
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csgî g(õ+
+%66$Microsoft.Extensions.Logging.ILogger"__id*f*d1
+/OrchardCore.Environment.Shell.ShellStateUpdater"/
+_logger$Microsoft.Extensions.Logging.ILogger›
+⁄
+â
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csg g(ú"
+%67System.Threading.Tasks.Task"œOrchardCore.Modules.InvokeExtensions.InvokeAsync<TEvents, T1>(System.Collections.Generic.IEnumerable<TEvents>, System.Func<TEvents, T1, System.Threading.Tasks.Task>, T1, Microsoft.Extensions.Logging.ILogger)*("&
+$OrchardCore.Modules.InvokeExtensions*2
+0
+%63)System.Collections.Generic.IEnumerable<T>*
+""*A
+?
+%658OrchardCore.Environment.Extensions.Features.IFeatureInfo*-
++
+%66$Microsoft.Extensions.Logging.ILogger*
+8*È
+10à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csk" k(X—
+Œ
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csk" k(Y0
+%68)System.Collections.Generic.IEnumerable<T>"rSystem.Linq.Enumerable.Where<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
+System.Linq.Enumerable*ˆ
+Û
+
+allEntries‰<anonymous type: OrchardCore.Environment.Extensions.Features.FeatureEntry Feature, OrchardCore.Environment.Extensions.Features.IFeatureInfo FeatureDescriptor, OrchardCore.Environment.Shell.State.ShellFeatureState FeatureState>[]*
+""*
+13*õ
+13ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csÑ	 Ñ(	*
+14
+15*”
+
+14à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csm m(U¥
+±
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csm m(&<
+%695OrchardCore.Environment.Shell.State.ShellFeatureState"Û<anonymous type: OrchardCore.Environment.Extensions.Features.FeatureEntry Feature, OrchardCore.Environment.Extensions.Features.IFeatureInfo FeatureDescriptor, OrchardCore.Environment.Shell.State.ShellFeatureState FeatureState>.FeatureState.get*Ô
+Ï
+entry‚<anonymous type: OrchardCore.Environment.Extensions.Features.FeatureEntry Feature, OrchardCore.Environment.Extensions.Features.IFeatureInfo FeatureDescriptor, OrchardCore.Environment.Shell.State.ShellFeatureState FeatureState>⁄
+◊
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csm m(3B
+%70;OrchardCore.Environment.Shell.State.ShellFeatureState.State"FOrchardCore.Environment.Shell.State.ShellFeatureState.InstallState.get*>
+<
+%695OrchardCore.Environment.Shell.State.ShellFeatureState£
+†
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csm7 m(U
+%71"__id*
+""*
+16
+17* 
+16à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.cso o(>©
+¶
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.cso o(+
+%72$Microsoft.Extensions.Logging.ILogger"__id*f*d1
+/OrchardCore.Environment.Shell.ShellStateUpdater"/
+_logger$Microsoft.Extensions.Logging.ILogger£
+†
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.cso* o(>
+%73"__id*
+""‹Ÿ
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.cso o(?
+%74bool"UMicrosoft.Extensions.Logging.ILogger.IsEnabled(Microsoft.Extensions.Logging.LogLevel)*-
++
+%72$Microsoft.Extensions.Logging.ILogger*
+
+%7320IsEnabled(Microsoft.Extensions.Logging.LogLevel)*
+18
+19*∑
+18à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csq q(q©
+¶
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csq q(+
+%75$Microsoft.Extensions.Logging.ILogger"__id*f*d1
+/OrchardCore.Environment.Shell.ShellStateUpdater"/
+_logger$Microsoft.Extensions.Logging.ILogger≤
+Ø
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csqU q(b?
+%768OrchardCore.Environment.Extensions.Features.FeatureEntry"Ó<anonymous type: OrchardCore.Environment.Extensions.Features.FeatureEntry Feature, OrchardCore.Environment.Extensions.Features.IFeatureInfo FeatureDescriptor, OrchardCore.Environment.Shell.State.ShellFeatureState FeatureState>.Feature.get*Ô
+Ï
+entry‚<anonymous type: OrchardCore.Environment.Extensions.Features.FeatureEntry Feature, OrchardCore.Environment.Extensions.Features.IFeatureInfo FeatureDescriptor, OrchardCore.Environment.Shell.State.ShellFeatureState FeatureState>‹
+Ÿ
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csqU q(n?
+%778OrchardCore.Environment.Extensions.Features.IFeatureInfo"HOrchardCore.Environment.Extensions.Features.FeatureEntry.FeatureInfo.get*A
+?
+%768OrchardCore.Environment.Extensions.Features.FeatureEntry©¶
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csqU q(q
+%78string"?OrchardCore.Environment.Extensions.Features.IFeatureInfo.Id.get*A
+?
+%778OrchardCore.Environment.Extensions.Features.IFeatureInfo2Id.get≥
+∞
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csq q(r
+%79void"{Microsoft.Extensions.Logging.LoggerExtensions.LogInformation(Microsoft.Extensions.Logging.ILogger, string, params object[])*1"/
+-Microsoft.Extensions.Logging.LoggerExtensions*-
++
+%75$Microsoft.Extensions.Logging.ILogger*&$
+"Installing feature '{FeatureName}'*
+
+%78string*
+19*ó3
+19â
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.cst v(ù¡
+æ
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.cst t(/0
+%80)System.Collections.Generic.IEnumerable<T>"__id*y*w1
+/OrchardCore.Environment.Shell.ShellStateUpdater"B
+_featureEventHandlers)System.Collections.Generic.IEnumerable<T>≥
+∞
+â
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.cst| t(â?
+%818OrchardCore.Environment.Extensions.Features.FeatureEntry"Ó<anonymous type: OrchardCore.Environment.Extensions.Features.FeatureEntry Feature, OrchardCore.Environment.Extensions.Features.IFeatureInfo FeatureDescriptor, OrchardCore.Environment.Shell.State.ShellFeatureState FeatureState>.Feature.get*Ô
+Ï
+entry‚<anonymous type: OrchardCore.Environment.Extensions.Features.FeatureEntry Feature, OrchardCore.Environment.Extensions.Features.IFeatureInfo FeatureDescriptor, OrchardCore.Environment.Shell.State.ShellFeatureState FeatureState>›
+⁄
+â
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.cst| t(ï?
+%828OrchardCore.Environment.Extensions.Features.IFeatureInfo"HOrchardCore.Environment.Extensions.Features.FeatureEntry.FeatureInfo.get*A
+?
+%818OrchardCore.Environment.Extensions.Features.FeatureEntry´
+®
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.cstó t(û+
+%83$Microsoft.Extensions.Logging.ILogger"__id*f*d1
+/OrchardCore.Environment.Shell.ShellStateUpdater"/
+_logger$Microsoft.Extensions.Logging.ILogger›
+⁄
+â
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.cst t(ü"
+%84System.Threading.Tasks.Task"œOrchardCore.Modules.InvokeExtensions.InvokeAsync<TEvents, T1>(System.Collections.Generic.IEnumerable<TEvents>, System.Func<TEvents, T1, System.Threading.Tasks.Task>, T1, Microsoft.Extensions.Logging.ILogger)*("&
+$OrchardCore.Modules.InvokeExtensions*2
+0
+%80)System.Collections.Generic.IEnumerable<T>*
+""*A
+?
+%828OrchardCore.Environment.Extensions.Features.IFeatureInfo*-
++
+%83$Microsoft.Extensions.Logging.ILogger«
+ƒ
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csu u('7
+%850OrchardCore.Environment.Shell.IShellStateManager"__id*x*v1
+/OrchardCore.Environment.Shell.ShellStateUpdater"A
+_stateManager0OrchardCore.Environment.Shell.IShellStateManager¥
+±
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csuB u(T<
+%865OrchardCore.Environment.Shell.State.ShellFeatureState"Û<anonymous type: OrchardCore.Environment.Extensions.Features.FeatureEntry Feature, OrchardCore.Environment.Extensions.Features.IFeatureInfo FeatureDescriptor, OrchardCore.Environment.Shell.State.ShellFeatureState FeatureState>.FeatureState.get*Ô
+Ï
+entry‚<anonymous type: OrchardCore.Environment.Extensions.Features.FeatureEntry Feature, OrchardCore.Environment.Extensions.Features.IFeatureInfo FeatureDescriptor, OrchardCore.Environment.Shell.State.ShellFeatureState FeatureState>£
+†
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csuV u(p
+%87"__id*
+""áÑ
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csu u(q"
+%88System.Threading.Tasks.Task"æOrchardCore.Environment.Shell.IShellStateManager.UpdateInstalledStateAsync(OrchardCore.Environment.Shell.State.ShellFeatureState, OrchardCore.Environment.Shell.State.ShellFeatureState.State)*9
+7
+%850OrchardCore.Environment.Shell.IShellStateManager*>
+<
+%865OrchardCore.Environment.Shell.State.ShellFeatureState*
+
+%872çUpdateInstalledStateAsync(OrchardCore.Environment.Shell.State.ShellFeatureState, OrchardCore.Environment.Shell.State.ShellFeatureState.State)¡
+æ
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csv v(/0
+%89)System.Collections.Generic.IEnumerable<T>"__id*y*w1
+/OrchardCore.Environment.Shell.ShellStateUpdater"B
+_featureEventHandlers)System.Collections.Generic.IEnumerable<T>≥
+∞
+â
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csv{ v(à?
+%908OrchardCore.Environment.Extensions.Features.FeatureEntry"Ó<anonymous type: OrchardCore.Environment.Extensions.Features.FeatureEntry Feature, OrchardCore.Environment.Extensions.Features.IFeatureInfo FeatureDescriptor, OrchardCore.Environment.Shell.State.ShellFeatureState FeatureState>.Feature.get*Ô
+Ï
+entry‚<anonymous type: OrchardCore.Environment.Extensions.Features.FeatureEntry Feature, OrchardCore.Environment.Extensions.Features.IFeatureInfo FeatureDescriptor, OrchardCore.Environment.Shell.State.ShellFeatureState FeatureState>›
+⁄
+â
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csv{ v(î?
+%918OrchardCore.Environment.Extensions.Features.IFeatureInfo"HOrchardCore.Environment.Extensions.Features.FeatureEntry.FeatureInfo.get*A
+?
+%908OrchardCore.Environment.Extensions.Features.FeatureEntry´
+®
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csvñ v(ù+
+%92$Microsoft.Extensions.Logging.ILogger"__id*f*d1
+/OrchardCore.Environment.Shell.ShellStateUpdater"/
+_logger$Microsoft.Extensions.Logging.ILogger›
+⁄
+â
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csv v(û"
+%93System.Threading.Tasks.Task"œOrchardCore.Modules.InvokeExtensions.InvokeAsync<TEvents, T1>(System.Collections.Generic.IEnumerable<TEvents>, System.Func<TEvents, T1, System.Threading.Tasks.Task>, T1, Microsoft.Extensions.Logging.ILogger)*("&
+$OrchardCore.Modules.InvokeExtensions*2
+0
+%89)System.Collections.Generic.IEnumerable<T>*
+""*A
+?
+%918OrchardCore.Environment.Extensions.Features.IFeatureInfo*-
++
+%92$Microsoft.Extensions.Logging.ILogger*
+17*“
+
+17à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csx x(T¥
+±
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csx x(&<
+%945OrchardCore.Environment.Shell.State.ShellFeatureState"Û<anonymous type: OrchardCore.Environment.Extensions.Features.FeatureEntry Feature, OrchardCore.Environment.Extensions.Features.IFeatureInfo FeatureDescriptor, OrchardCore.Environment.Shell.State.ShellFeatureState FeatureState>.FeatureState.get*Ô
+Ï
+entry‚<anonymous type: OrchardCore.Environment.Extensions.Features.FeatureEntry Feature, OrchardCore.Environment.Extensions.Features.IFeatureInfo FeatureDescriptor, OrchardCore.Environment.Shell.State.ShellFeatureState FeatureState>Ÿ
+÷
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csx x(2B
+%95;OrchardCore.Environment.Shell.State.ShellFeatureState.State"EOrchardCore.Environment.Shell.State.ShellFeatureState.EnableState.get*>
+<
+%945OrchardCore.Environment.Shell.State.ShellFeatureState£
+†
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csx6 x(T
+%96"__id*
+""*
+20
+13* 
+20à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csz z(>©
+¶
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csz z(+
+%97$Microsoft.Extensions.Logging.ILogger"__id*f*d1
+/OrchardCore.Environment.Shell.ShellStateUpdater"/
+_logger$Microsoft.Extensions.Logging.ILogger£
+†
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csz* z(>
+%98"__id*
+""‹Ÿ
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csz z(?
+%99bool"UMicrosoft.Extensions.Logging.ILogger.IsEnabled(Microsoft.Extensions.Logging.LogLevel)*-
++
+%97$Microsoft.Extensions.Logging.ILogger*
+
+%9820IsEnabled(Microsoft.Extensions.Logging.LogLevel)*
+21
+22*æ
+21à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.cs| |(o™
+ß
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.cs| |(,
+%100$Microsoft.Extensions.Logging.ILogger"__id*f*d1
+/OrchardCore.Environment.Shell.ShellStateUpdater"/
+_logger$Microsoft.Extensions.Logging.ILogger≥
+∞
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.cs|S |(`@
+%1018OrchardCore.Environment.Extensions.Features.FeatureEntry"Ó<anonymous type: OrchardCore.Environment.Extensions.Features.FeatureEntry Feature, OrchardCore.Environment.Extensions.Features.IFeatureInfo FeatureDescriptor, OrchardCore.Environment.Shell.State.ShellFeatureState FeatureState>.Feature.get*Ô
+Ï
+entry‚<anonymous type: OrchardCore.Environment.Extensions.Features.FeatureEntry Feature, OrchardCore.Environment.Extensions.Features.IFeatureInfo FeatureDescriptor, OrchardCore.Environment.Shell.State.ShellFeatureState FeatureState>ﬁ
+€
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.cs|S |(l@
+%1028OrchardCore.Environment.Extensions.Features.IFeatureInfo"HOrchardCore.Environment.Extensions.Features.FeatureEntry.FeatureInfo.get*B
+@
+%1018OrchardCore.Environment.Extensions.Features.FeatureEntry´®
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.cs|S |(o
+%103string"?OrchardCore.Environment.Extensions.Features.IFeatureInfo.Id.get*B
+@
+%1028OrchardCore.Environment.Extensions.Features.IFeatureInfo2Id.get¥
+±
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.cs| |(p
+%104void"{Microsoft.Extensions.Logging.LoggerExtensions.LogInformation(Microsoft.Extensions.Logging.ILogger, string, params object[])*1"/
+-Microsoft.Extensions.Logging.LoggerExtensions*.
+,
+%100$Microsoft.Extensions.Logging.ILogger*$"
+ Enabling feature '{FeatureName}'*
+
+%103string*
+22*ø3
+22ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.cs Å(õ¬
+ø
+à
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.cs (/1
+%105)System.Collections.Generic.IEnumerable<T>"__id*y*w1
+/OrchardCore.Environment.Shell.ShellStateUpdater"B
+_featureEventHandlers)System.Collections.Generic.IEnumerable<T>¥
+±
+â
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csz (á@
+%1068OrchardCore.Environment.Extensions.Features.FeatureEntry"Ó<anonymous type: OrchardCore.Environment.Extensions.Features.FeatureEntry Feature, OrchardCore.Environment.Extensions.Features.IFeatureInfo FeatureDescriptor, OrchardCore.Environment.Shell.State.ShellFeatureState FeatureState>.Feature.get*Ô
+Ï
+entry‚<anonymous type: OrchardCore.Environment.Extensions.Features.FeatureEntry Feature, OrchardCore.Environment.Extensions.Features.IFeatureInfo FeatureDescriptor, OrchardCore.Environment.Shell.State.ShellFeatureState FeatureState>ﬂ
+‹
+â
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csz (ì@
+%1078OrchardCore.Environment.Extensions.Features.IFeatureInfo"HOrchardCore.Environment.Extensions.Features.FeatureEntry.FeatureInfo.get*B
+@
+%1068OrchardCore.Environment.Extensions.Features.FeatureEntry¨
+©
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csï (ú,
+%108$Microsoft.Extensions.Logging.ILogger"__id*f*d1
+/OrchardCore.Environment.Shell.ShellStateUpdater"/
+_logger$Microsoft.Extensions.Logging.ILogger·
+ﬁ
+â
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.cs (ù#
+%109System.Threading.Tasks.Task"œOrchardCore.Modules.InvokeExtensions.InvokeAsync<TEvents, T1>(System.Collections.Generic.IEnumerable<TEvents>, System.Func<TEvents, T1, System.Threading.Tasks.Task>, T1, Microsoft.Extensions.Logging.ILogger)*("&
+$OrchardCore.Modules.InvokeExtensions*3
+1
+%105)System.Collections.Generic.IEnumerable<T>*
+""*B
+@
+%1078OrchardCore.Environment.Extensions.Features.IFeatureInfo*.
+,
+%108$Microsoft.Extensions.Logging.ILogger 
+«
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csÄ Ä('8
+%1100OrchardCore.Environment.Shell.IShellStateManager"__id*x*v1
+/OrchardCore.Environment.Shell.ShellStateUpdater"A
+_stateManager0OrchardCore.Environment.Shell.IShellStateManager∑
+¥
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csÄ@ Ä(R=
+%1115OrchardCore.Environment.Shell.State.ShellFeatureState"Û<anonymous type: OrchardCore.Environment.Extensions.Features.FeatureEntry Feature, OrchardCore.Environment.Extensions.Features.IFeatureInfo FeatureDescriptor, OrchardCore.Environment.Shell.State.ShellFeatureState FeatureState>.FeatureState.get*Ô
+Ï
+entry‚<anonymous type: OrchardCore.Environment.Extensions.Features.FeatureEntry Feature, OrchardCore.Environment.Extensions.Features.IFeatureInfo FeatureDescriptor, OrchardCore.Environment.Shell.State.ShellFeatureState FeatureState>¶
+£
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csÄT Ä(n
+%112"__id*
+""âÜ
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csÄ Ä(o#
+%113System.Threading.Tasks.Task"ºOrchardCore.Environment.Shell.IShellStateManager.UpdateEnabledStateAsync(OrchardCore.Environment.Shell.State.ShellFeatureState, OrchardCore.Environment.Shell.State.ShellFeatureState.State)*:
+8
+%1100OrchardCore.Environment.Shell.IShellStateManager*?
+=
+%1115OrchardCore.Environment.Shell.State.ShellFeatureState*
+
+%1122ãUpdateEnabledStateAsync(OrchardCore.Environment.Shell.State.ShellFeatureState, OrchardCore.Environment.Shell.State.ShellFeatureState.State)ƒ
+¡
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csÅ Å(/1
+%114)System.Collections.Generic.IEnumerable<T>"__id*y*w1
+/OrchardCore.Environment.Shell.ShellStateUpdater"B
+_featureEventHandlers)System.Collections.Generic.IEnumerable<T>∂
+≥
+ã
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csÅy Å(Ü@
+%1158OrchardCore.Environment.Extensions.Features.FeatureEntry"Ó<anonymous type: OrchardCore.Environment.Extensions.Features.FeatureEntry Feature, OrchardCore.Environment.Extensions.Features.IFeatureInfo FeatureDescriptor, OrchardCore.Environment.Shell.State.ShellFeatureState FeatureState>.Feature.get*Ô
+Ï
+entry‚<anonymous type: OrchardCore.Environment.Extensions.Features.FeatureEntry Feature, OrchardCore.Environment.Extensions.Features.IFeatureInfo FeatureDescriptor, OrchardCore.Environment.Shell.State.ShellFeatureState FeatureState>·
+ﬁ
+ã
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csÅy Å(í@
+%1168OrchardCore.Environment.Extensions.Features.IFeatureInfo"HOrchardCore.Environment.Extensions.Features.FeatureEntry.FeatureInfo.get*B
+@
+%1158OrchardCore.Environment.Extensions.Features.FeatureEntryÆ
+´
+å
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csÅî Å(õ,
+%117$Microsoft.Extensions.Logging.ILogger"__id*f*d1
+/OrchardCore.Environment.Shell.ShellStateUpdater"/
+_logger$Microsoft.Extensions.Logging.ILogger„
+‡
+ã
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csÅ Å(ú#
+%118System.Threading.Tasks.Task"œOrchardCore.Modules.InvokeExtensions.InvokeAsync<TEvents, T1>(System.Collections.Generic.IEnumerable<TEvents>, System.Func<TEvents, T1, System.Threading.Tasks.Task>, T1, Microsoft.Extensions.Logging.ILogger)*("&
+$OrchardCore.Modules.InvokeExtensions*3
+1
+%114)System.Collections.Generic.IEnumerable<T>*
+""*B
+@
+%1168OrchardCore.Environment.Extensions.Features.IFeatureInfo*.
+,
+%117$Microsoft.Extensions.Logging.ILogger*
+13*∂
+15ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csÑ	 Ñ(	"¢
+ä
+~D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Shell\ShellStateUpdater.csÑ Ñ(	
+implicit returnB31
+/OrchardCore.Environment.Shell.ShellStateUpdater

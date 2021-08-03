@@ -1,0 +1,642 @@
+
+∞OrchardCore.DynamicCache.TagHelpers.DynamicCacheTagHelper.ProcessContentAsync(Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput, OrchardCore.Environment.Cache.CacheContext)©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csµ( µ(;"0*ß
+0©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.cs∑ ∑('
+Ì
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.cs∑ ∑('1
+content&Microsoft.AspNetCore.Html.IHtmlContent"__id*
+""*
+1*‚
+1©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csπ π("®
+•
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csπ π("
+
+%0bool""object.operator ==(object, object)*
+"
+object*3
+1
+content&Microsoft.AspNetCore.Html.IHtmlContent*
+""*
+2
+3*Ë
+2©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csª# æ(Z£
+†
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csæ æ(2F
+%1@OrchardCore.DynamicCache.TagHelpers.DynamicCacheTagHelperService"__id*£*†;
+9OrchardCore.DynamicCache.TagHelpers.DynamicCacheTagHelper"a
+_dynamicCacheTagHelperService@OrchardCore.DynamicCache.TagHelpers.DynamicCacheTagHelperServiceò
+ï
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csæ æ(:F
+%2@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>"__id*ò*ï
+F
+%1@OrchardCore.DynamicCache.TagHelpers.DynamicCacheTagHelperService"K
+Workers@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>√
+¿
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csæG æ(N
+%3string"EOrchardCore.DynamicCache.TagHelpers.DynamicCacheTagHelper.CacheId.get*=;
+9OrchardCore.DynamicCache.TagHelpers.DynamicCacheTagHelperß
+§
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csæ æ([
+
+%4bool"^System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>.TryGetValue(TKey, out TValue)*H
+F
+%2@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>*
+
+%3string*0
+.
+result$System.Threading.Tasks.Task<TResult>*
+4
+5*ä
+4©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.cs√ ≈(R°û
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.cs√ √(F:
+%54System.Threading.Tasks.TaskCompletionSource<TResult>"4System.Threading.Tasks.TaskCompletionSource<TResult>∆
+√
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.cs√" √(D
+
+%6void"KSystem.Threading.Tasks.TaskCompletionSource<TResult>.TaskCompletionSource()*<
+:
+%54System.Threading.Tasks.TaskCompletionSource<TResult>∞
+≠
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.cs√ √(F;
+tcs4System.Threading.Tasks.TaskCompletionSource<TResult>"__id*<
+:
+%54System.Threading.Tasks.TaskCompletionSource<TResult>£
+†
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.cs≈ ≈(1F
+%7@OrchardCore.DynamicCache.TagHelpers.DynamicCacheTagHelperService"__id*£*†;
+9OrchardCore.DynamicCache.TagHelpers.DynamicCacheTagHelper"a
+_dynamicCacheTagHelperService@OrchardCore.DynamicCache.TagHelpers.DynamicCacheTagHelperServiceò
+ï
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.cs≈ ≈(9F
+%8@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>"__id*ò*ï
+F
+%7@OrchardCore.DynamicCache.TagHelpers.DynamicCacheTagHelperService"K
+Workers@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>√
+¿
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.cs≈A ≈(H
+%9string"EOrchardCore.DynamicCache.TagHelpers.DynamicCacheTagHelper.CacheId.get*=;
+9OrchardCore.DynamicCache.TagHelpers.DynamicCacheTagHelper⁄
+◊
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.cs≈J ≈(R+
+%10$System.Threading.Tasks.Task<TResult>"=System.Threading.Tasks.TaskCompletionSource<TResult>.Task.get*=
+;
+tcs4System.Threading.Tasks.TaskCompletionSource<TResult>œ
+Ã
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.cs≈ ≈(S
+%11bool"__mapSet*H
+F
+%8@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>*
+
+%9string*-
++
+%10$System.Threading.Tasks.Task<TResult>*
+6*è
+6©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.cs… À()ı
+Ú
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.cs…* …(>4
+%12-OrchardCore.DynamicCache.IDynamicCacheService"__id*á*Ñ;
+9OrchardCore.DynamicCache.TagHelpers.DynamicCacheTagHelper"E
+_dynamicCacheService-OrchardCore.DynamicCache.IDynamicCacheServiceÇˇ
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.cs…* …(`+
+%13$System.Threading.Tasks.Task<TResult>"mOrchardCore.DynamicCache.IDynamicCacheService.GetCachedValueAsync(OrchardCore.Environment.Cache.CacheContext)*6
+4
+%12-OrchardCore.DynamicCache.IDynamicCacheService*<
+:
+cacheContext*OrchardCore.Environment.Cache.CacheContext2?GetCachedValueAsync(OrchardCore.Environment.Cache.CacheContext)Œ
+À
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.cs… …(`
+valuestring"__id*
+""á
+Ñ
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csÀ À()
+%14bool""string.operator ==(string, string)*
+"
+string*
+
+valuestring*
+""*
+7
+8*∑
+7©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csŒ  –(KÌ
+Í
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csŒ9 Œ(V+
+%15$System.Threading.Tasks.Task<TResult>"LMicrosoft.AspNetCore.Razor.TagHelpers.TagHelperOutput.GetChildContentAsync()*A
+?
+output5Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutputâ
+Ü
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csŒ  Œ(VJ
+processedContent6Microsoft.AspNetCore.Razor.TagHelpers.TagHelperContent"__id*
+""€
+ÿ
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.cs–, –(K6
+%16/OrchardCore.DisplayManagement.StringBuilderPool"=OrchardCore.DisplayManagement.StringBuilderPool.GetInstance()*3"1
+/OrchardCore.DisplayManagement.StringBuilderPool¶
+£
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.cs–' –(K5
+sb/OrchardCore.DisplayManagement.StringBuilderPool"__id*8
+6
+%16/OrchardCore.DisplayManagement.StringBuilderPool*
+9*ò
+
+9©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.cs“+ “(O∏
+µ
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.cs“E “(O 
+%17System.Text.StringBuilder"__id*_*]
+5
+sb/OrchardCore.DisplayManagement.StringBuilderPool"$
+BuilderSystem.Text.StringBuilderÊ„
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.cs“4 “(P
+%18System.IO.StringWriter"System.IO.StringWriter¡
+æ
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.cs“8 “(D
+%19void">System.IO.StringWriter.StringWriter(System.Text.StringBuilder)*
+
+%18System.IO.StringWriter*"
+ 
+%17System.Text.StringBuilder¯
+ı
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.cs“+ “(P 
+writerSystem.IO.StringWriter"__id*
+
+%18System.IO.StringWriter*
+10*—
+10©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.cs’( ’(?Ê
+„
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.cs’( ’(51
+%20*OrchardCore.Environment.Cache.CacheOptions"__id*|*z;
+9OrchardCore.DynamicCache.TagHelpers.DynamicCacheTagHelper";
+_cacheOptions*OrchardCore.Environment.Cache.CacheOptions´
+®
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.cs’( ’(?
+%21bool"8OrchardCore.Environment.Cache.CacheOptions.DebugMode.get*3
+1
+%20*OrchardCore.Environment.Cache.CacheOptions*
+11
+12*„;
+11©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csÿ( ﬂ(>èå
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csÿ( ÿ(:
+%22void" System.IO.TextWriter.WriteLine()*"
+ 
+writerSystem.IO.StringWriter2WriteLine()¥
+±
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csŸN Ÿ(b
+%23string"6OrchardCore.Environment.Cache.CacheContext.CacheId.get*<
+:
+cacheContext*OrchardCore.Environment.Cache.CacheContextÎ
+Ë
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csŸf Ÿ(t
+%24System.Guid"System.Guid.NewGuid()*"
+System.Guid·
+ﬁ
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csŸ9 Ÿ(w
+%25string"__concat*
+""*
+
+%23string·
+ﬁ
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csŸ9 Ÿ(w
+%26string"__concat*
+
+%25string*
+""Ô
+Ï
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csŸ9 Ÿ(w
+%27string"__concat*
+
+%26string*
+
+%24System.Guid·
+ﬁ
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csŸ9 Ÿ(w
+%28string"__concat*
+
+%27string*
+""Æ´
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csŸ( Ÿ(x
+%29void"'System.IO.TextWriter.WriteLine(string?)*"
+ 
+writerSystem.IO.StringWriter*
+
+%28string2WriteLine(string?)ÿ
+’
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.cs⁄` ⁄(u0
+%30)System.Collections.Generic.ICollection<T>"7OrchardCore.Environment.Cache.CacheContext.Contexts.get*<
+:
+cacheContext*OrchardCore.Environment.Cache.CacheContextÕ
+ 
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.cs⁄N ⁄(v
+%31string"Estring.Join(string?, System.Collections.Generic.IEnumerable<string?>)*
+"
+string*
+, *2
+0
+%30)System.Collections.Generic.ICollection<T>·
+ﬁ
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.cs⁄9 ⁄(x
+%32string"__concat*
+""*
+
+%31stringÆ´
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.cs⁄( ⁄(y
+%33void"'System.IO.TextWriter.WriteLine(string?)*"
+ 
+writerSystem.IO.StringWriter*
+
+%32string2WriteLine(string?)‘
+—
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.cs€` €(q0
+%34)System.Collections.Generic.IEnumerable<T>"3OrchardCore.Environment.Cache.CacheContext.Tags.get*<
+:
+cacheContext*OrchardCore.Environment.Cache.CacheContextÕ
+ 
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.cs€N €(r
+%35string"Estring.Join(string?, System.Collections.Generic.IEnumerable<string?>)*
+"
+string*
+, *2
+0
+%34)System.Collections.Generic.IEnumerable<T>·
+ﬁ
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.cs€9 €(t
+%36string"__concat*
+""*
+
+%35stringÆ´
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.cs€( €(u
+%37void"'System.IO.TextWriter.WriteLine(string?)*"
+ 
+writerSystem.IO.StringWriter*
+
+%36string2WriteLine(string?)¬
+ø
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.cs‹N ‹(d
+%38System.Nullable<T>"8OrchardCore.Environment.Cache.CacheContext.ExpiresOn.get*<
+:
+cacheContext*OrchardCore.Environment.Cache.CacheContext˘
+ˆ
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.cs‹9 ‹(f
+%39System.Nullable<T>"__concat*
+""*
+
+%38System.Nullable<T>∫∑
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.cs‹( ‹(g
+%40void"'System.IO.TextWriter.WriteLine(string?)*"
+ 
+writerSystem.IO.StringWriter*
+
+%39System.Nullable<T>2WriteLine(string?)≈
+¬
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.cs›N ›(g
+%41System.Nullable<T>";OrchardCore.Environment.Cache.CacheContext.ExpiresAfter.get*<
+:
+cacheContext*OrchardCore.Environment.Cache.CacheContext˘
+ˆ
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.cs›9 ›(i
+%42System.Nullable<T>"__concat*
+""*
+
+%41System.Nullable<T>∫∑
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.cs›( ›(j
+%43void"'System.IO.TextWriter.WriteLine(string?)*"
+ 
+writerSystem.IO.StringWriter*
+
+%42System.Nullable<T>2WriteLine(string?)«
+ƒ
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csﬁN ﬁ(i
+%44System.Nullable<T>"=OrchardCore.Environment.Cache.CacheContext.ExpiresSliding.get*<
+:
+cacheContext*OrchardCore.Environment.Cache.CacheContext˘
+ˆ
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csﬁ9 ﬁ(k
+%45System.Nullable<T>"__concat*
+""*
+
+%44System.Nullable<T>∫∑
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csﬁ( ﬁ(l
+%46void"'System.IO.TextWriter.WriteLine(string?)*"
+ 
+writerSystem.IO.StringWriter*
+
+%45System.Nullable<T>2WriteLine(string?)¶£
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csﬂ( ﬂ(?
+%47void"'System.IO.TextWriter.WriteLine(string?)*"
+ 
+writerSystem.IO.StringWriter*
+-->2WriteLine(string?)*
+12*ô
+12©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.cs„$ Ê(?Á
+‰
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.cs„E „(P,
+%48%System.Text.Encodings.Web.HtmlEncoder"IOrchardCore.DynamicCache.TagHelpers.DynamicCacheTagHelper.HtmlEncoder.get*=;
+9OrchardCore.DynamicCache.TagHelpers.DynamicCacheTagHelper€
+ÿ
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.cs„$ „(Q
+%49void"{Microsoft.AspNetCore.Razor.TagHelpers.TagHelperContent.WriteTo(System.IO.TextWriter, System.Text.Encodings.Web.HtmlEncoder)*L
+J
+processedContent6Microsoft.AspNetCore.Razor.TagHelpers.TagHelperContent*"
+ 
+writerSystem.IO.StringWriter*.
+,
+%48%System.Text.Encodings.Web.HtmlEncoderÊ
+„
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csÊ( Ê(51
+%50*OrchardCore.Environment.Cache.CacheOptions"__id*|*z;
+9OrchardCore.DynamicCache.TagHelpers.DynamicCacheTagHelper";
+_cacheOptions*OrchardCore.Environment.Cache.CacheOptions´
+®
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csÊ( Ê(?
+%51bool"8OrchardCore.Environment.Cache.CacheOptions.DebugMode.get*3
+1
+%50*OrchardCore.Environment.Cache.CacheOptions*
+13
+14*¯
+13©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csË( È(fèå
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csË( Ë(:
+%52void" System.IO.TextWriter.WriteLine()*"
+ 
+writerSystem.IO.StringWriter2WriteLine()¥
+±
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csÈR È(f
+%53string"6OrchardCore.Environment.Cache.CacheContext.CacheId.get*<
+:
+cacheContext*OrchardCore.Environment.Cache.CacheContext·
+ﬁ
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csÈ9 È(l
+%54string"__concat*
+""*
+
+%53string·
+ﬁ
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csÈ9 È(l
+%55string"__concat*
+
+%54string*
+""Æ´
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csÈ( È(m
+%56void"'System.IO.TextWriter.WriteLine(string?)*"
+ 
+writerSystem.IO.StringWriter*
+
+%55string2WriteLine(string?)*
+14*„
+14©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csÏ$ Ï(=™ß
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csÏ* Ï(="
+%57System.Threading.Tasks.Task"#System.IO.StringWriter.FlushAsync()*"
+ 
+writerSystem.IO.StringWriter2FlushAsync()*
+15*√%
+15©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csÔ$ ¯(@∏
+µ
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csÔ+ Ô(5 
+%58System.Text.StringBuilder"__id*_*]
+5
+sb/OrchardCore.DisplayManagement.StringBuilderPool"$
+BuilderSystem.Text.StringBuilderà
+Ö
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csÔ+ Ô(@
+%59string"$System.Text.StringBuilder.ToString()*"
+ 
+%58System.Text.StringBuilder÷
+”
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csÔ$ Ô(@
+htmlstring"__id*
+
+%59string‚ﬂ
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csÒ8 Ù(![
+%60TMicrosoft.AspNetCore.Mvc.TagHelpers.Cache.DistributedCacheTagHelperFormattingContext"TMicrosoft.AspNetCore.Mvc.TagHelpers.Cache.DistributedCacheTagHelperFormattingContextü
+ú
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csÒ< Ò(f
+%61void"ÅMicrosoft.AspNetCore.Mvc.TagHelpers.Cache.DistributedCacheTagHelperFormattingContext.DistributedCacheTagHelperFormattingContext()*]
+[
+%60TMicrosoft.AspNetCore.Mvc.TagHelpers.Cache.DistributedCacheTagHelperFormattingContextÇˇ
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csÛ+ Û(?+
+%62$Microsoft.AspNetCore.Html.HtmlString"$Microsoft.AspNetCore.Html.HtmlString∂
+≥
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csÛ/ Û(9
+%63void"7Microsoft.AspNetCore.Html.HtmlString.HtmlString(string)*-
++
+%62$Microsoft.AspNetCore.Html.HtmlString*
+
+htmlstring…
+∆
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csÛ$ Û(?+
+%64$Microsoft.AspNetCore.Html.HtmlString"]Microsoft.AspNetCore.Mvc.TagHelpers.Cache.DistributedCacheTagHelperFormattingContext.Html.set*]
+[
+%60TMicrosoft.AspNetCore.Mvc.TagHelpers.Cache.DistributedCacheTagHelperFormattingContext*-
++
+%62$Microsoft.AspNetCore.Html.HtmlStringˇ
+¸
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csÒ$ Ù(!i
+formattingContextTMicrosoft.AspNetCore.Mvc.TagHelpers.Cache.DistributedCacheTagHelperFormattingContext"__id*]
+[
+%60TMicrosoft.AspNetCore.Mvc.TagHelpers.Cache.DistributedCacheTagHelperFormattingContextı
+Ú
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csˆ& ˆ(:4
+%65-OrchardCore.DynamicCache.IDynamicCacheService"__id*á*Ñ;
+9OrchardCore.DynamicCache.TagHelpers.DynamicCacheTagHelper"E
+_dynamicCacheService-OrchardCore.DynamicCache.IDynamicCacheServiceõò
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csˆ& ˆ(b"
+%66System.Threading.Tasks.Task"uOrchardCore.DynamicCache.IDynamicCacheService.SetCachedValueAsync(OrchardCore.Environment.Cache.CacheContext, string)*6
+4
+%65-OrchardCore.DynamicCache.IDynamicCacheService*<
+:
+cacheContext*OrchardCore.Environment.Cache.CacheContext*
+
+htmlstring2GSetCachedValueAsync(OrchardCore.Environment.Cache.CacheContext, string)®
+•
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.cs¯* ¯(@+
+%67$Microsoft.AspNetCore.Html.HtmlString"]Microsoft.AspNetCore.Mvc.TagHelpers.Cache.DistributedCacheTagHelperFormattingContext.Html.get*k
+i
+formattingContextTMicrosoft.AspNetCore.Mvc.TagHelpers.Cache.DistributedCacheTagHelperFormattingContextó
+î
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.cs¯  ¯(@1
+content&Microsoft.AspNetCore.Html.IHtmlContent"__id*-
++
+%67$Microsoft.AspNetCore.Html.HtmlString*
+16*é
+8©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.cs˝ ˝(:Çˇ
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.cs˝& ˝(;+
+%68$Microsoft.AspNetCore.Html.HtmlString"$Microsoft.AspNetCore.Html.HtmlString∑
+¥
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.cs˝* ˝(4
+%69void"7Microsoft.AspNetCore.Html.HtmlString.HtmlString(string)*-
++
+%68$Microsoft.AspNetCore.Html.HtmlString*
+
+valuestringó
+î
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.cs˝ ˝(;1
+content&Microsoft.AspNetCore.Html.IHtmlContent"__id*-
++
+%68$Microsoft.AspNetCore.Html.HtmlString*
+16*∫
+16©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csó	 ó(	*
+17
+18*©
+17©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csÇ Ç(&
+Ì
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csÇ Ç(&1
+content&Microsoft.AspNetCore.Html.IHtmlContent"__id*
+""*
+18*Ó
+18©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csä ç(0§
+°
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csä ä(5G
+%70@OrchardCore.DynamicCache.TagHelpers.DynamicCacheTagHelperService"__id*£*†;
+9OrchardCore.DynamicCache.TagHelpers.DynamicCacheTagHelper"a
+_dynamicCacheTagHelperService@OrchardCore.DynamicCache.TagHelpers.DynamicCacheTagHelperServiceö
+ó
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csä ä(=G
+%71@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>"__id*ô*ñ
+G
+%70@OrchardCore.DynamicCache.TagHelpers.DynamicCacheTagHelperService"K
+Workers@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>ƒ
+¡
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csäH ä(O
+%72string"EOrchardCore.DynamicCache.TagHelpers.DynamicCacheTagHelper.CacheId.get*=;
+9OrchardCore.DynamicCache.TagHelpers.DynamicCacheTagHelper®
+•
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csä ä(\
+%73bool"\System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>.TryRemove(TKey, out TValue)*I
+G
+%71@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>*
+
+%72string*0
+.
+result$System.Threading.Tasks.Task<TResult>¸
+˘
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csç ç(1
+%74bool"JSystem.Threading.Tasks.TaskCompletionSource<TResult>.TrySetResult(TResult)*=
+;
+tcs4System.Threading.Tasks.TaskCompletionSource<TResult>*3
+1
+content&Microsoft.AspNetCore.Html.IHtmlContent*
+1
+19*—
+5©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csí í(*ö
+ó
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csí í(*1
+content&Microsoft.AspNetCore.Html.IHtmlContent"__id*0
+.
+result$System.Threading.Tasks.Task<TResult>*
+1*ì
+3©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csñ ñ("·
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csñ ñ(3
+1
+content&Microsoft.AspNetCore.Html.IHtmlContent*Ù
+19©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csó	 ó(	"¡
+©
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DynamicCache\TagHelpers\DynamicCacheTagHelper.csó ó(	
+implicit return:?
+output5Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput::
+cacheContext*OrchardCore.Environment.Cache.CacheContextB=;
+9OrchardCore.DynamicCache.TagHelpers.DynamicCacheTagHelper

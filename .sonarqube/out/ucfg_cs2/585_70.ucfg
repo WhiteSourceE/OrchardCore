@@ -1,0 +1,120 @@
+
+ÅOrchardCore.Facebook.Login.Drivers.FacebookLoginSettingsDisplayDriver.EditAsync(OrchardCore.Facebook.Login.Settings.FacebookLoginSettings, OrchardCore.DisplayManagement.Handlers.BuildEditorContext)³
+¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Login\Drivers\FacebookLoginSettingsDisplayDriver.cs!3 !(<"0*Â
+0³
+¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Login\Drivers\FacebookLoginSettingsDisplayDriver.cs# #(7Œ
+‰
+³
+¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Login\Drivers\FacebookLoginSettingsDisplayDriver.cs# #(+4
+%0.Microsoft.AspNetCore.Http.IHttpContextAccessor"__id*”*‘G
+EOrchardCore.Facebook.Login.Drivers.FacebookLoginSettingsDisplayDriver"F
+_httpContextAccessor.Microsoft.AspNetCore.Http.IHttpContextAccessorïì
+³
+¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Login\Drivers\FacebookLoginSettingsDisplayDriver.cs# #(7+
+%1%Microsoft.AspNetCore.Http.HttpContext">Microsoft.AspNetCore.Http.IHttpContextAccessor.HttpContext.get*6
+4
+%0.Microsoft.AspNetCore.Http.IHttpContextAccessor2HttpContext.get*
+1
+2*‡
+2³
+¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Login\Drivers\FacebookLoginSettingsDisplayDriver.cs#8 #(=Æ
+Ã
+³
+¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Login\Drivers\FacebookLoginSettingsDisplayDriver.cs#9 #(=,
+%2&System.Security.Claims.ClaimsPrincipal".Microsoft.AspNetCore.Http.HttpContext.User.get*-
++
+%1%Microsoft.AspNetCore.Http.HttpContext*
+1*•
+1³
+¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Login\Drivers\FacebookLoginSettingsDisplayDriver.cs# $(Ÿ
+œ
+³
+¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Login\Drivers\FacebookLoginSettingsDisplayDriver.cs# #(=.
+user&System.Security.Claims.ClaimsPrincipal"__id*.
+,
+%2&System.Security.Claims.ClaimsPrincipal¯
+¬
+³
+¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Login\Drivers\FacebookLoginSettingsDisplayDriver.cs$ $(
+
+%3bool""object.operator ==(object, object)*
+"
+object*0
+.
+user&System.Security.Claims.ClaimsPrincipal*
+""*
+3
+4*þ
+4³
+¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Login\Drivers\FacebookLoginSettingsDisplayDriver.cs$  $(o¡
+ž
+³
+¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Login\Drivers\FacebookLoginSettingsDisplayDriver.cs$' $(<>
+%48Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*Ÿ*œG
+EOrchardCore.Facebook.Login.Drivers.FacebookLoginSettingsDisplayDriver"Q
+_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationServiceÜ
+Ù
+³
+¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Login\Drivers\FacebookLoginSettingsDisplayDriver.cs$R $(o1
+%5+OrchardCore.Security.Permissions.Permission"__id*h*f"
+ OrchardCore.Facebook.Permissions"@
+ManageFacebookApp+OrchardCore.Security.Permissions.Permission·
+´
+³
+¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Login\Drivers\FacebookLoginSettingsDisplayDriver.cs$' $(p*
+%6$System.Threading.Tasks.Task<TResult>"ßMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission)*E"C
+AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*@
+>
+%48Microsoft.AspNetCore.Authorization.IAuthorizationService*0
+.
+user&System.Security.Claims.ClaimsPrincipal*3
+1
+%5+OrchardCore.Security.Permissions.Permission*
+3
+5*ú
+3³
+¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Login\Drivers\FacebookLoginSettingsDisplayDriver.cs& &("¾
+³
+¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Login\Drivers\FacebookLoginSettingsDisplayDriver.cs& &(
+""*´
+5³
+¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Login\Drivers\FacebookLoginSettingsDisplayDriver.cs) -(MÂ
+¿
+³
+¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Login\Drivers\FacebookLoginSettingsDisplayDriver.cs) -(5
+%7/OrchardCore.DisplayManagement.Views.ShapeResult"jOrchardCore.DisplayManagement.Handlers.DisplayDriverBase.Initialize<TModel>(string, System.Action<TModel>)*<:
+8OrchardCore.DisplayManagement.Handlers.DisplayDriverBase*
+FacebookLoginSettings_Edit*
+""ú
+÷
+³
+¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Login\Drivers\FacebookLoginSettingsDisplayDriver.cs) -($5
+%8/OrchardCore.DisplayManagement.Views.ShapeResult"@OrchardCore.DisplayManagement.Views.ShapeResult.Location(string)*7
+5
+%7/OrchardCore.DisplayManagement.Views.ShapeResult*
+	Content:5Í
+Ê
+³
+¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Login\Drivers\FacebookLoginSettingsDisplayDriver.cs-- -(M
+%9"__id*
+""ó
+ð
+³
+¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Login\Drivers\FacebookLoginSettingsDisplayDriver.cs) -(N6
+%10/OrchardCore.DisplayManagement.Views.ShapeResult"?OrchardCore.DisplayManagement.Views.ShapeResult.OnGroup(string)*7
+5
+%8/OrchardCore.DisplayManagement.Views.ShapeResult*
+
+%9"ð
+³
+¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Login\Drivers\FacebookLoginSettingsDisplayDriver.cs) -(O8
+6
+%10/OrchardCore.DisplayManagement.Views.ShapeResult*‡
+6³
+¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Login\Drivers\FacebookLoginSettingsDisplayDriver.cs.	 .(	"Ë
+³
+¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Login\Drivers\FacebookLoginSettingsDisplayDriver.cs. .(	
+implicit return:E
+settings9OrchardCore.Facebook.Login.Settings.FacebookLoginSettings:D
+context9OrchardCore.DisplayManagement.Handlers.BuildEditorContextBIG
+EOrchardCore.Facebook.Login.Drivers.FacebookLoginSettingsDisplayDriver

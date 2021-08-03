@@ -1,0 +1,100 @@
+
+ÏOrchardRazorHelperExtensions.ImageProfileResizeUrlAsync(OrchardCore.IOrchardHelper, string, string, int?, int?, OrchardCore.Media.Processing.ResizeMode, int?, OrchardCore.Media.Processing.Format, OrchardCore.Media.Fields.Anchor, string)¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Razor\OrchardRazorHelperExtensions.csJ% J(?"0*È
+0¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Razor\OrchardRazorHelperExtensions.csL Q(3¡æ
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Razor\OrchardRazorHelperExtensions.csL" L(;+
+%0%Microsoft.AspNetCore.Http.HttpContext"*OrchardCore.IOrchardHelper.HttpContext.get*-
++
+orchardHelperOrchardCore.IOrchardHelper2HttpContext.get±
+Æ
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Razor\OrchardRazorHelperExtensions.csL" L(K
+%1System.IServiceProvider"9Microsoft.AspNetCore.Http.HttpContext.RequestServices.get*-
++
+%0%Microsoft.AspNetCore.Http.HttpContext…
+∆
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Razor\OrchardRazorHelperExtensions.csL" L(v5
+%2/OrchardCore.Media.Services.IMediaProfileService"xMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<T>(System.IServiceProvider)*M"K
+IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*
+
+%1System.IServiceProviderØ
+¨
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Razor\OrchardRazorHelperExtensions.csL L(vF
+mediaProfileService/OrchardCore.Media.Services.IMediaProfileService"__id*7
+5
+%2/OrchardCore.Media.Services.IMediaProfileService™ß
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Razor\OrchardRazorHelperExtensions.csM& M(_*
+%3$System.Threading.Tasks.Task<TResult>"OOrchardCore.Media.Services.IMediaProfileService.GetMediaProfileCommands(string)*H
+F
+mediaProfileService/OrchardCore.Media.Services.IMediaProfileService*
+
+imageProfilestring2GetMediaProfileCommands(string)Å
+˛
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Razor\OrchardRazorHelperExtensions.csM M(_I
+queryStringParams4System.Collections.Generic.IDictionary<TKey, TValue>"__id*
+""ó
+î
+£
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Razor\OrchardRazorHelperExtensions.csO O(ú
+%4string"éOrchardCore.Media.Processing.ImageSharpUrlFormatter.GetImageResizeUrl(string, System.Collections.Generic.IDictionary<string, string>, int?, int?, OrchardCore.Media.Processing.ResizeMode, int?, OrchardCore.Media.Processing.Format, OrchardCore.Media.Fields.Anchor, string)*7"5
+3OrchardCore.Media.Processing.ImageSharpUrlFormatter*
+
+	imagePathstring*K
+I
+queryStringParams4System.Collections.Generic.IDictionary<TKey, TValue>*
+
+widthSystem.Nullable<T>*
+
+heightSystem.Nullable<T>*
+""*
+
+qualitySystem.Nullable<T>*
+""*+
+)
+anchorOrchardCore.Media.Fields.Anchor*
+
+bgcolorstring’
+“
+£
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Razor\OrchardRazorHelperExtensions.csO O(ú
+
+resizedUrlstring"__id*
+
+%4stringÌ
+Í
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Razor\OrchardRazorHelperExtensions.csQ Q(4
+%5string"LOrchardRazorHelperExtensions.TokenizeUrl(OrchardCore.IOrchardHelper, string)* "
+OrchardRazorHelperExtensions*-
++
+orchardHelperOrchardCore.IOrchardHelper*
+
+
+resizedUrlstring"µ
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Razor\OrchardRazorHelperExtensions.csQ Q(5
+
+%5string*Â
+1¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Razor\OrchardRazorHelperExtensions.csR R("∫
+¢
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Razor\OrchardRazorHelperExtensions.csR R(
+implicit return:+
+orchardHelperOrchardCore.IOrchardHelper:
+	imagePathstring:
+imageProfilestring:
+widthSystem.Nullable<T>:
+heightSystem.Nullable<T>:5
+
+resizeMode'OrchardCore.Media.Processing.ResizeMode:
+qualitySystem.Nullable<T>:-
+format#OrchardCore.Media.Processing.Format:)
+anchorOrchardCore.Media.Fields.Anchor:
+bgcolorstringB "
+OrchardRazorHelperExtensions

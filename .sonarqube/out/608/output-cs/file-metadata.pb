@@ -1,0 +1,17 @@
+Î
+ÂD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\obj\Debug\netcoreapp3.1\Razor\Views\ContentsAdminList-ListPartFilter.cshtml.g.csutf-8Ò
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\obj\Debug\netcoreapp3.1\Razor\Views\Items\ListsAdminNode.Fields.TreeEdit.cshtml.g.csutf-8Õ
+ÉD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\obj\Debug\netcoreapp3.1\Razor\Views\Items\ListsAdminNode.Fields.TreeSummary.cshtml.g.csutf-8×
+ËD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\obj\Debug\netcoreapp3.1\Razor\Views\Items\ListsAdminNode.Fields.TreeThumbnail.cshtml.g.csutf-8Â
+¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\obj\Debug\netcoreapp3.1\Razor\Views\ListPart.ContainerId.cshtml.g.csutf-8¶
+ªD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\obj\Debug\netcoreapp3.1\Razor\Views\ListPart.cshtml.g.csutf-8Â
+¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\obj\Debug\netcoreapp3.1\Razor\Views\ListPart.DetailAdmin.cshtml.g.csutf-8Ä
+¸D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\obj\Debug\netcoreapp3.1\Razor\Views\ListPart.DisplayOption.cshtml.g.csutf-8Ç
+»D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\obj\Debug\netcoreapp3.1\Razor\Views\ListPart.RemotePublishing.cshtml.g.csutf-8¿
+³D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\obj\Debug\netcoreapp3.1\Razor\Views\ListPart.Sortable.cshtml.g.csutf-8Ã
+·D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\obj\Debug\netcoreapp3.1\Razor\Views\ListPart.SummaryAdmin.cshtml.g.csutf-8º
+®D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\obj\Debug\netcoreapp3.1\Razor\Views\ListPartFeed.cshtml.g.csutf-8¿
+³D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\obj\Debug\netcoreapp3.1\Razor\Views\ListPartFeed.Edit.cshtml.g.csutf-8Ã
+·D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\obj\Debug\netcoreapp3.1\Razor\Views\ListPartSettings.Edit.cshtml.g.csutf-8º
+®D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.csutf-8Â
+¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\obj\Debug\netcoreapp3.1\OrchardCore.Lists.RazorTargetAssemblyInfo.csutf-8

@@ -1,0 +1,551 @@
+
+mOrchardCore.Contents.Feeds.Builders.CommonFeedItemBuilder.PopulateAsync(OrchardCore.Feeds.Models.FeedContext)û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs ('"0*˛
+0û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs% ([∑
+¥
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs% (5+
+%0%OrchardCore.Feeds.Models.FeedResponse"1OrchardCore.Feeds.Models.FeedContext.Response.get*1
+/
+context$OrchardCore.Feeds.Models.FeedContextØ
+¨
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs% (;)
+%1#System.Collections.Generic.IList<T>"/OrchardCore.Feeds.Models.FeedResponse.Items.get*-
++
+%0%OrchardCore.Feeds.Models.FeedResponseÊ
+„
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs% ([/
+%2)System.Collections.Generic.IEnumerable<T>"FSystem.Linq.Enumerable.OfType<TResult>(System.Collections.IEnumerable)*"
+System.Linq.Enumerable*+
+)
+%1#System.Collections.Generic.IList<T>*
+1*¨
+1û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.csU	 U(	*
+2
+3*◊!
+2û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs "(+¿
+Ω
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs" (//
+%3)OrchardCore.ContentManagement.ContentItem"1OrchardCore.Feeds.Models.FeedItem<TItem>.Item.get*6
+4
+feedItem(OrchardCore.Feeds.Models.FeedItem<TItem>ó
+î
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs (/8
+contentItem)OrchardCore.ContentManagement.ContentItem"__id*1
+/
+%3)OrchardCore.ContentManagement.ContentItem„
+‡
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs0 (?3
+%4-OrchardCore.ContentManagement.IContentManager"__id*Å*;
+9OrchardCore.Contents.Feeds.Builders.CommonFeedItemBuilder"@
+_contentManager-OrchardCore.ContentManagement.IContentManager¨
+©
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs0 (u*
+%5$System.Threading.Tasks.Task<TResult>"™OrchardCore.ContentManagement.ContentManagerExtensions.PopulateAspectAsync<TAspect>(OrchardCore.ContentManagement.IContentManager, OrchardCore.ContentManagement.IContent)*:"8
+6OrchardCore.ContentManagement.ContentManagerExtensions*5
+3
+%4-OrchardCore.ContentManagement.IContentManager*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItem¸
+˘
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs (uH
+contentItemMetadata1OrchardCore.ContentManagement.ContentItemMetadata"__id*
+""„
+‡
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs' (63
+%6-OrchardCore.ContentManagement.IContentManager"__id*Å*;
+9OrchardCore.Contents.Feeds.Builders.CommonFeedItemBuilder"@
+_contentManager-OrchardCore.ContentManagement.IContentManager¨
+©
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs' (c*
+%7$System.Threading.Tasks.Task<TResult>"™OrchardCore.ContentManagement.ContentManagerExtensions.PopulateAspectAsync<TAspect>(OrchardCore.ContentManagement.IContentManager, OrchardCore.ContentManagement.IContent)*:"8
+6OrchardCore.ContentManagement.ContentManagerExtensions*5
+3
+%6-OrchardCore.ContentManagement.IContentManager*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItemÒ
+Ó
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs (c=
+
+bodyAspect/OrchardCore.ContentManagement.Models.BodyAspect"__id*
+""Û
+
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs (C7
+%81Microsoft.AspNetCore.Routing.RouteValueDictionary"HOrchardCore.ContentManagement.ContentItemMetadata.DisplayRouteValues.get*J
+H
+contentItemMetadata1OrchardCore.ContentManagement.ContentItemMetadata¢
+ü
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs (C;
+routes1Microsoft.AspNetCore.Routing.RouteValueDictionary"__id*9
+7
+%81Microsoft.AspNetCore.Routing.RouteValueDictionaryñ
+ì
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs" "("
+%9string"/OrchardCore.Feeds.Models.FeedContext.Format.get*1
+/
+context$OrchardCore.Feeds.Models.FeedContext˙
+˜
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs" "(+
+%10bool""string.operator ==(string, string)*
+"
+string*
+
+%9string*
+rss*
+4
+5*ﬁ'
+4û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs$ 3(_ﬂ‹
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs$ $(3
+%11System.Xml.Linq.XElement"System.Xml.Linq.XElementò
+ï
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs$# $(+
+%12void"8System.Xml.Linq.XElement.XElement(System.Xml.Linq.XName)*!
+
+%11System.Xml.Linq.XElement*
+linkÔ
+Ï
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs$ $(3 
+linkSystem.Xml.Linq.XElement"__id*!
+
+%11System.Xml.Linq.XElement„‡
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs%4 %(Y!
+%13System.Xml.Linq.XAttribute"System.Xml.Linq.XAttribute∑
+¥
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs%8 %(B
+%14void"DSystem.Xml.Linq.XAttribute.XAttribute(System.Xml.Linq.XName, object)*#
+!
+%13System.Xml.Linq.XAttribute*
+isPermaLink*
+trueﬂ‹
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs% %(Z
+%15System.Xml.Linq.XElement"System.Xml.Linq.XElement∆
+√
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs%# %(+
+%16void"ASystem.Xml.Linq.XElement.XElement(System.Xml.Linq.XName, object?)*!
+
+%15System.Xml.Linq.XElement*
+guid*#
+!
+%13System.Xml.Linq.XAttributeÔ
+Ï
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs% %(Z 
+guidSystem.Xml.Linq.XElement"__id*!
+
+%15System.Xml.Linq.XElement∏
+µ
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs' '($,
+%17%OrchardCore.Feeds.Models.FeedResponse"1OrchardCore.Feeds.Models.FeedContext.Response.get*1
+/
+context$OrchardCore.Feeds.Models.FeedContext‹
+Ÿ
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs' .(
+%18void"qOrchardCore.Feeds.Models.FeedResponse.Contextualize(System.Action<OrchardCore.Feeds.Models.ContextualizeContext>)*.
+,
+%17%OrchardCore.Feeds.Models.FeedResponse*
+""¨
+©
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs0 0($
+%19System.Xml.Linq.XElement"-OrchardCore.Feeds.Models.FeedItem.Element.get*6
+4
+feedItem(OrchardCore.Feeds.Models.FeedItem<TItem>™
+ß
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs0> 0(U
+%20string"9OrchardCore.ContentManagement.ContentItem.DisplayText.get*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItem∫
+∑
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs0 0(V
+%21void"HSystem.Xml.Linq.XElement.SetElementValue(System.Xml.Linq.XName, object?)*!
+
+%19System.Xml.Linq.XElement*	
+title*
+
+%20string¨
+©
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs1 1($
+%22System.Xml.Linq.XElement"-OrchardCore.Feeds.Models.FeedItem.Element.get*6
+4
+feedItem(OrchardCore.Feeds.Models.FeedItem<TItem>°
+û
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs1 1(.
+%23void"'System.Xml.Linq.XContainer.Add(object?)*!
+
+%22System.Xml.Linq.XElement*"
+ 
+linkSystem.Xml.Linq.XElement¨
+©
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs3 3($
+%24System.Xml.Linq.XElement"-OrchardCore.Feeds.Models.FeedItem.Element.get*6
+4
+feedItem(OrchardCore.Feeds.Models.FeedItem<TItem>Œ
+À
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs3P 3(_-
+%25&Microsoft.AspNetCore.Html.IHtmlContent"8OrchardCore.ContentManagement.Models.BodyAspect.Body.get*?
+=
+
+bodyAspect/OrchardCore.ContentManagement.Models.BodyAspect*
+6
+7*Ø
+7û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs3` 3(iÉÄ
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs3` 3(k
+%26string"object.ToString()*/
+-
+%25&Microsoft.AspNetCore.Html.IHtmlContent2
+ToString()*
+6*¨
+6û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.csU	 U(	*
+8
+9*û
+8û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs3o 3({ÿ
+’
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs3o 3({
+%30string"__id**
+string"
+Emptystring 
+«
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs3o 3({
+%29string"__id*
+
+%30string 
+«
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs3o 3({
+%27string"__id*
+
+%29string*
+9*—
+9û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs3 5(8€ÿ
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs3E 3(|
+%31System.Xml.Linq.XCData"System.Xml.Linq.XCDataä
+á
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs3I 3(O
+%32void"%System.Xml.Linq.XCData.XCData(string)*
+
+%31System.Xml.Linq.XCData*
+
+%27stringﬂ‹
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs3) 3(}
+%33System.Xml.Linq.XElement"System.Xml.Linq.XElement…
+∆
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs3- 3(5
+%34void"ASystem.Xml.Linq.XElement.XElement(System.Xml.Linq.XName, object?)*!
+
+%33System.Xml.Linq.XElement*
+description*
+
+%31System.Xml.Linq.XCData†
+ù
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs3 3(~
+%35void"'System.Xml.Linq.XContainer.Add(object?)*!
+
+%24System.Xml.Linq.XElement*!
+
+%33System.Xml.Linq.XElement∑
+¥
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs5 5(0
+%36System.Nullable<T>":OrchardCore.ContentManagement.ContentItem.PublishedUtc.get*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItem™
+ß
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs5 5(8
+%37bool"=System.DateTime.operator !=(System.DateTime, System.DateTime)*"
+System.DateTime*
+
+%36System.Nullable<T>*
+""*
+10
+11*«
+10û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs= =(o¨
+©
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs= =((
+%38System.Xml.Linq.XElement"-OrchardCore.Feeds.Models.FeedItem.Element.get*6
+4
+feedItem(OrchardCore.Feeds.Models.FeedItem<TItem>∑
+¥
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs=D =(\
+%39System.Nullable<T>":OrchardCore.ContentManagement.ContentItem.PublishedUtc.get*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItem˜
+Ù
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs=D =(b
+%40System.DateTime"System.Nullable<T>.Value.get*
+
+%39System.Nullable<T>˜
+Ù
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs=D =(p
+%41string"!System.DateTime.ToString(string?)*
+
+%40System.DateTime*
+rº
+π
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs= =(q
+%42void"HSystem.Xml.Linq.XElement.SetElementValue(System.Xml.Linq.XName, object?)*!
+
+%38System.Xml.Linq.XElement*	
+pubDate*
+
+%41string*
+11*˝
+11û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs@ @(-¨
+©
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs@ @($
+%43System.Xml.Linq.XElement"-OrchardCore.Feeds.Models.FeedItem.Element.get*6
+4
+feedItem(OrchardCore.Feeds.Models.FeedItem<TItem>°
+û
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.cs@ @(.
+%44void"'System.Xml.Linq.XContainer.Add(object?)*!
+
+%43System.Xml.Linq.XElement*"
+ 
+guidSystem.Xml.Linq.XElement*
+1*Ï
+5û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.csD M(y∏
+µ
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.csD D($,
+%45%OrchardCore.Feeds.Models.FeedResponse"1OrchardCore.Feeds.Models.FeedContext.Response.get*1
+/
+context$OrchardCore.Feeds.Models.FeedContext‹
+Ÿ
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.csD J(
+%46void"qOrchardCore.Feeds.Models.FeedResponse.Contextualize(System.Action<OrchardCore.Feeds.Models.ContextualizeContext>)*.
+,
+%45%OrchardCore.Feeds.Models.FeedResponse*
+""∞
+≠
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.csL L(#%
+%47OrchardCore.Feeds.IFeedBuilder"0OrchardCore.Feeds.Models.FeedContext.Builder.get*1
+/
+context$OrchardCore.Feeds.Models.FeedContext™
+ß
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.csLL L(c
+%48string"9OrchardCore.ContentManagement.ContentItem.DisplayText.get*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItemΩ
+∫
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.csL L(d
+%49void"¨OrchardCore.Feeds.FeedBuilderExtensions.AddProperty(OrchardCore.Feeds.IFeedBuilder, OrchardCore.Feeds.Models.FeedContext, OrchardCore.Feeds.Models.FeedItem, string, string)*+")
+'OrchardCore.Feeds.FeedBuilderExtensions*'
+%
+%47OrchardCore.Feeds.IFeedBuilder*1
+/
+context$OrchardCore.Feeds.Models.FeedContext*6
+4
+feedItem(OrchardCore.Feeds.Models.FeedItem<TItem>*	
+title*
+
+%48string∞
+≠
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.csM M(#%
+%50OrchardCore.Feeds.IFeedBuilder"0OrchardCore.Feeds.Models.FeedContext.Builder.get*1
+/
+context$OrchardCore.Feeds.Models.FeedContextŒ
+À
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.csMj M(y-
+%51&Microsoft.AspNetCore.Html.IHtmlContent"8OrchardCore.ContentManagement.Models.BodyAspect.Body.get*?
+=
+
+bodyAspect/OrchardCore.ContentManagement.Models.BodyAspect*
+12
+13*≥
+13ü
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.csMz M(ÉÑÅ
+ü
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.csMz M(Ö
+%52string"object.ToString()*/
+-
+%51&Microsoft.AspNetCore.Html.IHtmlContent2
+ToString()*
+12*Ø
+12û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.csU	 U(	*
+14
+15*®
+14†
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.csMâ M(ï⁄
+◊
+†
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.csMâ M(ï
+%56string"__id**
+string"
+EmptystringÃ
+…
+†
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.csMâ M(ï
+%55string"__id*
+
+%56stringÃ
+…
+†
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.csMâ M(ï
+%53string"__id*
+
+%55string*
+15*ú
+15û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.csM O(8‹Ÿ
+ü
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.csM_ M(ñ
+%57System.Xml.Linq.XCData"System.Xml.Linq.XCDataä
+á
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.csMc M(i
+%58void"%System.Xml.Linq.XCData.XCData(string)*
+
+%57System.Xml.Linq.XCData*
+
+%53string‡›
+ü
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.csMC M(ó
+%59System.Xml.Linq.XElement"System.Xml.Linq.XElement…
+∆
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.csMG M(O
+%60void"ASystem.Xml.Linq.XElement.XElement(System.Xml.Linq.XName, object?)*!
+
+%59System.Xml.Linq.XElement*
+description*
+
+%57System.Xml.Linq.XCDataÈÊ
+ü
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.csM M(ò
+%61void"çOrchardCore.Feeds.IFeedBuilder.AddProperty(OrchardCore.Feeds.Models.FeedContext, OrchardCore.Feeds.Models.FeedItem, System.Xml.Linq.XElement)*'
+%
+%50OrchardCore.Feeds.IFeedBuilder*1
+/
+context$OrchardCore.Feeds.Models.FeedContext*6
+4
+feedItem(OrchardCore.Feeds.Models.FeedItem<TItem>*!
+
+%59System.Xml.Linq.XElement2nAddProperty(OrchardCore.Feeds.Models.FeedContext, OrchardCore.Feeds.Models.FeedItem, System.Xml.Linq.XElement)∑
+¥
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.csO O(0
+%62System.Nullable<T>":OrchardCore.ContentManagement.ContentItem.PublishedUtc.get*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItem™
+ß
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.csO O(8
+%63bool"=System.DateTime.operator !=(System.DateTime, System.DateTime)*"
+System.DateTime*
+
+%62System.Nullable<T>*
+""*
+16
+1*◊
+16ü
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.csQ Q(Ñ∞
+≠
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.csQ Q('%
+%64OrchardCore.Feeds.IFeedBuilder"0OrchardCore.Feeds.Models.FeedContext.Builder.get*1
+/
+context$OrchardCore.Feeds.Models.FeedContext∑
+¥
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.csQY Q(q
+%65System.Nullable<T>":OrchardCore.ContentManagement.ContentItem.PublishedUtc.get*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItem˜
+Ù
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.csQY Q(w
+%66System.DateTime"System.Nullable<T>.Value.get*
+
+%65System.Nullable<T>¯
+ı
+ü
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.csQY Q(Ö
+%67string"!System.DateTime.ToString(string?)*
+
+%66System.DateTime*
+r«
+ƒ
+ü
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.csQ Q(Ü
+%68void"¨OrchardCore.Feeds.FeedBuilderExtensions.AddProperty(OrchardCore.Feeds.IFeedBuilder, OrchardCore.Feeds.Models.FeedContext, OrchardCore.Feeds.Models.FeedItem, string, string)*+")
+'OrchardCore.Feeds.FeedBuilderExtensions*'
+%
+%64OrchardCore.Feeds.IFeedBuilder*1
+/
+context$OrchardCore.Feeds.Models.FeedContext*6
+4
+feedItem(OrchardCore.Feeds.Models.FeedItem<TItem>*
+published-date*
+
+%67string*
+1*›
+3û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.csU	 U(	"∂
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Feeds\CommonFeedItemBuilder.csU U(	
+implicit return:/
+context$OrchardCore.Feeds.Models.FeedContextB=;
+9OrchardCore.Contents.Feeds.Builders.CommonFeedItemBuilder

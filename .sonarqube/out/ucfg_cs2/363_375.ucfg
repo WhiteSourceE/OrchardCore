@@ -1,0 +1,127 @@
+
+âOrchardCore.OpenId.YesSql.Stores.OpenIdAuthorizationStore<TAuthorization>.UpdateAsync(TAuthorization, System.Threading.CancellationToken)¶
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csç' ç(2"0* 
+0¶
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csè è(%ì
+ê
+¶
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csè è(%
+
+%0bool""object.operator ==(object, object)*
+"
+object*!
+
+authorizationTAuthorization*
+""*
+1
+2*»
+1¶
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csë ë(EÓÎ
+¶
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csë ë(F"
+%1System.ArgumentNullException"System.ArgumentNullException£
+†
+¶
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csë ë(/
+
+%2void";System.ArgumentNullException.ArgumentNullException(string?)*$
+"
+%1System.ArgumentNullException*
+""*
+3*Û
+2¶
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csî ñ(?∂
+≥
+¶
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csî î(<
+
+%3void"ASystem.Threading.CancellationToken.ThrowIfCancellationRequested()*9
+7
+cancellationToken"System.Threading.CancellationToken∑
+¥
+¶
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csñ ñ(
+%4YesSql.ISession"__id*l*jK
+IOrchardCore.OpenId.YesSql.Stores.OpenIdAuthorizationStore<TAuthorization>"
+_sessionYesSql.ISessionÃ…
+¶
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csñ ñ(@
+
+%5void"*YesSql.ISession.Save(object, bool, string)*
+
+%4YesSql.ISession*!
+
+authorizationTAuthorization*
+""*
+""2Save(object, bool, string)*
+4*ä
+4¶
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csö ö(,∑
+¥
+¶
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csö ö(
+%6YesSql.ISession"__id*l*jK
+IOrchardCore.OpenId.YesSql.Stores.OpenIdAuthorizationStore<TAuthorization>"
+_sessionYesSql.ISessionñì
+¶
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csö ö(,!
+%7System.Threading.Tasks.Task"YesSql.ISession.CommitAsync()*
+
+%6YesSql.ISession2CommitAsync()*	
+5
+3
+3*å
+5¶
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csû °(*ËÂ
+¶
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csûD û(W
+%8System.Text.StringBuilder"System.Text.StringBuilderÜ
+É
+¶
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csûH û(U
+
+%9void")System.Text.StringBuilder.StringBuilder()*!
+
+%8System.Text.StringBuilder˛
+˚
+¶
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csûD ü({ 
+%10System.Text.StringBuilder"-System.Text.StringBuilder.AppendLine(string?)*!
+
+%8System.Text.StringBuilder*\Z
+XThe authorization was concurrently updated and cannot be persisted in its current state.Ê
+„
+¶
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csûD †(b 
+%11System.Text.StringBuilder")System.Text.StringBuilder.Append(string?)*"
+ 
+%10System.Text.StringBuilder*GE
+CReload the authorization from the database and retry the operation.Ö
+Ç
+¶
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csûD °(
+%12string"$System.Text.StringBuilder.ToString()*"
+ 
+%11System.Text.StringBuilderπ∂
+¶
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csû °(+H
+%13AOpenIddict.Abstractions.OpenIddictExceptions.ConcurrencyException"AOpenIddict.Abstractions.OpenIddictExceptions.ConcurrencyException∂
+≥
+¶
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csû û(C
+%14void"rOpenIddict.Abstractions.OpenIddictExceptions.ConcurrencyException.ConcurrencyException(string?, System.Exception?)*J
+H
+%13AOpenIddict.Abstractions.OpenIddictExceptions.ConcurrencyException*
+
+%12string**
+(
+	exceptionYesSql.ConcurrencyException*
+3*Ì
+3¶
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.cs£	 £(	"æ
+¶
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.cs£ £(	
+implicit return:
+authorizationTAuthorization:7
+cancellationToken"System.Threading.CancellationTokenBMK
+IOrchardCore.OpenId.YesSql.Stores.OpenIdAuthorizationStore<TAuthorization>

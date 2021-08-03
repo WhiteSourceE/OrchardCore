@@ -1,0 +1,144 @@
+
+AOrchardCore.Users.Controllers.AccountController.LinkLogin(string)ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csï) ï(2"2*å*
+0ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csò ù(;∏
+µ
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csò ò(+
+%0%Microsoft.AspNetCore.Http.HttpContext"7Microsoft.AspNetCore.Mvc.ControllerBase.HttpContext.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBaseä
+á
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csò+ ò(K
+%1string"__id*O*M1
+/Microsoft.AspNetCore.Identity.IdentityConstants"
+ExternalSchemestring€
+ÿ
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csò ò(L!
+%2System.Threading.Tasks.Task"ÑMicrosoft.AspNetCore.Authentication.AuthenticationHttpContextExtensions.SignOutAsync(Microsoft.AspNetCore.Http.HttpContext, string?)*K"I
+GMicrosoft.AspNetCore.Authentication.AuthenticationHttpContextExtensions*-
++
+%0%Microsoft.AspNetCore.Http.HttpContext*
+
+%1stringÆ
+´
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csõ õ(!)
+%3#Microsoft.AspNetCore.Mvc.IUrlHelper"/Microsoft.AspNetCore.Mvc.ControllerBase.Url.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase¸
+˘
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csõ õ(C
+%4string"`Microsoft.AspNetCore.Mvc.UrlHelperExtensions.Action(Microsoft.AspNetCore.Mvc.IUrlHelper, string)*0".
+,Microsoft.AspNetCore.Mvc.UrlHelperExtensions*+
+)
+%3#Microsoft.AspNetCore.Mvc.IUrlHelper*
+""“
+œ
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csõ õ(C
+redirectUrlstring"__id*
+
+%4string‚
+ﬂ
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csú ú(+8
+%52Microsoft.AspNetCore.Identity.SignInManager<TUser>"__id*{*y1
+/OrchardCore.Users.Controllers.AccountController"D
+_signInManager2Microsoft.AspNetCore.Identity.SignInManager<TUser>‹
+Ÿ
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csúm ú(y6
+%60Microsoft.AspNetCore.Identity.UserManager<TUser>"__id*w*u1
+/OrchardCore.Users.Controllers.AccountController"@
+_userManager0Microsoft.AspNetCore.Identity.UserManager<TUser>¥
+±
+°
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csúÑ ú(à,
+%7&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBaseµ≤
+†
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csúm ú(â
+%8string"bMicrosoft.AspNetCore.Identity.UserManager<TUser>.GetUserId(System.Security.Claims.ClaimsPrincipal)*8
+6
+%60Microsoft.AspNetCore.Identity.UserManager<TUser>*.
+,
+%7&System.Security.Claims.ClaimsPrincipal21GetUserId(System.Security.Claims.ClaimsPrincipal)ûõ
+†
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csú ú(äB
+%9<Microsoft.AspNetCore.Authentication.AuthenticationProperties"tMicrosoft.AspNetCore.Identity.SignInManager<TUser>.ConfigureExternalAuthenticationProperties(string, string, string)*:
+8
+%52Microsoft.AspNetCore.Identity.SignInManager<TUser>*
+
+providerstring*
+
+redirectUrlstring*
+
+%8string2AConfigureExternalAuthenticationProperties(string, string, string)æ
+ª
+†
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csú ú(äJ
+
+properties<Microsoft.AspNetCore.Authentication.AuthenticationProperties"__id*D
+B
+%9<Microsoft.AspNetCore.Authentication.AuthenticationPropertiesÄ˝
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csù ù(</
+%10(Microsoft.AspNetCore.Mvc.ChallengeResult"(Microsoft.AspNetCore.Mvc.ChallengeResult…
+∆
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csù ù(&
+%11void"~Microsoft.AspNetCore.Mvc.ChallengeResult.ChallengeResult(string, Microsoft.AspNetCore.Authentication.AuthenticationProperties)*1
+/
+%10(Microsoft.AspNetCore.Mvc.ChallengeResult*
+
+providerstring*L
+J
+
+properties<Microsoft.AspNetCore.Authentication.AuthenticationProperties"’
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csù ù(=1
+/
+%10(Microsoft.AspNetCore.Mvc.ChallengeResult*ﬂ
+1ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csû	 û(	"∑
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csû û(	
+implicit return*£	
+2ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csïC ï(C–
+Õ
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csï) ï(2
+%12"__entrypoint*
+
+providerstringí
+è
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csì	 ì(
+%13"
+__annotate*B@
+>Microsoft.AspNetCore.Mvc.HttpPostAttribute.HttpPostAttribute()*
+
+providerstring≤
+Ø
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csî	 î(!
+%14"
+__annotate*b`
+^Microsoft.AspNetCore.Mvc.ValidateAntiForgeryTokenAttribute.ValidateAntiForgeryTokenAttribute()*
+
+providerstringŸ
+÷
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csï3 ï(B
+providerstring"__annotation*
+
+%13*
+
+%14*
+0:
+providerstringB31
+/OrchardCore.Users.Controllers.AccountController

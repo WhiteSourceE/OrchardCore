@@ -1,0 +1,740 @@
+
+±OrchardCore.Layers.Services.LayerFilter.OnResultExecutionAsync(Microsoft.AspNetCore.Mvc.Filters.ResultExecutingContext, Microsoft.AspNetCore.Mvc.Filters.ResultExecutionDelegate)ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.cs? ?(0"0*Ö
+0ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csB B(-ﬂ‹
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csB B(,
+%0&Microsoft.AspNetCore.Mvc.IActionResult"BMicrosoft.AspNetCore.Mvc.Filters.ResultExecutingContext.Result.get*D
+B
+context7Microsoft.AspNetCore.Mvc.Filters.ResultExecutingContext2
+Result.get*
+1
+2*Ö
+2ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csB1 B(Mﬂ‹
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csB1 B(?,
+%1&Microsoft.AspNetCore.Mvc.IActionResult"BMicrosoft.AspNetCore.Mvc.Filters.ResultExecutingContext.Result.get*D
+B
+context7Microsoft.AspNetCore.Mvc.Filters.ResultExecutingContext2
+Result.get*
+1
+3*æ
+1ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csC C(=∆
+√
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csC* C(=+
+%2%Microsoft.AspNetCore.Http.HttpContext"6Microsoft.AspNetCore.Mvc.ActionContext.HttpContext.get*D
+B
+context7Microsoft.AspNetCore.Mvc.Filters.ResultExecutingContextœ
+Ã
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csC C(>
+
+%3bool"QOrchardCore.Admin.AdminAttribute.IsApplied(Microsoft.AspNetCore.Http.HttpContext)*$""
+ OrchardCore.Admin.AdminAttribute*-
++
+%2%Microsoft.AspNetCore.Http.HttpContext*
+4
+3*‘
+4ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csG% G(H—
+Œ
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csG+ G(89
+%43OrchardCore.DisplayManagement.Theming.IThemeManager"__id*s*q)
+'OrchardCore.Layers.Services.LayerFilter"D
+_themeManager3OrchardCore.DisplayManagement.Theming.IThemeManager⁄◊
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csG+ G(H*
+%5$System.Threading.Tasks.Task<TResult>"COrchardCore.DisplayManagement.Theming.IThemeManager.GetThemeAsync()*;
+9
+%43OrchardCore.DisplayManagement.Theming.IThemeManager2GetThemeAsync()*
+5
+6*†
+6ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csGJ G(M*
+5*√
+5ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csG I(/¬
+ø
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csG G(M
+selectedThemestring"__id*
+""∏
+µ
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csH' H(9*
+%6$OrchardCore.Admin.IAdminThemeService"__id*i*g)
+'OrchardCore.Layers.Services.LayerFilter":
+_adminThemeService$OrchardCore.Admin.IAdminThemeServiceŒÀ
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csH' H(R*
+%7$System.Threading.Tasks.Task<TResult>"=OrchardCore.Admin.IAdminThemeService.GetAdminThemeNameAsync()*,
+*
+%6$OrchardCore.Admin.IAdminThemeService2GetAdminThemeNameAsync()ø
+º
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csH H(R
+
+adminThemestring"__id*
+""ä
+á
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csI I(/
+
+%8bool""string.operator ==(string, string)*
+"
+string*
+
+selectedThemestring*
+
+
+adminThemestring*
+7
+8*è
+7ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csK K('Œ
+À
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csK K('*
+%9$System.Threading.Tasks.Task<TResult>"AMicrosoft.AspNetCore.Mvc.Filters.ResultExecutionDelegate.Invoke()*B
+@
+next8Microsoft.AspNetCore.Mvc.Filters.ResultExecutionDelegate"†
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csL L(
+""*—
+8ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csO Q(X„
+‡
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csO' O(9@
+%109OrchardCore.Documents.IVolatileDocumentManager<TDocument>"__id*~*|)
+'OrchardCore.Layers.Services.LayerFilter"O
+_layerStateManager9OrchardCore.Documents.IVolatileDocumentManager<TDocument>Á‰
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csO' O(U+
+%11$System.Threading.Tasks.Task<TResult>"ÄOrchardCore.Documents.IDocumentManager<TDocument>.GetOrCreateImmutableAsync(System.Func<System.Threading.Tasks.Task<TDocument>>)*B
+@
+%109OrchardCore.Documents.IVolatileDocumentManager<TDocument>*
+""2NGetOrCreateImmutableAsync(System.Func<System.Threading.Tasks.Task<TDocument>>)ﬂ
+‹
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csO O(U4
+
+layerState&OrchardCore.Layers.Handlers.LayerState"__id*
+""À
+»
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csQ Q(!7
+%120Microsoft.Extensions.Caching.Memory.IMemoryCache"__id*o*m)
+'OrchardCore.Layers.Services.LayerFilter"@
+_memoryCache0Microsoft.Extensions.Caching.Memory.IMemoryCache∞
+≠
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csQ: Q(D
+%13"__id*
+""˜
+Ù
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csQ Q(Y
+%14bool"ãMicrosoft.Extensions.Caching.Memory.CacheExtensions.TryGetValue<TItem>(Microsoft.Extensions.Caching.Memory.IMemoryCache, object, out TItem)*7"5
+3Microsoft.Extensions.Caching.Memory.CacheExtensions*9
+7
+%120Microsoft.Extensions.Caching.Memory.IMemoryCache*
+
+%13*B
+@
+
+cacheEntry2OrchardCore.Layers.Services.LayerFilter.CacheEntry*
+9
+10*„
+10ñ
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csQ] Q(ã¢
+ü
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csQ] Q(r
+%15string"2OrchardCore.Data.Documents.Document.Identifier.get*B
+@
+
+cacheEntry2OrchardCore.Layers.Services.LayerFilter.CacheEntryó
+î
+ñ
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csQv Q(ã
+%16string"2OrchardCore.Data.Documents.Document.Identifier.get*6
+4
+
+layerState&OrchardCore.Layers.Handlers.LayerState˚
+¯
+ñ
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csQ] Q(ã
+%17bool""string.operator !=(string, string)*
+"
+string*
+
+%15string*
+
+%16string*
+9
+11*¡
+9ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csS Y(;äá
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csS! W(9
+%182OrchardCore.Layers.Services.LayerFilter.CacheEntry"2OrchardCore.Layers.Services.LayerFilter.CacheEntry¶
+£
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csS% S(/
+%19void"?OrchardCore.Layers.Services.LayerFilter.CacheEntry.CacheEntry()*;
+9
+%182OrchardCore.Layers.Services.LayerFilter.CacheEntryñ
+ì
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csU% U(:
+%20string"2OrchardCore.Data.Documents.Document.Identifier.get*6
+4
+
+layerState&OrchardCore.Layers.Handlers.LayerState¨
+©
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csU U(:
+%21string"2OrchardCore.Data.Documents.Document.Identifier.set*;
+9
+%182OrchardCore.Layers.Services.LayerFilter.CacheEntry*
+
+%20stringæ
+ª
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csV( V(50
+%22)OrchardCore.Layers.Services.ILayerService"__id*i*g)
+'OrchardCore.Layers.Services.LayerFilter":
+_layerService)OrchardCore.Layers.Services.ILayerService «
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csV( V(d+
+%23$System.Threading.Tasks.Task<TResult>"µOrchardCore.Layers.Services.ILayerService.GetLayerWidgetsMetadataAsync(System.Linq.Expressions.Expression<System.Func<OrchardCore.ContentManagement.Records.ContentItemIndex, bool>>)*2
+0
+%22)OrchardCore.Layers.Services.ILayerService*
+""2ãGetLayerWidgetsMetadataAsync(System.Linq.Expressions.Expression<System.Func<OrchardCore.ContentManagement.Records.ContentItemIndex, bool>>)“
+œ
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csV V(d0
+%24)System.Collections.Generic.IEnumerable<T>">OrchardCore.Layers.Services.LayerFilter.CacheEntry.Widgets.set*;
+9
+%182OrchardCore.Layers.Services.LayerFilter.CacheEntry*
+""†
+ù
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csS W(@
+
+cacheEntry2OrchardCore.Layers.Services.LayerFilter.CacheEntry"__id*;
+9
+%182OrchardCore.Layers.Services.LayerFilter.CacheEntryÀ
+»
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csY Y( 7
+%250Microsoft.Extensions.Caching.Memory.IMemoryCache"__id*o*m)
+'OrchardCore.Layers.Services.LayerFilter"@
+_memoryCache0Microsoft.Extensions.Caching.Memory.IMemoryCache∞
+≠
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csY% Y(/
+%26"__id*
+""ò
+ï
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csY Y(<9
+%272OrchardCore.Layers.Services.LayerFilter.CacheEntry"Microsoft.Extensions.Caching.Memory.CacheExtensions.Set<TItem>(Microsoft.Extensions.Caching.Memory.IMemoryCache, object, TItem)*7"5
+3Microsoft.Extensions.Caching.Memory.CacheExtensions*9
+7
+%250Microsoft.Extensions.Caching.Memory.IMemoryCache*
+
+%26*B
+@
+
+cacheEntry2OrchardCore.Layers.Services.LayerFilter.CacheEntry*
+11*“!
+11ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.cs\ e(.—
+Œ
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.cs\ \(00
+%28)System.Collections.Generic.IEnumerable<T>">OrchardCore.Layers.Services.LayerFilter.CacheEntry.Widgets.get*B
+@
+
+cacheEntry2OrchardCore.Layers.Services.LayerFilter.CacheEntryã
+à
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.cs\ \(04
+widgets)System.Collections.Generic.IEnumerable<T>"__id*2
+0
+%28)System.Collections.Generic.IEnumerable<T>æ
+ª
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.cs^$ ^(10
+%29)OrchardCore.Layers.Services.ILayerService"__id*i*g)
+'OrchardCore.Layers.Services.LayerFilter":
+_layerService)OrchardCore.Layers.Services.ILayerService «
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.cs^$ ^(B+
+%30$System.Threading.Tasks.Task<TResult>":OrchardCore.Layers.Services.ILayerService.GetLayersAsync()*2
+0
+%29)OrchardCore.Layers.Services.ILayerService2GetLayersAsync()Ñ
+Å
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.cs^ ^(d:
+%313System.Collections.Generic.Dictionary<TKey, TValue>"System.Linq.Enumerable.ToDictionary<TSource, TKey>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TKey>)*"
+System.Linq.Enumerable*
+""*
+""û
+õ
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.cs^ ^(d=
+layers3System.Collections.Generic.Dictionary<TKey, TValue>"__id*<
+:
+%313System.Collections.Generic.Dictionary<TKey, TValue>÷
+”
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.cs`' `(6;
+%324OrchardCore.DisplayManagement.Layout.ILayoutAccessor"__id*v*t)
+'OrchardCore.Layers.Services.LayerFilter"G
+_layoutAccessor4OrchardCore.DisplayManagement.Layout.ILayoutAccessor‡›
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.cs`' `(G+
+%33$System.Threading.Tasks.Task<TResult>"EOrchardCore.DisplayManagement.Layout.ILayoutAccessor.GetLayoutAsync()*=
+;
+%324OrchardCore.DisplayManagement.Layout.ILayoutAccessor2GetLayoutAsync()º
+π
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.cs` `(G
+layoutdynamic"__id*
+""Ù
+Ò
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csa a(3F
+%34?OrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessor"__id*à*Ö)
+'OrchardCore.Layers.Services.LayerFilter"X
+_modelUpdaterAccessor?OrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessorâÜ
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csa a(@>
+%357OrchardCore.DisplayManagement.ModelBinding.IUpdateModel"POrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessor.ModelUpdater.get*H
+F
+%34?OrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessor2ModelUpdater.getß
+§
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csa a(@B
+updater7OrchardCore.DisplayManagement.ModelBinding.IUpdateModel"__id*@
+>
+%357OrchardCore.DisplayManagement.ModelBinding.IUpdateModelÌ
+Í
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csc c(@B
+layersCache3System.Collections.Generic.Dictionary<TKey, TValue>"__id*
+""*
+12*ß
+12ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csó	 ó(	*
+13
+3*Ø
+13ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csg  g(4í
+è
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csg  g(,
+%36string"1OrchardCore.Layers.Models.LayerMetadata.Layer.get*3
+1
+widget'OrchardCore.Layers.Models.LayerMetadataÒ
+Ó
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csg  g(4
+%37bool""string.operator !=(string, string)*
+"
+string*
+
+%36string*
+""*
+14
+15*Ÿ
+14ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csg7 g(Jí
+è
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csg> g(J
+%41string"1OrchardCore.Layers.Models.LayerMetadata.Layer.get*3
+1
+widget'OrchardCore.Layers.Models.LayerMetadataü
+ú
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csg7 g(K&
+%42OrchardCore.Layers.Models.Layer"__mapGet*?
+=
+layers3System.Collections.Generic.Dictionary<TKey, TValue>*
+
+%41string*
+16*™
+15ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csgN g(R∞
+≠
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csgN g(R
+%40"__id*
+""“
+œ
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csgN g(R&
+%38OrchardCore.Layers.Models.Layer"__id*
+
+%40*
+16*≠
+16ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csg i(%ı
+Ú
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csg g(R(
+layerOrchardCore.Layers.Models.Layer"__id*(
+&
+%38OrchardCore.Layers.Models.Layerå
+â
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csi i(%
+%43bool""object.operator ==(object, object)*
+"
+object**
+(
+layerOrchardCore.Layers.Models.Layer*
+""*
+17
+18*§
+17ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csó	 ó(	*
+12*ë
+18ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csn o(HÄ
+˝
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.cso1 o(;
+%44string"(OrchardCore.Layers.Models.Layer.Name.get**
+(
+layerOrchardCore.Layers.Models.LayerÂ
+‚
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.cso o(I
+%45bool"QSystem.Collections.Generic.Dictionary<TKey, TValue>.TryGetValue(TKey, out TValue)*D
+B
+layersCache3System.Collections.Generic.Dictionary<TKey, TValue>*
+
+%44string*
+
+displaybool*
+19
+20*´
+19ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csq s(9ß
+§
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csq( q(4%
+%46OrchardCore.Rules.IRuleService"__id*]*[)
+'OrchardCore.Layers.Services.LayerFilter".
+_ruleServiceOrchardCore.Rules.IRuleServiceï
+í
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csqC q(R
+%47OrchardCore.Rules.Rule"-OrchardCore.Layers.Models.Layer.LayerRule.get**
+(
+layerOrchardCore.Layers.Models.LayerÑÅ
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csq( q(S0
+%48)System.Threading.Tasks.ValueTask<TResult>"DOrchardCore.Rules.IRuleService.EvaluateAsync(OrchardCore.Rules.Rule)*'
+%
+%46OrchardCore.Rules.IRuleService*
+
+%47OrchardCore.Rules.Rule2%EvaluateAsync(OrchardCore.Rules.Rule)∫
+∑
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csq q(S
+displaybool"__id*
+""Ä
+˝
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.css$ s(.
+%49string"(OrchardCore.Layers.Models.Layer.Name.get**
+(
+layerOrchardCore.Layers.Models.Layer*
+20*¶
+20ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csv v( *
+21
+22*§
+21ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csó	 ó(	*
+12*ıP
+22ñ
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.cs{ ã(@˚
+¯
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.cs{. {(HG
+%50@OrchardCore.ContentManagement.Display.IContentItemDisplayManager"__id*é*ã)
+'OrchardCore.Layers.Services.LayerFilter"^
+_contentItemDisplayManager@OrchardCore.ContentManagement.Display.IContentItemDisplayManager¿
+Ω
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.cs{[ {(m0
+%51)OrchardCore.ContentManagement.ContentItem"<OrchardCore.ContentManagement.ContentElement.ContentItem.get*3
+1
+widget'OrchardCore.Layers.Models.LayerMetadataÓÎ
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.cs{. {(w+
+%52$System.Threading.Tasks.Task<TResult>"∆OrchardCore.ContentManagement.Display.IContentItemDisplayManager.BuildDisplayAsync(OrchardCore.ContentManagement.ContentItem, OrchardCore.DisplayManagement.ModelBinding.IUpdateModel, string, string)*I
+G
+%50@OrchardCore.ContentManagement.Display.IContentItemDisplayManager*2
+0
+%51)OrchardCore.ContentManagement.ContentItem*D
+B
+updater7OrchardCore.DisplayManagement.ModelBinding.IUpdateModel*
+""*
+""2ÖBuildDisplayAsync(OrchardCore.ContentManagement.ContentItem, OrchardCore.DisplayManagement.ModelBinding.IUpdateModel, string, string)‡
+›
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.cs{ {(w5
+widgetContent$OrchardCore.DisplayManagement.IShape"__id*
+""øº
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.cs} }()*
+%53#System.Collections.Generic.IList<T>"0OrchardCore.DisplayManagement.IShape.Classes.get*7
+5
+widgetContent$OrchardCore.DisplayManagement.IShape2Classes.getÚ
+Ô
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.cs} }(7
+%54void"
+__arrayAdd*,
+*
+%53#System.Collections.Generic.IList<T>*: *
+
+widgetøº
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.cs~ ~()*
+%55#System.Collections.Generic.IList<T>"0OrchardCore.DisplayManagement.IShape.Classes.get*7
+5
+widgetContent$OrchardCore.DisplayManagement.IShape2Classes.get¿
+Ω
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.cs~: ~(L0
+%56)OrchardCore.ContentManagement.ContentItem"<OrchardCore.ContentManagement.ContentElement.ContentItem.get*3
+1
+widget'OrchardCore.Layers.Models.LayerMetadataô
+ñ
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.cs~: ~(X
+%57string"9OrchardCore.ContentManagement.ContentItem.ContentType.get*2
+0
+%56)OrchardCore.ContentManagement.ContentItem¨
+©
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.cs~: ~(g
+%58string"?OrchardCore.Mvc.Utilities.StringExtensions.HtmlClassify(string)*.",
+*OrchardCore.Mvc.Utilities.StringExtensions*
+
+%57string“
+œ
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.cs~. ~(g
+%59string"__concat*	
+widget-*
+
+%58string˜
+Ù
+ï
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.cs~ ~(h
+%60void"
+__arrayAdd*,
+*
+%55#System.Collections.Generic.IList<T>*: *
+
+%59string˛˚
+ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csÄ" Ñ(2
+%61+OrchardCore.Layers.ViewModels.WidgetWrapper"+OrchardCore.Layers.ViewModels.WidgetWrapperù
+ö
+ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csÄ& Ä(3
+%62void";OrchardCore.Layers.ViewModels.WidgetWrapper.WidgetWrapper()*4
+2
+%61+OrchardCore.Layers.ViewModels.WidgetWrapper¬
+ø
+ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csÇ! Ç(30
+%63)OrchardCore.ContentManagement.ContentItem"<OrchardCore.ContentManagement.ContentElement.ContentItem.get*3
+1
+widget'OrchardCore.Layers.Models.LayerMetadataÒ
+Ó
+ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csÇ Ç(30
+%64)OrchardCore.ContentManagement.ContentItem"6OrchardCore.Layers.ViewModels.WidgetWrapper.Widget.set*4
+2
+%61+OrchardCore.Layers.ViewModels.WidgetWrapper*2
+0
+%63)OrchardCore.ContentManagement.ContentItemÚ
+Ô
+ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csÉ É(/+
+%65$OrchardCore.DisplayManagement.IShape"7OrchardCore.Layers.ViewModels.WidgetWrapper.Content.set*4
+2
+%61+OrchardCore.Layers.ViewModels.WidgetWrapper*7
+5
+widgetContent$OrchardCore.DisplayManagement.IShapeë
+é
+ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csÄ Ñ(6
+wrapper+OrchardCore.Layers.ViewModels.WidgetWrapper"__id*4
+2
+%61+OrchardCore.Layers.ViewModels.WidgetWrapper”
+–
+ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csÜ Ü($9
+%662OrchardCore.DisplayManagement.Shapes.ShapeMetadata"?OrchardCore.DisplayManagement.Views.ShapeViewModel.Metadata.get*8
+6
+wrapper+OrchardCore.Layers.ViewModels.WidgetWrapperﬂ
+‹
+ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csÜ Ü(/@
+%679OrchardCore.DisplayManagement.Shapes.AlternatesCollection"AOrchardCore.DisplayManagement.Shapes.ShapeMetadata.Alternates.get*;
+9
+%662OrchardCore.DisplayManagement.Shapes.ShapeMetadata¬
+ø
+ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csÜI Ü([0
+%68)OrchardCore.ContentManagement.ContentItem"<OrchardCore.ContentManagement.ContentElement.ContentItem.get*3
+1
+widget'OrchardCore.Layers.Models.LayerMetadataõ
+ò
+ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csÜI Ü(g
+%69string"9OrchardCore.ContentManagement.ContentItem.ContentType.get*2
+0
+%68)OrchardCore.ContentManagement.ContentItem›
+⁄
+ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csÜ4 Ü(g
+%70string"__concat*
+Widget_Wrapper__*
+
+%69string∆
+√
+ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csÜ Ü(h
+%71void"EOrchardCore.DisplayManagement.Shapes.AlternatesCollection.Add(string)*B
+@
+%679OrchardCore.DisplayManagement.Shapes.AlternatesCollection*
+
+%70string”
+–
+ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csá á($9
+%722OrchardCore.DisplayManagement.Shapes.ShapeMetadata"?OrchardCore.DisplayManagement.Views.ShapeViewModel.Metadata.get*8
+6
+wrapper+OrchardCore.Layers.ViewModels.WidgetWrapperﬂ
+‹
+ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csá á(/@
+%739OrchardCore.DisplayManagement.Shapes.AlternatesCollection"AOrchardCore.DisplayManagement.Shapes.ShapeMetadata.Alternates.get*;
+9
+%722OrchardCore.DisplayManagement.Shapes.ShapeMetadataì
+ê
+ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csáO á(Z
+%74string"0OrchardCore.Layers.Models.LayerMetadata.Zone.get*3
+1
+widget'OrchardCore.Layers.Models.LayerMetadata„
+‡
+ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csá4 á(Z
+%75string"__concat*
+Widget_Wrapper__Zone__*
+
+%74string∆
+√
+ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csá á([
+%76void"EOrchardCore.DisplayManagement.Shapes.AlternatesCollection.Add(string)*B
+@
+%739OrchardCore.DisplayManagement.Shapes.AlternatesCollection*
+
+%75string◊
+‘
+ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csâ& â(2
+%77dynamic"__mapGet*
+
+layoutdynamic*	
+Zonesì
+ê
+ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csâ3 â(>
+%78string"0OrchardCore.Layers.Models.LayerMetadata.Zone.get*3
+1
+widget'OrchardCore.Layers.Models.LayerMetadata 
+«
+ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csâ â(?
+contentZonedynamic"__id*
+	{unknown}ˇ
+¸
+ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csã ã(@@
+zoneOnDemand0OrchardCore.DisplayManagement.Zones.ZoneOnDemand"__id*
+
+contentZonedynamic*
+23
+24*¬
+23ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csç ç(;õ
+ò
+ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csç ç(<+
+%79$System.Threading.Tasks.Task<TResult>"IOrchardCore.DisplayManagement.Zones.ZoneOnDemand.AddAsync(object, string)*B
+@
+zoneOnDemand0OrchardCore.DisplayManagement.Zones.ZoneOnDemand*8
+6
+wrapper+OrchardCore.Layers.ViewModels.WidgetWrapper*
+""*
+12*ù
+24ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csè è(7Ú
+Ô
+ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csè è(73
+shape*OrchardCore.DisplayManagement.Shapes.Shape"__id*
+
+contentZonedynamic*
+25
+12*≈
+25ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csë ë()ûõ
+ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csë ë(*1
+%80*OrchardCore.DisplayManagement.Shapes.Shape">OrchardCore.DisplayManagement.Shapes.Shape.Add(object, string)*5
+3
+shape*OrchardCore.DisplayManagement.Shapes.Shape*8
+6
+wrapper+OrchardCore.Layers.ViewModels.WidgetWrapper*
+""2Add(object, string)*
+12*˜
+3ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csñ ñ(—
+Œ
+ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csñ ñ(+
+%81$System.Threading.Tasks.Task<TResult>"AMicrosoft.AspNetCore.Mvc.Filters.ResultExecutionDelegate.Invoke()*B
+@
+next8Microsoft.AspNetCore.Mvc.Filters.ResultExecutionDelegate*
+26*–
+26ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csó	 ó(	"Ø
+ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Services\LayerFilter.csó ó(	
+implicit return:B
+context7Microsoft.AspNetCore.Mvc.Filters.ResultExecutingContext:@
+next8Microsoft.AspNetCore.Mvc.Filters.ResultExecutionDelegateB+)
+'OrchardCore.Layers.Services.LayerFilter

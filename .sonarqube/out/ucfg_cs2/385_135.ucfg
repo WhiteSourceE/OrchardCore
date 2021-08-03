@@ -1,0 +1,174 @@
+
+8OrchardCore.Demo.Controllers.TodoController.Edit(string)ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Demo\Controllers\TodoController.cs,) ,(-"4*˚
+0ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Demo\Controllers\TodoController.cs. 2(å
+â
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Demo\Controllers\TodoController.cs. .('
+%0YesSql.ISession"__id*N*L-
++OrchardCore.Demo.Controllers.TodoController"
+_sessionYesSql.ISessionÆ
+´
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Demo\Controllers\TodoController.cs. .(:
+%1YesSql.IQuery<T>"8YesSql.QueryExtensions.Query<T>(YesSql.ISession, string)*"
+YesSql.QueryExtensions*
+
+%0YesSql.ISession*
+""êç
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Demo\Controllers\TodoController.cs. .(F*
+%2$System.Threading.Tasks.Task<TResult>"YesSql.IQuery<T>.ListAsync()*
+
+%1YesSql.IQuery<T>2ListAsync()
+Ì
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Demo\Controllers\TodoController.cs. /(//
+%3)System.Collections.Generic.IEnumerable<T>"rSystem.Linq.Enumerable.Where<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
+System.Linq.Enumerable*
+""*
+""¯
+ı
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Demo\Controllers\TodoController.cs. 0(!'
+%4!OrchardCore.Demo.Models.TodoModel"_System.Linq.Enumerable.FirstOrDefault<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*1
+/
+%3)System.Collections.Generic.IEnumerable<T>¸
+˘
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Demo\Controllers\TodoController.cs. 0(!*
+model!OrchardCore.Demo.Models.TodoModel"__id*)
+'
+%4!OrchardCore.Demo.Models.TodoModelë
+é
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Demo\Controllers\TodoController.cs2 2(
+
+%5bool""object.operator ==(object, object)*
+"
+object*,
+*
+model!OrchardCore.Demo.Models.TodoModel*
+""*
+1
+2*≠
+1ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Demo\Controllers\TodoController.cs4 4(!ª∏
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Demo\Controllers\TodoController.cs4 4(!-
+%6'Microsoft.AspNetCore.Mvc.NotFoundResult"2Microsoft.AspNetCore.Mvc.ControllerBase.NotFound()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2
+NotFound()"Õ
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Demo\Controllers\TodoController.cs4 4("/
+-
+%6'Microsoft.AspNetCore.Mvc.NotFoundResult*Æ 
+2ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Demo\Controllers\TodoController.cs7 @(!˚¯
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Demo\Controllers\TodoController.cs7 >(/
+%7)OrchardCore.Demo.ViewModels.TodoViewModel")OrchardCore.Demo.ViewModels.TodoViewModelô
+ñ
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Demo\Controllers\TodoController.cs7  7(-
+
+%8void"9OrchardCore.Demo.ViewModels.TodoViewModel.TodoViewModel()*1
+/
+%7)OrchardCore.Demo.ViewModels.TodoViewModelâ
+Ü
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Demo\Controllers\TodoController.cs9 9(%
+%9string",OrchardCore.Demo.Models.TodoModel.TodoId.get*,
+*
+model!OrchardCore.Demo.Models.TodoModelß
+§
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Demo\Controllers\TodoController.cs9 9(%
+%10string"4OrchardCore.Demo.ViewModels.TodoViewModel.TodoId.set*1
+/
+%7)OrchardCore.Demo.ViewModels.TodoViewModel*
+
+%9stringà
+Ö
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Demo\Controllers\TodoController.cs: :(!
+%11string"*OrchardCore.Demo.Models.TodoModel.Text.get*,
+*
+model!OrchardCore.Demo.Models.TodoModel¶
+£
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Demo\Controllers\TodoController.cs: :(!
+%12string"2OrchardCore.Demo.ViewModels.TodoViewModel.Text.set*1
+/
+%7)OrchardCore.Demo.ViewModels.TodoViewModel*
+
+%11stringî
+ë
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Demo\Controllers\TodoController.cs; ;('
+%13System.DateTime"-OrchardCore.Demo.Models.TodoModel.DueDate.get*,
+*
+model!OrchardCore.Demo.Models.TodoModelª
+∏
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Demo\Controllers\TodoController.cs; ;('
+%14System.DateTime"5OrchardCore.Demo.ViewModels.TodoViewModel.DueDate.set*1
+/
+%7)OrchardCore.Demo.ViewModels.TodoViewModel*
+
+%13System.DateTimeç
+ä
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Demo\Controllers\TodoController.cs< <(/
+%15bool"1OrchardCore.Demo.Models.TodoModel.IsCompleted.get*,
+*
+model!OrchardCore.Demo.Models.TodoModel©
+¶
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Demo\Controllers\TodoController.cs< <(/
+%16bool"9OrchardCore.Demo.ViewModels.TodoViewModel.IsCompleted.set*1
+/
+%7)OrchardCore.Demo.ViewModels.TodoViewModel*
+
+%15bool¶
+£
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Demo\Controllers\TodoController.cs= =($
+%17string"9OrchardCore.Demo.ViewModels.TodoViewModel.DisplayMode.set*1
+/
+%7)OrchardCore.Demo.ViewModels.TodoViewModel*
+Editê
+ç
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Demo\Controllers\TodoController.cs7 >(6
+	viewModel)OrchardCore.Demo.ViewModels.TodoViewModel"__id*1
+/
+%7)OrchardCore.Demo.ViewModels.TodoViewModelÓÎ
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Demo\Controllers\TodoController.cs@ @("*
+%18#Microsoft.AspNetCore.Mvc.ViewResult"0Microsoft.AspNetCore.Mvc.Controller.View(object)*'%
+#Microsoft.AspNetCore.Mvc.Controller*8
+6
+	viewModel)OrchardCore.Demo.ViewModels.TodoViewModel2View(object)" 
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Demo\Controllers\TodoController.cs@ @(#,
+*
+%18#Microsoft.AspNetCore.Mvc.ViewResult*”
+3ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Demo\Controllers\TodoController.csA	 A(	"±
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Demo\Controllers\TodoController.csA A(	
+implicit return*Ô
+4ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Demo\Controllers\TodoController.cs,< ,(<»
+≈
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Demo\Controllers\TodoController.cs,) ,(-
+%19"__entrypoint*
+
+todoIdstring*
+0:
+todoIdstringB/-
++OrchardCore.Demo.Controllers.TodoController

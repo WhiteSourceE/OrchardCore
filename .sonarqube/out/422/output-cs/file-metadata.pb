@@ -1,0 +1,9 @@
+Ô
+ÈD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\obj\Debug\net5.0\Razor\Views\Items\UpdateTwitterStatusTask.Fields.Design.cshtml.g.csutf-8Ò
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\obj\Debug\net5.0\Razor\Views\Items\UpdateTwitterStatusTask.Fields.Edit.cshtml.g.csutf-8×
+ËD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\obj\Debug\net5.0\Razor\Views\Items\UpdateTwitterStatusTask.Fields.Thumbnail.cshtml.g.csutf-8Æ
+ºD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\obj\Debug\net5.0\Razor\Views\NavigationItemText-twitter.Id.cshtml.g.csutf-8½
+±D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\obj\Debug\net5.0\Razor\Views\TwitterSettings.Edit.cshtml.g.csutf-8Ã
+·D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\obj\Debug\net5.0\Razor\Views\TwitterSigninSettings.Edit.cshtml.g.csutf-8µ
+©D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.csutf-8¿
+³D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\obj\Debug\net5.0\OrchardCore.Twitter.RazorTargetAssemblyInfo.csutf-8

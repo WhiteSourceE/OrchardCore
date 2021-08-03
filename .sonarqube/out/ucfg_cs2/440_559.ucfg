@@ -1,0 +1,129 @@
+
+MOrchardCore.OpenId.Controllers.ApplicationController.GetServerSettingsAsync()§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.csº1 º(G"0*™
+
+0§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.csæ æ(fä
+á
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.csæ æ( E
+%0?OrchardCore.Environment.Shell.Descriptor.Models.ShellDescriptor"__id*ê*ç6
+4OrchardCore.OpenId.Controllers.ApplicationController"S
+_shellDescriptor?OrchardCore.Environment.Shell.Descriptor.Models.ShellDescriptorÏ
+È
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.csæ æ())
+%1#System.Collections.Generic.IList<T>"LOrchardCore.Environment.Shell.Descriptor.Models.ShellDescriptor.Features.get*G
+E
+%0?OrchardCore.Environment.Shell.Descriptor.Models.ShellDescriptor˘
+ˆ
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.csæ æ(g
+
+%2bool"pSystem.Linq.Enumerable.Any<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
+System.Linq.Enumerable*+
+)
+%1#System.Collections.Generic.IList<T>*
+""*
+1
+2*å
+1§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.cs¿ ¬(tΩ
+∫
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.cs¿ ¿()+
+%3%Microsoft.AspNetCore.Http.HttpContext"7Microsoft.AspNetCore.Mvc.ControllerBase.HttpContext.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase≥
+∞
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.cs¿ ¿(9
+%4System.IServiceProvider"9Microsoft.AspNetCore.Http.HttpContext.RequestServices.get*-
++
+%3%Microsoft.AspNetCore.Http.HttpContextÃ
+…
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.cs¿ ¿(d6
+%50OrchardCore.OpenId.Services.IOpenIdServerService"xMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<T>(System.IServiceProvider)*M"K
+IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*
+
+%4System.IServiceProviderß
+§
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.cs¿ ¿(d;
+service0OrchardCore.OpenId.Services.IOpenIdServerService"__id*8
+6
+%50OrchardCore.OpenId.Services.IOpenIdServerServiceÓÎ
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.cs¡% ¡(?*
+%6$System.Threading.Tasks.Task<TResult>"COrchardCore.OpenId.Services.IOpenIdServerService.GetSettingsAsync()*=
+;
+service0OrchardCore.OpenId.Services.IOpenIdServerService2GetSettingsAsync()ˆ
+Û
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.cs¡ ¡(?<
+settings0OrchardCore.OpenId.Settings.OpenIdServerSettings"__id*
+""òï
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.cs¬ ¬(B*
+%7$System.Threading.Tasks.Task<TResult>"xOrchardCore.OpenId.Services.IOpenIdServerService.ValidateSettingsAsync(OrchardCore.OpenId.Settings.OpenIdServerSettings)*=
+;
+service0OrchardCore.OpenId.Services.IOpenIdServerService*>
+<
+settings0OrchardCore.OpenId.Settings.OpenIdServerSettings2GValidateSettingsAsync(OrchardCore.OpenId.Settings.OpenIdServerSettings)„
+‡
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.cs¬ ¬(u
+
+%8bool"qSystem.Linq.ImmutableArrayExtensions.Any<T>(System.Collections.Immutable.ImmutableArray<T>, System.Func<T, bool>)*("&
+$System.Linq.ImmutableArrayExtensions*
+""*
+""*
+3
+4*Ÿ
+3§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.csƒ ƒ(^ﬂ
+‹
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.csƒ ƒ(4
+%9.OrchardCore.DisplayManagement.Notify.INotifier"__id*w*u6
+4OrchardCore.OpenId.Controllers.ApplicationController";
+	_notifier.OrchardCore.DisplayManagement.Notify.INotifier‰
+·
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.csƒ& ƒ(';
+%104Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer"__id*u*s6
+4OrchardCore.OpenId.Controllers.ApplicationController"9
+H4Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizeræª
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.csƒ& ƒ(_@
+%119Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString"EMicrosoft.AspNetCore.Mvc.Localization.IHtmlLocalizer.this[string].get*=
+;
+%104Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer*86
+4OpenID Connect settings are not properly configured.2this[string].getù
+ö
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.csƒ ƒ(`
+%12void"™OrchardCore.DisplayManagement.Notify.NotifierExtensions.Warning(OrchardCore.DisplayManagement.Notify.INotifier, Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString)*;"9
+7OrchardCore.DisplayManagement.Notify.NotifierExtensions*6
+4
+%9.OrchardCore.DisplayManagement.Notify.INotifier*B
+@
+%119Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString*
+4*î
+4§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.cs« «("Á
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.cs« «( >
+<
+settings0OrchardCore.OpenId.Settings.OpenIdServerSettings*‹
+2§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.cs   ("Ø
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.cs   (
+""*È
+5§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.csÀ	 À(	"º
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ApplicationController.csÀ À(	
+implicit returnB86
+4OrchardCore.OpenId.Controllers.ApplicationController

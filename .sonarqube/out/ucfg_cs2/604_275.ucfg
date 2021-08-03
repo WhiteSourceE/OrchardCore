@@ -1,0 +1,51 @@
+
+FOrchardCore.Lucene.LuceneIndexSettingsService.DeleteIndexAsync(string)§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexSettingsService.csT T(*"0*é
+0§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexSettingsService.csV X(6Ã
+…
+§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexSettingsService.csV! V(4*
+%0$System.Threading.Tasks.Task<TResult>"AOrchardCore.Lucene.LuceneIndexSettingsService.LoadDocumentAsync()*1/
+-OrchardCore.Lucene.LuceneIndexSettingsService˙
+˜
+§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexSettingsService.csV V(4@
+document4OrchardCore.Lucene.Model.LuceneIndexSettingsDocument"__id*
+""˜
+Ù
+§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexSettingsService.csW W((9
+%13System.Collections.Generic.Dictionary<TKey, TValue>"LOrchardCore.Lucene.Model.LuceneIndexSettingsDocument.LuceneIndexSettings.get*B
+@
+document4OrchardCore.Lucene.Model.LuceneIndexSettingsDocumentó
+î
+§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexSettingsService.csW W(:
+
+%2bool"__mapRemove*;
+9
+%13System.Collections.Generic.Dictionary<TKey, TValue>*
+
+	indexNamestringŸ
+÷
+§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexSettingsService.csX X(!7
+%31OrchardCore.Documents.IDocumentManager<TDocument>"AOrchardCore.Lucene.LuceneIndexSettingsService.DocumentManager.get*1"/
+-OrchardCore.Lucene.LuceneIndexSettingsService†ù
+§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexSettingsService.csX X(7!
+%4System.Threading.Tasks.Task"}OrchardCore.Documents.IDocumentManager<TDocument>.UpdateAsync(TDocument, System.Func<TDocument, System.Threading.Tasks.Task>)*9
+7
+%31OrchardCore.Documents.IDocumentManager<TDocument>*B
+@
+document4OrchardCore.Lucene.Model.LuceneIndexSettingsDocument*
+""2KUpdateAsync(TDocument, System.Func<TDocument, System.Threading.Tasks.Task>)*
+1*È
+1§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexSettingsService.csY	 Y(	"º
+§
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexSettingsService.csY Y(	
+implicit return:
+	indexNamestringB1/
+-OrchardCore.Lucene.LuceneIndexSettingsService

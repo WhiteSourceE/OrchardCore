@@ -1,0 +1,365 @@
+
+‘OrchardCore.DisplayManagement.Zones.ZoneShapes.ColumnGrouping(OrchardCore.DisplayManagement.IDisplayHelper, OrchardCore.DisplayManagement.ViewModels.GroupingViewModel, OrchardCore.DisplayManagement.IShapeFactory)ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.csÌ( Ì(6"0*˙
+0ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.csÔ è(#˛˚
+ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.csÔ% Ô(=2
+%0,Microsoft.AspNetCore.Html.HtmlContentBuilder",Microsoft.AspNetCore.Html.HtmlContentBuilder°
+û
+ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.csÔ) Ô(;
+
+%1void"AMicrosoft.AspNetCore.Html.HtmlContentBuilder.HtmlContentBuilder()*4
+2
+%0,Microsoft.AspNetCore.Html.HtmlContentBuilderú
+ô
+ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.csÔ Ô(=B
+htmlContentBuilder,Microsoft.AspNetCore.Html.HtmlContentBuilder"__id*4
+2
+%0,Microsoft.AspNetCore.Html.HtmlContentBuilderŸ
+÷
+ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.csÒ Ò(*+
+%2%System.Linq.IGrouping<TKey, TElement>"GOrchardCore.DisplayManagement.ViewModels.GroupingViewModel.Grouping.get*E
+C
+Shape:OrchardCore.DisplayManagement.ViewModels.GroupingViewModeló
+î
+ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.csÒ ç()
+%3#System.Linq.ILookup<TKey, TElement>"{System.Linq.Enumerable.ToLookup<TSource, TKey>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TKey>)*"
+System.Linq.Enumerable*-
++
+%2%System.Linq.IGrouping<TKey, TElement>*
+""Å
+˛
+ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.csÒ ç(0
+	groupings#System.Linq.ILookup<TKey, TElement>"__id*+
+)
+%3#System.Linq.ILookup<TKey, TElement>ïí
+ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.csè è(	
+%4int"-System.Linq.ILookup<TKey, TElement>.Count.get*2
+0
+	groupings#System.Linq.ILookup<TKey, TElement>2	Count.get*
+1
+2*≤
+1ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.csë ¶(@ß
+§
+ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.csë( ë(E9
+%53System.Collections.Generic.Dictionary<TKey, TValue>"fOrchardCore.DisplayManagement.Zones.ZoneShapes.GetColumnPositions(System.Linq.ILookup<string, object>)*2"0
+.OrchardCore.DisplayManagement.Zones.ZoneShapes*2
+0
+	groupings#System.Linq.ILookup<TKey, TElement>©
+¶
+ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.csë ë(EH
+positionModifiers3System.Collections.Generic.Dictionary<TKey, TValue>"__id*;
+9
+%53System.Collections.Generic.Dictionary<TKey, TValue>·
+ﬁ
+ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.csù ù(0>
+%68OrchardCore.DisplayManagement.Zones.FlatPositionComparer"EOrchardCore.DisplayManagement.Zones.FlatPositionComparer.Instance.get*<":
+8OrchardCore.DisplayManagement.Zones.FlatPositionComparerè
+å
+ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.csì' ù(1.
+%7(System.Linq.IOrderedEnumerable<TElement>"¶System.Linq.Enumerable.OrderBy<TSource, TKey>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TKey>, System.Collections.Generic.IComparer<TKey>)*"
+System.Linq.Enumerable*2
+0
+	groupings#System.Linq.ILookup<TKey, TElement>*
+""*@
+>
+%68OrchardCore.DisplayManagement.Zones.FlatPositionComparerí
+è
+ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.csì ù(1<
+orderedGroupings(System.Linq.IOrderedEnumerable<TElement>"__id*0
+.
+%7(System.Linq.IOrderedEnumerable<TElement>ﬁ
+€
+ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.csü& ü(J9
+%83System.Collections.Generic.Dictionary<TKey, TValue>"êOrchardCore.DisplayManagement.Zones.ZoneShapes.GetColumnModifiers(System.Collections.Generic.IEnumerable<System.Linq.IGrouping<string, object>>)*2"0
+.OrchardCore.DisplayManagement.Zones.ZoneShapes*>
+<
+orderedGroupings(System.Linq.IOrderedEnumerable<TElement>ß
+§
+ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.csü ü(JF
+columnModifiers3System.Collections.Generic.Dictionary<TKey, TValue>"__id*;
+9
+%83System.Collections.Generic.Dictionary<TKey, TValue>˙
+˜
+ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.cs°6 §(/
+%9)System.Threading.Tasks.ValueTask<TResult>"îOrchardCore.DisplayManagement.ShapeFactoryExtensions.CreateAsync<TModel>(OrchardCore.DisplayManagement.IShapeFactory, string, System.Action<TModel>)*8"6
+4OrchardCore.DisplayManagement.ShapeFactoryExtensions*=
+;
+ShapeFactory+OrchardCore.DisplayManagement.IShapeFactory*
+ColumnContainer*
+""±
+Æ
+ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.cs°  §(
+%10"__id*
+""Ò
+Ó
+ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.cs° §(D
+	container7OrchardCore.DisplayManagement.ViewModels.GroupViewModel"__id*
+
+%10*
+3*§
+3ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.cs’	 ’(	*
+4
+5*˜
+4ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.cs® ≥(_Ú
+Ô
+ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.cs®A ¨(0
+%11)System.Threading.Tasks.ValueTask<TResult>"îOrchardCore.DisplayManagement.ShapeFactoryExtensions.CreateAsync<TModel>(OrchardCore.DisplayManagement.IShapeFactory, string, System.Action<TModel>)*8"6
+4OrchardCore.DisplayManagement.ShapeFactoryExtensions*=
+;
+ShapeFactory+OrchardCore.DisplayManagement.IShapeFactory*
+
+Column*
+""±
+Æ
+ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.cs®( ¨(
+%12"__id*
+""¯
+ı
+ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.cs® ¨(K
+groupingShape:OrchardCore.DisplayManagement.ViewModels.GroupingViewModel"__id*
+
+%12œ
+Ã
+ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.csÆ Æ()*
+%13#System.Collections.Generic.IList<T>"6OrchardCore.DisplayManagement.Shapes.Shape.Classes.get*M
+K
+groupingShape:OrchardCore.DisplayManagement.ViewModels.GroupingViewModel¸
+˘
+ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.csÆ Æ(@
+%14void"
+__arrayAdd*,
+*
+%13#System.Collections.Generic.IList<T>*: *
+ta-col-groupingœ
+Ã
+ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.csØ Ø()*
+%15#System.Collections.Generic.IList<T>"6OrchardCore.DisplayManagement.Shapes.Shape.Classes.get*M
+K
+groupingShape:OrchardCore.DisplayManagement.ViewModels.GroupingViewModelüú
+ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.csØ: Ø(M
+%16string"-System.Linq.IGrouping<TKey, TElement>.Key.get*:
+8
+orderedGrouping%System.Linq.IGrouping<TKey, TElement>2Key.get≠
+™
+ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.csØ: Ø(\
+%17string"?OrchardCore.Mvc.Utilities.StringExtensions.HtmlClassify(string)*.",
+*OrchardCore.Mvc.Utilities.StringExtensions*
+
+%16string”
+–
+ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.csØ. Ø(\
+%18string"__concat*	
+column-*
+
+%17string¯
+ı
+ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.csØ Ø(]
+%19void"
+__arrayAdd*,
+*
+%15#System.Collections.Generic.IList<T>*: *
+
+%18stringŒ
+À
+ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.cs≤ ≤(7
+columnClassesstring"__id*
+col-12 col-mdüú
+ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.cs≥4 ≥(G
+%20string"-System.Linq.IGrouping<TKey, TElement>.Key.get*:
+8
+orderedGrouping%System.Linq.IGrouping<TKey, TElement>2Key.getÛ
+
+ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.cs≥ ≥(`
+%21bool"QSystem.Collections.Generic.Dictionary<TKey, TValue>.TryGetValue(TKey, out TValue)*H
+F
+columnModifiers3System.Collections.Generic.Dictionary<TKey, TValue>*
+
+%20string*
+
+columnModifierstring*
+6
+7*à
+6ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.cs∂ ∂(=·
+ﬁ
+ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.cs∂ ∂(7
+
+%22int"string.IndexOf(char)*
+
+columnModifierstring*
+-*
+8
+9*’
+8ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.cs∏ ∏(J‚
+ﬂ
+ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.cs∏, ∏(J
+%23string"__concat*
+col-12 col-*
+
+columnModifierstringÃ
+…
+ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.cs∏ ∏(J
+columnClassesstring"__id*
+
+%23string*
+7*ÿ
+9ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.csº º(MÂ
+‚
+ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.csº, º(M
+%24string"__concat*
+col-12 col-md-*
+
+columnModifierstringÃ
+…
+ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.csº º(M
+columnClassesstring"__id*
+
+%24string*
+7*˘
+7ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.cs¿ ¬(8œ
+Ã
+ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.cs¿ ¿()*
+%25#System.Collections.Generic.IList<T>"6OrchardCore.DisplayManagement.Shapes.Shape.Classes.get*M
+K
+groupingShape:OrchardCore.DisplayManagement.ViewModels.GroupingViewModelÇ
+ˇ
+ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.cs¿ ¿(<
+%26void"
+__arrayAdd*,
+*
+%25#System.Collections.Generic.IList<T>*: *
+
+columnClassesstring*
+10*ß
+10ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.cs’	 ’(	*
+11
+12*≥
+11ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.csƒ ƒ(.çä
+ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.csƒ ƒ(/1
+%27*OrchardCore.DisplayManagement.Shapes.Shape">OrchardCore.DisplayManagement.Shapes.Shape.Add(object, string)*M
+K
+groupingShape:OrchardCore.DisplayManagement.ViewModels.GroupingViewModel*
+
+itemobject*
+""2Add(object, string)*
+10*Ë
+12ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.cs∆ ∆(/√¿
+ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.cs∆ ∆(01
+%28*OrchardCore.DisplayManagement.Shapes.Shape">OrchardCore.DisplayManagement.Shapes.Shape.Add(object, string)*F
+D
+	container7OrchardCore.DisplayManagement.ViewModels.GroupViewModel*M
+K
+groupingShape:OrchardCore.DisplayManagement.ViewModels.GroupingViewModel*
+""2Add(object, string)*
+3*›
+5ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.cs… …(\¥±
+ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.cs…4 …(]+
+%29$System.Threading.Tasks.Task<TResult>"FOrchardCore.DisplayManagement.IDisplayHelper.ShapeExecuteAsync(object)*>
+<
+DisplayAsync,OrchardCore.DisplayManagement.IDisplayHelper*F
+D
+	container7OrchardCore.DisplayManagement.ViewModels.GroupViewModel2ShapeExecuteAsync(object)Å
+˛
+ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.cs… …(^4
+%30-Microsoft.AspNetCore.Html.IHtmlContentBuilder"_Microsoft.AspNetCore.Html.HtmlContentBuilder.AppendHtml(Microsoft.AspNetCore.Html.IHtmlContent)*D
+B
+htmlContentBuilder,Microsoft.AspNetCore.Html.HtmlContentBuilder*
+""*
+13*ˇ
+2ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.csŒ% Œ(3⁄
+◊
+ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.csŒ% Œ(3,
+%31%System.Linq.IGrouping<TKey, TElement>"GOrchardCore.DisplayManagement.ViewModels.GroupingViewModel.Grouping.get*E
+C
+Shape:OrchardCore.DisplayManagement.ViewModels.GroupingViewModel*
+14*ß
+14ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.cs’	 ’(	*
+15
+13*®
+15ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.cs– –([˛˚
+ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.cs–8 –(\+
+%32$System.Threading.Tasks.Task<TResult>"FOrchardCore.DisplayManagement.IDisplayHelper.ShapeExecuteAsync(object)*>
+<
+DisplayAsync,OrchardCore.DisplayManagement.IDisplayHelper*
+
+itemobject2ShapeExecuteAsync(object)Å
+˛
+ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.cs– –(]4
+%33-Microsoft.AspNetCore.Html.IHtmlContentBuilder"_Microsoft.AspNetCore.Html.HtmlContentBuilder.AppendHtml(Microsoft.AspNetCore.Html.IHtmlContent)*D
+B
+htmlContentBuilder,Microsoft.AspNetCore.Html.HtmlContentBuilder*
+""*
+14*ˇ
+13ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.cs‘ ‘(%"ﬂ
+ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.cs‘ ‘(&D
+B
+htmlContentBuilder,Microsoft.AspNetCore.Html.HtmlContentBuilder*Œ
+16ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.cs’	 ’(	"Æ
+ñ
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Zones\ZoneShapes.cs’ ’(	
+implicit return:<
+DisplayAsync,OrchardCore.DisplayManagement.IDisplayHelper:C
+Shape:OrchardCore.DisplayManagement.ViewModels.GroupingViewModel:;
+ShapeFactory+OrchardCore.DisplayManagement.IShapeFactoryB20
+.OrchardCore.DisplayManagement.Zones.ZoneShapes

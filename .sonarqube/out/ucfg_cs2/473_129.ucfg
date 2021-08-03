@@ -1,0 +1,494 @@
+
+œOrchardCore.ContentLocalization.Sitemaps.LocalizedContentItemsQueryProvider.GetContentItemsAsync(OrchardCore.Sitemaps.Models.ContentTypesSitemapSource, OrchardCore.Sitemaps.Builders.ContentItemsQueryContext)π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.cs" "(."0*‰
+0π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.cs$ &(ƒ
+¡
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.cs$2 $(RD
+%0>OrchardCore.Sitemaps.Services.IRouteableContentTypeCoordinator"__id*∂*≥M
+KOrchardCore.ContentLocalization.Sitemaps.LocalizedContentItemsQueryProvider"b
+ _routeableContentTypeCoordinator>OrchardCore.Sitemaps.Services.IRouteableContentTypeCoordinatorµ≤
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.cs$2 $(p/
+%1)System.Collections.Generic.IEnumerable<T>"\OrchardCore.Sitemaps.Services.IRouteableContentTypeCoordinator.ListRoutableTypeDefinitions()*F
+D
+%0>OrchardCore.Sitemaps.Services.IRouteableContentTypeCoordinator2ListRoutableTypeDefinitions()∆
+√
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.cs$ $(pL
+routeableContentTypeDefinitions)System.Collections.Generic.IEnumerable<T>"__id*1
+/
+%1)System.Collections.Generic.IEnumerable<T>“
+œ
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.cs& &(
+
+%2bool"BOrchardCore.Sitemaps.Models.ContentTypesSitemapSource.IndexAll.get*A
+?
+source5OrchardCore.Sitemaps.Models.ContentTypesSitemapSource*
+1
+2*˝"
+1π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.cs) 4(;Â
+‚
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.cs)  )(Y/
+%3)System.Collections.Generic.IEnumerable<T>"System.Linq.Enumerable.Select<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)*"
+System.Linq.Enumerable*N
+L
+routeableContentTypeDefinitions)System.Collections.Generic.IEnumerable<T>*
+""∞
+≠
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.cs) )(Y6
+	rctdNames)System.Collections.Generic.IEnumerable<T>"__id*1
+/
+%3)System.Collections.Generic.IEnumerable<T>Ã
+…
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.cs+) +(1
+%4YesSql.ISession"__id*n*lM
+KOrchardCore.ContentLocalization.Sitemaps.LocalizedContentItemsQueryProvider"
+_sessionYesSql.ISessionŒ
+À
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.cs+) +(F
+%5YesSql.IQuery<T>"8YesSql.QueryExtensions.Query<T>(YesSql.ISession, string)*"
+YesSql.QueryExtensions*
+
+%4YesSql.ISession*
+""¨©
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.cs+) ,(^
+%6YesSql.IQuery<T, TIndex>"\YesSql.IQuery<T>.With<TIndex>(System.Linq.Expressions.Expression<System.Func<TIndex, bool>>)*
+
+%5YesSql.IQuery<T>*
+""2KWith<TIndex>(System.Linq.Expressions.Expression<System.Func<TIndex, bool>>)∂≥
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.cs+) -(/
+%7YesSql.IQuery<T, TIndex>"aYesSql.IQuery<T, TIndex>.OrderBy(System.Linq.Expressions.Expression<System.Func<TIndex, object>>)* 
+
+%6YesSql.IQuery<T, TIndex>*
+""2HOrderBy(System.Linq.Expressions.Expression<System.Func<TIndex, object>>)∏µ
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.cs+) .( *
+%8$System.Threading.Tasks.Task<TResult>"YesSql.IQuery<T>.ListAsync()* 
+
+%7YesSql.IQuery<T, TIndex>2ListAsync()à
+Ö
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.cs+ .( 9
+queryResults)System.Collections.Generic.IEnumerable<T>"__id*
+""¿
+Ω
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.cs0 0(8/
+%9)System.Collections.Generic.IEnumerable<T>"GOrchardCore.Sitemaps.Builders.ContentItemsQueryContext.ContentItems.set*H
+F
+queryContext6OrchardCore.Sitemaps.Builders.ContentItemsQueryContext*;
+9
+queryResults)System.Collections.Generic.IEnumerable<T>∆
+√
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.cs35 4(<0
+%10)System.Collections.Generic.IEnumerable<T>"rSystem.Linq.Enumerable.Where<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
+System.Linq.Enumerable*;
+9
+queryResults)System.Collections.Generic.IEnumerable<T>*
+""¡
+æ
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.cs3 4(<0
+%11)System.Collections.Generic.IEnumerable<T>"POrchardCore.Sitemaps.Builders.ContentItemsQueryContext.ReferenceContentItems.set*H
+F
+queryContext6OrchardCore.Sitemaps.Builders.ContentItemsQueryContext*2
+0
+%10)System.Collections.Generic.IEnumerable<T>*
+3*ü
+2π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.cs6 6(&’
+“
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.cs6 6(&
+%12bool"DOrchardCore.Sitemaps.Models.ContentTypesSitemapSource.LimitItems.get*A
+?
+source5OrchardCore.Sitemaps.Models.ContentTypesSitemapSource*
+4
+5*ç
+4π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.cs9 <('¸
+˘
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.cs9" :(nJ
+%13COrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition"{System.Linq.Enumerable.FirstOrDefault<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
+System.Linq.Enumerable*N
+L
+routeableContentTypeDefinitions)System.Collections.Generic.IEnumerable<T>*
+""Á
+‰
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.cs9 :(nR
+contentTypeCOrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition"__id*L
+J
+%13COrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition⁄
+◊
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.cs< <('
+%14bool""object.operator ==(object, object)*
+"
+object*T
+R
+contentTypeCOrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition*
+""*
+6
+7*Ü
+6π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.cs{	 {(	"ƒ
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.cs> >(
+""*˘
+7π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.csA A(bñ
+ì
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.csA A(%0
+%15)System.Collections.Generic.IEnumerable<T>"MOrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition.Parts.get*T
+R
+contentTypeCOrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinitionñ
+ì
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.csA A(c
+%16bool"pSystem.Linq.Enumerable.Any<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
+System.Linq.Enumerable*2
+0
+%15)System.Collections.Generic.IEnumerable<T>*
+""*
+8
+9*€?
+8π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.csF Y(?Õ
+ 
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.csF- F(5
+%17YesSql.ISession"__id*n*lM
+KOrchardCore.ContentLocalization.Sitemaps.LocalizedContentItemsQueryProvider"
+_sessionYesSql.ISession–
+Õ
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.csF- F(J
+%18YesSql.IQuery<T>"8YesSql.QueryExtensions.Query<T>(YesSql.ISession, string)*"
+YesSql.QueryExtensions*
+
+%17YesSql.ISession*
+""Ø¨
+∫
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.csF- G(É
+%19YesSql.IQuery<T, TIndex>"\YesSql.IQuery<T>.With<TIndex>(System.Linq.Expressions.Expression<System.Func<TIndex, bool>>)*
+
+%18YesSql.IQuery<T>*
+""2KWith<TIndex>(System.Linq.Expressions.Expression<System.Func<TIndex, bool>>)∏µ
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.csF- H(6
+%20YesSql.IQuery<T, TIndex>"aYesSql.IQuery<T, TIndex>.OrderBy(System.Linq.Expressions.Expression<System.Func<TIndex, object>>)*!
+
+%19YesSql.IQuery<T, TIndex>*
+""2HOrderBy(System.Linq.Expressions.Expression<System.Func<TIndex, object>>)¥±
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.csF- I(;
+%21YesSql.IQuery<T, TIndex>"YesSql.IQuery<T>.With<TIndex>()*!
+
+%20YesSql.IQuery<T, TIndex>2With<TIndex>()∫∑
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.csF- J(%+
+%22$System.Threading.Tasks.Task<TResult>"YesSql.IQuery<T>.ListAsync()*!
+
+%21YesSql.IQuery<T, TIndex>2ListAsync()à
+Ö
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.csF J(%9
+queryResults)System.Collections.Generic.IEnumerable<T>"__id*
+""ó
+î
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.csM/ M(C4
+%23-OrchardCore.Localization.ILocalizationService"__id*ô*ñM
+KOrchardCore.ContentLocalization.Sitemaps.LocalizedContentItemsQueryProvider"E
+_localizationService-OrchardCore.Localization.ILocalizationServiceÜÉ
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.csM/ M(\+
+%24$System.Threading.Tasks.Task<TResult>"FOrchardCore.Localization.ILocalizationService.GetDefaultCultureAsync()*6
+4
+%23-OrchardCore.Localization.ILocalizationService2GetDefaultCultureAsync()Á
+‰
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.csM M(\
+defaultCulturestring"__id*
+""∆
+√
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.csP  Q(f0
+%25)System.Collections.Generic.IEnumerable<T>"rSystem.Linq.Enumerable.Where<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
+System.Linq.Enumerable*;
+9
+queryResults)System.Collections.Generic.IEnumerable<T>*
+""ì
+ê
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.csR R(7A
+%26:OrchardCore.Sitemaps.Models.LimitedContentTypeSitemapEntry"LOrchardCore.Sitemaps.Models.ContentTypesSitemapSource.LimitedContentType.get*A
+?
+source5OrchardCore.Sitemaps.Models.ContentTypesSitemapSource’
+“
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.csR R(<
+
+%27int"COrchardCore.Sitemaps.Models.LimitedContentTypeSitemapEntry.Skip.get*C
+A
+%26:OrchardCore.Sitemaps.Models.LimitedContentTypeSitemapEntry´
+®
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.csP  R(=0
+%28)System.Collections.Generic.IEnumerable<T>"ZSystem.Linq.Enumerable.Skip<TSource>(System.Collections.Generic.IEnumerable<TSource>, int)*"
+System.Linq.Enumerable*2
+0
+%25)System.Collections.Generic.IEnumerable<T>*
+
+
+%27intì
+ê
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.csS S(7A
+%29:OrchardCore.Sitemaps.Models.LimitedContentTypeSitemapEntry"LOrchardCore.Sitemaps.Models.ContentTypesSitemapSource.LimitedContentType.get*A
+?
+source5OrchardCore.Sitemaps.Models.ContentTypesSitemapSource’
+“
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.csS S(<
+
+%30int"COrchardCore.Sitemaps.Models.LimitedContentTypeSitemapEntry.Take.get*C
+A
+%29:OrchardCore.Sitemaps.Models.LimitedContentTypeSitemapEntry´
+®
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.csP  S(=0
+%31)System.Collections.Generic.IEnumerable<T>"ZSystem.Linq.Enumerable.Take<TSource>(System.Collections.Generic.IEnumerable<TSource>, int)*"
+System.Linq.Enumerable*2
+0
+%28)System.Collections.Generic.IEnumerable<T>*
+
+
+%30int≠
+™
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.csP S(=2
+items)System.Collections.Generic.IEnumerable<T>"__id*2
+0
+%31)System.Collections.Generic.IEnumerable<T>∫
+∑
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.csU U(50
+%32)System.Collections.Generic.IEnumerable<T>"GOrchardCore.Sitemaps.Builders.ContentItemsQueryContext.ContentItems.set*H
+F
+queryContext6OrchardCore.Sitemaps.Builders.ContentItemsQueryContext*4
+2
+items)System.Collections.Generic.IEnumerable<T>∆
+√
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.csX9 Y(@0
+%33)System.Collections.Generic.IEnumerable<T>"rSystem.Linq.Enumerable.Where<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
+System.Linq.Enumerable*;
+9
+queryResults)System.Collections.Generic.IEnumerable<T>*
+""¡
+æ
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.csX Y(@0
+%34)System.Collections.Generic.IEnumerable<T>"POrchardCore.Sitemaps.Builders.ContentItemsQueryContext.ReferenceContentItems.set*H
+F
+queryContext6OrchardCore.Sitemaps.Builders.ContentItemsQueryContext*2
+0
+%33)System.Collections.Generic.IEnumerable<T>*
+3*ë&
+9π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.cs^ e(<Õ
+ 
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.cs^- ^(5
+%35YesSql.ISession"__id*n*lM
+KOrchardCore.ContentLocalization.Sitemaps.LocalizedContentItemsQueryProvider"
+_sessionYesSql.ISession–
+Õ
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.cs^- ^(J
+%36YesSql.IQuery<T>"8YesSql.QueryExtensions.Query<T>(YesSql.ISession, string)*"
+YesSql.QueryExtensions*
+
+%35YesSql.ISession*
+""Æ´
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.cs^- _(
+%37YesSql.IQuery<T, TIndex>"\YesSql.IQuery<T>.With<TIndex>(System.Linq.Expressions.Expression<System.Func<TIndex, bool>>)*
+
+%36YesSql.IQuery<T>*
+""2KWith<TIndex>(System.Linq.Expressions.Expression<System.Func<TIndex, bool>>)∏µ
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.cs^- `(3
+%38YesSql.IQuery<T, TIndex>"aYesSql.IQuery<T, TIndex>.OrderBy(System.Linq.Expressions.Expression<System.Func<TIndex, object>>)*!
+
+%37YesSql.IQuery<T, TIndex>*
+""2HOrderBy(System.Linq.Expressions.Expression<System.Func<TIndex, object>>)ì
+ê
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.csa a(7A
+%39:OrchardCore.Sitemaps.Models.LimitedContentTypeSitemapEntry"LOrchardCore.Sitemaps.Models.ContentTypesSitemapSource.LimitedContentType.get*A
+?
+source5OrchardCore.Sitemaps.Models.ContentTypesSitemapSource’
+“
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.csa a(<
+
+%40int"COrchardCore.Sitemaps.Models.LimitedContentTypeSitemapEntry.Skip.get*C
+A
+%39:OrchardCore.Sitemaps.Models.LimitedContentTypeSitemapEntry∞≠
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.cs^- a(=
+%41YesSql.IQuery<T>"YesSql.IQuery<T>.Skip(int)*!
+
+%38YesSql.IQuery<T, TIndex>*
+
+
+%40int2	Skip(int)ì
+ê
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.csb b(7A
+%42:OrchardCore.Sitemaps.Models.LimitedContentTypeSitemapEntry"LOrchardCore.Sitemaps.Models.ContentTypesSitemapSource.LimitedContentType.get*A
+?
+source5OrchardCore.Sitemaps.Models.ContentTypesSitemapSource’
+“
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.csb b(<
+
+%43int"COrchardCore.Sitemaps.Models.LimitedContentTypeSitemapEntry.Take.get*C
+A
+%42:OrchardCore.Sitemaps.Models.LimitedContentTypeSitemapEntry®•
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.cs^- b(=
+%44YesSql.IQuery<T>"YesSql.IQuery<T>.Take(int)*
+
+%41YesSql.IQuery<T>*
+
+
+%43int2	Take(int)≤Ø
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.cs^- c($+
+%45$System.Threading.Tasks.Task<TResult>"YesSql.IQuery<T>.ListAsync()*
+
+%44YesSql.IQuery<T>2ListAsync()à
+Ö
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.cs^ c($9
+queryResults)System.Collections.Generic.IEnumerable<T>"__id*
+""¡
+æ
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.cse e(<0
+%46)System.Collections.Generic.IEnumerable<T>"GOrchardCore.Sitemaps.Builders.ContentItemsQueryContext.ContentItems.set*H
+F
+queryContext6OrchardCore.Sitemaps.Builders.ContentItemsQueryContext*;
+9
+queryResults)System.Collections.Generic.IEnumerable<T>*
+3*Ã&
+5π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.csk y(;Ÿ
+÷
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.csk# l(k0
+%47)System.Collections.Generic.IEnumerable<T>"rSystem.Linq.Enumerable.Where<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
+System.Linq.Enumerable*N
+L
+routeableContentTypeDefinitions)System.Collections.Generic.IEnumerable<T>*
+"" 
+«
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.csk# m((0
+%48)System.Collections.Generic.IEnumerable<T>"System.Linq.Enumerable.Select<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)*"
+System.Linq.Enumerable*2
+0
+%47)System.Collections.Generic.IEnumerable<T>*
+""¥
+±
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.csk m((9
+typesToIndex)System.Collections.Generic.IEnumerable<T>"__id*2
+0
+%48)System.Collections.Generic.IEnumerable<T>Õ
+ 
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.csp) p(1
+%49YesSql.ISession"__id*n*lM
+KOrchardCore.ContentLocalization.Sitemaps.LocalizedContentItemsQueryProvider"
+_sessionYesSql.ISession–
+Õ
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.csp) p(F
+%50YesSql.IQuery<T>"8YesSql.QueryExtensions.Query<T>(YesSql.ISession, string)*"
+YesSql.QueryExtensions*
+
+%49YesSql.ISession*
+""Æ´
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.csp) q(a
+%51YesSql.IQuery<T, TIndex>"\YesSql.IQuery<T>.With<TIndex>(System.Linq.Expressions.Expression<System.Func<TIndex, bool>>)*
+
+%50YesSql.IQuery<T>*
+""2KWith<TIndex>(System.Linq.Expressions.Expression<System.Func<TIndex, bool>>)∏µ
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.csp) r(/
+%52YesSql.IQuery<T, TIndex>"aYesSql.IQuery<T, TIndex>.OrderBy(System.Linq.Expressions.Expression<System.Func<TIndex, object>>)*!
+
+%51YesSql.IQuery<T, TIndex>*
+""2HOrderBy(System.Linq.Expressions.Expression<System.Func<TIndex, object>>)∫∑
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.csp) s( +
+%53$System.Threading.Tasks.Task<TResult>"YesSql.IQuery<T>.ListAsync()*!
+
+%52YesSql.IQuery<T, TIndex>2ListAsync()à
+Ö
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.csp s( 9
+queryResults)System.Collections.Generic.IEnumerable<T>"__id*
+""¡
+æ
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.csu u(80
+%54)System.Collections.Generic.IEnumerable<T>"GOrchardCore.Sitemaps.Builders.ContentItemsQueryContext.ContentItems.set*H
+F
+queryContext6OrchardCore.Sitemaps.Builders.ContentItemsQueryContext*;
+9
+queryResults)System.Collections.Generic.IEnumerable<T>∆
+√
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.csx5 y(<0
+%55)System.Collections.Generic.IEnumerable<T>"rSystem.Linq.Enumerable.Where<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
+System.Linq.Enumerable*;
+9
+queryResults)System.Collections.Generic.IEnumerable<T>*
+""¡
+æ
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.csx y(<0
+%56)System.Collections.Generic.IEnumerable<T>"POrchardCore.Sitemaps.Builders.ContentItemsQueryContext.ReferenceContentItems.set*H
+F
+queryContext6OrchardCore.Sitemaps.Builders.ContentItemsQueryContext*2
+0
+%55)System.Collections.Generic.IEnumerable<T>*
+3*ì
+3π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.cs{	 {(	"—
+π
+ÆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Sitemaps\LocalizedContentItemsQueryProvider.cs{ {(	
+implicit return:?
+source5OrchardCore.Sitemaps.Models.ContentTypesSitemapSource:F
+queryContext6OrchardCore.Sitemaps.Builders.ContentItemsQueryContextBOM
+KOrchardCore.ContentLocalization.Sitemaps.LocalizedContentItemsQueryProvider

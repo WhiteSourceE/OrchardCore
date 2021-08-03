@@ -1,0 +1,12 @@
+•
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Themes\TheTheme\obj\Debug\net5.0\Razor\Views\Branding.cshtml.g.csutf-8ß
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Themes\TheTheme\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.csutf-8£
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Themes\TheTheme\obj\Debug\net5.0\Razor\Views\Layout.cshtml.g.csutf-8°
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Themes\TheTheme\obj\Debug\net5.0\Razor\Views\Menu.cshtml.g.csutf-8•
+ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Themes\TheTheme\obj\Debug\net5.0\Razor\Views\MenuItem.cshtml.g.csutf-8π
+≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Themes\TheTheme\obj\Debug\net5.0\Razor\Views\MenuItemLink-ContentMenuItem.cshtml.g.csutf-8∂
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Themes\TheTheme\obj\Debug\net5.0\Razor\Views\MenuItemLink-HtmlMenuItem.cshtml.g.csutf-8∂
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Themes\TheTheme\obj\Debug\net5.0\Razor\Views\MenuItemLink-LinkMenuItem.cshtml.g.csutf-8≠
+°D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Themes\TheTheme\obj\Debug\net5.0\Razor\Views\Shared\LoginMenu.cshtml.g.csutf-8©
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Themes\TheTheme\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.csutf-8®
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Themes\TheTheme\obj\Debug\net5.0\TheTheme.RazorTargetAssemblyInfo.csutf-8

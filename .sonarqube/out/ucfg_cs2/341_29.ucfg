@@ -1,0 +1,139 @@
+
+ÄOrchardCore.Liquid.Filters.AbsoluteUrlFilter.ProcessAsync(Fluid.Values.FluidValue, Fluid.FilterArguments, Fluid.TemplateContext)ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\AbsoluteUrlFilter.cs% (1"0*
+0ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\AbsoluteUrlFilter.cs (6˚
+¯
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\AbsoluteUrlFilter.cs (4
+%0string"'Fluid.Values.FluidValue.ToStringValue()*"
+ 
+inputFluid.Values.FluidValueŒ
+À
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\AbsoluteUrlFilter.cs (4
+relativePathstring"__id*
+
+%0stringˆ
+Û
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\AbsoluteUrlFilter.cs (7
+
+%1bool""string.IsNullOrWhiteSpace(string?)*
+"
+string*
+
+relativePathstring*
+1
+2*∂
+1ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\AbsoluteUrlFilter.cs (6¸˘
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\AbsoluteUrlFilter.cs (7/
+%2)System.Threading.Tasks.ValueTask<TResult>")System.Threading.Tasks.ValueTask<TResult>¡
+æ
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\AbsoluteUrlFilter.cs (0
+
+%3void"<System.Threading.Tasks.ValueTask<TResult>.ValueTask(TResult)*1
+/
+%2)System.Threading.Tasks.ValueTask<TResult>*"
+ 
+inputFluid.Values.FluidValue"–
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\AbsoluteUrlFilter.cs (81
+/
+%2)System.Threading.Tasks.ValueTask<TResult>*›
+2ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\AbsoluteUrlFilter.cs (QÕ
+ 
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\AbsoluteUrlFilter.cs (&9
+%43System.Collections.Generic.Dictionary<TKey, TValue>"__id*j*h
+ 
+contextFluid.TemplateContext"D
+AmbientValues3System.Collections.Generic.Dictionary<TKey, TValue>‚
+ﬂ
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\AbsoluteUrlFilter.cs (R
+
+%5bool"QSystem.Collections.Generic.Dictionary<TKey, TValue>.TryGetValue(TKey, out TValue)*;
+9
+%43System.Collections.Generic.Dictionary<TKey, TValue>*
+	UrlHelper*
+
+	urlHelperobject*
+3
+4*º
+3ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\AbsoluteUrlFilter.cs (\⁄◊
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\AbsoluteUrlFilter.cs (]
+%6System.ArgumentException"System.ArgumentException∑
+¥
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\AbsoluteUrlFilter.cs (+
+
+%7void"3System.ArgumentException.ArgumentException(string?)* 
+
+%6System.ArgumentException*20
+.UrlHelper missing while invoking 'display_url'*
+5*€
+4ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\AbsoluteUrlFilter.cs (3√
+¿
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\AbsoluteUrlFilter.cs* (?
+%8"__id*
+
+	urlHelperobject˜
+Ù
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\AbsoluteUrlFilter.cs) (\
+%9string"mOrchardCore.Mvc.Core.Utilities.UrlHelperExtensions.ToAbsoluteUrl(Microsoft.AspNetCore.Mvc.IUrlHelper, string)*6"4
+2OrchardCore.Mvc.Core.Utilities.UrlHelperExtensions*
+
+%8*
+
+relativePathstring€ÿ
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\AbsoluteUrlFilter.cs (]
+%10Fluid.Values.StringValue"Fluid.Values.StringValueé
+ã
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\AbsoluteUrlFilter.cs ((
+%11void",Fluid.Values.StringValue.StringValue(string)*!
+
+%10Fluid.Values.StringValue*
+
+%9stringÌ
+Í
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\AbsoluteUrlFilter.cs (]"
+resultFluid.Values.StringValue"__id*!
+
+%10Fluid.Values.StringValue˝˙
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\AbsoluteUrlFilter.cs (40
+%12)System.Threading.Tasks.ValueTask<TResult>")System.Threading.Tasks.ValueTask<TResult>≈
+¬
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\AbsoluteUrlFilter.cs (,
+%13void"<System.Threading.Tasks.ValueTask<TResult>.ValueTask(TResult)*2
+0
+%12)System.Threading.Tasks.ValueTask<TResult>*$
+"
+resultFluid.Values.StringValue"—
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\AbsoluteUrlFilter.cs (52
+0
+%12)System.Threading.Tasks.ValueTask<TResult>*’
+5ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\AbsoluteUrlFilter.cs	 (	"≤
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\AbsoluteUrlFilter.cs (	
+implicit return: 
+inputFluid.Values.FluidValue:"
+	argumentsFluid.FilterArguments: 
+contextFluid.TemplateContextB0.
+,OrchardCore.Liquid.Filters.AbsoluteUrlFilter

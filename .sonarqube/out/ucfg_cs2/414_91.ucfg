@@ -1,0 +1,98 @@
+
+≤OrchardCore.Roles.ViewComponents.SelectRolesViewComponent.BuildRoleSelectionsAsync(System.Collections.Generic.IEnumerable<string>, System.Collections.Generic.IEnumerable<string>)ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\ViewComponents\SelectRolesViewComponent.cs%5 %(M"0*˜
+0ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\ViewComponents\SelectRolesViewComponent.cs' )(‚
+ﬂ
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\ViewComponents\SelectRolesViewComponent.cs'" '(.0
+%0*OrchardCore.Security.Services.IRoleService"__id*{*y;
+9OrchardCore.Roles.ViewComponents.SelectRolesViewComponent":
+_roleService*OrchardCore.Security.Services.IRoleServiceπ
+∂
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\ViewComponents\SelectRolesViewComponent.cs'" '(B*
+%1$System.Threading.Tasks.Task<TResult>"qOrchardCore.Security.Services.RoleServiceExtensions.GetRoleNamesAsync(OrchardCore.Security.Services.IRoleService)*7"5
+3OrchardCore.Security.Services.RoleServiceExtensions*2
+0
+%0*OrchardCore.Security.Services.IRoleServiceÛ
+
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\ViewComponents\SelectRolesViewComponent.cs' '(B6
+	roleNames)System.Collections.Generic.IEnumerable<T>"__id*
+""®
+•
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\ViewComponents\SelectRolesViewComponent.cs) )(
+
+%2bool""object.operator !=(object, object)*
+"
+object*5
+3
+except)System.Collections.Generic.IEnumerable<T>*
+""*
+1
+2*∏
+
+1ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\ViewComponents\SelectRolesViewComponent.cs+ +(Uí
+è
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\ViewComponents\SelectRolesViewComponent.cs+5 +(U
+%3System.StringComparer"+System.StringComparer.OrdinalIgnoreCase.get*"
+System.StringComparerÕ
+ 
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\ViewComponents\SelectRolesViewComponent.cs+ +(V/
+%4)System.Collections.Generic.IEnumerable<T>"¿System.Linq.Enumerable.Except<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Collections.Generic.IEnumerable<TSource>, System.Collections.Generic.IEqualityComparer<TSource>?)*"
+System.Linq.Enumerable*8
+6
+	roleNames)System.Collections.Generic.IEnumerable<T>*5
+3
+except)System.Collections.Generic.IEnumerable<T>*
+
+%3System.StringComparerû
+õ
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\ViewComponents\SelectRolesViewComponent.cs+ +(V6
+	roleNames)System.Collections.Generic.IEnumerable<T>"__id*1
+/
+%4)System.Collections.Generic.IEnumerable<T>*
+2*˙
+2ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\ViewComponents\SelectRolesViewComponent.cs. 3( Ω
+∫
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\ViewComponents\SelectRolesViewComponent.cs. 2(/
+%5)System.Collections.Generic.IEnumerable<T>"System.Linq.Enumerable.Select<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)*"
+System.Linq.Enumerable*8
+6
+	roleNames)System.Collections.Generic.IEnumerable<T>*
+""∞
+≠
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\ViewComponents\SelectRolesViewComponent.cs. 3(!.
+%6(System.Linq.IOrderedEnumerable<TElement>"zSystem.Linq.Enumerable.OrderBy<TSource, TKey>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TKey>)*"
+System.Linq.Enumerable*1
+/
+%5)System.Collections.Generic.IEnumerable<T>*
+""˛
+˚
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\ViewComponents\SelectRolesViewComponent.cs. 4((
+%7"System.Collections.Generic.List<T>"WSystem.Linq.Enumerable.ToList<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*0
+.
+%6(System.Linq.IOrderedEnumerable<TElement>"÷
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\ViewComponents\SelectRolesViewComponent.cs. 4(*
+(
+%7"System.Collections.Generic.List<T>*Ô
+3ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\ViewComponents\SelectRolesViewComponent.cs5	 5(	"ø
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\ViewComponents\SelectRolesViewComponent.cs5 5(	
+implicit return::
+selectedRoles)System.Collections.Generic.IEnumerable<T>:3
+except)System.Collections.Generic.IEnumerable<T>B=;
+9OrchardCore.Roles.ViewComponents.SelectRolesViewComponent

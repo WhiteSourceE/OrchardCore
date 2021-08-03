@@ -1,0 +1,10 @@
+±
+0OrchardCore.Documents.DocumentManager<TDocument>object√
+ÜDocumentManager(OrchardCore.Data.Documents.IDocumentStore, Microsoft.Extensions.Caching.Distributed.IDistributedCache, Microsoft.Extensions.Caching.Memory.IMemoryCache, Microsoft.Extensions.Options.IOptionsSnapshot<OrchardCore.Documents.Options.DocumentOptions>)∑OrchardCore.Documents.DocumentManager<TDocument>.DocumentManager(OrchardCore.Data.Documents.IDocumentStore, Microsoft.Extensions.Caching.Distributed.IDistributedCache, Microsoft.Extensions.Caching.Memory.IMemoryCache, Microsoft.Extensions.Options.IOptionsSnapshot<OrchardCore.Documents.Options.DocumentOptions>)Õ
+LGetOrCreateMutableAsync(System.Func<System.Threading.Tasks.Task<TDocument>>)}OrchardCore.Documents.DocumentManager<TDocument>.GetOrCreateMutableAsync(System.Func<System.Threading.Tasks.Task<TDocument>>)—
+NGetOrCreateImmutableAsync(System.Func<System.Threading.Tasks.Task<TDocument>>)OrchardCore.Documents.DocumentManager<TDocument>.GetOrCreateImmutableAsync(System.Func<System.Threading.Tasks.Task<TDocument>>)À
+KUpdateAsync(TDocument, System.Func<TDocument, System.Threading.Tasks.Task>)|OrchardCore.Documents.DocumentManager<TDocument>.UpdateAsync(TDocument, System.Func<TDocument, System.Threading.Tasks.Task>)Y
+GetInternalAsync()COrchardCore.Documents.DocumentManager<TDocument>.GetInternalAsync()k
+SetInternalAsync(TDocument)LOrchardCore.Documents.DocumentManager<TDocument>.SetInternalAsync(TDocument)q
+GetFromDistributedCacheAsync()OOrchardCore.Documents.DocumentManager<TDocument>.GetFromDistributedCacheAsync()Å
+&UpdateDistributedCacheAsync(TDocument)WOrchardCore.Documents.DocumentManager<TDocument>.UpdateDistributedCacheAsync(TDocument)

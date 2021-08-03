@@ -1,0 +1,69 @@
+
+ôOrchardCore.CustomSettings.Services.CustomSettingsService.CanUserCreateSettingsAsync(OrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition)ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Services\CustomSettingsService.csK  K(:"0*í
+0ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Services\CustomSettingsService.csM M(7Ù
+Ò
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Services\CustomSettingsService.csM M(+4
+%0.Microsoft.AspNetCore.Http.IHttpContextAccessor"__id*à*Ö;
+9OrchardCore.CustomSettings.Services.CustomSettingsService"F
+_httpContextAccessor.Microsoft.AspNetCore.Http.IHttpContextAccessor„‡
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Services\CustomSettingsService.csM M(7+
+%1%Microsoft.AspNetCore.Http.HttpContext">Microsoft.AspNetCore.Http.IHttpContextAccessor.HttpContext.get*6
+4
+%0.Microsoft.AspNetCore.Http.IHttpContextAccessor2HttpContext.get*
+1
+2*Ô
+2ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Services\CustomSettingsService.csM8 M(=∫
+∑
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Services\CustomSettingsService.csM9 M(=,
+%2&System.Security.Claims.ClaimsPrincipal".Microsoft.AspNetCore.Http.HttpContext.User.get*-
++
+%1%Microsoft.AspNetCore.Http.HttpContext*
+1*û
+1ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Services\CustomSettingsService.csM O(tì
+ê
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Services\CustomSettingsService.csM M(=.
+user&System.Security.Claims.ClaimsPrincipal"__id*.
+,
+%2&System.Security.Claims.ClaimsPrincipalâ
+Ü
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Services\CustomSettingsService.csO O(.>
+%38Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*ì*ê;
+9OrchardCore.CustomSettings.Services.CustomSettingsService"Q
+_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationServiceÈ
+Ê
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Services\CustomSettingsService.csOD O(u1
+%4+OrchardCore.Security.Permissions.Permission"ÉOrchardCore.CustomSettings.Permissions.CreatePermissionForType(OrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition)**"(
+&OrchardCore.CustomSettings.Permissions*U
+S
+settingsTypeCOrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition´
+®
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Services\CustomSettingsService.csO O(v*
+%5$System.Threading.Tasks.Task<TResult>"ﬂMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission)*E"C
+AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*@
+>
+%38Microsoft.AspNetCore.Authorization.IAuthorizationService*0
+.
+user&System.Security.Claims.ClaimsPrincipal*3
+1
+%4+OrchardCore.Security.Permissions.Permission"≤
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Services\CustomSettingsService.csO O(w
+""*Ô
+3ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Services\CustomSettingsService.csP	 P(	"ø
+ß
+úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\Services\CustomSettingsService.csP P(	
+implicit return:S
+settingsTypeCOrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinitionB=;
+9OrchardCore.CustomSettings.Services.CustomSettingsService

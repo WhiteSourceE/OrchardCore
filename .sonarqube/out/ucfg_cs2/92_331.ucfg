@@ -1,0 +1,535 @@
+
+ÃOrchardCore.DisplayManagement.Implementation.DefaultShapeFactory.CreateAsync(string, System.Func<System.Threading.Tasks.ValueTask<OrchardCore.DisplayManagement.IShape>>, System.Action<OrchardCore.DisplayManagement.Implementation.ShapeCreatingContext>, System.Action<OrchardCore.DisplayManagement.Implementation.ShapeCreatedContext>)¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.cs<' <(2"0*ë&
+0¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.cs> K(ı
+Ú
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.cs? ?('*
+%0$System.Threading.Tasks.Task<TResult>"UOrchardCore.DisplayManagement.Implementation.DefaultShapeFactory.GetShapeTableAsync()*DB
+@OrchardCore.DisplayManagement.Implementation.DefaultShapeFactory∏µ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csA" I(G
+%1AOrchardCore.DisplayManagement.Implementation.ShapeCreatingContext"AOrchardCore.DisplayManagement.Implementation.ShapeCreatingContext›
+⁄
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csA& A(:
+
+%2void"XOrchardCore.DisplayManagement.Implementation.ShapeCreatingContext.ShapeCreatingContext()*I
+G
+%1AOrchardCore.DisplayManagement.Implementation.ShapeCreatingContextÀ
+»
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csC" C(2
+%3System.IServiceProvider"__id*x*v
+G
+%1AOrchardCore.DisplayManagement.Implementation.ShapeCreatingContext"+
+_serviceProviderSystem.IServiceProvideré
+ã
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csC C(2
+%4System.IServiceProvider"UOrchardCore.DisplayManagement.Implementation.ShapeCreatingContext.ServiceProvider.set*I
+G
+%1AOrchardCore.DisplayManagement.Implementation.ShapeCreatingContext*
+
+%3System.IServiceProvideró
+î
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csD D(
+%5dynamic"IOrchardCore.DisplayManagement.Implementation.ShapeCreatingContext.New.set*I
+G
+%1AOrchardCore.DisplayManagement.Implementation.ShapeCreatingContext*DB
+@OrchardCore.DisplayManagement.Implementation.DefaultShapeFactoryƒ
+¡
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csE E(#1
+%6+OrchardCore.DisplayManagement.IShapeFactory"ROrchardCore.DisplayManagement.Implementation.ShapeCreatingContext.ShapeFactory.set*I
+G
+%1AOrchardCore.DisplayManagement.Implementation.ShapeCreatingContext*DB
+@OrchardCore.DisplayManagement.Implementation.DefaultShapeFactoryÌ
+Í
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csF F(%
+%7string"OOrchardCore.DisplayManagement.Implementation.ShapeCreatingContext.ShapeType.set*I
+G
+%1AOrchardCore.DisplayManagement.Implementation.ShapeCreatingContext*
+
+	shapeTypestring˙˜
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csG G(G(
+%8"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>è
+å
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csG  G(E
+
+%9void")System.Collections.Generic.List<T>.List()**
+(
+%8"System.Collections.Generic.List<T>†
+ù
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csG G(G*
+%10#System.Collections.Generic.IList<T>"OOrchardCore.DisplayManagement.Implementation.ShapeCreatingContext.OnCreated.set*I
+G
+%1AOrchardCore.DisplayManagement.Implementation.ShapeCreatingContext**
+(
+%8"System.Collections.Generic.List<T>è
+å
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csH H(*
+%11System.Func<TResult>"QOrchardCore.DisplayManagement.Implementation.ShapeCreatingContext.CreateAsync.set*I
+G
+%1AOrchardCore.DisplayManagement.Implementation.ShapeCreatingContext*&
+$
+shapeFactorySystem.Func<TResult>”
+–
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csA I(T
+creatingContextAOrchardCore.DisplayManagement.Implementation.ShapeCreatingContext"__id*I
+G
+%1AOrchardCore.DisplayManagement.Implementation.ShapeCreatingContext*
+1
+2*Å
+2¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csK K(,Õ
+ 
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csK K(-
+%12void"System.Action<T>.Invoke(T)*
+
+creatingSystem.Action<T>*V
+T
+creatingContextAOrchardCore.DisplayManagement.Implementation.ShapeCreatingContext*
+1*ñ
+1¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csN N(&‚
+ﬂ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csN N(&0
+%13)System.Collections.Generic.IEnumerable<T>"__id*|*zB
+@OrchardCore.DisplayManagement.Implementation.DefaultShapeFactory"4
+_events)System.Collections.Generic.IEnumerable<T>*
+3*∂
+3®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csé	 é(	*
+4
+5*Î
+4¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csP P(+∑¥
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csP P(,
+%14void"åOrchardCore.DisplayManagement.Implementation.IShapeFactoryEvents.Creating(OrchardCore.DisplayManagement.Implementation.ShapeCreatingContext)*H
+F
+ev@OrchardCore.DisplayManagement.Implementation.IShapeFactoryEvents*V
+T
+creatingContextAOrchardCore.DisplayManagement.Implementation.ShapeCreatingContext2KCreating(OrchardCore.DisplayManagement.Implementation.ShapeCreatingContext)*
+3*¯
+5¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csS S('¡
+æ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csS S('
+%15bool""object.operator !=(object, object)*
+"
+object*N
+L
+shapeDescriptor9OrchardCore.DisplayManagement.Descriptors.ShapeDescriptor*
+""*
+6
+7*¬
+6¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csU# U(@éã
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csU# U(@0
+%16)System.Collections.Generic.IEnumerable<T>"KOrchardCore.DisplayManagement.Descriptors.ShapeDescriptor.CreatingAsync.get*N
+L
+shapeDescriptor9OrchardCore.DisplayManagement.Descriptors.ShapeDescriptor2CreatingAsync.get*
+8*∂
+8®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csé	 é(	*
+9
+7*ú
+9¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csW W(,Ë
+Â
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csW W(-"
+%17System.Threading.Tasks.Task"!System.Func<T, TResult>.Invoke(T)*
+System.Func<T, TResult>*V
+T
+creatingContextAOrchardCore.DisplayManagement.Implementation.ShapeCreatingContext*
+8*Ù2
+7¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.cs\ g(∑¥
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.cs\! c(G
+%18@OrchardCore.DisplayManagement.Implementation.ShapeCreatedContext"@OrchardCore.DisplayManagement.Implementation.ShapeCreatedContext‹
+Ÿ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.cs\% \(8
+%19void"VOrchardCore.DisplayManagement.Implementation.ShapeCreatedContext.ShapeCreatedContext()*I
+G
+%18@OrchardCore.DisplayManagement.Implementation.ShapeCreatedContextÃ
+…
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.cs^" ^(2
+%20System.IServiceProvider"__id*x*v
+G
+%18@OrchardCore.DisplayManagement.Implementation.ShapeCreatedContext"+
+_serviceProviderSystem.IServiceProviderè
+å
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.cs^ ^(2
+%21System.IServiceProvider"TOrchardCore.DisplayManagement.Implementation.ShapeCreatedContext.ServiceProvider.set*I
+G
+%18@OrchardCore.DisplayManagement.Implementation.ShapeCreatedContext* 
+
+%20System.IServiceProviderﬂ
+‹
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.cs_ _()
+%22dynamic"IOrchardCore.DisplayManagement.Implementation.ShapeCreatingContext.New.get*V
+T
+creatingContextAOrchardCore.DisplayManagement.Implementation.ShapeCreatingContext„
+‡
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.cs_ _()
+%23dynamic"HOrchardCore.DisplayManagement.Implementation.ShapeCreatedContext.New.set*I
+G
+%18@OrchardCore.DisplayManagement.Implementation.ShapeCreatedContext*
+
+%22dynamicå
+â
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.cs` `(;2
+%24+OrchardCore.DisplayManagement.IShapeFactory"ROrchardCore.DisplayManagement.Implementation.ShapeCreatingContext.ShapeFactory.get*V
+T
+creatingContextAOrchardCore.DisplayManagement.Implementation.ShapeCreatingContext¥
+±
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.cs` `(;2
+%25+OrchardCore.DisplayManagement.IShapeFactory"QOrchardCore.DisplayManagement.Implementation.ShapeCreatedContext.ShapeFactory.set*I
+G
+%18@OrchardCore.DisplayManagement.Implementation.ShapeCreatedContext*4
+2
+%24+OrchardCore.DisplayManagement.IShapeFactory‰
+·
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csa a(5
+%26string"OOrchardCore.DisplayManagement.Implementation.ShapeCreatingContext.ShapeType.get*V
+T
+creatingContextAOrchardCore.DisplayManagement.Implementation.ShapeCreatingContextÁ
+‰
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csa a(5
+%27string"NOrchardCore.DisplayManagement.Implementation.ShapeCreatedContext.ShapeType.set*I
+G
+%18@OrchardCore.DisplayManagement.Implementation.ShapeCreatedContext*
+
+%26stringÙ
+Ò
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csb b(9
+%28System.Func<TResult>"QOrchardCore.DisplayManagement.Implementation.ShapeCreatingContext.CreateAsync.get*V
+T
+creatingContextAOrchardCore.DisplayManagement.Implementation.ShapeCreatingContext’
+“
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csb b(;0
+%29)System.Threading.Tasks.ValueTask<TResult>"System.Func<TResult>.Invoke()*V
+T
+creatingContextAOrchardCore.DisplayManagement.Implementation.ShapeCreatingContext¯
+ı
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csb b(;+
+%30$OrchardCore.DisplayManagement.IShape"JOrchardCore.DisplayManagement.Implementation.ShapeCreatedContext.Shape.set*I
+G
+%18@OrchardCore.DisplayManagement.Implementation.ShapeCreatedContext*
+""—
+Œ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.cs\ c(R
+createdContext@OrchardCore.DisplayManagement.Implementation.ShapeCreatedContext"__id*I
+G
+%18@OrchardCore.DisplayManagement.Implementation.ShapeCreatedContext˚
+¯
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.cse e(,+
+%31$OrchardCore.DisplayManagement.IShape"JOrchardCore.DisplayManagement.Implementation.ShapeCreatedContext.Shape.get*T
+R
+createdContext@OrchardCore.DisplayManagement.Implementation.ShapeCreatedContexté
+ã
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.cse e(6+
+%32$OrchardCore.DisplayManagement.IShape"__id*-
++
+%31$OrchardCore.DisplayManagement.IShapeê
+ç
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.cse e(6-
+shape$OrchardCore.DisplayManagement.IShape"__id*-
++
+%32$OrchardCore.DisplayManagement.IShape¢
+ü
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csg g(
+%33bool""object.operator ==(object, object)*
+"
+object*/
+-
+shape$OrchardCore.DisplayManagement.IShape*
+""*
+10
+11*·
+10¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csi i(˚
+¯
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csiV i(j+
+%34$OrchardCore.DisplayManagement.IShape"JOrchardCore.DisplayManagement.Implementation.ShapeCreatedContext.Shape.get*T
+R
+createdContext@OrchardCore.DisplayManagement.Implementation.ShapeCreatedContextÅ
+˛
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csiV i(t
+%35System.Type"object.GetType()*-
++
+%34$OrchardCore.DisplayManagement.IShapeıÚ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csiV i(
+%36string"System.Type.ToString()*
+
+%35System.Type2
+ToString()˘
+ˆ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csi4 i(
+%37string"__concat*!
+Invalid base type for shape: *
+
+%36string¯ı
+ß
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csi i(Ä'
+%38 System.InvalidOperationException" System.InvalidOperationException∫
+∑
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csi i(3
+%39void"CSystem.InvalidOperationException.InvalidOperationException(string?)*)
+'
+%38 System.InvalidOperationException*
+
+%37string*
+12*Á
+11¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csl p('Ÿ÷
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csl  l(.9
+%402OrchardCore.DisplayManagement.Shapes.ShapeMetadata"1OrchardCore.DisplayManagement.IShape.Metadata.get*/
+-
+shape$OrchardCore.DisplayManagement.IShape2Metadata.get¥
+±
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csl l(.C
+shapeMetadata2OrchardCore.DisplayManagement.Shapes.ShapeMetadata"__id*;
+9
+%402OrchardCore.DisplayManagement.Shapes.ShapeMetadata÷
+”
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csm m(*
+%41string";OrchardCore.DisplayManagement.Shapes.ShapeMetadata.Type.set*E
+C
+shapeMetadata2OrchardCore.DisplayManagement.Shapes.ShapeMetadata*
+
+	shapeTypestring¡
+æ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csp p('
+%42bool""object.operator !=(object, object)*
+"
+object*N
+L
+shapeDescriptor9OrchardCore.DisplayManagement.Descriptors.ShapeDescriptor*
+""*
+13
+14*û
+13¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csp+ p(lˆ
+Û
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csp+ p(A@
+%439OrchardCore.DisplayManagement.Shapes.AlternatesCollection"?OrchardCore.DisplayManagement.Shapes.ShapeMetadata.Wrappers.get*E
+C
+shapeMetadata2OrchardCore.DisplayManagement.Shapes.ShapeMetadata¡
+æ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csp+ p(G
+
+%44int"COrchardCore.DisplayManagement.Shapes.AlternatesCollection.Count.get*B
+@
+%439OrchardCore.DisplayManagement.Shapes.AlternatesCollection˛˚
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.cspJ p(b*
+%45#System.Collections.Generic.IList<T>"FOrchardCore.DisplayManagement.Descriptors.ShapeDescriptor.Wrappers.get*N
+L
+shapeDescriptor9OrchardCore.DisplayManagement.Descriptors.ShapeDescriptor2Wrappers.get¶£
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.cspJ p(h
+
+%46int"3System.Collections.Generic.ICollection<T>.Count.get*,
+*
+%45#System.Collections.Generic.IList<T>2	Count.get*
+15
+14*œ
+
+15¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csr r(Hˆ
+Û
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csr r(&@
+%479OrchardCore.DisplayManagement.Shapes.AlternatesCollection"?OrchardCore.DisplayManagement.Shapes.ShapeMetadata.Wrappers.get*E
+C
+shapeMetadata2OrchardCore.DisplayManagement.Shapes.ShapeMetadata˛˚
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csr0 r(H*
+%48#System.Collections.Generic.IList<T>"FOrchardCore.DisplayManagement.Descriptors.ShapeDescriptor.Wrappers.get*N
+L
+shapeDescriptor9OrchardCore.DisplayManagement.Descriptors.ShapeDescriptor2Wrappers.getü
+ú
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csr r(I
+%49void"rOrchardCore.DisplayManagement.Shapes.AlternatesCollection.AddRange(System.Collections.Generic.IEnumerable<string>)*B
+@
+%479OrchardCore.DisplayManagement.Shapes.AlternatesCollection*,
+*
+%48#System.Collections.Generic.IList<T>*
+14*ò
+14¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csv v(&‚
+ﬂ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csv v(&0
+%50)System.Collections.Generic.IEnumerable<T>"__id*|*zB
+@OrchardCore.DisplayManagement.Implementation.DefaultShapeFactory"4
+_events)System.Collections.Generic.IEnumerable<T>*
+16*π
+16®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csé	 é(	*
+17
+18*Á
+17¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csx x()±Æ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csx x(*
+%51void"äOrchardCore.DisplayManagement.Implementation.IShapeFactoryEvents.Created(OrchardCore.DisplayManagement.Implementation.ShapeCreatedContext)*H
+F
+ev@OrchardCore.DisplayManagement.Implementation.IShapeFactoryEvents*T
+R
+createdContext@OrchardCore.DisplayManagement.Implementation.ShapeCreatedContext2ICreated(OrchardCore.DisplayManagement.Implementation.ShapeCreatedContext)*
+16*˚
+18¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.cs{ {('¡
+æ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.cs{ {('
+%52bool""object.operator !=(object, object)*
+"
+object*N
+L
+shapeDescriptor9OrchardCore.DisplayManagement.Descriptors.ShapeDescriptor*
+""*
+19
+20*¬
+19¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.cs}# }(?åâ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.cs}# }(?0
+%53)System.Collections.Generic.IEnumerable<T>"JOrchardCore.DisplayManagement.Descriptors.ShapeDescriptor.CreatedAsync.get*N
+L
+shapeDescriptor9OrchardCore.DisplayManagement.Descriptors.ShapeDescriptor2CreatedAsync.get*
+21*π
+21®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csé	 é(	*
+22
+20*ú
+22¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.cs (+Ê
+„
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.cs (,"
+%54System.Threading.Tasks.Task"!System.Func<T, TResult>.Invoke(T)*
+System.Func<T, TResult>*T
+R
+createdContext@OrchardCore.DisplayManagement.Implementation.ShapeCreatedContext*
+21*á
+20®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csÉ É('À
+»
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csÉ É('
+%55bool""object.operator !=(object, object)*
+"
+object*V
+T
+creatingContextAOrchardCore.DisplayManagement.Implementation.ShapeCreatingContext*
+""*
+23
+24*ª
+23®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csÖ# Ö(<É
+Ä
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csÖ# Ö(<*
+%56#System.Collections.Generic.IList<T>"OOrchardCore.DisplayManagement.Implementation.ShapeCreatingContext.OnCreated.get*V
+T
+creatingContextAOrchardCore.DisplayManagement.Implementation.ShapeCreatingContext*
+25*π
+25®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csé	 é(	*
+26
+24*†
+26®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csá á(+Ë
+Â
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csá á(,"
+%57System.Threading.Tasks.Task"!System.Func<T, TResult>.Invoke(T)*
+System.Func<T, TResult>*T
+R
+createdContext@OrchardCore.DisplayManagement.Implementation.ShapeCreatedContext*
+25*π
+24®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csã ã(*
+27
+28*Ñ
+28®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csã ã(*Ã
+…
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csã ã(+
+%58void"System.Action<T>.Invoke(T)*
+
+createdSystem.Action<T>*T
+R
+createdContext@OrchardCore.DisplayManagement.Implementation.ShapeCreatedContext*
+27*å
+27®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csç ç('˝
+˙
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csç ç('+
+%59$OrchardCore.DisplayManagement.IShape"JOrchardCore.DisplayManagement.Implementation.ShapeCreatedContext.Shape.get*T
+R
+createdContext@OrchardCore.DisplayManagement.Implementation.ShapeCreatedContext"⁄
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csç ç((-
++
+%59$OrchardCore.DisplayManagement.IShape*Ú
+12®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csé	 é(	"¿
+®
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement\Implementation\DefaultShapeFactory.csé é(	
+implicit return:
+	shapeTypestring:$
+shapeFactorySystem.Func<TResult>:
+creatingSystem.Action<T>:
+createdSystem.Action<T>BDB
+@OrchardCore.DisplayManagement.Implementation.DefaultShapeFactory

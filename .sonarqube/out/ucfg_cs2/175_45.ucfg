@@ -1,0 +1,134 @@
+
+{OrchardCore.GitHub.Recipes.GitHubAuthenticationSettingsStep.ExecuteAsync(OrchardCore.Recipes.Models.RecipeExecutionContext)©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Recipes\GithubAuthenticationSettingsStep.cs (&"0*Ý
+0©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Recipes\GithubAuthenticationSettingsStep.cs (u¹
+¶
+©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Recipes\GithubAuthenticationSettingsStep.cs (+
+%0string":OrchardCore.Recipes.Models.RecipeExecutionContext.Name.get*>
+<
+context1OrchardCore.Recipes.Models.RecipeExecutionContextÃ
+À
+©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Recipes\GithubAuthenticationSettingsStep.csS (u
+%1"__id*
+""¡
+ž
+©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Recipes\GithubAuthenticationSettingsStep.cs (v
+
+%2bool"8string.Equals(string?, string?, System.StringComparison)*
+"
+string*
+
+%0string*
+""*
+
+%1*
+1
+2*æ
+1©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Recipes\GithubAuthenticationSettingsStep.cs$	 $(	"´
+©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Recipes\GithubAuthenticationSettingsStep.cs (
+""*¦)
+2©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Recipes\GithubAuthenticationSettingsStep.cs #(KÏ
+Ì
+©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Recipes\GithubAuthenticationSettingsStep.cs ($"
+%3Newtonsoft.Json.Linq.JObject":OrchardCore.Recipes.Models.RecipeExecutionContext.Step.get*>
+<
+context1OrchardCore.Recipes.Models.RecipeExecutionContext¿
+¼
+©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Recipes\GithubAuthenticationSettingsStep.cs (M=
+%47OrchardCore.GitHub.Recipes.GitHubLoginSettingsStepModel")Newtonsoft.Json.Linq.JToken.ToObject<T>()*$
+"
+%3Newtonsoft.Json.Linq.JObject¸
+µ
+©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Recipes\GithubAuthenticationSettingsStep.cs (M@
+model7OrchardCore.GitHub.Recipes.GitHubLoginSettingsStepModel"__id*?
+=
+%47OrchardCore.GitHub.Recipes.GitHubLoginSettingsStepModel”
+‘
+©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Recipes\GithubAuthenticationSettingsStep.cs! (=>
+%58OrchardCore.GitHub.Services.IGitHubAuthenticationService"__id*œ*™=
+;OrchardCore.GitHub.Recipes.GitHubAuthenticationSettingsStep"X
+_githubAuthenticationService8OrchardCore.GitHub.Services.IGitHubAuthenticationService€ý
+©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Recipes\GithubAuthenticationSettingsStep.cs! (Q*
+%6$System.Threading.Tasks.Task<TResult>"LOrchardCore.GitHub.Services.IGitHubAuthenticationService.LoadSettingsAsync()*@
+>
+%58OrchardCore.GitHub.Services.IGitHubAuthenticationService2LoadSettingsAsync()ƒ
+€
+©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Recipes\GithubAuthenticationSettingsStep.cs (QD
+settings8OrchardCore.GitHub.Settings.GitHubAuthenticationSettings"__id*
+""Ê
+Ç
+©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Recipes\GithubAuthenticationSettingsStep.cs  (1
+%7string"GOrchardCore.GitHub.Recipes.GitHubLoginSettingsStepModel.ConsumerKey.get*B
+@
+model7OrchardCore.GitHub.Recipes.GitHubLoginSettingsStepModelÜ
+Ù
+©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Recipes\GithubAuthenticationSettingsStep.cs (1
+%8string"EOrchardCore.GitHub.Settings.GitHubAuthenticationSettings.ClientID.set*F
+D
+settings8OrchardCore.GitHub.Settings.GitHubAuthenticationSettings*
+
+%7stringÍ
+Ê
+©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Recipes\GithubAuthenticationSettingsStep.cs $  (8
+%9string"JOrchardCore.GitHub.Recipes.GitHubLoginSettingsStepModel.ConsumerSecret.get*B
+@
+model7OrchardCore.GitHub.Recipes.GitHubLoginSettingsStepModelá
+Þ
+©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Recipes\GithubAuthenticationSettingsStep.cs   (8
+%10string"IOrchardCore.GitHub.Settings.GitHubAuthenticationSettings.ClientSecret.set*F
+D
+settings8OrchardCore.GitHub.Settings.GitHubAuthenticationSettings*
+
+%9stringÌ
+É
+©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Recipes\GithubAuthenticationSettingsStep.cs!$ !(6
+%11string"HOrchardCore.GitHub.Recipes.GitHubLoginSettingsStepModel.CallbackPath.get*B
+@
+model7OrchardCore.GitHub.Recipes.GitHubLoginSettingsStepModel€
+ý
+©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Recipes\GithubAuthenticationSettingsStep.cs! !(6+
+%12$Microsoft.AspNetCore.Http.PathString"IOrchardCore.GitHub.Settings.GitHubAuthenticationSettings.CallbackPath.set*F
+D
+settings8OrchardCore.GitHub.Settings.GitHubAuthenticationSettings*
+
+%11string•
+’
+©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Recipes\GithubAuthenticationSettingsStep.cs# #(.?
+%138OrchardCore.GitHub.Services.IGitHubAuthenticationService"__id*œ*™=
+;OrchardCore.GitHub.Recipes.GitHubAuthenticationSettingsStep"X
+_githubAuthenticationService8OrchardCore.GitHub.Services.IGitHubAuthenticationService¶³
+©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Recipes\GithubAuthenticationSettingsStep.cs# #(L"
+%14System.Threading.Tasks.Task"†OrchardCore.GitHub.Services.IGitHubAuthenticationService.UpdateSettingsAsync(OrchardCore.GitHub.Settings.GitHubAuthenticationSettings)*A
+?
+%138OrchardCore.GitHub.Services.IGitHubAuthenticationService*F
+D
+settings8OrchardCore.GitHub.Settings.GitHubAuthenticationSettings2MUpdateSettingsAsync(OrchardCore.GitHub.Settings.GitHubAuthenticationSettings)*
+3*ó
+3©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Recipes\GithubAuthenticationSettingsStep.cs$	 $(	"Á
+©
+žD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Recipes\GithubAuthenticationSettingsStep.cs$ $(	
+implicit return:<
+context1OrchardCore.Recipes.Models.RecipeExecutionContextB?=
+;OrchardCore.GitHub.Recipes.GitHubAuthenticationSettingsStep

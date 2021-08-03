@@ -1,0 +1,102 @@
+
+ŒOrchardCore.PublishLater.Services.ScheduledPublishingBackgroundTask.DoWorkAsync(System.IServiceProvider, System.Threading.CancellationToken)±
+¦D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.PublishLater\Services\ScheduledPublishingBackgroundTask.cs (%"0*å
+0±
+¦D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.PublishLater\Services\ScheduledPublishingBackgroundTask.cs "(%Å
+Â
+±
+¦D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.PublishLater\Services\ScheduledPublishingBackgroundTask.cs' (/
+%0YesSql.ISession"xMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<T>(System.IServiceProvider)*M"K
+IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*,
+*
+serviceProviderSystem.IServiceProvider¬
+©
+±
+¦D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.PublishLater\Services\ScheduledPublishingBackgroundTask.cs' (v
+%1YesSql.IQuery<T, TIndex>"…YesSql.QueryExtensions.Query<T, TIndex>(YesSql.ISession, System.Linq.Expressions.Expression<System.Func<TIndex, bool>>, bool, string)*"
+YesSql.QueryExtensions*
+
+%0YesSql.ISession*
+""*
+""*
+""°­
+±
+¦D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.PublishLater\Services\ScheduledPublishingBackgroundTask.cs'  (*
+%2$System.Threading.Tasks.Task<TResult>"YesSql.IQuery<T>.ListAsync()* 
+
+%1YesSql.IQuery<T, TIndex>2ListAsync()‚
+ÿ
+±
+¦D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.PublishLater\Services\ScheduledPublishingBackgroundTask.cs  (;
+itemsToPublish)System.Collections.Generic.IEnumerable<T>"__id*
+""ô
+ñ
+±
+¦D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.PublishLater\Services\ScheduledPublishingBackgroundTask.cs" "(%
+
+%3bool"TSystem.Linq.Enumerable.Any<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*=
+;
+itemsToPublish)System.Collections.Generic.IEnumerable<T>*
+1
+2*ö
+1±
+¦D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.PublishLater\Services\ScheduledPublishingBackgroundTask.cs,	 ,(	"¼
+±
+¦D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.PublishLater\Services\ScheduledPublishingBackgroundTask.cs$ $(
+""*¼
+2±
+¦D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.PublishLater\Services\ScheduledPublishingBackgroundTask.cs'! '(/*
+3*¿
+3±
+¦D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.PublishLater\Services\ScheduledPublishingBackgroundTask.cs,	 ,(	*
+4
+5*Â
+4±
+¦D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.PublishLater\Services\ScheduledPublishingBackgroundTask.cs) *(]…
+‚
+±
+¦D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.PublishLater\Services\ScheduledPublishingBackgroundTask.cs) )(9
+%43Microsoft.Extensions.Logging.ILogger<TCategoryName>"__id*Š*‡E
+COrchardCore.PublishLater.Services.ScheduledPublishingBackgroundTask">
+_logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>·
+´
+±
+¦D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.PublishLater\Services\ScheduledPublishingBackgroundTask.cs)W )(i
+%5string";OrchardCore.ContentManagement.ContentItem.ContentItemId.get*3
+1
+item)OrchardCore.ContentManagement.ContentItemò
+ï
+±
+¦D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.PublishLater\Services\ScheduledPublishingBackgroundTask.cs) )(j
+
+%6void"uMicrosoft.Extensions.Logging.LoggerExtensions.LogDebug(Microsoft.Extensions.Logging.ILogger, string, params object[])*1"/
+-Microsoft.Extensions.Logging.LoggerExtensions*;
+9
+%43Microsoft.Extensions.Logging.ILogger<TCategoryName>*64
+2Publishing scheduled content item {ContentItemId}.*
+
+%5stringã
+à
+±
+¦D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.PublishLater\Services\ScheduledPublishingBackgroundTask.cs* *(K3
+%7-OrchardCore.ContentManagement.IContentManager"xMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<T>(System.IServiceProvider)*M"K
+IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*,
+*
+serviceProviderSystem.IServiceProvideræã
+±
+¦D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.PublishLater\Services\ScheduledPublishingBackgroundTask.cs* *(^!
+%8System.Threading.Tasks.Task"eOrchardCore.ContentManagement.IContentManager.PublishAsync(OrchardCore.ContentManagement.ContentItem)*5
+3
+%7-OrchardCore.ContentManagement.IContentManager*3
+1
+item)OrchardCore.ContentManagement.ContentItem27PublishAsync(OrchardCore.ContentManagement.ContentItem)*
+3*ƒ
+5±
+¦D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.PublishLater\Services\ScheduledPublishingBackgroundTask.cs,	 ,(	"É
+±
+¦D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.PublishLater\Services\ScheduledPublishingBackgroundTask.cs, ,(	
+implicit return:*
+serviceProviderSystem.IServiceProvider:7
+cancellationToken"System.Threading.CancellationTokenBGE
+COrchardCore.PublishLater.Services.ScheduledPublishingBackgroundTask

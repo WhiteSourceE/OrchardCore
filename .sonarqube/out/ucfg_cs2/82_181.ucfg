@@ -1,0 +1,41 @@
+
+tOrchardCore.OpenId.YesSql.Stores.OpenIdApplicationStore<TApplication>.CountAsync(System.Threading.CancellationToken)¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdApplicationStore.cs- (7"0*—
+0¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdApplicationStore.cs! #(D²
+¯
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdApplicationStore.cs! !(<
+
+%0void"ASystem.Threading.CancellationToken.ThrowIfCancellationRequested()*9
+7
+cancellationToken"System.Threading.CancellationToken¯
+¬
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdApplicationStore.cs# #(!
+%1YesSql.ISession"__id*h*fG
+EOrchardCore.OpenId.YesSql.Stores.OpenIdApplicationStore<TApplication>"
+_sessionYesSql.ISession·
+´
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdApplicationStore.cs# #(7
+%2YesSql.IQuery<T>"8YesSql.QueryExtensions.Query<T>(YesSql.ISession, string)*"
+YesSql.QueryExtensions*
+
+%1YesSql.ISession*
+""›˜
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdApplicationStore.cs# #(D*
+%3$System.Threading.Tasks.Task<TResult>"YesSql.IQuery<T>.CountAsync()*
+
+%2YesSql.IQuery<T>2CountAsync()"­
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdApplicationStore.cs# #(E
+""*å
+1¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdApplicationStore.cs$	 $(	"º
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdApplicationStore.cs$ $(	
+implicit return:7
+cancellationToken"System.Threading.CancellationTokenBIG
+EOrchardCore.OpenId.YesSql.Stores.OpenIdApplicationStore<TApplication>

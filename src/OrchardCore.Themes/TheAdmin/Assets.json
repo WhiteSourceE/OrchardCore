@@ -1,0 +1,26 @@
+[
+  {
+    "generateSourceMaps": false,
+    "generateRTL": true,
+    "inputs": [
+      "Assets/scss/admin.scss"
+    ],
+    "output": "wwwroot/Styles/TheAdmin.css"
+  },
+  {
+    "generateSourceMaps": false,
+    "inputs": [
+      "node_modules/popper.js/dist/umd/popper.js",
+      "node_modules/bootstrap/dist/js/bootstrap.js",
+      "Assets/js/*.js"
+    ],
+    "output": "wwwroot/Scripts/TheAdmin.js"
+  },
+  {
+    "generateSourceMaps": false,
+    "inputs": [
+      "Assets/js/header/userPreferencesLoader.js"
+    ],
+    "output": "wwwroot/Scripts/TheAdmin-header.js"
+  }
+]

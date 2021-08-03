@@ -1,0 +1,682 @@
+
+ŸOrchardCore.Lucene.Handlers.LuceneIndexingContentHandler.IndexingAsync(OrchardCore.Environment.Shell.Scope.ShellScope, System.Collections.Generic.IEnumerable<OrchardCore.ContentManagement.Handlers.ContentContextBase>)•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.cs=" =(/"0*¸)
+0•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.cs? I(:…
+∆
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.cs? ?(0
+%0System.IServiceProvider"BOrchardCore.Environment.Shell.Scope.ShellScope.ServiceProvider.get*9
+7
+scope.OrchardCore.Environment.Shell.Scope.ShellScope˜
+Ù
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.cs? ?(0#
+servicesSystem.IServiceProvider"__id*
+
+%0System.IServiceProvider–
+Õ
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.cs@! @(O3
+%1-OrchardCore.ContentManagement.IContentManager"xMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<T>(System.IServiceProvider)*M"K
+IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*%
+#
+servicesSystem.IServiceProvider©
+¶
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.cs@ @(O?
+contentManager-OrchardCore.ContentManagement.IContentManager"__id*5
+3
+%1-OrchardCore.ContentManagement.IContentManager≈
+¬
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csA+ A([/
+%2)System.Collections.Generic.IEnumerable<T>"qMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetServices<T>(System.IServiceProvider)*M"K
+IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*%
+#
+servicesSystem.IServiceProvider´
+®
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csA A([E
+contentItemIndexHandlers)System.Collections.Generic.IEnumerable<T>"__id*1
+/
+%2)System.Collections.Generic.IEnumerable<T>»
+≈
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csB% B(V+
+%3%OrchardCore.Lucene.LuceneIndexManager"xMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<T>(System.IServiceProvider)*M"K
+IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*%
+#
+servicesSystem.IServiceProviderù
+ö
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csB B(V;
+luceneIndexManager%OrchardCore.Lucene.LuceneIndexManager"__id*-
++
+%3%OrchardCore.Lucene.LuceneIndexManager–
+Õ
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csC- C(f3
+%4-OrchardCore.Lucene.LuceneIndexSettingsService"xMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<T>(System.IServiceProvider)*M"K
+IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*%
+#
+servicesSystem.IServiceProviderµ
+≤
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csC C(fK
+luceneIndexSettingsService-OrchardCore.Lucene.LuceneIndexSettingsService"__id*5
+3
+%4-OrchardCore.Lucene.LuceneIndexSettingsService÷
+”
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csD D(]9
+%53Microsoft.Extensions.Logging.ILogger<TCategoryName>"xMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<T>(System.IServiceProvider)*M"K
+IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*%
+#
+servicesSystem.IServiceProvider≠
+™
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csD D(]=
+logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>"__id*;
+9
+%53Microsoft.Extensions.Logging.ILogger<TCategoryName>Ë
+Â
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csF$ F(^/
+%6)System.Collections.Generic.IEnumerable<T>"§System.Linq.Enumerable.GroupBy<TSource, TKey, TElement>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TKey>, System.Func<TSource, TElement>)*"
+System.Linq.Enumerable*7
+5
+contexts)System.Collections.Generic.IEnumerable<T>*
+""*
+""§
+°
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csF F(^>
+contextsGroupById)System.Collections.Generic.IEnumerable<T>"__id*1
+/
+%6)System.Collections.Generic.IEnumerable<T>*
+1*≥
+1•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csv	 v(	*
+2
+3*ˇ
+2•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csL Q(aò
+ï
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csL L(1?
+%79OrchardCore.ContentManagement.Handlers.ContentContextBase"USystem.Linq.Enumerable.Last<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*7
+5
+ContextsById%System.Linq.IGrouping<TKey, TElement>∫
+∑
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csL L(1D
+context9OrchardCore.ContentManagement.Handlers.ContentContextBase"__id*A
+?
+%79OrchardCore.ContentManagement.Handlers.ContentContextBaseÒ
+Ó
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csN N(,6
+	published)OrchardCore.ContentManagement.ContentItem"__id*
+""Ó
+Î
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csN. N(;3
+latest)OrchardCore.ContentManagement.ContentItem"__id*
+""“
+œ
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csO O(,
+publishedLoadedbool"__id*
+""œ
+Ã
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csO. O(B
+latestLoadedbool"__id*
+""Ë
+Â
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csQ4 Q(a*
+%8$System.Threading.Tasks.Task<TResult>"@OrchardCore.Lucene.LuceneIndexSettingsService.GetSettingsAsync()*M
+K
+luceneIndexSettingsService-OrchardCore.Lucene.LuceneIndexSettingsService*
+4*≥
+4•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csv	 v(	*
+5
+1*ñ
+5•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csS T(:Ô
+Ï
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csS` S(s/
+%9)OrchardCore.ContentManagement.ContentItem"IOrchardCore.ContentManagement.Handlers.ContentContextBase.ContentItem.get*F
+D
+context9OrchardCore.ContentManagement.Handlers.ContentContextBase∑
+¥
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csS. S(t+
+%10$System.Threading.Tasks.Task<TResult>"™OrchardCore.ContentManagement.ContentManagerExtensions.PopulateAspectAsync<TAspect>(OrchardCore.ContentManagement.IContentManager, OrchardCore.ContentManagement.IContent)*:"8
+6OrchardCore.ContentManagement.ContentManagerExtensions*A
+?
+contentManager-OrchardCore.ContentManagement.IContentManager*1
+/
+%9)OrchardCore.ContentManagement.ContentItem˘
+ˆ
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csS S(t>
+cultureAspect-OrchardCore.ContentLocalization.CultureAspect"__id*
+""∏
+µ
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csT" T(:
+%11bool"<OrchardCore.ContentLocalization.CultureAspect.HasCulture.get*@
+>
+cultureAspect-OrchardCore.ContentLocalization.CultureAspect*
+6
+7*…	
+6•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csT= T(W—
+Œ
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csT= T(R'
+%15 System.Globalization.CultureInfo"9OrchardCore.ContentLocalization.CultureAspect.Culture.get*@
+>
+cultureAspect-OrchardCore.ContentLocalization.CultureAspectöó
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csT= T(W
+%16string")System.Globalization.CultureInfo.Name.get*)
+'
+%15 System.Globalization.CultureInfo2Name.get—
+Œ
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csT= T(W
+%13string"__id*
+
+%16string—
+Œ
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csT= T(W
+%12string"__id*
+
+%13string*
+8*ø
+7•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csTZ T(^¿
+Ω
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csTZ T(^
+%14"__id*
+""…
+∆
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csTZ T(^
+%12string"__id*
+
+%14*
+8*…
+8•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csT U(M’
+“
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csT T(^
+culturestring"__id*
+
+%12stringµ
+≤
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csU/ U(D
+%17string"8OrchardCore.Lucene.Model.LuceneIndexSettings.Culture.get*?
+=
+indexSettings,OrchardCore.Lucene.Model.LuceneIndexSettingsÇ
+ˇ
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csU/ U(M
+%18bool""string.operator ==(string, string)*
+"
+string*
+
+%17string*
+any*
+9
+10*æ
+9•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csUP U(U¿
+Ω
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csUP U(U
+%20"__id*
+""«
+ƒ
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csUP U(U
+%19bool"__id*
+
+%20*
+11*õ	
+10•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csUX U(xµ
+≤
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csUc U(x
+%22string"8OrchardCore.Lucene.Model.LuceneIndexSettings.Culture.get*?
+=
+indexSettings,OrchardCore.Lucene.Model.LuceneIndexSettingsé
+ã
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csUX U(x
+%23bool""string.operator !=(string, string)*
+"
+string*
+
+culturestring*
+
+%22stringÕ
+ 
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csUX U(x
+%21bool"__id*
+
+%23boolÕ
+ 
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csUX U(x
+%19bool"__id*
+
+%21bool*
+11*⁄
+11•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csU W(bﬁ
+€
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csU U(x
+ignoreIndexedCulturebool"__id*
+
+%19bool√
+¿
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csW W(9
+%24string[]"DOrchardCore.Lucene.Model.LuceneIndexSettings.IndexedContentTypes.get*?
+=
+indexSettings,OrchardCore.Lucene.Model.LuceneIndexSettings
+Ì
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csWC W(V0
+%25)OrchardCore.ContentManagement.ContentItem"IOrchardCore.ContentManagement.Handlers.ContentContextBase.ContentItem.get*F
+D
+context9OrchardCore.ContentManagement.Handlers.ContentContextBase©
+¶
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csWC W(b
+%26string"9OrchardCore.ContentManagement.ContentItem.ContentType.get*2
+0
+%25)OrchardCore.ContentManagement.ContentItem‹
+Ÿ
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csW W(c
+%27bool"bSystem.Linq.Enumerable.Contains<TSource>(System.Collections.Generic.IEnumerable<TSource>, TSource)*"
+System.Linq.Enumerable*
+
+%24string[]*
+
+%26string*
+12
+4*µ
+12•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csWg W(|*
+13
+4*
+13•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csY Y(6∑
+¥
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csY Y(6
+%28bool"<OrchardCore.Lucene.Model.LuceneIndexSettings.IndexLatest.get*?
+=
+indexSettings,OrchardCore.Lucene.Model.LuceneIndexSettings*
+14
+15*∂
+14•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csY: Y(J*
+16
+15*Ö
+16¶
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.cs[ \(Å“
+œ
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.cs[ [(2
+publishedLoadedbool"__id*
+""
+Ì
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.cs\F \(Y0
+%29)OrchardCore.ContentManagement.ContentItem"IOrchardCore.ContentManagement.Handlers.ContentContextBase.ContentItem.get*F
+D
+context9OrchardCore.ContentManagement.Handlers.ContentContextBase´
+®
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.cs\F \(g
+%30string";OrchardCore.ContentManagement.ContentItem.ContentItemId.get*2
+0
+%29)OrchardCore.ContentManagement.ContentItemœ
+Ã
+¶
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.cs\i \(Å3
+%31,OrchardCore.ContentManagement.VersionOptions":OrchardCore.ContentManagement.VersionOptions.Published.get*0".
+,OrchardCore.ContentManagement.VersionOptionsíè
+¶
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.cs\. \(Ç+
+%32$System.Threading.Tasks.Task<TResult>"lOrchardCore.ContentManagement.IContentManager.GetAsync(string, OrchardCore.ContentManagement.VersionOptions)*A
+?
+contentManager-OrchardCore.ContentManagement.IContentManager*
+
+%30string*5
+3
+%31,OrchardCore.ContentManagement.VersionOptions2>GetAsync(string, OrchardCore.ContentManagement.VersionOptions)Ú
+Ô
+¶
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.cs\ \(Ç6
+	published)OrchardCore.ContentManagement.ContentItem"__id*
+""*
+15*
+15•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.cs_ _(5∑
+¥
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.cs_ _(5
+%33bool"<OrchardCore.Lucene.Model.LuceneIndexSettings.IndexLatest.get*?
+=
+indexSettings,OrchardCore.Lucene.Model.LuceneIndexSettings*
+17
+18*∂
+17•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.cs_9 _(F*
+19
+18*¯
+19•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csa b({œ
+Ã
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csa a(/
+latestLoadedbool"__id*
+""
+Ì
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csbC b(V0
+%34)OrchardCore.ContentManagement.ContentItem"IOrchardCore.ContentManagement.Handlers.ContentContextBase.ContentItem.get*F
+D
+context9OrchardCore.ContentManagement.Handlers.ContentContextBase´
+®
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csbC b(d
+%35string";OrchardCore.ContentManagement.ContentItem.ContentItemId.get*2
+0
+%34)OrchardCore.ContentManagement.ContentItemÀ
+»
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csbf b({3
+%36,OrchardCore.ContentManagement.VersionOptions"7OrchardCore.ContentManagement.VersionOptions.Latest.get*0".
+,OrchardCore.ContentManagement.VersionOptionsëé
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csb+ b(|+
+%37$System.Threading.Tasks.Task<TResult>"lOrchardCore.ContentManagement.IContentManager.GetAsync(string, OrchardCore.ContentManagement.VersionOptions)*A
+?
+contentManager-OrchardCore.ContentManagement.IContentManager*
+
+%35string*5
+3
+%36,OrchardCore.ContentManagement.VersionOptions2>GetAsync(string, OrchardCore.ContentManagement.VersionOptions)Ó
+Î
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csb b(|3
+latest)OrchardCore.ContentManagement.ContentItem"__id*
+""*
+18*
+18•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.cse* e(D∑
+¥
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.cse+ e(D
+%38bool"<OrchardCore.Lucene.Model.LuceneIndexSettings.IndexLatest.get*?
+=
+indexSettings,OrchardCore.Lucene.Model.LuceneIndexSettings*
+20
+21*Ï
+20•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.cseG e(Pù
+ö
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.cseG e(P0
+%40)OrchardCore.ContentManagement.ContentItem"__id*8
+6
+	published)OrchardCore.ContentManagement.ContentItemó
+î
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.cseG e(P0
+%39)OrchardCore.ContentManagement.ContentItem"__id*2
+0
+%40)OrchardCore.ContentManagement.ContentItem*
+22*È
+21•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.cseS e(Yö
+ó
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.cseS e(Y0
+%41)OrchardCore.ContentManagement.ContentItem"__id*5
+3
+latest)OrchardCore.ContentManagement.ContentItemó
+î
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.cseS e(Y0
+%39)OrchardCore.ContentManagement.ContentItem"__id*2
+0
+%41)OrchardCore.ContentManagement.ContentItem*
+22*á
+22•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.cse g(/ü
+ú
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.cse e(Y8
+contentItem)OrchardCore.ContentManagement.ContentItem"__id*2
+0
+%39)OrchardCore.ContentManagement.ContentItem¨
+©
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csg g(/
+%42bool""object.operator ==(object, object)*
+"
+object*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItem*
+""*
+23
+24*Ì
+23¶
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csi i(ì∑
+¥
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csiJ i(a
+%43string":OrchardCore.Lucene.Model.LuceneIndexSettings.IndexName.get*?
+=
+indexSettings,OrchardCore.Lucene.Model.LuceneIndexSettings«ƒ
+¶
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csic i(ï
+%44string[]"string[]Ò
+Ó
+¶
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csir i(Ö0
+%45)OrchardCore.ContentManagement.ContentItem"IOrchardCore.ContentManagement.Handlers.ContentContextBase.ContentItem.get*F
+D
+context9OrchardCore.ContentManagement.Handlers.ContentContextBase¨
+©
+¶
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csir i(ì
+%46string";OrchardCore.ContentManagement.ContentItem.ContentItemId.get*2
+0
+%45)OrchardCore.ContentManagement.ContentItemÁ
+‰
+¶
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csip i(ï
+%47"
+__arraySet*
+
+%44string[]*2 *
+
+%46stringß
+§
+¶
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csi" i(ñ"
+%48System.Threading.Tasks.Task"rOrchardCore.Lucene.LuceneIndexManager.DeleteDocumentsAsync(string, System.Collections.Generic.IEnumerable<string>)*=
+;
+luceneIndexManager%OrchardCore.Lucene.LuceneIndexManager*
+
+%43string*
+
+%44string[]*
+4*ˇ3
+24¶
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csm  q(ó≥
+∞
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csm\ m(u
+%49string";OrchardCore.ContentManagement.ContentItem.ContentItemId.get*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItem˙˜
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csmJ m(v)
+%50"OrchardCore.Indexing.DocumentIndex""OrchardCore.Indexing.DocumentIndex∞
+≠
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csmN m([
+%51void"8OrchardCore.Indexing.DocumentIndex.DocumentIndex(string)*+
+)
+%50"OrchardCore.Indexing.DocumentIndex*
+
+%49string»≈
+ß
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csmÖ m(≠
+%52string[]"string[]≥
+∞
+ß
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csmî m(´
+%53string"9OrchardCore.ContentManagement.ContentItem.ContentType.get*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItemË
+Â
+ß
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csmí m(≠
+%54"
+__arraySet*
+
+%52string[]*2 *
+
+%53stringÉÄ
+¶
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csm4 m(Æ-
+%55&OrchardCore.Indexing.BuildIndexContext"&OrchardCore.Indexing.BuildIndexContextô
+ñ
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csm8 m(I
+%56void"±OrchardCore.Indexing.BuildIndexContext.BuildIndexContext(OrchardCore.Indexing.DocumentIndex, OrchardCore.ContentManagement.ContentItem, System.Collections.Generic.IList<string>)*/
+-
+%55&OrchardCore.Indexing.BuildIndexContext*+
+)
+%50"OrchardCore.Indexing.DocumentIndex*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItem*
+
+%52string[]†
+ù
+¶
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csm  m(Æ;
+buildIndexContext&OrchardCore.Indexing.BuildIndexContext"__id*/
+-
+%55&OrchardCore.Indexing.BuildIndexContext—
+Œ
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csn" n(y"
+%57System.Threading.Tasks.Task"√OrchardCore.Modules.InvokeExtensions.InvokeAsync<TEvents>(System.Collections.Generic.IEnumerable<TEvents>, System.Func<TEvents, System.Threading.Tasks.Task>, Microsoft.Extensions.Logging.ILogger)*("&
+$OrchardCore.Modules.InvokeExtensions*G
+E
+contentItemIndexHandlers)System.Collections.Generic.IEnumerable<T>*
+""*?
+=
+logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>∑
+¥
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.cspJ p(a
+%58string":OrchardCore.Lucene.Model.LuceneIndexSettings.IndexName.get*?
+=
+indexSettings,OrchardCore.Lucene.Model.LuceneIndexSettings«ƒ
+¶
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.cspc p(ç
+%59string[]"string[]¥
+±
+¶
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.cspr p(ã
+%60string";OrchardCore.ContentManagement.ContentItem.ContentItemId.get*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItemÁ
+‰
+¶
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.cspp p(ç
+%61"
+__arraySet*
+
+%59string[]*2 *
+
+%60stringß
+§
+¶
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csp" p(é"
+%62System.Threading.Tasks.Task"rOrchardCore.Lucene.LuceneIndexManager.DeleteDocumentsAsync(string, System.Collections.Generic.IEnumerable<string>)*=
+;
+luceneIndexManager%OrchardCore.Lucene.LuceneIndexManager*
+
+%58string*
+
+%59string[]∑
+¥
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csqI q(`
+%63string":OrchardCore.Lucene.Model.LuceneIndexSettings.IndexName.get*?
+=
+indexSettings,OrchardCore.Lucene.Model.LuceneIndexSettingsˇ¸
+¶
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csqb q(ô+
+%64$OrchardCore.Indexing.DocumentIndex[]"$OrchardCore.Indexing.DocumentIndex[]–
+Õ
+¶
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csqx q(ó)
+%65"OrchardCore.Indexing.DocumentIndex"8OrchardCore.Indexing.BuildIndexContext.DocumentIndex.get*=
+;
+buildIndexContext&OrchardCore.Indexing.BuildIndexContextü
+ú
+¶
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csqv q(ô
+%66"
+__arraySet*-
++
+%64$OrchardCore.Indexing.DocumentIndex[]*2 *+
+)
+%65"OrchardCore.Indexing.DocumentIndexﬂ
+‹
+¶
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csq" q(ö"
+%67System.Threading.Tasks.Task"çOrchardCore.Lucene.LuceneIndexManager.StoreDocumentsAsync(string, System.Collections.Generic.IEnumerable<OrchardCore.Indexing.DocumentIndex>)*=
+;
+luceneIndexManager%OrchardCore.Lucene.LuceneIndexManager*
+
+%63string*-
++
+%64$OrchardCore.Indexing.DocumentIndex[]*
+4*Î
+3•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csv	 v(	"Ω
+•
+öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Handler\LuceneIndexingContentHandler.csv v(	
+implicit return:7
+scope.OrchardCore.Environment.Shell.Scope.ShellScope:5
+contexts)System.Collections.Generic.IEnumerable<T>B<":
+8OrchardCore.Lucene.Handlers.LuceneIndexingContentHandler

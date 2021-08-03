@@ -1,0 +1,127 @@
+
+ÉOrchardCore.OpenId.YesSql.Stores.OpenIdApplicationStore<TApplication>.UpdateAsync(TApplication, System.Threading.CancellationToken)§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdApplicationStore.csÂ' Â(2"0*¬
+0§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdApplicationStore.csÁ Á(#ç
+ä
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdApplicationStore.csÁ Á(#
+
+%0bool""object.operator ==(object, object)*
+"
+object*
+
+applicationTApplication*
+""*
+1
+2*¬
+1§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdApplicationStore.csÈ È(CÏÈ
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdApplicationStore.csÈ È(D"
+%1System.ArgumentNullException"System.ArgumentNullException°
+û
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdApplicationStore.csÈ È(/
+
+%2void";System.ArgumentNullException.ArgumentNullException(string?)*$
+"
+%1System.ArgumentNullException*
+""*
+3*„
+2§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdApplicationStore.csÏ Ó(=¥
+±
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdApplicationStore.csÏ Ï(<
+
+%3void"ASystem.Threading.CancellationToken.ThrowIfCancellationRequested()*9
+7
+cancellationToken"System.Threading.CancellationToken±
+Æ
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdApplicationStore.csÓ Ó(
+%4YesSql.ISession"__id*h*fG
+EOrchardCore.OpenId.YesSql.Stores.OpenIdApplicationStore<TApplication>"
+_sessionYesSql.ISession∆√
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdApplicationStore.csÓ Ó(>
+
+%5void"*YesSql.ISession.Save(object, bool, string)*
+
+%4YesSql.ISession*
+
+applicationTApplication*
+""*
+""2Save(object, bool, string)*
+4*Ä
+4§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdApplicationStore.csÚ Ú(,±
+Æ
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdApplicationStore.csÚ Ú(
+%6YesSql.ISession"__id*h*fG
+EOrchardCore.OpenId.YesSql.Stores.OpenIdApplicationStore<TApplication>"
+_sessionYesSql.ISessionîë
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdApplicationStore.csÚ Ú(,!
+%7System.Threading.Tasks.Task"YesSql.ISession.CommitAsync()*
+
+%6YesSql.ISession2CommitAsync()*	
+5
+3
+3*¯
+5§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdApplicationStore.csˆ ˘(*Ê„
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdApplicationStore.csˆD ˆ(W
+%8System.Text.StringBuilder"System.Text.StringBuilderÑ
+Å
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdApplicationStore.csˆH ˆ(U
+
+%9void")System.Text.StringBuilder.StringBuilder()*!
+
+%8System.Text.StringBuilder˙
+˜
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdApplicationStore.csˆD ˜(y 
+%10System.Text.StringBuilder"-System.Text.StringBuilder.AppendLine(string?)*!
+
+%8System.Text.StringBuilder*ZX
+VThe application was concurrently updated and cannot be persisted in its current state.‚
+ﬂ
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdApplicationStore.csˆD ¯(` 
+%11System.Text.StringBuilder")System.Text.StringBuilder.Append(string?)*"
+ 
+%10System.Text.StringBuilder*EC
+AReload the application from the database and retry the operation.É
+Ä
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdApplicationStore.csˆD ˘(
+%12string"$System.Text.StringBuilder.ToString()*"
+ 
+%11System.Text.StringBuilder∑¥
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdApplicationStore.csˆ ˘(+H
+%13AOpenIddict.Abstractions.OpenIddictExceptions.ConcurrencyException"AOpenIddict.Abstractions.OpenIddictExceptions.ConcurrencyException¥
+±
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdApplicationStore.csˆ ˆ(C
+%14void"rOpenIddict.Abstractions.OpenIddictExceptions.ConcurrencyException.ConcurrencyException(string?, System.Exception?)*J
+H
+%13AOpenIddict.Abstractions.OpenIddictExceptions.ConcurrencyException*
+
+%12string**
+(
+	exceptionYesSql.ConcurrencyException*
+3*È
+3§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdApplicationStore.cs˚	 ˚(	"º
+§
+óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdApplicationStore.cs˚ ˚(	
+implicit return:
+applicationTApplication:7
+cancellationToken"System.Threading.CancellationTokenBIG
+EOrchardCore.OpenId.YesSql.Stores.OpenIdApplicationStore<TApplication>

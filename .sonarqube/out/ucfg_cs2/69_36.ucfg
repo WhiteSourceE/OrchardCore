@@ -1,0 +1,125 @@
+
+QOrchardCore.FileStorage.AzureBlob.BlobFileStore.GetBlobDirectoryReference(string)ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs¡. ¡(G"0*ı!
+0ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs√ Ã(ˇ
+¸
+ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs√& √(1
+%0string"__id*L*J1
+/OrchardCore.FileStorage.AzureBlob.BlobFileStore"
+_basePrefixstringü
+ú
+ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs√ √(8
+%1string"iOrchardCore.FileStorage.IFileStoreExtensions.Combine(OrchardCore.FileStorage.IFileStore, params string[])*0".
+,OrchardCore.FileStorage.IFileStoreExtensions*31
+/OrchardCore.FileStorage.AzureBlob.BlobFileStore*
+
+%0string*
+
+pathstring≈
+¬
+ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs√ √(8
+prefixstring"__id*
+
+%1stringΩ
+∫
+ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.csƒ ƒ(,
+%2string"GOrchardCore.FileStorage.AzureBlob.BlobFileStore.NormalizePrefix(string)*31
+/OrchardCore.FileStorage.AzureBlob.BlobFileStore*
+
+prefixstring≈
+¬
+ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.csƒ ƒ(,
+prefixstring"__id*
+
+%2stringƒ
+¡
+ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs« «(%-
+%3'Azure.Storage.Blobs.BlobContainerClient"__id*p*n1
+/OrchardCore.FileStorage.AzureBlob.BlobFileStore"9
+_blobContainer'Azure.Storage.Blobs.BlobContainerClient±
+Æ
+ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs«? «(R
+%4"__id*
+""±
+Æ
+ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs«T «(c
+%5"__id*
+""Å˛
+ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs« «(q
+%6Azure.AsyncPageable<T>"¬Azure.Storage.Blobs.BlobContainerClient.GetBlobsByHierarchyAsync(Azure.Storage.Blobs.Models.BlobTraits, Azure.Storage.Blobs.Models.BlobStates, string, string, System.Threading.CancellationToken)*/
+-
+%3'Azure.Storage.Blobs.BlobContainerClient*
+
+%4*
+
+%5*
+/*
+
+prefixstring*
+""2öGetBlobsByHierarchyAsync(Azure.Storage.Blobs.Models.BlobTraits, Azure.Storage.Blobs.Models.BlobStates, string, string, System.Threading.CancellationToken)„
+‡
+ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs« «(q
+pageAzure.AsyncPageable<T>"__id*
+
+%6Azure.AsyncPageable<T>ÑÅ
+ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs… …(64
+%7.System.Collections.Generic.IAsyncEnumerator<T>"MAzure.AsyncPageable<T>.GetAsyncEnumerator(System.Threading.CancellationToken)* 
+
+pageAzure.AsyncPageable<T>*
+""26GetAsyncEnumerator(System.Threading.CancellationToken)ô
+ñ
+ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs… …(6<
+
+enumerator.System.Collections.Generic.IAsyncEnumerator<T>"__id*6
+4
+%7.System.Collections.Generic.IAsyncEnumerator<T>ﬂ‹
+ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.csÀ À(9/
+%8)System.Threading.Tasks.ValueTask<TResult>">System.Collections.Generic.IAsyncEnumerator<T>.MoveNextAsync()*>
+<
+
+enumerator.System.Collections.Generic.IAsyncEnumerator<T>2MoveNextAsync()ª
+∏
+ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.csÀ À(9
+resultbool"__id*
+""*
+1
+2*Õ
+1ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.csŒ Œ()⁄◊
+ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.csŒ Œ()2
+%9,Azure.Storage.Blobs.Models.BlobHierarchyItem":System.Collections.Generic.IAsyncEnumerator<T>.Current.get*>
+<
+
+enumerator.System.Collections.Generic.IAsyncEnumerator<T>2Current.get"–
+ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.csŒ Œ(*4
+2
+%9,Azure.Storage.Blobs.Models.BlobHierarchyItem*¬
+2ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs— —("¢
+ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs— —(
+""*œ
+3ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs“	 “(	"Ø
+ó
+äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs“ “(	
+implicit return:
+pathstringB31
+/OrchardCore.FileStorage.AzureBlob.BlobFileStore

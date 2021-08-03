@@ -1,0 +1,170 @@
+
+rOrchardCore.Data.Documents.DocumentStore.GetOrCreateImmutableAsync<T>(System.Func<System.Threading.Tasks.Task<T>>)Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\DocumentStore.cs1% 1(>"0*³
+0Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\DocumentStore.cs3 3(=Å
+Â
+Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\DocumentStore.cs3 3(9
+%03System.Collections.Generic.Dictionary<TKey, TValue>"__id*n*l*
+(OrchardCore.Data.Documents.DocumentStore">
+_loaded3System.Collections.Generic.Dictionary<TKey, TValue>Ì
+É
+Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\DocumentStore.cs3 3(>
+
+%1bool"QSystem.Collections.Generic.Dictionary<TKey, TValue>.TryGetValue(TKey, out TValue)*;
+9
+%03System.Collections.Generic.Dictionary<TKey, TValue>*
+""*
+
+loadedobject*
+1
+2*°
+1Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\DocumentStore.cs6 6(+"™
+Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\DocumentStore.cs6 6(,
+""*û
+2Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\DocumentStore.cs9 <(±
+®
+Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\DocumentStore.cs9 9(
+documentT"__id*
+""¨
+¥
+Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\DocumentStore.cs< <(
+%2"__id*
+""*
+3
+4*ê
+3Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\DocumentStore.cs? @(Iþ
+û
+Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\DocumentStore.cs?$ ?(,
+%3YesSql.ISession"__id*K*I*
+(OrchardCore.Data.Documents.DocumentStore"
+_sessionYesSql.ISessionèå
+Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\DocumentStore.cs?$ ?(2
+%4YesSql.IStore"YesSql.ISession.Store.get*
+
+%3YesSql.ISession2	Store.get•
+’
+Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\DocumentStore.cs?$ ?(B
+%5YesSql.ISession"4YesSql.IStoreExtensions.CreateSession(YesSql.IStore)*"
+YesSql.IStoreExtensions*
+
+%4YesSql.IStoreÏ
+Ì
+Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\DocumentStore.cs? ?(B
+sessionYesSql.ISession"__id*
+
+%5YesSql.ISession¨
+¥
+Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\DocumentStore.cs@! @(3
+%6YesSql.IQuery<T>"8YesSql.QueryExtensions.Query<T>(YesSql.ISession, string)*"
+YesSql.QueryExtensions*
+
+sessionYesSql.ISession*
+""™–
+Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\DocumentStore.cs@! @(I*
+%7$System.Threading.Tasks.Task<TResult>"&YesSql.IQuery<T>.FirstOrDefaultAsync()*
+
+%6YesSql.IQuery<T>2FirstOrDefaultAsync()±
+®
+Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\DocumentStore.cs@ @(I
+documentT"__id*
+""*
+5*‘	
+4Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\DocumentStore.csD D(Jþ
+û
+Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\DocumentStore.csD! D()
+%8YesSql.ISession"__id*K*I*
+(OrchardCore.Data.Documents.DocumentStore"
+_sessionYesSql.ISession£
+ 
+Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\DocumentStore.csD! D(4
+%9YesSql.IQuery<T>"8YesSql.QueryExtensions.Query<T>(YesSql.ISession, string)*"
+YesSql.QueryExtensions*
+
+%8YesSql.ISession*
+""š—
+Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\DocumentStore.csD! D(J+
+%10$System.Threading.Tasks.Task<TResult>"&YesSql.IQuery<T>.FirstOrDefaultAsync()*
+
+%9YesSql.IQuery<T>2FirstOrDefaultAsync()±
+®
+Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\DocumentStore.csD D(J
+documentT"__id*
+""*
+5*‰
+5Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\DocumentStore.csG G( ê
+ç
+Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\DocumentStore.csG G( 
+%11bool""object.operator !=(object, object)*
+"
+object*
+
+documentT*
+""*
+6
+7*È
+6Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\DocumentStore.csI I(©
+¦
+Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\DocumentStore.csI I(
+%12"__id*
+""*
+8
+9*²
+8Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\DocumentStore.csK K(,ÿ
+ü
+Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\DocumentStore.csK K(
+%13YesSql.ISession"__id*K*I*
+(OrchardCore.Data.Documents.DocumentStore"
+_sessionYesSql.ISession”‘
+Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\DocumentStore.csK K(-
+%14void"&YesSql.ISession.Detach(object, string)*
+
+%13YesSql.ISession*
+
+documentT*
+""2Detach(object, string)*
+9*°
+9Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\DocumentStore.csN N('"™
+Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\DocumentStore.csN N((
+""*°
+7Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\DocumentStore.csQ Q(`"™
+Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\DocumentStore.csQ Q(a
+""*¾
+10Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\DocumentStore.csR	 R(	"¦
+Ž
+ƒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\DocumentStore.csR R(	
+implicit return:$
+factoryAsyncSystem.Func<TResult>B,*
+(OrchardCore.Data.Documents.DocumentStore

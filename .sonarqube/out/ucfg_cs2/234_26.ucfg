@@ -1,0 +1,127 @@
+
+ÅOrchardCore.Apis.GraphQL.Client.HttpRequestExtensions.PatchAsync(System.Net.Http.HttpClient, string, System.Net.Http.HttpContent)¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpRequestExtensions.csE0 E(:"0*Û$
+0¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpRequestExtensions.csJ R(+˙˜
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpRequestExtensions.csJ O((
+%0"System.Net.Http.HttpRequestMessage""System.Net.Http.HttpRequestMessageù
+ö
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpRequestExtensions.csJ J(0
+
+%1void"7System.Net.Http.HttpRequestMessage.HttpRequestMessage()**
+(
+%0"System.Net.Http.HttpRequestMessageÍÁ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpRequestExtensions.csL L(0 
+%2System.Net.Http.HttpMethod"System.Net.Http.HttpMethodñ
+ì
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpRequestExtensions.csL L('
+
+%3void"-System.Net.Http.HttpMethod.HttpMethod(string)*"
+ 
+%2System.Net.Http.HttpMethod*	
+PATCHÕ
+ 
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpRequestExtensions.csL L(0 
+%4System.Net.Http.HttpMethod"-System.Net.Http.HttpRequestMessage.Method.set**
+(
+%0"System.Net.Http.HttpRequestMessage*"
+ 
+%2System.Net.Http.HttpMethodí
+è
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpRequestExtensions.csM% M(7
+%5
+System.Uri"*System.Net.Http.HttpClient.BaseAddress.get*&
+$
+clientSystem.Net.Http.HttpClientÙ
+Ò
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpRequestExtensions.csM% M(D
+%6
+System.Uri"__concat*
+
+%5
+System.Uri*
+
+
+requestUristring «
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpRequestExtensions.csM M(E
+%7
+System.Uri"
+System.Uri¯
+ı
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpRequestExtensions.csM! M($
+
+%8void"System.Uri.Uri(string)*
+
+%7
+System.Uri*
+
+%6
+System.Uri±
+Æ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpRequestExtensions.csM M(E
+%9
+System.Uri"1System.Net.Http.HttpRequestMessage.RequestUri.set**
+(
+%0"System.Net.Http.HttpRequestMessage*
+
+%7
+System.Uri÷
+”
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpRequestExtensions.csN N(!"
+%10System.Net.Http.HttpContent".System.Net.Http.HttpRequestMessage.Content.set**
+(
+%0"System.Net.Http.HttpRequestMessage*(
+&
+contentSystem.Net.Http.HttpContentç
+ä
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpRequestExtensions.csJ O(-
+request"System.Net.Http.HttpRequestMessage"__id**
+(
+%0"System.Net.Http.HttpRequestMessage¿
+Ω
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpRequestExtensions.csQ Q(1
+%11*System.Net.Http.Headers.HttpRequestHeaders".System.Net.Http.HttpRequestMessage.Headers.get*/
+-
+request"System.Net.Http.HttpRequestMessage√
+¿
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpRequestExtensions.csQ Q(2
+%12System.Nullable<T>"=System.Net.Http.Headers.HttpRequestHeaders.ExpectContinue.set*3
+1
+%11*System.Net.Http.Headers.HttpRequestHeaders*
+""¸
+˘
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpRequestExtensions.csR R(,+
+%13$System.Threading.Tasks.Task<TResult>"HSystem.Net.Http.HttpClient.SendAsync(System.Net.Http.HttpRequestMessage)*&
+$
+clientSystem.Net.Http.HttpClient*/
+-
+request"System.Net.Http.HttpRequestMessage"ÿ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpRequestExtensions.csR R(--
++
+%13$System.Threading.Tasks.Task<TResult>*Ì
+1¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpRequestExtensions.csS	 S(	"æ
+¶
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpRequestExtensions.csS S(	
+implicit return:$
+clientSystem.Net.Http.HttpClient:
+
+requestUristring:&
+contentSystem.Net.Http.HttpContentB9"7
+5OrchardCore.Apis.GraphQL.Client.HttpRequestExtensions

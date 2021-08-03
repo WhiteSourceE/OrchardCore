@@ -1,0 +1,194 @@
+
+QOrchardCore.Indexing.Services.IndexingTaskManager.GetIndexingTasksAsync(int, int)ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cs∂5 ∂(J"0*∏
+0ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cs∏ ∏(LÃ
+…
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cs∏$ ∏(9,
+%0&OrchardCore.Data.IDbConnectionAccessor"__id*x*v3
+1OrchardCore.Indexing.Services.IndexingTaskManager"?
+_dbConnectionAccessor&OrchardCore.Data.IDbConnectionAccessorƒ¡
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cs∏$ ∏(L%
+%1System.Data.Common.DbConnection"9OrchardCore.Data.IDbConnectionAccessor.CreateConnection()*.
+,
+%0&OrchardCore.Data.IDbConnectionAccessor2CreateConnection()¸
+˘
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cs∏ ∏(L-
+
+connectionSystem.Data.Common.DbConnection"__id*'
+%
+%1System.Data.Common.DbConnection*
+1*≈
+1ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cs∫ ∫(,ü
+ú
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cs∫ ∫(,!
+%2System.Threading.Tasks.Task"+System.Data.Common.DbConnection.OpenAsync()*/
+-
+
+connectionSystem.Data.Common.DbConnection*
+2*¶
+2ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cs‘	 ‘(	*
+3
+4*Ò
+3ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csæ ≈(!ã
+à
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csæ" æ((
+%3YesSql.IStore"__id*P*N3
+1OrchardCore.Indexing.Services.IndexingTaskManager"
+_storeYesSql.IStoreÜÉ
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csæ" æ(6
+%4YesSql.IConfiguration"YesSql.IStore.Configuration.get*
+
+%3YesSql.IStore2Configuration.getçä
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csæ" æ(A
+%5YesSql.ISqlDialect"$YesSql.IConfiguration.SqlDialect.get*
+
+%4YesSql.IConfiguration2SqlDialect.getﬂ
+‹
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csæ æ(A
+dialectYesSql.ISqlDialect"__id*
+
+%5YesSql.ISqlDialectÉ
+Ä
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csø; ø(G
+%6string"__id*O*M3
+1OrchardCore.Indexing.Services.IndexingTaskManager"
+_tablePrefixstring™ß
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csø% ø(H
+%7YesSql.ISqlBuilder"(YesSql.ISqlDialect.CreateBuilder(string)*
+
+dialectYesSql.ISqlDialect*
+
+%6string2CreateBuilder(string)‚
+ﬂ
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csø ø(H 
+
+sqlBuilderYesSql.ISqlBuilder"__id*
+
+%7YesSql.ISqlBuilderıÚ
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cs¡ ¡('
+
+%8void"YesSql.ISqlBuilder.Select()*"
+ 
+
+sqlBuilderYesSql.ISqlBuilder2Select()üú
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cs¬ ¬(:
+
+%9void"(YesSql.ISqlBuilder.Table(string, string)*"
+ 
+
+sqlBuilderYesSql.ISqlBuilder*
+""*
+""2Table(string, string)çä
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cs√ √(,
+%10void"#YesSql.ISqlBuilder.Selector(string)*"
+ 
+
+sqlBuilderYesSql.ISqlBuilder*
+*2Selector(string)*
+5
+6*¨
+5ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cs« «(8ÜÉ
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cs« «(9
+%11void"YesSql.ISqlBuilder.Take(string)*"
+ 
+
+sqlBuilderYesSql.ISqlBuilder*
+""2Take(string)*
+6*®
+6ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cs  Ã(u°û
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cs +  (K
+%12string"-YesSql.ISqlDialect.QuoteForColumnName(string)*
+
+dialectYesSql.ISqlDialect*
+Id2QuoteForColumnName(string)–
+Õ
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cs (  (S
+%13string"__concat*
+
+%12string*
+""óî
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cs   (T
+%14void"#YesSql.ISqlBuilder.WhereAnd(string)*"
+ 
+
+sqlBuilderYesSql.ISqlBuilder*
+
+%13string2WhereAnd(string)Çˇ
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csÃE Ã(]
+%15string" YesSql.ISqlBuilder.ToSqlString()*"
+ 
+
+sqlBuilderYesSql.ISqlBuilder2ToSqlString()À
+»
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csÃ! Ã(x+
+%16$System.Threading.Tasks.Task<TResult>"ÖDapper.SqlMapper.QueryAsync<T>(System.Data.IDbConnection, string, object, System.Data.IDbTransaction, int?, System.Data.CommandType?)*"
+Dapper.SqlMapper*/
+-
+
+connectionSystem.Data.Common.DbConnection*
+
+%15string*
+""*
+""*
+""*
+"""£
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csÃ Ã(y
+""*–
+4ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cs– –(Xª
+∏
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cs– –(+
+%17$Microsoft.Extensions.Logging.ILogger"__id*h*f3
+1OrchardCore.Indexing.Services.IndexingTaskManager"/
+_logger$Microsoft.Extensions.Logging.ILoggerÏ
+È
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cs– –(Y
+%18void"áMicrosoft.Extensions.Logging.LoggerExtensions.LogError(Microsoft.Extensions.Logging.ILogger, System.Exception, string, params object[])*1"/
+-Microsoft.Extensions.Logging.LoggerExtensions*-
++
+%17$Microsoft.Extensions.Logging.ILogger*
+
+eSystem.Exception*20
+.An error occurred while reading indexing tasks*
+""*
+7*£
+8ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cs‘	 ‘(	*
+7*—
+7ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cs‘	 ‘(	"∞
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cs‘ ‘(	
+implicit return:
+afterTaskIdint:
+countintB53
+1OrchardCore.Indexing.Services.IndexingTaskManager

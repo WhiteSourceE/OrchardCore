@@ -1,0 +1,490 @@
+
+{OrchardCore.Tenants.Controllers.AdminController.ValidateViewModel(OrchardCore.Tenants.ViewModels.EditTenantViewModel, bool)ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.csª ª(&"0*ﬁ
+0ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.csΩ ø((‘
+—
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.csΩ# Ω(5/
+%0)System.Collections.Generic.IEnumerable<T>"__id*v*t1
+/OrchardCore.Tenants.Controllers.AdminController"?
+_databaseProviders)System.Collections.Generic.IEnumerable<T>¢
+ü
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.csΩ# Ω(l'
+%1!OrchardCore.Data.DatabaseProvider"{System.Linq.Enumerable.FirstOrDefault<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
+System.Linq.Enumerable*1
+/
+%0)System.Collections.Generic.IEnumerable<T>*
+""ç
+ä
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.csΩ Ω(l5
+selectedProvider!OrchardCore.Data.DatabaseProvider"__id*)
+'
+%1!OrchardCore.Data.DatabaseProvider¢
+ü
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.csø ø((
+
+%2bool""object.operator !=(object, object)*
+"
+object*7
+5
+selectedProvider!OrchardCore.Data.DatabaseProvider*
+""*
+1
+2*’
+1ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.csø, ø(P•
+¢
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.csø, ø(P
+
+%3bool"9OrchardCore.Data.DatabaseProvider.HasConnectionString.get*7
+5
+selectedProvider!OrchardCore.Data.DatabaseProvider*
+3
+2*‚
+3†
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.csøT ø(Ñº
+π
+†
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.csøn ø(Ñ
+%4string"GOrchardCore.Tenants.ViewModels.EditTenantViewModel.ConnectionString.get*=
+;
+model2OrchardCore.Tenants.ViewModels.EditTenantViewModelÚ
+Ô
+†
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.csøT ø(Ö
+
+%5bool""string.IsNullOrWhiteSpace(string?)*
+"
+string*
+
+%4string*
+4
+2*ò
+4†
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs¡ ¡(êÃ
+…
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs¡ ¡(@
+%6:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary"6Microsoft.AspNetCore.Mvc.ControllerBase.ModelState.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase’
+“
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs¡W ¡(X8
+%72Microsoft.Extensions.Localization.IStringLocalizer"__id*n*l1
+/OrchardCore.Tenants.Controllers.AdminController"7
+S2Microsoft.Extensions.Localization.IStringLocalizer≠™
+†
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs¡W ¡(ë7
+%81Microsoft.Extensions.Localization.LocalizedString"CMicrosoft.Extensions.Localization.IStringLocalizer.this[string].get*:
+8
+%72Microsoft.Extensions.Localization.IStringLocalizer*97
+5The connection string is mandatory for this provider.2this[string].getì
+ê
+†
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs¡ ¡(í
+
+%9void"XMicrosoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary.AddModelError(string, string)*B
+@
+%6:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary*
+""*9
+7
+%81Microsoft.Extensions.Localization.LocalizedString*
+2*÷
+2ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.csƒ ƒ(4∞
+≠
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.csƒ* ƒ(4
+%10string";OrchardCore.Tenants.ViewModels.EditTenantViewModel.Name.get*=
+;
+model2OrchardCore.Tenants.ViewModels.EditTenantViewModelÛ
+
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.csƒ ƒ(5
+%11bool""string.IsNullOrWhiteSpace(string?)*
+"
+string*
+
+%10string*
+5
+6*Ñ
+5ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs∆ ∆(lÕ
+ 
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs∆ ∆(A
+%12:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary"6Microsoft.AspNetCore.Mvc.ControllerBase.ModelState.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase÷
+”
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs∆K ∆(L9
+%132Microsoft.Extensions.Localization.IStringLocalizer"__id*n*l1
+/OrchardCore.Tenants.Controllers.AdminController"7
+S2Microsoft.Extensions.Localization.IStringLocalizerñì
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs∆K ∆(m8
+%141Microsoft.Extensions.Localization.LocalizedString"CMicrosoft.Extensions.Localization.IStringLocalizer.this[string].get*;
+9
+%132Microsoft.Extensions.Localization.IStringLocalizer*!
+The tenant name is mandatory.2this[string].getï
+í
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs∆ ∆(n
+%15void"XMicrosoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary.AddModelError(string, string)*C
+A
+%12:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary*
+""*:
+8
+%141Microsoft.Extensions.Localization.LocalizedString*
+6*Ò
+6ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs… À(À
+»
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs… …((/
+%16(OrchardCore.Environment.Shell.IShellHost"__id*m*k1
+/OrchardCore.Tenants.Controllers.AdminController"6
+
+_shellHost(OrchardCore.Environment.Shell.IShellHost◊‘
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs… …(90
+%17)System.Collections.Generic.IEnumerable<T>"9OrchardCore.Environment.Shell.IShellHost.GetAllSettings()*1
+/
+%16(OrchardCore.Environment.Shell.IShellHost2GetAllSettings()ô
+ñ
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs… …(98
+allSettings)System.Collections.Generic.IEnumerable<T>"__id*2
+0
+%17)System.Collections.Generic.IEnumerable<T>*
+7
+8*∂
+7†
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.csÀ À(ÅÖ
+Ç
+†
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.csÀ À(Ç
+%18bool"pSystem.Linq.Enumerable.Any<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
+System.Linq.Enumerable*:
+8
+allSettings)System.Collections.Generic.IEnumerable<T>*
+""*
+9
+8*¸
+9†
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.csÕ Õ(ÜÕ
+ 
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.csÕ Õ(A
+%19:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary"6Microsoft.AspNetCore.Mvc.ControllerBase.ModelState.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase÷
+”
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.csÕK Õ(L9
+%202Microsoft.Extensions.Localization.IStringLocalizer"__id*n*l1
+/OrchardCore.Tenants.Controllers.AdminController"7
+S2Microsoft.Extensions.Localization.IStringLocalizer±
+Æ
+†
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.csÕ| Õ(Ü
+%21string";OrchardCore.Tenants.ViewModels.EditTenantViewModel.Name.get*=
+;
+model2OrchardCore.Tenants.ViewModels.EditTenantViewModelÿ’
+†
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.csÕK Õ(á8
+%221Microsoft.Extensions.Localization.LocalizedString"TMicrosoft.Extensions.Localization.IStringLocalizer.this[string, params object[]].get*;
+9
+%202Microsoft.Extensions.Localization.IStringLocalizer*/-
++A tenant with the same name already exists.*
+
+%21string2!this[string, params object[]].getñ
+ì
+†
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.csÕ Õ(à
+%23void"XMicrosoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary.AddModelError(string, string)*C
+A
+%19:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary*
+""*:
+8
+%221Microsoft.Extensions.Localization.LocalizedString*
+8*”
+8ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs– –(0∞
+≠
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs–& –(0
+%24string";OrchardCore.Tenants.ViewModels.EditTenantViewModel.Name.get*=
+;
+model2OrchardCore.Tenants.ViewModels.EditTenantViewModelÓ
+Î
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs– –(1
+%25bool"string.IsNullOrEmpty(string?)*
+"
+string*
+
+%24string*
+10
+11*ú
+10ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs–5 –(X∞
+≠
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs–D –(N
+%26string";OrchardCore.Tenants.ViewModels.EditTenantViewModel.Name.get*=
+;
+model2OrchardCore.Tenants.ViewModels.EditTenantViewModel∂
+≥
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs–6 –(Y
+%27bool"<System.Text.RegularExpressions.Regex.IsMatch(string, string)*("&
+$System.Text.RegularExpressions.Regex*
+
+%26string*	
+^\w+$*
+12
+11*¨
+12†
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs“ “(èÕ
+ 
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs“ “(A
+%28:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary"6Microsoft.AspNetCore.Mvc.ControllerBase.ModelState.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase÷
+”
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs“K “(L9
+%292Microsoft.Extensions.Localization.IStringLocalizer"__id*n*l1
+/OrchardCore.Tenants.Controllers.AdminController"7
+S2Microsoft.Extensions.Localization.IStringLocalizer∫∑
+†
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs“K “(ê8
+%301Microsoft.Extensions.Localization.LocalizedString"CMicrosoft.Extensions.Localization.IStringLocalizer.this[string].get*;
+9
+%292Microsoft.Extensions.Localization.IStringLocalizer*DB
+@Invalid tenant name. Must contain characters only and no spaces.2this[string].getñ
+ì
+†
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs“ “(ë
+%31void"XMicrosoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary.AddModelError(string, string)*C
+A
+%28:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary*
+""*:
+8
+%301Microsoft.Extensions.Localization.LocalizedString*
+11*‹
+11ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs’ ’(!©
+¶
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs’ ’(!
+%32bool"@OrchardCore.Tenants.Controllers.AdminController.IsDefaultShell()*31
+/OrchardCore.Tenants.Controllers.AdminController*
+13
+14*„
+13ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs’% ’(S∫
+∑
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs’? ’(S
+%33string"EOrchardCore.Tenants.ViewModels.EditTenantViewModel.RequestUrlHost.get*=
+;
+model2OrchardCore.Tenants.ViewModels.EditTenantViewModelÛ
+
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs’% ’(T
+%34bool""string.IsNullOrWhiteSpace(string?)*
+"
+string*
+
+%33string*
+15
+14*Ë
+15†
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs’X ’(àΩ
+∫
+†
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs’r ’(à
+%35string"GOrchardCore.Tenants.ViewModels.EditTenantViewModel.RequestUrlPrefix.get*=
+;
+model2OrchardCore.Tenants.ViewModels.EditTenantViewModelÙ
+Ò
+†
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs’X ’(â
+%36bool""string.IsNullOrWhiteSpace(string?)*
+"
+string*
+
+%35string*
+16
+14*¢
+16†
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs◊ ◊(ëÕ
+ 
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs◊ ◊(A
+%37:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary"6Microsoft.AspNetCore.Mvc.ControllerBase.ModelState.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase÷
+”
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs◊W ◊(X9
+%382Microsoft.Extensions.Localization.IStringLocalizer"__id*n*l1
+/OrchardCore.Tenants.Controllers.AdminController"7
+S2Microsoft.Extensions.Localization.IStringLocalizer∞≠
+†
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs◊W ◊(í8
+%391Microsoft.Extensions.Localization.LocalizedString"CMicrosoft.Extensions.Localization.IStringLocalizer.this[string].get*;
+9
+%382Microsoft.Extensions.Localization.IStringLocalizer*:8
+6Host and url prefix can not be empty at the same time.2this[string].getñ
+ì
+†
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs◊ ◊(ì
+%40void"XMicrosoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary.AddModelError(string, string)*C
+A
+%37:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary*
+""*:
+8
+%391Microsoft.Extensions.Localization.LocalizedString*
+14*ã
+
+14†
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs⁄ €(˘¨
+©
+†
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs⁄! ⁄(â0
+%41)System.Collections.Generic.IEnumerable<T>"rSystem.Linq.Enumerable.Where<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
+System.Linq.Enumerable*:
+8
+allSettings)System.Collections.Generic.IEnumerable<T>*
+""ù
+ö
+†
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs⁄ ⁄(â;
+allOtherShells)System.Collections.Generic.IEnumerable<T>"__id*2
+0
+%41)System.Collections.Generic.IEnumerable<T>à
+Ö
+†
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs€ €(˙
+%42bool"pSystem.Linq.Enumerable.Any<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
+System.Linq.Enumerable*=
+;
+allOtherShells)System.Collections.Generic.IEnumerable<T>*
+""*
+17
+18*ä
+17†
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs› ›(ùÕ
+ 
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs› ›(A
+%43:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary"6Microsoft.AspNetCore.Mvc.ControllerBase.ModelState.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase÷
+”
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs›W ›(X9
+%442Microsoft.Extensions.Localization.IStringLocalizer"__id*n*l1
+/OrchardCore.Tenants.Controllers.AdminController"7
+S2Microsoft.Extensions.Localization.IStringLocalizer≤
+Ø
+°
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs›ì ›(ù
+%45string";OrchardCore.Tenants.ViewModels.EditTenantViewModel.Name.get*=
+;
+model2OrchardCore.Tenants.ViewModels.EditTenantViewModel„‡
+†
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs›W ›(û8
+%461Microsoft.Extensions.Localization.LocalizedString"TMicrosoft.Extensions.Localization.IStringLocalizer.this[string, params object[]].get*;
+9
+%442Microsoft.Extensions.Localization.IStringLocalizer*:8
+6A tenant with the same host and prefix already exists.*
+
+%45string2!this[string, params object[]].getñ
+ì
+†
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs› ›(ü
+%47void"XMicrosoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary.AddModelError(string, string)*C
+A
+%43:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary*
+""*:
+8
+%461Microsoft.Extensions.Localization.LocalizedString*
+18*Â
+18ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs‡ ‡(Aº
+π
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs‡+ ‡(A
+%48string"GOrchardCore.Tenants.ViewModels.EditTenantViewModel.RequestUrlPrefix.get*=
+;
+model2OrchardCore.Tenants.ViewModels.EditTenantViewModelÛ
+
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs‡ ‡(B
+%49bool""string.IsNullOrWhiteSpace(string?)*
+"
+string*
+
+%48string*
+19
+20*”
+19ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs‚ ‚(7º
+π
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs‚ ‚(*
+%50string"GOrchardCore.Tenants.ViewModels.EditTenantViewModel.RequestUrlPrefix.get*=
+;
+model2OrchardCore.Tenants.ViewModels.EditTenantViewModel·
+ﬁ
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs‚ ‚(8
+%51bool"string.Contains(char)*
+
+%50string*
+/*
+21
+20*°
+21†
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs‰ ‰(îÕ
+ 
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs‰ ‰(A
+%52:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary"6Microsoft.AspNetCore.Mvc.ControllerBase.ModelState.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase÷
+”
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs‰[ ‰(\9
+%532Microsoft.Extensions.Localization.IStringLocalizer"__id*n*l1
+/OrchardCore.Tenants.Controllers.AdminController"7
+S2Microsoft.Extensions.Localization.IStringLocalizerØ¨
+†
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs‰[ ‰(ï8
+%541Microsoft.Extensions.Localization.LocalizedString"CMicrosoft.Extensions.Localization.IStringLocalizer.this[string].get*;
+9
+%532Microsoft.Extensions.Localization.IStringLocalizer*97
+5The url prefix can not contain more than one segment.2this[string].getñ
+ì
+†
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.cs‰ ‰(ñ
+%55void"XMicrosoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary.AddModelError(string, string)*C
+A
+%52:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary*
+""*:
+8
+%541Microsoft.Extensions.Localization.LocalizedString*
+20*‡
+20ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.csÁ	 Á(	"∑
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Tenants\Controllers\AdminController.csÁ Á(	
+implicit return:;
+model2OrchardCore.Tenants.ViewModels.EditTenantViewModel:
+	newTenantboolB31
+/OrchardCore.Tenants.Controllers.AdminController

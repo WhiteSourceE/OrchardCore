@@ -1,0 +1,280 @@
+
+≥OrchardCore.Deployment.Remote.Controllers.RemoteClientController.IndexPost(OrchardCore.Deployment.Remote.ViewModels.ContentOptions, System.Collections.Generic.IEnumerable<string>)∞
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\RemoteClientController.cs‚( ‚(1"16*æ
+0∞
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\RemoteClientController.cs‰ ‰(cô
+ñ
+∞
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\RemoteClientController.cs‰ ‰(,>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*ö*óB
+@OrchardCore.Deployment.Remote.Controllers.RemoteClientController"Q
+_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationService√
+¿
+∞
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\RemoteClientController.cs‰< ‰(@,
+%1&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBaseÊ
+„
+∞
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\RemoteClientController.cs‰B ‰(c1
+%2+OrchardCore.Security.Permissions.Permission"__id*u*s+
+)OrchardCore.Deployment.Remote.Permissions"D
+ManageRemoteInstances+OrchardCore.Security.Permissions.Permission≤
+Ø
+∞
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\RemoteClientController.cs‰ ‰(d*
+%3$System.Threading.Tasks.Task<TResult>"ﬂMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission)*E"C
+AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*@
+>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService*.
+,
+%1&System.Security.Claims.ClaimsPrincipal*3
+1
+%2+OrchardCore.Security.Permissions.Permission*
+1
+2*Í
+1∞
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\RemoteClientController.csÊ Ê(Ã…
+∞
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\RemoteClientController.csÊ Ê(+
+%4%Microsoft.AspNetCore.Mvc.ForbidResult"0Microsoft.AspNetCore.Mvc.ControllerBase.Forbid()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2Forbid()"‚
+∞
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\RemoteClientController.csÊ Ê( -
++
+%4%Microsoft.AspNetCore.Mvc.ForbidResult*æ
+2∞
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\RemoteClientController.csÈ È(*
+3
+4*´
+4∞
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\RemoteClientController.csÈ È(Ì
+Í
+∞
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\RemoteClientController.csÈ È( 	
+%5int"VSystem.Linq.Enumerable.Count<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*6
+4
+itemIds)System.Collections.Generic.IEnumerable<T>*
+3*æ
+3∞
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\RemoteClientController.csÈ È($*
+5
+6*À
+5∞
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\RemoteClientController.csÎ Ó(*ú
+ô
+∞
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\RemoteClientController.csÎ+ Î(?@
+%6:OrchardCore.Deployment.Remote.Services.RemoteClientService"__id*õ*òB
+@OrchardCore.Deployment.Remote.Controllers.RemoteClientController"R
+_remoteClientService:OrchardCore.Deployment.Remote.Services.RemoteClientService˝
+˙
+∞
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\RemoteClientController.csÎ+ Î(Z*
+%7$System.Threading.Tasks.Task<TResult>"UOrchardCore.Deployment.Remote.Services.RemoteClientService.GetRemoteClientListAsync()*B
+@
+%6:OrchardCore.Deployment.Remote.Services.RemoteClientService˘
+ˆ
+∞
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\RemoteClientController.csÎ Î(i3
+remoteClients"System.Collections.Generic.List<T>"__id*
+""∂
+≥
+∞
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\RemoteClientController.csÏ* Ï(Z/
+%8)System.Collections.Generic.IEnumerable<T>"rSystem.Linq.Enumerable.Where<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
+System.Linq.Enumerable*5
+3
+remoteClients"System.Collections.Generic.List<T>*
+""à
+Ö
+∞
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\RemoteClientController.csÏ* Ï(c(
+%9"System.Collections.Generic.List<T>"WSystem.Linq.Enumerable.ToList<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*1
+/
+%8)System.Collections.Generic.IEnumerable<T>£
+†
+∞
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\RemoteClientController.csÏ Ï(c9
+checkedContentItems"System.Collections.Generic.List<T>"__id**
+(
+%9"System.Collections.Generic.List<T>à
+Ö
+∞
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\RemoteClientController.csÓ Ó(*B
+%10;OrchardCore.Deployment.Remote.ViewModels.ContentsBulkAction"FOrchardCore.Deployment.Remote.ViewModels.ContentOptions.BulkAction.get*D
+B
+options7OrchardCore.Deployment.Remote.ViewModels.ContentOptions*
+7*æ
+7∞
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\RemoteClientController.csÓ Ó(**
+8
+9*ª
+8∞
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\RemoteClientController.csˇ	 ˇ(	*
+6*¿
+9∞
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\RemoteClientController.csÓ Ó(**
+10
+11*Ω
+10∞
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\RemoteClientController.csÛ- Û(@*
+12*¡
+12∞
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\RemoteClientController.csˇ	 ˇ(	*
+13
+14*´
+
+13∞
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\RemoteClientController.csı ı(Vù
+ö
+∞
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\RemoteClientController.csı" ı(6A
+%11:OrchardCore.Deployment.Remote.Services.RemoteClientService"__id*õ*òB
+@OrchardCore.Deployment.Remote.Controllers.RemoteClientController"R
+_remoteClientService:OrchardCore.Deployment.Remote.Services.RemoteClientServiceº
+π
+∞
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\RemoteClientController.csıO ı(V
+%12string"8OrchardCore.Deployment.Remote.Models.RemoteClient.Id.get*;
+9
+item1OrchardCore.Deployment.Remote.Models.RemoteClientå
+â
+∞
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\RemoteClientController.csı" ı(W"
+%13System.Threading.Tasks.Task"ZOrchardCore.Deployment.Remote.Services.RemoteClientService.DeleteRemoteClientAsync(string)*C
+A
+%11:OrchardCore.Deployment.Remote.Services.RemoteClientService*
+
+%12string*
+12*£
+14∞
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\RemoteClientController.cs˜ ˜(R˙
+˜
+∞
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\RemoteClientController.cs˜ ˜(!5
+%14.OrchardCore.DisplayManagement.Notify.INotifier"__id*Ñ*ÅB
+@OrchardCore.Deployment.Remote.Controllers.RemoteClientController";
+	_notifier.OrchardCore.DisplayManagement.Notify.INotifier˝
+˙
+∞
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\RemoteClientController.cs˜* ˜(+;
+%154Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer"__id*Å*B
+@OrchardCore.Deployment.Remote.Controllers.RemoteClientController"9
+H4Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer∫∑
+∞
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\RemoteClientController.cs˜* ˜(S@
+%169Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString"EMicrosoft.AspNetCore.Mvc.Localization.IHtmlLocalizer.this[string].get*=
+;
+%154Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer*(&
+$Remote clients successfully removed.2this[string].get™
+ß
+∞
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\RemoteClientController.cs˜ ˜(T
+%17void"™OrchardCore.DisplayManagement.Notify.NotifierExtensions.Success(OrchardCore.DisplayManagement.Notify.INotifier, Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString)*;"9
+7OrchardCore.DisplayManagement.Notify.NotifierExtensions*7
+5
+%14.OrchardCore.DisplayManagement.Notify.INotifier*B
+@
+%169Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString*
+6*˙
+11∞
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\RemoteClientController.cs˙ ˙(?ÖÇ
+∞
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\RemoteClientController.cs˙ ˙(?)
+%18"System.ArgumentOutOfRangeException""System.ArgumentOutOfRangeException≤
+Ø
+∞
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\RemoteClientController.cs˙" ˙(=
+%19void"@System.ArgumentOutOfRangeException.ArgumentOutOfRangeException()*+
+)
+%18"System.ArgumentOutOfRangeException*
+15*´
+6∞
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\RemoteClientController.cs˛ ˛(+Çˇ
+∞
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\RemoteClientController.cs˛ ˛(,6
+%20/Microsoft.AspNetCore.Mvc.RedirectToActionResult"@Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToAction(string)*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*	
+Index2RedirectToAction(string)"Ì
+∞
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\RemoteClientController.cs˛ ˛(-8
+6
+%20/Microsoft.AspNetCore.Mvc.RedirectToActionResult*Ç
+15∞
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\RemoteClientController.csˇ	 ˇ(	"»
+∞
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\RemoteClientController.csˇ ˇ(	
+implicit return*æ
+16∞
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\RemoteClientController.cs‚q ‚(q≠
+™
+∞
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\RemoteClientController.cs‚( ‚(1g
+B
+options7OrchardCore.Deployment.Remote.ViewModels.ContentOptions"!
+<Search>k__BackingFieldstring"__entrypointú
+ô
+∞
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\RemoteClientController.cs‚( ‚(1V
+B
+options7OrchardCore.Deployment.Remote.ViewModels.ContentOptions"
+Searchstring"__entrypoint÷
+”
+∞
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\RemoteClientController.cs‚( ‚(1è
+B
+options7OrchardCore.Deployment.Remote.ViewModels.ContentOptions"I
+#<ContentsBulkAction>k__BackingField"System.Collections.Generic.List<T>"__entrypointƒ
+¡
+∞
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\RemoteClientController.cs‚( ‚(1~
+B
+options7OrchardCore.Deployment.Remote.ViewModels.ContentOptions"8
+ContentsBulkAction"System.Collections.Generic.List<T>"__entrypointÉ
+Ä
+∞
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\RemoteClientController.cs‚( ‚(1
+%21"__entrypoint*6
+4
+itemIds)System.Collections.Generic.IEnumerable<T>≈
+¬
+∞
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\RemoteClientController.cs‡	 ‡(
+%22"
+__annotate*B@
+>Microsoft.AspNetCore.Mvc.HttpPostAttribute.HttpPostAttribute()*6
+4
+itemIds)System.Collections.Generic.IEnumerable<T>œ
+Ã
+∞
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\RemoteClientController.cs‡ ‡(&
+%23"
+__annotate*LJ
+HMicrosoft.AspNetCore.Mvc.ActionNameAttribute.ActionNameAttribute(string)*6
+4
+itemIds)System.Collections.Generic.IEnumerable<T>ÿ
+’
+∞
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\RemoteClientController.cs·	 ·(/
+%24"
+__annotate*US
+QOrchardCore.Routing.FormValueRequiredAttribute.FormValueRequiredAttribute(string)*6
+4
+itemIds)System.Collections.Generic.IEnumerable<T>ï
+í
+∞
+£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Controllers\RemoteClientController.cs‚U ‚(p4
+itemIds)System.Collections.Generic.IEnumerable<T>"__annotation*
+
+%22*
+
+%23*
+
+%24*
+0:B
+options7OrchardCore.Deployment.Remote.ViewModels.ContentOptions:4
+itemIds)System.Collections.Generic.IEnumerable<T>BDB
+@OrchardCore.Deployment.Remote.Controllers.RemoteClientController

@@ -1,0 +1,714 @@
+
+∑OrchardCore.Indexing.Services.IndexingTaskManager.FlushAsync(OrchardCore.Environment.Shell.Scope.ShellScope, System.Collections.Generic.IEnumerable<OrchardCore.Indexing.IndexingTask>)ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csa" a(,"0*Æ(
+0ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csc m(1ÍÁ
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csc c(:(
+%0"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>ﬁ
+€
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csc! c(3
+
+%1void"RSystem.Collections.Generic.List<T>.List(System.Collections.Generic.IEnumerable<T>)**
+(
+%0"System.Collections.Generic.List<T>*4
+2
+tasks)System.Collections.Generic.IEnumerable<T>Ä
+˝
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csc c(:0
+
+localQueue"System.Collections.Generic.List<T>"__id**
+(
+%0"System.Collections.Generic.List<T>∫
+∑
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cse" e(7
+%2System.IServiceProvider"BOrchardCore.Environment.Shell.Scope.ShellScope.ServiceProvider.get*9
+7
+scope.OrchardCore.Environment.Shell.Scope.ShellScopeÔ
+Ï
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cse e(7*
+serviceProviderSystem.IServiceProvider"__id*
+
+%2System.IServiceProvider¢
+ü
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csg g(G
+%3YesSql.ISession"pMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService<T>(System.IServiceProvider)*M"K
+IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*,
+*
+serviceProviderSystem.IServiceProvider◊
+‘
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csg g(G
+sessionYesSql.ISession"__id*
+
+%3YesSql.ISessionπ
+∂
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csh' h(Z,
+%4&OrchardCore.Data.IDbConnectionAccessor"pMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService<T>(System.IServiceProvider)*M"K
+IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*,
+*
+serviceProviderSystem.IServiceProviderí
+è
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csh h(Z>
+dbConnectionAccessor&OrchardCore.Data.IDbConnectionAccessor"__id*.
+,
+%4&OrchardCore.Data.IDbConnectionAccessoræ
+ª
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csi  i(K1
+%5+OrchardCore.Environment.Shell.ShellSettings"pMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService<T>(System.IServiceProvider)*M"K
+IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*,
+*
+serviceProviderSystem.IServiceProviderï
+í
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csi i(K<
+shellSettings+OrchardCore.Environment.Shell.ShellSettings"__id*3
+1
+%5+OrchardCore.Environment.Shell.ShellSettings∆
+√
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csj j(S9
+%63Microsoft.Extensions.Logging.ILogger<TCategoryName>"pMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService<T>(System.IServiceProvider)*M"K
+IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*,
+*
+serviceProviderSystem.IServiceProviderû
+õ
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csj j(S=
+logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>"__id*;
+9
+%63Microsoft.Extensions.Logging.ILogger<TCategoryName>π
+∂
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csk k(:
+%7string"<OrchardCore.Environment.Shell.ShellSettings.this[string].get*>
+<
+shellSettings+OrchardCore.Environment.Shell.ShellSettings*
+TablePrefix…
+∆
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csk k(:
+tablePrefixstring"__id*
+
+%7stringÏ
+È
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csm m(2
+
+%8bool"string.IsNullOrEmpty(string?)*
+"
+string*
+
+tablePrefixstring*
+1
+2*ƒ
+1ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cso o("‘
+—
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cso o("
+%9string"__concat*
+
+tablePrefixstring*
+_…
+∆
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cso o("
+tablePrefixstring"__id*
+
+%9string*
+2*˙
+
+2ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csr u()ÒÓ
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csr! r(6,
+%10%System.Collections.Generic.HashSet<T>"%System.Collections.Generic.HashSet<T>ä
+á
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csr% r(4
+%11void"/System.Collections.Generic.HashSet<T>.HashSet()*.
+,
+%10%System.Collections.Generic.HashSet<T>ã
+à
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csr r(67
+contentItemIds%System.Collections.Generic.HashSet<T>"__id*.
+,
+%10%System.Collections.Generic.HashSet<T>ä
+á
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csu u()
+
+%12int",System.Collections.Generic.List<T>.Count.get*2
+0
+
+localQueue"System.Collections.Generic.List<T>∫
+∑
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csu u()
+iint"__id*
+
+
+%12int*
+3*§
+3ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csu+ u(0*
+4
+5*Ï	
+4ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csw y(>é
+ã
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csw w(,(
+%13!OrchardCore.Indexing.IndexingTask"
+__arrayGet*2
+0
+
+localQueue"System.Collections.Generic.List<T>*
+""˘
+ˆ
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csw w(,)
+task!OrchardCore.Indexing.IndexingTask"__id**
+(
+%13!OrchardCore.Indexing.IndexingTaskç
+ä
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csy, y(>
+%14string"3OrchardCore.Indexing.IndexingTask.ContentItemId.get*+
+)
+task!OrchardCore.Indexing.IndexingTask®
+•
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csy y(?
+%15bool"1System.Collections.Generic.HashSet<T>.Contains(T)*9
+7
+contentItemIds%System.Collections.Generic.HashSet<T>*
+
+%14string*
+6
+7*ò
+6ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cs{ {(-Ù
+Ò
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cs{ {(.
+%16void"__arrayRemove*2
+0
+
+localQueue"System.Collections.Generic.List<T>*
+""*
+8*π
+7ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cs (9ç
+ä
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cs' (9
+%17string"3OrchardCore.Indexing.IndexingTask.ContentItemId.get*+
+)
+task!OrchardCore.Indexing.IndexingTaskÖ
+Ç
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cs (:
+%18bool"
+__arrayAdd*9
+7
+contentItemIds%System.Collections.Generic.HashSet<T>*: *
+
+%17string*
+8*°
+8ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csu2 u(5*
+3*Ù
+5ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csÑ á(K©
+¶
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csÑ Ñ(=0
+%19)System.Collections.Generic.IEnumerable<T>"System.Linq.Enumerable.Select<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)*"
+System.Linq.Enumerable*2
+0
+
+localQueue"System.Collections.Generic.List<T>*
+""Ÿ
+÷
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csÑ Ñ(G
+%20string[]"XSystem.Linq.Enumerable.ToArray<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*2
+0
+%19)System.Collections.Generic.IEnumerable<T>»
+≈
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csÑ Ñ(G
+idsstring[]"__id*
+
+%20string[]ÿ
+’
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csÖ Ö(>
+%21string"__concat*
+
+tablePrefixstring*
+""∆
+√
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csÖ Ö(>
+tablestring"__id*
+
+%21string◊‘
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csá$ á(K&
+%22System.Data.Common.DbConnection"9OrchardCore.Data.IDbConnectionAccessor.CreateConnection()*@
+>
+dbConnectionAccessor&OrchardCore.Data.IDbConnectionAccessor2CreateConnection()˝
+˙
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csá á(K-
+
+connectionSystem.Data.Common.DbConnection"__id*(
+&
+%22System.Data.Common.DbConnection*
+9*‡
+9ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csâ ã(o†
+ù
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csâ â(,"
+%23System.Threading.Tasks.Task"+System.Data.Common.DbConnection.OpenAsync()*/
+-
+
+connectionSystem.Data.Common.DbConnection¯ı
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csãE ã(R
+%24YesSql.IStore"YesSql.ISession.Store.get*
+
+sessionYesSql.ISession2	Store.getàÖ
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csãE ã(`
+%25YesSql.IConfiguration"YesSql.IStore.Configuration.get*
+
+%24YesSql.IStore2Configuration.getüú
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csãE ã(o!
+%26System.Data.IsolationLevel"(YesSql.IConfiguration.IsolationLevel.get*
+
+%25YesSql.IConfiguration2IsolationLevel.getÎ
+Ë
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csã) ã(p'
+%27 System.Data.Common.DbTransaction"LSystem.Data.Common.DbConnection.BeginTransaction(System.Data.IsolationLevel)*/
+-
+
+connectionSystem.Data.Common.DbConnection*#
+!
+%26System.Data.IsolationLevelÄ
+˝
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csã ã(p/
+transaction System.Data.Common.DbTransaction"__id*)
+'
+%27 System.Data.Common.DbTransaction*
+10*†	
+10ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csç ç(H¯ı
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csç" ç(/
+%28YesSql.IStore"YesSql.ISession.Store.get*
+
+sessionYesSql.ISession2	Store.getàÖ
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csç" ç(=
+%29YesSql.IConfiguration"YesSql.IStore.Configuration.get*
+
+%28YesSql.IStore2Configuration.getèå
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csç" ç(H
+%30YesSql.ISqlDialect"$YesSql.IConfiguration.SqlDialect.get*
+
+%29YesSql.IConfiguration2SqlDialect.get‡
+›
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csç ç(H
+dialectYesSql.ISqlDialect"__id*
+
+%30YesSql.ISqlDialect*
+11*‡
+11ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csë ë(;≥
+∞
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csë- ë(;
+%31"__id*
+""˛˚
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csë ë(<
+%32bool"UMicrosoft.Extensions.Logging.ILogger.IsEnabled(Microsoft.Extensions.Logging.LogLevel)*?
+=
+logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>*
+
+%3120IsEnabled(Microsoft.Extensions.Logging.LogLevel)*
+12
+13*Ô
+
+12ô
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csì ì(å¨
+©
+ô
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csìk ì(ç0
+%33)System.Collections.Generic.IEnumerable<T>"System.Linq.Enumerable.Select<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)*"
+System.Linq.Enumerable*4
+2
+tasks)System.Collections.Generic.IEnumerable<T>*
+""Ω
+∫
+ô
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csìY ì(é
+%34string"Estring.Join(string?, System.Collections.Generic.IEnumerable<string?>)*
+"
+string*
+, *2
+0
+%33)System.Collections.Generic.IEnumerable<T>◊
+‘
+ô
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csì ì(è
+%35void"uMicrosoft.Extensions.Logging.LoggerExtensions.LogDebug(Microsoft.Extensions.Logging.ILogger, string, params object[])*1"/
+-Microsoft.Extensions.Logging.LoggerExtensions*?
+=
+logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>*-+
+)Updating indexing tasks: {ContentItemIds}*
+
+%34string*
+13*±
+13ô
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csó ô(ßª
+∏
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csó ó(*
+pageSizeint"__id*2d™ß
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csô7 ô(W
+%36string",YesSql.ISqlDialect.QuoteForTableName(string)*
+
+dialectYesSql.ISqlDialect*
+
+tablestring2QuoteForTableName(string)≠™
+ô
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csô` ô(ã
+%37string"-YesSql.ISqlDialect.QuoteForColumnName(string)*
+
+dialectYesSql.ISqlDialect*
+ContentItemId2QuoteForColumnName(string)ïí
+ö
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csôé ô(®
+%38string"%YesSql.ISqlDialect.InOperator(string)*
+
+dialectYesSql.ISqlDialect*
+@Ids2InOperator(string)—
+Œ
+ô
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csô( ô(´
+%39string"__concat*
+""*
+
+%36string—
+Œ
+ô
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csô( ô(´
+%40string"__concat*
+
+%39string*
+""⁄
+◊
+ô
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csô( ô(´
+%41string"__concat*
+
+%40string*
+
+%37string—
+Œ
+ô
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csô( ô(´
+%42string"__concat*
+
+%41string*
+""⁄
+◊
+ô
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csô( ô(´
+%43string"__concat*
+
+%42string*
+
+%38string—
+Œ
+ô
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csô( ô(´
+%44string"__concat*
+
+%43string*
+""À
+»
+ô
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csô ô(´
+	deleteCmdstring"__id*
+
+%44string*
+14*Ä
+14ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csù  ü(/Ó
+Î
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csù, ù(>0
+%45)System.Collections.Generic.IEnumerable<T>"ZSystem.Linq.Enumerable.Take<TSource>(System.Collections.Generic.IEnumerable<TSource>, int)*"
+System.Linq.Enumerable*
+
+idsstring[]*
+
+pageSizeintŸ
+÷
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csù, ù(H
+%46string[]"XSystem.Linq.Enumerable.ToArray<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*2
+0
+%45)System.Collections.Generic.IEnumerable<T>Œ
+À
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csù  ù(H
+	pageOfIdsstring[]"__id*
+
+%46string[]∂
+≥
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csü  ü(/
+%47bool"TSystem.Linq.Enumerable.Any<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*
+
+	pageOfIdsstring[]*
+15
+16*·
+15ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cs°  ¢(7™
+ß
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cs°& °(<&
+%48System.Data.Common.DbConnection"/System.Data.Common.DbTransaction.Connection.get*1
+/
+transaction System.Data.Common.DbTransactionÙ
+Ò
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cs°& °(z+
+%49$System.Threading.Tasks.Task<TResult>"ÑDapper.SqlMapper.ExecuteAsync(System.Data.IDbConnection, string, object, System.Data.IDbTransaction, int?, System.Data.CommandType?)*"
+Dapper.SqlMapper*(
+&
+%48System.Data.Common.DbConnection*
+
+	deleteCmdstring*
+""*1
+/
+transaction System.Data.Common.DbTransaction*
+""*
+""Ó
+Î
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cs¢& ¢(80
+%50)System.Collections.Generic.IEnumerable<T>"ZSystem.Linq.Enumerable.Skip<TSource>(System.Collections.Generic.IEnumerable<TSource>, int)*"
+System.Linq.Enumerable*
+
+idsstring[]*
+
+pageSizeintŸ
+÷
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cs¢& ¢(B
+%51string[]"XSystem.Linq.Enumerable.ToArray<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*2
+0
+%50)System.Collections.Generic.IEnumerable<T>»
+≈
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cs¢  ¢(B
+idsstring[]"__id*
+
+%51string[]*
+16*‹
+16ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cs§! §(*∞
+≠
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cs§! §(*
+%52bool"TSystem.Linq.Enumerable.Any<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*
+
+idsstring[]*
+14
+17*¡"
+17ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cs¶ ©(,™ß
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cs¶7 ¶(W
+%53string",YesSql.ISqlDialect.QuoteForTableName(string)*
+
+dialectYesSql.ISqlDialect*
+
+tablestring2QuoteForTableName(string)™ß
+ô
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cs¶[ ¶(É
+%54string"-YesSql.ISqlDialect.QuoteForColumnName(string)*
+
+dialectYesSql.ISqlDialect*
+
+CreatedUtc2QuoteForColumnName(string)Æ´
+ö
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cs¶á ¶(≤
+%55string"-YesSql.ISqlDialect.QuoteForColumnName(string)*
+
+dialectYesSql.ISqlDialect*
+ContentItemId2QuoteForColumnName(string)•¢
+ö
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cs¶∂ ¶(ÿ
+%56string"-YesSql.ISqlDialect.QuoteForColumnName(string)*
+
+dialectYesSql.ISqlDialect*
+Type2QuoteForColumnName(string)—
+Œ
+ô
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cs¶( ¶(à
+%57string"__concat*
+""*
+
+%53string—
+Œ
+ô
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cs¶( ¶(à
+%58string"__concat*
+
+%57string*
+""⁄
+◊
+ô
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cs¶( ¶(à
+%59string"__concat*
+
+%58string*
+
+%54string—
+Œ
+ô
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cs¶( ¶(à
+%60string"__concat*
+
+%59string*
+""⁄
+◊
+ô
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cs¶( ¶(à
+%61string"__concat*
+
+%60string*
+
+%55string—
+Œ
+ô
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cs¶( ¶(à
+%62string"__concat*
+
+%61string*
+""⁄
+◊
+ô
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cs¶( ¶(à
+%63string"__concat*
+
+%62string*
+
+%56string—
+Œ
+ô
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cs¶( ¶(à
+%64string"__concat*
+
+%63string*
+""À
+»
+ô
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cs¶ ¶(à
+	insertCmdstring"__id*
+
+%64string™
+ß
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csß ß(4&
+%65System.Data.Common.DbConnection"/System.Data.Common.DbTransaction.Connection.get*1
+/
+transaction System.Data.Common.DbTransaction†
+ù
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csß ß(e+
+%66$System.Threading.Tasks.Task<TResult>"ÑDapper.SqlMapper.ExecuteAsync(System.Data.IDbConnection, string, object, System.Data.IDbTransaction, int?, System.Data.CommandType?)*"
+Dapper.SqlMapper*(
+&
+%65System.Data.Common.DbConnection*
+
+	insertCmdstring*2
+0
+
+localQueue"System.Collections.Generic.List<T>*1
+/
+transaction System.Data.Common.DbTransaction*
+""*
+""â
+Ü
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cs© ©(,
+%67void")System.Data.Common.DbTransaction.Commit()*1
+/
+transaction System.Data.Common.DbTransaction*
+18
+19*µ
+18ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cs≠ Æ(\ã
+à
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cs≠ ≠(.
+%68void"+System.Data.Common.DbTransaction.Rollback()*1
+/
+transaction System.Data.Common.DbTransactionˇ
+¸
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.csÆ Æ(]
+%69void"áMicrosoft.Extensions.Logging.LoggerExtensions.LogError(Microsoft.Extensions.Logging.ILogger, System.Exception, string, params object[])*1"/
+-Microsoft.Extensions.Logging.LoggerExtensions*?
+=
+logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>*
+
+eSystem.Exception*31
+/An error occurred while updating indexing tasks*
+""*
+20*•
+19ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cs¥	 ¥(	*
+21*•
+21ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cs¥	 ¥(	*
+20*“
+20ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cs¥	 ¥(	"∞
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Indexing\IndexingTaskManager.cs¥ ¥(	
+implicit return:7
+scope.OrchardCore.Environment.Shell.Scope.ShellScope:2
+tasks)System.Collections.Generic.IEnumerable<T>B5"3
+1OrchardCore.Indexing.Services.IndexingTaskManager

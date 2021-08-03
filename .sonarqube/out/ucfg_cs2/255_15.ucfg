@@ -1,0 +1,90 @@
+
+¸OrchardCore.Lucene.QueryProviders.MatchAllQueryProvider.CreateQuery(OrchardCore.Lucene.ILuceneQueryService, OrchardCore.Lucene.LuceneQueryContext, string, Newtonsoft.Json.Linq.JObject)¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\MatchAllQueryProvider.cs ( "0*¸
+0¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\MatchAllQueryProvider.cs
+ 
+(#…
+‚
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\MatchAllQueryProvider.cs
+ 
+(#
+
+%0bool""string.operator !=(string, string)*
+"
+string*
+
+typestring*
+	match_all*
+1
+2*Ø
+1¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\MatchAllQueryProvider.cs ("­
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\MatchAllQueryProvider.cs (
+""*Ã
+
+2¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\MatchAllQueryProvider.cs (8øõ
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\MatchAllQueryProvider.cs  (7)
+%1#Lucene.Net.Search.MatchAllDocsQuery"#Lucene.Net.Search.MatchAllDocsQueryš
+—
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\MatchAllQueryProvider.cs$ (5
+
+%2void"7Lucene.Net.Search.MatchAllDocsQuery.MatchAllDocsQuery()*+
+)
+%1#Lucene.Net.Search.MatchAllDocsQuery‘
+Ž
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\MatchAllQueryProvider.cs (74
+matchAllQuery#Lucene.Net.Search.MatchAllDocsQuery"__id*+
+)
+%1#Lucene.Net.Search.MatchAllDocsQueryä
+á
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\MatchAllQueryProvider.cs (9
+
+%3bool"RNewtonsoft.Json.Linq.JObject.TryGetValue(string, out Newtonsoft.Json.Linq.JToken?)*'
+%
+queryNewtonsoft.Json.Linq.JObject*	
+boost*&
+$
+boostNewtonsoft.Json.Linq.JToken*
+3
+4*Î
+3¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\MatchAllQueryProvider.cs (:ñ
+î
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\MatchAllQueryProvider.cs& (:
+%4float"mNewtonsoft.Json.Linq.Extensions.Value<U>(System.Collections.Generic.IEnumerable<Newtonsoft.Json.Linq.JToken>)*#"!
+Newtonsoft.Json.Linq.Extensions*&
+$
+boostNewtonsoft.Json.Linq.JTokenª§
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\MatchAllQueryProvider.cs (:
+%5float"!Lucene.Net.Search.Query.Boost.set*6
+4
+matchAllQuery#Lucene.Net.Search.MatchAllDocsQuery*
+
+%4float2	Boost.set*
+4*ˆ
+4¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\MatchAllQueryProvider.cs ( "Ý
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\MatchAllQueryProvider.cs (!6
+4
+matchAllQuery#Lucene.Net.Search.MatchAllDocsQuery*å
+5¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\MatchAllQueryProvider.cs	 (	"º
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\MatchAllQueryProvider.cs (	
+implicit return:1
+builder&OrchardCore.Lucene.ILuceneQueryService:0
+context%OrchardCore.Lucene.LuceneQueryContext:
+typestring:%
+queryNewtonsoft.Json.Linq.JObjectB;9
+7OrchardCore.Lucene.QueryProviders.MatchAllQueryProvider

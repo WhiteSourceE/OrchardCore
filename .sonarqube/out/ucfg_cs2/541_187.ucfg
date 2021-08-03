@@ -1,0 +1,374 @@
+
+yOrchardCore.Deployment.Controllers.StepController.Edit(OrchardCore.Deployment.ViewModels.EditDeploymentPlanStepViewModel)°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.csß) ß(-"10*‹
+0°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.cs© ©(b˚
+¯
+°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.cs© ©(,>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*ã*à3
+1OrchardCore.Deployment.Controllers.StepController"Q
+_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationService¥
+±
+°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.cs©< ©(@,
+%1&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBaseœ
+Ã
+°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.cs©B ©(b1
+%2+OrchardCore.Security.Permissions.Permission"__id*m*k$
+"OrchardCore.Deployment.Permissions"C
+ManageDeploymentPlan+OrchardCore.Security.Permissions.Permission£
+†
+°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.cs© ©(c*
+%3$System.Threading.Tasks.Task<TResult>"ﬂMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission)*E"C
+AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*@
+>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService*.
+,
+%1&System.Security.Claims.ClaimsPrincipal*3
+1
+%2+OrchardCore.Security.Permissions.Permission*
+1
+2*Ω
+1°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.cs´ ´(Ω∫
+°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.cs´ ´(+
+%4%Microsoft.AspNetCore.Mvc.ForbidResult"0Microsoft.AspNetCore.Mvc.ControllerBase.Forbid()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2Forbid()"”
+°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.cs´ ´( -
++
+%4%Microsoft.AspNetCore.Mvc.ForbidResult*ß
+2°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.csÆ ∞(&ö
+ó
+°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.csÆ' Æ(/
+%5YesSql.ISession"__id*T*R3
+1OrchardCore.Deployment.Controllers.StepController"
+_sessionYesSql.ISessionÿ
+’
+°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.csÆI Æ(_	
+%6int"VOrchardCore.Deployment.ViewModels.EditDeploymentPlanStepViewModel.DeploymentPlanId.get*L
+J
+modelAOrchardCore.Deployment.ViewModels.EditDeploymentPlanStepViewModel„
+‡
+°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.csÆ' Æ(`*
+%7$System.Threading.Tasks.Task<TResult>"BYesSql.SessionExtensions.GetAsync<T>(YesSql.ISession, int, string)*"
+YesSql.SessionExtensions*
+
+%5YesSql.ISession*
+	
+%6int*
+""Ó
+Î
+°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.csÆ Æ(`7
+deploymentPlan%OrchardCore.Deployment.DeploymentPlan"__id*
+""¶
+£
+°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.cs∞ ∞(&
+
+%8bool""object.operator ==(object, object)*
+"
+object*9
+7
+deploymentPlan%OrchardCore.Deployment.DeploymentPlan*
+""*
+3
+4*≈
+3°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.cs≤ ≤(!√¿
+°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.cs≤ ≤(!-
+%9'Microsoft.AspNetCore.Mvc.NotFoundResult"2Microsoft.AspNetCore.Mvc.ControllerBase.NotFound()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2
+NotFound()"’
+°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.cs≤ ≤("/
+-
+%9'Microsoft.AspNetCore.Mvc.NotFoundResult*—
+4°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.csµ ∑(»
+≈
+°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.csµ µ(5)
+%10"System.Collections.Generic.List<T>"9OrchardCore.Deployment.DeploymentPlan.DeploymentSteps.get*9
+7
+deploymentPlan%OrchardCore.Deployment.DeploymentPlan§
+°
+¢
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.csµ µ(ö,
+%11%OrchardCore.Deployment.DeploymentStep"{System.Linq.Enumerable.FirstOrDefault<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
+System.Linq.Enumerable*+
+)
+%10"System.Collections.Generic.List<T>*
+""ç
+ä
+¢
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.csµ µ(ö-
+step%OrchardCore.Deployment.DeploymentStep"__id*.
+,
+%11%OrchardCore.Deployment.DeploymentStepù
+ö
+°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.cs∑ ∑(
+%12bool""object.operator ==(object, object)*
+"
+object*/
+-
+step%OrchardCore.Deployment.DeploymentStep*
+""*
+5
+6*«
+5°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.csπ π(!ƒ¡
+°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.csπ π(!.
+%13'Microsoft.AspNetCore.Mvc.NotFoundResult"2Microsoft.AspNetCore.Mvc.ControllerBase.NotFound()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2
+NotFound()"÷
+°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.csπ π("0
+.
+%13'Microsoft.AspNetCore.Mvc.NotFoundResult*⁄
+6°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.csº æ("Ô
+Ï
+°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.csº º(.<
+%145OrchardCore.DisplayManagement.IDisplayManager<TModel>"__id*Å*3
+1OrchardCore.Deployment.Controllers.StepController"H
+_displayManager5OrchardCore.DisplayManagement.IDisplayManager<TModel>â
+Ü
+°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.csºP º(dF
+%15?OrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessor"__id*ë*é3
+1OrchardCore.Deployment.Controllers.StepController"W
+_updateModelAccessor?OrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessorïí
+°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.csºP º(q>
+%167OrchardCore.DisplayManagement.ModelBinding.IUpdateModel"POrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessor.ModelUpdater.get*H
+F
+%15?OrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessor2ModelUpdater.getìê
+¢
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.csº º(Ä+
+%17$System.Threading.Tasks.Task<TResult>"ñOrchardCore.DisplayManagement.IDisplayManager<TModel>.UpdateEditorAsync(TModel, OrchardCore.DisplayManagement.ModelBinding.IUpdateModel, bool, string)*>
+<
+%145OrchardCore.DisplayManagement.IDisplayManager<TModel>*/
+-
+step%OrchardCore.Deployment.DeploymentStep*@
+>
+%167OrchardCore.DisplayManagement.ModelBinding.IUpdateModel*
+""*
+""2`UpdateEditorAsync(TModel, OrchardCore.DisplayManagement.ModelBinding.IUpdateModel, bool, string)Ê
+„
+¢
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.csº º(Ä.
+editor$OrchardCore.DisplayManagement.IShape"__id*
+""œ
+Ã
+°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.csæ æ(A
+%18:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary"6Microsoft.AspNetCore.Mvc.ControllerBase.ModelState.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase¡
+æ
+°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.csæ æ("
+%19bool"FMicrosoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary.IsValid.get*C
+A
+%18:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary*
+7
+8*™
+7°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.cs¿ √(fõ
+ò
+°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.cs¿ ¿(
+%20YesSql.ISession"__id*T*R3
+1OrchardCore.Deployment.Controllers.StepController"
+_sessionYesSql.ISession·ﬁ
+°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.cs¿ ¿(-
+%21void"*YesSql.ISession.Save(object, bool, string)*
+
+%20YesSql.ISession*9
+7
+deploymentPlan%OrchardCore.Deployment.DeploymentPlan*
+""*
+""2Save(object, bool, string)⁄
+◊
+°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.cs¬ ¬(5
+%22.OrchardCore.DisplayManagement.Notify.INotifier"__id*t*r3
+1OrchardCore.Deployment.Controllers.StepController";
+	_notifier.OrchardCore.DisplayManagement.Notify.INotifierﬁ
+€
+°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.cs¬" ¬(#;
+%234Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer"__id*r*p3
+1OrchardCore.Deployment.Controllers.StepController"9
+H4Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer±Æ
+°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.cs¬" ¬(Q@
+%249Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString"EMicrosoft.AspNetCore.Mvc.Localization.IHtmlLocalizer.this[string].get*=
+;
+%234Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer*.,
+*Deployment plan step updated successfully.2this[string].getõ
+ò
+°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.cs¬ ¬(R
+%25void"™OrchardCore.DisplayManagement.Notify.NotifierExtensions.Success(OrchardCore.DisplayManagement.Notify.INotifier, Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString)*;"9
+7OrchardCore.DisplayManagement.Notify.NotifierExtensions*7
+5
+%22.OrchardCore.DisplayManagement.Notify.INotifier*B
+@
+%249Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlStringŸ
+÷
+°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.cs√P √(f
+
+%26int"VOrchardCore.Deployment.ViewModels.EditDeploymentPlanStepViewModel.DeploymentPlanId.get*L
+J
+modelAOrchardCore.Deployment.ViewModels.EditDeploymentPlanStepViewModel±Æ
+°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.cs√ √(i6
+%27/Microsoft.AspNetCore.Mvc.RedirectToActionResult"PMicrosoft.AspNetCore.Mvc.ControllerBase.RedirectToAction(string, string, object)*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*	
+Display*
+DeploymentPlan*
+""2(RedirectToAction(string, string, object)"ﬁ
+°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.cs√ √(j8
+6
+%27/Microsoft.AspNetCore.Mvc.RedirectToActionResult*„
+8°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.cs∆  (⁄
+◊
+°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.cs∆ ∆(5
+%28.OrchardCore.DisplayManagement.Notify.INotifier"__id*t*r3
+1OrchardCore.Deployment.Controllers.StepController";
+	_notifier.OrchardCore.DisplayManagement.Notify.INotifierﬁ
+€
+°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.cs∆ ∆(;
+%294Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer"__id*r*p3
+1OrchardCore.Deployment.Controllers.StepController"9
+H4Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer∂≥
+°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.cs∆ ∆(P@
+%309Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString"EMicrosoft.AspNetCore.Mvc.Localization.IHtmlLocalizer.this[string].get*=
+;
+%294Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer*31
+/The deployment plan step has validation errors.2this[string].getô
+ñ
+°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.cs∆ ∆(Q
+%31void"®OrchardCore.DisplayManagement.Notify.NotifierExtensions.Error(OrchardCore.DisplayManagement.Notify.INotifier, Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString)*;"9
+7OrchardCore.DisplayManagement.Notify.NotifierExtensions*7
+5
+%28.OrchardCore.DisplayManagement.Notify.INotifier*B
+@
+%309Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlStringÖ
+Ç
+°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.cs« «(!
+%32dynamic"LOrchardCore.Deployment.ViewModels.EditDeploymentPlanStepViewModel.Editor.set*L
+J
+modelAOrchardCore.Deployment.ViewModels.EditDeploymentPlanStepViewModel*0
+.
+editor$OrchardCore.DisplayManagement.IShapeË
+Â
+°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.cs   (
+%33void"&orchardcore.deployment/views/step/edit*
+
+%34*L
+J
+modelAOrchardCore.Deployment.ViewModels.EditDeploymentPlanStepViewModel*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject* 
+
+%HttpContextItemsAllobject*!
+
+%HttpContextItemsHtmlobject"≥
+°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.cs   (
+
+%33void*„
+9°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.csÀ	 À(	"π
+°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.csÀ À(	
+implicit return*Ó
+10°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.csßT ß(T∞
+≠
+°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.csß) ß(-y
+J
+modelAOrchardCore.Deployment.ViewModels.EditDeploymentPlanStepViewModel"+
+!<DeploymentStepId>k__BackingFieldstring"__entrypointü
+ú
+°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.csß) ß(-h
+J
+modelAOrchardCore.Deployment.ViewModels.EditDeploymentPlanStepViewModel"
+DeploymentStepIdstring"__entrypoint≤
+Ø
+°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.csß) ß(-{
+J
+modelAOrchardCore.Deployment.ViewModels.EditDeploymentPlanStepViewModel"-
+#<DeploymentStepType>k__BackingFieldstring"__entrypoint°
+û
+°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.csß) ß(-j
+J
+modelAOrchardCore.Deployment.ViewModels.EditDeploymentPlanStepViewModel"
+DeploymentStepTypestring"__entrypointß
+§
+°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.csß) ß(-p
+J
+modelAOrchardCore.Deployment.ViewModels.EditDeploymentPlanStepViewModel""
+<Editor>k__BackingFielddynamic"__entrypointñ
+ì
+°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.csß) ß(-_
+J
+modelAOrchardCore.Deployment.ViewModels.EditDeploymentPlanStepViewModel"
+Editordynamic"__entrypointŒ
+À
+°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.csß) ß(-ñ
+J
+modelAOrchardCore.Deployment.ViewModels.EditDeploymentPlanStepViewModel"H
+<DeploymentStep>k__BackingField%OrchardCore.Deployment.DeploymentStep"__entrypointΩ
+∫
+°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.csß) ß(-Ö
+J
+modelAOrchardCore.Deployment.ViewModels.EditDeploymentPlanStepViewModel"7
+DeploymentStep%OrchardCore.Deployment.DeploymentStep"__entrypointº
+π
+°
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\StepController.csß) ß(-
+%35"__entrypoint*
+0:J
+modelAOrchardCore.Deployment.ViewModels.EditDeploymentPlanStepViewModelB53
+1OrchardCore.Deployment.Controllers.StepController

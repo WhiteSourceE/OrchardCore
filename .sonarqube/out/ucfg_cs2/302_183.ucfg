@@ -1,0 +1,480 @@
+
+õOrchardCore.Deployment.Controllers.DeploymentPlanController.Index(OrchardCore.Deployment.ViewModels.ContentOptions, OrchardCore.Navigation.PagerParameters)©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.cs?) ?(."8*é
+0©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csA A(bç
+ä
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csA A(,>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*ï*í=
+;OrchardCore.Deployment.Controllers.DeploymentPlanController"Q
+_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationServiceº
+π
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csA< A(@,
+%1&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase◊
+‘
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csAB A(b1
+%2+OrchardCore.Security.Permissions.Permission"__id*m*k$
+"OrchardCore.Deployment.Permissions"C
+ManageDeploymentPlan+OrchardCore.Security.Permissions.Permission´
+®
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csA A(c*
+%3$System.Threading.Tasks.Task<TResult>"ﬂMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission)*E"C
+AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*@
+>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService*.
+,
+%1&System.Security.Claims.ClaimsPrincipal*3
+1
+%2+OrchardCore.Security.Permissions.Permission*
+1
+2*’
+1©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csC C(≈¬
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csC C(+
+%4%Microsoft.AspNetCore.Mvc.ForbidResult"0Microsoft.AspNetCore.Mvc.ControllerBase.Forbid()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2Forbid()"€
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csC C( -
++
+%4%Microsoft.AspNetCore.Mvc.ForbidResult*Ä
+2©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csF F(Tç
+ä
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csF F(,>
+%58Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*ï*í=
+;OrchardCore.Deployment.Controllers.DeploymentPlanController"Q
+_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationServiceº
+π
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csF< F(@,
+%6&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase…
+∆
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csFB F(T1
+%7+OrchardCore.Security.Permissions.Permission"__id*_*]$
+"OrchardCore.Deployment.Permissions"5
+Export+OrchardCore.Security.Permissions.Permission´
+®
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csF F(U*
+%8$System.Threading.Tasks.Task<TResult>"ﬂMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission)*E"C
+AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*@
+>
+%58Microsoft.AspNetCore.Authorization.IAuthorizationService*.
+,
+%6&System.Security.Claims.ClaimsPrincipal*3
+1
+%7+OrchardCore.Security.Permissions.Permission*
+3
+4*’
+3©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csH H(≈¬
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csH H(+
+%9%Microsoft.AspNetCore.Mvc.ForbidResult"0Microsoft.AspNetCore.Mvc.ControllerBase.Forbid()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2Forbid()"€
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csH H( -
++
+%9%Microsoft.AspNetCore.Mvc.ForbidResult*Œ
+4©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csK P(9’
+“
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csK% K(1(
+%10!OrchardCore.Settings.ISiteService"__id*t*r=
+;OrchardCore.Deployment.Controllers.DeploymentPlanController"1
+_siteService!OrchardCore.Settings.ISiteService⁄◊
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csK% K(H+
+%11$System.Threading.Tasks.Task<TResult>"8OrchardCore.Settings.ISiteService.GetSiteSettingsAsync()**
+(
+%10!OrchardCore.Settings.ISiteService2GetSiteSettingsAsync()È
+Ê
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csK K(H*
+siteSettingsOrchardCore.Settings.ISite"__id*
+""†ù
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csL3 L(H
+
+%12int"'OrchardCore.Settings.ISite.PageSize.get*,
+*
+siteSettingsOrchardCore.Settings.ISite2PageSize.getÚÔ
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csL L(I#
+%13OrchardCore.Navigation.Pager"OrchardCore.Navigation.Pagerˇ
+¸
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csL L(!
+%14void"OOrchardCore.Navigation.Pager.Pager(OrchardCore.Navigation.PagerParameters, int)*%
+#
+%13OrchardCore.Navigation.Pager*;
+9
+pagerParameters&OrchardCore.Navigation.PagerParameters*
+
+
+%12intÉ
+Ä
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csL L(I%
+pagerOrchardCore.Navigation.Pager"__id*%
+#
+%13OrchardCore.Navigation.Pager≠
+™
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csN" N(*
+%15YesSql.ISession"__id*^*\=
+;OrchardCore.Deployment.Controllers.DeploymentPlanController"
+_sessionYesSql.ISessionﬁ
+€
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csN" N(W
+%16YesSql.IQuery<T, TIndex>"FYesSql.QueryExtensions.Query<T, TIndex>(YesSql.ISession, bool, string)*"
+YesSql.QueryExtensions*
+
+%15YesSql.ISession*
+""*
+""Ö
+Ç
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csN N(W+
+deploymentPlansYesSql.IQuery<T, TIndex>"__id*!
+
+%16YesSql.IQuery<T, TIndex>∫
+∑
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csP+ P(9
+%17string";OrchardCore.Deployment.ViewModels.ContentOptions.Search.get*=
+;
+options0OrchardCore.Deployment.ViewModels.ContentOptions˝
+˙
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csP P(:
+%18bool""string.IsNullOrWhiteSpace(string?)*
+"
+string*
+
+%17string*
+5
+6*Î
+5©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csR R(\¨©
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csR" R(]
+%19YesSql.IQuery<T, TIndex>"]YesSql.IQuery<T, TIndex>.Where(System.Linq.Expressions.Expression<System.Func<TIndex, bool>>)*-
++
+deploymentPlansYesSql.IQuery<T, TIndex>*
+""2DWhere(System.Linq.Expressions.Expression<System.Func<TIndex, bool>>)Ö
+Ç
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csR R(]+
+deploymentPlansYesSql.IQuery<T, TIndex>"__id*!
+
+%19YesSql.IQuery<T, TIndex>*
+6*Û_
+6©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csU n(∏µ
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csU U(:+
+%20$System.Threading.Tasks.Task<TResult>"YesSql.IQuery<T>.CountAsync()*-
++
+deploymentPlansYesSql.IQuery<T, TIndex>2CountAsync()À
+»
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csU U(:
+countint"__id*
+""¥±
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csW  X(%
+%21YesSql.IQuery<T, TIndex>"aYesSql.IQuery<T, TIndex>.OrderBy(System.Linq.Expressions.Expression<System.Func<TIndex, object>>)*-
++
+deploymentPlansYesSql.IQuery<T, TIndex>*
+""2HOrderBy(System.Linq.Expressions.Expression<System.Func<TIndex, object>>)û
+õ
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csY Y(+
+
+%22int"0OrchardCore.Navigation.Pager.GetStartIndex(int?)*'
+%
+pagerOrchardCore.Navigation.Pager*
+""†ù
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csW  Y(,
+%23YesSql.IQuery<T>"YesSql.IQuery<T>.Skip(int)*!
+
+%21YesSql.IQuery<T, TIndex>*
+
+
+%22int2	Skip(int)è
+å
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csZ Z($
+
+%24int")OrchardCore.Navigation.Pager.PageSize.get*'
+%
+pagerOrchardCore.Navigation.Pageròï
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csW  Z(%
+%25YesSql.IQuery<T>"YesSql.IQuery<T>.Take(int)*
+
+%23YesSql.IQuery<T>*
+
+
+%24int2	Take(int)¢ü
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csW  [(+
+%26$System.Threading.Tasks.Task<TResult>"YesSql.IQuery<T>.ListAsync()*
+
+%25YesSql.IQuery<T>2ListAsync()Û
+
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csW [(4
+results)System.Collections.Generic.IEnumerable<T>"__id*
+""ÜÉ
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.cs^ ^(+-
+%27&Microsoft.AspNetCore.Routing.RouteData"&Microsoft.AspNetCore.Routing.RouteData°
+û
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.cs^  ^()
+%28void"2Microsoft.AspNetCore.Routing.RouteData.RouteData()*/
+-
+%27&Microsoft.AspNetCore.Routing.RouteDataõ
+ò
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.cs^ ^(+3
+	routeData&Microsoft.AspNetCore.Routing.RouteData"__id*/
+-
+%27&Microsoft.AspNetCore.Routing.RouteData”
+–
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.cs_ _(8
+%291Microsoft.AspNetCore.Routing.RouteValueDictionary"1Microsoft.AspNetCore.Routing.RouteData.Values.get*5
+3
+	routeData&Microsoft.AspNetCore.Routing.RouteData∫
+∑
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.cs_3 _(A
+%30string";OrchardCore.Deployment.ViewModels.ContentOptions.Search.get*=
+;
+options0OrchardCore.Deployment.ViewModels.ContentOptionsß
+§
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.cs_ _(B
+%31void"__mapSet*:
+8
+%291Microsoft.AspNetCore.Routing.RouteValueDictionary*
+Options.Search*
+
+%30stringò
+ï
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csa$ a('
+%32dynamic"__id*Q*O=
+;OrchardCore.Deployment.Controllers.DeploymentPlanController"
+Newdynamic‘
+—
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csa a(`
+
+pagerShapedynamic"__id*
+""∂≥
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csc h(E
+%33>OrchardCore.Deployment.ViewModels.DeploymentPlanIndexViewModel">OrchardCore.Deployment.ViewModels.DeploymentPlanIndexViewModel‰
+·
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csc c(8
+%34void"]OrchardCore.Deployment.ViewModels.DeploymentPlanIndexViewModel.DeploymentPlanIndexViewModel()*G
+E
+%33>OrchardCore.Deployment.ViewModels.DeploymentPlanIndexViewModelæ
+ª
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.cse" e(e0
+%35)System.Collections.Generic.IEnumerable<T>"System.Linq.Enumerable.Select<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)*"
+System.Linq.Enumerable*6
+4
+results)System.Collections.Generic.IEnumerable<T>*
+""É
+Ä
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.cse" e(n)
+%36"System.Collections.Generic.List<T>"WSystem.Linq.Enumerable.ToList<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*2
+0
+%35)System.Collections.Generic.IEnumerable<T>•
+¢
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.cse e(n*
+%37#System.Collections.Generic.IList<T>"ROrchardCore.Deployment.ViewModels.DeploymentPlanIndexViewModel.DeploymentPlans.set*G
+E
+%33>OrchardCore.Deployment.ViewModels.DeploymentPlanIndexViewModel*+
+)
+%36"System.Collections.Generic.List<T>º
+π
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csf f(!7
+%380OrchardCore.Deployment.ViewModels.ContentOptions"JOrchardCore.Deployment.ViewModels.DeploymentPlanIndexViewModel.Options.set*G
+E
+%33>OrchardCore.Deployment.ViewModels.DeploymentPlanIndexViewModel*=
+;
+options0OrchardCore.Deployment.ViewModels.ContentOptionsÎ
+Ë
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csg g("
+%39dynamic"HOrchardCore.Deployment.ViewModels.DeploymentPlanIndexViewModel.Pager.set*G
+E
+%33>OrchardCore.Deployment.ViewModels.DeploymentPlanIndexViewModel*
+
+
+pagerShapedynamic«
+ƒ
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csc h(G
+model>OrchardCore.Deployment.ViewModels.DeploymentPlanIndexViewModel"__id*G
+E
+%33>OrchardCore.Deployment.ViewModels.DeploymentPlanIndexViewModelˇ
+¸
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csj j(7
+%400OrchardCore.Deployment.ViewModels.ContentOptions"JOrchardCore.Deployment.ViewModels.DeploymentPlanIndexViewModel.Options.get*I
+G
+model>OrchardCore.Deployment.ViewModels.DeploymentPlanIndexViewModel˛˚
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csj6 l()
+%41"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>î
+ë
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csj: j(N
+%42void")System.Collections.Generic.List<T>.List()*+
+)
+%41"System.Collections.Generic.List<T>úô
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csk k(f8
+%431Microsoft.AspNetCore.Mvc.Rendering.SelectListItem"1Microsoft.AspNetCore.Mvc.Rendering.SelectListItemº
+π
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csk k("
+%44void"BMicrosoft.AspNetCore.Mvc.Rendering.SelectListItem.SelectListItem()*:
+8
+%431Microsoft.AspNetCore.Mvc.Rendering.SelectListItemÏ
+È
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csk. k(/9
+%452Microsoft.Extensions.Localization.IStringLocalizer"__id*z*x=
+;OrchardCore.Deployment.Controllers.DeploymentPlanController"7
+S2Microsoft.Extensions.Localization.IStringLocalizerâÜ
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csk. k(98
+%461Microsoft.Extensions.Localization.LocalizedString"CMicrosoft.Extensions.Localization.IStringLocalizer.this[string].get*;
+9
+%452Microsoft.Extensions.Localization.IStringLocalizer*
+
+Delete2this[string].getÚ
+Ô
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csk' k(9
+%47string":Microsoft.AspNetCore.Mvc.Rendering.SelectListItem.Text.set*:
+8
+%431Microsoft.AspNetCore.Mvc.Rendering.SelectListItem*:
+8
+%461Microsoft.Extensions.Localization.LocalizedStringø
+º
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csk; k(d
+%48string";Microsoft.AspNetCore.Mvc.Rendering.SelectListItem.Value.set*:
+8
+%431Microsoft.AspNetCore.Mvc.Rendering.SelectListItem*
+""í
+è
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csj l()
+%49"System.Collections.Generic.List<T>"NOrchardCore.Deployment.ViewModels.ContentOptions.DeploymentPlansBulkAction.set*9
+7
+%400OrchardCore.Deployment.ViewModels.ContentOptions*+
+)
+%41"System.Collections.Generic.List<T>¯
+ı
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csn n(
+%50void"1orchardcore.deployment/views/deploymentplan/index*
+
+%51*I
+G
+model>OrchardCore.Deployment.ViewModels.DeploymentPlanIndexViewModel*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject* 
+
+%HttpContextItemsAllobject*!
+
+%HttpContextItemsHtmlobject"ª
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.csn n(
+
+%50void*Û
+7©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.cso	 o(	"¡
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.cso o(	
+implicit return*ˆ
+8©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.cs?g ?(gü
+ú
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.cs?) ?(.`
+;
+options0OrchardCore.Deployment.ViewModels.ContentOptions"!
+<Search>k__BackingFieldstring"__entrypointé
+ã
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.cs?) ?(.O
+;
+options0OrchardCore.Deployment.ViewModels.ContentOptions"
+Searchstring"__entrypointœ
+Ã
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.cs?) ?(.è
+;
+options0OrchardCore.Deployment.ViewModels.ContentOptions"P
+*<DeploymentPlansBulkAction>k__BackingField"System.Collections.Generic.List<T>"__entrypointΩ
+∫
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.cs?) ?(.~
+;
+options0OrchardCore.Deployment.ViewModels.ContentOptions"?
+DeploymentPlansBulkAction"System.Collections.Generic.List<T>"__entrypointñ
+ì
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.cs?) ?(.W
+9
+pagerParameters&OrchardCore.Navigation.PagerParameters"
+PageSystem.Nullable<T>"__entrypointö
+ó
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.cs?) ?(.[
+9
+pagerParameters&OrchardCore.Navigation.PagerParameters"
+PageSizeSystem.Nullable<T>"__entrypointƒ
+¡
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\DeploymentPlanController.cs?) ?(.
+%52"__entrypoint*
+0:;
+options0OrchardCore.Deployment.ViewModels.ContentOptions:9
+pagerParameters&OrchardCore.Navigation.PagerParametersB?=
+;OrchardCore.Deployment.Controllers.DeploymentPlanController

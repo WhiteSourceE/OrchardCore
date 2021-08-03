@@ -1,0 +1,322 @@
+
+NOrchardCore.Lucene.Controllers.ApiController.Documents(string, string, string)ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\ApiController.cs8) 8(2"7*™
+0ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\ApiController.cs= =(\Ô
+Ï
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\ApiController.cs= =(,>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*Ü*É.
+,OrchardCore.Lucene.Controllers.ApiController"Q
+_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationService≠
+™
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\ApiController.cs=< =(@,
+%1&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBaseæ
+ª
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\ApiController.cs=B =(\1
+%2+OrchardCore.Security.Permissions.Permission"__id*c*a 
+OrchardCore.Lucene.Permissions"=
+QueryLuceneApi+OrchardCore.Security.Permissions.Permissionú
+ô
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\ApiController.cs= =(]*
+%3$System.Threading.Tasks.Task<TResult>"ﬂMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission)*E"C
+AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*@
+>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService*.
+,
+%1&System.Security.Claims.ClaimsPrincipal*3
+1
+%2+OrchardCore.Security.Permissions.Permission*
+1
+2*¶
+1ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\ApiController.cs? ?(3¥
+±
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\ApiController.cs? ?(4+
+%4%Microsoft.AspNetCore.Mvc.ActionResult"vOrchardCore.Mvc.Utilities.ControllerExtensions.ChallengeOrForbid(Microsoft.AspNetCore.Mvc.Controller, params string[])*2"0
+.OrchardCore.Mvc.Utilities.ControllerExtensions*0.
+,OrchardCore.Lucene.Controllers.ApiController*
+Api"Ã
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\ApiController.cs? ?(5-
++
+%4%Microsoft.AspNetCore.Mvc.ActionResult*»
+2ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\ApiController.csB H(4Ê„
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\ApiController.csB F($
+%5OrchardCore.Lucene.LuceneQuery"OrchardCore.Lucene.LuceneQueryÇ
+ˇ
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\ApiController.csB" B(-
+
+%6void",OrchardCore.Lucene.LuceneQuery.LuceneQuery()*&
+$
+%5OrchardCore.Lucene.LuceneQueryó
+î
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\ApiController.csD D(!
+%7string"(OrchardCore.Lucene.LuceneQuery.Index.set*&
+$
+%5OrchardCore.Lucene.LuceneQuery*
+
+	indexNamestringñ
+ì
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\ApiController.csE E( 
+%8string"+OrchardCore.Lucene.LuceneQuery.Template.set*&
+$
+%5OrchardCore.Lucene.LuceneQuery*
+
+querystring˝
+˙
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\ApiController.csB F(-
+luceneQueryOrchardCore.Lucene.LuceneQuery"__id*&
+$
+%5OrchardCore.Lucene.LuceneQuery¸
+˘
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\ApiController.csH" H(4
+
+%9bool""string.operator !=(string, string)*
+"
+string*
+
+
+parametersstring*
+""*
+3
+4*Ω
+3ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\ApiController.csI I(Tœ
+Ã
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\ApiController.csI I(U:
+%133System.Collections.Generic.Dictionary<TKey, TValue>"8Newtonsoft.Json.JsonConvert.DeserializeObject<T>(string)*"
+Newtonsoft.Json.JsonConvert*
+
+
+parametersstring†
+ù
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\ApiController.csI I(U:
+%113System.Collections.Generic.Dictionary<TKey, TValue>"__id*<
+:
+%133System.Collections.Generic.Dictionary<TKey, TValue>†
+ù
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\ApiController.csI I(U:
+%103System.Collections.Generic.Dictionary<TKey, TValue>"__id*<
+:
+%113System.Collections.Generic.Dictionary<TKey, TValue>*
+5*Ø
+
+4ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\ApiController.csJ J(2ëé
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\ApiController.csJ J(2:
+%143System.Collections.Generic.Dictionary<TKey, TValue>"3System.Collections.Generic.Dictionary<TKey, TValue>≠
+™
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\ApiController.csJ J(0
+%15void"@System.Collections.Generic.Dictionary<TKey, TValue>.Dictionary()*<
+:
+%143System.Collections.Generic.Dictionary<TKey, TValue>†
+ù
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\ApiController.csJ J(2:
+%123System.Collections.Generic.Dictionary<TKey, TValue>"__id*<
+:
+%143System.Collections.Generic.Dictionary<TKey, TValue>†
+ù
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\ApiController.csJ J(2:
+%103System.Collections.Generic.Dictionary<TKey, TValue>"__id*<
+:
+%123System.Collections.Generic.Dictionary<TKey, TValue>*
+5*Õ
+5ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\ApiController.csH N(0¨
+©
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\ApiController.csH J(2F
+queryParameters3System.Collections.Generic.Dictionary<TKey, TValue>"__id*<
+:
+%103System.Collections.Generic.Dictionary<TKey, TValue>√
+¿
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\ApiController.csL L(1+
+%16$OrchardCore.Lucene.LuceneQuerySource"__id*n*l.
+,OrchardCore.Lucene.Controllers.ApiController":
+_luceneQuerySource$OrchardCore.Lucene.LuceneQuerySourceÉ
+Ä
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\ApiController.csL L(a+
+%17$System.Threading.Tasks.Task<TResult>"âOrchardCore.Lucene.LuceneQuerySource.ExecuteQueryAsync(OrchardCore.Queries.Query, System.Collections.Generic.IDictionary<string, object>)*-
++
+%16$OrchardCore.Lucene.LuceneQuerySource*/
+-
+luceneQueryOrchardCore.Lucene.LuceneQuery*H
+F
+queryParameters3System.Collections.Generic.Dictionary<TKey, TValue>€
+ÿ
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\ApiController.csL L(a+
+result!OrchardCore.Queries.IQueryResults"__id*
+""π∂
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\ApiController.csN$ N(00
+%18)System.Collections.Generic.IEnumerable<T>"+OrchardCore.Queries.IQueryResults.Items.get*-
++
+result!OrchardCore.Queries.IQueryResults2	Items.getıÚ
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\ApiController.csN N(1,
+%19%Microsoft.AspNetCore.Mvc.ObjectResult"%Microsoft.AspNetCore.Mvc.ObjectResultÕ
+ 
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\ApiController.csN N(#
+%20void":Microsoft.AspNetCore.Mvc.ObjectResult.ObjectResult(object)*.
+,
+%19%Microsoft.AspNetCore.Mvc.ObjectResult*2
+0
+%18)System.Collections.Generic.IEnumerable<T>"Õ
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\ApiController.csN N(2.
+,
+%19%Microsoft.AspNetCore.Mvc.ObjectResult*’
+6ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\ApiController.csO	 O(	"≤
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\ApiController.csO O(	
+implicit return*…
+7ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\ApiController.cs; ;(˜
+Ù
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\ApiController.cs8) 8(2
+%21"__entrypoint*
+
+	indexNamestring*
+
+querystring*
+
+
+parametersstringé
+ã
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\ApiController.cs6	 6(
+%22"
+__annotate*B@
+>Microsoft.AspNetCore.Mvc.HttpPostAttribute.HttpPostAttribute()*
+
+	indexNamestringå
+â
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\ApiController.cs6 6(
+%23"
+__annotate*@>
+<Microsoft.AspNetCore.Mvc.HttpGetAttribute.HttpGetAttribute()*
+
+	indexNamestringé
+ã
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\ApiController.cs7	 7(
+%24"
+__annotate*B@
+>Microsoft.AspNetCore.Mvc.RouteAttribute.RouteAttribute(string)*
+
+	indexNamestringﬁ
+€
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\ApiController.cs9 9(
+	indexNamestring"__annotation*
+
+%22*
+
+%23*
+
+%24ä
+á
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\ApiController.cs6	 6(
+%25"
+__annotate*B@
+>Microsoft.AspNetCore.Mvc.HttpPostAttribute.HttpPostAttribute()*
+
+querystringà
+Ö
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\ApiController.cs6 6(
+%26"
+__annotate*@>
+<Microsoft.AspNetCore.Mvc.HttpGetAttribute.HttpGetAttribute()*
+
+querystringä
+á
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\ApiController.cs7	 7(
+%27"
+__annotate*B@
+>Microsoft.AspNetCore.Mvc.RouteAttribute.RouteAttribute(string)*
+
+querystring⁄
+◊
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\ApiController.cs: :(
+querystring"__annotation*
+
+%25*
+
+%26*
+
+%27è
+å
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\ApiController.cs6	 6(
+%28"
+__annotate*B@
+>Microsoft.AspNetCore.Mvc.HttpPostAttribute.HttpPostAttribute()*
+
+
+parametersstringç
+ä
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\ApiController.cs6 6(
+%29"
+__annotate*@>
+<Microsoft.AspNetCore.Mvc.HttpGetAttribute.HttpGetAttribute()*
+
+
+parametersstringè
+å
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\ApiController.cs7	 7(
+%30"
+__annotate*B@
+>Microsoft.AspNetCore.Mvc.RouteAttribute.RouteAttribute(string)*
+
+
+parametersstringﬂ
+‹
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\ApiController.cs; ;(
+
+parametersstring"__annotation*
+
+%28*
+
+%29*
+
+%30*
+0:
+	indexNamestring:
+querystring:
+
+parametersstringB0.
+,OrchardCore.Lucene.Controllers.ApiController

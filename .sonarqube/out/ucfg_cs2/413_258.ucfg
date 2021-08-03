@@ -1,0 +1,545 @@
+
+UOrchardCore.Taxonomies.Controllers.AdminController.CreatePost(string, string, string)†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csK) K(3"20*‘
+0†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csM M(^˚
+¯
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csM M(,>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*å*â4
+2OrchardCore.Taxonomies.Controllers.AdminController"Q
+_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationService≥
+∞
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csM< M(@,
+%1&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase 
+«
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csMB M(^1
+%2+OrchardCore.Security.Permissions.Permission"__id*i*g$
+"OrchardCore.Taxonomies.Permissions"?
+ManageTaxonomies+OrchardCore.Security.Permissions.Permission¢
+ü
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csM M(_*
+%3$System.Threading.Tasks.Task<TResult>"ﬂMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission)*E"C
+AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*@
+>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService*.
+,
+%1&System.Security.Claims.ClaimsPrincipal*3
+1
+%2+OrchardCore.Security.Permissions.Permission*
+1
+2*∫
+1†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csO O(ºπ
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csO O(+
+%4%Microsoft.AspNetCore.Mvc.ForbidResult"0Microsoft.AspNetCore.Mvc.ControllerBase.Forbid()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2Forbid()"“
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csO O( -
++
+%4%Microsoft.AspNetCore.Mvc.ForbidResult*ÿ
+2†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csR V(Sè
+å
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csT( T(AF
+%5@OrchardCore.ContentManagement.Metadata.IContentDefinitionManager"__id*ò*ï4
+2OrchardCore.Taxonomies.Controllers.AdminController"]
+_contentDefinitionManager@OrchardCore.ContentManagement.Metadata.IContentDefinitionManager¿Ω
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csT( T(_I
+%6COrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition"ZOrchardCore.ContentManagement.Metadata.IContentDefinitionManager.GetTypeDefinition(string)*H
+F
+%5@OrchardCore.ContentManagement.Metadata.IContentDefinitionManager*
+
+Taxonomy2GetTypeDefinition(string)◊
+‘
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csT T(_\
+contentTypeDefinitionCOrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition"__id*K
+I
+%6COrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition£
+†
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csV V(II
+%7COrchardCore.ContentManagement.Metadata.Settings.ContentTypeSettings"POrchardCore.ContentManagement.Metadata.Models.ContentDefinition.GetSettings<T>()*^
+\
+contentTypeDefinitionCOrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition“
+œ
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csV V(S
+
+%8bool"QOrchardCore.ContentManagement.Metadata.Settings.ContentTypeSettings.Draftable.get*K
+I
+%7COrchardCore.ContentManagement.Metadata.Settings.ContentTypeSettings*
+3
+4*◊
+3†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csX X(f›
+⁄
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csX! X(03
+%9-OrchardCore.ContentManagement.IContentManager"__id*z*x4
+2OrchardCore.Taxonomies.Controllers.AdminController"@
+_contentManager-OrchardCore.ContentManagement.IContentManager∆
+√
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csXQ X(f3
+%10,OrchardCore.ContentManagement.VersionOptions"7OrchardCore.ContentManagement.VersionOptions.Latest.get*0".
+,OrchardCore.ContentManagement.VersionOptionsíè
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csX! X(g+
+%11$System.Threading.Tasks.Task<TResult>"lOrchardCore.ContentManagement.IContentManager.GetAsync(string, OrchardCore.ContentManagement.VersionOptions)*5
+3
+%9-OrchardCore.ContentManagement.IContentManager*!
+
+taxonomyContentItemIdstring*5
+3
+%10,OrchardCore.ContentManagement.VersionOptions2>GetAsync(string, OrchardCore.ContentManagement.VersionOptions)Î
+Ë
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csX X(g5
+taxonomy)OrchardCore.ContentManagement.ContentItem"__id*
+""*
+5*‡
+4†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.cs\ \(mﬁ
+€
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.cs\! \(04
+%12-OrchardCore.ContentManagement.IContentManager"__id*z*x4
+2OrchardCore.Taxonomies.Controllers.AdminController"@
+_contentManager-OrchardCore.ContentManagement.IContentManagerÕ
+ 
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.cs\Q \(m3
+%13,OrchardCore.ContentManagement.VersionOptions">OrchardCore.ContentManagement.VersionOptions.DraftRequired.get*0".
+,OrchardCore.ContentManagement.VersionOptionsìê
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.cs\! \(n+
+%14$System.Threading.Tasks.Task<TResult>"lOrchardCore.ContentManagement.IContentManager.GetAsync(string, OrchardCore.ContentManagement.VersionOptions)*6
+4
+%12-OrchardCore.ContentManagement.IContentManager*!
+
+taxonomyContentItemIdstring*5
+3
+%13,OrchardCore.ContentManagement.VersionOptions2>GetAsync(string, OrchardCore.ContentManagement.VersionOptions)Î
+Ë
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.cs\ \(n5
+taxonomy)OrchardCore.ContentManagement.ContentItem"__id*
+""*
+5*’
+5†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.cs_ _( §
+°
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.cs_ _( 
+%15bool""object.operator ==(object, object)*
+"
+object*7
+5
+taxonomy)OrchardCore.ContentManagement.ContentItem*
+""*
+6
+7*ƒ
+6†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csa a(!√¿
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csa a(!.
+%16'Microsoft.AspNetCore.Mvc.NotFoundResult"2Microsoft.AspNetCore.Mvc.ControllerBase.NotFound()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2
+NotFound()"’
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csa a("0
+.
+%16'Microsoft.AspNetCore.Mvc.NotFoundResult*√&
+7†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csd j(#ﬁ
+€
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csd$ d(34
+%17-OrchardCore.ContentManagement.IContentManager"__id*z*x4
+2OrchardCore.Taxonomies.Controllers.AdminController"@
+_contentManager-OrchardCore.ContentManagement.IContentManagerÌÍ
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csd$ d(@+
+%18$System.Threading.Tasks.Task<TResult>">OrchardCore.ContentManagement.IContentManager.NewAsync(string)*6
+4
+%17-OrchardCore.ContentManagement.IContentManager*
+
+idstring2NewAsync(string)Ó
+Î
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csd d(@8
+contentItem)OrchardCore.ContentManagement.ContentItem"__id*
+"" 
+«
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.cse e((3
+%19,OrchardCore.ContentManagement.ContentElement"tOrchardCore.ContentManagement.ContentExtensions.Weld<TElement>(OrchardCore.ContentManagement.ContentElement, object)*3"1
+/OrchardCore.ContentManagement.ContentExtensions*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItem*
+""Ÿ
+÷
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csf f(]0
+%20)OrchardCore.ContentManagement.ContentItem"ÅOrchardCore.ContentManagement.ContentItemExtensions.Alter<TPart>(OrchardCore.ContentManagement.ContentItem, System.Action<TPart>)*7"5
+3OrchardCore.ContentManagement.ContentItemExtensions*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItem*
+""ë
+é
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csh" h(<G
+%21@OrchardCore.ContentManagement.Display.IContentItemDisplayManager"__id*ô*ñ4
+2OrchardCore.Taxonomies.Controllers.AdminController"^
+_contentItemDisplayManager@OrchardCore.ContentManagement.Display.IContentItemDisplayManagerâ
+Ü
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csh\ h(pF
+%22?OrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessor"__id*í*è4
+2OrchardCore.Taxonomies.Controllers.AdminController"W
+_updateModelAccessor?OrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessorîë
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csh\ h(}>
+%237OrchardCore.DisplayManagement.ModelBinding.IUpdateModel"POrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessor.ModelUpdater.get*H
+F
+%22?OrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessor2ModelUpdater.getíè
+°
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csh" h(Ñ+
+%24$System.Threading.Tasks.Task<TResult>"ÃOrchardCore.ContentManagement.Display.IContentItemDisplayManager.UpdateEditorAsync(OrchardCore.ContentManagement.ContentItem, OrchardCore.DisplayManagement.ModelBinding.IUpdateModel, bool, string, string)*I
+G
+%21@OrchardCore.ContentManagement.Display.IContentItemDisplayManager*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItem*@
+>
+%237OrchardCore.DisplayManagement.ModelBinding.IUpdateModel*
+""*
+""*
+""2ãUpdateEditorAsync(OrchardCore.ContentManagement.ContentItem, OrchardCore.DisplayManagement.ModelBinding.IUpdateModel, bool, string, string)«
+ƒ
+°
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csh h(Ñ
+modeldynamic"__id*
+""Œ
+À
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csj j(A
+%25:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary"6Microsoft.AspNetCore.Mvc.ControllerBase.ModelState.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase¿
+Ω
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csj j(#
+%26bool"FMicrosoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary.IsValid.get*C
+A
+%25:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary*
+8
+9*÷	
+8†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csl o(!â
+Ü
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csl l(C
+%27"__mapSet*
+
+modeldynamic*
+TaxonomyContentItemId*!
+
+taxonomyContentItemIdstring˚
+¯
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csm m(5
+%28"__mapSet*
+
+modeldynamic*
+TaxonomyItemId*
+
+taxonomyItemIdstringœÃ
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.cso o("*
+%29#Microsoft.AspNetCore.Mvc.ViewResult"0Microsoft.AspNetCore.Mvc.Controller.View(object)*'%
+#Microsoft.AspNetCore.Mvc.Controller*
+
+modeldynamic2View(object)"—
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.cso o(#,
+*
+%29#Microsoft.AspNetCore.Mvc.ViewResult*∫
+9†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csr r(&á
+Ñ
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csr r(&
+%30bool""string.operator ==(string, string)*
+"
+string*
+
+taxonomyItemIdstring*
+""*
+10
+11*Ü
+10†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csu u(P÷
+”
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csu u(Q0
+%31)OrchardCore.ContentManagement.ContentItem"ÅOrchardCore.ContentManagement.ContentItemExtensions.Alter<TPart>(OrchardCore.ContentManagement.ContentItem, System.Action<TPart>)*7"5
+3OrchardCore.ContentManagement.ContentItemExtensions*7
+5
+taxonomy)OrchardCore.ContentManagement.ContentItem*
+""*
+12*Ω
+11†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csz }(.µ
+≤
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csz: z(U1
+%32*OrchardCore.Taxonomies.Models.TaxonomyPart"hOrchardCore.ContentManagement.ContentItemExtensions.As<TPart>(OrchardCore.ContentManagement.ContentItem)*7"5
+3OrchardCore.ContentManagement.ContentItemExtensions*7
+5
+taxonomy)OrchardCore.ContentManagement.ContentItem•
+¢
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csz: z(]
+%33dynamic"8OrchardCore.ContentManagement.ContentElement.Content.get*3
+1
+%32*OrchardCore.Taxonomies.Models.TaxonomyPartú
+ô
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csz) z(n#
+%34Newtonsoft.Json.Linq.JObject"iOrchardCore.Taxonomies.Controllers.AdminController.FindTaxonomyItem(Newtonsoft.Json.Linq.JObject, string)*64
+2OrchardCore.Taxonomies.Controllers.AdminController*
+
+%33dynamic*
+
+taxonomyItemIdstringÚ
+Ô
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csz z(n
+parentTaxonomyItemdynamic"__id*%
+#
+%34Newtonsoft.Json.Linq.JObjectï
+í
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.cs} }(.
+%35dynamic"%dynamic.operator ==(dynamic, dynamic)*"
+	__unknown*
+
+parentTaxonomyItemdynamic*
+""*
+13
+14*≈
+13†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.cs (%√¿
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.cs (%.
+%36'Microsoft.AspNetCore.Mvc.NotFoundResult"2Microsoft.AspNetCore.Mvc.ControllerBase.NotFound()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2
+NotFound()"’
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.cs (&0
+.
+%36'Microsoft.AspNetCore.Mvc.NotFoundResult*≥
+14¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csÇ$ Ç(6*
+15
+16*Ø
+16¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csÇ7 Ç(=*
+15*˚
+15¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csÇ Ñ()Ω
+∫
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csÇ$ Ç(G
+%37"__id*
+""Â
+‚
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csÇ Ç(G,
+taxonomyItemsNewtonsoft.Json.Linq.JArray"__id*
+
+%37ù
+ö
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csÑ Ñ()
+%38bool""object.operator ==(object, object)*
+"
+object*.
+,
+taxonomyItemsNewtonsoft.Json.Linq.JArray*
+""*
+17
+18*§	
+17¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csÜ Ü(NÈÊ
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csÜB Ü(N"
+%39Newtonsoft.Json.Linq.JArray"Newtonsoft.Json.Linq.JArrayÅ
+˛
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csÜF Ü(L
+%40void"$Newtonsoft.Json.Linq.JArray.JArray()*$
+"
+%39Newtonsoft.Json.Linq.JArrayÇ
+ˇ
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csÜ2 Ü(N,
+taxonomyItemsNewtonsoft.Json.Linq.JArray"__id*$
+"
+%39Newtonsoft.Json.Linq.JArray˝
+˙
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csÜ Ü(N
+parentTaxonomyItemdynamic"__id*.
+,
+taxonomyItemsNewtonsoft.Json.Linq.JArray*
+18*≠
+18¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csâ â(@‹
+Ÿ
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csâ" â(A#
+%41Newtonsoft.Json.Linq.JObject"/Newtonsoft.Json.Linq.JObject.FromObject(object)* "
+Newtonsoft.Json.Linq.JObject*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItemú
+ô
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csâ â(B
+%42void"
+__arrayAdd*.
+,
+taxonomyItemsNewtonsoft.Json.Linq.JArray*: *%
+#
+%41Newtonsoft.Json.Linq.JObject*
+12*π
+12¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.cså é(ù
+ö
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.cså å(
+%43YesSql.ISession"__id*U*S4
+2OrchardCore.Taxonomies.Controllers.AdminController"
+_sessionYesSql.ISession‡›
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.cså å(#
+%44void"*YesSql.ISession.Save(object, bool, string)*
+
+%43YesSql.ISession*7
+5
+taxonomy)OrchardCore.ContentManagement.ContentItem*
+""*
+""2Save(object, bool, string)ß§
+£
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csé é(Ç6
+%45/Microsoft.AspNetCore.Mvc.RedirectToActionResult"PMicrosoft.AspNetCore.Mvc.ControllerBase.RedirectToAction(string, string, object)*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*
+Edit*	
+Admin*
+""2(RedirectToAction(string, string, object)"‡
+£
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csé é(É8
+6
+%45/Microsoft.AspNetCore.Mvc.RedirectToActionResult*Ê
+19¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csè	 è(	"∫
+¢
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csè è(	
+implicit return*ô
+20†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csKs K(sä
+á
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csK) K(3
+%46"__entrypoint*
+
+idstring*!
+
+taxonomyContentItemIdstring*
+
+taxonomyItemIdstringç
+ä
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csI	 I(
+%47"
+__annotate*B@
+>Microsoft.AspNetCore.Mvc.HttpPostAttribute.HttpPostAttribute()*
+
+idstringó
+î
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csJ	 J(
+%48"
+__annotate*LJ
+HMicrosoft.AspNetCore.Mvc.ActionNameAttribute.ActionNameAttribute(string)*
+
+idstring‘
+—
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csK4 K(=
+idstring"__annotation*
+
+%47*
+
+%48†
+ù
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csI	 I(
+%49"
+__annotate*B@
+>Microsoft.AspNetCore.Mvc.HttpPostAttribute.HttpPostAttribute()*!
+
+taxonomyContentItemIdstring™
+ß
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csJ	 J(
+%50"
+__annotate*LJ
+HMicrosoft.AspNetCore.Mvc.ActionNameAttribute.ActionNameAttribute(string)*!
+
+taxonomyContentItemIdstringÁ
+‰
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csK? K([
+taxonomyContentItemIdstring"__annotation*
+
+%49*
+
+%50ô
+ñ
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csI	 I(
+%51"
+__annotate*B@
+>Microsoft.AspNetCore.Mvc.HttpPostAttribute.HttpPostAttribute()*
+
+taxonomyItemIdstring£
+†
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csJ	 J(
+%52"
+__annotate*LJ
+HMicrosoft.AspNetCore.Mvc.ActionNameAttribute.ActionNameAttribute(string)*
+
+taxonomyItemIdstring‡
+›
+†
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Controllers\AdminController.csK] K(r
+taxonomyItemIdstring"__annotation*
+
+%51*
+
+%52*
+0:
+idstring:
+taxonomyContentItemIdstring:
+taxonomyItemIdstringB64
+2OrchardCore.Taxonomies.Controllers.AdminController

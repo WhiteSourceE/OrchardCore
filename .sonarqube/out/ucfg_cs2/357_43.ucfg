@@ -1,0 +1,83 @@
+
+YOrchardCore.Documents.DefaultDocumentSerializer.SerializeAsync<TDocument>(TDocument, int)¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DefaultDocumentSerializer.cs (*"0*à
+0¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DefaultDocumentSerializer.cs  (0ÿ
+ü
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DefaultDocumentSerializer.cs ($
+%0System.Text.Encoding"System.Text.Encoding.UTF8.get*"
+System.Text.EncodingÎ
+Ë
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DefaultDocumentSerializer.csT (a,
+%1&Newtonsoft.Json.JsonSerializerSettings"__id*n*l1
+/OrchardCore.Documents.DefaultDocumentSerializer"7
+_jsonSettings&Newtonsoft.Json.JsonSerializerSettings€
+ý
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DefaultDocumentSerializer.cs. (b
+%2string"\Newtonsoft.Json.JsonConvert.SerializeObject(object?, Newtonsoft.Json.JsonSerializerSettings)*"
+Newtonsoft.Json.JsonConvert*
+
+document	TDocument*.
+,
+%1&Newtonsoft.Json.JsonSerializerSettingsŸœ
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DefaultDocumentSerializer.cs (c
+%3byte[]"%System.Text.Encoding.GetBytes(string)*
+
+%0System.Text.Encoding*
+
+%2string2GetBytes(string)Ð
+Í
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DefaultDocumentSerializer.cs (c
+databyte[]"__id*
+
+%3byte[]à
+Ý
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DefaultDocumentSerializer.cs   (	
+%4int"System.Array.Length.get*
+
+databyte[]*
+1
+2*Æ
+1¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DefaultDocumentSerializer.cs" "($Á
+¾
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DefaultDocumentSerializer.cs" "(%
+%5byte[]"@OrchardCore.Documents.DefaultDocumentSerializer.Compress(byte[])*3"1
+/OrchardCore.Documents.DefaultDocumentSerializer*
+
+databyte[]Ð
+Í
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DefaultDocumentSerializer.cs" "(%
+databyte[]"__id*
+
+%5byte[]*
+2*È
+2¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DefaultDocumentSerializer.cs% %('Ã
+À
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DefaultDocumentSerializer.cs% %((*
+%6$System.Threading.Tasks.Task<TResult>"8System.Threading.Tasks.Task.FromResult<TResult>(TResult)*"
+System.Threading.Tasks.Task*
+
+databyte[]"Õ
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DefaultDocumentSerializer.cs% %(),
+*
+%6$System.Threading.Tasks.Task<TResult>*é
+3¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DefaultDocumentSerializer.cs&	 &(	"¼
+¤
+™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DefaultDocumentSerializer.cs& &(	
+implicit return:
+document	TDocument:
+compressThresholdintB31
+/OrchardCore.Documents.DefaultDocumentSerializer

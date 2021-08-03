@@ -1,0 +1,168 @@
+
+jOrchardCore.Lucene.Recipes.LuceneIndexStep.ExecuteAsync(OrchardCore.Recipes.Models.RecipeExecutionContext)ò
+çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Recipes\LuceneIndexStep.cs (&"0*£
+0ò
+çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Recipes\LuceneIndexStep.cs (_®
+•
+ò
+çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Recipes\LuceneIndexStep.cs (+
+%0string":OrchardCore.Recipes.Models.RecipeExecutionContext.Name.get*>
+<
+context1OrchardCore.Recipes.Models.RecipeExecutionContext≤
+Ø
+ò
+çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Recipes\LuceneIndexStep.cs= (_
+%1"__id*
+""ö
+ó
+ò
+çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Recipes\LuceneIndexStep.cs (`
+
+%2bool"8string.Equals(string?, string?, System.StringComparison)*
+"
+string*
+
+%0string*
+lucene-index*
+
+%1*
+1
+2*ƒ
+1ò
+çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Recipes\LuceneIndexStep.cs2	 2(	"£
+ò
+çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Recipes\LuceneIndexStep.cs! !(
+""*Î	
+2ò
+çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Recipes\LuceneIndexStep.cs$ %(æ
+ª
+ò
+çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Recipes\LuceneIndexStep.cs$ $(&"
+%3Newtonsoft.Json.Linq.JObject":OrchardCore.Recipes.Models.RecipeExecutionContext.Step.get*>
+<
+context1OrchardCore.Recipes.Models.RecipeExecutionContext˛
+˚
+ò
+çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Recipes\LuceneIndexStep.cs$ $(1!
+%4Newtonsoft.Json.Linq.JToken"__mapGet*$
+"
+%3Newtonsoft.Json.Linq.JObject*	
+IndicesÒ
+Ó
+ò
+çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Recipes\LuceneIndexStep.cs$ $(1&
+indicesNewtonsoft.Json.Linq.JToken"__id*#
+!
+%4Newtonsoft.Json.Linq.JTokenå
+â
+ò
+çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Recipes\LuceneIndexStep.cs% %(
+
+%5bool""object.operator !=(object, object)*
+"
+object*(
+&
+indicesNewtonsoft.Json.Linq.JToken*
+""*
+3
+4*£
+3ò
+çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Recipes\LuceneIndexStep.cs'& '(-*
+5*¶
+5ò
+çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Recipes\LuceneIndexStep.cs2	 2(	*
+6
+4*∆
+6ò
+çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Recipes\LuceneIndexStep.cs) +(K¨
+©
+ò
+çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Recipes\LuceneIndexStep.cs). )(g9
+%63System.Collections.Generic.Dictionary<TKey, TValue>")Newtonsoft.Json.Linq.JToken.ToObject<T>()*&
+$
+indexNewtonsoft.Json.Linq.JTokenï
+í
+ò
+çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Recipes\LuceneIndexStep.cs). )(x;
+%75System.Collections.Generic.KeyValuePair<TKey, TValue>"_System.Linq.Enumerable.FirstOrDefault<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*;
+9
+%63System.Collections.Generic.Dictionary<TKey, TValue>±
+Æ
+ò
+çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Recipes\LuceneIndexStep.cs) )(xL
+luceneIndexSettings5System.Collections.Generic.KeyValuePair<TKey, TValue>"__id*=
+;
+%75System.Collections.Generic.KeyValuePair<TKey, TValue>¡
+æ
+ò
+çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Recipes\LuceneIndexStep.cs+ +(,+
+%8%OrchardCore.Lucene.LuceneIndexManager"__id*n*l,
+*OrchardCore.Lucene.Recipes.LuceneIndexStep"<
+_luceneIndexManager%OrchardCore.Lucene.LuceneIndexManagerª
+∏
+ò
+çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Recipes\LuceneIndexStep.cs+4 +(K
+%9string"=System.Collections.Generic.KeyValuePair<TKey, TValue>.Key.get*N
+L
+luceneIndexSettings5System.Collections.Generic.KeyValuePair<TKey, TValue>†
+ù
+ò
+çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Recipes\LuceneIndexStep.cs+ +(L
+%10bool"4OrchardCore.Lucene.LuceneIndexManager.Exists(string)*-
++
+%8%OrchardCore.Lucene.LuceneIndexManager*
+
+%9string*
+7
+5* 
+7ò
+çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Recipes\LuceneIndexStep.cs- .(_‰
+·
+ò
+çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Recipes\LuceneIndexStep.cs- -(13
+%11,OrchardCore.Lucene.Model.LuceneIndexSettings"?System.Collections.Generic.KeyValuePair<TKey, TValue>.Value.get*N
+L
+luceneIndexSettings5System.Collections.Generic.KeyValuePair<TKey, TValue>º
+π
+ò
+çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Recipes\LuceneIndexStep.cs-> -(U
+%12string"=System.Collections.Generic.KeyValuePair<TKey, TValue>.Key.get*N
+L
+luceneIndexSettings5System.Collections.Generic.KeyValuePair<TKey, TValue>±
+Æ
+ò
+çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Recipes\LuceneIndexStep.cs- -(U
+%13string":OrchardCore.Lucene.Model.LuceneIndexSettings.IndexName.set*5
+3
+%11,OrchardCore.Lucene.Model.LuceneIndexSettings*
+
+%12stringÀ
+»
+ò
+çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Recipes\LuceneIndexStep.cs. .(4/
+%14(OrchardCore.Lucene.LuceneIndexingService"__id*t*r,
+*OrchardCore.Lucene.Recipes.LuceneIndexStep"B
+_luceneIndexingService(OrchardCore.Lucene.LuceneIndexingService‰
+·
+ò
+çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Recipes\LuceneIndexStep.cs.F .(_3
+%15,OrchardCore.Lucene.Model.LuceneIndexSettings"?System.Collections.Generic.KeyValuePair<TKey, TValue>.Value.get*N
+L
+luceneIndexSettings5System.Collections.Generic.KeyValuePair<TKey, TValue>ï
+í
+ò
+çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Recipes\LuceneIndexStep.cs. .(`"
+%16System.Threading.Tasks.Task"gOrchardCore.Lucene.LuceneIndexingService.CreateIndexAsync(OrchardCore.Lucene.Model.LuceneIndexSettings)*1
+/
+%14(OrchardCore.Lucene.LuceneIndexingService*5
+3
+%15,OrchardCore.Lucene.Model.LuceneIndexSettings*
+5*—
+4ò
+çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Recipes\LuceneIndexStep.cs2	 2(	"∞
+ò
+çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Recipes\LuceneIndexStep.cs2 2(	
+implicit return:<
+context1OrchardCore.Recipes.Models.RecipeExecutionContextB.,
+*OrchardCore.Lucene.Recipes.LuceneIndexStep

@@ -1,0 +1,118 @@
+
+çOrchardCore.OpenId.Services.Managers.OpenIdApplicationManager<TApplication>.FindByPhysicalIdAsync(string, System.Threading.CancellationToken)®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdApplicationManager.cs)/ )(D"0*∂
+0®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdApplicationManager.cs+ +(/˝
+˙
+®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdApplicationManager.cs+ +(0
+
+%0bool"string.IsNullOrEmpty(string?)*
+"
+string*
+
+
+identifierstring*
+1
+2*
+1®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdApplicationManager.cs- -(iËÂ
+®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdApplicationManager.cs- -(j
+%1System.ArgumentException"System.ArgumentExceptionœ
+Ã
+®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdApplicationManager.cs- -(+
+
+%2void"<System.ArgumentException.ArgumentException(string?, string?)* 
+
+%1System.ArgumentException*+)
+'The identifier cannot be null or empty.*
+""*
+3*è
+2®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdApplicationManager.cs0 0(G˝
+˙
+®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdApplicationManager.cs0 0(G
+%3AOpenIddict.Abstractions.IOpenIddictApplicationStore<TApplication>"DOpenIddict.Core.OpenIddictApplicationManager<TApplication>.Store.get*><
+:OpenIddict.Core.OpenIddictApplicationManager<TApplication>÷
+”
+®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdApplicationManager.cs0 0(GU
+storeLOrchardCore.OpenId.Abstractions.Stores.IOpenIdApplicationStore<TApplication>"__id*I
+G
+%3AOpenIddict.Abstractions.IOpenIddictApplicationStore<TApplication>*
+4
+5*À
+
+4®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdApplicationManager.cs1 1(Iﬂ‹
+®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdApplicationManager.cs1 1(J/
+%7)System.Threading.Tasks.ValueTask<TResult>"éOrchardCore.OpenId.Abstractions.Stores.IOpenIdApplicationStore<TApplication>.FindByPhysicalIdAsync(string, System.Threading.CancellationToken)*W
+U
+storeLOrchardCore.OpenId.Abstractions.Stores.IOpenIdApplicationStore<TApplication>*
+
+
+identifierstring*9
+7
+cancellationToken"System.Threading.CancellationToken2AFindByPhysicalIdAsync(string, System.Threading.CancellationToken)ò
+ï
+®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdApplicationManager.cs1 1(J/
+%5)System.Threading.Tasks.ValueTask<TResult>"__id*1
+/
+%7)System.Threading.Tasks.ValueTask<TResult>ò
+ï
+®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdApplicationManager.cs1 1(J/
+%4)System.Threading.Tasks.ValueTask<TResult>"__id*1
+/
+%5)System.Threading.Tasks.ValueTask<TResult>*
+6*°
+5®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdApplicationManager.cs2 2(A˝
+˙
+®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdApplicationManager.cs2 2(G
+%8AOpenIddict.Abstractions.IOpenIddictApplicationStore<TApplication>"DOpenIddict.Core.OpenIddictApplicationManager<TApplication>.Store.get*><
+:OpenIddict.Core.OpenIddictApplicationManager<TApplication>µ≤
+®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdApplicationManager.cs2 2(B/
+%9)System.Threading.Tasks.ValueTask<TResult>"{OpenIddict.Abstractions.IOpenIddictApplicationStore<TApplication>.FindByIdAsync(string, System.Threading.CancellationToken)*I
+G
+%8AOpenIddict.Abstractions.IOpenIddictApplicationStore<TApplication>*
+
+
+identifierstring*9
+7
+cancellationToken"System.Threading.CancellationToken29FindByIdAsync(string, System.Threading.CancellationToken)ò
+ï
+®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdApplicationManager.cs2 2(B/
+%6)System.Threading.Tasks.ValueTask<TResult>"__id*1
+/
+%9)System.Threading.Tasks.ValueTask<TResult>ò
+ï
+®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdApplicationManager.cs2 2(B/
+%4)System.Threading.Tasks.ValueTask<TResult>"__id*1
+/
+%6)System.Threading.Tasks.ValueTask<TResult>*
+6*è
+6®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdApplicationManager.cs3	 3(	"ﬁ
+®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdApplicationManager.cs0 2(C1
+/
+%4)System.Threading.Tasks.ValueTask<TResult>*Ò
+3®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdApplicationManager.cs3	 3(	"¿
+®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdApplicationManager.cs3 3(	
+implicit return:
+
+identifierstring:7
+cancellationToken"System.Threading.CancellationTokenBOM
+KOrchardCore.OpenId.Services.Managers.OpenIdApplicationManager<TApplication>

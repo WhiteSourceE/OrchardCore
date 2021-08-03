@@ -1,0 +1,78 @@
+
+POrchardCore.ContentManagement.ContentDefinitionManager.GetTypeDefinition(string)œ
+‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\ContentDefinitionManager.cs<% <(6"0*˜
+0œ
+‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\ContentDefinitionManager.cs> >()ë
+è
+œ
+‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\ContentDefinitionManager.cs> >(*
+
+%0bool"string.IsNullOrEmpty(string?)*
+"
+string*
+
+namestring*
+1
+2*Å
+1œ
+‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\ContentDefinitionManager.cs@ @(\ÜÙ
+œ
+‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\ContentDefinitionManager.cs@ @(]
+%1System.ArgumentException"System.ArgumentException¼
+¹
+œ
+‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\ContentDefinitionManager.cs@ @(+
+
+%2void"<System.ArgumentException.ArgumentException(string?, string?)* 
+
+%1System.ArgumentException*$"
+ Argument cannot be null or empty*
+""*
+3*
+2œ
+‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\ContentDefinitionManager.csC M(
+þ
+œ
+‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\ContentDefinitionManager.csC C(7L
+%3FOrchardCore.ContentManagement.Metadata.Records.ContentDefinitionRecord"SOrchardCore.ContentManagement.ContentDefinitionManager.GetContentDefinitionRecord()*:8
+6OrchardCore.ContentManagement.ContentDefinitionManagerÌ
+É
+œ
+‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\ContentDefinitionManager.csC C(7R
+documentFOrchardCore.ContentManagement.Metadata.Records.ContentDefinitionRecord"__id*N
+L
+%3FOrchardCore.ContentManagement.Metadata.Records.ContentDefinitionRecordÙ
+Ö
+œ
+‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\ContentDefinitionManager.csD D(-
+
+%4void"–OrchardCore.ContentManagement.ContentDefinitionManager.CheckDocumentIdentifier(OrchardCore.ContentManagement.Metadata.Records.ContentDefinitionRecord)*:8
+6OrchardCore.ContentManagement.ContentDefinitionManager*T
+R
+documentFOrchardCore.ContentManagement.Metadata.Records.ContentDefinitionRecordŒ
+‰
+œ
+‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\ContentDefinitionManager.csF F()F
+%5@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>"__id*™*–8
+6OrchardCore.ContentManagement.ContentDefinitionManager"Z
+_cachedTypeDefinitions@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>½
+º
+œ
+‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\ContentDefinitionManager.csF M(I
+%6COrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition"jSystem.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>.GetOrAdd(TKey, System.Func<TKey, TValue>)*H
+F
+%5@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>*
+
+namestring*
+"""ì
+œ
+‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\ContentDefinitionManager.csF M(K
+I
+%6COrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition*Ù
+3œ
+‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\ContentDefinitionManager.csN	 N(	"´
+œ
+‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\ContentDefinitionManager.csN N(	
+implicit return:
+namestringB:8
+6OrchardCore.ContentManagement.ContentDefinitionManager

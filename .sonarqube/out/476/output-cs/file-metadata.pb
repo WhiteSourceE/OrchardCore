@@ -1,0 +1,16 @@
+Á
+µD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Html\obj\Debug\net5.0\Razor\Views\HtmlBodyPart-Trumbowyg.Edit.cshtml.g.csutf-8Ã
+·D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Html\obj\Debug\net5.0\Razor\Views\HtmlBodyPart-Trumbowyg.Option.cshtml.g.csutf-8¿
+³D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Html\obj\Debug\net5.0\Razor\Views\HtmlBodyPart-Wysiwyg.Edit.cshtml.g.csutf-8Á
+µD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Html\obj\Debug\net5.0\Razor\Views\HtmlBodyPart-Wysiwyg.Option.cshtml.g.csutf-8²
+¦D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Html\obj\Debug\net5.0\Razor\Views\HtmlBodyPart.cshtml.g.csutf-8À
+´D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Html\obj\Debug\net5.0\Razor\Views\HtmlBodyPart.DisplayOption.cshtml.g.csutf-8·
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Html\obj\Debug\net5.0\Razor\Views\HtmlBodyPart.Edit.cshtml.g.csutf-8¹
+­D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Html\obj\Debug\net5.0\Razor\Views\HtmlBodyPart.Option.cshtml.g.csutf-8º
+®D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Html\obj\Debug\net5.0\Razor\Views\HtmlBodyPart.Summary.cshtml.g.csutf-8¿
+³D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Html\obj\Debug\net5.0\Razor\Views\HtmlBodyPartSettings.Edit.cshtml.g.csutf-8È
+¼D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Html\obj\Debug\net5.0\Razor\Views\HtmlBodyPartTrumbowygSettings.Edit.cshtml.g.csutf-8¾
+²D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Html\obj\Debug\net5.0\Razor\Views\Media-HtmlBodyPart.Modal.cshtml.g.csutf-8À
+´D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Html\obj\Debug\net5.0\Razor\Views\Media-HtmlBodyPart.Wrapper.cshtml.g.csutf-8²
+¦D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Html\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.csutf-8¹
+­D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Html\obj\Debug\net5.0\OrchardCore.Html.RazorTargetAssemblyInfo.csutf-8

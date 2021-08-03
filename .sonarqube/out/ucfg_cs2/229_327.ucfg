@@ -1,0 +1,90 @@
+
+‡OrchardCore.OpenId.Configuration.OpenIdValidationConfiguration.GetServerSettingsAsync(OrchardCore.OpenId.Services.IOpenIdServerService)®
+¡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Configuration\OpenIdValidationConfiguration.cs÷1 ÷(G"0*Ï
+0®
+¡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Configuration\OpenIdValidationConfiguration.csù ú(pøõ
+®
+¡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Configuration\OpenIdValidationConfiguration.csù! ù(;*
+%0$System.Threading.Tasks.Task<TResult>"COrchardCore.OpenId.Services.IOpenIdServerService.GetSettingsAsync()*=
+;
+service0OrchardCore.OpenId.Services.IOpenIdServerService2GetSettingsAsync()€
+ý
+®
+¡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Configuration\OpenIdValidationConfiguration.csù ù(;<
+settings0OrchardCore.OpenId.Settings.OpenIdServerSettings"__id*
+""¢Ÿ
+®
+¡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Configuration\OpenIdValidationConfiguration.csú ú(>*
+%1$System.Threading.Tasks.Task<TResult>"xOrchardCore.OpenId.Services.IOpenIdServerService.ValidateSettingsAsync(OrchardCore.OpenId.Settings.OpenIdServerSettings)*=
+;
+service0OrchardCore.OpenId.Services.IOpenIdServerService*>
+<
+settings0OrchardCore.OpenId.Settings.OpenIdServerSettings2GValidateSettingsAsync(OrchardCore.OpenId.Settings.OpenIdServerSettings)í
+ê
+®
+¡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Configuration\OpenIdValidationConfiguration.csú ú(q
+
+%2bool"qSystem.Linq.ImmutableArrayExtensions.Any<T>(System.Collections.Immutable.ImmutableArray<T>, System.Func<T, bool>)*("&
+$System.Linq.ImmutableArrayExtensions*
+""*
+""*
+1
+2*Ù
+1®
+¡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Configuration\OpenIdValidationConfiguration.csü ü(?ô
+ñ
+®
+¡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Configuration\OpenIdValidationConfiguration.csü ü("1
+%3+OrchardCore.Environment.Shell.ShellSettings"__id*„*@
+>OrchardCore.OpenId.Configuration.OpenIdValidationConfiguration"=
+_shellSettings+OrchardCore.Environment.Shell.ShellSettingsØ
+Õ
+®
+¡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Configuration\OpenIdValidationConfiguration.csü ü((6
+%40OrchardCore.Environment.Shell.Models.TenantState"5OrchardCore.Environment.Shell.ShellSettings.State.get*3
+1
+%3+OrchardCore.Environment.Shell.ShellSettingsÈ
+Å
+®
+¡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Configuration\OpenIdValidationConfiguration.csü, ü(?
+%5"__id*
+""*
+3
+4*ú
+3®
+¡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Configuration\OpenIdValidationConfiguration.csþ þ(_Ý
+Ú
+®
+¡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Configuration\OpenIdValidationConfiguration.csþ þ(*
+%6$Microsoft.Extensions.Logging.ILogger"__id*u*s@
+>OrchardCore.OpenId.Configuration.OpenIdValidationConfiguration"/
+_logger$Microsoft.Extensions.Logging.ILoggerÞ
+Û
+®
+¡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Configuration\OpenIdValidationConfiguration.csþ þ(`
+
+%7void"wMicrosoft.Extensions.Logging.LoggerExtensions.LogWarning(Microsoft.Extensions.Logging.ILogger, string, params object[])*1"/
+-Microsoft.Extensions.Logging.LoggerExtensions*,
+*
+%6$Microsoft.Extensions.Logging.ILogger*:8
+6The OpenID Connect module is not correctly configured.*
+""*
+4*ð
+4®
+¡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Configuration\OpenIdValidationConfiguration.cs ("¹
+®
+¡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Configuration\OpenIdValidationConfiguration.cs (
+""*¨
+2®
+¡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Configuration\OpenIdValidationConfiguration.cs„ „("ñ
+®
+¡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Configuration\OpenIdValidationConfiguration.cs„ „(>
+<
+settings0OrchardCore.OpenId.Settings.OpenIdServerSettings*ý
+5®
+¡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Configuration\OpenIdValidationConfiguration.cs…	 …(	"Æ
+®
+¡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Configuration\OpenIdValidationConfiguration.cs… …(	
+implicit return:;
+service0OrchardCore.OpenId.Services.IOpenIdServerServiceBB@
+>OrchardCore.OpenId.Configuration.OpenIdValidationConfiguration

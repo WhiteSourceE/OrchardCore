@@ -1,0 +1,17 @@
+ù
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Indexing.Abstractions\BuildFieldIndexContext.csutf-8ò
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Indexing.Abstractions\BuildIndexContext.csutf-8ú
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Indexing.Abstractions\BuildPartIndexContext.csutf-8ü
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Indexing.Abstractions\ContentFieldIndexHandler.csutf-8õ
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Indexing.Abstractions\ContentIndexSettings.csutf-8û
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Indexing.Abstractions\ContentPartIndexHandler.csutf-8õ
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Indexing.Abstractions\DocumentIndexOptions.csutf-8†
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Indexing.Abstractions\IContentFieldIndexHandler.csutf-8ü
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Indexing.Abstractions\IContentItemIndexHandler.csutf-8ü
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Indexing.Abstractions\IContentPartIndexHandler.csutf-8ï
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Indexing.Abstractions\IDocumentIndex.csutf-8õ
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Indexing.Abstractions\IIndexingTaskManager.csutf-8ì
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Indexing.Abstractions\IndexingTask.csutf-8û
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Indexing.Abstractions\Properties\AssemblyInfo.csutf-8Ã
+¿D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Indexing.Abstractions\obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.csutf-8œ
+√D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Indexing.Abstractions\obj\Debug\netcoreapp3.1\OrchardCore.Indexing.Abstractions.AssemblyInfo.csutf-8

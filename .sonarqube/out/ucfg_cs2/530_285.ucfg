@@ -1,0 +1,136 @@
+
+•OrchardCore.Contents.Drivers.OwnerEditorDriver.EditAsync(OrchardCore.Contents.Models.CommonPart, OrchardCore.ContentManagement.Display.Models.BuildPartEditorContext)ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Drivers\OwnerEditorDriver.cs#3 #(<"0*‰
+0ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Drivers\OwnerEditorDriver.cs% %(>‹
+Ÿ
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Drivers\OwnerEditorDriver.cs% %(24
+%0.Microsoft.AspNetCore.Http.IHttpContextAccessor"__id*|*z0
+.OrchardCore.Contents.Drivers.OwnerEditorDriver"F
+_httpContextAccessor.Microsoft.AspNetCore.Http.IHttpContextAccessorÿ’
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Drivers\OwnerEditorDriver.cs% %(>+
+%1%Microsoft.AspNetCore.Http.HttpContext">Microsoft.AspNetCore.Http.IHttpContextAccessor.HttpContext.get*6
+4
+%0.Microsoft.AspNetCore.Http.IHttpContextAccessor2HttpContext.get*
+1
+2*Ÿ
+2ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Drivers\OwnerEditorDriver.cs%? %(DØ
+¨
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Drivers\OwnerEditorDriver.cs%@ %(D,
+%2&System.Security.Claims.ClaimsPrincipal".Microsoft.AspNetCore.Http.HttpContext.User.get*-
++
+%1%Microsoft.AspNetCore.Http.HttpContext*
+1*ﬁ
+1ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Drivers\OwnerEditorDriver.cs% '(#è
+å
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Drivers\OwnerEditorDriver.cs% %(D5
+currentUser&System.Security.Claims.ClaimsPrincipal"__id*.
+,
+%2&System.Security.Claims.ClaimsPrincipalü
+ú
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Drivers\OwnerEditorDriver.cs' '(#
+
+%3bool""object.operator ==(object, object)*
+"
+object*7
+5
+currentUser&System.Security.Claims.ClaimsPrincipal*
+""*
+3
+4*Œ
+4ù
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Drivers\OwnerEditorDriver.cs'' '(ÑÛ
+
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Drivers\OwnerEditorDriver.cs'/ '(D>
+%48Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*à*Ö0
+.OrchardCore.Contents.Drivers.OwnerEditorDriver"Q
+_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationService≈
+¬
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Drivers\OwnerEditorDriver.cs'a '(~1
+%5+OrchardCore.Security.Permissions.Permission"__id*h*f*
+(OrchardCore.Security.StandardPermissions"8
+	SiteOwner+OrchardCore.Security.Permissions.Permission‚
+ﬂ
+ù
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Drivers\OwnerEditorDriver.cs'/ '(Ö*
+%6$System.Threading.Tasks.Task<TResult>"ÁMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission, object)*E"C
+AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*@
+>
+%48Microsoft.AspNetCore.Authorization.IAuthorizationService*7
+5
+currentUser&System.Security.Claims.ClaimsPrincipal*3
+1
+%5+OrchardCore.Security.Permissions.Permission*0
+.
+part&OrchardCore.Contents.Models.CommonPart*
+3
+5*Ã
+3ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Drivers\OwnerEditorDriver.cs) )("ß
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Drivers\OwnerEditorDriver.cs) )(
+""*ü
+5ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Drivers\OwnerEditorDriver.cs, .(+ü
+ú
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Drivers\OwnerEditorDriver.cs, ,(5M
+%7GOrchardCore.ContentManagement.Metadata.Models.ContentTypePartDefinition"ZOrchardCore.ContentManagement.Display.Models.BuildPartEditorContext.TypePartDefinition.get*P
+N
+contextCOrchardCore.ContentManagement.Display.Models.BuildPartEditorContext˚
+¯
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Drivers\OwnerEditorDriver.cs, ,(W4
+%8.OrchardCore.Contents.Models.CommonPartSettings"POrchardCore.ContentManagement.Metadata.Models.ContentDefinition.GetSettings<T>()*O
+M
+%7GOrchardCore.ContentManagement.Metadata.Models.ContentTypePartDefinitionú
+ô
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Drivers\OwnerEditorDriver.cs, ,(W:
+settings.OrchardCore.Contents.Models.CommonPartSettings"__id*6
+4
+%8.OrchardCore.Contents.Models.CommonPartSettings≥
+∞
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Drivers\OwnerEditorDriver.cs. .(+
+
+%9bool"EOrchardCore.Contents.Models.CommonPartSettings.DisplayOwnerEditor.get*<
+:
+settings.OrchardCore.Contents.Models.CommonPartSettings*
+6
+7* 
+6ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Drivers\OwnerEditorDriver.cs0 8(…
+∆
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Drivers\OwnerEditorDriver.cs0 8(6
+%10/OrchardCore.DisplayManagement.Views.ShapeResult"äOrchardCore.DisplayManagement.Handlers.DisplayDriverBase.Initialize<TModel>(string, System.Func<TModel, System.Threading.Tasks.ValueTask>)*<:
+8OrchardCore.DisplayManagement.Handlers.DisplayDriverBase*
+CommonPart_Edit__Owner*
+"""Ÿ
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Drivers\OwnerEditorDriver.cs0 8(8
+6
+%10/OrchardCore.DisplayManagement.Views.ShapeResult*Ã
+7ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Drivers\OwnerEditorDriver.cs; ;("ß
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Drivers\OwnerEditorDriver.cs; ;(
+""*Ÿ
+8ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Drivers\OwnerEditorDriver.cs<	 <(	"¥
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Drivers\OwnerEditorDriver.cs< <(	
+implicit return:.
+part&OrchardCore.Contents.Models.CommonPart:N
+contextCOrchardCore.ContentManagement.Display.Models.BuildPartEditorContextB20
+.OrchardCore.Contents.Drivers.OwnerEditorDriver

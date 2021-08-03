@@ -1,0 +1,492 @@
+
+äOrchardCore.Lucene.Controllers.AdminController.Index(OrchardCore.Lucene.ViewModels.ContentOptions, OrchardCore.Navigation.PagerParameters)ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csY) Y(."6*µ
+0ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs[ [([Û
+
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs[ [(,>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*à*Ö0
+.OrchardCore.Lucene.Controllers.AdminController"Q
+_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationServiceØ
+¨
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs[< [(@,
+%1&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBaseø
+º
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs[B [([1
+%2+OrchardCore.Security.Permissions.Permission"__id*b*` 
+OrchardCore.Lucene.Permissions"<
+ManageIndexes+OrchardCore.Security.Permissions.Permissionû
+õ
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs[ [(\*
+%3$System.Threading.Tasks.Task<TResult>"ﬂMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission)*E"C
+AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*@
+>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService*.
+,
+%1&System.Security.Claims.ClaimsPrincipal*3
+1
+%2+OrchardCore.Security.Permissions.Permission*
+1
+2*Æ
+1ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs] ](∏µ
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs] ](+
+%4%Microsoft.AspNetCore.Mvc.ForbidResult"0Microsoft.AspNetCore.Mvc.ControllerBase.Forbid()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2Forbid()"Œ
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs] ]( -
++
+%4%Microsoft.AspNetCore.Mvc.ForbidResult*°&
+2ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs` g(9„
+‡
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs`! `(<3
+%5-OrchardCore.Lucene.LuceneIndexSettingsService"__id*É*Ä0
+.OrchardCore.Lucene.Controllers.AdminController"L
+_luceneIndexSettingsService-OrchardCore.Lucene.LuceneIndexSettingsService«
+ƒ
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs`! `(O*
+%6$System.Threading.Tasks.Task<TResult>"@OrchardCore.Lucene.LuceneIndexSettingsService.GetSettingsAsync()*5
+3
+%5-OrchardCore.Lucene.LuceneIndexSettingsServiceÅ
+˛
+ù
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs` `(á/
+%7)System.Collections.Generic.IEnumerable<T>"System.Linq.Enumerable.Select<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)*"
+System.Linq.Enumerable*
+""*
+""í
+è
+ù
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs` `(á4
+indexes)System.Collections.Generic.IEnumerable<T>"__id*1
+/
+%7)System.Collections.Generic.IEnumerable<T>∫
+∑
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csb% b(1'
+%8!OrchardCore.Settings.ISiteService"__id*g*e0
+.OrchardCore.Lucene.Controllers.AdminController"1
+_siteService!OrchardCore.Settings.ISiteServiceÀ»
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csb% b(H*
+%9$System.Threading.Tasks.Task<TResult>"8OrchardCore.Settings.ISiteService.GetSiteSettingsAsync()*)
+'
+%8!OrchardCore.Settings.ISiteService2GetSiteSettingsAsync()‹
+Ÿ
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csb b(H*
+siteSettingsOrchardCore.Settings.ISite"__id*
+""ìê
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csc3 c(H
+
+%10int"'OrchardCore.Settings.ISite.PageSize.get*,
+*
+siteSettingsOrchardCore.Settings.ISite2PageSize.getÂ‚
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csc c(I#
+%11OrchardCore.Navigation.Pager"OrchardCore.Navigation.PagerÚ
+Ô
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csc c(!
+%12void"OOrchardCore.Navigation.Pager.Pager(OrchardCore.Navigation.PagerParameters, int)*%
+#
+%11OrchardCore.Navigation.Pager*;
+9
+pagerParameters&OrchardCore.Navigation.PagerParameters*
+
+
+%10intˆ
+Û
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csc c(I%
+pagerOrchardCore.Navigation.Pager"__id*%
+#
+%11OrchardCore.Navigation.Pager⁄
+◊
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csd d('
+
+%13int"VSystem.Linq.Enumerable.Count<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*6
+4
+indexes)System.Collections.Generic.IEnumerable<T>ƒ
+¡
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csd d('
+countint"__id*
+
+
+%13intñ
+ì
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cse e(!4
+results)System.Collections.Generic.IEnumerable<T>"__id*6
+4
+indexes)System.Collections.Generic.IEnumerable<T>•
+¢
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csg+ g(9
+%14string"7OrchardCore.Lucene.ViewModels.ContentOptions.Search.get*9
+7
+options,OrchardCore.Lucene.ViewModels.ContentOptions
+Ì
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csg g(:
+%15bool""string.IsNullOrWhiteSpace(string?)*
+"
+string*
+
+%14string*
+3
+4*„
+3ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csi i(t§
+°
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csi i(u0
+%16)System.Collections.Generic.IEnumerable<T>"rSystem.Linq.Enumerable.Where<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
+System.Linq.Enumerable*6
+4
+results)System.Collections.Generic.IEnumerable<T>*
+""í
+è
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csi i(u4
+results)System.Collections.Generic.IEnumerable<T>"__id*2
+0
+%16)System.Collections.Generic.IEnumerable<T>*
+4*õg
+4ù
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csl Å(ë
+é
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csm m(+
+
+%17int"0OrchardCore.Navigation.Pager.GetStartIndex(int?)*'
+%
+pagerOrchardCore.Navigation.Pager*
+""í
+è
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csl m(,0
+%18)System.Collections.Generic.IEnumerable<T>"ZSystem.Linq.Enumerable.Skip<TSource>(System.Collections.Generic.IEnumerable<TSource>, int)*"
+System.Linq.Enumerable*6
+4
+results)System.Collections.Generic.IEnumerable<T>*
+
+
+%17intÇ
+ˇ
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csn n($
+
+%19int")OrchardCore.Navigation.Pager.PageSize.get*'
+%
+pagerOrchardCore.Navigation.Pageré
+ã
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csl n(%0
+%20)System.Collections.Generic.IEnumerable<T>"ZSystem.Linq.Enumerable.Take<TSource>(System.Collections.Generic.IEnumerable<TSource>, int)*"
+System.Linq.Enumerable*2
+0
+%18)System.Collections.Generic.IEnumerable<T>*
+
+
+%19intˆ
+Û
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csl n(.)
+%21"System.Collections.Generic.List<T>"WSystem.Linq.Enumerable.ToList<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*2
+0
+%20)System.Collections.Generic.IEnumerable<T>ã
+à
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csl n(.4
+results)System.Collections.Generic.IEnumerable<T>"__id*+
+)
+%21"System.Collections.Generic.List<T>˘ˆ
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csq q(+-
+%22&Microsoft.AspNetCore.Routing.RouteData"&Microsoft.AspNetCore.Routing.RouteDataî
+ë
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csq  q()
+%23void"2Microsoft.AspNetCore.Routing.RouteData.RouteData()*/
+-
+%22&Microsoft.AspNetCore.Routing.RouteDataé
+ã
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csq q(+3
+	routeData&Microsoft.AspNetCore.Routing.RouteData"__id*/
+-
+%22&Microsoft.AspNetCore.Routing.RouteData˛
+˚
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csr$ r('
+%24dynamic"__id*D*B0
+.OrchardCore.Lucene.Controllers.AdminController"
+Newdynamic«
+ƒ
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csr r(`
+
+pagerShapedynamic"__id*
+""èå
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cst y(8
+%251OrchardCore.Lucene.ViewModels.AdminIndexViewModel"1OrchardCore.Lucene.ViewModels.AdminIndexViewModel¥
+±
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cst t(/
+%26void"GOrchardCore.Lucene.ViewModels.AdminIndexViewModel.AdminIndexViewModel()*:
+8
+%251OrchardCore.Lucene.ViewModels.AdminIndexViewModelá
+Ñ
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csv v(!0
+%27)System.Collections.Generic.IEnumerable<T>"=OrchardCore.Lucene.ViewModels.AdminIndexViewModel.Indexes.set*:
+8
+%251OrchardCore.Lucene.ViewModels.AdminIndexViewModel*6
+4
+results)System.Collections.Generic.IEnumerable<T>ç
+ä
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csw w(!3
+%28,OrchardCore.Lucene.ViewModels.ContentOptions"=OrchardCore.Lucene.ViewModels.AdminIndexViewModel.Options.set*:
+8
+%251OrchardCore.Lucene.ViewModels.AdminIndexViewModel*9
+7
+options,OrchardCore.Lucene.ViewModels.ContentOptionsƒ
+¡
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csx x("
+%29dynamic";OrchardCore.Lucene.ViewModels.AdminIndexViewModel.Pager.set*:
+8
+%251OrchardCore.Lucene.ViewModels.AdminIndexViewModel*
+
+
+pagerShapedynamic†
+ù
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cst y(:
+model1OrchardCore.Lucene.ViewModels.AdminIndexViewModel"__id*:
+8
+%251OrchardCore.Lucene.ViewModels.AdminIndexViewModel‘
+—
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs{ {(3
+%30,OrchardCore.Lucene.ViewModels.ContentOptions"=OrchardCore.Lucene.ViewModels.AdminIndexViewModel.Options.get*<
+:
+model1OrchardCore.Lucene.ViewModels.AdminIndexViewModelÒÓ
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs{/ ()
+%31"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>á
+Ñ
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs{3 {(G
+%32void")System.Collections.Generic.List<T>.List()*+
+)
+%31"System.Collections.Generic.List<T>èå
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs| |(d8
+%331Microsoft.AspNetCore.Mvc.Rendering.SelectListItem"1Microsoft.AspNetCore.Mvc.Rendering.SelectListItemØ
+¨
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs| |("
+%34void"BMicrosoft.AspNetCore.Mvc.Rendering.SelectListItem.SelectListItem()*:
+8
+%331Microsoft.AspNetCore.Mvc.Rendering.SelectListItem“
+œ
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs|. |(/9
+%352Microsoft.Extensions.Localization.IStringLocalizer"__id*m*k0
+.OrchardCore.Lucene.Controllers.AdminController"7
+S2Microsoft.Extensions.Localization.IStringLocalizer˚¯
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs|. |(88
+%361Microsoft.Extensions.Localization.LocalizedString"CMicrosoft.Extensions.Localization.IStringLocalizer.this[string].get*;
+9
+%352Microsoft.Extensions.Localization.IStringLocalizer*	
+Reset2this[string].getÂ
+‚
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs|' |(8
+%37string":Microsoft.AspNetCore.Mvc.Rendering.SelectListItem.Text.set*:
+8
+%331Microsoft.AspNetCore.Mvc.Rendering.SelectListItem*:
+8
+%361Microsoft.Extensions.Localization.LocalizedString≤
+Ø
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs|: |(b
+%38string";Microsoft.AspNetCore.Mvc.Rendering.SelectListItem.Value.set*:
+8
+%331Microsoft.AspNetCore.Mvc.Rendering.SelectListItem*
+""èå
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs} }(h8
+%391Microsoft.AspNetCore.Mvc.Rendering.SelectListItem"1Microsoft.AspNetCore.Mvc.Rendering.SelectListItemØ
+¨
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs} }("
+%40void"BMicrosoft.AspNetCore.Mvc.Rendering.SelectListItem.SelectListItem()*:
+8
+%391Microsoft.AspNetCore.Mvc.Rendering.SelectListItem“
+œ
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs}. }(/9
+%412Microsoft.Extensions.Localization.IStringLocalizer"__id*m*k0
+.OrchardCore.Lucene.Controllers.AdminController"7
+S2Microsoft.Extensions.Localization.IStringLocalizer˝˙
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs}. }(:8
+%421Microsoft.Extensions.Localization.LocalizedString"CMicrosoft.Extensions.Localization.IStringLocalizer.this[string].get*;
+9
+%412Microsoft.Extensions.Localization.IStringLocalizer*	
+Rebuild2this[string].getÂ
+‚
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs}' }(:
+%43string":Microsoft.AspNetCore.Mvc.Rendering.SelectListItem.Text.set*:
+8
+%391Microsoft.AspNetCore.Mvc.Rendering.SelectListItem*:
+8
+%421Microsoft.Extensions.Localization.LocalizedString≤
+Ø
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs}< }(f
+%44string";Microsoft.AspNetCore.Mvc.Rendering.SelectListItem.Value.set*:
+8
+%391Microsoft.AspNetCore.Mvc.Rendering.SelectListItem*
+""èå
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs~ ~(f8
+%451Microsoft.AspNetCore.Mvc.Rendering.SelectListItem"1Microsoft.AspNetCore.Mvc.Rendering.SelectListItemØ
+¨
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs~ ~("
+%46void"BMicrosoft.AspNetCore.Mvc.Rendering.SelectListItem.SelectListItem()*:
+8
+%451Microsoft.AspNetCore.Mvc.Rendering.SelectListItem“
+œ
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs~. ~(/9
+%472Microsoft.Extensions.Localization.IStringLocalizer"__id*m*k0
+.OrchardCore.Lucene.Controllers.AdminController"7
+S2Microsoft.Extensions.Localization.IStringLocalizer¸˘
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs~. ~(98
+%481Microsoft.Extensions.Localization.LocalizedString"CMicrosoft.Extensions.Localization.IStringLocalizer.this[string].get*;
+9
+%472Microsoft.Extensions.Localization.IStringLocalizer*
+
+Delete2this[string].getÂ
+‚
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs~' ~(9
+%49string":Microsoft.AspNetCore.Mvc.Rendering.SelectListItem.Text.set*:
+8
+%451Microsoft.AspNetCore.Mvc.Rendering.SelectListItem*:
+8
+%481Microsoft.Extensions.Localization.LocalizedString≤
+Ø
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs~; ~(d
+%50string";Microsoft.AspNetCore.Mvc.Rendering.SelectListItem.Value.set*:
+8
+%451Microsoft.AspNetCore.Mvc.Rendering.SelectListItem*
+""ˆ
+Û
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs{ ()
+%51"System.Collections.Generic.List<T>"COrchardCore.Lucene.ViewModels.ContentOptions.ContentsBulkAction.set*5
+3
+%30,OrchardCore.Lucene.ViewModels.ContentOptions*+
+)
+%31"System.Collections.Generic.List<T>”
+–
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csÅ Å(
+%52void"$orchardcore.lucene/views/admin/index*
+
+%53*<
+:
+model1OrchardCore.Lucene.ViewModels.AdminIndexViewModel*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject* 
+
+%HttpContextItemsAllobject*!
+
+%HttpContextItemsHtmlobject"∞
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csÅ Å(
+
+%52void*›
+5û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csÇ	 Ç(	"∂
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csÇ Ç(	
+implicit return*
+6ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csYg Y(gé
+ã
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csY) Y(.\
+7
+options,OrchardCore.Lucene.ViewModels.ContentOptions"!
+<Search>k__BackingFieldstring"__entrypoint˝
+˙
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csY) Y(.K
+7
+options,OrchardCore.Lucene.ViewModels.ContentOptions"
+Searchstring"__entrypoint∑
+¥
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csY) Y(.Ñ
+7
+options,OrchardCore.Lucene.ViewModels.ContentOptions"I
+#<ContentsBulkAction>k__BackingField"System.Collections.Generic.List<T>"__entrypoint•
+¢
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csY) Y(.s
+7
+options,OrchardCore.Lucene.ViewModels.ContentOptions"8
+ContentsBulkAction"System.Collections.Generic.List<T>"__entrypointâ
+Ü
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csY) Y(.W
+9
+pagerParameters&OrchardCore.Navigation.PagerParameters"
+PageSystem.Nullable<T>"__entrypointç
+ä
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csY) Y(.[
+9
+pagerParameters&OrchardCore.Navigation.PagerParameters"
+PageSizeSystem.Nullable<T>"__entrypoint∑
+¥
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csY) Y(.
+%54"__entrypoint*
+0:7
+options,OrchardCore.Lucene.ViewModels.ContentOptions:9
+pagerParameters&OrchardCore.Navigation.PagerParametersB20
+.OrchardCore.Lucene.Controllers.AdminController

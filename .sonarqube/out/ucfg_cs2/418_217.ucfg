@@ -1,0 +1,97 @@
+
+LOrchardRazorHelperExtensions.TokenizeUrl(OrchardCore.IOrchardHelper, string)¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Razor\OrchardRazorHelperExtensions.csT T(%"0*ê
+0¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Razor\OrchardRazorHelperExtensions.csV W(0Á¾
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Razor\OrchardRazorHelperExtensions.csV V(4+
+%0%Microsoft.AspNetCore.Http.HttpContext"*OrchardCore.IOrchardHelper.HttpContext.get*-
++
+orchardHelperOrchardCore.IOrchardHelper2HttpContext.get±
+®
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Razor\OrchardRazorHelperExtensions.csV V(D
+%1System.IServiceProvider"9Microsoft.AspNetCore.Http.HttpContext.RequestServices.get*-
++
+%0%Microsoft.AspNetCore.Http.HttpContextÁ
+¾
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Razor\OrchardRazorHelperExtensions.csV V(i5
+%2/Microsoft.Extensions.Options.IOptions<TOptions>"pMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService<T>(System.IServiceProvider)*M"K
+IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*
+
+%1System.IServiceProviderÍÊ
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Razor\OrchardRazorHelperExtensions.csV V(o$
+%3OrchardCore.Media.MediaOptions"9Microsoft.Extensions.Options.IOptions<TOptions>.Value.get*7
+5
+%2/Microsoft.Extensions.Options.IOptions<TOptions>2	Value.get†
+ƒ
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Razor\OrchardRazorHelperExtensions.csV V(o.
+mediaOptionsOrchardCore.Media.MediaOptions"__id*&
+$
+%3OrchardCore.Media.MediaOptions¢
+Ÿ
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Razor\OrchardRazorHelperExtensions.csW W(0
+
+%4bool":OrchardCore.Media.MediaOptions.UseTokenizedQueryString.get*0
+.
+mediaOptionsOrchardCore.Media.MediaOptions*
+1
+2*¤
+1¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Razor\OrchardRazorHelperExtensions.csY [(6Á¾
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Razor\OrchardRazorHelperExtensions.csY$ Y(=+
+%5%Microsoft.AspNetCore.Http.HttpContext"*OrchardCore.IOrchardHelper.HttpContext.get*-
++
+orchardHelperOrchardCore.IOrchardHelper2HttpContext.get±
+®
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Razor\OrchardRazorHelperExtensions.csY$ Y(M
+%6System.IServiceProvider"9Microsoft.AspNetCore.Http.HttpContext.RequestServices.get*-
++
+%5%Microsoft.AspNetCore.Http.HttpContext¶
+³
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Razor\OrchardRazorHelperExtensions.csY$ Y(n*
+%7$OrchardCore.Media.IMediaTokenService"pMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService<T>(System.IServiceProvider)*M"K
+IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*
+
+%6System.IServiceProvider—
+”
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Razor\OrchardRazorHelperExtensions.csY Y(n9
+mediaTokenService$OrchardCore.Media.IMediaTokenService"__id*,
+*
+%7$OrchardCore.Media.IMediaTokenServiceÙÖ
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Razor\OrchardRazorHelperExtensions.cs[ [(7
+%8string";OrchardCore.Media.IMediaTokenService.AddTokenToPath(string)*;
+9
+mediaTokenService$OrchardCore.Media.IMediaTokenService*
+
+urlstring2AddTokenToPath(string)Í
+Ê
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Razor\OrchardRazorHelperExtensions.cs[ [(7
+urlstring"__id*
+
+%8string*
+2*á
+2¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Razor\OrchardRazorHelperExtensions.cs^ ^("¶
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Razor\OrchardRazorHelperExtensions.cs^ ^(
+
+urlstring*å
+3¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Razor\OrchardRazorHelperExtensions.cs_ _("º
+¢
+—D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Razor\OrchardRazorHelperExtensions.cs_ _(
+implicit return:+
+orchardHelperOrchardCore.IOrchardHelper:
+urlstringB "
+OrchardRazorHelperExtensions

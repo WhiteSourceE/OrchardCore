@@ -1,0 +1,1385 @@
+
+£OrchardCore.Lucene.Controllers.SearchController.Search(OrchardCore.Search.Abstractions.ViewModels.SearchIndexViewModel, OrchardCore.Navigation.PagerSlimParameters)ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csG) G(/"38*∑ 
+0ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csI O(w‘
+—
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csI& I(:/
+%0)System.Collections.Generic.IEnumerable<T>"__id*x*v1
+/OrchardCore.Lucene.Controllers.SearchController"A
+_permissionProviders)System.Collections.Generic.IEnumerable<T>¥
+±
+û
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csI& I(à:
+%14OrchardCore.Security.Permissions.IPermissionProvider"{System.Linq.Enumerable.FirstOrDefault<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
+System.Linq.Enumerable*1
+/
+%0)System.Collections.Generic.IEnumerable<T>*
+""µ
+≤
+û
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csI I(àK
+permissionsProvider4OrchardCore.Security.Permissions.IPermissionProvider"__id*<
+:
+%14OrchardCore.Security.Permissions.IPermissionProviderÅ˛
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csJ$ J(M*
+%2$System.Threading.Tasks.Task<TResult>"JOrchardCore.Security.Permissions.IPermissionProvider.GetPermissionsAsync()*M
+K
+permissionsProvider4OrchardCore.Security.Permissions.IPermissionProvider2GetPermissionsAsync()Î
+Ë
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csJ J(M8
+permissions)System.Collections.Generic.IEnumerable<T>"__id*
+""º
+π
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csL% L(1'
+%3!OrchardCore.Settings.ISiteService"__id*h*f1
+/OrchardCore.Lucene.Controllers.SearchController"1
+_siteService!OrchardCore.Settings.ISiteServiceÃ…
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csL% L(H*
+%4$System.Threading.Tasks.Task<TResult>"8OrchardCore.Settings.ISiteService.GetSiteSettingsAsync()*)
+'
+%3!OrchardCore.Settings.ISiteService2GetSiteSettingsAsync()›
+⁄
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csL L(H*
+siteSettingsOrchardCore.Settings.ISite"__id*
+""ˆ
+Û
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csM! M(B-
+%5'OrchardCore.Lucene.Model.LuceneSettings"IOrchardCore.Entities.EntityExtensions.As<T>(OrchardCore.Entities.IEntity)*)"'
+%OrchardCore.Entities.EntityExtensions*,
+*
+siteSettingsOrchardCore.Settings.ISiteï
+í
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csM M(B9
+searchSettings'OrchardCore.Lucene.Model.LuceneSettings"__id*/
+-
+%5'OrchardCore.Lucene.Model.LuceneSettings≥
+∞
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csO O(o1
+%6+OrchardCore.Security.Permissions.Permission"{System.Linq.Enumerable.FirstOrDefault<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
+System.Linq.Enumerable*:
+8
+permissions)System.Collections.Generic.IEnumerable<T>*
+""ú
+ô
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csO O(w
+
+%7bool""object.operator !=(object, object)*
+"
+object*3
+1
+%6+OrchardCore.Security.Permissions.Permission*
+""*
+1
+2*¥
+1û
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csQ Q(§ı
+Ú
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csQ Q(0>
+%88Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*â*Ü1
+/OrchardCore.Lucene.Controllers.SearchController"Q
+_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationService∞
+≠
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csQ@ Q(D,
+%9&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBaseµ
+≤
+û
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csQF Q(•2
+%10+OrchardCore.Security.Permissions.Permission"{System.Linq.Enumerable.FirstOrDefault<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
+System.Linq.Enumerable*:
+8
+permissions)System.Collections.Generic.IEnumerable<T>*
+""¢
+ü
+û
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csQ Q(¶+
+%11$System.Threading.Tasks.Task<TResult>"ﬂMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission)*E"C
+AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*@
+>
+%88Microsoft.AspNetCore.Authorization.IAuthorizationService*.
+,
+%9&System.Security.Claims.ClaimsPrincipal*4
+2
+%10+OrchardCore.Security.Permissions.Permission*
+3
+4*ö
+3ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csS S(3°
+û
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csS S(3,
+%12%Microsoft.AspNetCore.Mvc.ActionResult"eOrchardCore.Mvc.Utilities.ControllerExtensions.ChallengeOrForbid(Microsoft.AspNetCore.Mvc.Controller)*2"0
+.OrchardCore.Mvc.Utilities.ControllerExtensions*31
+/OrchardCore.Lucene.Controllers.SearchController"–
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csS S(4.
+,
+%12%Microsoft.AspNetCore.Mvc.ActionResult*ì
+2ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csX Y(=æ
+ª
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csX X(+
+%13$Microsoft.Extensions.Logging.ILogger"__id*f*d1
+/OrchardCore.Lucene.Controllers.SearchController"/
+_logger$Microsoft.Extensions.Logging.ILogger’
+“
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csX X(b
+%14void"{Microsoft.Extensions.Logging.LoggerExtensions.LogInformation(Microsoft.Extensions.Logging.ILogger, string, params object[])*1"/
+-Microsoft.Extensions.Logging.LoggerExtensions*-
++
+%13$Microsoft.Extensions.Logging.ILogger*<:
+8Couldn't execute search. The search index doesn't exist.*
+""˜Ù
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csY Y(>6
+%15/Microsoft.AspNetCore.Mvc.BadRequestObjectResult":Microsoft.AspNetCore.Mvc.ControllerBase.BadRequest(object)*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*
+Search is not configured.2BadRequest(object)"⁄
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csY Y(?8
+6
+%15/Microsoft.AspNetCore.Mvc.BadRequestObjectResult*“
+4ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs\ \(2®
+•
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs\ \(*
+%16string"7OrchardCore.Lucene.Model.LuceneSettings.SearchIndex.get*;
+9
+searchSettings'OrchardCore.Lucene.Model.LuceneSettings˘
+ˆ
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs\ \(2
+%17bool""string.operator !=(string, string)*
+"
+string*
+
+%16string*
+""*
+5
+6*–
+5ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs\6 \(mÕ
+ 
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs\7 \(K,
+%18%OrchardCore.Lucene.LuceneIndexManager"__id*t*r1
+/OrchardCore.Lucene.Controllers.SearchController"=
+_luceneIndexProvider%OrchardCore.Lucene.LuceneIndexManager®
+•
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs\S \(m
+%19string"7OrchardCore.Lucene.Model.LuceneSettings.SearchIndex.get*;
+9
+searchSettings'OrchardCore.Lucene.Model.LuceneSettingsß
+§
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs\7 \(n
+%20bool"4OrchardCore.Lucene.LuceneIndexManager.Exists(string)*.
+,
+%18%OrchardCore.Lucene.LuceneIndexManager*
+
+%19string*
+7
+6*ì
+7ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs^ _(=æ
+ª
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs^ ^(+
+%21$Microsoft.Extensions.Logging.ILogger"__id*f*d1
+/OrchardCore.Lucene.Controllers.SearchController"/
+_logger$Microsoft.Extensions.Logging.ILogger’
+“
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs^ ^(b
+%22void"{Microsoft.Extensions.Logging.LoggerExtensions.LogInformation(Microsoft.Extensions.Logging.ILogger, string, params object[])*1"/
+-Microsoft.Extensions.Logging.LoggerExtensions*-
++
+%21$Microsoft.Extensions.Logging.ILogger*<:
+8Couldn't execute search. The search index doesn't exist.*
+""˜Ù
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs_ _(>6
+%23/Microsoft.AspNetCore.Mvc.BadRequestObjectResult":Microsoft.AspNetCore.Mvc.ControllerBase.BadRequest(object)*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*
+Search is not configured.2BadRequest(object)"⁄
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs_ _(?8
+6
+%23/Microsoft.AspNetCore.Mvc.BadRequestObjectResult*„
+
+6ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csb d(&’
+“
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csb' b(=/
+%24(OrchardCore.Lucene.LuceneIndexingService"__id*y*w1
+/OrchardCore.Lucene.Controllers.SearchController"B
+_luceneIndexingService(OrchardCore.Lucene.LuceneIndexingService∆
+√
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csb' b(V+
+%25$System.Threading.Tasks.Task<TResult>"AOrchardCore.Lucene.LuceneIndexingService.GetLuceneSettingsAsync()*1
+/
+%24(OrchardCore.Lucene.LuceneIndexingServiceÏ
+È
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csb b(V9
+luceneSettings'OrchardCore.Lucene.Model.LuceneSettings"__id*
+""•
+¢
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csd d(&
+%26bool""object.operator ==(object, object)*
+"
+object*;
+9
+luceneSettings'OrchardCore.Lucene.Model.LuceneSettings*
+""*
+8
+9*≠
+9ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csd* d(8*
+10
+11*ﬂ
+11ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csd9 d(M≤
+Ø
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csd: d(M
+%27string[]"?OrchardCore.Lucene.Model.LuceneSettings.DefaultSearchFields.get*;
+9
+luceneSettings'OrchardCore.Lucene.Model.LuceneSettings*
+10*´
+10ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csd* d(U˚
+¯
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csd* d(U
+%28bool""object.operator ==(object, object)*
+"
+object*
+
+%27string[]*
+""*
+8
+12*ì
+8ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csf g(=æ
+ª
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csf f(+
+%29$Microsoft.Extensions.Logging.ILogger"__id*f*d1
+/OrchardCore.Lucene.Controllers.SearchController"/
+_logger$Microsoft.Extensions.Logging.ILogger’
+“
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csf f(b
+%30void"{Microsoft.Extensions.Logging.LoggerExtensions.LogInformation(Microsoft.Extensions.Logging.ILogger, string, params object[])*1"/
+-Microsoft.Extensions.Logging.LoggerExtensions*-
++
+%29$Microsoft.Extensions.Logging.ILogger*<:
+8Couldn't execute search. No Lucene settings was defined.*
+""˜Ù
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csg g(>6
+%31/Microsoft.AspNetCore.Mvc.BadRequestObjectResult":Microsoft.AspNetCore.Mvc.ControllerBase.BadRequest(object)*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*
+Search is not configured.2BadRequest(object)"⁄
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csg g(?8
+6
+%31/Microsoft.AspNetCore.Mvc.BadRequestObjectResult*—
+12ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csj l(+Ê
+„
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csj, j(G4
+%32-OrchardCore.Lucene.LuceneIndexSettingsService"__id*Ñ*Å1
+/OrchardCore.Lucene.Controllers.SearchController"L
+_luceneIndexSettingsService-OrchardCore.Lucene.LuceneIndexSettingsService®
+•
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csjY j(s
+%33string"7OrchardCore.Lucene.Model.LuceneSettings.SearchIndex.get*;
+9
+searchSettings'OrchardCore.Lucene.Model.LuceneSettings·
+ﬁ
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csj, j(t+
+%34$System.Threading.Tasks.Task<TResult>"FOrchardCore.Lucene.LuceneIndexSettingsService.GetSettingsAsync(string)*6
+4
+%32-OrchardCore.Lucene.LuceneIndexSettingsService*
+
+%33stringˆ
+Û
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csj j(tC
+luceneIndexSettings,OrchardCore.Lucene.Model.LuceneIndexSettings"__id*
+""Ø
+¨
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csl l(+
+%35bool""object.operator ==(object, object)*
+"
+object*E
+C
+luceneIndexSettings,OrchardCore.Lucene.Model.LuceneIndexSettings*
+""*
+13
+14*ì
+13ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csn o(Mæ
+ª
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csn n(+
+%36$Microsoft.Extensions.Logging.ILogger"__id*f*d1
+/OrchardCore.Lucene.Controllers.SearchController"/
+_logger$Microsoft.Extensions.Logging.ILogger©
+¶
+û
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csnm n(á
+%37string"7OrchardCore.Lucene.Model.LuceneSettings.SearchIndex.get*;
+9
+searchSettings'OrchardCore.Lucene.Model.LuceneSettings÷
+”
+û
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csn' n(ë
+%38string"__concat*
+""*
+
+%37string÷
+”
+û
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csn' n(ë
+%39string"__concat*
+
+%38string*
+""©
+¶
+û
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csn n(í
+%40void"{Microsoft.Extensions.Logging.LoggerExtensions.LogInformation(Microsoft.Extensions.Logging.ILogger, string, params object[])*1"/
+-Microsoft.Extensions.Logging.LoggerExtensions*-
++
+%36$Microsoft.Extensions.Logging.ILogger*
+
+%39string*
+""®
+•
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cso3 o(M
+%41string"7OrchardCore.Lucene.Model.LuceneSettings.SearchIndex.get*;
+9
+searchSettings'OrchardCore.Lucene.Model.LuceneSettings’
+“
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cso" o(c
+%42string"__concat*
+""*
+
+%41string’
+“
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cso" o(c
+%43string"__concat*
+
+%42string*
+""ÈÊ
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cso o(d6
+%44/Microsoft.AspNetCore.Mvc.BadRequestObjectResult":Microsoft.AspNetCore.Mvc.ControllerBase.BadRequest(object)*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*
+
+%43string2BadRequest(object)"⁄
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cso o(e8
+6
+%44/Microsoft.AspNetCore.Mvc.BadRequestObjectResult*Ú
+14ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csr r(9Õ
+ 
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csr* r(9
+%45string"IOrchardCore.Search.Abstractions.ViewModels.SearchIndexViewModel.Terms.get*N
+L
+	viewModel?OrchardCore.Search.Abstractions.ViewModels.SearchIndexViewModelÒ
+Ó
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csr r(:
+%46bool""string.IsNullOrWhiteSpace(string?)*
+"
+string*
+
+%45string*
+15
+16*§
+15ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cst v(L¨©
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cst w(F
+%47?OrchardCore.Search.Abstractions.ViewModels.SearchIndexViewModel"?OrchardCore.Search.Abstractions.ViewModels.SearchIndexViewModel“
+œ
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cst  t(4
+%48void"VOrchardCore.Search.Abstractions.ViewModels.SearchIndexViewModel.SearchIndexViewModel()*H
+F
+%47?OrchardCore.Search.Abstractions.ViewModels.SearchIndexViewModel™ß
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csv! v(LE
+%49>OrchardCore.Search.Abstractions.ViewModels.SearchFormViewModel">OrchardCore.Search.Abstractions.ViewModels.SearchFormViewModelÁ
+‰
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csv% v(8
+%50void"ZOrchardCore.Search.Abstractions.ViewModels.SearchFormViewModel.SearchFormViewModel(string)*G
+E
+%49>OrchardCore.Search.Abstractions.ViewModels.SearchFormViewModel*
+Search__FormÕ
+ 
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csv v(LE
+%51>OrchardCore.Search.Abstractions.ViewModels.SearchFormViewModel"NOrchardCore.Search.Abstractions.ViewModels.SearchIndexViewModel.SearchForm.set*H
+F
+%47?OrchardCore.Search.Abstractions.ViewModels.SearchIndexViewModel*G
+E
+%49>OrchardCore.Search.Abstractions.ViewModels.SearchFormViewModel‡
+›
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cst w(
+%52void"&orchardcore.lucene/views/search/search*
+
+%53*H
+F
+%47?OrchardCore.Search.Abstractions.ViewModels.SearchIndexViewModel*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject* 
+
+%HttpContextItemsAllobject*!
+
+%HttpContextItemsHtmlobject"Ø
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cst w(
+
+%52void*·/
+16û
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csz Ñ(.îë
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csz7 z(L
+
+%54int"'OrchardCore.Settings.ISite.PageSize.get*,
+*
+siteSettingsOrchardCore.Settings.ISite2PageSize.getÓÎ
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csz z(M'
+%55 OrchardCore.Navigation.PagerSlim" OrchardCore.Navigation.PagerSlimá
+Ñ
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csz z(%
+%56void"[OrchardCore.Navigation.PagerSlim.PagerSlim(OrchardCore.Navigation.PagerSlimParameters, int)*)
+'
+%55 OrchardCore.Navigation.PagerSlim*?
+=
+pagerParameters*OrchardCore.Navigation.PagerSlimParameters*
+
+
+%54intˇ
+¸
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csz z(M)
+pager OrchardCore.Navigation.PagerSlim"__id*)
+'
+%55 OrchardCore.Navigation.PagerSlimÈ
+Ê
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs} }(18
+%571OrchardCore.Lucene.Services.LuceneAnalyzerManager"__id*É*Ä1
+/OrchardCore.Lucene.Controllers.SearchController"K
+_luceneAnalyzerManager1OrchardCore.Lucene.Services.LuceneAnalyzerManagerÊ
+„
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs}G }(b4
+%58-OrchardCore.Lucene.LuceneIndexSettingsService"__id*Ñ*Å1
+/OrchardCore.Lucene.Controllers.SearchController"L
+_luceneIndexSettingsService-OrchardCore.Lucene.LuceneIndexSettingsService∂
+≥
+û
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs}y }(ñ
+%59string":OrchardCore.Lucene.Model.LuceneIndexSettings.IndexName.get*E
+C
+luceneIndexSettings,OrchardCore.Lucene.Model.LuceneIndexSettingsÁ
+‰
+û
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs}G }(ó+
+%60$System.Threading.Tasks.Task<TResult>"KOrchardCore.Lucene.LuceneIndexSettingsService.GetIndexAnalyzerAsync(string)*6
+4
+%58-OrchardCore.Lucene.LuceneIndexSettingsService*
+
+%59string◊
+‘
+û
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs} }(ò#
+%61Lucene.Net.Analysis.Analyzer"HOrchardCore.Lucene.Services.LuceneAnalyzerManager.CreateAnalyzer(string)*:
+8
+%571OrchardCore.Lucene.Services.LuceneAnalyzerManager*
+""˚
+¯
+û
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs} }(ò(
+analyzerLucene.Net.Analysis.Analyzer"__id*%
+#
+%61Lucene.Net.Analysis.Analyzer∏
+µ
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs~8 ~(U
+%62"__id*
+""≤
+Ø
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs~W ~(y
+%63string[]"?OrchardCore.Lucene.Model.LuceneSettings.DefaultSearchFields.get*;
+9
+luceneSettings'OrchardCore.Lucene.Model.LuceneSettingsôñ
+û
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs~ ~(Ñ<
+%645Lucene.Net.QueryParsers.Classic.MultiFieldQueryParser"5Lucene.Net.QueryParsers.Classic.MultiFieldQueryParserÕ
+ 
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs~" ~(7
+%65void"íLucene.Net.QueryParsers.Classic.MultiFieldQueryParser.MultiFieldQueryParser(Lucene.Net.Util.LuceneVersion, string[], Lucene.Net.Analysis.Analyzer)*>
+<
+%645Lucene.Net.QueryParsers.Classic.MultiFieldQueryParser*
+
+%62*
+
+%63string[]**
+(
+analyzerLucene.Net.Analysis.Analyzer∞
+≠
+û
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs~ ~(ÑD
+queryParser5Lucene.Net.QueryParsers.Classic.MultiFieldQueryParser"__id*>
+<
+%645Lucene.Net.QueryParsers.Classic.MultiFieldQueryParserΩ
+∫
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csÅ Å(
+startint"__id*2 ç
+ä
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csÇ Ç($
+
+%66int"-OrchardCore.Navigation.PagerSlim.PageSize.get*+
+)
+pager OrchardCore.Navigation.PagerSlimø
+º
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csÇ Ç((
+
+endint"__id*
+""¨
+©
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csÑ Ñ(&
+%67string"5OrchardCore.Navigation.PagerSlimParameters.Before.get*?
+=
+pagerParameters*OrchardCore.Navigation.PagerSlimParameters˚
+¯
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csÑ Ñ(.
+%68bool""string.operator !=(string, string)*
+"
+string*
+
+%67string*
+""*
+17
+18*ö
+17ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csÜ á(<¨
+©
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csÜ( Ü(>
+%69string"5OrchardCore.Navigation.PagerSlimParameters.Before.get*?
+=
+pagerParameters*OrchardCore.Navigation.PagerSlimParameters˜
+Ù
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csÜ Ü(?
+
+%70int"System.Convert.ToInt32(string?)*"
+System.Convert*
+
+%69stringç
+ä
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csÜB Ü(P
+
+%71int"-OrchardCore.Navigation.PagerSlim.PageSize.get*+
+)
+pager OrchardCore.Navigation.PagerSlim¡
+æ
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csÜ Ü(T
+startint"__id*
+""¨
+©
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csá& á(<
+%72string"5OrchardCore.Navigation.PagerSlimParameters.Before.get*?
+=
+pagerParameters*OrchardCore.Navigation.PagerSlimParameters˜
+Ù
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csá á(=
+
+%73int"System.Convert.ToInt32(string?)*"
+System.Convert*
+
+%72string≈
+¬
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csá á(=
+
+endint"__id*
+
+
+%73int*
+19*‹
+18ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csâ â(2´
+®
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csâ â(*
+%74string"4OrchardCore.Navigation.PagerSlimParameters.After.get*?
+=
+pagerParameters*OrchardCore.Navigation.PagerSlimParameters˚
+¯
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csâ â(2
+%75bool""string.operator !=(string, string)*
+"
+string*
+
+%74string*
+""*
+20
+19*ò
+20ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csã å(Q´
+®
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csã( ã(=
+%76string"4OrchardCore.Navigation.PagerSlimParameters.After.get*?
+=
+pagerParameters*OrchardCore.Navigation.PagerSlimParameters˜
+Ù
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csã ã(>
+
+%77int"System.Convert.ToInt32(string?)*"
+System.Convert*
+
+%76string«
+ƒ
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csã ã(>
+startint"__id*
+
+
+%77int´
+®
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cså& å(;
+%78string"4OrchardCore.Navigation.PagerSlimParameters.After.get*?
+=
+pagerParameters*OrchardCore.Navigation.PagerSlimParameters˜
+Ù
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cså å(<
+
+%79int"System.Convert.ToInt32(string?)*"
+System.Convert*
+
+%78stringç
+ä
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cså? å(M
+
+%80int"-OrchardCore.Navigation.PagerSlim.PageSize.get*+
+)
+pager OrchardCore.Navigation.PagerSlimø
+º
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cså å(Q
+
+endint"__id*
+""*
+19*å
+19ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csè ê(:œ
+Ã
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csè è('
+%81string"IOrchardCore.Search.Abstractions.ViewModels.SearchIndexViewModel.Terms.get*N
+L
+	viewModel?OrchardCore.Search.Abstractions.ViewModels.SearchIndexViewModelÕ
+ 
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csè è('
+termsstring"__id*
+
+%81string∑
+¥
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csê ê(:
+%82bool"FOrchardCore.Lucene.Model.LuceneSettings.AllowLuceneQueriesInSearch.get*;
+9
+searchSettings'OrchardCore.Lucene.Model.LuceneSettings*
+21
+22*ª
+21ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csí í(0º
+π
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csí í(1
+%83string">Lucene.Net.QueryParsers.Classic.QueryParserBase.Escape(string)*3"1
+/Lucene.Net.QueryParsers.Classic.QueryParserBase*
+
+termsstringÕ
+ 
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csí í(1
+termsstring"__id*
+
+%83string*
+22*¨
+22ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csï ï((*
+23*ô
+23ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csò ô({ÓÎ
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csò ò(4
+%84Lucene.Net.Search.Query"=Lucene.Net.QueryParsers.Classic.QueryParserBase.Parse(string)*F
+D
+queryParser5Lucene.Net.QueryParsers.Classic.MultiFieldQueryParser*
+
+termsstring2Parse(string)Ô
+Ï
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csò ò(4 
+queryLucene.Net.Search.Query"__id* 
+
+%84Lucene.Net.Search.Query‚
+ﬂ
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csô( ô(;6
+%85/OrchardCore.Lucene.Services.ISearchQueryService"__id*}*{1
+/OrchardCore.Lucene.Controllers.SearchController"F
+_searchQueryService/OrchardCore.Lucene.Services.ISearchQueryService™
+ß
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csôU ô(o
+%86string"7OrchardCore.Lucene.Model.LuceneSettings.SearchIndex.get*;
+9
+searchSettings'OrchardCore.Lucene.Model.LuceneSettingsãà
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csô( ô(|+
+%87$System.Threading.Tasks.Task<TResult>"lOrchardCore.Lucene.Services.ISearchQueryService.ExecuteQueryAsync(Lucene.Net.Search.Query, string, int, int)*8
+6
+%85/OrchardCore.Lucene.Services.ISearchQueryService*"
+ 
+queryLucene.Net.Search.Query*
+
+%86string*
+
+startint*
+
+
+endint2<ExecuteQueryAsync(Lucene.Net.Search.Query, string, int, int)Õ
+ 
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csô! ö()
+%88"System.Collections.Generic.List<T>"WSystem.Linq.Enumerable.ToList<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*
+""è
+å
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csô ö(5
+contentItemIds#System.Collections.Generic.IList<T>"__id*+
+)
+%88"System.Collections.Generic.List<T>*
+24
+25
+26*–1
+24ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csû •(bÕ
+ 
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csû û(A
+%89:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary"6Microsoft.AspNetCore.Mvc.ControllerBase.ModelState.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase÷
+”
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csû2 û(39
+%902Microsoft.Extensions.Localization.IStringLocalizer"__id*n*l1
+/OrchardCore.Lucene.Controllers.SearchController"7
+S2Microsoft.Extensions.Localization.IStringLocalizerêç
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csû2 û(N8
+%911Microsoft.Extensions.Localization.LocalizedString"CMicrosoft.Extensions.Localization.IStringLocalizer.this[string].get*;
+9
+%902Microsoft.Extensions.Localization.IStringLocalizer*
+Incorrect query syntax.2this[string].getò
+ï
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csû û(O
+%92void"XMicrosoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary.AddModelError(string, string)*C
+A
+%89:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary*	
+Terms*:
+8
+%911Microsoft.Extensions.Localization.LocalizedString¿
+Ω
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csü ü(+
+%93$Microsoft.Extensions.Logging.ILogger"__id*f*d1
+/OrchardCore.Lucene.Controllers.SearchController"/
+_logger$Microsoft.Extensions.Logging.ILoggerõ
+ò
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csü ü(_
+%94void"áMicrosoft.Extensions.Logging.LoggerExtensions.LogError(Microsoft.Extensions.Logging.ILogger, System.Exception, string, params object[])*1"/
+-Microsoft.Extensions.Logging.LoggerExtensions*-
++
+%93$Microsoft.Extensions.Logging.ILogger*5
+3
+e.Lucene.Net.QueryParsers.Classic.ParseException*<:
+8Incorrect Lucene search query syntax provided in search:*
+""Æ´
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs¢ ¶(F
+%95?OrchardCore.Search.Abstractions.ViewModels.SearchIndexViewModel"?OrchardCore.Search.Abstractions.ViewModels.SearchIndexViewModel‘
+—
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs¢  ¢(4
+%96void"VOrchardCore.Search.Abstractions.ViewModels.SearchIndexViewModel.SearchIndexViewModel()*H
+F
+%95?OrchardCore.Search.Abstractions.ViewModels.SearchIndexViewModelœ
+Ã
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs§ §(+
+%97string"IOrchardCore.Search.Abstractions.ViewModels.SearchIndexViewModel.Terms.get*N
+L
+	viewModel?OrchardCore.Search.Abstractions.ViewModels.SearchIndexViewModel⁄
+◊
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs§ §(+
+%98string"IOrchardCore.Search.Abstractions.ViewModels.SearchIndexViewModel.Terms.set*H
+F
+%95?OrchardCore.Search.Abstractions.ViewModels.SearchIndexViewModel*
+
+%97string¨©
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs•! •(dE
+%99>OrchardCore.Search.Abstractions.ViewModels.SearchFormViewModel">OrchardCore.Search.Abstractions.ViewModels.SearchFormViewModelÍ
+Á
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs•% •(8
+%100void"ZOrchardCore.Search.Abstractions.ViewModels.SearchFormViewModel.SearchFormViewModel(string)*G
+E
+%99>OrchardCore.Search.Abstractions.ViewModels.SearchFormViewModel*
+Search__Form–
+Õ
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs•S •(b
+%101string"IOrchardCore.Search.Abstractions.ViewModels.SearchIndexViewModel.Terms.get*N
+L
+	viewModel?OrchardCore.Search.Abstractions.ViewModels.SearchIndexViewModel⁄
+◊
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs•K •(b
+%102string"HOrchardCore.Search.Abstractions.ViewModels.SearchFormViewModel.Terms.set*G
+E
+%99>OrchardCore.Search.Abstractions.ViewModels.SearchFormViewModel*
+
+%101string–
+Õ
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs• •(dF
+%103>OrchardCore.Search.Abstractions.ViewModels.SearchFormViewModel"NOrchardCore.Search.Abstractions.ViewModels.SearchIndexViewModel.SearchForm.set*H
+F
+%95?OrchardCore.Search.Abstractions.ViewModels.SearchIndexViewModel*G
+E
+%99>OrchardCore.Search.Abstractions.ViewModels.SearchFormViewModel‰
+·
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs¢ ¶(
+%104void"&orchardcore.lucene/views/search/search*
+
+%105*H
+F
+%95?OrchardCore.Search.Abstractions.ViewModels.SearchIndexViewModel*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject* 
+
+%HttpContextItemsAllobject*!
+
+%HttpContextItemsHtmlobject"≤
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs¢ ¶(
+
+%104void*Î
+25ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs™  ¨(/∏
+µ
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs¨ ¨(/
+%106bool"<OrchardCore.Lucene.Model.LuceneIndexSettings.IndexLatest.get*E
+C
+luceneIndexSettings,OrchardCore.Lucene.Model.LuceneIndexSettings*
+27
+28*»
+27ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csÆ ∞(,ò
+ï
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csÆ Æ("
+%107YesSql.ISession"__id*R*P1
+/OrchardCore.Lucene.Controllers.SearchController"
+_sessionYesSql.ISession÷
+”
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csÆ Æ(I 
+%108YesSql.IQuery<T, TIndex>"FYesSql.QueryExtensions.Query<T, TIndex>(YesSql.ISession, bool, string)*"
+YesSql.QueryExtensions*
+
+%107YesSql.ISession*
+""*
+""òï
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csÆ Ø(Y 
+%109YesSql.IQuery<T, TIndex>"]YesSql.IQuery<T, TIndex>.Where(System.Linq.Expressions.Expression<System.Func<TIndex, bool>>)*"
+ 
+%108YesSql.IQuery<T, TIndex>*
+""2DWhere(System.Linq.Expressions.Expression<System.Func<TIndex, bool>>)é
+ã
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs∞ ∞((
+%110int"-OrchardCore.Navigation.PagerSlim.PageSize.get*+
+)
+pager OrchardCore.Navigation.PagerSlimíè
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csÆ ∞(-
+%111YesSql.IQuery<T>"YesSql.IQuery<T>.Take(int)*"
+ 
+%109YesSql.IQuery<T, TIndex>*
+""2	Take(int)‰
+·
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csÆ ∞(-
+queryDbYesSql.IQuery<T>"__id*
+
+%111YesSql.IQuery<T>*
+29*»
+28ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs¥ ∂(,ò
+ï
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs¥ ¥("
+%112YesSql.ISession"__id*R*P1
+/OrchardCore.Lucene.Controllers.SearchController"
+_sessionYesSql.ISession÷
+”
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs¥ ¥(I 
+%113YesSql.IQuery<T, TIndex>"FYesSql.QueryExtensions.Query<T, TIndex>(YesSql.ISession, bool, string)*"
+YesSql.QueryExtensions*
+
+%112YesSql.ISession*
+""*
+""òï
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs¥ µ(\ 
+%114YesSql.IQuery<T, TIndex>"]YesSql.IQuery<T, TIndex>.Where(System.Linq.Expressions.Expression<System.Func<TIndex, bool>>)*"
+ 
+%113YesSql.IQuery<T, TIndex>*
+""2DWhere(System.Linq.Expressions.Expression<System.Func<TIndex, bool>>)é
+ã
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs∂ ∂((
+%115int"-OrchardCore.Navigation.PagerSlim.PageSize.get*+
+)
+pager OrchardCore.Navigation.PagerSlimíè
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs¥ ∂(-
+%116YesSql.IQuery<T>"YesSql.IQuery<T>.Take(int)*"
+ 
+%114YesSql.IQuery<T, TIndex>*
+""2	Take(int)‰
+·
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs¥ ∂(-
+queryDbYesSql.IQuery<T>"__id*
+
+%116YesSql.IQuery<T>*
+29*ü
+29ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs∫ Ω(-ùö
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs∫( ∫(;,
+%117$System.Threading.Tasks.Task<TResult>"YesSql.IQuery<T>.ListAsync()*
+
+queryDbYesSql.IQuery<T>2ListAsync()ˇ
+¸
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs∫! ∫(r0
+%118(System.Linq.IOrderedEnumerable<TElement>"zSystem.Linq.Enumerable.OrderBy<TSource, TKey>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TKey>)*"
+System.Linq.Enumerable*
+""*
+""õ
+ò
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs∫ ∫(r:
+containedItems(System.Linq.IOrderedEnumerable<TElement>"__id*2
+0
+%118(System.Linq.IOrderedEnumerable<TElement>¨
+©
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csΩ Ω(%
+%119string"4OrchardCore.Navigation.PagerSlimParameters.After.get*?
+=
+pagerParameters*OrchardCore.Navigation.PagerSlimParameters˝
+˙
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csΩ Ω(-
+%120bool""string.operator !=(string, string)*
+"
+string*
+
+%119string*
+""*
+30
+31*‡
+31ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csΩ1 Ω(O≠
+™
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csΩ1 Ω(G
+%121string"5OrchardCore.Navigation.PagerSlimParameters.Before.get*?
+=
+pagerParameters*OrchardCore.Navigation.PagerSlimParameters˝
+˙
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csΩ1 Ω(O
+%122bool""string.operator !=(string, string)*
+"
+string*
+
+%121string*
+""*
+30
+32*∞
+30ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csø ø(!*
+33
+34*∆
+33ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs¡ ¡(-ó
+î
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs¡ ¡(9
+%123string"+OrchardCore.Navigation.PagerSlim.Before.set*+
+)
+pager OrchardCore.Navigation.PagerSlim*
+""*
+32*∆
+34ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs≈ ≈('ó
+î
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs≈ ≈('
+%124string"+OrchardCore.Navigation.PagerSlim.Before.set*+
+)
+pager OrchardCore.Navigation.PagerSlim*
+""*
+32*®
+32ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs… …(<‰
+·
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs… …(&
+%125int"VSystem.Linq.Enumerable.Count<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*<
+:
+containedItems(System.Linq.IOrderedEnumerable<TElement>é
+ã
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs…* …(8
+%126int"-OrchardCore.Navigation.PagerSlim.PageSize.get*+
+)
+pager OrchardCore.Navigation.PagerSlim*
+35
+36*≈
+35ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csÀ À(&ñ
+ì
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csÀ À(2
+%127string"*OrchardCore.Navigation.PagerSlim.After.set*+
+)
+pager OrchardCore.Navigation.PagerSlim*
+""*
+37*≈
+36ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csœ œ("ñ
+ì
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csœ œ("
+%128string"*OrchardCore.Navigation.PagerSlim.After.set*+
+)
+pager OrchardCore.Navigation.PagerSlim*
+""*
+37*·?
+37ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs“ ⁄(Ø¨
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs“ ÿ(G
+%129?OrchardCore.Search.Abstractions.ViewModels.SearchIndexViewModel"?OrchardCore.Search.Abstractions.ViewModels.SearchIndexViewModel÷
+”
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs“ “(0
+%130void"VOrchardCore.Search.Abstractions.ViewModels.SearchIndexViewModel.SearchIndexViewModel()*I
+G
+%129?OrchardCore.Search.Abstractions.ViewModels.SearchIndexViewModel–
+Õ
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs‘ ‘('
+%131string"IOrchardCore.Search.Abstractions.ViewModels.SearchIndexViewModel.Terms.get*N
+L
+	viewModel?OrchardCore.Search.Abstractions.ViewModels.SearchIndexViewModel›
+⁄
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs‘ ‘('
+%132string"IOrchardCore.Search.Abstractions.ViewModels.SearchIndexViewModel.Terms.set*I
+G
+%129?OrchardCore.Search.Abstractions.ViewModels.SearchIndexViewModel*
+
+%131string≠™
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs’ ’(`F
+%133>OrchardCore.Search.Abstractions.ViewModels.SearchFormViewModel">OrchardCore.Search.Abstractions.ViewModels.SearchFormViewModelÎ
+Ë
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs’! ’(4
+%134void"ZOrchardCore.Search.Abstractions.ViewModels.SearchFormViewModel.SearchFormViewModel(string)*H
+F
+%133>OrchardCore.Search.Abstractions.ViewModels.SearchFormViewModel*
+Search__Form–
+Õ
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs’O ’(^
+%135string"IOrchardCore.Search.Abstractions.ViewModels.SearchIndexViewModel.Terms.get*N
+L
+	viewModel?OrchardCore.Search.Abstractions.ViewModels.SearchIndexViewModel€
+ÿ
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs’G ’(^
+%136string"HOrchardCore.Search.Abstractions.ViewModels.SearchFormViewModel.Terms.set*H
+F
+%133>OrchardCore.Search.Abstractions.ViewModels.SearchFormViewModel*
+
+%135string“
+œ
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs’ ’(`F
+%137>OrchardCore.Search.Abstractions.ViewModels.SearchFormViewModel"NOrchardCore.Search.Abstractions.ViewModels.SearchIndexViewModel.SearchForm.set*I
+G
+%129?OrchardCore.Search.Abstractions.ViewModels.SearchIndexViewModel*H
+F
+%133>OrchardCore.Search.Abstractions.ViewModels.SearchFormViewModel¥±
+†
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs÷  ÷(ÑI
+%138AOrchardCore.Search.Abstractions.ViewModels.SearchResultsViewModel"AOrchardCore.Search.Abstractions.ViewModels.SearchResultsViewModel˜
+Ù
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs÷$ ÷(:
+%139void"`OrchardCore.Search.Abstractions.ViewModels.SearchResultsViewModel.SearchResultsViewModel(string)*K
+I
+%138AOrchardCore.Search.Abstractions.ViewModels.SearchResultsViewModel*
+Search__Resultsè
+å
+†
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs÷s ÷(Å
+%140int"-OrchardCore.Navigation.PagerSlim.PageSize.get*+
+)
+pager OrchardCore.Navigation.PagerSlimû
+õ
+†
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs÷_ ÷(Ç1
+%141)System.Collections.Generic.IEnumerable<T>"ZSystem.Linq.Enumerable.Take<TSource>(System.Collections.Generic.IEnumerable<TSource>, int)*"
+System.Linq.Enumerable*<
+:
+containedItems(System.Linq.IOrderedEnumerable<TElement>*
+
+%140intØ
+¨
+†
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs÷P ÷(Ç1
+%142)System.Collections.Generic.IEnumerable<T>"ROrchardCore.Search.Abstractions.ViewModels.SearchResultsViewModel.ContentItems.set*K
+I
+%138AOrchardCore.Search.Abstractions.ViewModels.SearchResultsViewModel*3
+1
+%141)System.Collections.Generic.IEnumerable<T>‹
+Ÿ
+†
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs÷ ÷(ÑI
+%143AOrchardCore.Search.Abstractions.ViewModels.SearchResultsViewModel"QOrchardCore.Search.Abstractions.ViewModels.SearchIndexViewModel.SearchResults.set*I
+G
+%129?OrchardCore.Search.Abstractions.ViewModels.SearchIndexViewModel*K
+I
+%138AOrchardCore.Search.Abstractions.ViewModels.SearchResultsViewModelÉ
+Ä
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs◊ ◊("
+%144dynamic"__id*E*C1
+/OrchardCore.Lucene.Controllers.SearchController"
+Newdynamicòï
+†
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs◊? ◊(Ä;
+%1453System.Collections.Generic.Dictionary<TKey, TValue>"3System.Collections.Generic.Dictionary<TKey, TValue>¥
+±
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs◊C ◊(]
+%146void"@System.Collections.Generic.Dictionary<TKey, TValue>.Dictionary()*=
+;
+%1453System.Collections.Generic.Dictionary<TKey, TValue>–
+Õ
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs◊m ◊(|
+%147string"IOrchardCore.Search.Abstractions.ViewModels.SearchIndexViewModel.Terms.get*N
+L
+	viewModel?OrchardCore.Search.Abstractions.ViewModels.SearchIndexViewModel’
+“
+†
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs◊ ◊(Å
+%148dynamic"IOrchardCore.Search.Abstractions.ViewModels.SearchIndexViewModel.Pager.set*I
+G
+%129?OrchardCore.Search.Abstractions.ViewModels.SearchIndexViewModel*
+""¿
+Ω
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs“ ÿ(H
+model?OrchardCore.Search.Abstractions.ViewModels.SearchIndexViewModel"__id*I
+G
+%129?OrchardCore.Search.Abstractions.ViewModels.SearchIndexViewModelÊ
+„
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs⁄ ⁄(
+%149void"&orchardcore.lucene/views/search/search*
+
+%150*J
+H
+model?OrchardCore.Search.Abstractions.ViewModels.SearchIndexViewModel*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject* 
+
+%HttpContextItemsAllobject*!
+
+%HttpContextItemsHtmlobject"≤
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs⁄ ⁄(
+
+%149void*‡
+26ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs€	 €(	"∑
+ü
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs€ €(	
+implicit return*â
+38ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csGt G(tí
+è
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csG) G(/_
+L
+	viewModel?OrchardCore.Search.Abstractions.ViewModels.SearchIndexViewModel"
+Termsstring"__entrypoint–
+Õ
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csG) G(/ú
+L
+	viewModel?OrchardCore.Search.Abstractions.ViewModels.SearchIndexViewModel"L
+
+SearchForm>OrchardCore.Search.Abstractions.ViewModels.SearchFormViewModel"__entrypoint÷
+”
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csG) G(/¢
+L
+	viewModel?OrchardCore.Search.Abstractions.ViewModels.SearchIndexViewModel"R
+SearchResultsAOrchardCore.Search.Abstractions.ViewModels.SearchResultsViewModel"__entrypointì
+ê
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csG) G(/`
+L
+	viewModel?OrchardCore.Search.Abstractions.ViewModels.SearchIndexViewModel"
+Pagerdynamic"__entrypointΩ
+∫
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csG) G(/â
+L
+	viewModel?OrchardCore.Search.Abstractions.ViewModels.SearchIndexViewModel"9
+ContentItems)System.Collections.Generic.IEnumerable<T>"__entrypointÑ
+Å
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csG) G(/Q
+=
+pagerParameters*OrchardCore.Navigation.PagerSlimParameters"
+Beforestring"__entrypointÉ
+Ä
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csG) G(/P
+=
+pagerParameters*OrchardCore.Navigation.PagerSlimParameters"
+Afterstring"__entrypointπ
+∂
+ù
+íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csG) G(/
+%151"__entrypoint*
+0:L
+	viewModel?OrchardCore.Search.Abstractions.ViewModels.SearchIndexViewModel:=
+pagerParameters*OrchardCore.Navigation.PagerSlimParametersB31
+/OrchardCore.Lucene.Controllers.SearchController

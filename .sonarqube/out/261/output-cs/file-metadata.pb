@@ -1,0 +1,14 @@
+•
+õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\ActionFilters\Detection\IDetectRobots.csutf-8Æ
+§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\ActionFilters\Detection\IpAddressRobotDetector.csutf-8õ
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\ActionFilters\ReCaptchaMode.csutf-8®
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\ActionFilters\ValidateReCaptchaAttribute.csutf-8ü
+ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\Configuration\ReCaptchaSettings.csutf-8¨
+¢D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\Configuration\ReCaptchaSettingsConfiguration.csutf-8à
+D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\Constants.csutf-8õ
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\ServiceCollectionExtensions.csutf-8ò
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\Services\ReCaptchaClient.csutf-8ô
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\Services\ReCaptchaService.csutf-8ù
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\TagHelpers\ReCaptchaTagHelper.csutf-8≈
+πD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.csutf-8¡
+µD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\obj\Debug\netcoreapp3.1\OrchardCore.ReCaptcha.Core.AssemblyInfo.csutf-8

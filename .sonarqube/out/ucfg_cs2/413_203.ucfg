@@ -1,0 +1,439 @@
+
+ÖOrchardCore.Taxonomies.Liquid.TaxonomyTermsFilter.ProcessAsync(Fluid.Values.FluidValue, Fluid.FilterArguments, Fluid.TemplateContext)û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs+ (7"0*„
+0û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs (KÕ
+ 
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs ("9
+%03System.Collections.Generic.Dictionary<TKey, TValue>"__id*f*d
+
+ctxFluid.TemplateContext"D
+AmbientValues3System.Collections.Generic.Dictionary<TKey, TValue>‰
+·
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs (L
+
+%1bool"QSystem.Collections.Generic.Dictionary<TKey, TValue>.TryGetValue(TKey, out TValue)*;
+9
+%03System.Collections.Generic.Dictionary<TKey, TValue>*
+
+Services*
+
+servicesobject*
+1
+2* 
+1û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs (^ﬁ€
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs (_
+%2System.ArgumentException"System.ArgumentExceptionΩ
+∫
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs (+
+
+%3void"3System.ArgumentException.ArgumentException(string?)* 
+
+%2System.ArgumentException*42
+0Services missing while invoking 'taxonomy_terms'*
+3*∫
+2û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs (0∆
+√
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs" (<
+%4"__id*
+
+servicesobject™
+ß
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs! (c3
+%5-OrchardCore.ContentManagement.IContentManager"xMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<T>(System.IServiceProvider)*M"K
+IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*
+
+%4¢
+ü
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs (c?
+contentManager-OrchardCore.ContentManagement.IContentManager"__id*5
+3
+%5-OrchardCore.ContentManagement.IContentManager”
+–
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs (/
+taxonomyContentItemIdstring"__id*
+""“
+œ
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs (.
+termContentItemIdsstring[]"__id*
+""ä
+á
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs (
+%6Fluid.Values.FluidValues" Fluid.Values.FluidValue.Type.get*"
+ 
+inputFluid.Values.FluidValue∏
+µ
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs (0
+%7"__id*
+""*
+4
+5*°
+4û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs4 (`ˇ
+¸
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs4 (I
+%8object"'Fluid.Values.FluidValue.ToObjectValue()*"
+ 
+inputFluid.Values.FluidValue
+Ì
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs4 (`4
+field+OrchardCore.Taxonomies.Fields.TaxonomyField"__id*
+
+%8object*
+6
+5*œ	
+6û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs  (=±
+Æ
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs( (C
+%9string"EOrchardCore.Taxonomies.Fields.TaxonomyField.TaxonomyContentItemId.get*6
+4
+field+OrchardCore.Taxonomies.Fields.TaxonomyField€
+ÿ
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs (C
+taxonomyContentItemIdstring"__id*
+
+%9string±
+Æ
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs %  (=
+%10string[]"BOrchardCore.Taxonomies.Fields.TaxonomyField.TermContentItemIds.get*6
+4
+field+OrchardCore.Taxonomies.Fields.TaxonomyField›
+⁄
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs   (=
+termContentItemIdsstring[]"__id*
+
+%10string[]*
+7*ˆ
+5û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs" "(5ã
+à
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs" "(
+%11Fluid.Values.FluidValues" Fluid.Values.FluidValue.Type.get*"
+ 
+inputFluid.Values.FluidValueπ
+∂
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs"# "(5
+%12"__id*
+""*
+8
+9*î
+8û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs# #(8Ä
+˝
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs# #((
+%13object"'Fluid.Values.FluidValue.ToObjectValue()*"
+ 
+inputFluid.Values.FluidValue·
+ﬁ
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs# #(8$
+jobjNewtonsoft.Json.Linq.JObject"__id*
+
+%13object*
+10
+9*ƒ
+10û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs$ $(Lì
+ê
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs$ $(M
+%14bool"0Newtonsoft.Json.Linq.JObject.ContainsKey(string)*&
+$
+jobjNewtonsoft.Json.Linq.JObject*
+""*
+11
+9*ƒ
+11û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs% %(Oì
+ê
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs% %(P
+%15bool"0Newtonsoft.Json.Linq.JObject.ContainsKey(string)*&
+$
+jobjNewtonsoft.Json.Linq.JObject*
+""*
+12
+9*ﬁ
+12û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs' ((Gï
+í
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs'( '(E"
+%16Newtonsoft.Json.Linq.JToken"__mapGet*&
+$
+jobjNewtonsoft.Json.Linq.JObject*
+TaxonomyContentItemIdÌ
+Í
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs'( '(U
+%17string"mNewtonsoft.Json.Linq.Extensions.Value<U>(System.Collections.Generic.IEnumerable<Newtonsoft.Json.Linq.JToken>)*#"!
+Newtonsoft.Json.Linq.Extensions*$
+"
+%16Newtonsoft.Json.Linq.JToken‹
+Ÿ
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs' '(U
+taxonomyContentItemIdstring"__id*
+
+%17stringí
+è
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs(. ((H"
+%18Newtonsoft.Json.Linq.JToken"__mapGet*&
+$
+jobjNewtonsoft.Json.Linq.JObject*
+TermContentItemIds◊
+‘
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs(& ((H
+%19"__id*$
+"
+%18Newtonsoft.Json.Linq.JTokenôñ
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs(% ((Z0
+%20)System.Collections.Generic.IEnumerable<T>"+Newtonsoft.Json.Linq.JContainer.Values<T>()*
+
+%192Values<T>()ﬂ
+‹
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs(% ((d
+%21string[]"XSystem.Linq.Enumerable.ToArray<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*2
+0
+%20)System.Collections.Generic.IEnumerable<T>›
+⁄
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs( ((d
+termContentItemIdsstring[]"__id*
+
+%21string[]*
+7*¯
+9û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs* *(4ã
+à
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs* *(
+%22Fluid.Values.FluidValues" Fluid.Values.FluidValue.Type.get*"
+ 
+inputFluid.Values.FluidValueπ
+∂
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs*# *(4
+%23"__id*
+""*
+13
+14*Ω
+13û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs, -(Tç
+ä
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs,( ,(7
+%24Fluid.Values.FluidValue"Fluid.FilterArguments.At(int)*$
+"
+	argumentsFluid.FilterArguments*2 ˛
+˚
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs,( ,(G
+%25string"'Fluid.Values.FluidValue.ToStringValue()* 
+
+%24Fluid.Values.FluidValue‹
+Ÿ
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs, ,(G
+taxonomyContentItemIdstring"__id*
+
+%25string¨©
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs-% -(60
+%26)System.Collections.Generic.IEnumerable<T>"#Fluid.Values.FluidValue.Enumerate()*"
+ 
+inputFluid.Values.FluidValue2Enumerate()Ø
+¨
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs-% -(U0
+%27)System.Collections.Generic.IEnumerable<T>"System.Linq.Enumerable.Select<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)*"
+System.Linq.Enumerable*2
+0
+%26)System.Collections.Generic.IEnumerable<T>*
+""ﬂ
+‹
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs-% -(_
+%28string[]"XSystem.Linq.Enumerable.ToArray<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*2
+0
+%27)System.Collections.Generic.IEnumerable<T>›
+⁄
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs- -(_
+termContentItemIdsstring[]"__id*
+
+%28string[]*
+7*Ù
+14û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs1 1((à
+Ö
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs1 1((
+%29Fluid.Values.NilValue"__id*>*<
+Fluid.Values.NilValue"!
+InstanceFluid.Values.NilValue"¡
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs1 1()
+
+%29Fluid.Values.NilValue*À
+7û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs4 6( âÜ
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs4! 4(O+
+%30$System.Threading.Tasks.Task<TResult>">OrchardCore.ContentManagement.IContentManager.GetAsync(string)*A
+?
+contentManager-OrchardCore.ContentManagement.IContentManager*!
+
+taxonomyContentItemIdstring2GetAsync(string)È
+Ê
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs4 4(O5
+taxonomy)OrchardCore.ContentManagement.ContentItem"__id*
+""¢
+ü
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs6 6( 
+%31bool""object.operator ==(object, object)*
+"
+object*7
+5
+taxonomy)OrchardCore.ContentManagement.ContentItem*
+""*
+15
+16*—
+15û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs8 8("©
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs8 8(
+""*¥
+16û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs; =(@Û
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs; ;(/)
+%32"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>â
+Ü
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs; ;(-
+%33void")System.Collections.Generic.List<T>.List()*+
+)
+%32"System.Collections.Generic.List<T>Ñ
+Å
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs; ;(/+
+terms"System.Collections.Generic.List<T>"__id*+
+)
+%32"System.Collections.Generic.List<T>*
+17*Ø
+17û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.csH	 H(	*
+18
+19*¶
+18û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs? A( ß
+§
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs?D ?(T
+%34dynamic"8OrchardCore.ContentManagement.ContentElement.Content.get*7
+5
+taxonomy)OrchardCore.ContentManagement.ContentItem‚
+ﬂ
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs?D ?(a
+%35dynamic"__mapGet*
+
+%34dynamic*
+TaxonomyPartπ
+∂
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs?D ?(q
+%36"__id*
+""Û
+
+ü
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs? ?(Ö0
+%37)OrchardCore.ContentManagement.ContentItem"MTaxonomyOrchardHelperExtensions.FindTerm(Newtonsoft.Json.Linq.JArray, string)*#"!
+TaxonomyOrchardHelperExtensions*
+
+%36*
+
+termContentItemIdstringí
+è
+ü
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.cs? ?(Ö1
+term)OrchardCore.ContentManagement.ContentItem"__id*2
+0
+%37)OrchardCore.ContentManagement.ContentItemû
+õ
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.csA A( 
+%38bool""object.operator !=(object, object)*
+"
+object*3
+1
+term)OrchardCore.ContentManagement.ContentItem*
+""*
+20
+17*”
+20û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.csC C("•
+¢
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.csC C(#
+%39void"
+__arrayAdd*-
++
+terms"System.Collections.Generic.List<T>*: *3
+1
+term)OrchardCore.ContentManagement.ContentItem*
+17*¶
+19û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.csG G(*∏
+µ
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.csG G(+
+%40Fluid.Values.FluidValue"&Fluid.Values.FluidValue.Create(object)*"
+Fluid.Values.FluidValue*-
++
+terms"System.Collections.Generic.List<T>"√
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.csG G(, 
+
+%40Fluid.Values.FluidValue*›
+3û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.csH	 H(	"∂
+û
+ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Liquid\TaxonomyTermFilter.csH H(	
+implicit return: 
+inputFluid.Values.FluidValue:"
+	argumentsFluid.FilterArguments:
+ctxFluid.TemplateContextB53
+1OrchardCore.Taxonomies.Liquid.TaxonomyTermsFilter

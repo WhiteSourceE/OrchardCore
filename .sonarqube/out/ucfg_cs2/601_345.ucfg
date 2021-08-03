@@ -1,0 +1,973 @@
+
+≠OrchardCore.Contents.Workflows.Activities.UpdateContentTask.ExecuteAsync(OrchardCore.Workflows.Models.WorkflowExecutionContext, OrchardCore.Workflows.Models.ActivityContext)©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csD< D(H"0*·	
+0©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csF H(%Ω∫
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csF& F(L*
+%0$System.Threading.Tasks.Task<TResult>"ÜOrchardCore.Contents.Workflows.Activities.ContentActivity.GetContentItemIdAsync(OrchardCore.Workflows.Models.WorkflowExecutionContext)*=;
+9OrchardCore.Contents.Workflows.Activities.ContentActivity*J
+H
+workflowContext5OrchardCore.Workflows.Models.WorkflowExecutionContext2LGetContentItemIdAsync(OrchardCore.Workflows.Models.WorkflowExecutionContext)÷
+”
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csF F(L
+contentItemIdstring"__id*
+""é
+ã
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csH H(%
+
+%1bool""string.operator ==(string, string)*
+"
+string*
+
+contentItemIdstring*
+""*
+1
+2*â	
+1©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csJ J(Tœ
+Ã
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csJ4 J(~
+%2"__concat*
+""*
+""œ
+Ã
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csJ4 J(~
+%3"__concat*
+
+%2*
+""˘ˆ
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csJ J(&
+%4 System.InvalidOperationException" System.InvalidOperationException≤
+Ø
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csJ J(3
+
+%5void"CSystem.InvalidOperationException.InvalidOperationException(string?)*(
+&
+%4 System.InvalidOperationException*
+
+%3*
+3*¯
+2©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csM O(.¸
+˘
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csM? M(JA
+%6;OrchardCore.ContentManagement.Workflows.ContentEventContext"IOrchardCore.Contents.Workflows.Activities.ContentActivity.InlineEvent.get*=;
+9OrchardCore.Contents.Workflows.Activities.ContentActivity—
+Œ
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csM? M(X
+%7string"MOrchardCore.ContentManagement.Workflows.ContentEventContext.ContentItemId.get*C
+A
+%6;OrchardCore.ContentManagement.Workflows.ContentEventContextƒ
+¡
+™
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csMi M(ã
+%8"__id*
+""µ
+≤
+™
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csM1 M(å
+
+%9bool"8string.Equals(string?, string?, System.StringComparison)*
+"
+string*
+
+%7string*
+
+contentItemIdstring*
+
+%8Ï
+È
+™
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csM M(å&
+inlineEventOfSameContentItemIdbool"__id*
+
+
+%9bool*
+4
+5*å	
+4©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csQ Q(E˝
+˙
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csQ Q(B
+%10;OrchardCore.ContentManagement.Workflows.ContentEventContext"IOrchardCore.Contents.Workflows.Activities.ContentActivity.InlineEvent.get*=;
+9OrchardCore.Contents.Workflows.Activities.ContentActivity 
+«
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csQ Q($
+%11string"DOrchardCore.ContentManagement.Workflows.ContentEventContext.Name.get*D
+B
+%10;OrchardCore.ContentManagement.Workflows.ContentEventContextÖ
+Ç
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csQ Q(E
+%12bool""string.operator ==(string, string)*
+"
+string*
+
+%11string*
+""*
+6
+7*æ
+6™
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csS S(π—
+Œ
+™
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csS8 S(Ö
+%13"__concat*
+""*
+""“
+œ
+™
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csS8 S(Ö
+%14"__concat*
+
+%13*
+""“
+œ
+™
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csS8 S(Ö
+%15"__concat*
+
+%14*
+""“
+œ
+™
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csS8 S(Ö
+%16"__concat*
+
+%15*
+""˚¯
+™
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csS S(Ü'
+%17 System.InvalidOperationException" System.InvalidOperationExceptionµ
+≤
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csS S(7
+%18void"CSystem.InvalidOperationException.InvalidOperationException(string?)*)
+'
+%17 System.InvalidOperationException*
+
+%16*
+3*å	
+7©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csV V(F˝
+˙
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csV V(B
+%19;OrchardCore.ContentManagement.Workflows.ContentEventContext"IOrchardCore.Contents.Workflows.Activities.ContentActivity.InlineEvent.get*=;
+9OrchardCore.Contents.Workflows.Activities.ContentActivity 
+«
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csV V($
+%20string"DOrchardCore.ContentManagement.Workflows.ContentEventContext.Name.get*D
+B
+%19;OrchardCore.ContentManagement.Workflows.ContentEventContextÖ
+Ç
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csV V(F
+%21bool""string.operator ==(string, string)*
+"
+string*
+
+%20string*
+""*
+8
+5*æ
+8™
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csX X(∫—
+Œ
+™
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csX8 X(Ü
+%22"__concat*
+""*
+""“
+œ
+™
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csX8 X(Ü
+%23"__concat*
+
+%22*
+""“
+œ
+™
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csX8 X(Ü
+%24"__concat*
+
+%23*
+""“
+œ
+™
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csX8 X(Ü
+%25"__concat*
+
+%24*
+""˚¯
+™
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csX X(á'
+%26 System.InvalidOperationException" System.InvalidOperationExceptionµ
+≤
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csX X(7
+%27void"CSystem.InvalidOperationException.InvalidOperationException(string?)*)
+'
+%26 System.InvalidOperationException*
+
+%25*
+3*≤
+5©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.cs\ ^(/˜
+Ù
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.cs\ \(*8
+contentItem)OrchardCore.ContentManagement.ContentItem"__id*
+""*
+9
+10*î
+9©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.cs` `(gÚ
+Ô
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.cs`$ `(24
+%28-OrchardCore.ContentManagement.IContentManager"LOrchardCore.Contents.Workflows.Activities.ContentActivity.ContentManager.get*=;
+9OrchardCore.Contents.Workflows.Activities.ContentActivity÷
+”
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.cs`K `(g3
+%29,OrchardCore.ContentManagement.VersionOptions">OrchardCore.ContentManagement.VersionOptions.DraftRequired.get*0".
+,OrchardCore.ContentManagement.VersionOptionsîë
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.cs`$ `(h+
+%30$System.Threading.Tasks.Task<TResult>"lOrchardCore.ContentManagement.IContentManager.GetAsync(string, OrchardCore.ContentManagement.VersionOptions)*6
+4
+%28-OrchardCore.ContentManagement.IContentManager*
+
+contentItemIdstring*5
+3
+%29,OrchardCore.ContentManagement.VersionOptions2>GetAsync(string, OrchardCore.ContentManagement.VersionOptions)˜
+Ù
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.cs` `(h8
+contentItem)OrchardCore.ContentManagement.ContentItem"__id*
+""*
+11*‰	
+10©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csd d(p˘
+ˆ
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csd d(3;
+%314System.Collections.Generic.IDictionary<TKey, TValue>"?OrchardCore.Workflows.Models.WorkflowExecutionContext.Input.get*J
+H
+workflowContext5OrchardCore.Workflows.Models.WorkflowExecutionContextƒ
+¡
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csdG d(p
+%32"__id*
+""‰
+·
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csd d(q-
+%33&OrchardCore.ContentManagement.IContent"ÉOrchardCore.Workflows.Helpers.DictionaryExtensions.GetValue<TValue>(System.Collections.Generic.IDictionary<string, object>, string)*6"4
+2OrchardCore.Workflows.Helpers.DictionaryExtensions*=
+;
+%314System.Collections.Generic.IDictionary<TKey, TValue>*
+
+%32*
+12
+13*î
+13©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csdr d(~€ÿ
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csds d(~0
+%34)OrchardCore.ContentManagement.ContentItem"6OrchardCore.ContentManagement.IContent.ContentItem.get*/
+-
+%33&OrchardCore.ContentManagement.IContent2ContentItem.get*
+12*‹
+12©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csd d(~£
+†
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csd d(~8
+contentItem)OrchardCore.ContentManagement.ContentItem"__id*2
+0
+%34)OrchardCore.ContentManagement.ContentItem*
+11*Ì
+11©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csg g(#∞
+≠
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csg g(#
+%35bool""object.operator ==(object, object)*
+"
+object*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItem*
+""*
+14
+15*ë	
+14©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csi i(U–
+Õ
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csi4 i(}
+%36"__concat*
+""*
+""—
+Œ
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csi4 i(}
+%37"__concat*
+
+%36*
+""˙˜
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csi i(~'
+%38 System.InvalidOperationException" System.InvalidOperationExceptionµ
+≤
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csi i(3
+%39void"CSystem.InvalidOperationException.InvalidOperationException(string?)*)
+'
+%38 System.InvalidOperationException*
+
+%37*
+3*∫
+15©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csl l(/*
+16
+17*à
+16©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csl3 l(F˝
+˙
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csl3 l(>B
+%40;OrchardCore.ContentManagement.Workflows.ContentEventContext"IOrchardCore.Contents.Workflows.Activities.ContentActivity.InlineEvent.get*=;
+9OrchardCore.Contents.Workflows.Activities.ContentActivityÀ
+»
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csl3 l(F
+%41bool"GOrchardCore.ContentManagement.Workflows.ContentEventContext.IsStart.get*D
+B
+%40;OrchardCore.ContentManagement.Workflows.ContentEventContext*
+18
+17*◊
+18©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.cslJ l(|˝
+˙
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.cslJ l(UB
+%42;OrchardCore.ContentManagement.Workflows.ContentEventContext"IOrchardCore.Contents.Workflows.Activities.ContentActivity.InlineEvent.get*=;
+9OrchardCore.Contents.Workflows.Activities.ContentActivity—
+Œ
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.cslJ l(a
+%43string"KOrchardCore.ContentManagement.Workflows.ContentEventContext.ContentType.get*D
+B
+%42;OrchardCore.ContentManagement.Workflows.ContentEventContextµ
+≤
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csle l(|
+%44string"9OrchardCore.ContentManagement.ContentItem.ContentType.get*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItemé
+ã
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.cslJ l(|
+%45bool""string.operator ==(string, string)*
+"
+string*
+
+%43string*
+
+%44string*
+19
+17*è	
+19©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csn n(C˝
+˙
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csn n(B
+%46;OrchardCore.ContentManagement.Workflows.ContentEventContext"IOrchardCore.Contents.Workflows.Activities.ContentActivity.InlineEvent.get*=;
+9OrchardCore.Contents.Workflows.Activities.ContentActivity 
+«
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csn n($
+%47string"DOrchardCore.ContentManagement.Workflows.ContentEventContext.Name.get*D
+B
+%46;OrchardCore.ContentManagement.Workflows.ContentEventContextÖ
+Ç
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csn n(C
+%48bool""string.operator ==(string, string)*
+"
+string*
+
+%47string*
+""*
+20
+21*ø
+20™
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csp p(¿—
+Œ
+™
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csp8 p(á
+%49"__concat*
+""*
+""“
+œ
+™
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csp8 p(á
+%50"__concat*
+
+%49*
+""“
+œ
+™
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csp8 p(á
+%51"__concat*
+
+%50*
+""“
+œ
+™
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csp8 p(á
+%52"__concat*
+
+%51*
+""˚¯
+™
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csp p(à'
+%53 System.InvalidOperationException" System.InvalidOperationExceptionµ
+≤
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csp p(7
+%54void"CSystem.InvalidOperationException.InvalidOperationException(string?)*)
+'
+%53 System.InvalidOperationException*
+
+%52*
+3*É
+21©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.css s(∆
+√
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.css s(
+%55bool"GOrchardCore.Contents.Workflows.Activities.UpdateContentTask.Publish.get*?=
+;OrchardCore.Contents.Workflows.Activities.UpdateContentTask*
+22
+23*è	
+22©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.css s(P˝
+˙
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.css s(*B
+%56;OrchardCore.ContentManagement.Workflows.ContentEventContext"IOrchardCore.Contents.Workflows.Activities.ContentActivity.InlineEvent.get*=;
+9OrchardCore.Contents.Workflows.Activities.ContentActivity 
+«
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.css s(/
+%57string"DOrchardCore.ContentManagement.Workflows.ContentEventContext.Name.get*D
+B
+%56;OrchardCore.ContentManagement.Workflows.ContentEventContextÖ
+Ç
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.css s(P
+%58bool""string.operator ==(string, string)*
+"
+string*
+
+%57string*
+""*
+24
+23*ø
+24™
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csu u(√—
+Œ
+™
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csu8 u(ä
+%59"__concat*
+""*
+""“
+œ
+™
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csu8 u(ä
+%60"__concat*
+
+%59*
+""“
+œ
+™
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csu8 u(ä
+%61"__concat*
+
+%60*
+""“
+œ
+™
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csu8 u(ä
+%62"__concat*
+
+%61*
+""˚¯
+™
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csu u(ã'
+%63 System.InvalidOperationException" System.InvalidOperationExceptionµ
+≤
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csu u(7
+%64void"CSystem.InvalidOperationException.InvalidOperationException(string?)*)
+'
+%63 System.InvalidOperationException*
+
+%62*
+3*É
+23©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csx x(∆
+√
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csx x(
+%65bool"GOrchardCore.Contents.Workflows.Activities.UpdateContentTask.Publish.get*?=
+;OrchardCore.Contents.Workflows.Activities.UpdateContentTask*
+25
+17*è	
+25©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csx  x(R˝
+˙
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csx  x(+B
+%66;OrchardCore.ContentManagement.Workflows.ContentEventContext"IOrchardCore.Contents.Workflows.Activities.ContentActivity.InlineEvent.get*=;
+9OrchardCore.Contents.Workflows.Activities.ContentActivity 
+«
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csx  x(0
+%67string"DOrchardCore.ContentManagement.Workflows.ContentEventContext.Name.get*D
+B
+%66;OrchardCore.ContentManagement.Workflows.ContentEventContextÖ
+Ç
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csx  x(R
+%68bool""string.operator ==(string, string)*
+"
+string*
+
+%67string*
+""*
+26
+17*ø
+26™
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csz z(√—
+Œ
+™
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csz8 z(ä
+%69"__concat*
+""*
+""“
+œ
+™
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csz8 z(ä
+%70"__concat*
+
+%69*
+""“
+œ
+™
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csz8 z(ä
+%71"__concat*
+
+%70*
+""“
+œ
+™
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csz8 z(ä
+%72"__concat*
+
+%71*
+""˚¯
+™
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csz z(ã'
+%73 System.InvalidOperationException" System.InvalidOperationExceptionµ
+≤
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csz z(7
+%74void"CSystem.InvalidOperationException.InvalidOperationException(string?)*)
+'
+%73 System.InvalidOperationException*
+
+%72*
+3*¸
+17©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.cs~ ~(G˛
+˚
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.cs~+ ~(<9
+%752OrchardCore.Workflows.Models.WorkflowExpression<T>"QOrchardCore.Contents.Workflows.Activities.UpdateContentTask.ContentProperties.get*?=
+;OrchardCore.Contents.Workflows.Activities.UpdateContentTaskæ
+ª
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.cs~+ ~(G
+%76string"AOrchardCore.Workflows.Models.WorkflowExpression<T>.Expression.get*;
+9
+%752OrchardCore.Workflows.Models.WorkflowExpression<T>˝
+˙
+©
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.cs~ ~(H
+%77bool""string.IsNullOrWhiteSpace(string?)*
+"
+string*
+
+%76string*
+27
+28*ã#
+27¨
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csÄ Å(ãï
+í
+´
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csÄ. Ä(BB
+%78;OrchardCore.Workflows.Services.IWorkflowExpressionEvaluator"__id*ó*î=
+;OrchardCore.Contents.Workflows.Activities.UpdateContentTask"S
+_expressionEvaluator;OrchardCore.Workflows.Services.IWorkflowExpressionEvaluatorÄ
+˝
+´
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csÄQ Ä(b9
+%792OrchardCore.Workflows.Models.WorkflowExpression<T>"QOrchardCore.Contents.Workflows.Activities.UpdateContentTask.ContentProperties.get*?=
+;OrchardCore.Contents.Workflows.Activities.UpdateContentTaskÙ
+Ò
+¨
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csÄu Ä(á2
+%80+System.Text.Encodings.Web.JavaScriptEncoder"__id*Ö*Ç=
+;OrchardCore.Contents.Workflows.Activities.UpdateContentTask"A
+_javaScriptEncoder+System.Text.Encodings.Web.JavaScriptEncoderÍÁ
+¨
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csÄ. Ä(à+
+%81$System.Threading.Tasks.Task<TResult>"ﬁOrchardCore.Workflows.Services.IWorkflowExpressionEvaluator.EvaluateAsync<T>(OrchardCore.Workflows.Models.WorkflowExpression<T>, OrchardCore.Workflows.Models.WorkflowExecutionContext, System.Text.Encodings.Web.TextEncoder)*D
+B
+%78;OrchardCore.Workflows.Services.IWorkflowExpressionEvaluator*;
+9
+%792OrchardCore.Workflows.Models.WorkflowExpression<T>*J
+H
+workflowContext5OrchardCore.Workflows.Models.WorkflowExecutionContext*4
+2
+%80+System.Text.Encodings.Web.JavaScriptEncoder2¢EvaluateAsync<T>(OrchardCore.Workflows.Models.WorkflowExpression<T>, OrchardCore.Workflows.Models.WorkflowExecutionContext, System.Text.Encodings.Web.TextEncoder)›
+⁄
+¨
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csÄ Ä(à
+contentPropertiesstring"__id*
+""√
+¿
+´
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csÅ" Å(B#
+%82Newtonsoft.Json.Linq.JObject"*Newtonsoft.Json.Linq.JObject.Parse(string)* "
+Newtonsoft.Json.Linq.JObject*
+
+contentPropertiesstringâÜ
+¨
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csÅD Å(ç-
+%83&Newtonsoft.Json.Linq.JsonMergeSettings"&Newtonsoft.Json.Linq.JsonMergeSettings´
+®
+´
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csÅH Å(Y
+%84void":Newtonsoft.Json.Linq.JsonMergeSettings.JsonMergeSettings()*/
+-
+%83&Newtonsoft.Json.Linq.JsonMergeSettings«
+ƒ
+¨
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csÅq Å(ã
+%85"__id*
+""€
+ÿ
+¨
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csÅ\ Å(ã.
+%86'Newtonsoft.Json.Linq.MergeArrayHandling"=Newtonsoft.Json.Linq.JsonMergeSettings.MergeArrayHandling.set*/
+-
+%83&Newtonsoft.Json.Linq.JsonMergeSettings*
+
+%85»
+≈
+¨
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csÅ Å(é0
+%87)OrchardCore.ContentManagement.ContentItem"îOrchardCore.ContentManagement.ContentItemExtensions.Merge(OrchardCore.ContentManagement.ContentItem, object, Newtonsoft.Json.Linq.JsonMergeSettings)*7"5
+3OrchardCore.ContentManagement.ContentItemExtensions*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItem*%
+#
+%82Newtonsoft.Json.Linq.JObject*/
+-
+%83&Newtonsoft.Json.Linq.JsonMergeSettings*
+28*º
+28´
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csÑ Ñ(/*
+29
+30*ô
+29´
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csÜ Ü(<Ù
+Ò
+´
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csÜ Ü($4
+%88-OrchardCore.ContentManagement.IContentManager"LOrchardCore.Contents.Workflows.Activities.ContentActivity.ContentManager.get*=;
+9OrchardCore.Contents.Workflows.Activities.ContentActivityÁ‰
+´
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csÜ Ü(="
+%89System.Threading.Tasks.Task"dOrchardCore.ContentManagement.IContentManager.UpdateAsync(OrchardCore.ContentManagement.ContentItem)*6
+4
+%88-OrchardCore.ContentManagement.IContentManager*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItem26UpdateAsync(OrchardCore.ContentManagement.ContentItem)*
+30*ã
+30´
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csâ ã( Ù
+Ò
+´
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csâ â(-4
+%90-OrchardCore.ContentManagement.IContentManager"LOrchardCore.Contents.Workflows.Activities.ContentActivity.ContentManager.get*=;
+9OrchardCore.Contents.Workflows.Activities.ContentActivityÙÒ
+´
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csâ â(H+
+%91$System.Threading.Tasks.Task<TResult>"fOrchardCore.ContentManagement.IContentManager.ValidateAsync(OrchardCore.ContentManagement.ContentItem)*6
+4
+%90-OrchardCore.ContentManagement.IContentManager*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItem28ValidateAsync(OrchardCore.ContentManagement.ContentItem)á
+Ñ
+´
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csâ â(HF
+result<OrchardCore.ContentManagement.Handlers.ContentValidateResult"__id*
+""‘
+—
+´
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csã ã( 
+%92bool"JOrchardCore.ContentManagement.Handlers.ContentValidateResult.Succeeded.get*H
+F
+result<OrchardCore.ContentManagement.Handlers.ContentValidateResult*
+31
+32*º
+31´
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csç ç(3*
+33
+34*á
+33´
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csè è(»
+≈
+´
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csè è(
+%93bool"GOrchardCore.Contents.Workflows.Activities.UpdateContentTask.Publish.get*?=
+;OrchardCore.Contents.Workflows.Activities.UpdateContentTask*
+35
+36*õ
+35´
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csë ë(EÙ
+Ò
+´
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csë ë(,4
+%94-OrchardCore.ContentManagement.IContentManager"LOrchardCore.Contents.Workflows.Activities.ContentActivity.ContentManager.get*=;
+9OrchardCore.Contents.Workflows.Activities.ContentActivityÈÊ
+´
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csë ë(F"
+%95System.Threading.Tasks.Task"eOrchardCore.ContentManagement.IContentManager.PublishAsync(OrchardCore.ContentManagement.ContentItem)*6
+4
+%94-OrchardCore.ContentManagement.IContentManager*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItem27PublishAsync(OrchardCore.ContentManagement.ContentItem)*
+34*ü
+36´
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csï ï(GÙ
+Ò
+´
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csï ï(,4
+%96-OrchardCore.ContentManagement.IContentManager"LOrchardCore.Contents.Workflows.Activities.ContentActivity.ContentManager.get*=;
+9OrchardCore.Contents.Workflows.Activities.ContentActivityÌÍ
+´
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csï ï(H"
+%97System.Threading.Tasks.Task"gOrchardCore.ContentManagement.IContentManager.SaveDraftAsync(OrchardCore.ContentManagement.ContentItem)*6
+4
+%96-OrchardCore.ContentManagement.IContentManager*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItem29SaveDraftAsync(OrchardCore.ContentManagement.ContentItem)*
+34*„
+34´
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csô ù(&π
+∂
+´
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csô0 ô(I
+%98string";OrchardCore.ContentManagement.ContentItem.ContentItemId.get*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItemÊ
+„
+´
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csô ô(I
+%99string"GOrchardCore.Workflows.Models.WorkflowExecutionContext.CorrelationId.set*J
+H
+workflowContext5OrchardCore.Workflows.Models.WorkflowExecutionContext*
+
+%98stringÅ
+˛
+´
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csö ö(*<
+%1004System.Collections.Generic.IDictionary<TKey, TValue>"DOrchardCore.Workflows.Models.WorkflowExecutionContext.Properties.get*J
+H
+workflowContext5OrchardCore.Workflows.Models.WorkflowExecutionContext«
+ƒ
+´
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csö+ ö(T
+%101"__id*
+""…
+∆
+´
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csö ö(c
+%102"__mapSet*>
+<
+%1004System.Collections.Generic.IDictionary<TKey, TValue>*
+
+%101*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItemè
+å
+´
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csõ õ(8
+%103object"DOrchardCore.Workflows.Models.WorkflowExecutionContext.LastResult.set*J
+H
+workflowContext5OrchardCore.Workflows.Models.WorkflowExecutionContext*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItemË
+Â
+´
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csù ù('@
+%1048OrchardCore.Workflows.Activities.ActivityExecutionResult":OrchardCore.Workflows.Activities.Activity.Outcomes(string)*-+
+)OrchardCore.Workflows.Activities.Activity*
+Done"Ú
+´
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csù ù((B
+@
+%1048OrchardCore.Workflows.Activities.ActivityExecutionResult*º
+32´
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.cs† †(.*
+37
+38*ô"
+37´
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.cs¢ §(5û
+õ
+´
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.cs¢ ¢($G
+%105?OrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessor"__id*õ*ò=
+;OrchardCore.Contents.Workflows.Activities.UpdateContentTask"W
+_updateModelAccessor?OrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessor°û
+´
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.cs¢ ¢(1?
+%1067OrchardCore.DisplayManagement.ModelBinding.IUpdateModel"POrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessor.ModelUpdater.get*I
+G
+%105?OrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessor2ModelUpdater.getêç
+´
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.cs¢ ¢(<B
+%107:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary"FOrchardCore.DisplayManagement.ModelBinding.IUpdateModel.ModelState.get*A
+?
+%1067OrchardCore.DisplayManagement.ModelBinding.IUpdateModel2ModelState.get¯
+ı
+´
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.cs£ £(81
+%108)OrchardCore.Workflows.Models.WorkflowType"FOrchardCore.Workflows.Models.WorkflowExecutionContext.WorkflowType.get*J
+H
+workflowContext5OrchardCore.Workflows.Models.WorkflowExecutionContext™
+ß
+´
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.cs£ £(=
+%109string"2OrchardCore.Workflows.Models.WorkflowType.Name.get*3
+1
+%108)OrchardCore.Workflows.Models.WorkflowTypeÊ
+„
+¨
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.cs£ £(Ä
+%110string"__concat*
+""*
+
+%109stringÊ
+„
+¨
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.cs£ £(Ä
+%111string"__concat*
+
+%110string*
+""Ê
+„
+¨
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.cs£ £(Ä
+%112string"__concat*
+
+%111string*
+""Ê
+„
+¨
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.cs£ £(Ä
+%113string"__concat*
+
+%112string*
+""˘
+ˆ
+´
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.cs§( §(53
+%114+System.Collections.Generic.IReadOnlyList<T>"GOrchardCore.ContentManagement.Handlers.ContentValidateResult.Errors.get*H
+F
+result<OrchardCore.ContentManagement.Handlers.ContentValidateResult–
+Õ
+´
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.cs§ §(6
+%115string"Bstring.Join<T>(string?, System.Collections.Generic.IEnumerable<T>)*
+"
+string*
+, *5
+3
+%114+System.Collections.Generic.IReadOnlyList<T>Ô
+Ï
+´
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.cs£ §(6
+%116string"__concat*
+
+%113string*
+
+%115string˘
+ˆ
+´
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.cs¢ §(7
+%117void"XMicrosoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary.AddModelError(string, string)*D
+B
+%107:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary*
+""*
+
+%116string*
+38*¥	
+38´
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csß ©($ù
+ö
+´
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.csß ß(/
+%118object"DOrchardCore.Workflows.Models.WorkflowExecutionContext.LastResult.set*J
+H
+workflowContext5OrchardCore.Workflows.Models.WorkflowExecutionContext*H
+F
+result<OrchardCore.ContentManagement.Handlers.ContentValidateResultÍ
+Á
+´
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.cs© ©(%@
+%1198OrchardCore.Workflows.Activities.ActivityExecutionResult":OrchardCore.Workflows.Activities.Activity.Outcomes(string)*-+
+)OrchardCore.Workflows.Activities.Activity*
+
+Failed"Ú
+´
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.cs© ©(&B
+@
+%1198OrchardCore.Workflows.Activities.ActivityExecutionResult*˜
+3´
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.cs™	 ™(	"√
+´
+ûD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Activities\UpdateContentTask.cs™ ™(	
+implicit return:H
+workflowContext5OrchardCore.Workflows.Models.WorkflowExecutionContext:?
+activityContext,OrchardCore.Workflows.Models.ActivityContextB?=
+;OrchardCore.Contents.Workflows.Activities.UpdateContentTask

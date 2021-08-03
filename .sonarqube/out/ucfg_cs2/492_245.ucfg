@@ -1,0 +1,194 @@
+
+ÃOrchardCore.ContentTypes.Services.ContentDefinitionService.ContentDefinitionService(OrchardCore.ContentManagement.Metadata.IContentDefinitionManager, System.Collections.Generic.IEnumerable<OrchardCore.ContentTypes.Events.IContentDefinitionEventHandler>, System.Collections.Generic.IEnumerable<OrchardCore.ContentManagement.ContentPart>, System.Collections.Generic.IEnumerable<OrchardCore.ContentManagement.ContentField>, Microsoft.Extensions.Options.IOptions<OrchardCore.ContentManagement.ContentOptions>, Microsoft.Extensions.Logging.ILogger<OrchardCore.ContentTypes.Services.IContentDefinitionService>, Microsoft.Extensions.Localization.IStringLocalizer<OrchardCore.ContentTypes.Services.ContentDefinitionService>)®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.cs ('"1*≥
+1®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.cs;	 ;(	*
+0*√
+0®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.cs$ '(H¥
+±
+®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.cs$ $(@ù<
+:OrchardCore.ContentTypes.Services.ContentDefinitionService"]
+_contentDefinitionManager@OrchardCore.ContentManagement.Metadata.IContentDefinitionManager"__id*^
+\
+contentDefinitionManager@OrchardCore.ContentManagement.Metadata.IContentDefinitionManagerí
+è
+®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.cs% %(Lå<
+:OrchardCore.ContentTypes.Services.ContentDefinitionService"L
+_contentDefinitionEventHandlers)System.Collections.Generic.IEnumerable<T>"__id*M
+K
+contentDefinitionEventHandlers)System.Collections.Generic.IEnumerable<T>¡
+æ
+®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.cs'$ '(I/
+%0)System.Collections.Generic.IEnumerable<T>"System.Linq.Enumerable.Select<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)*"
+System.Linq.Enumerable*;
+9
+contentParts)System.Collections.Generic.IEnumerable<T>*
+""*
+2*∂
+2®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.cs;	 ;(	*
+3
+4*›
+3©
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.cs) )(ã¶
+£
+©
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.cs) )(å
+
+%1void"wMicrosoft.Extensions.Logging.LoggerExtensions.LogWarning(Microsoft.Extensions.Logging.ILogger, string, params object[])*1"/
+-Microsoft.Extensions.Logging.LoggerExtensions*?
+=
+logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>*b`
+^The content part '{ContentPart}' should not be registerd in DI. Use AddContentPart<T> instead.*
+
+elementSystem.Type*
+2*¯
+4®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.cs,$ ,(I¬
+ø
+®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.cs,$ ,(J/
+%2)System.Collections.Generic.IEnumerable<T>"System.Linq.Enumerable.Select<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)*"
+System.Linq.Enumerable*<
+:
+contentFields)System.Collections.Generic.IEnumerable<T>*
+""*
+5*∂
+5®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.cs;	 ;(	*
+6
+7*‡
+6©
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.cs. .(é©
+¶
+©
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.cs. .(è
+
+%3void"wMicrosoft.Extensions.Logging.LoggerExtensions.LogWarning(Microsoft.Extensions.Logging.ILogger, string, params object[])*1"/
+-Microsoft.Extensions.Logging.LoggerExtensions*?
+=
+logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>*ec
+aThe content field '{ContentField}' should not be registerd in DI. Use AddContentField<T> instead.*
+
+elementSystem.Type*
+5*Î-
+7®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.cs2 :(¡
+æ
+®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.cs2  2(G/
+%4)System.Collections.Generic.IEnumerable<T>"System.Linq.Enumerable.Select<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)*"
+System.Linq.Enumerable*;
+9
+contentParts)System.Collections.Generic.IEnumerable<T>*
+""ÌÍ
+®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.cs3 3(+2
+%5,OrchardCore.ContentManagement.ContentOptions"9Microsoft.Extensions.Options.IOptions<TOptions>.Value.get*C
+A
+contentOptions/Microsoft.Extensions.Options.IOptions<TOptions>2	Value.get‹
+Ÿ
+®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.cs3 3(>1
+%6+System.Collections.Generic.IReadOnlyList<T>"COrchardCore.ContentManagement.ContentOptions.ContentPartOptions.get*4
+2
+%5,OrchardCore.ContentManagement.ContentOptionsπ
+∂
+®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.cs3 3(V/
+%7)System.Collections.Generic.IEnumerable<T>"System.Linq.Enumerable.Select<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)*"
+System.Linq.Enumerable*3
+1
+%6+System.Collections.Generic.IReadOnlyList<T>*
+""Î
+Ë
+®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.cs2  3(W/
+%8)System.Collections.Generic.IEnumerable<T>"áSystem.Linq.Enumerable.Union<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*1
+/
+%4)System.Collections.Generic.IEnumerable<T>*1
+/
+%7)System.Collections.Generic.IEnumerable<T>Á
+‰
+®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.cs2 3(W~<
+:OrchardCore.ContentTypes.Services.ContentDefinitionService">
+_contentPartTypes)System.Collections.Generic.IEnumerable<T>"__id*1
+/
+%8)System.Collections.Generic.IEnumerable<T>¬
+ø
+®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.cs6! 6(I/
+%9)System.Collections.Generic.IEnumerable<T>"System.Linq.Enumerable.Select<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)*"
+System.Linq.Enumerable*<
+:
+contentFields)System.Collections.Generic.IEnumerable<T>*
+""ÓÎ
+®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.cs7 7(+3
+%10,OrchardCore.ContentManagement.ContentOptions"9Microsoft.Extensions.Options.IOptions<TOptions>.Value.get*C
+A
+contentOptions/Microsoft.Extensions.Options.IOptions<TOptions>2	Value.getﬂ
+‹
+®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.cs7 7(?2
+%11+System.Collections.Generic.IReadOnlyList<T>"DOrchardCore.ContentManagement.ContentOptions.ContentFieldOptions.get*5
+3
+%10,OrchardCore.ContentManagement.ContentOptionsª
+∏
+®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.cs7 7(W0
+%12)System.Collections.Generic.IEnumerable<T>"System.Linq.Enumerable.Select<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)*"
+System.Linq.Enumerable*4
+2
+%11+System.Collections.Generic.IReadOnlyList<T>*
+""Ì
+Í
+®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.cs6! 7(X0
+%13)System.Collections.Generic.IEnumerable<T>"áSystem.Linq.Enumerable.Union<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*1
+/
+%9)System.Collections.Generic.IEnumerable<T>*2
+0
+%12)System.Collections.Generic.IEnumerable<T>È
+Ê
+®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.cs6 7(X<
+:OrchardCore.ContentTypes.Services.ContentDefinitionService"?
+_contentFieldTypes)System.Collections.Generic.IEnumerable<T>"__id*2
+0
+%13)System.Collections.Generic.IEnumerable<T>Ê
+„
+®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.cs9 9(o<
+:OrchardCore.ContentTypes.Services.ContentDefinitionService"/
+_logger$Microsoft.Extensions.Logging.ILogger"__id*?
+=
+logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>Û
+
+®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.cs: :(w<
+:OrchardCore.ContentTypes.Services.ContentDefinitionService"7
+S2Microsoft.Extensions.Localization.IStringLocalizer"__id*D
+B
+	localizer5Microsoft.Extensions.Localization.IStringLocalizer<T>*
+8*Ò
+8®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.cs;	 ;(	"¿
+®
+ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentTypes\Services\ContentDefinitionService.cs; ;(	
+implicit return:\
+contentDefinitionManager@OrchardCore.ContentManagement.Metadata.IContentDefinitionManager:K
+contentDefinitionEventHandlers)System.Collections.Generic.IEnumerable<T>:9
+contentParts)System.Collections.Generic.IEnumerable<T>::
+contentFields)System.Collections.Generic.IEnumerable<T>:A
+contentOptions/Microsoft.Extensions.Options.IOptions<TOptions>:=
+logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>:B
+	localizer5Microsoft.Extensions.Localization.IStringLocalizer<T>B><
+:OrchardCore.ContentTypes.Services.ContentDefinitionService

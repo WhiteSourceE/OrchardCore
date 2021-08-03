@@ -1,0 +1,98 @@
+
+hOrchardCore.Sitemaps.Services.SitemapManager.UpdateSitemapAsync(OrchardCore.Sitemaps.Models.SitemapType)ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Services\SitemapManager.cs? ?(,"0*Ã#
+0ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Services\SitemapManager.csA G(L¿
+Ω
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Services\SitemapManager.csA! A(4*
+%0$System.Threading.Tasks.Task<TResult>"@OrchardCore.Sitemaps.Services.SitemapManager.LoadDocumentAsync()*0.
+,OrchardCore.Sitemaps.Services.SitemapManagerÁ
+‰
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Services\SitemapManager.csA A(47
+existing+OrchardCore.Sitemaps.Models.SitemapDocument"__id*
+""—
+Œ
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Services\SitemapManager.csC C(:
+%14System.Collections.Generic.IDictionary<TKey, TValue>"8OrchardCore.Sitemaps.Models.SitemapDocument.Sitemaps.get*9
+7
+existing+OrchardCore.Sitemaps.Models.SitemapDocumentõ
+ò
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Services\SitemapManager.csC C(/
+%2string"5OrchardCore.Sitemaps.Models.SitemapType.SitemapId.get*4
+2
+sitemap'OrchardCore.Sitemaps.Models.SitemapType¥
+±
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Services\SitemapManager.csC C(:
+%3"__mapSet*<
+:
+%14System.Collections.Generic.IDictionary<TKey, TValue>*
+
+%2string*4
+2
+sitemap'OrchardCore.Sitemaps.Models.SitemapTypeÒ
+Ó
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Services\SitemapManager.csD! D(9
+%4string"$OrchardCore.IdGenerator.GenerateId()*"
+OrchardCore.IdGenerator®
+•
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Services\SitemapManager.csD D(9
+%5string"2OrchardCore.Data.Documents.Document.Identifier.set*4
+2
+sitemap'OrchardCore.Sitemaps.Models.SitemapType*
+
+%4string⁄
+◊
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Services\SitemapManager.csF F("7
+%61OrchardCore.Documents.IDocumentManager<TDocument>"__id*y*w.
+,OrchardCore.Sitemaps.Services.SitemapManager"E
+_documentManager1OrchardCore.Documents.IDocumentManager<TDocument>çä
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Services\SitemapManager.csF F(8!
+%7System.Threading.Tasks.Task"}OrchardCore.Documents.IDocumentManager<TDocument>.UpdateAsync(TDocument, System.Func<TDocument, System.Threading.Tasks.Task>)*9
+7
+%61OrchardCore.Documents.IDocumentManager<TDocument>*9
+7
+existing+OrchardCore.Sitemaps.Models.SitemapDocument*
+""2KUpdateAsync(TDocument, System.Func<TDocument, System.Threading.Tasks.Task>)Õ
+ 
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Services\SitemapManager.csG G(!1
+%8+OrchardCore.Sitemaps.Routing.SitemapEntries"__id*r*p.
+,OrchardCore.Sitemaps.Services.SitemapManager">
+_sitemapEntries+OrchardCore.Sitemaps.Routing.SitemapEntries—
+Œ
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Services\SitemapManager.csG4 G(E:
+%94System.Collections.Generic.IDictionary<TKey, TValue>"8OrchardCore.Sitemaps.Models.SitemapDocument.Sitemaps.get*9
+7
+existing+OrchardCore.Sitemaps.Models.SitemapDocument›⁄
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Services\SitemapManager.csG4 G(L0
+%10)System.Collections.Generic.ICollection<T>"?System.Collections.Generic.IDictionary<TKey, TValue>.Values.get*<
+:
+%94System.Collections.Generic.IDictionary<TKey, TValue>2
+Values.getæ
+ª
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Services\SitemapManager.csG G(M"
+%11System.Threading.Tasks.Task"éOrchardCore.Sitemaps.Routing.SitemapEntries.BuildEntriesAsync(System.Collections.Generic.IEnumerable<OrchardCore.Sitemaps.Models.SitemapType>)*3
+1
+%8+OrchardCore.Sitemaps.Routing.SitemapEntries*2
+0
+%10)System.Collections.Generic.ICollection<T>*
+1*’
+1ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Services\SitemapManager.csH	 H(	"≤
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Services\SitemapManager.csH H(	
+implicit return:2
+sitemap'OrchardCore.Sitemaps.Models.SitemapTypeB0.
+,OrchardCore.Sitemaps.Services.SitemapManager

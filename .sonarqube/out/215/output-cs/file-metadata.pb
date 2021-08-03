@@ -1,0 +1,9 @@
+ì
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Queries.Abstractions\IQueryManager.csutf-8ì
+âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Queries.Abstractions\IQueryResults.csutf-8í
+àD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Queries.Abstractions\IQuerySource.csutf-8ò
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Queries.Abstractions\LuceneQueryResults.csutf-8ã
+ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Queries.Abstractions\Query.csutf-8ï
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Queries.Abstractions\SQLQueryResults.csutf-8ƒ
+∏D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Queries.Abstractions\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.csutf-8∆
+∫D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Queries.Abstractions\obj\Debug\net5.0\OrchardCore.Queries.Abstractions.AssemblyInfo.csutf-8

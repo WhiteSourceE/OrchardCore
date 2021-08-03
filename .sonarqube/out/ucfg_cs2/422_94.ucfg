@@ -1,0 +1,120 @@
+
+ÅOrchardCore.Twitter.Signin.Drivers.TwitterSigninSettingsDisplayDriver.EditAsync(OrchardCore.Twitter.Signin.Settings.TwitterSigninSettings, OrchardCore.DisplayManagement.Handlers.BuildEditorContext)³
+¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Signin\Drivers\TwitterSigninSettingsDisplayDriver.cs%3 %(<"0*Â
+0³
+¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Signin\Drivers\TwitterSigninSettingsDisplayDriver.cs' '(7Œ
+‰
+³
+¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Signin\Drivers\TwitterSigninSettingsDisplayDriver.cs' '(+4
+%0.Microsoft.AspNetCore.Http.IHttpContextAccessor"__id*”*‘G
+EOrchardCore.Twitter.Signin.Drivers.TwitterSigninSettingsDisplayDriver"F
+_httpContextAccessor.Microsoft.AspNetCore.Http.IHttpContextAccessorïì
+³
+¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Signin\Drivers\TwitterSigninSettingsDisplayDriver.cs' '(7+
+%1%Microsoft.AspNetCore.Http.HttpContext">Microsoft.AspNetCore.Http.IHttpContextAccessor.HttpContext.get*6
+4
+%0.Microsoft.AspNetCore.Http.IHttpContextAccessor2HttpContext.get*
+1
+2*‡
+2³
+¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Signin\Drivers\TwitterSigninSettingsDisplayDriver.cs'8 '(=Æ
+Ã
+³
+¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Signin\Drivers\TwitterSigninSettingsDisplayDriver.cs'9 '(=,
+%2&System.Security.Claims.ClaimsPrincipal".Microsoft.AspNetCore.Http.HttpContext.User.get*-
++
+%1%Microsoft.AspNetCore.Http.HttpContext*
+1*•
+1³
+¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Signin\Drivers\TwitterSigninSettingsDisplayDriver.cs' ((Ÿ
+œ
+³
+¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Signin\Drivers\TwitterSigninSettingsDisplayDriver.cs' '(=.
+user&System.Security.Claims.ClaimsPrincipal"__id*.
+,
+%2&System.Security.Claims.ClaimsPrincipal¯
+¬
+³
+¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Signin\Drivers\TwitterSigninSettingsDisplayDriver.cs( ((
+
+%3bool""object.operator ==(object, object)*
+"
+object*0
+.
+user&System.Security.Claims.ClaimsPrincipal*
+""*
+3
+4*ÿ
+4³
+¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Signin\Drivers\TwitterSigninSettingsDisplayDriver.cs(  ((q¡
+ž
+³
+¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Signin\Drivers\TwitterSigninSettingsDisplayDriver.cs(' ((<>
+%48Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*Ÿ*œG
+EOrchardCore.Twitter.Signin.Drivers.TwitterSigninSettingsDisplayDriver"Q
+_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationServiceÝ
+Ú
+³
+¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Signin\Drivers\TwitterSigninSettingsDisplayDriver.cs(R ((q1
+%5+OrchardCore.Security.Permissions.Permission"__id*i*g!
+OrchardCore.Twitter.Permissions"B
+ManageTwitterSignin+OrchardCore.Security.Permissions.Permission·
+´
+³
+¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Signin\Drivers\TwitterSigninSettingsDisplayDriver.cs(' ((r*
+%6$System.Threading.Tasks.Task<TResult>"ßMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission)*E"C
+AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*@
+>
+%48Microsoft.AspNetCore.Authorization.IAuthorizationService*0
+.
+user&System.Security.Claims.ClaimsPrincipal*3
+1
+%5+OrchardCore.Security.Permissions.Permission*
+3
+5*ú
+3³
+¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Signin\Drivers\TwitterSigninSettingsDisplayDriver.cs* *("¾
+³
+¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Signin\Drivers\TwitterSigninSettingsDisplayDriver.cs* *(
+""*´
+5³
+¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Signin\Drivers\TwitterSigninSettingsDisplayDriver.cs- 4(MÂ
+¿
+³
+¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Signin\Drivers\TwitterSigninSettingsDisplayDriver.cs- 4(5
+%7/OrchardCore.DisplayManagement.Views.ShapeResult"jOrchardCore.DisplayManagement.Handlers.DisplayDriverBase.Initialize<TModel>(string, System.Action<TModel>)*<:
+8OrchardCore.DisplayManagement.Handlers.DisplayDriverBase*
+TwitterSigninSettings_Edit*
+""ú
+÷
+³
+¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Signin\Drivers\TwitterSigninSettingsDisplayDriver.cs- 4($5
+%8/OrchardCore.DisplayManagement.Views.ShapeResult"@OrchardCore.DisplayManagement.Views.ShapeResult.Location(string)*7
+5
+%7/OrchardCore.DisplayManagement.Views.ShapeResult*
+	Content:5Í
+Ê
+³
+¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Signin\Drivers\TwitterSigninSettingsDisplayDriver.cs4- 4(M
+%9"__id*
+""ó
+ð
+³
+¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Signin\Drivers\TwitterSigninSettingsDisplayDriver.cs- 4(N6
+%10/OrchardCore.DisplayManagement.Views.ShapeResult"?OrchardCore.DisplayManagement.Views.ShapeResult.OnGroup(string)*7
+5
+%8/OrchardCore.DisplayManagement.Views.ShapeResult*
+
+%9"ð
+³
+¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Signin\Drivers\TwitterSigninSettingsDisplayDriver.cs- 4(O8
+6
+%10/OrchardCore.DisplayManagement.Views.ShapeResult*‡
+6³
+¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Signin\Drivers\TwitterSigninSettingsDisplayDriver.cs5	 5(	"Ë
+³
+¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Signin\Drivers\TwitterSigninSettingsDisplayDriver.cs5 5(	
+implicit return:E
+settings9OrchardCore.Twitter.Signin.Settings.TwitterSigninSettings:D
+context9OrchardCore.DisplayManagement.Handlers.BuildEditorContextBIG
+EOrchardCore.Twitter.Signin.Drivers.TwitterSigninSettingsDisplayDriver

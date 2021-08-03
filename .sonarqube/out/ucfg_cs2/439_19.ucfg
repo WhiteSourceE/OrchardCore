@@ -1,0 +1,411 @@
+
+µOrchardCore.Lucene.QueryProviders.FuzzyQueryProvider.CreateQuery(OrchardCore.Lucene.ILuceneQueryService, OrchardCore.Lucene.LuceneQueryContext, string, Newtonsoft.Json.Linq.JObject)ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs ( "0*Æ
+0ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs (˛
+˚
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs (
+
+%0bool""string.operator !=(string, string)*
+"
+string*
+
+typestring*	
+fuzzy*
+1
+2*“
+1ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs ("™
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs (
+""*Ö
+2ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs ($™
+ß
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs (*/
+%1)System.Collections.Generic.IEnumerable<T>")Newtonsoft.Json.Linq.JObject.Properties()*'
+%
+queryNewtonsoft.Json.Linq.JObjectÚ
+Ô
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs (2$
+%2Newtonsoft.Json.Linq.JProperty"VSystem.Linq.Enumerable.First<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*1
+/
+%1)System.Collections.Generic.IEnumerable<T>¸
+˘
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs (2'
+firstNewtonsoft.Json.Linq.JProperty"__id*&
+$
+%2Newtonsoft.Json.Linq.JPropertyù
+ö
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs (!
+%3Newtonsoft.Json.Linq.JToken"(Newtonsoft.Json.Linq.JProperty.Value.get*)
+'
+firstNewtonsoft.Json.Linq.JPropertyó
+î
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs ($%
+%4Newtonsoft.Json.Linq.JTokenType"$Newtonsoft.Json.Linq.JToken.Type.get*#
+!
+%3Newtonsoft.Json.Linq.JToken*
+3*≠
+3ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs ($*
+4
+5*À
+4ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs (Uá
+Ñ
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs3 (=
+%5string"'Newtonsoft.Json.Linq.JProperty.Name.get*)
+'
+firstNewtonsoft.Json.Linq.JPropertyù
+ö
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs? (J!
+%6Newtonsoft.Json.Linq.JToken"(Newtonsoft.Json.Linq.JProperty.Value.get*)
+'
+firstNewtonsoft.Json.Linq.JPropertyåâ
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs? (U
+%7string"&Newtonsoft.Json.Linq.JToken.ToString()*#
+!
+%6Newtonsoft.Json.Linq.JToken2
+ToString()Ÿ÷
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs* (V
+%8Lucene.Net.Index.Term"Lucene.Net.Index.Termú
+ô
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs. (2
+
+%9void"*Lucene.Net.Index.Term.Term(string, string)*
+
+%8Lucene.Net.Index.Term*
+
+%5string*
+
+%7stringËÂ
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs (W#
+%10Lucene.Net.Search.FuzzyQuery"Lucene.Net.Search.FuzzyQuery∏
+µ
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs ()
+%11void">Lucene.Net.Search.FuzzyQuery.FuzzyQuery(Lucene.Net.Index.Term)*%
+#
+%10Lucene.Net.Search.FuzzyQuery*
+
+%8Lucene.Net.Index.Term"…
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs (X%
+#
+%10Lucene.Net.Search.FuzzyQuery*≠
+5ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs ($*
+6
+7*Ë	
+6ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs (?û
+õ
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs' (2"
+%12Newtonsoft.Json.Linq.JToken"(Newtonsoft.Json.Linq.JProperty.Value.get*)
+'
+firstNewtonsoft.Json.Linq.JPropertyÿ
+’
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs (2
+%13"__id*$
+"
+%12Newtonsoft.Json.Linq.JTokenŸ
+÷
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs (2#
+objNewtonsoft.Json.Linq.JObject"__id*
+
+%13‡
+›
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs (@
+%14bool"RNewtonsoft.Json.Linq.JObject.TryGetValue(string, out Newtonsoft.Json.Linq.JToken?)*%
+#
+objNewtonsoft.Json.Linq.JObject*	
+value*&
+$
+valueNewtonsoft.Json.Linq.JToken*
+8
+9*Ω
+8ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs (R‡›
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs (S
+%15System.ArgumentException"System.ArgumentException¨
+©
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs" (3
+%16void"3System.ArgumentException.ArgumentException(string?)*!
+
+%15System.ArgumentException* 
+Missing value in fuzzy query*
+10*˛
+9ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs! '(!Ë
+Â
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs! !(C
+%17bool"RNewtonsoft.Json.Linq.JObject.TryGetValue(string, out Newtonsoft.Json.Linq.JToken?)*%
+#
+objNewtonsoft.Json.Linq.JObject*
+	fuzziness**
+(
+	fuzzinessNewtonsoft.Json.Linq.JTokenÔ
+Ï
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs" "(J
+%18bool"RNewtonsoft.Json.Linq.JObject.TryGetValue(string, out Newtonsoft.Json.Linq.JToken?)*%
+#
+objNewtonsoft.Json.Linq.JObject*
+prefix_length*-
++
+prefixLengthNewtonsoft.Json.Linq.JTokenÒ
+Ó
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs# #(L
+%19bool"RNewtonsoft.Json.Linq.JObject.TryGetValue(string, out Newtonsoft.Json.Linq.JToken?)*%
+#
+objNewtonsoft.Json.Linq.JObject*
+max_expansions*.
+,
+maxExpansionsNewtonsoft.Json.Linq.JTokenà
+Ö
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs&! &(+
+%20string"'Newtonsoft.Json.Linq.JProperty.Name.get*)
+'
+firstNewtonsoft.Json.Linq.JProperty
+Ì
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs&- &(B
+%21string"mNewtonsoft.Json.Linq.Extensions.Value<U>(System.Collections.Generic.IEnumerable<Newtonsoft.Json.Linq.JToken>)*#"!
+Newtonsoft.Json.Linq.Extensions*&
+$
+valueNewtonsoft.Json.Linq.JToken⁄◊
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs& &(C
+%22Lucene.Net.Index.Term"Lucene.Net.Index.Term†
+ù
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs& &( 
+%23void"*Lucene.Net.Index.Term.Term(string, string)*
+
+%22Lucene.Net.Index.Term*
+
+%20string*
+
+%21string*
+11
+12*†
+12ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs'" '(-Ò
+Ó
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs'" '(/
+
+%24int"mNewtonsoft.Json.Linq.Extensions.Value<U>(System.Collections.Generic.IEnumerable<Newtonsoft.Json.Linq.JToken>)*#"!
+Newtonsoft.Json.Linq.Extensions**
+(
+	fuzzinessNewtonsoft.Json.Linq.JToken*
+11*∞
+11ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs4	 4(	*
+13
+14*Ù
+13ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs'3 '(a∫
+∑
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs'3 '(a
+%28"__id*
+""¿
+Ω
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs'3 '(a
+
+%27int"__id*
+
+%28≈
+¬
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs'3 '(a
+
+%25int"__id*
+
+
+%27int*
+14*∞
+14ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs( (($*
+15
+16*£
+16ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs(% ((0Ù
+Ò
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs(% ((2
+
+%29int"mNewtonsoft.Json.Linq.Extensions.Value<U>(System.Collections.Generic.IEnumerable<Newtonsoft.Json.Linq.JToken>)*#"!
+Newtonsoft.Json.Linq.Extensions*-
++
+prefixLengthNewtonsoft.Json.Linq.JToken*
+15*∞
+15ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs4	 4(	*
+17
+18*≤
+17ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs(6 ((7ª
+∏
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs(6 ((7
+
+%32int"__id*2 ≈
+¬
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs(6 ((7
+
+%30int"__id*
+
+
+%32int*
+18*∞
+18ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs) )(%*
+19
+20*§
+20ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs)& )(1ı
+Ú
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs)& )(3
+
+%33int"mNewtonsoft.Json.Linq.Extensions.Value<U>(System.Collections.Generic.IEnumerable<Newtonsoft.Json.Linq.JToken>)*#"!
+Newtonsoft.Json.Linq.Extensions*.
+,
+maxExpansionsNewtonsoft.Json.Linq.JToken*
+19*∞
+19ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs4	 4(	*
+21
+22*¥
+21ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs)7 )(9Ω
+∫
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs)7 )(9
+
+%36int"__id*22≈
+¬
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs)7 )(9
+
+%34int"__id*
+
+
+%36int*
+22*Ç
+22ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs% ,(>ËÂ
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs%% *(#
+%37Lucene.Net.Search.FuzzyQuery"Lucene.Net.Search.FuzzyQueryÄ
+˝
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs%) %(3
+%38void"SLucene.Net.Search.FuzzyQuery.FuzzyQuery(Lucene.Net.Index.Term, int, int, int, bool)*%
+#
+%37Lucene.Net.Search.FuzzyQuery*
+
+%22Lucene.Net.Index.Term*
+
+
+%25int*
+
+
+%30int*
+
+
+%34int*
+""˛
+˚
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs% *(*
+
+fuzzyQueryLucene.Net.Search.FuzzyQuery"__id*%
+#
+%37Lucene.Net.Search.FuzzyQuery‡
+›
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs, ,(?
+%39bool"RNewtonsoft.Json.Linq.JObject.TryGetValue(string, out Newtonsoft.Json.Linq.JToken?)*%
+#
+objNewtonsoft.Json.Linq.JObject*	
+boost*&
+$
+boostNewtonsoft.Json.Linq.JToken*
+23
+24*¿
+23ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs. .(?Ô
+Ï
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs.+ .(?
+%40float"mNewtonsoft.Json.Linq.Extensions.Value<U>(System.Collections.Generic.IEnumerable<Newtonsoft.Json.Linq.JToken>)*#"!
+Newtonsoft.Json.Linq.Extensions*&
+$
+boostNewtonsoft.Json.Linq.JTokenüú
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs. .(?
+%41float"!Lucene.Net.Search.Query.Boost.set*,
+*
+
+fuzzyQueryLucene.Net.Search.FuzzyQuery*
+
+%40float2	Boost.set*
+24*˘
+24ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs1 1(%"–
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs1 1(&,
+*
+
+fuzzyQueryLucene.Net.Search.FuzzyQuery*¥
+7ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs2 2(J‡›
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs2 2(K
+%42System.ArgumentException"System.ArgumentException£
+†
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs2# 2(4
+%43void"3System.ArgumentException.ArgumentException(string?)*!
+
+%42System.ArgumentException*
+Invalid fuzzy query*
+10*‡
+10ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs4	 4(	"∑
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\FuzzyQueryProvider.cs4 4(	
+implicit return:1
+builder&OrchardCore.Lucene.ILuceneQueryService:0
+context%OrchardCore.Lucene.LuceneQueryContext:
+typestring:%
+queryNewtonsoft.Json.Linq.JObjectB86
+4OrchardCore.Lucene.QueryProviders.FuzzyQueryProvider

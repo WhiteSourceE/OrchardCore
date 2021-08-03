@@ -1,0 +1,132 @@
+
+âOrchardCore.Shells.Database.Configuration.DatabaseShellConfigurationSources.TryMigrateFromFileAsync(string, Newtonsoft.Json.Linq.JObject)¿
+µD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Shells.Database\Configuration\DatabaseShellConfigurationSources.cs}! }(8"0*§
+0¡
+µD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Shells.Database\Configuration\DatabaseShellConfigurationSources.cs Ç((√
+¿
+¿
+µD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Shells.Database\Configuration\DatabaseShellConfigurationSources.cs, (6
+%0string"__id*g*eM
+KOrchardCore.Shells.Database.Configuration.DatabaseShellConfigurationSources"
+
+_containerstring¥
+±
+¿
+µD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Shells.Database\Configuration\DatabaseShellConfigurationSources.cs (?
+%1string"&System.IO.Path.Combine(string, string)*"
+System.IO.Path*
+
+%0string*
+
+tenantstringÙ
+Ò
+¿
+µD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Shells.Database\Configuration\DatabaseShellConfigurationSources.cs (?
+tenantFolderstring"__id*
+
+%1string¬
+ø
+¬
+µD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Shells.Database\Configuration\DatabaseShellConfigurationSources.csÄ Ä(L
+%2string"&System.IO.Path.Combine(string, string)*"
+System.IO.Path*
+
+tenantFolderstring*
+appsettings.jsonı
+Ú
+¬
+µD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Shells.Database\Configuration\DatabaseShellConfigurationSources.csÄ Ä(L
+appsettingsstring"__id*
+
+%2string°
+û
+¬
+µD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Shells.Database\Configuration\DatabaseShellConfigurationSources.csÇ Ç()
+
+%3bool"System.IO.File.Exists(string?)*"
+System.IO.File*
+
+appsettingsstring*
+1
+2*ò
+1¬
+µD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Shells.Database\Configuration\DatabaseShellConfigurationSources.csÑ Ñ("Õ
+¬
+µD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Shells.Database\Configuration\DatabaseShellConfigurationSources.csÑ Ñ(
+""*ï
+2¬
+µD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Shells.Database\Configuration\DatabaseShellConfigurationSources.csá á(7¥
+±
+¬
+µD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Shells.Database\Configuration\DatabaseShellConfigurationSources.csá á(8
+%4System.IO.StreamReader"System.IO.File.OpenText(string)*"
+System.IO.File*
+
+appsettingsstringé
+ã
+¬
+µD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Shells.Database\Configuration\DatabaseShellConfigurationSources.csá á(8
+fileSystem.IO.StreamReader"__id*
+
+%4System.IO.StreamReader*
+3*¿
+3¬
+µD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Shells.Database\Configuration\DatabaseShellConfigurationSources.csâ ã()—Œ
+¬
+µD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Shells.Database\Configuration\DatabaseShellConfigurationSources.csâ* â(?*
+%5$System.Threading.Tasks.Task<TResult>"'System.IO.StreamReader.ReadToEndAsync()* 
+
+fileSystem.IO.StreamReader2ReadToEndAsync()Ô
+Ï
+¬
+µD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Shells.Database\Configuration\DatabaseShellConfigurationSources.csâ â(?
+configurationstring"__id*
+""ß
+§
+¬
+µD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Shells.Database\Configuration\DatabaseShellConfigurationSources.csã ã()
+
+%6bool""string.operator !=(string, string)*
+"
+string*
+
+configurationstring*
+""*
+4
+5*Ï
+4¬
+µD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Shells.Database\Configuration\DatabaseShellConfigurationSources.csç ç(H’
+“
+¬
+µD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Shells.Database\Configuration\DatabaseShellConfigurationSources.csç- ç(I"
+%7Newtonsoft.Json.Linq.JObject"*Newtonsoft.Json.Linq.JObject.Parse(string)* "
+Newtonsoft.Json.Linq.JObject*
+
+configurationstringƒ
+¡
+¬
+µD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Shells.Database\Configuration\DatabaseShellConfigurationSources.csç ç(I
+%8"__mapSet*0
+.
+configurationsNewtonsoft.Json.Linq.JObject*
+
+tenantstring*$
+"
+%7Newtonsoft.Json.Linq.JObject*
+5*Õ
+5¬
+µD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Shells.Database\Configuration\DatabaseShellConfigurationSources.csí	 í(	*
+6*ò
+6¬
+µD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Shells.Database\Configuration\DatabaseShellConfigurationSources.csë ë("Õ
+¬
+µD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Shells.Database\Configuration\DatabaseShellConfigurationSources.csë ë(
+""*•
+7¬
+µD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Shells.Database\Configuration\DatabaseShellConfigurationSources.csí	 í(	"⁄
+¬
+µD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Shells.Database\Configuration\DatabaseShellConfigurationSources.csí í(	
+implicit return:
+tenantstring:.
+configurationsNewtonsoft.Json.Linq.JObjectBOM
+KOrchardCore.Shells.Database.Configuration.DatabaseShellConfigurationSources

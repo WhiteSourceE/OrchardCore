@@ -1,0 +1,413 @@
+
+6OrchardCore.Recipes.Commands.RecipesCommands.Harvest()ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs (!"0*Í
+0ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs (À
+»
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs7 (H/
+%0)System.Collections.Generic.IEnumerable<T>"__id*r*p.
+,OrchardCore.Recipes.Commands.RecipesCommands">
+_recipeHarvesters)System.Collections.Generic.IEnumerable<T>©
+¶
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs7 (m/
+%1)System.Collections.Generic.IEnumerable<T>"System.Linq.Enumerable.Select<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)*"
+System.Linq.Enumerable*1
+/
+%0)System.Collections.Generic.IEnumerable<T>*
+""ú
+ô
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs* (n*
+%2$System.Threading.Tasks.Task<TResult>"zSystem.Threading.Tasks.Task.WhenAll<TResult>(System.Collections.Generic.IEnumerable<System.Threading.Tasks.Task<TResult>>)*"
+System.Threading.Tasks.Task*1
+/
+%1)System.Collections.Generic.IEnumerable<T>ö
+ó
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs (nj
+recipeCollectionsUSystem.Collections.Generic.IEnumerable<OrchardCore.Recipes.Models.RecipeDescriptor>[]"__id*
+""ë
+é
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs (>/
+%3)System.Collections.Generic.IEnumerable<T>"´System.Linq.Enumerable.SelectMany<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, System.Collections.Generic.IEnumerable<TResult>>)*"
+System.Linq.Enumerable*l
+j
+recipeCollectionsUSystem.Collections.Generic.IEnumerable<OrchardCore.Recipes.Models.RecipeDescriptor>[]*
+""˛
+˚
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs (H3
+%4-OrchardCore.Recipes.Models.RecipeDescriptor[]"XSystem.Linq.Enumerable.ToArray<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*1
+/
+%3)System.Collections.Generic.IEnumerable<T>ó
+î
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs (H8
+recipes-OrchardCore.Recipes.Models.RecipeDescriptor[]"__id*5
+3
+%4-OrchardCore.Recipes.Models.RecipeDescriptor[]⁄
+◊
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs (
+
+%5bool"TSystem.Linq.Enumerable.Any<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*:
+8
+recipes-OrchardCore.Recipes.Models.RecipeDescriptor[]*
+1
+2*ù
+1ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs (I◊
+‘
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs (5
+%6/OrchardCore.Environment.Commands.CommandContext"BOrchardCore.Environment.Commands.DefaultCommandHandler.Context.get*:8
+6OrchardCore.Environment.Commands.DefaultCommandHandler±
+Æ
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs ($
+%7System.IO.TextWriter":OrchardCore.Environment.Commands.CommandContext.Output.get*7
+5
+%6/OrchardCore.Environment.Commands.CommandContext◊
+‘
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs4 (58
+%82Microsoft.Extensions.Localization.IStringLocalizer"__id*u*s8
+6OrchardCore.Environment.Commands.DefaultCommandHandler"7
+S2Microsoft.Extensions.Localization.IStringLocalizerÉÄ
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs4 (J7
+%91Microsoft.Extensions.Localization.LocalizedString"CMicrosoft.Extensions.Localization.IStringLocalizer.this[string].get*:
+8
+%82Microsoft.Extensions.Localization.IStringLocalizer*
+No recipes found.2this[string].get‰·
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs (K"
+%10System.Threading.Tasks.Task",System.IO.TextWriter.WriteLineAsync(string?)*
+
+%7System.IO.TextWriter*9
+7
+%91Microsoft.Extensions.Localization.LocalizedString2WriteLineAsync(string?)"•
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs (
+""*ò
+2ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs" &(*ÿ
+’
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs" "(6
+%11/OrchardCore.Environment.Commands.CommandContext"BOrchardCore.Environment.Commands.DefaultCommandHandler.Context.get*:8
+6OrchardCore.Environment.Commands.DefaultCommandHandler≥
+∞
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs" "( 
+%12System.IO.TextWriter":OrchardCore.Environment.Commands.CommandContext.Output.get*8
+6
+%11/OrchardCore.Environment.Commands.CommandContextÿ
+’
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs"0 "(19
+%132Microsoft.Extensions.Localization.IStringLocalizer"__id*u*s8
+6OrchardCore.Environment.Commands.DefaultCommandHandler"7
+S2Microsoft.Extensions.Localization.IStringLocalizerçä
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs"0 "(N8
+%141Microsoft.Extensions.Localization.LocalizedString"CMicrosoft.Extensions.Localization.IStringLocalizer.this[string].get*;
+9
+%132Microsoft.Extensions.Localization.IStringLocalizer*
+List of available recipes2this[string].getÊ„
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs" "(O"
+%15System.Threading.Tasks.Task",System.IO.TextWriter.WriteLineAsync(string?)*
+
+%12System.IO.TextWriter*:
+8
+%141Microsoft.Extensions.Localization.LocalizedString2WriteLineAsync(string?)ÿ
+’
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs# #(6
+%16/OrchardCore.Environment.Commands.CommandContext"BOrchardCore.Environment.Commands.DefaultCommandHandler.Context.get*:8
+6OrchardCore.Environment.Commands.DefaultCommandHandler≥
+∞
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs# #( 
+%17System.IO.TextWriter":OrchardCore.Environment.Commands.CommandContext.Output.get*8
+6
+%16/OrchardCore.Environment.Commands.CommandContext «
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs# #(M"
+%18System.Threading.Tasks.Task",System.IO.TextWriter.WriteLineAsync(string?)*
+
+%17System.IO.TextWriter*
+--------------------------2WriteLineAsync(string?)ÿ
+’
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs$ $(6
+%19/OrchardCore.Environment.Commands.CommandContext"BOrchardCore.Environment.Commands.DefaultCommandHandler.Context.get*:8
+6OrchardCore.Environment.Commands.DefaultCommandHandler≥
+∞
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs$ $( 
+%20System.IO.TextWriter":OrchardCore.Environment.Commands.CommandContext.Output.get*8
+6
+%19/OrchardCore.Environment.Commands.CommandContextúô
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs$ $(1"
+%21System.Threading.Tasks.Task"%System.IO.TextWriter.WriteLineAsync()*
+
+%20System.IO.TextWriter2WriteLineAsync()*
+3*®
+3ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs/	 /(	*
+4
+5*€e
+4ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs( -(Zÿ
+’
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs( ((6
+%22/OrchardCore.Environment.Commands.CommandContext"BOrchardCore.Environment.Commands.DefaultCommandHandler.Context.get*:8
+6OrchardCore.Environment.Commands.DefaultCommandHandler≥
+∞
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs( (($
+%23System.IO.TextWriter":OrchardCore.Environment.Commands.CommandContext.Output.get*8
+6
+%22/OrchardCore.Environment.Commands.CommandContextÿ
+’
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs(4 ((59
+%242Microsoft.Extensions.Localization.IStringLocalizer"__id*u*s8
+6OrchardCore.Environment.Commands.DefaultCommandHandler"7
+S2Microsoft.Extensions.Localization.IStringLocalizerû
+õ
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs(E ((P
+%25string"4OrchardCore.Recipes.Models.RecipeDescriptor.Name.get*7
+5
+recipe+OrchardCore.Recipes.Models.RecipeDescriptor≤Ø
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs(4 ((Q8
+%261Microsoft.Extensions.Localization.LocalizedString"TMicrosoft.Extensions.Localization.IStringLocalizer.this[string, params object[]].get*;
+9
+%242Microsoft.Extensions.Localization.IStringLocalizer*
+Recipe: {0}*
+
+%25string2!this[string, params object[]].getÊ„
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs( ((R"
+%27System.Threading.Tasks.Task",System.IO.TextWriter.WriteLineAsync(string?)*
+
+%23System.IO.TextWriter*:
+8
+%261Microsoft.Extensions.Localization.LocalizedString2WriteLineAsync(string?)ÿ
+’
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs) )(6
+%28/OrchardCore.Environment.Commands.CommandContext"BOrchardCore.Environment.Commands.DefaultCommandHandler.Context.get*:8
+6OrchardCore.Environment.Commands.DefaultCommandHandler≥
+∞
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs) )($
+%29System.IO.TextWriter":OrchardCore.Environment.Commands.CommandContext.Output.get*8
+6
+%28/OrchardCore.Environment.Commands.CommandContextÿ
+’
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs)4 )(59
+%302Microsoft.Extensions.Localization.IStringLocalizer"__id*u*s8
+6OrchardCore.Environment.Commands.DefaultCommandHandler"7
+S2Microsoft.Extensions.Localization.IStringLocalizer°
+û
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs)L )(Z
+%31string"7OrchardCore.Recipes.Models.RecipeDescriptor.Version.get*7
+5
+recipe+OrchardCore.Recipes.Models.RecipeDescriptorπ∂
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs)4 )([8
+%321Microsoft.Extensions.Localization.LocalizedString"TMicrosoft.Extensions.Localization.IStringLocalizer.this[string, params object[]].get*;
+9
+%302Microsoft.Extensions.Localization.IStringLocalizer*
+  Version:     {0}*
+
+%31string2!this[string, params object[]].getÊ„
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs) )(\"
+%33System.Threading.Tasks.Task",System.IO.TextWriter.WriteLineAsync(string?)*
+
+%29System.IO.TextWriter*:
+8
+%321Microsoft.Extensions.Localization.LocalizedString2WriteLineAsync(string?)ÿ
+’
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs* *(6
+%34/OrchardCore.Environment.Commands.CommandContext"BOrchardCore.Environment.Commands.DefaultCommandHandler.Context.get*:8
+6OrchardCore.Environment.Commands.DefaultCommandHandler≥
+∞
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs* *($
+%35System.IO.TextWriter":OrchardCore.Environment.Commands.CommandContext.Output.get*8
+6
+%34/OrchardCore.Environment.Commands.CommandContextÿ
+’
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs*4 *(59
+%362Microsoft.Extensions.Localization.IStringLocalizer"__id*u*s8
+6OrchardCore.Environment.Commands.DefaultCommandHandler"7
+S2Microsoft.Extensions.Localization.IStringLocalizer†
+ù
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs*] *(h
+%37string[]"4OrchardCore.Recipes.Models.RecipeDescriptor.Tags.get*7
+5
+recipe+OrchardCore.Recipes.Models.RecipeDescriptor˝
+˙
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs*L *(i
+%38string"&string.Join(string?, params string?[])*
+"
+string*
+,*
+
+%37string[]π∂
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs*4 *(j8
+%391Microsoft.Extensions.Localization.LocalizedString"TMicrosoft.Extensions.Localization.IStringLocalizer.this[string, params object[]].get*;
+9
+%362Microsoft.Extensions.Localization.IStringLocalizer*
+  Tags:        {0}*
+
+%38string2!this[string, params object[]].getÊ„
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs* *(k"
+%40System.Threading.Tasks.Task",System.IO.TextWriter.WriteLineAsync(string?)*
+
+%35System.IO.TextWriter*:
+8
+%391Microsoft.Extensions.Localization.LocalizedString2WriteLineAsync(string?)ÿ
+’
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs+ +(6
+%41/OrchardCore.Environment.Commands.CommandContext"BOrchardCore.Environment.Commands.DefaultCommandHandler.Context.get*:8
+6OrchardCore.Environment.Commands.DefaultCommandHandler≥
+∞
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs+ +($
+%42System.IO.TextWriter":OrchardCore.Environment.Commands.CommandContext.Output.get*8
+6
+%41/OrchardCore.Environment.Commands.CommandContextÿ
+’
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs+4 +(59
+%432Microsoft.Extensions.Localization.IStringLocalizer"__id*u*s8
+6OrchardCore.Environment.Commands.DefaultCommandHandler"7
+S2Microsoft.Extensions.Localization.IStringLocalizer•
+¢
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs+L +(^
+%44string";OrchardCore.Recipes.Models.RecipeDescriptor.Description.get*7
+5
+recipe+OrchardCore.Recipes.Models.RecipeDescriptorπ∂
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs+4 +(_8
+%451Microsoft.Extensions.Localization.LocalizedString"TMicrosoft.Extensions.Localization.IStringLocalizer.this[string, params object[]].get*;
+9
+%432Microsoft.Extensions.Localization.IStringLocalizer*
+  Description: {0}*
+
+%44string2!this[string, params object[]].getÊ„
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs+ +(`"
+%46System.Threading.Tasks.Task",System.IO.TextWriter.WriteLineAsync(string?)*
+
+%42System.IO.TextWriter*:
+8
+%451Microsoft.Extensions.Localization.LocalizedString2WriteLineAsync(string?)ÿ
+’
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs, ,(6
+%47/OrchardCore.Environment.Commands.CommandContext"BOrchardCore.Environment.Commands.DefaultCommandHandler.Context.get*:8
+6OrchardCore.Environment.Commands.DefaultCommandHandler≥
+∞
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs, ,($
+%48System.IO.TextWriter":OrchardCore.Environment.Commands.CommandContext.Output.get*8
+6
+%47/OrchardCore.Environment.Commands.CommandContextÿ
+’
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs,4 ,(59
+%492Microsoft.Extensions.Localization.IStringLocalizer"__id*u*s8
+6OrchardCore.Environment.Commands.DefaultCommandHandler"7
+S2Microsoft.Extensions.Localization.IStringLocalizer†
+ù
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs,L ,(Y
+%50string"6OrchardCore.Recipes.Models.RecipeDescriptor.Author.get*7
+5
+recipe+OrchardCore.Recipes.Models.RecipeDescriptorπ∂
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs,4 ,(Z8
+%511Microsoft.Extensions.Localization.LocalizedString"TMicrosoft.Extensions.Localization.IStringLocalizer.this[string, params object[]].get*;
+9
+%492Microsoft.Extensions.Localization.IStringLocalizer*
+  Author:      {0}*
+
+%50string2!this[string, params object[]].getÊ„
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs, ,(["
+%52System.Threading.Tasks.Task",System.IO.TextWriter.WriteLineAsync(string?)*
+
+%48System.IO.TextWriter*:
+8
+%511Microsoft.Extensions.Localization.LocalizedString2WriteLineAsync(string?)ÿ
+’
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs- -(6
+%53/OrchardCore.Environment.Commands.CommandContext"BOrchardCore.Environment.Commands.DefaultCommandHandler.Context.get*:8
+6OrchardCore.Environment.Commands.DefaultCommandHandler≥
+∞
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs- -($
+%54System.IO.TextWriter":OrchardCore.Environment.Commands.CommandContext.Output.get*8
+6
+%53/OrchardCore.Environment.Commands.CommandContextÿ
+’
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs-4 -(59
+%552Microsoft.Extensions.Localization.IStringLocalizer"__id*u*s8
+6OrchardCore.Environment.Commands.DefaultCommandHandler"7
+S2Microsoft.Extensions.Localization.IStringLocalizer°
+û
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs-L -(Z
+%56string"7OrchardCore.Recipes.Models.RecipeDescriptor.WebSite.get*7
+5
+recipe+OrchardCore.Recipes.Models.RecipeDescriptorπ∂
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs-4 -([8
+%571Microsoft.Extensions.Localization.LocalizedString"TMicrosoft.Extensions.Localization.IStringLocalizer.this[string, params object[]].get*;
+9
+%552Microsoft.Extensions.Localization.IStringLocalizer*
+  Website:     {0}*
+
+%56string2!this[string, params object[]].getÊ„
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs- -(\"
+%58System.Threading.Tasks.Task",System.IO.TextWriter.WriteLineAsync(string?)*
+
+%54System.IO.TextWriter*:
+8
+%571Microsoft.Extensions.Localization.LocalizedString2WriteLineAsync(string?)*
+3*’
+5ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs/	 /(	"≤
+ö
+èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Recipes\Commands\RecipesCommands.cs/ /(	
+implicit returnB0.
+,OrchardCore.Recipes.Commands.RecipesCommands

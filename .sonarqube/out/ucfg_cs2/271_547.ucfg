@@ -1,0 +1,79 @@
+
+¶OrchardCore.Workflows.Http.Activities.SignalEvent.CanExecuteAsync(OrchardCore.Workflows.Models.WorkflowExecutionContext, OrchardCore.Workflows.Models.ActivityContext)ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Activities\SignalEvent.cs#) #(8"0*»
+0†
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Activities\SignalEvent.cs% &(Å˛
+˚
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Activities\SignalEvent.cs%# %(7A
+%0;OrchardCore.Workflows.Services.IWorkflowExpressionEvaluator"__id*ç*ä3
+1OrchardCore.Workflows.Http.Activities.SignalEvent"S
+_expressionEvaluator;OrchardCore.Workflows.Services.IWorkflowExpressionEvaluatorÿ
+’
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Activities\SignalEvent.cs%F %(P8
+%12OrchardCore.Workflows.Models.WorkflowExpression<T>"@OrchardCore.Workflows.Http.Activities.SignalEvent.SignalName.get*53
+1OrchardCore.Workflows.Http.Activities.SignalEvent¨©
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Activities\SignalEvent.cs%# %(h*
+%2$System.Threading.Tasks.Task<TResult>"ﬁOrchardCore.Workflows.Services.IWorkflowExpressionEvaluator.EvaluateAsync<T>(OrchardCore.Workflows.Models.WorkflowExpression<T>, OrchardCore.Workflows.Models.WorkflowExecutionContext, System.Text.Encodings.Web.TextEncoder)*C
+A
+%0;OrchardCore.Workflows.Services.IWorkflowExpressionEvaluator*:
+8
+%12OrchardCore.Workflows.Models.WorkflowExpression<T>*J
+H
+workflowContext5OrchardCore.Workflows.Models.WorkflowExecutionContext*
+""2¢EvaluateAsync<T>(OrchardCore.Workflows.Models.WorkflowExpression<T>, OrchardCore.Workflows.Models.WorkflowExecutionContext, System.Text.Encodings.Web.TextEncoder)…
+∆
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Activities\SignalEvent.cs% %(h
+
+signalNamestring"__id*
+""Ó
+Î
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Activities\SignalEvent.cs&! &(6:
+%34System.Collections.Generic.IDictionary<TKey, TValue>"?OrchardCore.Workflows.Models.WorkflowExecutionContext.Input.get*J
+H
+workflowContext5OrchardCore.Workflows.Models.WorkflowExecutionContextª
+∏
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Activities\SignalEvent.cs&! &(Q
+%4string"ÉOrchardCore.Workflows.Helpers.DictionaryExtensions.GetValue<TValue>(System.Collections.Generic.IDictionary<string, object>, string)*6"4
+2OrchardCore.Workflows.Helpers.DictionaryExtensions*<
+:
+%34System.Collections.Generic.IDictionary<TKey, TValue>*
+
+Signal∫
+∑
+†
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Activities\SignalEvent.cs&_ &(Å
+%5"__id*
+""®
+•
+†
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Activities\SignalEvent.cs& &(Ç
+
+%6bool"8string.Equals(string?, string?, System.StringComparison)*
+"
+string*
+
+%4string*
+
+
+signalNamestring*
+
+%5"±
+†
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Activities\SignalEvent.cs& &(É
+
+
+%6bool*ﬂ
+1ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Activities\SignalEvent.cs'	 '(	"∑
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Activities\SignalEvent.cs' '(	
+implicit return:H
+workflowContext5OrchardCore.Workflows.Models.WorkflowExecutionContext:?
+activityContext,OrchardCore.Workflows.Models.ActivityContextB53
+1OrchardCore.Workflows.Http.Activities.SignalEvent

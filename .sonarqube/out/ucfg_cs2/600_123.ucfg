@@ -1,0 +1,205 @@
+
+åOrchardCore.ContentLocalization.DefaultContentLocalizationManager.GetFirstItemIdForSetsAsync(System.Collections.Generic.IEnumerable<string>)±
+§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\DefaultContentLocalizationManager.csÅ7 Å(Q"0*Ö:
+0±
+§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\DefaultContentLocalizationManager.csÉ ä(0∫
+∑
+±
+§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\DefaultContentLocalizationManager.csÉ$ É(,
+%0YesSql.ISession"__id*d*bC
+AOrchardCore.ContentLocalization.DefaultContentLocalizationManager"
+_sessionYesSql.ISessionû
+õ
+≤
+§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\DefaultContentLocalizationManager.csÉ$ É(û
+%1YesSql.IQueryIndex<T>"ÅYesSql.QueryExtensions.QueryIndex<TIndex>(YesSql.ISession, System.Linq.Expressions.Expression<System.Func<TIndex, bool>>, string)*"
+YesSql.QueryExtensions*
+
+%0YesSql.ISession*
+""*
+""≥∞
+≤
+§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\DefaultContentLocalizationManager.csÉ$ É(™*
+%2$System.Threading.Tasks.Task<TResult>"!YesSql.IQueryIndex<T>.ListAsync()*
+
+%1YesSql.IQueryIndex<T>2ListAsync()Ä
+˝
+≤
+§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\DefaultContentLocalizationManager.csÉ É(™8
+indexValues)System.Collections.Generic.IEnumerable<T>"__id*
+""Ü
+É
+±
+§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\DefaultContentLocalizationManager.csÖ! Ö(54
+%3.Microsoft.AspNetCore.Http.IHttpContextAccessor"__id*ê*çC
+AOrchardCore.ContentLocalization.DefaultContentLocalizationManager"F
+_httpContextAccessor.Microsoft.AspNetCore.Http.IHttpContextAccessorÌÍ
+±
+§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\DefaultContentLocalizationManager.csÖ! Ö(A+
+%4%Microsoft.AspNetCore.Http.HttpContext">Microsoft.AspNetCore.Http.IHttpContextAccessor.HttpContext.get*6
+4
+%3.Microsoft.AspNetCore.Http.IHttpContextAccessor2HttpContext.get◊
+‘
+±
+§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\DefaultContentLocalizationManager.csÖ! Ö(J;
+%55Microsoft.AspNetCore.Http.Features.IFeatureCollection"2Microsoft.AspNetCore.Http.HttpContext.Features.get*-
++
+%4%Microsoft.AspNetCore.Http.HttpContextéã
+±
+§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\DefaultContentLocalizationManager.csÖ! Ö(h>
+%68Microsoft.AspNetCore.Localization.IRequestCultureFeature"EMicrosoft.AspNetCore.Http.Features.IFeatureCollection.Get<TFeature>()*=
+;
+%55Microsoft.AspNetCore.Http.Features.IFeatureCollection2Get<TFeature>()íè
+±
+§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\DefaultContentLocalizationManager.csÖ! Ö(w6
+%70Microsoft.AspNetCore.Localization.RequestCulture"KMicrosoft.AspNetCore.Localization.IRequestCultureFeature.RequestCulture.get*@
+>
+%68Microsoft.AspNetCore.Localization.IRequestCultureFeature2RequestCulture.get◊
+‘
+±
+§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\DefaultContentLocalizationManager.csÖ! Ö(&
+%8 System.Globalization.CultureInfo"<Microsoft.AspNetCore.Localization.RequestCulture.Culture.get*8
+6
+%70Microsoft.AspNetCore.Localization.RequestCulture•¢
+≤
+§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\DefaultContentLocalizationManager.csÖ! Ö(Ñ
+%9string")System.Globalization.CultureInfo.Name.get*(
+&
+%8 System.Globalization.CultureInfo2Name.getÚ
+Ô
+≤
+§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\DefaultContentLocalizationManager.csÖ! Ö(ó
+%10string"string.ToLowerInvariant()*
+
+%9stringÈ
+Ê
+≤
+§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\DefaultContentLocalizationManager.csÖ Ö(ó
+currentCulturestring"__id*
+
+%10stringÖ
+Ç
+±
+§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\DefaultContentLocalizationManager.csÜ( Ü(<4
+%11-OrchardCore.Localization.ILocalizationService"__id*è*åC
+AOrchardCore.ContentLocalization.DefaultContentLocalizationManager"E
+_localizationService-OrchardCore.Localization.ILocalizationService˛˚
+±
+§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\DefaultContentLocalizationManager.csÜ( Ü(U+
+%12$System.Threading.Tasks.Task<TResult>"FOrchardCore.Localization.ILocalizationService.GetDefaultCultureAsync()*6
+4
+%11-OrchardCore.Localization.ILocalizationService2GetDefaultCultureAsync()ﬂ
+‹
+±
+§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\DefaultContentLocalizationManager.csÜ Ü(i
+defaultCulturestring"__id*
+""®•
+±
+§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\DefaultContentLocalizationManager.csá á(=:
+%133System.Collections.Generic.Dictionary<TKey, TValue>"3System.Collections.Generic.Dictionary<TKey, TValue>ƒ
+¡
+±
+§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\DefaultContentLocalizationManager.csá! á(;
+%14void"@System.Collections.Generic.Dictionary<TKey, TValue>.Dictionary()*<
+:
+%133System.Collections.Generic.Dictionary<TKey, TValue>æ
+ª
+±
+§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\DefaultContentLocalizationManager.csá á(=A
+
+dictionary3System.Collections.Generic.Dictionary<TKey, TValue>"__id*<
+:
+%133System.Collections.Generic.Dictionary<TKey, TValue>Ä
+˝
+±
+§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\DefaultContentLocalizationManager.csà% à(n0
+%15)System.Collections.Generic.IEnumerable<T>"ŸOrchardCore.ContentLocalization.DefaultContentLocalizationManager.GetSingleContentItemIdPerSet(System.Collections.Generic.IEnumerable<OrchardCore.ContentLocalization.Records.LocalizedContentItemIndex>, string, string)*E"C
+AOrchardCore.ContentLocalization.DefaultContentLocalizationManager*:
+8
+indexValues)System.Collections.Generic.IEnumerable<T>*
+
+currentCulturestring*
+
+defaultCulturestring≤
+Ø
+±
+§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\DefaultContentLocalizationManager.csà à(n?
+cleanedIndexValues)System.Collections.Generic.IEnumerable<T>"__id*2
+0
+%15)System.Collections.Generic.IEnumerable<T>*
+1*ø
+1±
+§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\DefaultContentLocalizationManager.csî	 î(	*
+2
+3*“
+
+2±
+§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\DefaultContentLocalizationManager.cså ç($Â
+‚
+±
+§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\DefaultContentLocalizationManager.cså å(_H
+%16AOrchardCore.ContentLocalization.Records.LocalizedContentItemIndex"{System.Linq.Enumerable.FirstOrDefault<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
+System.Linq.Enumerable*A
+?
+cleanedIndexValues)System.Collections.Generic.IEnumerable<T>*
+""ÿ
+’
+±
+§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\DefaultContentLocalizationManager.cså å(_M
+idxValueAOrchardCore.ContentLocalization.Records.LocalizedContentItemIndex"__id*J
+H
+%16AOrchardCore.ContentLocalization.Records.LocalizedContentItemIndexÕ
+ 
+±
+§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\DefaultContentLocalizationManager.csç ç($
+%17bool""object.operator ==(object, object)*
+"
+object*O
+M
+idxValueAOrchardCore.ContentLocalization.Records.LocalizedContentItemIndex*
+""*
+4
+5*º
+4±
+§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\DefaultContentLocalizationManager.csî	 î(	*
+1*‘	
+5±
+§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\DefaultContentLocalizationManager.csë ë(OÓ
+Î
+±
+§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\DefaultContentLocalizationManager.csë ë(7
+%18string"UOrchardCore.ContentLocalization.Records.LocalizedContentItemIndex.LocalizationSet.get*O
+M
+idxValueAOrchardCore.ContentLocalization.Records.LocalizedContentItemIndexÏ
+È
+±
+§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\DefaultContentLocalizationManager.csë9 ë(O
+%19string"SOrchardCore.ContentLocalization.Records.LocalizedContentItemIndex.ContentItemId.get*O
+M
+idxValueAOrchardCore.ContentLocalization.Records.LocalizedContentItemIndexµ
+≤
+±
+§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\DefaultContentLocalizationManager.csë ë(P
+%20void"__mapSet*C
+A
+
+dictionary3System.Collections.Generic.Dictionary<TKey, TValue>*
+
+%18string*
+
+%19string*
+1*≥
+3±
+§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\DefaultContentLocalizationManager.csì ì("˘
+±
+§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\DefaultContentLocalizationManager.csì ì(C
+A
+
+dictionary3System.Collections.Generic.Dictionary<TKey, TValue>*É
+6±
+§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\DefaultContentLocalizationManager.csî	 î(	"…
+±
+§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\DefaultContentLocalizationManager.csî î(	
+implicit return:=
+localizationSets)System.Collections.Generic.IEnumerable<T>BEC
+AOrchardCore.ContentLocalization.DefaultContentLocalizationManager

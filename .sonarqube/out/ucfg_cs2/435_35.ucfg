@@ -1,0 +1,144 @@
+
+GOrchardCore.Media.Core.DefaultMediaFileStore.TryDeleteFileAsync(string)’
+‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStore.cs?( ?(:"0*Þ2
+0’
+‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStore.csA R(üù
+’
+‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStore.csA" D(3
+%0-OrchardCore.Media.Events.MediaDeletingContext"-OrchardCore.Media.Events.MediaDeletingContext¡
+ž
+’
+‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStore.csA& A(:
+
+%1void"DOrchardCore.Media.Events.MediaDeletingContext.MediaDeletingContext()*5
+3
+%0-OrchardCore.Media.Events.MediaDeletingContext£
+ 
+’
+‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStore.csC C(
+%2string"2OrchardCore.Media.Events.MediaContextBase.Path.set*5
+3
+%0-OrchardCore.Media.Events.MediaDeletingContext*
+
+pathstring—
+”
+’
+‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStore.csA D(@
+deletingContext-OrchardCore.Media.Events.MediaDeletingContext"__id*5
+3
+%0-OrchardCore.Media.Events.MediaDeletingContextÅ
+Â
+’
+‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStore.csF F(%/
+%3)System.Collections.Generic.IEnumerable<T>"__id*t*r.
+,OrchardCore.Media.Core.DefaultMediaFileStore"@
+_mediaEventHandlers)System.Collections.Generic.IEnumerable<T>±
+®
+”
+‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStore.csF‚ F(‰*
+%4$Microsoft.Extensions.Logging.ILogger"__id*c*a.
+,OrchardCore.Media.Core.DefaultMediaFileStore"/
+_logger$Microsoft.Extensions.Logging.ILoggerå
+â
+“
+‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStore.csF F(Š!
+%5System.Threading.Tasks.Task"ÏOrchardCore.Modules.InvokeExtensions.InvokeAsync<TEvents, T1>(System.Collections.Generic.IEnumerable<TEvents>, System.Func<TEvents, T1, System.Threading.Tasks.Task>, T1, Microsoft.Extensions.Logging.ILogger)*("&
+$OrchardCore.Modules.InvokeExtensions*1
+/
+%3)System.Collections.Generic.IEnumerable<T>*
+""*B
+@
+deletingContext-OrchardCore.Media.Events.MediaDeletingContext*,
+*
+%4$Microsoft.Extensions.Logging.ILogger®
+«
+’
+‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStore.csH H()(
+%6"OrchardCore.FileStorage.IFileStore"__id*d*b.
+,OrchardCore.Media.Core.DefaultMediaFileStore"0
+
+_fileStore"OrchardCore.FileStorage.IFileStorež
+›
+’
+‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStore.csH= H(Q
+%7string"2OrchardCore.Media.Events.MediaContextBase.Path.get*B
+@
+deletingContext-OrchardCore.Media.Events.MediaDeletingContextÛØ
+’
+‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStore.csH H(R*
+%8$System.Threading.Tasks.Task<TResult>"=OrchardCore.FileStorage.IFileStore.TryDeleteFileAsync(string)**
+(
+%6"OrchardCore.FileStorage.IFileStore*
+
+%7string2TryDeleteFileAsync(string)¶
+³
+’
+‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStore.csH H(R
+resultbool"__id*
+""ú÷
+’
+‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStore.csJ! N(2
+%9,OrchardCore.Media.Events.MediaDeletedContext",OrchardCore.Media.Events.MediaDeletedContextŸ
+œ
+’
+‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStore.csJ% J(8
+%10void"BOrchardCore.Media.Events.MediaDeletedContext.MediaDeletedContext()*4
+2
+%9,OrchardCore.Media.Events.MediaDeletedContext£
+ 
+’
+‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStore.csL L(
+%11string"2OrchardCore.Media.Events.MediaContextBase.Path.set*4
+2
+%9,OrchardCore.Media.Events.MediaDeletedContext*
+
+pathstring¦
+£
+’
+‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStore.csM M(
+%12bool"7OrchardCore.Media.Events.MediaDeletedContext.Result.set*4
+2
+%9,OrchardCore.Media.Events.MediaDeletedContext*
+
+resultbool”
+‘
+’
+‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStore.csJ N(>
+deletedContext,OrchardCore.Media.Events.MediaDeletedContext"__id*4
+2
+%9,OrchardCore.Media.Events.MediaDeletedContextÆ
+Ã
+’
+‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStore.csP P(%0
+%13)System.Collections.Generic.IEnumerable<T>"__id*t*r.
+,OrchardCore.Media.Core.DefaultMediaFileStore"@
+_mediaEventHandlers)System.Collections.Generic.IEnumerable<T>²
+¯
+”
+‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStore.csPŽ P(•+
+%14$Microsoft.Extensions.Logging.ILogger"__id*c*a.
+,OrchardCore.Media.Core.DefaultMediaFileStore"/
+_logger$Microsoft.Extensions.Logging.ILoggeræ
+ã
+“
+‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStore.csP P(–"
+%15System.Threading.Tasks.Task"ÏOrchardCore.Modules.InvokeExtensions.InvokeAsync<TEvents, T1>(System.Collections.Generic.IEnumerable<TEvents>, System.Func<TEvents, T1, System.Threading.Tasks.Task>, T1, Microsoft.Extensions.Logging.ILogger)*("&
+$OrchardCore.Modules.InvokeExtensions*2
+0
+%13)System.Collections.Generic.IEnumerable<T>*
+""*@
+>
+deletedContext,OrchardCore.Media.Events.MediaDeletedContext*-
++
+%14$Microsoft.Extensions.Logging.ILogger"§
+’
+‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStore.csR R(
+
+resultbool*Å
+1’
+‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStore.csS	 S(	"ª
+’
+‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Media.Core\DefaultMediaFileStore.csS S(	
+implicit return:
+pathstringB0.
+,OrchardCore.Media.Core.DefaultMediaFileStore

@@ -1,0 +1,151 @@
+
+vOrchardCore.Users.Services.UserService.CreateUserAsync(OrchardCore.Users.IUser, string, System.Action<string, string>)ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csR! R(0"0*å
+0ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csT T(&Í
+Á
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csT T(&(
+newUserOrchardCore.Users.Models.User"__id*!
+
+userOrchardCore.Users.IUser*
+1
+2*ù
+1ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csV V(U—Œ
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csV V(V
+%0System.ArgumentException"System.ArgumentException™
+ß
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csV V(+
+
+%1void"<System.ArgumentException.ArgumentException(string?, string?)* 
+
+%0System.ArgumentException*
+Expected a User instance.*
+""*
+3*ã
+2ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csZ! Z(CÈ
+Ê
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csZ! Z(D
+
+%2bool""string.IsNullOrWhiteSpace(string?)*
+"
+string*
+
+passwordstring*
+4
+5*Í	
+4ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs[ [(5≈
+¬
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs[ [($6
+%60Microsoft.AspNetCore.Identity.UserManager<TUser>"__id*n*l(
+&OrchardCore.Users.Services.UserService"@
+_userManager0Microsoft.AspNetCore.Identity.UserManager<TUser>˘ˆ
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs[ [(6*
+%7$System.Threading.Tasks.Task<TResult>"CMicrosoft.AspNetCore.Identity.UserManager<TUser>.CreateAsync(TUser)*8
+6
+%60Microsoft.AspNetCore.Identity.UserManager<TUser>*!
+
+userOrchardCore.Users.IUser2CreateAsync(TUser)´
+®
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs[ [(6
+%4"__id*
+""Ÿ
+÷
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs[ [(62
+%3,Microsoft.AspNetCore.Identity.IdentityResult"__id*
+
+%4*
+6*ê
+
+5ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs\ \(?≈
+¬
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs\ \($6
+%80Microsoft.AspNetCore.Identity.UserManager<TUser>"__id*n*l(
+&OrchardCore.Users.Services.UserService"@
+_userManager0Microsoft.AspNetCore.Identity.UserManager<TUser>üú
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs\ \(@*
+%9$System.Threading.Tasks.Task<TResult>"KMicrosoft.AspNetCore.Identity.UserManager<TUser>.CreateAsync(TUser, string)*8
+6
+%80Microsoft.AspNetCore.Identity.UserManager<TUser>*!
+
+userOrchardCore.Users.IUser*
+
+passwordstring2CreateAsync(TUser, string)´
+®
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs\ \(@
+%5"__id*
+""Ÿ
+÷
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs\ \(@2
+%3,Microsoft.AspNetCore.Identity.IdentityResult"__id*
+
+%5*
+6*⁄
+6ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csZ ]()ì
+ê
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csZ \(@>
+identityResult,Microsoft.AspNetCore.Identity.IdentityResult"__id*4
+2
+%3,Microsoft.AspNetCore.Identity.IdentityResult¢
+ü
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs] ]()
+%10bool":Microsoft.AspNetCore.Identity.IdentityResult.Succeeded.get*@
+>
+identityResult,Microsoft.AspNetCore.Identity.IdentityResult*
+7
+8*¨	
+7ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs_ `(ƒ
+¡
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs_( _(=0
+%11)System.Collections.Generic.IEnumerable<T>"7Microsoft.AspNetCore.Identity.IdentityResult.Errors.get*@
+>
+identityResult,Microsoft.AspNetCore.Identity.IdentityResult¨
+©
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs_ _(T
+%12void"—OrchardCore.Users.Services.UserService.ProcessValidationErrors(System.Collections.Generic.IEnumerable<Microsoft.AspNetCore.Identity.IdentityError>, OrchardCore.Users.Models.User, System.Action<string, string>)**(
+&OrchardCore.Users.Services.UserService*2
+0
+%11)System.Collections.Generic.IEnumerable<T>**
+(
+newUserOrchardCore.Users.Models.User*&
+$
+reportErrorSystem.Action<T1, T2>"ú
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs` `(
+""*—
+8ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csc c("∑
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csc c(!
+
+userOrchardCore.Users.IUser*√
+3ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csd	 d(	"©
+ë
+ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csd d(	
+implicit return:
+userOrchardCore.Users.IUser:
+passwordstring:$
+reportErrorSystem.Action<T1, T2>B*(
+&OrchardCore.Users.Services.UserService

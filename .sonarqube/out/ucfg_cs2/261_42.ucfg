@@ -1,0 +1,166 @@
+
+JOrchardCore.ReCaptcha.Services.ReCaptchaClient.VerifyAsync(string, string)ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\Services\ReCaptchaClient.cs  (+"0*†
+0ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\Services\ReCaptchaClient.cs! !(7ˆ
+Û
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\Services\ReCaptchaClient.cs! !(8
+
+%0bool""string.IsNullOrWhiteSpace(string?)*
+"
+string*
+
+responseTokenstring*
+1
+2*∆
+1ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\Services\ReCaptchaClient.cs# #("§
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\Services\ReCaptchaClient.cs# #(
+""*õ
+2ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\Services\ReCaptchaClient.cs& )(+èå
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\Services\ReCaptchaClient.cs&4 *(9
+%13System.Collections.Generic.Dictionary<TKey, TValue>"3System.Collections.Generic.Dictionary<TKey, TValue>™
+ß
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\Services\ReCaptchaClient.cs&8 &(R
+
+%2void"@System.Collections.Generic.Dictionary<TKey, TValue>.Dictionary()*;
+9
+%13System.Collections.Generic.Dictionary<TKey, TValue>Û
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\Services\ReCaptchaClient.cs& *(+
+%3%System.Net.Http.FormUrlEncodedContent"%System.Net.Http.FormUrlEncodedContent∂
+≥
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\Services\ReCaptchaClient.cs& &(3
+
+%4void"úSystem.Net.Http.FormUrlEncodedContent.FormUrlEncodedContent(System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<string, string>>)*-
++
+%3%System.Net.Http.FormUrlEncodedContent*;
+9
+%13System.Collections.Generic.Dictionary<TKey, TValue>Ü
+É
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\Services\ReCaptchaClient.cs& *(0
+content%System.Net.Http.FormUrlEncodedContent"__id*-
++
+%3%System.Net.Http.FormUrlEncodedContent*
+3*ß
+3ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\Services\ReCaptchaClient.cs:	 :(	*
+4
+5*“
+4ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\Services\ReCaptchaClient.cs- 2(.®
+•
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\Services\ReCaptchaClient.cs-% -(0 
+%5System.Net.Http.HttpClient"__id*_*]0
+.OrchardCore.ReCaptcha.Services.ReCaptchaClient")
+_httpClientSystem.Net.Http.HttpClient˛
+˚
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\Services\ReCaptchaClient.cs-% -(Q*
+%6$System.Threading.Tasks.Task<TResult>"ISystem.Net.Http.HttpClient.PostAsync(string, System.Net.Http.HttpContent)*"
+ 
+%5System.Net.Http.HttpClient*
+
+siteverify*2
+0
+content%System.Net.Http.FormUrlEncodedContentﬁ
+€
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\Services\ReCaptchaClient.cs- -(Q/
+response#System.Net.Http.HttpResponseMessage"__id*
+""º
+π
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\Services\ReCaptchaClient.cs. .(2)
+%7#System.Net.Http.HttpResponseMessage"=System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()*1
+/
+response#System.Net.Http.HttpResponseMessage¶
+£
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\Services\ReCaptchaClient.cs/) /(9!
+%8System.Net.Http.HttpContent"/System.Net.Http.HttpResponseMessage.Content.get*1
+/
+response#System.Net.Http.HttpResponseMessage°
+û
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\Services\ReCaptchaClient.cs/) /(M*
+%9$System.Threading.Tasks.Task<TResult>"/System.Net.Http.HttpContent.ReadAsStringAsync()*#
+!
+%8System.Net.Http.HttpContent≈
+¬
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\Services\ReCaptchaClient.cs/ /(M
+responseJsonstring"__id*
+""¨
+©
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\Services\ReCaptchaClient.cs0$ 0(?#
+%10Newtonsoft.Json.Linq.JObject"*Newtonsoft.Json.Linq.JObject.Parse(string)* "
+Newtonsoft.Json.Linq.JObject*
+
+responseJsonstring˚
+¯
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\Services\ReCaptchaClient.cs0 0(?-
+responseModelNewtonsoft.Json.Linq.JObject"__id*%
+#
+%10Newtonsoft.Json.Linq.JObjectã
+à
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\Services\ReCaptchaClient.cs2 2(/"
+%11Newtonsoft.Json.Linq.JToken"__mapGet*/
+-
+responseModelNewtonsoft.Json.Linq.JObject*	
+successÊ
+„
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\Services\ReCaptchaClient.cs2 2(=
+%12bool"mNewtonsoft.Json.Linq.Extensions.Value<U>(System.Collections.Generic.IEnumerable<Newtonsoft.Json.Linq.JToken>)*#"!
+Newtonsoft.Json.Linq.Extensions*$
+"
+%11Newtonsoft.Json.Linq.JToken"´
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\Services\ReCaptchaClient.cs2 2(>
+
+%12bool*‡
+5ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\Services\ReCaptchaClient.cs6 6(Pπ
+∂
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\Services\ReCaptchaClient.cs6 6(+
+%13$Microsoft.Extensions.Logging.ILogger"__id*e*c0
+.OrchardCore.ReCaptcha.Services.ReCaptchaClient"/
+_logger$Microsoft.Extensions.Logging.ILogger˝
+˙
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\Services\ReCaptchaClient.cs6 6(Q
+%14void"áMicrosoft.Extensions.Logging.LoggerExtensions.LogError(Microsoft.Extensions.Logging.ILogger, System.Exception, string, params object[])*1"/
+-Microsoft.Extensions.Logging.LoggerExtensions*-
++
+%13$Microsoft.Extensions.Logging.ILogger*+
+)
+e$System.Net.Http.HttpRequestException*.,
+*Could not contact Google to verify captcha*
+""*
+6*∆
+6ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\Services\ReCaptchaClient.cs9 9("§
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\Services\ReCaptchaClient.cs9 9(
+""*”
+7ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\Services\ReCaptchaClient.cs:	 :(	"±
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ReCaptcha.Core\Services\ReCaptchaClient.cs: :(	
+implicit return:
+responseTokenstring:
+	secretKeystringB20
+.OrchardCore.ReCaptcha.Services.ReCaptchaClient

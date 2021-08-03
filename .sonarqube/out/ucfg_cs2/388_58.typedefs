@@ -1,0 +1,20 @@
+∫
+%OrchardCore.Lucene.LuceneIndexManagerobjectÊ
+›LuceneIndexManager(OrchardCore.Modules.IClock, Microsoft.Extensions.Options.IOptions<OrchardCore.Environment.Shell.ShellOptions>, OrchardCore.Environment.Shell.ShellSettings, Microsoft.Extensions.Logging.ILogger<OrchardCore.Lucene.LuceneIndexManager>, OrchardCore.Lucene.Services.LuceneAnalyzerManager, OrchardCore.Lucene.LuceneIndexSettingsService)ÉOrchardCore.Lucene.LuceneIndexManager.LuceneIndexManager(OrchardCore.Modules.IClock, Microsoft.Extensions.Options.IOptions<OrchardCore.Environment.Shell.ShellOptions>, OrchardCore.Environment.Shell.ShellSettings, Microsoft.Extensions.Logging.ILogger<OrchardCore.Lucene.LuceneIndexManager>, OrchardCore.Lucene.Services.LuceneAnalyzerManager, OrchardCore.Lucene.LuceneIndexSettingsService)Z
+CreateIndexAsync(string)>OrchardCore.Lucene.LuceneIndexManager.CreateIndexAsync(string)¬
+LDeleteDocumentsAsync(string, System.Collections.Generic.IEnumerable<string>)rOrchardCore.Lucene.LuceneIndexManager.DeleteDocumentsAsync(string, System.Collections.Generic.IEnumerable<string>)P
+DeleteIndex(string)9OrchardCore.Lucene.LuceneIndexManager.DeleteIndex(string)F
+Exists(string)4OrchardCore.Lucene.LuceneIndexManager.Exists(string)˘
+gStoreDocumentsAsync(string, System.Collections.Generic.IEnumerable<OrchardCore.Indexing.DocumentIndex>)çOrchardCore.Lucene.LuceneIndexManager.StoreDocumentsAsync(string, System.Collections.Generic.IEnumerable<OrchardCore.Indexing.DocumentIndex>)Á
+^SearchAsync(string, System.Func<Lucene.Net.Search.IndexSearcher, System.Threading.Tasks.Task>)ÑOrchardCore.Lucene.LuceneIndexManager.SearchAsync(string, System.Func<Lucene.Net.Search.IndexSearcher, System.Threading.Tasks.Task>)ú
+9Read(string, System.Action<Lucene.Net.Index.IndexReader>)_OrchardCore.Lucene.LuceneIndexManager.Read(string, System.Action<Lucene.Net.Index.IndexReader>)H
+GetTimestamps()5OrchardCore.Lucene.LuceneIndexManager.GetTimestamps()ö
+8CreateLuceneDocument(OrchardCore.Indexing.DocumentIndex)^OrchardCore.Lucene.LuceneIndexManager.CreateLuceneDocument(OrchardCore.Indexing.DocumentIndex)X
+CreateDirectory(string)=OrchardCore.Lucene.LuceneIndexManager.CreateDirectory(string)¥
+EWriteAsync(string, System.Action<Lucene.Net.Index.IndexWriter>, bool)kOrchardCore.Lucene.LuceneIndexManager.WriteAsync(string, System.Action<Lucene.Net.Index.IndexWriter>, bool)L
+GetReader(string)7OrchardCore.Lucene.LuceneIndexManager.GetReader(string)Z
+GetFilename(string, int)>OrchardCore.Lucene.LuceneIndexManager.GetFilename(string, int)N
+FreeReaderWriter()8OrchardCore.Lucene.LuceneIndexManager.FreeReaderWriter()Z
+FreeReaderWriter(string)>OrchardCore.Lucene.LuceneIndexManager.FreeReaderWriter(string)<
+	Dispose()/OrchardCore.Lucene.LuceneIndexManager.Dispose()T
+~LuceneIndexManager();OrchardCore.Lucene.LuceneIndexManager.~LuceneIndexManager()

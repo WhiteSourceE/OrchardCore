@@ -1,0 +1,799 @@
+
+èOrchardCore.DynamicCache.Liquid.CacheStatement.WriteToAsync(System.IO.TextWriter, System.Text.Encodings.Web.TextEncoder, Fluid.TemplateContext)ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs4 (@"0*Ì
+0ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs (R“
+œ
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs (&9
+%03System.Collections.Generic.Dictionary<TKey, TValue>"__id*j*h
+ 
+contextFluid.TemplateContext"D
+AmbientValues3System.Collections.Generic.Dictionary<TKey, TValue>Ë
+Â
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs (S
+
+%1bool"QSystem.Collections.Generic.Dictionary<TKey, TValue>.TryGetValue(TKey, out TValue)*;
+9
+%03System.Collections.Generic.Dictionary<TKey, TValue>*
+
+Services*
+
+servicesObjobject*
+1
+2* 
+1ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs ([ﬂ‹
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs (\
+%2System.ArgumentException"System.ArgumentExceptionª
+∏
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs (+
+
+%3void"3System.ArgumentException.ArgumentException(string?)* 
+
+%2System.ArgumentException*1/
+-Services missing while invoking 'cache' block*
+3*ô'
+2ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs" *($“
+œ
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs" "(:
+%4object"__id*
+
+servicesObjobject‡
+›
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs" "(:#
+servicesSystem.IServiceProvider"__id*
+
+%4object¬
+ø
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs$ $(J3
+%5-OrchardCore.DynamicCache.IDynamicCacheService"pMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService<T>(System.IServiceProvider)*M"K
+IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*%
+#
+servicesSystem.IServiceProvider°
+û
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs$ $(J=
+dynamicCache-OrchardCore.DynamicCache.IDynamicCacheService"__id*5
+3
+%5-OrchardCore.DynamicCache.IDynamicCacheService≈
+¬
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs%$ %(M6
+%60OrchardCore.Environment.Cache.ICacheScopeManager"pMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService<T>(System.IServiceProvider)*M"K
+IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*%
+#
+servicesSystem.IServiceProvider¨
+©
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs% %(ME
+cacheScopeManager0OrchardCore.Environment.Cache.ICacheScopeManager"__id*8
+6
+%60OrchardCore.Environment.Cache.ICacheScopeManager¿
+Ω
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs&  &(E1
+%7+Microsoft.Extensions.Logging.ILoggerFactory"pMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService<T>(System.IServiceProvider)*M"K
+IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*%
+#
+servicesSystem.IServiceProviderû
+õ
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs& &(E<
+loggerFactory+Microsoft.Extensions.Logging.ILoggerFactory"__id*3
+1
+%7+Microsoft.Extensions.Logging.ILoggerFactoryÕ
+ 
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs' '(E9
+%83Microsoft.Extensions.Logging.ILogger<TCategoryName>"qMicrosoft.Extensions.Logging.LoggerFactoryExtensions.CreateLogger<T>(Microsoft.Extensions.Logging.ILoggerFactory)*8"6
+4Microsoft.Extensions.Logging.LoggerFactoryExtensions*>
+<
+loggerFactory+Microsoft.Extensions.Logging.ILoggerFactoryß
+§
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs' '(E=
+logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>"__id*;
+9
+%83Microsoft.Extensions.Logging.ILogger<TCategoryName>Ã
+…
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs( ((T5
+%9/Microsoft.Extensions.Options.IOptions<TOptions>"xMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<T>(System.IServiceProvider)*M"K
+IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*%
+#
+servicesSystem.IServiceProvider◊‘
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs( ((Z1
+%10*OrchardCore.Environment.Cache.CacheOptions"9Microsoft.Extensions.Options.IOptions<TOptions>.Value.get*7
+5
+%9/Microsoft.Extensions.Options.IOptions<TOptions>2	Value.getú
+ô
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs( ((Z:
+cacheOptions*OrchardCore.Environment.Cache.CacheOptions"__id*3
+1
+%10*OrchardCore.Environment.Cache.CacheOptions´
+®
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs* *($
+%11bool""object.operator ==(object, object)*
+"
+object*?
+=
+dynamicCache-OrchardCore.DynamicCache.IDynamicCacheService*
+""*
+4
+5*„
+5ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs*( *(A≥
+∞
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs*( *(A
+%12bool""object.operator ==(object, object)*
+"
+object*G
+E
+cacheScopeManager0OrchardCore.Environment.Cache.ICacheScopeManager*
+""*
+4
+6*Ï
+4ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs, 2((º
+π
+†
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs, .(œ
+%13void"{Microsoft.Extensions.Logging.LoggerExtensions.LogInformation(Microsoft.Extensions.Logging.ILogger, string, params object[])*1"/
+-Microsoft.Extensions.Logging.LoggerExtensions*?
+=
+logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>*çä
+áLiquid cache block entered without an available IDynamicCacheService or ICacheScopeManager.
+                                        The contents of the cache block will not be cached.
+                                        To enable caching, make sure that a feature that contains an implementation of IDynamicCacheService and ICacheScopeManager is enabled (for example, 'Dynamic Cache').*
+""Â
+‚
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs0. 0(W+
+%14$System.Threading.Tasks.Task<TResult>"ÑOrchardCore.DynamicCache.Liquid.CacheStatement.EvaluateStatementsAsync(System.Text.Encodings.Web.TextEncoder, Fluid.TemplateContext)*20
+.OrchardCore.DynamicCache.Liquid.CacheStatement*2
+0
+encoder%System.Text.Encodings.Web.TextEncoder*"
+ 
+contextFluid.TemplateContext≤Ø
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs0 0(X"
+%15System.Threading.Tasks.Task"(System.IO.TextWriter.WriteAsync(string?)* 
+
+writerSystem.IO.TextWriter*
+""2WriteAsync(string?)∫
+∑
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs2 2((
+%16"__id*
+"""´
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs2 2()
+
+%16*‹B
+6ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs5 @(BŒ
+À
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs54 5(>1
+%17*OrchardCore.Liquid.Ast.ArgumentsExpression"__id*n*l0
+.OrchardCore.DynamicCache.Liquid.CacheStatement"8
+
+_arguments*OrchardCore.Liquid.Ast.ArgumentsExpressionß§
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs54 5(U0
+%18)System.Threading.Tasks.ValueTask<TResult>"OOrchardCore.Liquid.Ast.ArgumentsExpression.EvaluateAsync(Fluid.TemplateContext)*3
+1
+%17*OrchardCore.Liquid.Ast.ArgumentsExpression*"
+ 
+contextFluid.TemplateContext2$EvaluateAsync(Fluid.TemplateContext)∫
+∑
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs5 5(f
+%19"__id*
+""ÿ
+’
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs5 5(f"
+	argumentsFluid.FilterArguments"__id*
+
+%19é
+ã
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs6 6(*
+%20Fluid.Values.FluidValue"Fluid.FilterArguments.At(int)*$
+"
+	argumentsFluid.FilterArguments*2 ˇ
+¸
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs6 6(:
+%21string"'Fluid.Values.FluidValue.ToStringValue()* 
+
+%20Fluid.Values.FluidValue–
+Õ
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs6 6(:
+cacheKeystring"__id*
+
+%21string†
+ù
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs7 7(/
+%22Fluid.Values.FluidValue"&Fluid.FilterArguments.this[string].get*$
+"
+	argumentsFluid.FilterArguments*	
+vary_byˇ
+¸
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs7 7(?
+%23string"'Fluid.Values.FluidValue.ToStringValue()* 
+
+%22Fluid.Values.FluidValue–
+Õ
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs7 7(?
+contextsstring"__id*
+
+%23string•
+¢
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs8 8(0
+%24Fluid.Values.FluidValue"&Fluid.FilterArguments.this[string].get*$
+"
+	argumentsFluid.FilterArguments*
+dependenciesˇ
+¸
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs8 8(@
+%25string"'Fluid.Values.FluidValue.ToStringValue()* 
+
+%24Fluid.Values.FluidValueÃ
+…
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs8 8(@
+tagsstring"__id*
+
+%25string¶
+£
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs9! 9(;
+%26Fluid.Values.FluidValue"&Fluid.FilterArguments.this[string].get*$
+"
+	argumentsFluid.FilterArguments*
+expires_afterˇ
+¸
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs9! 9(K
+%27string"'Fluid.Values.FluidValue.ToStringValue()* 
+
+%26Fluid.Values.FluidValue÷
+”
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs9 9(K
+durationStringstring"__id*
+
+%27string®
+•
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs:( :(D
+%28Fluid.Values.FluidValue"&Fluid.FilterArguments.this[string].get*$
+"
+	argumentsFluid.FilterArguments*
+expires_slidingˇ
+¸
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs:( :(T
+%29string"'Fluid.Values.FluidValue.ToStringValue()* 
+
+%28Fluid.Values.FluidValue›
+⁄
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs: :(T
+slidingDurationStringstring"__id*
+
+%29stringÑÅ
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs< <(91
+%30*OrchardCore.Environment.Cache.CacheContext"*OrchardCore.Environment.Cache.CacheContextæ
+ª
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs<# <(/
+%31void"?OrchardCore.Environment.Cache.CacheContext.CacheContext(string)*3
+1
+%30*OrchardCore.Environment.Cache.CacheContext*
+
+cacheKeystringÜ
+É
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs=+ =(5
+%32char[]"__id*J*H0
+.OrchardCore.DynamicCache.Liquid.CacheStatement"
+
+SplitCharschar[]∫
+∑
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs=7 =(\
+%33"__id*
+""ò
+ï
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs= =(]
+%34string[]"0string.Split(char[]?, System.StringSplitOptions)*
+
+contextsstring*
+
+%32char[]*
+
+%33Ë
+Â
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs< =(^1
+%35*OrchardCore.Environment.Cache.CacheContext"FOrchardCore.Environment.Cache.CacheContext.AddContext(params string[])*3
+1
+%30*OrchardCore.Environment.Cache.CacheContext*
+
+%34string[]Ü
+É
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs># >(-
+%36char[]"__id*J*H0
+.OrchardCore.DynamicCache.Liquid.CacheStatement"
+
+SplitCharschar[]∫
+∑
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs>/ >(T
+%37"__id*
+""î
+ë
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs> >(U
+%38string[]"0string.Split(char[]?, System.StringSplitOptions)*
+
+tagsstring*
+
+%36char[]*
+
+%37‰
+·
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs< >(V1
+%39*OrchardCore.Environment.Cache.CacheContext"BOrchardCore.Environment.Cache.CacheContext.AddTag(params string[])*3
+1
+%35*OrchardCore.Environment.Cache.CacheContext*
+
+%38string[]ú
+ô
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs< >(V:
+cacheContext*OrchardCore.Environment.Cache.CacheContext"__id*3
+1
+%39*OrchardCore.Environment.Cache.CacheContext∫
+∑
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs@ @(C
+%40bool"6System.TimeSpan.TryParse(string?, out System.TimeSpan)*"
+System.TimeSpan*
+
+durationStringstring*
+
+durationSystem.TimeSpan*
+7
+8*Ø
+7ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.csB B(5Ç
+ˇ
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.csB B(61
+%41*OrchardCore.Environment.Cache.CacheContext"KOrchardCore.Environment.Cache.CacheContext.WithExpiryAfter(System.TimeSpan)*<
+:
+cacheContext*OrchardCore.Environment.Cache.CacheContext*
+
+durationSystem.TimeSpan*
+8*˘
+8ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.csE E(P»
+≈
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.csE E(Q
+%42bool"6System.TimeSpan.TryParse(string?, out System.TimeSpan)*"
+System.TimeSpan*!
+
+slidingDurationStringstring*$
+"
+slidingDurationSystem.TimeSpan*
+9
+10*π
+9ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.csG G(>ã
+à
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.csG G(?1
+%43*OrchardCore.Environment.Cache.CacheContext"MOrchardCore.Environment.Cache.CacheContext.WithExpirySliding(System.TimeSpan)*<
+:
+cacheContext*OrchardCore.Environment.Cache.CacheContext*$
+"
+slidingDurationSystem.TimeSpan*
+10*á	
+10ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.csJ K(#Å˛
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.csJ$ J(R+
+%44$System.Threading.Tasks.Task<TResult>"mOrchardCore.DynamicCache.IDynamicCacheService.GetCachedValueAsync(OrchardCore.Environment.Cache.CacheContext)*?
+=
+dynamicCache-OrchardCore.DynamicCache.IDynamicCacheService*<
+:
+cacheContext*OrchardCore.Environment.Cache.CacheContext2?GetCachedValueAsync(OrchardCore.Environment.Cache.CacheContext) 
+«
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.csJ J(R
+cacheResultstring"__id*
+""É
+Ä
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.csK K(#
+%45bool""string.operator !=(string, string)*
+"
+string*
+
+cacheResultstring*
+""*
+11
+12*◊
+11ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.csM O((√¿
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.csM M(4"
+%46System.Threading.Tasks.Task"(System.IO.TextWriter.WriteAsync(string?)* 
+
+writerSystem.IO.TextWriter*
+
+cacheResultstring2WriteAsync(string?)∫
+∑
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.csO O((
+%47"__id*
+"""´
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.csO O()
+
+%47*â
+12ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.csR S(⁄◊
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.csR R(6
+%48void"gOrchardCore.Environment.Cache.ICacheScopeManager.EnterScope(OrchardCore.Environment.Cache.CacheContext)*G
+E
+cacheScopeManager0OrchardCore.Environment.Cache.ICacheScopeManager*<
+:
+cacheContext*OrchardCore.Environment.Cache.CacheContext26EnterScope(OrchardCore.Environment.Cache.CacheContext)*
+13*›
+13ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.csW W(HÂ
+‚
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.csW  W(I+
+%49$System.Threading.Tasks.Task<TResult>"ÑOrchardCore.DynamicCache.Liquid.CacheStatement.EvaluateStatementsAsync(System.Text.Encodings.Web.TextEncoder, Fluid.TemplateContext)*20
+.OrchardCore.DynamicCache.Liquid.CacheStatement*2
+0
+encoder%System.Text.Encodings.Web.TextEncoder*"
+ 
+contextFluid.TemplateContext∆
+√
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.csW W(I
+contentstring"__id*
+""*
+14*¯
+14ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs[ [(-∆√
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs[ [(-
+%50void"<OrchardCore.Environment.Cache.ICacheScopeManager.ExitScope()*G
+E
+cacheScopeManager0OrchardCore.Environment.Cache.ICacheScopeManager2ExitScope()*
+15
+3*›
+15ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs^ ^(&™
+ß
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cs^ ^(&
+%51bool"8OrchardCore.Environment.Cache.CacheOptions.DebugMode.get*<
+:
+cacheOptions*OrchardCore.Environment.Cache.CacheOptions*
+16
+17*áP
+16ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.csa p(1‹Ÿ
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.csa# a(5
+%52System.IO.StringWriter"System.IO.StringWriter˙
+˜
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.csa' a(3
+%53void"%System.IO.StringWriter.StringWriter()*
+
+%52System.IO.StringWriterÙ
+Ò
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.csa a(5&
+debugContentSystem.IO.StringWriter"__id*
+
+%52System.IO.StringWriterãà
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.csb b((
+%54void" System.IO.TextWriter.WriteLine()*(
+&
+debugContentSystem.IO.StringWriter2WriteLine()™
+ß
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.csc< c(P
+%55string"6OrchardCore.Environment.Cache.CacheContext.CacheId.get*<
+:
+cacheContext*OrchardCore.Environment.Cache.CacheContext·
+ﬁ
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cscT c(b
+%56System.Guid"System.Guid.NewGuid()*"
+System.Guid◊
+‘
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.csc' c(e
+%57string"__concat*
+""*
+
+%55string◊
+‘
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.csc' c(e
+%58string"__concat*
+
+%57string*
+""Â
+‚
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.csc' c(e
+%59string"__concat*
+
+%58string*
+
+%56System.Guid◊
+‘
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.csc' c(e
+%60string"__concat*
+
+%59string*
+""™ß
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.csc c(f
+%61void"'System.IO.TextWriter.WriteLine(string?)*(
+&
+debugContentSystem.IO.StringWriter*
+
+%60string2WriteLine(string?)Œ
+À
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.csdN d(c0
+%62)System.Collections.Generic.ICollection<T>"7OrchardCore.Environment.Cache.CacheContext.Contexts.get*<
+:
+cacheContext*OrchardCore.Environment.Cache.CacheContext√
+¿
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.csd< d(d
+%63string"Estring.Join(string?, System.Collections.Generic.IEnumerable<string?>)*
+"
+string*
+, *2
+0
+%62)System.Collections.Generic.ICollection<T>◊
+‘
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.csd' d(f
+%64string"__concat*
+""*
+
+%63string™ß
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.csd d(g
+%65void"'System.IO.TextWriter.WriteLine(string?)*(
+&
+debugContentSystem.IO.StringWriter*
+
+%64string2WriteLine(string?) 
+«
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cseN e(_0
+%66)System.Collections.Generic.IEnumerable<T>"3OrchardCore.Environment.Cache.CacheContext.Tags.get*<
+:
+cacheContext*OrchardCore.Environment.Cache.CacheContext√
+¿
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cse< e(`
+%67string"Estring.Join(string?, System.Collections.Generic.IEnumerable<string?>)*
+"
+string*
+, *2
+0
+%66)System.Collections.Generic.IEnumerable<T>◊
+‘
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cse' e(b
+%68string"__concat*
+""*
+
+%67string™ß
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.cse e(c
+%69void"'System.IO.TextWriter.WriteLine(string?)*(
+&
+debugContentSystem.IO.StringWriter*
+
+%68string2WriteLine(string?)∏
+µ
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.csf< f(R
+%70System.Nullable<T>"8OrchardCore.Environment.Cache.CacheContext.ExpiresOn.get*<
+:
+cacheContext*OrchardCore.Environment.Cache.CacheContextÔ
+Ï
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.csf' f(T
+%71System.Nullable<T>"__concat*
+""*
+
+%70System.Nullable<T>∂≥
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.csf f(U
+%72void"'System.IO.TextWriter.WriteLine(string?)*(
+&
+debugContentSystem.IO.StringWriter*
+
+%71System.Nullable<T>2WriteLine(string?)ª
+∏
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.csg< g(U
+%73System.Nullable<T>";OrchardCore.Environment.Cache.CacheContext.ExpiresAfter.get*<
+:
+cacheContext*OrchardCore.Environment.Cache.CacheContextÔ
+Ï
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.csg' g(W
+%74System.Nullable<T>"__concat*
+""*
+
+%73System.Nullable<T>∂≥
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.csg g(X
+%75void"'System.IO.TextWriter.WriteLine(string?)*(
+&
+debugContentSystem.IO.StringWriter*
+
+%74System.Nullable<T>2WriteLine(string?)Ω
+∫
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.csh< h(W
+%76System.Nullable<T>"=OrchardCore.Environment.Cache.CacheContext.ExpiresSliding.get*<
+:
+cacheContext*OrchardCore.Environment.Cache.CacheContextÔ
+Ï
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.csh' h(Y
+%77System.Nullable<T>"__concat*
+""*
+
+%76System.Nullable<T>∂≥
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.csh h(Z
+%78void"'System.IO.TextWriter.WriteLine(string?)*(
+&
+debugContentSystem.IO.StringWriter*
+
+%77System.Nullable<T>2WriteLine(string?)¢ü
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.csi i(-
+%79void"'System.IO.TextWriter.WriteLine(string?)*(
+&
+debugContentSystem.IO.StringWriter*
+-->2WriteLine(string?)Æ´
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.csk k(/
+%80void"'System.IO.TextWriter.WriteLine(string?)*(
+&
+debugContentSystem.IO.StringWriter*
+
+contentstring2WriteLine(string?)ãà
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.csm m((
+%81void" System.IO.TextWriter.WriteLine()*(
+&
+debugContentSystem.IO.StringWriter2WriteLine()™
+ß
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.csn@ n(T
+%82string"6OrchardCore.Environment.Cache.CacheContext.CacheId.get*<
+:
+cacheContext*OrchardCore.Environment.Cache.CacheContext◊
+‘
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.csn' n(Z
+%83string"__concat*
+""*
+
+%82string◊
+‘
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.csn' n(Z
+%84string"__concat*
+
+%83string*
+""™ß
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.csn n([
+%85void"'System.IO.TextWriter.WriteLine(string?)*(
+&
+debugContentSystem.IO.StringWriter*
+
+%84string2WriteLine(string?)çä
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.csp p(1
+%86string"!System.IO.StringWriter.ToString()*(
+&
+debugContentSystem.IO.StringWriter2
+ToString()œ
+Ã
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.csp p(1
+contentstring"__id*
+
+%86string*
+17*Û
+
+17ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.css w($ùö
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.css s(I"
+%87System.Threading.Tasks.Task"uOrchardCore.DynamicCache.IDynamicCacheService.SetCachedValueAsync(OrchardCore.Environment.Cache.CacheContext, string)*?
+=
+dynamicCache-OrchardCore.DynamicCache.IDynamicCacheService*<
+:
+cacheContext*OrchardCore.Environment.Cache.CacheContext*
+
+contentstring2GSetCachedValueAsync(OrchardCore.Environment.Cache.CacheContext, string)øº
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.csu u(,"
+%88System.Threading.Tasks.Task"(System.IO.TextWriter.WriteAsync(string?)* 
+
+writerSystem.IO.TextWriter*
+
+contentstring2WriteAsync(string?)∫
+∑
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.csw w($
+%89"__id*
+"""´
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.csw w(%
+
+%89*ﬂ
+3ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.csx	 x(	"∑
+ü
+îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Cache\CacheStatement.csx x(	
+implicit return:
+writerSystem.IO.TextWriter:0
+encoder%System.Text.Encodings.Web.TextEncoder: 
+contextFluid.TemplateContextB20
+.OrchardCore.DynamicCache.Liquid.CacheStatement

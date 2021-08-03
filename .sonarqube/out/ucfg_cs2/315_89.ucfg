@@ -1,0 +1,101 @@
+
+eOrchardCore.Roles.Services.RoleService.GetRoleClaimsAsync(string, System.Threading.CancellationToken)”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleService.cs. (@"0*ˆ
+0”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleService.cs ()ã
+à
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleService.cs (*
+
+%0bool"string.IsNullOrEmpty(string?)*
+"
+string*
+
+rolestring*
+1
+2*³
+1”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleService.cs (bÔÑ
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleService.cs (c
+%1System.ArgumentException"System.ArgumentExceptionº
+·
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleService.cs (+
+
+%2void"<System.ArgumentException.ArgumentException(string?, string?)* 
+
+%1System.ArgumentException**(
+&The role name cannot be null or empty.*
+""*
+3*¿
+
+2”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleService.cs (È
+Å
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleService.cs (+6
+%30Microsoft.AspNetCore.Identity.RoleManager<TRole>"__id*n*l(
+&OrchardCore.Roles.Services.RoleService"@
+_roleManager0Microsoft.AspNetCore.Identity.RoleManager<TRole>õò
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleService.cs (A*
+%4$System.Threading.Tasks.Task<TResult>"HMicrosoft.AspNetCore.Identity.RoleManager<TRole>.FindByNameAsync(string)*8
+6
+%30Microsoft.AspNetCore.Identity.RoleManager<TRole>*
+
+rolestring2FindByNameAsync(string)Î
+Ë
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleService.cs (A$
+entityOrchardCore.Security.IRole"__id*
+""†
+ƒ
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleService.cs (
+
+%5bool""object.operator ==(object, object)*
+"
+object*&
+$
+entityOrchardCore.Security.IRole*
+""*
+4
+5*Ê
+4”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleService.cs   (+ë
+è
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleService.cs   (+$
+%6System.Security.Claims.Claim[]"System.Array.Empty<T>()*"
+System.Array"¿
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleService.cs   (,&
+$
+%6System.Security.Claims.Claim[]*‘
+5”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleService.cs# #(;È
+Å
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleService.cs# #(%6
+%70Microsoft.AspNetCore.Identity.RoleManager<TRole>"__id*n*l(
+&OrchardCore.Roles.Services.RoleService"@
+_roleManager0Microsoft.AspNetCore.Identity.RoleManager<TRole>‡„
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleService.cs# #(<*
+%8$System.Threading.Tasks.Task<TResult>"FMicrosoft.AspNetCore.Identity.RoleManager<TRole>.GetClaimsAsync(TRole)*8
+6
+%70Microsoft.AspNetCore.Identity.RoleManager<TRole>*&
+$
+entityOrchardCore.Security.IRole2GetClaimsAsync(TRole)"Ÿ
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleService.cs# #(=
+""*É
+3”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleService.cs$	 $(	"¬
+”
+‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleService.cs$ $(	
+implicit return:
+rolestring:7
+cancellationToken"System.Threading.CancellationTokenB*(
+&OrchardCore.Roles.Services.RoleService

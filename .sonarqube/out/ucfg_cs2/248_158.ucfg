@@ -1,0 +1,180 @@
+
+ÕOrchardCore.ContentManagement.DefaultContentManager.RemovePublishedVersionAsync(OrchardCore.ContentManagement.ContentItem, System.Collections.Generic.IEnumerable<OrchardCore.ContentManagement.ContentItem>)õ
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\DefaultContentManager.csÈ È(6"0*“
+0õ
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\DefaultContentManager.csÎ Ï((¶
+£
+õ
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\DefaultContentManager.csÏ Ï((
+
+%0bool""object.operator ==(object, object)*
+"
+object*?
+=
+evictionVersions)System.Collections.Generic.IEnumerable<T>*
+""*
+1
+2*≈
+1õ
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\DefaultContentManager.csÓ Ô([ñ
+ì
+õ
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\DefaultContentManager.csÓ) Ó(1
+%1YesSql.ISession"__id*V*T5
+3OrchardCore.ContentManagement.DefaultContentManager"
+_sessionYesSql.ISessionŒ
+À
+õ
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\DefaultContentManager.csÓ) Ó(X
+%2YesSql.IQuery<T, TIndex>"FYesSql.QueryExtensions.Query<T, TIndex>(YesSql.ISession, bool, string)*"
+YesSql.QueryExtensions*
+
+%1YesSql.ISession*
+""*
+""êç
+õ
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\DefaultContentManager.csÓ) Ô(\
+%3YesSql.IQuery<T, TIndex>"]YesSql.IQuery<T, TIndex>.Where(System.Linq.Expressions.Expression<System.Func<TIndex, bool>>)* 
+
+%2YesSql.IQuery<T, TIndex>*
+""2DWhere(System.Linq.Expressions.Expression<System.Func<TIndex, bool>>)Æ´
+õ
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\DefaultContentManager.csÓ) (**
+%4$System.Threading.Tasks.Task<TResult>"&YesSql.IQuery<T>.FirstOrDefaultAsync()* 
+
+%3YesSql.IQuery<T, TIndex>2FirstOrDefaultAsync()Ó
+Î
+õ
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\DefaultContentManager.csÓ (*=
+publishedVersion)OrchardCore.ContentManagement.ContentItem"__id*
+""*
+3*˘
+2õ
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\DefaultContentManager.csÙ Ù(S¥
+±
+õ
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\DefaultContentManager.csÙ# Ù(T/
+%5)OrchardCore.ContentManagement.ContentItem"{System.Linq.Enumerable.FirstOrDefault<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
+System.Linq.Enumerable*?
+=
+evictionVersions)System.Collections.Generic.IEnumerable<T>*
+""ô
+ñ
+õ
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\DefaultContentManager.csÙ Ù(T=
+publishedVersion)OrchardCore.ContentManagement.ContentItem"__id*1
+/
+%5)OrchardCore.ContentManagement.ContentItem*
+3*“
+3õ
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\DefaultContentManager.cs˜ ˜((¶
+£
+õ
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\DefaultContentManager.cs˜ ˜((
+
+%6bool""object.operator !=(object, object)*
+"
+object*?
+=
+publishedVersion)OrchardCore.ContentManagement.ContentItem*
+""*
+4
+5*°%
+4õ
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\DefaultContentManager.cs˘ Ä(~°û
+õ
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\DefaultContentManager.cs˘$ ˘(OA
+%7;OrchardCore.ContentManagement.Handlers.RemoveContentContext";OrchardCore.ContentManagement.Handlers.RemoveContentContext∫
+∑
+õ
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\DefaultContentManager.cs˘( ˘(<
+
+%8void"ÅOrchardCore.ContentManagement.Handlers.RemoveContentContext.RemoveContentContext(OrchardCore.ContentManagement.ContentItem, bool)*C
+A
+%7;OrchardCore.ContentManagement.Handlers.RemoveContentContext*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItem*
+""∫
+∑
+õ
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\DefaultContentManager.cs˘ ˘(OL
+removeContext;OrchardCore.ContentManagement.Handlers.RemoveContentContext"__id*C
+A
+%7;OrchardCore.ContentManagement.Handlers.RemoveContentContextÕ
+ 
+õ
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\DefaultContentManager.cs˚ ˚(/
+%9)System.Collections.Generic.IEnumerable<T>"@OrchardCore.ContentManagement.DefaultContentManager.Handlers.get*75
+3OrchardCore.ContentManagement.DefaultContentManager¿
+Ω
+õ
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\DefaultContentManager.cs˚p ˚(w+
+%10$Microsoft.Extensions.Logging.ILogger"__id*j*h5
+3OrchardCore.ContentManagement.DefaultContentManager"/
+_logger$Microsoft.Extensions.Logging.ILogger˚
+¯
+õ
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\DefaultContentManager.cs˚ ˚(x"
+%11System.Threading.Tasks.Task"œOrchardCore.Modules.InvokeExtensions.InvokeAsync<TEvents, T1>(System.Collections.Generic.IEnumerable<TEvents>, System.Func<TEvents, T1, System.Threading.Tasks.Task>, T1, Microsoft.Extensions.Logging.ILogger)*("&
+$OrchardCore.Modules.InvokeExtensions*1
+/
+%9)System.Collections.Generic.IEnumerable<T>*
+""*N
+L
+removeContext;OrchardCore.ContentManagement.Handlers.RemoveContentContext*-
++
+%10$Microsoft.Extensions.Logging.ILogger∞
+≠
+õ
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\DefaultContentManager.cs˝ ˝(2
+%12bool"7OrchardCore.ContentManagement.ContentItem.Published.set*?
+=
+publishedVersion)OrchardCore.ContentManagement.ContentItem*
+""ó
+î
+õ
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\DefaultContentManager.cs˛ ˛(
+%13YesSql.ISession"__id*V*T5
+3OrchardCore.ContentManagement.DefaultContentManager"
+_sessionYesSql.ISession·ﬁ
+õ
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\DefaultContentManager.cs˛ ˛(/
+%14void"*YesSql.ISession.Save(object, bool, string)*
+
+%13YesSql.ISession*?
+=
+publishedVersion)OrchardCore.ContentManagement.ContentItem*
+""*
+""2Save(object, bool, string)÷
+”
+õ
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\DefaultContentManager.csÄ Ä(&0
+%15)System.Collections.Generic.IEnumerable<T>"HOrchardCore.ContentManagement.DefaultContentManager.ReversedHandlers.get*75
+3OrchardCore.ContentManagement.DefaultContentManager¿
+Ω
+õ
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\DefaultContentManager.csÄw Ä(~+
+%16$Microsoft.Extensions.Logging.ILogger"__id*j*h5
+3OrchardCore.ContentManagement.DefaultContentManager"/
+_logger$Microsoft.Extensions.Logging.ILogger¸
+˘
+õ
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\DefaultContentManager.csÄ Ä("
+%17System.Threading.Tasks.Task"œOrchardCore.Modules.InvokeExtensions.InvokeAsync<TEvents, T1>(System.Collections.Generic.IEnumerable<TEvents>, System.Func<TEvents, T1, System.Threading.Tasks.Task>, T1, Microsoft.Extensions.Logging.ILogger)*("&
+$OrchardCore.Modules.InvokeExtensions*2
+0
+%15)System.Collections.Generic.IEnumerable<T>*
+""*N
+L
+removeContext;OrchardCore.ContentManagement.Handlers.RemoveContentContext*-
++
+%16$Microsoft.Extensions.Logging.ILogger*
+5*◊
+5õ
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\DefaultContentManager.csÇ	 Ç(	"≥
+õ
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\DefaultContentManager.csÇ Ç(	
+implicit return:8
+contentItem)OrchardCore.ContentManagement.ContentItem:=
+evictionVersions)System.Collections.Generic.IEnumerable<T>B75
+3OrchardCore.ContentManagement.DefaultContentManager

@@ -1,0 +1,97 @@
+
+wOrchardCore.DataProtection.Azure.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DataProtection.Azure\Startup.cs# #(."0*∆
+0ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DataProtection.Azure\Startup.cs% '(;Ì
+Í
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DataProtection.Azure\Startup.cs%# %(1E
+%0?OrchardCore.Environment.Shell.Configuration.IShellConfiguration"__id*Å**
+(OrchardCore.DataProtection.Azure.Startup"Q
+_configuration?OrchardCore.Environment.Shell.Configuration.IShellConfigurationÂ
+‚
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DataProtection.Azure\Startup.cs%# %(w
+%1string"}Microsoft.Extensions.Configuration.ConfigurationBinder.GetValue<T>(Microsoft.Extensions.Configuration.IConfiguration, string)*:"8
+6Microsoft.Extensions.Configuration.ConfigurationBinder*G
+E
+%0?OrchardCore.Environment.Shell.Configuration.IShellConfiguration*53
+1OrchardCore_DataProtection_Azure:ConnectionStringŒ
+À
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DataProtection.Azure\Startup.cs% %(w
+connectionStringstring"__id*
+
+%1stringˆ
+Û
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DataProtection.Azure\Startup.cs' '(<
+
+%2bool""string.IsNullOrWhiteSpace(string?)*
+"
+string*
+
+connectionStringstring*
+1
+2*•
+1ó
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DataProtection.Azure\Startup.cs) )(í•
+¢
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DataProtection.Azure\Startup.cs) )(,@
+%3:Microsoft.AspNetCore.DataProtection.IDataProtectionBuilder"°Microsoft.Extensions.DependencyInjection.DataProtectionServiceCollectionExtensions.AddDataProtection(Microsoft.Extensions.DependencyInjection.IServiceCollection)*V"T
+RMicrosoft.Extensions.DependencyInjection.DataProtectionServiceCollectionExtensions*I
+G
+services;Microsoft.Extensions.DependencyInjection.IServiceCollectionæ
+ª
+ó
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DataProtection.Azure\Startup.cs)] )(É
+%4string"EOrchardCore.DataProtection.Azure.Startup.GetBlobContainerName(string)*,*
+(OrchardCore.DataProtection.Azure.Startup*
+
+connectionStringstringí
+è
+ò
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DataProtection.Azure\Startup.cs)Ö )(í
+%5string"6OrchardCore.DataProtection.Azure.Startup.GetBlobName()*,*
+(OrchardCore.DataProtection.Azure.StartupÇ
+ˇ
+ó
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DataProtection.Azure\Startup.cs) )(ì@
+%6:Microsoft.AspNetCore.DataProtection.IDataProtectionBuilder"≈Microsoft.AspNetCore.DataProtection.AzureStorageBlobDataProtectionBuilderExtensions.PersistKeysToAzureBlobStorage(Microsoft.AspNetCore.DataProtection.IDataProtectionBuilder, string, string, string)*W"U
+SMicrosoft.AspNetCore.DataProtection.AzureStorageBlobDataProtectionBuilderExtensions*B
+@
+%3:Microsoft.AspNetCore.DataProtection.IDataProtectionBuilder*
+
+connectionStringstring*
+
+%4string*
+
+%5string*
+3*÷
+2ó
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DataProtection.Azure\Startup.cs- -(êØ
+¨
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DataProtection.Azure\Startup.cs- -(*
+%7$Microsoft.Extensions.Logging.ILogger"__id*_*]*
+(OrchardCore.DataProtection.Azure.Startup"/
+_logger$Microsoft.Extensions.Logging.ILoggerˇ
+¸
+ó
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DataProtection.Azure\Startup.cs- -(ë
+
+%8void"xMicrosoft.Extensions.Logging.LoggerExtensions.LogCritical(Microsoft.Extensions.Logging.ILogger, string, params object[])*1"/
+-Microsoft.Extensions.Logging.LoggerExtensions*,
+*
+%7$Microsoft.Extensions.Logging.ILogger*Ì
+ÍNo connection string was supplied for OrchardCore.DataProtection.Azure. Ensure that an application setting containing a valid Azure Storage connection string is available at `Modules:OrchardCore.DataProtection.Azure:ConnectionString`.*
+""*
+3*Õ
+3ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DataProtection.Azure\Startup.cs/	 /(	"Æ
+ñ
+ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.DataProtection.Azure\Startup.cs/ /(	
+implicit return:G
+services;Microsoft.Extensions.DependencyInjection.IServiceCollectionB,*
+(OrchardCore.DataProtection.Azure.Startup

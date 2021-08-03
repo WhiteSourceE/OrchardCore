@@ -1,0 +1,9 @@
+°
+¤D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Title\obj\Debug\net5.0\Razor\Views\TitlePart.cshtml.g.csutf-8¾
+²D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Title\obj\Debug\net5.0\Razor\Views\TitlePart.DisplayOption.cshtml.g.csutf-8µ
+©D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Title\obj\Debug\net5.0\Razor\Views\TitlePart.Edit.cshtml.g.csutf-8·
+«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Title\obj\Debug\net5.0\Razor\Views\TitlePart.Option.cshtml.g.csutf-8¸
+¬D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Title\obj\Debug\net5.0\Razor\Views\TitlePart.Summary.cshtml.g.csutf-8½
+±D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Title\obj\Debug\net5.0\Razor\Views\TitlePartSettings.Edit.cshtml.g.csutf-8³
+§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Title\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.csutf-8»
+¯D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Title\obj\Debug\net5.0\OrchardCore.Title.RazorTargetAssemblyInfo.csutf-8

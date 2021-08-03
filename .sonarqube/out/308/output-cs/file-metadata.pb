@@ -1,0 +1,7 @@
+Î
+ÂD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Microsoft.Authentication\obj\Debug\net5.0\Razor\Views\AzureADSettings.Edit.cshtml.g.csutf-8×
+ËD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Microsoft.Authentication\obj\Debug\net5.0\Razor\Views\MicrosoftAccountSettings.Edit.cshtml.g.csutf-8×
+ËD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Microsoft.Authentication\obj\Debug\net5.0\Razor\Views\NavigationItemText-azuread.Id.cshtml.g.csutf-8Ù
+ÍD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Microsoft.Authentication\obj\Debug\net5.0\Razor\Views\NavigationItemText-microsoft.Id.cshtml.g.csutf-8Æ
+ºD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Microsoft.Authentication\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.csutf-8á
+ÕD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Microsoft.Authentication\obj\Debug\net5.0\OrchardCore.Microsoft.Authentication.RazorTargetAssemblyInfo.csutf-8

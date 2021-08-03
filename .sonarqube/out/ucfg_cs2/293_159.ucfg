@@ -1,0 +1,104 @@
+
+:OrchardCore.Locking.LocalLock.GetOrCreateSemaphore(string)Ç
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.csH H(."0*¬
+0Ç
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.csJ J(≤
+Ø
+Ç
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.csJ J(9
+%03System.Collections.Generic.Dictionary<TKey, TValue>"__id*g*e
+OrchardCore.Locking.LocalLock"B
+_semaphores3System.Collections.Generic.Dictionary<TKey, TValue>*
+1*µ
+1Ç
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.csL L(B≤
+Ø
+Ç
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.csL L(9
+%13System.Collections.Generic.Dictionary<TKey, TValue>"__id*g*e
+OrchardCore.Locking.LocalLock"B
+_semaphores3System.Collections.Generic.Dictionary<TKey, TValue>Ì
+Í
+Ç
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.csL L(C
+
+%2bool"QSystem.Collections.Generic.Dictionary<TKey, TValue>.TryGetValue(TKey, out TValue)*;
+9
+%13System.Collections.Generic.Dictionary<TKey, TValue>*
+
+keystring*6
+4
+	semaphore'OrchardCore.Locking.LocalLock.Semaphore*
+2
+3*ë
+2Ç
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.csN N((Å
+˛
+Ç
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.csN N(&	
+%3int"4OrchardCore.Locking.LocalLock.Semaphore.RefCount.get*6
+4
+	semaphore'OrchardCore.Locking.LocalLock.Semaphore*
+4*„
+3Ç
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.csR S(0ŒÀ
+Ç
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.csR3 R(G$
+%4System.Threading.SemaphoreSlim"System.Threading.SemaphoreSlimı
+Ú
+Ç
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.csR7 R(D
+
+%5void"1System.Threading.SemaphoreSlim.SemaphoreSlim(int)*&
+$
+%4System.Threading.SemaphoreSlim*2‡›
+Ç
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.csR  R(H-
+%6'OrchardCore.Locking.LocalLock.Semaphore"'OrchardCore.Locking.LocalLock.SemaphoreŸ
+÷
+Ç
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.csR$ R(-
+
+%7void"YOrchardCore.Locking.LocalLock.Semaphore.Semaphore(string, System.Threading.SemaphoreSlim)*/
+-
+%6'OrchardCore.Locking.LocalLock.Semaphore*
+
+keystring*&
+$
+%4System.Threading.SemaphoreSlimı
+Ú
+Ç
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.csR R(H4
+	semaphore'OrchardCore.Locking.LocalLock.Semaphore"__id*/
+-
+%6'OrchardCore.Locking.LocalLock.Semaphore≤
+Ø
+Ç
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.csS S(9
+%83System.Collections.Generic.Dictionary<TKey, TValue>"__id*g*e
+OrchardCore.Locking.LocalLock"B
+_semaphores3System.Collections.Generic.Dictionary<TKey, TValue>û
+õ
+Ç
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.csS S(0
+%9"__mapSet*;
+9
+%83System.Collections.Generic.Dictionary<TKey, TValue>*
+
+keystring*6
+4
+	semaphore'OrchardCore.Locking.LocalLock.Semaphore*
+4*»
+4Ç
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.csV V( "Ω
+Ç
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.csV V(!6
+4
+	semaphore'OrchardCore.Locking.LocalLock.Semaphore*•
+5Ç
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.csX	 X(	"ö
+Ç
+xD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Locking\LocalLock.csX X(	
+implicit return:
+keystringB!
+OrchardCore.Locking.LocalLock

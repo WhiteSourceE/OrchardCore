@@ -1,0 +1,133 @@
+
+DOrchardCore.OpenId.Controllers.ServerConfigurationController.Index()ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ServerConfigurationController.cs2) 2(."4*
+0ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ServerConfigurationController.cs4 4(b
+Œ
+ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ServerConfigurationController.cs4 4(,>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*–*“>
+<OrchardCore.OpenId.Controllers.ServerConfigurationController"Q
+_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationService½
+º
+ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ServerConfigurationController.cs4< 4(@,
+%1&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBaseÔ
+Ñ
+ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ServerConfigurationController.cs4B 4(b1
+%2+OrchardCore.Security.Permissions.Permission"__id*i*g 
+OrchardCore.OpenId.Permissions"C
+ManageServerSettings+OrchardCore.Security.Permissions.Permission¬
+©
+ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ServerConfigurationController.cs4 4(c*
+%3$System.Threading.Tasks.Task<TResult>"ßMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission)*E"C
+AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*@
+>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService*.
+,
+%1&System.Security.Claims.ClaimsPrincipal*3
+1
+%2+OrchardCore.Security.Permissions.Permission*
+1
+2*Ø
+1ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ServerConfigurationController.cs6 6(ÆÃ
+ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ServerConfigurationController.cs6 6(+
+%4%Microsoft.AspNetCore.Mvc.ForbidResult"0Microsoft.AspNetCore.Mvc.ControllerBase.Forbid()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2Forbid()"Ü
+ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ServerConfigurationController.cs6 6( -
++
+%4%Microsoft.AspNetCore.Mvc.ForbidResult*¬
+2ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ServerConfigurationController.cs9 <(ø
+õ
+ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ServerConfigurationController.cs9! 9(/6
+%50OrchardCore.OpenId.Services.IOpenIdServerService"__id*‡*„>
+<OrchardCore.OpenId.Controllers.ServerConfigurationController"B
+_serverService0OrchardCore.OpenId.Services.IOpenIdServerServiceïì
+ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ServerConfigurationController.cs9! 9(B*
+%6$System.Threading.Tasks.Task<TResult>"COrchardCore.OpenId.Services.IOpenIdServerService.GetSettingsAsync()*8
+6
+%50OrchardCore.OpenId.Services.IOpenIdServerService2GetSettingsAsync()ü
+ù
+ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ServerConfigurationController.cs9 9(B<
+settings0OrchardCore.OpenId.Settings.OpenIdServerSettings"__id*
+""‘
+Ž
+ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ServerConfigurationController.cs: :(;;
+%75OrchardCore.DisplayManagement.IDisplayManager<TModel>"__id*›*˜>
+<OrchardCore.OpenId.Controllers.ServerConfigurationController"V
+_serverSettingsDisplayManager5OrchardCore.DisplayManagement.IDisplayManager<TModel>œ
+™
+ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ServerConfigurationController.cs:` :(tE
+%8?OrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessor"__id*œ*™>
+<OrchardCore.OpenId.Controllers.ServerConfigurationController"W
+_updateModelAccessor?OrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessorš
+«
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ServerConfigurationController.cs:` :(=
+%97OrchardCore.DisplayManagement.ModelBinding.IUpdateModel"POrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessor.ModelUpdater.get*G
+E
+%8?OrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessor2ModelUpdater.get§¤
+«
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ServerConfigurationController.cs: :(+
+%10$System.Threading.Tasks.Task<TResult>"•OrchardCore.DisplayManagement.IDisplayManager<TModel>.BuildEditorAsync(TModel, OrchardCore.DisplayManagement.ModelBinding.IUpdateModel, bool, string)*=
+;
+%75OrchardCore.DisplayManagement.IDisplayManager<TModel>*>
+<
+settings0OrchardCore.OpenId.Settings.OpenIdServerSettings*?
+=
+%97OrchardCore.DisplayManagement.ModelBinding.IUpdateModel*
+""*
+""2_BuildEditorAsync(TModel, OrchardCore.DisplayManagement.ModelBinding.IUpdateModel, bool, string)î
+ë
+«
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ServerConfigurationController.cs: :(-
+shape$OrchardCore.DisplayManagement.IShape"__id*
+""à
+Ý
+ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ServerConfigurationController.cs< <(
+%11void"2orchardcore.openid/views/serverconfiguration/index*
+
+%12*/
+-
+shape$OrchardCore.DisplayManagement.IShape*
+
+%ViewBagDataAllobject*
+
+%ViewBagDataHtmlobject*
+
+%TempDataAllobject*
+
+%TempDataHtmlobject* 
+
+%HttpContextItemsAllobject*!
+
+%HttpContextItemsHtmlobject"¼
+ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ServerConfigurationController.cs< <(
+
+%11void*õ
+3ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ServerConfigurationController.cs=	 =(	"Â
+ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ServerConfigurationController.cs= =(	
+implicit return*ý
+4ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ServerConfigurationController.cs20 2(0Å
+Â
+ª
+ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ServerConfigurationController.cs2) 2(.
+%13"__entrypoint*
+0B@>
+<OrchardCore.OpenId.Controllers.ServerConfigurationController

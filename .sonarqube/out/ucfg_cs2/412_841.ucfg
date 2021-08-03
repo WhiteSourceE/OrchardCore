@@ -1,0 +1,159 @@
+
+ùOrchardCore.Workflows.Services.WorkflowManager.CreateActivityExecutionContextAsync(OrchardCore.Workflows.Models.ActivityRecord, Newtonsoft.Json.Linq.JObject)ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowManager.csV% V(H"0*†
+0ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowManager.csX Z( ⁄
+◊
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowManager.csX X(+5
+%0/OrchardCore.Workflows.Services.IActivityLibrary"__id*y*w0
+.OrchardCore.Workflows.Services.WorkflowManager"C
+_activityLibrary/OrchardCore.Workflows.Services.IActivityLibraryß
+§
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowManager.csXK X(^
+%1string"4OrchardCore.Workflows.Models.ActivityRecord.Name.get*?
+=
+activityRecord+OrchardCore.Workflows.Models.ActivityRecord≤
+Ø
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowManager.csX X(k0
+%2*OrchardCore.Workflows.Activities.IActivity"¶OrchardCore.Workflows.Services.ActivityLibraryExtensions.InstantiateActivity<T>(OrchardCore.Workflows.Services.IActivityLibrary, string, Newtonsoft.Json.Linq.JObject)*<":
+8OrchardCore.Workflows.Services.ActivityLibraryExtensions*7
+5
+%0/OrchardCore.Workflows.Services.IActivityLibrary*
+
+%1string*,
+*
+
+propertiesNewtonsoft.Json.Linq.JObjectî
+ë
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowManager.csX X(k6
+activity*OrchardCore.Workflows.Activities.IActivity"__id*2
+0
+%2*OrchardCore.Workflows.Activities.IActivity†
+ù
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowManager.csZ Z( 
+
+%3bool""object.operator ==(object, object)*
+"
+object*8
+6
+activity*OrchardCore.Workflows.Activities.IActivity*
+""*
+1
+2*∏
+1ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowManager.cs\ ](pª
+∏
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowManager.cs\ \(*
+%4$Microsoft.Extensions.Logging.ILogger"__id*e*c0
+.OrchardCore.Workflows.Services.WorkflowManager"/
+_logger$Microsoft.Extensions.Logging.ILogger©
+¶
+û
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowManager.cs\≈ \(ÿ
+%5string"4OrchardCore.Workflows.Models.ActivityRecord.Name.get*?
+=
+activityRecord+OrchardCore.Workflows.Models.ActivityRecord¿
+Ω
+ù
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowManager.cs\ \(Ÿ
+
+%6void"wMicrosoft.Extensions.Logging.LoggerExtensions.LogWarning(Microsoft.Extensions.Logging.ILogger, string, params object[])*1"/
+-Microsoft.Extensions.Logging.LoggerExtensions*,
+*
+%4$Microsoft.Extensions.Logging.ILogger*§°
+ûRequested activity '{ActivityName}' does not exist in the library. This could indicate a changed name or a missing feature. Replacing it with MissingActivity.*
+
+%5stringÒ
+Ó
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowManager.cs]/ ](H;
+%75Microsoft.Extensions.Localization.IStringLocalizer<T>"__id*â*Ü0
+.OrchardCore.Workflows.Services.WorkflowManager"R
+_missingActivityLocalizer5Microsoft.Extensions.Localization.IStringLocalizer<T>Í
+Á
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowManager.cs]J ](`9
+%83Microsoft.Extensions.Logging.ILogger<TCategoryName>"__id*Ñ*Å0
+.OrchardCore.Workflows.Services.WorkflowManager"M
+_missingActivityLogger3Microsoft.Extensions.Logging.ILogger<TCategoryName>åâ
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowManager.cs] ](q6
+%90OrchardCore.Workflows.Activities.MissingActivity"0OrchardCore.Workflows.Activities.MissingActivity‘
+—
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowManager.cs] ](.
+%10void"´OrchardCore.Workflows.Activities.MissingActivity.MissingActivity(Microsoft.Extensions.Localization.IStringLocalizer<OrchardCore.Workflows.Activities.MissingActivity>, Microsoft.Extensions.Logging.ILogger<OrchardCore.Workflows.Activities.MissingActivity>, OrchardCore.Workflows.Models.ActivityRecord)*8
+6
+%90OrchardCore.Workflows.Activities.MissingActivity*=
+;
+%75Microsoft.Extensions.Localization.IStringLocalizer<T>*;
+9
+%83Microsoft.Extensions.Logging.ILogger<TCategoryName>*?
+=
+activityRecord+OrchardCore.Workflows.Models.ActivityRecordö
+ó
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowManager.cs] ](q6
+activity*OrchardCore.Workflows.Activities.IActivity"__id*8
+6
+%90OrchardCore.Workflows.Activities.MissingActivity*
+2*Ω
+2ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowManager.cs` f(*ÖÇ
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowManager.cs` d(3
+%11,OrchardCore.Workflows.Models.ActivityContext",OrchardCore.Workflows.Models.ActivityContext¶
+£
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowManager.cs` `(-
+%12void">OrchardCore.Workflows.Models.ActivityContext.ActivityContext()*5
+3
+%11,OrchardCore.Workflows.Models.ActivityContextè
+å
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowManager.csb b(/2
+%13+OrchardCore.Workflows.Models.ActivityRecord"?OrchardCore.Workflows.Models.ActivityContext.ActivityRecord.set*5
+3
+%11,OrchardCore.Workflows.Models.ActivityContext*?
+=
+activityRecord+OrchardCore.Workflows.Models.ActivityRecordÅ
+˛
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowManager.csc c(#1
+%14*OrchardCore.Workflows.Activities.IActivity"9OrchardCore.Workflows.Models.ActivityContext.Activity.set*5
+3
+%11,OrchardCore.Workflows.Models.ActivityContext*8
+6
+activity*OrchardCore.Workflows.Activities.IActivityò
+ï
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowManager.cs` d(7
+context,OrchardCore.Workflows.Models.ActivityContext"__id*5
+3
+%11,OrchardCore.Workflows.Models.ActivityContextÂ
+‚
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowManager.csf f(++
+%15$System.Threading.Tasks.Task<TResult>"8System.Threading.Tasks.Task.FromResult<TResult>(TResult)*"
+System.Threading.Tasks.Task*9
+7
+context,OrchardCore.Workflows.Models.ActivityContext"Œ
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowManager.csf f(,-
++
+%15$System.Threading.Tasks.Task<TResult>*Ÿ
+3ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowManager.csg	 g(	"¥
+ú
+ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowManager.csg g(	
+implicit return:=
+activityRecord+OrchardCore.Workflows.Models.ActivityRecord:*
+
+propertiesNewtonsoft.Json.Linq.JObjectB20
+.OrchardCore.Workflows.Services.WorkflowManager

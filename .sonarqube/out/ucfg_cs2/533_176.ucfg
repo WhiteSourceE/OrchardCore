@@ -1,0 +1,545 @@
+
+£OrchardCore.Autoroute.Handlers.AutoroutePartHandler.ValidateContainedContentItemRoutesAsync(System.Collections.Generic.List<OrchardCore.ContentManagement.Routing.AutorouteEntry>, string, OrchardCore.ContentManagement.Routing.ContainedContentItemsAspect, Newtonsoft.Json.Linq.JObject, string)£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.csò ò(B"0*∫
+0£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.csö% ö(Jâ
+Ü
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.csö% ö(J)
+%0#System.Collections.Generic.IList<T>"OOrchardCore.ContentManagement.Routing.ContainedContentItemsAspect.Accessors.get*b
+`
+containedContentItemsAspectAOrchardCore.ContentManagement.Routing.ContainedContentItemsAspect*
+1*±
+1£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.cs“	 “(	*
+2
+3*
+2£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.csú û(0¡
+æ
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.csú ú(5!
+%1Newtonsoft.Json.Linq.JArray"!System.Func<T, TResult>.Invoke(T)*%
+#
+accessorSystem.Func<T, TResult>*)
+'
+contentNewtonsoft.Json.Linq.JObject˚
+¯
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.csú ú(5%
+jItemsNewtonsoft.Json.Linq.JArray"__id*#
+!
+%1Newtonsoft.Json.Linq.JArray*
+4*±
+4£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.cs“	 “(	*
+5
+1*¢
+5£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.cs† •(6Æ
+´
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.cs†& †(C/
+%2)OrchardCore.ContentManagement.ContentItem")Newtonsoft.Json.Linq.JToken.ToObject<T>()*'
+%
+jItemNewtonsoft.Json.Linq.JObjectú
+ô
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.cs† †(C8
+contentItem)OrchardCore.ContentManagement.ContentItem"__id*1
+/
+%2)OrchardCore.ContentManagement.ContentItem∫
+∑
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.cs°1 °(P0
+%3*OrchardCore.Autoroute.Models.AutoroutePart"hOrchardCore.ContentManagement.ContentItemExtensions.As<TPart>(OrchardCore.ContentManagement.ContentItem)*7"5
+3OrchardCore.ContentManagement.ContentItemExtensions*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItem©
+¶
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.cs° °(PD
+containedAutoroutePart*OrchardCore.Autoroute.Models.AutoroutePart"__id*2
+0
+%3*OrchardCore.Autoroute.Models.AutoroutePartµ
+≤
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.cs• •(6
+
+%4bool""object.operator !=(object, object)*
+"
+object*F
+D
+containedAutoroutePart*OrchardCore.Autoroute.Models.AutoroutePart*
+""*
+6
+4*Í
+6£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.cs•: •(Z∂
+≥
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.cs•; •(Z
+
+%5bool"7OrchardCore.Autoroute.Models.AutoroutePart.Disabled.get*F
+D
+containedAutoroutePart*OrchardCore.Autoroute.Models.AutoroutePart*
+7
+4*Û
+7£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.csß ©(;¥
+±
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.csß# ß(>
+%6string"3OrchardCore.Autoroute.Models.AutoroutePart.Path.get*F
+D
+containedAutoroutePart*OrchardCore.Autoroute.Models.AutoroutePartœ
+Ã
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.csß ß(>
+pathstring"__id*
+
+%6string∂
+≥
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.cs© ©(;
+
+%7bool"7OrchardCore.Autoroute.Models.AutoroutePart.Absolute.get*F
+D
+containedAutoroutePart*OrchardCore.Autoroute.Models.AutoroutePart*
+8
+9*¯
+8£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.cs©? ©(∞
+≠
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.cs©f ©(
+%8string";OrchardCore.ContentManagement.ContentItem.ContentItemId.get*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItemê
+ç
+§
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.cs©F ©(Ä*
+%9$System.Threading.Tasks.Task<TResult>"]OrchardCore.Autoroute.Handlers.AutoroutePartHandler.IsAbsolutePathUniqueAsync(string, string)*75
+3OrchardCore.Autoroute.Handlers.AutoroutePartHandler*
+
+pathstring*
+
+%8string*
+10
+9*€ 
+10£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.cs´ ≥(U±
+Æ
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.cs´O ´(h
+%10string";OrchardCore.ContentManagement.ContentItem.ContentItemId.get*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItemó
+î
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.cs´) ´(i+
+%11$System.Threading.Tasks.Task<TResult>"cOrchardCore.Autoroute.Handlers.AutoroutePartHandler.GenerateUniqueAbsolutePathAsync(string, string)*75
+3OrchardCore.Autoroute.Handlers.AutoroutePartHandler*
+
+pathstring*
+
+%10string«
+ƒ
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.cs´ ´(i
+pathstring"__id*
+""«
+ƒ
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.cs¨ ¨(>
+%12string"3OrchardCore.Autoroute.Models.AutoroutePart.Path.set*F
+D
+containedAutoroutePart*OrchardCore.Autoroute.Models.AutoroutePart*
+
+pathstring∫
+∑
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.cs≠ ≠(:0
+%13)OrchardCore.ContentManagement.ContentPart"`OrchardCore.ContentManagement.ContentExtensions.Apply(OrchardCore.ContentManagement.ContentPart)*3"1
+/OrchardCore.ContentManagement.ContentExtensions*F
+D
+containedAutoroutePart*OrchardCore.Autoroute.Models.AutoroutePartØ
+¨
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.cs∞( ∞(;
+%14dynamic"8OrchardCore.ContentManagement.ContentElement.Content.get*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItemÄ˝
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.cs∞= ¥(-
+%15&Newtonsoft.Json.Linq.JsonMergeSettings"&Newtonsoft.Json.Linq.JsonMergeSettings£
+†
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.cs∞A ∞(R
+%16void":Newtonsoft.Json.Linq.JsonMergeSettings.JsonMergeSettings()*/
+-
+%15&Newtonsoft.Json.Linq.JsonMergeSettingsæ
+ª
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.cs≤5 ≤(O
+%17"__id*
+""“
+œ
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.cs≤  ≤(O.
+%18'Newtonsoft.Json.Linq.MergeArrayHandling"=Newtonsoft.Json.Linq.JsonMergeSettings.MergeArrayHandling.set*/
+-
+%15&Newtonsoft.Json.Linq.JsonMergeSettings*
+
+%17æ
+ª
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.cs≥9 ≥(U
+%19"__id*
+""⁄
+◊
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.cs≥  ≥(U2
+%20+Newtonsoft.Json.Linq.MergeNullValueHandling"ANewtonsoft.Json.Linq.JsonMergeSettings.MergeNullValueHandling.set*/
+-
+%15&Newtonsoft.Json.Linq.JsonMergeSettings*
+
+%19˙
+˜
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.cs∞ ¥(
+%21void"VNewtonsoft.Json.Linq.JContainer.Merge(object, Newtonsoft.Json.Linq.JsonMergeSettings?)*'
+%
+jItemNewtonsoft.Json.Linq.JObject*
+
+%14dynamic*/
+-
+%15&Newtonsoft.Json.Linq.JsonMergeSettings*
+11*†
+9£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.cs∏6 ∏(KÍ
+Á
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.cs∏6 ∏(L
+%22bool"string.EndsWith(char)*
+
+basePathstring*
+/*
+12
+13*Ÿ
+12£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.cs∏O ∏(W‘
+—
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.cs∏O ∏(W
+%24string"__id*
+
+basePathstringœ
+Ã
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.cs∏O ∏(W
+%23string"__id*
+
+%24string*
+14*∂
+13£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.cs∏Z ∏(hﬂ
+‹
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.cs∏Z ∏(h
+%26string"__concat*
+
+basePathstring*
+/œ
+Ã
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.cs∏Z ∏(h
+%25string"__id*
+
+%26stringœ
+Ã
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.cs∏Z ∏(h
+%23string"__id*
+
+%25string*
+14*Î
+14£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.cs∏  ∫([ﬂ
+‹
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.cs∏  ∏(h
+currentItemBasePathstring"__id*
+
+%23stringµ
+≤
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.csπ9 π(T
+%27string"3OrchardCore.Autoroute.Models.AutoroutePart.Path.get*F
+D
+containedAutoroutePart*OrchardCore.Autoroute.Models.AutoroutePartÙ
+Ò
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.csπ# π(T
+%28string"__concat*
+
+currentItemBasePathstring*
+
+%27string–
+Õ
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.csπ π(T
+pathstring"__id*
+
+%28string–
+Õ
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.cs∫! ∫(\
+%29bool"”OrchardCore.Autoroute.Handlers.AutoroutePartHandler.IsRelativePathUnique(System.Collections.Generic.List<OrchardCore.ContentManagement.Routing.AutorouteEntry>, string, OrchardCore.Autoroute.Models.AutoroutePart)*7"5
+3OrchardCore.Autoroute.Handlers.AutoroutePartHandler*/
+-
+entries"System.Collections.Generic.List<T>*
+
+pathstring*F
+D
+containedAutoroutePart*OrchardCore.Autoroute.Models.AutoroutePart*
+15
+16*Œ#
+15£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.csº  ≈(Yÿ
+’
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.csº' º(h
+%30string"ŸOrchardCore.Autoroute.Handlers.AutoroutePartHandler.GenerateRelativeUniquePath(System.Collections.Generic.List<OrchardCore.ContentManagement.Routing.AutorouteEntry>, string, OrchardCore.Autoroute.Models.AutoroutePart)*75
+3OrchardCore.Autoroute.Handlers.AutoroutePartHandler*/
+-
+entries"System.Collections.Generic.List<T>*
+
+pathstring*F
+D
+containedAutoroutePart*OrchardCore.Autoroute.Models.AutoroutePart–
+Õ
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.csº  º(h
+pathstring"__id*
+
+%30stringÈ
+Ê
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.csæM æ(g
+
+%31int"string.Length.get*
+
+currentItemBasePathstringÔ
+Ï
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.csæ> æ(h
+%32string"string.Substring(int)*
+
+pathstring*
+
+
+%31int∆
+√
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.csæ  æ(h
+%33string"3OrchardCore.Autoroute.Models.AutoroutePart.Path.set*F
+D
+containedAutoroutePart*OrchardCore.Autoroute.Models.AutoroutePart*
+
+%32string∫
+∑
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.csø  ø(>0
+%34)OrchardCore.ContentManagement.ContentPart"`OrchardCore.ContentManagement.ContentExtensions.Apply(OrchardCore.ContentManagement.ContentPart)*3"1
+/OrchardCore.ContentManagement.ContentExtensions*F
+D
+containedAutoroutePart*OrchardCore.Autoroute.Models.AutoroutePartØ
+¨
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.cs¬, ¬(?
+%35dynamic"8OrchardCore.ContentManagement.ContentElement.Content.get*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItemÄ˝
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.cs¬A ∆(!-
+%36&Newtonsoft.Json.Linq.JsonMergeSettings"&Newtonsoft.Json.Linq.JsonMergeSettings£
+†
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.cs¬E ¬(V
+%37void":Newtonsoft.Json.Linq.JsonMergeSettings.JsonMergeSettings()*/
+-
+%36&Newtonsoft.Json.Linq.JsonMergeSettingsæ
+ª
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.csƒ9 ƒ(S
+%38"__id*
+""“
+œ
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.csƒ$ ƒ(S.
+%39'Newtonsoft.Json.Linq.MergeArrayHandling"=Newtonsoft.Json.Linq.JsonMergeSettings.MergeArrayHandling.set*/
+-
+%36&Newtonsoft.Json.Linq.JsonMergeSettings*
+
+%38æ
+ª
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.cs≈= ≈(Y
+%40"__id*
+""⁄
+◊
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.cs≈$ ≈(Y2
+%41+Newtonsoft.Json.Linq.MergeNullValueHandling"ANewtonsoft.Json.Linq.JsonMergeSettings.MergeNullValueHandling.set*/
+-
+%36&Newtonsoft.Json.Linq.JsonMergeSettings*
+
+%40˙
+˜
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.cs¬  ∆("
+%42void"VNewtonsoft.Json.Linq.JContainer.Merge(object, Newtonsoft.Json.Linq.JsonMergeSettings?)*'
+%
+jItemNewtonsoft.Json.Linq.JObject*
+
+%35dynamic*/
+-
+%36&Newtonsoft.Json.Linq.JsonMergeSettings*
+16*·
+16£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.cs… …(LÈ
+Ê
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.cs…2 …(L
+
+%43int"string.Length.get*
+
+currentItemBasePathstringÔ
+Ï
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.cs…# …(M
+%44string"string.Substring(int)*
+
+pathstring*
+
+
+%43int–
+Õ
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.cs… …(M
+pathstring"__id*
+
+%44string*
+11*°
+11£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.csÃ5 Ã(JÍ
+Á
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.csÃ5 Ã(K
+%45bool"string.EndsWith(char)*
+
+basePathstring*
+/*
+17
+18*Ÿ
+17£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.csÃN Ã(V‘
+—
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.csÃN Ã(V
+%47string"__id*
+
+basePathstringœ
+Ã
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.csÃN Ã(V
+%46string"__id*
+
+%47string*
+19*∂
+18£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.csÃY Ã(gﬂ
+‹
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.csÃY Ã(g
+%49string"__concat*
+
+basePathstring*
+/œ
+Ã
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.csÃY Ã(g
+%48string"__id*
+
+%49stringœ
+Ã
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.csÃY Ã(g
+%46string"__id*
+
+%48string*
+19*“
+19§
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.csÃ Œ(îÂ
+‚
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.csÃ4 Ã(o
+%50string"__concat*
+
+%46string*
+
+pathstring·
+ﬁ
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.csÃ Ã(o
+containedItemBasePathstring"__id*
+
+%50string‚
+ﬂ
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.csÕ4 Õ(C4
+%51-OrchardCore.ContentManagement.IContentManager"__id*{*y5
+3OrchardCore.Autoroute.Handlers.AutoroutePartHandler"@
+_contentManager-OrchardCore.ContentManagement.IContentManager¥
+±
+§
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.csÕ4 Õ(Å+
+%52$System.Threading.Tasks.Task<TResult>"™OrchardCore.ContentManagement.ContentManagerExtensions.PopulateAspectAsync<TAspect>(OrchardCore.ContentManagement.IContentManager, OrchardCore.ContentManagement.IContent)*:"8
+6OrchardCore.ContentManagement.ContentManagerExtensions*6
+4
+%51-OrchardCore.ContentManagement.IContentManager*:
+8
+contentItem)OrchardCore.ContentManagement.ContentItemé
+ã
+§
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.csÕ Õ(ÅT
+childItemAspectAOrchardCore.ContentManagement.Routing.ContainedContentItemsAspect"__id*
+""¶
+£
+§
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.csŒ Œ(ï"
+%53System.Threading.Tasks.Task"£OrchardCore.Autoroute.Handlers.AutoroutePartHandler.ValidateContainedContentItemRoutesAsync(System.Collections.Generic.List<OrchardCore.ContentManagement.Routing.AutorouteEntry>, string, OrchardCore.ContentManagement.Routing.ContainedContentItemsAspect, Newtonsoft.Json.Linq.JObject, string)*75
+3OrchardCore.Autoroute.Handlers.AutoroutePartHandler*/
+-
+entries"System.Collections.Generic.List<T>*"
+ 
+containerContentItemIdstring*V
+T
+childItemAspectAOrchardCore.ContentManagement.Routing.ContainedContentItemsAspect*'
+%
+jItemNewtonsoft.Json.Linq.JObject*!
+
+containedItemBasePathstring*
+4*Á
+3£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.cs“	 “(	"ª
+£
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Autoroute\Handlers\AutoroutePartHandler.cs“ “(	
+implicit return:-
+entries"System.Collections.Generic.List<T>: 
+containerContentItemIdstring:`
+containedContentItemsAspectAOrchardCore.ContentManagement.Routing.ContainedContentItemsAspect:'
+contentNewtonsoft.Json.Linq.JObject:
+basePathstringB75
+3OrchardCore.Autoroute.Handlers.AutoroutePartHandler

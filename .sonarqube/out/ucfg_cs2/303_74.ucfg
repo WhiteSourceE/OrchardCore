@@ -1,0 +1,188 @@
+
+=OrchardCore.Themes.Services.DarkModeService.IsDarkModeAsync()ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\Services\DarkModeService.cs  (/"0*Ì
+0ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\Services\DarkModeService.cs (-Ω
+∫
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\Services\DarkModeService.cs (
+resultbool"__id*
+""¥
+±
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\Services\DarkModeService.cs' (3'
+%0!OrchardCore.Settings.ISiteService"__id*d*b-
++OrchardCore.Themes.Services.DarkModeService"1
+_siteService!OrchardCore.Settings.ISiteService»≈
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\Services\DarkModeService.cs' (J*
+%1$System.Threading.Tasks.Task<TResult>"8OrchardCore.Settings.ISiteService.GetSiteSettingsAsync()*)
+'
+%0!OrchardCore.Settings.ISiteService2GetSiteSettingsAsync()À
+»
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\Services\DarkModeService.cs  (_,
+%2&OrchardCore.Admin.Models.AdminSettings"IOrchardCore.Entities.EntityExtensions.As<T>(OrchardCore.Entities.IEntity)*)"'
+%OrchardCore.Entities.EntityExtensions*
+""é
+ã
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\Services\DarkModeService.cs (_7
+adminSettings&OrchardCore.Admin.Models.AdminSettings"__id*.
+,
+%2&OrchardCore.Admin.Models.AdminSettings¢
+ü
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\Services\DarkModeService.cs (-
+
+%3bool":OrchardCore.Admin.Models.AdminSettings.DisplayDarkMode.get*9
+7
+adminSettings&OrchardCore.Admin.Models.AdminSettings*
+1
+2*é
+1ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\Services\DarkModeService.cs! !(r÷
+”
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\Services\DarkModeService.cs!/ !(C4
+%4.Microsoft.AspNetCore.Http.IHttpContextAccessor"__id*y*w-
++OrchardCore.Themes.Services.DarkModeService"F
+_httpContextAccessor.Microsoft.AspNetCore.Http.IHttpContextAccessor’“
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\Services\DarkModeService.cs!/ !(O+
+%5%Microsoft.AspNetCore.Http.HttpContext">Microsoft.AspNetCore.Http.IHttpContextAccessor.HttpContext.get*6
+4
+%4.Microsoft.AspNetCore.Http.IHttpContextAccessor2HttpContext.getÆ
+´
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\Services\DarkModeService.cs!/ !(W+
+%6%Microsoft.AspNetCore.Http.HttpRequest"1Microsoft.AspNetCore.Http.HttpContext.Request.get*-
++
+%5%Microsoft.AspNetCore.Http.HttpContextª
+∏
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\Services\DarkModeService.cs!/ !(_8
+%72Microsoft.AspNetCore.Http.IRequestCookieCollection"1Microsoft.AspNetCore.Http.HttpRequest.Cookies.get*-
++
+%6%Microsoft.AspNetCore.Http.HttpRequest÷”
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\Services\DarkModeService.cs!/ !(s
+%8string"CMicrosoft.AspNetCore.Http.IRequestCookieCollection.this[string].get*:
+8
+%72Microsoft.AspNetCore.Http.IRequestCookieCollection*
+adminPreferences2this[string].getÎ
+Ë
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\Services\DarkModeService.cs! !(t
+
+%9bool""string.IsNullOrWhiteSpace(string?)*
+"
+string*
+
+%8string*
+3
+2*ò
+3ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\Services\DarkModeService.cs# %(`◊
+‘
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\Services\DarkModeService.cs#> #(R5
+%10.Microsoft.AspNetCore.Http.IHttpContextAccessor"__id*y*w-
++OrchardCore.Themes.Services.DarkModeService"F
+_httpContextAccessor.Microsoft.AspNetCore.Http.IHttpContextAccessor◊‘
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\Services\DarkModeService.cs#> #(^,
+%11%Microsoft.AspNetCore.Http.HttpContext">Microsoft.AspNetCore.Http.IHttpContextAccessor.HttpContext.get*7
+5
+%10.Microsoft.AspNetCore.Http.IHttpContextAccessor2HttpContext.get∞
+≠
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\Services\DarkModeService.cs#> #(f,
+%12%Microsoft.AspNetCore.Http.HttpRequest"1Microsoft.AspNetCore.Http.HttpContext.Request.get*.
+,
+%11%Microsoft.AspNetCore.Http.HttpContextΩ
+∫
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\Services\DarkModeService.cs#> #(n9
+%132Microsoft.AspNetCore.Http.IRequestCookieCollection"1Microsoft.AspNetCore.Http.HttpRequest.Cookies.get*.
+,
+%12%Microsoft.AspNetCore.Http.HttpRequestŸ÷
+ö
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\Services\DarkModeService.cs#> #(Ç
+%14string"CMicrosoft.AspNetCore.Http.IRequestCookieCollection.this[string].get*;
+9
+%132Microsoft.AspNetCore.Http.IRequestCookieCollection*
+adminPreferences2this[string].get’
+“
+ö
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\Services\DarkModeService.cs#+ #(É$
+%15System.Text.Json.JsonDocument"QSystem.Text.Json.JsonDocument.Parse(string, System.Text.Json.JsonDocumentOptions)*!"
+System.Text.Json.JsonDocument*
+
+%14string*
+""Å
+˛
+ö
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\Services\DarkModeService.cs# #(É1
+adminPreferencesSystem.Text.Json.JsonDocument"__id*&
+$
+%15System.Text.Json.JsonDocument®
+•
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\Services\DarkModeService.cs% %(4#
+%16System.Text.Json.JsonElement"-System.Text.Json.JsonDocument.RootElement.get*3
+1
+adminPreferencesSystem.Text.Json.JsonDocument‰
+·
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\Services\DarkModeService.cs% %(a
+%17bool"USystem.Text.Json.JsonElement.TryGetProperty(string, out System.Text.Json.JsonElement)*%
+#
+%16System.Text.Json.JsonElement*
+
+darkMode**
+(
+darkModeSystem.Text.Json.JsonElement*
+4
+2*Ò
+4ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\Services\DarkModeService.cs' '(6É
+Ä
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\Services\DarkModeService.cs'! '(6
+%18bool")System.Text.Json.JsonElement.GetBoolean()**
+(
+darkModeSystem.Text.Json.JsonElementƒ
+¡
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\Services\DarkModeService.cs' '(6
+resultbool"__id*
+
+%18bool*
+2*ß
+2ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\Services\DarkModeService.cs, ,(*
+5
+6*“
+5ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\Services\DarkModeService.cs. .()´
+®
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\Services\DarkModeService.cs. .()
+%19string"<OrchardCore.Themes.Services.DarkModeService.CurrentTheme.set*/-
++OrchardCore.Themes.Services.DarkModeService*
+
+darkmode*
+6*–
+6ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\Services\DarkModeService.cs1 1("Æ
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\Services\DarkModeService.cs1 1(
+
+resultbool*”
+7ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\Services\DarkModeService.cs2	 2(	"±
+ô
+éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\Services\DarkModeService.cs2 2(	
+implicit returnB/-
++OrchardCore.Themes.Services.DarkModeService

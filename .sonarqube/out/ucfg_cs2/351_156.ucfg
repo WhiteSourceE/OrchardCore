@@ -1,0 +1,437 @@
+
+_OrchardCore.Deployment.Controllers.ImportController.Import(Microsoft.AspNetCore.Http.IFormFile)°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.cs6) 6(/"20*–
+0°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.cs8 8(T˝
+˙
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.cs8 8(,>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*ç*ä5
+3OrchardCore.Deployment.Controllers.ImportController"Q
+_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationService¥
+±
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.cs8< 8(@,
+%1&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase¡
+æ
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.cs8B 8(T1
+%2+OrchardCore.Security.Permissions.Permission"__id*_*]$
+"OrchardCore.Deployment.Permissions"5
+Import+OrchardCore.Security.Permissions.Permission£
+†
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.cs8 8(U*
+%3$System.Threading.Tasks.Task<TResult>"ﬂMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission)*E"C
+AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*@
+>
+%08Microsoft.AspNetCore.Authorization.IAuthorizationService*.
+,
+%1&System.Security.Claims.ClaimsPrincipal*3
+1
+%2+OrchardCore.Security.Permissions.Permission*
+1
+2*Ω
+1°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.cs: :(Ω∫
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.cs: :(+
+%4%Microsoft.AspNetCore.Mvc.ForbidResult"0Microsoft.AspNetCore.Mvc.ControllerBase.Forbid()*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase2Forbid()"”
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.cs: :( -
++
+%4%Microsoft.AspNetCore.Mvc.ForbidResult*◊
+2°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.cs= =('•
+¢
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.cs= =('
+
+%5bool""object.operator !=(object, object)*
+"
+object*8
+6
+importedPackage#Microsoft.AspNetCore.Http.IFormFile*
+""*
+3
+4*
+3°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.cs? @(kÎ
+Ë
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.cs?& ?(<
+%6string" System.IO.Path.GetTempFileName()*"
+System.IO.PathØ¨
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.cs?Q ?(i
+%7string"0Microsoft.AspNetCore.Http.IFormFile.FileName.get*8
+6
+importedPackage#Microsoft.AspNetCore.Http.IFormFile2FileName.getˇ
+¸
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.cs?? ?(j
+%8string"$System.IO.Path.GetExtension(string?)*"
+System.IO.Path*
+
+%7stringﬂ
+‹
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.cs?& ?(j
+%9string"__concat*
+
+%6string*
+
+%8stringÿ
+’
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.cs? ?(j
+tempArchiveNamestring"__id*
+
+%9stringË
+Â
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.cs@? @(Q
+%10string"System.IO.Path.GetTempPath()*"
+System.IO.PathÓ
+Î
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.cs@S @(k
+%11string""System.IO.Path.GetRandomFileName()*"
+System.IO.Path®
+•
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.cs@( @(l
+%12string"0System.IO.PathExtensions.Combine(string, string)*"
+System.IO.PathExtensions*
+
+%10string*
+
+%11string€
+ÿ
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.cs@ @(l
+tempArchiveFolderstring"__id*
+
+%12string*
+5*
+5°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.csD D(Wº
+π
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.csDH D(W
+%13"__id*
+""⁄◊
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.csD( D(X
+%14System.IO.FileStream"System.IO.FileStream∂
+≥
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.csD, D(6
+%15void";System.IO.FileStream.FileStream(string, System.IO.FileMode)*
+
+%14System.IO.FileStream*
+
+tempArchiveNamestring*
+
+%13Ï
+È
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.csD D(X
+streamSystem.IO.FileStream"__id*
+
+%14System.IO.FileStream*
+6*à
+6°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.csF F(@Ÿ÷
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.csF F(A"
+%16System.Threading.Tasks.Task"eMicrosoft.AspNetCore.Http.IFormFile.CopyToAsync(System.IO.Stream, System.Threading.CancellationToken)*8
+6
+importedPackage#Microsoft.AspNetCore.Http.IFormFile* 
+
+streamSystem.IO.FileStream*
+""2ACopyToAsync(System.IO.Stream, System.Threading.CancellationToken)*
+7*Õ
+7°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.csI I(@∞≠
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.csI I(0
+%17string"0Microsoft.AspNetCore.Http.IFormFile.FileName.get*8
+6
+importedPackage#Microsoft.AspNetCore.Http.IFormFile2FileName.getË
+Â
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.csI I(A
+%18bool"string.EndsWith(string)*
+
+%17string*
+.zip*
+8
+9*Ö
+8°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.csK K(U’
+“
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.csK K(V
+%19void"@System.IO.Compression.ZipFile.ExtractToDirectory(string, string)*!"
+System.IO.Compression.ZipFile*
+
+tempArchiveNamestring*
+
+tempArchiveFolderstring*
+10*–
+9°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.csM M(F∞≠
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.csM M(5
+%20string"0Microsoft.AspNetCore.Http.IFormFile.FileName.get*8
+6
+importedPackage#Microsoft.AspNetCore.Http.IFormFile2FileName.getÈ
+Ê
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.csM M(G
+%21bool"string.EndsWith(string)*
+
+%20string*	
+.json*
+11
+12*†
+11°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.csO P(j¨
+©
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.csO O(D
+%22System.IO.DirectoryInfo"+System.IO.Directory.CreateDirectory(string)*"
+System.IO.Directory*
+
+tempArchiveFolderstring¢
+ü
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.csP= P(k
+%23string"&System.IO.Path.Combine(string, string)*"
+System.IO.Path*
+
+tempArchiveFolderstring*
+Recipe.jsonõ
+ò
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.csP P(l
+%24void"#System.IO.File.Move(string, string)*"
+System.IO.File*
+
+tempArchiveNamestring*
+
+%23string*
+10*å
+12°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.csT V(7‹
+Ÿ
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.csT T(!5
+%25.OrchardCore.DisplayManagement.Notify.INotifier"__id*v*t5
+3OrchardCore.Deployment.Controllers.ImportController";
+	_notifier.OrchardCore.DisplayManagement.Notify.INotifier‡
+›
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.csT( T();
+%264Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer"__id*t*r5
+3OrchardCore.Deployment.Controllers.ImportController"9
+H4Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer¨©
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.csT( T(R@
+%279Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString"EMicrosoft.AspNetCore.Mvc.Localization.IHtmlLocalizer.this[string].get*=
+;
+%264Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer*)'
+%Only zip or json files are supported.2this[string].getô
+ñ
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.csT T(S
+%28void"®OrchardCore.DisplayManagement.Notify.NotifierExtensions.Error(OrchardCore.DisplayManagement.Notify.INotifier, Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString)*;"9
+7OrchardCore.DisplayManagement.Notify.NotifierExtensions*7
+5
+%25.OrchardCore.DisplayManagement.Notify.INotifier*B
+@
+%279Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlStringÛ
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.csV V(86
+%29/Microsoft.AspNetCore.Mvc.RedirectToActionResult"@Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToAction(string)*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*	
+Index2RedirectToAction(string)"ﬁ
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.csV V(98
+6
+%29/Microsoft.AspNetCore.Mvc.RedirectToActionResult*ÿ
+10°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.csY [(FÔ
+Ï
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.csY Y(,9
+%302OrchardCore.Deployment.Services.IDeploymentManager"__id*Ñ*Å5
+3OrchardCore.Deployment.Controllers.ImportController"H
+_deploymentManager2OrchardCore.Deployment.Services.IDeploymentManager†ù
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.csYJ Y(u>
+%317Microsoft.Extensions.FileProviders.PhysicalFileProvider"7Microsoft.Extensions.FileProviders.PhysicalFileProviderÎ
+Ë
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.csYN Y(b
+%32void"TMicrosoft.Extensions.FileProviders.PhysicalFileProvider.PhysicalFileProvider(string)*@
+>
+%317Microsoft.Extensions.FileProviders.PhysicalFileProvider*
+
+tempArchiveFolderstringûõ
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.csY Y(v"
+%33System.Threading.Tasks.Task"ÅOrchardCore.Deployment.Services.IDeploymentManager.ImportDeploymentPackageAsync(Microsoft.Extensions.FileProviders.IFileProvider)*;
+9
+%302OrchardCore.Deployment.Services.IDeploymentManager*@
+>
+%317Microsoft.Extensions.FileProviders.PhysicalFileProvider2NImportDeploymentPackageAsync(Microsoft.Extensions.FileProviders.IFileProvider)‹
+Ÿ
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.cs[ [(5
+%34.OrchardCore.DisplayManagement.Notify.INotifier"__id*v*t5
+3OrchardCore.Deployment.Controllers.ImportController";
+	_notifier.OrchardCore.DisplayManagement.Notify.INotifier‡
+›
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.cs[& [(';
+%354Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer"__id*t*r5
+3OrchardCore.Deployment.Controllers.ImportController"9
+H4Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer£†
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.cs[& [(G@
+%369Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString"EMicrosoft.AspNetCore.Mvc.Localization.IHtmlLocalizer.this[string].get*=
+;
+%354Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer* 
+Deployment package imported.2this[string].getõ
+ò
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.cs[ [(H
+%37void"™OrchardCore.DisplayManagement.Notify.NotifierExtensions.Success(OrchardCore.DisplayManagement.Notify.INotifier, Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString)*;"9
+7OrchardCore.DisplayManagement.Notify.NotifierExtensions*7
+5
+%34.OrchardCore.DisplayManagement.Notify.INotifier*B
+@
+%369Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString*
+13*π
+13°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.cs_ _(=Ñ
+Å
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.cs_ _(>
+%38bool"System.IO.File.Exists(string)*"
+System.IO.File*
+
+tempArchiveNamestring*
+14
+15*µ
+14°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.csa a(=Ñ
+Å
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.csa a(>
+%39void"System.IO.File.Delete(string)*"
+System.IO.File*
+
+tempArchiveNamestring*
+15*≈
+15°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.csd d(:ê
+ç
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.csd d(;
+%40bool""System.IO.Directory.Exists(string)*"
+System.IO.Directory*
+
+tempArchiveFolderstring*
+16
+17*œ
+16°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.csf f(@û
+õ
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.csf f(A
+%41void"(System.IO.Directory.Delete(string, bool)*"
+System.IO.Directory*
+
+tempArchiveFolderstring*
+""*
+17*≤
+17°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.csp	 p(	*
+18
+19*±
+4°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.csl l(@‹
+Ÿ
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.csl l(5
+%42.OrchardCore.DisplayManagement.Notify.INotifier"__id*v*t5
+3OrchardCore.Deployment.Controllers.ImportController";
+	_notifier.OrchardCore.DisplayManagement.Notify.INotifier‡
+›
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.csl  l(!;
+%434Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer"__id*t*r5
+3OrchardCore.Deployment.Controllers.ImportController"9
+H4Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer£†
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.csl  l(A@
+%449Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString"EMicrosoft.AspNetCore.Mvc.Localization.IHtmlLocalizer.this[string].get*=
+;
+%434Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer* 
+Please add a file to import.2this[string].getô
+ñ
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.csl l(B
+%45void"®OrchardCore.DisplayManagement.Notify.NotifierExtensions.Error(OrchardCore.DisplayManagement.Notify.INotifier, Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString)*;"9
+7OrchardCore.DisplayManagement.Notify.NotifierExtensions*7
+5
+%42.OrchardCore.DisplayManagement.Notify.INotifier*B
+@
+%449Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString*
+18*¸
+18°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.cso o(1Ì
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.cso o(26
+%46/Microsoft.AspNetCore.Mvc.RedirectToActionResult"@Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToAction(string)*+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*
+""2RedirectToAction(string)"ﬁ
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.cso o(38
+6
+%46/Microsoft.AspNetCore.Mvc.RedirectToActionResult*‰
+19°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.csp	 p(	"π
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.csp p(	
+implicit return*⁄
+20°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.cs6J 6(Jˆ
+Û
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.cs6) 6(/
+%47"__entrypoint*8
+6
+importedPackage#Microsoft.AspNetCore.Http.IFormFile∏
+µ
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.cs5	 5(
+%48"
+__annotate*B@
+>Microsoft.AspNetCore.Mvc.HttpPostAttribute.HttpPostAttribute()*8
+6
+importedPackage#Microsoft.AspNetCore.Http.IFormFileˆ
+Û
+°
+ñD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment\Controllers\ImportController.cs60 6(I6
+importedPackage#Microsoft.AspNetCore.Http.IFormFile"__annotation*
+
+%48*
+0:6
+importedPackage#Microsoft.AspNetCore.Http.IFormFileB75
+3OrchardCore.Deployment.Controllers.ImportController
