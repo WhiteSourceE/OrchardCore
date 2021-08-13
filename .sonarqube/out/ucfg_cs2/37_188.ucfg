@@ -1,127 +1,0 @@
-
-ºOrchardCore.Environment.Extensions.Utility.DependencyOrdering.OrderByDependenciesAndPriorities<T>(System.Collections.Generic.IEnumerable<T>, System.Func<T, T, bool>, System.Func<T, int>)«
- D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Abstractions\Extensions\Utility\DependencyOrderingUtility.cs% (E"0*¬
-0«
- D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Abstractions\Extensions\Utility\DependencyOrderingUtility.cs (&½
-º
-«
- D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Abstractions\Extensions\Utility\DependencyOrderingUtility.cs (C/
-%0)System.Collections.Generic.IEnumerable<T>"System.Linq.Enumerable.Select<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)*"
-System.Linq.Enumerable*4
-2
-items)System.Collections.Generic.IEnumerable<T>*
-""©
-¦
-«
- D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Abstractions\Extensions\Utility\DependencyOrderingUtility.cs (MM
-%1GOrchardCore.Environment.Extensions.Utility.DependencyOrdering.Node<T>[]"XSystem.Linq.Enumerable.ToArray<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
-System.Linq.Enumerable*1
-/
-%0)System.Collections.Generic.IEnumerable<T>Ú
-×
-«
- D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Abstractions\Extensions\Utility\DependencyOrderingUtility.cs (MP
-nodesGOrchardCore.Environment.Extensions.Utility.DependencyOrdering.Node<T>[]"__id*O
-M
-%1GOrchardCore.Environment.Extensions.Utility.DependencyOrdering.Node<T>[]ÿü
-«
- D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Abstractions\Extensions\Utility\DependencyOrderingUtility.cs (&(
-%2"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>”
-‘
-«
- D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Abstractions\Extensions\Utility\DependencyOrderingUtility.cs ($
-
-%3void")System.Collections.Generic.List<T>.List()**
-(
-%2"System.Collections.Generic.List<T>‘
-Ž
-«
- D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Abstractions\Extensions\Utility\DependencyOrderingUtility.cs (&,
-result"System.Collections.Generic.List<T>"__id**
-(
-%2"System.Collections.Generic.List<T>*
-1*¹
-1«
- D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Abstractions\Extensions\Utility\DependencyOrderingUtility.cs%	 %(	*
-2
-3*€
-2«
- D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Abstractions\Extensions\Utility\DependencyOrderingUtility.cs (6Ç
-Ä
-«
- D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Abstractions\Extensions\Utility\DependencyOrderingUtility.cs (7
-
-%4void"¾OrchardCore.Environment.Extensions.Utility.DependencyOrdering.Add<T>(OrchardCore.Environment.Extensions.Utility.DependencyOrdering.Node<T>, System.Collections.Generic.ICollection<T>, System.Collections.Generic.IEnumerable<OrchardCore.Environment.Extensions.Utility.DependencyOrdering.Node<T>>, System.Func<T, T, bool>)*A"?
-=OrchardCore.Environment.Extensions.Utility.DependencyOrdering*O
-M
-nodeEOrchardCore.Environment.Extensions.Utility.DependencyOrdering.Node<T>*.
-,
-result"System.Collections.Generic.List<T>*R
-P
-nodesGOrchardCore.Environment.Extensions.Utility.DependencyOrdering.Node<T>[]*/
--
-hasDependencySystem.Func<T1, T2, TResult>*
-1*„
-3«
- D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Abstractions\Extensions\Utility\DependencyOrderingUtility.cs (Ë
-È
-«
- D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Abstractions\Extensions\Utility\DependencyOrderingUtility.cs (
-indexint"__id*2*
-4*Ö
-4«
- D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Abstractions\Extensions\Utility\DependencyOrderingUtility.cs  (4š
-—
-«
- D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Abstractions\Extensions\Utility\DependencyOrderingUtility.cs( (4	
-%5int",System.Collections.Generic.List<T>.Count.get*.
-,
-result"System.Collections.Generic.List<T>*
-5
-6*À	
-5«
- D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Abstractions\Extensions\Utility\DependencyOrderingUtility.cs! !([À
-½
-«
- D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Abstractions\Extensions\Utility\DependencyOrderingUtility.cs!& !(\	
-%6int"£OrchardCore.Environment.Extensions.Utility.DependencyOrdering.LowestIndex<T>(System.Collections.Generic.List<T>, int, System.Func<T, T, bool>, System.Func<T, int>)*A"?
-=OrchardCore.Environment.Extensions.Utility.DependencyOrdering*.
-,
-result"System.Collections.Generic.List<T>*
-
-indexint*/
--
-hasDependencySystem.Func<T1, T2, TResult>*(
-&
-getPrioritySystem.Func<T, TResult>Ä
-Á
-«
- D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Abstractions\Extensions\Utility\DependencyOrderingUtility.cs! !(]
-
-%7void"uOrchardCore.Environment.Extensions.Utility.DependencyOrdering.MoveUp<T>(System.Collections.Generic.List<T>, int, int)*A"?
-=OrchardCore.Environment.Extensions.Utility.DependencyOrdering*.
-,
-result"System.Collections.Generic.List<T>*
-
-indexint*
-	
-%6int*
-7*¶
-7«
- D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Abstractions\Extensions\Utility\DependencyOrderingUtility.cs6 (=*
-4*’
-6«
- D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Abstractions\Extensions\Utility\DependencyOrderingUtility.cs$ $("Þ
-«
- D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Abstractions\Extensions\Utility\DependencyOrderingUtility.cs$ $(.
-,
-result"System.Collections.Generic.List<T>*÷
-8«
- D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Abstractions\Extensions\Utility\DependencyOrderingUtility.cs%	 %(	"Ã
-«
- D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Abstractions\Extensions\Utility\DependencyOrderingUtility.cs% %(	
-implicit return:2
-items)System.Collections.Generic.IEnumerable<T>:-
-hasDependencySystem.Func<T1, T2, TResult>:&
-getPrioritySystem.Func<T, TResult>BA"?
-=OrchardCore.Environment.Extensions.Utility.DependencyOrdering

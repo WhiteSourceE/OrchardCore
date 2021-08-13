@@ -1,169 +1,0 @@
-
-éOrchardCore.Email.Services.SmtpService.CertificateValidationCallback(object, System.Security.Cryptography.X509Certificates.X509Certificate, System.Security.Cryptography.X509Certificates.X509Chain, System.Net.Security.SslPolicyErrors)–
-‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpService.csž ž(2"0*×
-0–
-‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpService.cs   (7°
-­
-–
-‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpService.cs #  (7
-%0"__id*
-""*
-1
-2*À
-1–
-‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpService.cs¡ ¡("¡
-–
-‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpService.cs¡ ¡(
-""*›
-2–
-‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpService.cs£ ©(T­
-ª
-–
-‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpService.cs£ £(*
-%1$Microsoft.Extensions.Logging.ILogger"__id*]*[(
-&OrchardCore.Email.Services.SmtpService"/
-_logger$Microsoft.Extensions.Logging.ILoggerÑ
-Î
-–
-‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpService.cs£ ¥(M
-%2string"(string.Concat(string?, string?, string?)*
-"
-string*QO
-MSMTP Server's certificate {CertificateSubject} issued by {CertificateIssuer} *\Z
-Xwith thumbprint {CertificateThumbprint} and expiration date {CertificateExpirationDate} *><
-:is considered invalid with {SslPolicyErrors} policy errorsÅ
-Â
-–
-‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpService.cs¦ ¦(#
-%3string"ISystem.Security.Cryptography.X509Certificates.X509Certificate.Subject.get*N
-L
-certificate=System.Security.Cryptography.X509Certificates.X509CertificateÄ
-Á
-–
-‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpService.cs¦% ¦(7
-%4string"HSystem.Security.Cryptography.X509Certificates.X509Certificate.Issuer.get*N
-L
-certificate=System.Security.Cryptography.X509Certificates.X509Certificateâß
-–
-‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpService.cs¦9 ¦(X
-%5string"QSystem.Security.Cryptography.X509Certificates.X509Certificate.GetCertHashString()*N
-L
-certificate=System.Security.Cryptography.X509Certificates.X509Certificate2GetCertHashString()îë
-–
-‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpService.cs§ §(5
-%6string"WSystem.Security.Cryptography.X509Certificates.X509Certificate.GetExpirationDateString()*N
-L
-certificate=System.Security.Cryptography.X509Certificates.X509Certificate2GetExpirationDateString()Ø
-Õ
-–
-‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpService.cs£ §(G
-
-%7void"uMicrosoft.Extensions.Logging.LoggerExtensions.LogError(Microsoft.Extensions.Logging.ILogger, string, params object[])*1"/
--Microsoft.Extensions.Logging.LoggerExtensions*,
-*
-%1$Microsoft.Extensions.Logging.ILogger*
-
-%2string*
-
-%3string*
-
-%4string*
-
-%5string*
-
-%6string*
-""°
-­
-–
-‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpService.cs©( ©(T
-%8"__id*
-""*
-3
-4*¤
-3–
-‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpService.cs©Y ©(^*
-5
-6*”
-6–
-‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpService.cs©_ ©(kð
-í
-–
-‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpService.cs©` ©(kE
-%9?System.Security.Cryptography.X509Certificates.X509ChainStatus[]"GSystem.Security.Cryptography.X509Certificates.X509Chain.ChainStatus.get*B
-@
-chain7System.Security.Cryptography.X509Certificates.X509Chain*
-5*Ñ
-5–
-‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpService.cs©Y ©(sª
-§
-–
-‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpService.cs©Y ©(s
-%10bool""object.operator !=(object, object)*
-"
-object*G
-E
-%9?System.Security.Cryptography.X509Certificates.X509ChainStatus[]*
-""*
-7
-4*•
-7–
-‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpService.cs«, «(=ñ
-î
-–
-‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpService.cs«, «(=F
-%11?System.Security.Cryptography.X509Certificates.X509ChainStatus[]"GSystem.Security.Cryptography.X509Certificates.X509Chain.ChainStatus.get*B
-@
-chain7System.Security.Cryptography.X509Certificates.X509Chain*
-8*¤
-8–
-‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpService.cs²	 ²(	*
-9
-4*»
-9—
-‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpService.cs­ ­(€®
-«
-–
-‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpService.cs­ ­(+
-%12$Microsoft.Extensions.Logging.ILogger"__id*]*[(
-&OrchardCore.Email.Services.SmtpService"/
-_logger$Microsoft.Extensions.Logging.ILogger
-þ
-–
-‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpService.cs­O ­(aI
-%13BSystem.Security.Cryptography.X509Certificates.X509ChainStatusFlags"HSystem.Security.Cryptography.X509Certificates.X509ChainStatus.Status.get*N
-L
-chainStatus=System.Security.Cryptography.X509Certificates.X509ChainStatusÑ
-Î
-—
-‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpService.cs­c ­(€
-%14string"SSystem.Security.Cryptography.X509Certificates.X509ChainStatus.StatusInformation.get*N
-L
-chainStatus=System.Security.Cryptography.X509Certificates.X509ChainStatus
-Š
-—
-‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpService.cs­ ­(
-%15void"uMicrosoft.Extensions.Logging.LoggerExtensions.LogError(Microsoft.Extensions.Logging.ILogger, string, params object[])*1"/
--Microsoft.Extensions.Logging.LoggerExtensions*-
-+
-%12$Microsoft.Extensions.Logging.ILogger**(
-&Status: {Status} - {StatusInformation}*K
-I
-%13BSystem.Security.Cryptography.X509Certificates.X509ChainStatusFlags*
-
-%14string*
-8*À
-4–
-‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpService.cs± ±("¡
-–
-‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpService.cs± ±(
-""*Î
-10–
-‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpService.cs²	 ²(	"®
-–
-‰D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpService.cs² ²(	
-implicit return:
-senderobject:L
-certificate=System.Security.Cryptography.X509Certificates.X509Certificate:@
-chain7System.Security.Cryptography.X509Certificates.X509Chain:6
-sslPolicyErrors#System.Net.Security.SslPolicyErrorsB*(
-&OrchardCore.Email.Services.SmtpService

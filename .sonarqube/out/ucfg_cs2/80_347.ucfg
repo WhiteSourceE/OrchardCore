@@ -1,75 +1,0 @@
-
-ŽOrchardCore.OpenId.YesSql.Stores.OpenIdAuthorizationStore<TAuthorization>.FindByApplicationIdAsync(string, System.Threading.CancellationToken)¦
-™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.cs¤8 ¤(P"0*²
-0¦
-™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.cs§ §(/û
-ø
-¦
-™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.cs§ §(0
-
-%0bool"string.IsNullOrEmpty(string?)*
-"
-string*
-
-
-identifierstring*
-1
-2*ê
-1¦
-™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.cs© ©(iæã
-¦
-™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.cs© ©(j
-%1System.ArgumentException"System.ArgumentExceptionÍ
-Ê
-¦
-™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.cs© ©(+
-
-%2void"<System.ArgumentException.ArgumentException(string?, string?)* 
-
-%1System.ArgumentException*+)
-'The identifier cannot be null or empty.*
-""*
-3*é
-2¦
-™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.cs¬ ¯(:¶
-³
-¦
-™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.cs¬ ¬(<
-
-%3void"ASystem.Threading.CancellationToken.ThrowIfCancellationRequested()*9
-7
-cancellationToken"System.Threading.CancellationToken·
-´
-¦
-™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.cs® ®(
-%4YesSql.ISession"__id*l*jK
-IOrchardCore.OpenId.YesSql.Stores.OpenIdAuthorizationStore<TAuthorization>"
-_sessionYesSql.ISession¡
-ž
-¦
-™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.cs® ¯(;
-%5YesSql.IQuery<T, TIndex>"…YesSql.QueryExtensions.Query<T, TIndex>(YesSql.ISession, System.Linq.Expressions.Expression<System.Func<TIndex, bool>>, bool, string)*"
-YesSql.QueryExtensions*
-
-%4YesSql.ISession*
-""*
-""*
-""¿¼
-¦
-™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.cs® ¯(O4
-%6.System.Collections.Generic.IAsyncEnumerable<T>"$YesSql.IQuery<T>.ToAsyncEnumerable()* 
-
-%5YesSql.IQuery<T, TIndex>2ToAsyncEnumerable()"á
-¦
-™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.cs® ¯(P6
-4
-%6.System.Collections.Generic.IAsyncEnumerable<T>*í
-3¦
-™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.cs°	 °(	"¾
-¦
-™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.cs° °(	
-implicit return:
-
-identifierstring:7
-cancellationToken"System.Threading.CancellationTokenBMK
-IOrchardCore.OpenId.YesSql.Stores.OpenIdAuthorizationStore<TAuthorization>

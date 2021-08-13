@@ -1,163 +1,0 @@
-
-»Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseOrchardCore(Microsoft.AspNetCore.Builder.IApplicationBuilder, System.Action<Microsoft.AspNetCore.Builder.IApplicationBuilder>)¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ApplicationBuilderExtensions.cs* (8"0*­9
-0¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ApplicationBuilderExtensions.cs "(äá
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ApplicationBuilderExtensions.cs (-
-%0System.IServiceProvider"HMicrosoft.AspNetCore.Builder.IApplicationBuilder.ApplicationServices.get*9
-7
-app0Microsoft.AspNetCore.Builder.IApplicationBuilder2ApplicationServices.getÆ
-Ã
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ApplicationBuilderExtensions.cs (T3
-%1-Microsoft.Extensions.Hosting.IHostEnvironment"xMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<T>(System.IServiceProvider)*M"K
-IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*
-
-%0System.IServiceProviderš
-—
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ApplicationBuilderExtensions.cs (T4
-env-Microsoft.Extensions.Hosting.IHostEnvironment"__id*5
-3
-%1-Microsoft.Extensions.Hosting.IHostEnvironmentäá
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ApplicationBuilderExtensions.cs (4
-%2System.IServiceProvider"HMicrosoft.AspNetCore.Builder.IApplicationBuilder.ApplicationServices.get*9
-7
-app0Microsoft.AspNetCore.Builder.IApplicationBuilder2ApplicationServices.getÀ
-½
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ApplicationBuilderExtensions.cs (^-
-%3'OrchardCore.Modules.IApplicationContext"xMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<T>(System.IServiceProvider)*M"K
-IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*
-
-%2System.IServiceProvider•
-’
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ApplicationBuilderExtensions.cs (^5
-
-appContext'OrchardCore.Modules.IApplicationContext"__id*/
--
-%3'OrchardCore.Modules.IApplicationContextŠ
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ApplicationBuilderExtensions.cs (:4
-%4.OrchardCore.Modules.ModuleEmbeddedFileProvider".OrchardCore.Modules.ModuleEmbeddedFileProvider˜
-•
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ApplicationBuilderExtensions.cs (.
-
-%5void"rOrchardCore.Modules.ModuleEmbeddedFileProvider.ModuleEmbeddedFileProvider(OrchardCore.Modules.IApplicationContext)*6
-4
-%4.OrchardCore.Modules.ModuleEmbeddedFileProvider*7
-5
-
-appContext'OrchardCore.Modules.IApplicationContextÿü
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ApplicationBuilderExtensions.cs (+6
-%60Microsoft.Extensions.FileProviders.IFileProvider"IMicrosoft.Extensions.Hosting.IHostEnvironment.ContentRootFileProvider.get*6
-4
-env-Microsoft.Extensions.Hosting.IHostEnvironment2ContentRootFileProvider.get¡ž
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ApplicationBuilderExtensions.cs* (,>
-%78Microsoft.Extensions.FileProviders.CompositeFileProvider"8Microsoft.Extensions.FileProviders.CompositeFileProvideró
-ð
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ApplicationBuilderExtensions.cs. (C
-
-%8void"‰Microsoft.Extensions.FileProviders.CompositeFileProvider.CompositeFileProvider(params Microsoft.Extensions.FileProviders.IFileProvider[])*@
->
-%78Microsoft.Extensions.FileProviders.CompositeFileProvider*6
-4
-%4.OrchardCore.Modules.ModuleEmbeddedFileProvider*8
-6
-%60Microsoft.Extensions.FileProviders.IFileProviderÁ¾
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ApplicationBuilderExtensions.cs (,6
-%90Microsoft.Extensions.FileProviders.IFileProvider"IMicrosoft.Extensions.Hosting.IHostEnvironment.ContentRootFileProvider.set*6
-4
-env-Microsoft.Extensions.Hosting.IHostEnvironment*@
->
-%78Microsoft.Extensions.FileProviders.CompositeFileProvider2ContentRootFileProvider.setåâ
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ApplicationBuilderExtensions.cs (#
-%10System.IServiceProvider"HMicrosoft.AspNetCore.Builder.IApplicationBuilder.ApplicationServices.get*9
-7
-app0Microsoft.AspNetCore.Builder.IApplicationBuilder2ApplicationServices.getË
-È
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ApplicationBuilderExtensions.cs (M7
-%110Microsoft.AspNetCore.Hosting.IWebHostEnvironment"xMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<T>(System.IServiceProvider)*M"K
-IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions* 
-
-%10System.IServiceProvider€ý
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ApplicationBuilderExtensions.cs+ (F7
-%120Microsoft.Extensions.FileProviders.IFileProvider"IMicrosoft.Extensions.Hosting.IHostEnvironment.ContentRootFileProvider.get*6
-4
-env-Microsoft.Extensions.Hosting.IHostEnvironment2ContentRootFileProvider.get¾»
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ApplicationBuilderExtensions.cs (F7
-%130Microsoft.Extensions.FileProviders.IFileProvider"IMicrosoft.Extensions.Hosting.IHostEnvironment.ContentRootFileProvider.set*9
-7
-%110Microsoft.AspNetCore.Hosting.IWebHostEnvironment*9
-7
-%120Microsoft.Extensions.FileProviders.IFileProvider2ContentRootFileProvider.setò
-ï
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ApplicationBuilderExtensions.cs (47
-%140Microsoft.AspNetCore.Builder.IApplicationBuilder"’Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.UseMiddleware<TMiddleware>(Microsoft.AspNetCore.Builder.IApplicationBuilder, params object[])*8"6
-4Microsoft.AspNetCore.Builder.UseMiddlewareExtensions*9
-7
-app0Microsoft.AspNetCore.Builder.IApplicationBuilder*
-""ò
-ï
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ApplicationBuilderExtensions.cs   (A7
-%150Microsoft.AspNetCore.Builder.IApplicationBuilder"’Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.UseMiddleware<TMiddleware>(Microsoft.AspNetCore.Builder.IApplicationBuilder, params object[])*8"6
-4Microsoft.AspNetCore.Builder.UseMiddlewareExtensions*9
-7
-app0Microsoft.AspNetCore.Builder.IApplicationBuilder*
-""*
-1
-2*Û
-2¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ApplicationBuilderExtensions.cs" "(!¬
-©
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ApplicationBuilderExtensions.cs" "("
-%16void"System.Action<T>.Invoke(T)*
-
-	configureSystem.Action<T>*9
-7
-app0Microsoft.AspNetCore.Builder.IApplicationBuilder*
-1*²
-
-1¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ApplicationBuilderExtensions.cs$ &(ùö
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ApplicationBuilderExtensions.cs$= $(O<
-%175Microsoft.AspNetCore.Http.Features.IFeatureCollection"CMicrosoft.AspNetCore.Builder.IApplicationBuilder.ServerFeatures.get*9
-7
-app0Microsoft.AspNetCore.Builder.IApplicationBuilder2ServerFeatures.getª
-§
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ApplicationBuilderExtensions.cs$ $(P7
-%180Microsoft.AspNetCore.Builder.IApplicationBuilder"’Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.UseMiddleware<TMiddleware>(Microsoft.AspNetCore.Builder.IApplicationBuilder, params object[])*8"6
-4Microsoft.AspNetCore.Builder.UseMiddlewareExtensions*9
-7
-app0Microsoft.AspNetCore.Builder.IApplicationBuilder*>
-<
-%175Microsoft.AspNetCore.Http.Features.IFeatureCollection"ß
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ApplicationBuilderExtensions.cs& &(9
-7
-app0Microsoft.AspNetCore.Builder.IApplicationBuilder*ã
-3¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ApplicationBuilderExtensions.cs'	 '(	"¹
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Extensions\ApplicationBuilderExtensions.cs' '(	
-implicit return:7
-app0Microsoft.AspNetCore.Builder.IApplicationBuilder:
-	configureSystem.Action<T>B=";
-9Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions

@@ -1,191 +1,0 @@
-
-0OrchardCore.Layers.Migrations.UpdateFrom2Async()ã
-ÄD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Migrations.cs; ;(/"0*Ñ
-
-0ã
-ÄD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Migrations.cs= >(/©
-¶
-ã
-ÄD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Migrations.cs= =(,/
-%0)OrchardCore.Layers.Services.ILayerService"__id*_*]
-OrchardCore.Layers.Migrations":
-_layerService)OrchardCore.Layers.Services.ILayerService¿Ω
-ã
-ÄD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Migrations.cs= =(>*
-%1$System.Threading.Tasks.Task<TResult>";OrchardCore.Layers.Services.ILayerService.LoadLayersAsync()*1
-/
-%0)OrchardCore.Layers.Services.ILayerService2LoadLayersAsync()”
-–
-ã
-ÄD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Migrations.cs= =(>2
-layers(OrchardCore.Layers.Models.LayersDocument"__id*
-""¶
-£
-ã
-ÄD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Migrations.cs>" >(/(
-%2"System.Collections.Generic.List<T>"3OrchardCore.Layers.Models.LayersDocument.Layers.get*4
-2
-layers(OrchardCore.Layers.Models.LayersDocument*
-1*ô
-1ã
-ÄD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Migrations.csQ	 Q(	*
-2
-3*ˇ
-2ã
-ÄD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Migrations.cs@ F()«ƒ
-ã
-ÄD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Migrations.cs@" @(,
-%3OrchardCore.Rules.Rule"OrchardCore.Rules.Rule‹
-Ÿ
-ã
-ÄD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Migrations.cs@& @(*
-
-%4void"OrchardCore.Rules.Rule.Rule()*
-
-%3OrchardCore.Rules.Rule™
-ß
-ã
-ÄD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Migrations.cs@ @(,
-%5OrchardCore.Rules.Rule"-OrchardCore.Layers.Models.Layer.LayerRule.set**
-(
-layerOrchardCore.Layers.Models.Layer*
-
-%3OrchardCore.Rules.Rule≠
-™
-ã
-ÄD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Migrations.csA A(%-
-%6'OrchardCore.Rules.IConditionIdGenerator"__id*e*c
-OrchardCore.Layers.Migrations"@
-_conditionIdGenerator'OrchardCore.Rules.IConditionIdGeneratorä
-á
-ã
-ÄD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Migrations.csA7 A(F
-%7OrchardCore.Rules.Rule"-OrchardCore.Layers.Models.Layer.LayerRule.get**
-(
-layerOrchardCore.Layers.Models.LayerÙÒ
-ã
-ÄD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Migrations.csA A(G
-
-%8void"UOrchardCore.Rules.IConditionIdGenerator.GenerateUniqueId(OrchardCore.Rules.Condition)*/
--
-%6'OrchardCore.Rules.IConditionIdGenerator*
-
-%7OrchardCore.Rules.Rule2-GenerateUniqueId(OrchardCore.Rules.Condition)ï
-í
-ã
-ÄD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Migrations.csD D(%
-%9OrchardCore.Rules.IRuleMigrator"__id*U*S
-OrchardCore.Layers.Migrations"0
-_ruleMigratorOrchardCore.Rules.IRuleMigratorˆ
-Û
-ã
-ÄD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Migrations.csD& D(0
-%10string"(OrchardCore.Layers.Models.Layer.Rule.get**
-(
-layerOrchardCore.Layers.Models.Layerã
-à
-ã
-ÄD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Migrations.csD2 D(A
-%11OrchardCore.Rules.Rule"-OrchardCore.Layers.Models.Layer.LayerRule.get**
-(
-layerOrchardCore.Layers.Models.LayerÎË
-ã
-ÄD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Migrations.csD D(B
-%12void"GOrchardCore.Rules.IRuleMigrator.Migrate(string, OrchardCore.Rules.Rule)*'
-%
-%9OrchardCore.Rules.IRuleMigrator*
-
-%10string*
-
-%11OrchardCore.Rules.Rule2'Migrate(string, OrchardCore.Rules.Rule)≈
-¬
-ã
-ÄD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Migrations.csF F()
-%13string"__id**
-string"
-Emptystringá
-Ñ
-ã
-ÄD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Migrations.csF F()
-%14string"(OrchardCore.Layers.Models.Layer.Rule.set**
-(
-layerOrchardCore.Layers.Models.Layer*
-
-%13string*
-1*ì
-3ã
-ÄD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Migrations.csJ P(™
-ß
-ã
-ÄD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Migrations.csJ J(0
-%15)OrchardCore.Layers.Services.ILayerService"__id*_*]
-OrchardCore.Layers.Migrations":
-_layerService)OrchardCore.Layers.Services.ILayerService∑¥
-ã
-ÄD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Migrations.csJ J(3"
-%16System.Threading.Tasks.Task"_OrchardCore.Layers.Services.ILayerService.UpdateAsync(OrchardCore.Layers.Models.LayersDocument)*2
-0
-%15)OrchardCore.Layers.Services.ILayerService*4
-2
-layers(OrchardCore.Layers.Models.LayersDocument25UpdateAsync(OrchardCore.Layers.Models.LayersDocument)Õ
- 
-ã
-ÄD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Migrations.csL L(3>
-%177OrchardCore.Environment.Extensions.ITypeFeatureProvider"__id*t*r
-OrchardCore.Layers.Migrations"O
-_typeFeatureProvider7OrchardCore.Environment.Extensions.ITypeFeatureProvider√
-¿
-ã
-ÄD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Migrations.csLL L(U
-%18System.Type"object.GetType()*
-
-objectÆ´
-ã
-ÄD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Migrations.csL L(V?
-%198OrchardCore.Environment.Extensions.Features.IFeatureInfo"\OrchardCore.Environment.Extensions.ITypeFeatureProvider.GetFeatureForDependency(System.Type)*@
->
-%177OrchardCore.Environment.Extensions.ITypeFeatureProvider*
-
-%18System.Type2$GetFeatureForDependency(System.Type)§
-°
-ã
-ÄD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Migrations.csL L(VH
-layerFeature8OrchardCore.Environment.Extensions.Features.IFeatureInfo"__id*A
-?
-%198OrchardCore.Environment.Extensions.Features.IFeatureInfo∆
-√
-ã
-ÄD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Migrations.csN N(':
-%203OrchardCore.Environment.Shell.IShellFeaturesManager"__id*q*o
-OrchardCore.Layers.Migrations"L
-_shellFeaturesManager3OrchardCore.Environment.Shell.IShellFeaturesManagerêç
-ã
-ÄD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Migrations.csN< N(RA
-%21:OrchardCore.Environment.Extensions.Features.IFeatureInfo[]":OrchardCore.Environment.Extensions.Features.IFeatureInfo[]π
-∂
-ã
-ÄD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Migrations.csNB N(R
-%22"
-__arraySet*C
-A
-%21:OrchardCore.Environment.Extensions.Features.IFeatureInfo[]*2 *J
-H
-layerFeature8OrchardCore.Environment.Extensions.Features.IFeatureInfo˚
-¯
-ã
-ÄD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Migrations.csN N(`+
-%23$System.Threading.Tasks.Task<TResult>"ÌOrchardCore.Environment.Shell.ShellFeaturesManagerExtensions.EnableFeaturesAsync(OrchardCore.Environment.Shell.IShellFeaturesManager, System.Collections.Generic.IEnumerable<OrchardCore.Environment.Extensions.Features.IFeatureInfo>, bool)*@">
-<OrchardCore.Environment.Shell.ShellFeaturesManagerExtensions*<
-:
-%203OrchardCore.Environment.Shell.IShellFeaturesManager*C
-A
-%21:OrchardCore.Environment.Extensions.Features.IFeatureInfo[]*
-"""î
-ã
-ÄD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Migrations.csP P(2*∑
-4ã
-ÄD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Migrations.csQ	 Q(	"£
-ã
-ÄD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Migrations.csQ Q(	
-implicit returnB!
-OrchardCore.Layers.Migrations

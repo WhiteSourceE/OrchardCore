@@ -1,63 +1,0 @@
-
-œOrchardCore.Modules.InvokeExtensions.InvokeAsync<TEvents, T1>(System.Collections.Generic.IEnumerable<TEvents>, System.Func<TEvents, T1, System.Threading.Tasks.Task>, T1, Microsoft.Extensions.Logging.ILogger)¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Abstractions\Modules\Extensions\InvokeExtensions.cs! (,"0*Ø
-0§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Abstractions\Modules\Extensions\InvokeExtensions.csÅ! Å('*
-1*≤
-1§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Abstractions\Modules\Extensions\InvokeExtensions.cså	 å(	*
-2
-3*Ú
-2§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Abstractions\Modules\Extensions\InvokeExtensions.csÖ Ö(-Ω
-∫
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Abstractions\Modules\Extensions\InvokeExtensions.csÖ Ö(.!
-%0System.Threading.Tasks.Task"+System.Func<T1, T2, TResult>.Invoke(T1, T2)* 
-System.Func<T1, T2, TResult>*
-
-sinkTEvents*
-
-
-arg1T1*
-4
-1*√
-4§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Abstractions\Modules\Extensions\InvokeExtensions.csâ â(]‚
-ﬂ
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Abstractions\Modules\Extensions\InvokeExtensions.csâF â(T
-%1System.Type"object.GetType()*
-
-sinkTEventsÁ
-‰
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Abstractions\Modules\Extensions\InvokeExtensions.csâF â(]
-%2string"System.Type.FullName.get*
-
-%1System.Type¬
-ø
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Abstractions\Modules\Extensions\InvokeExtensions.csâ â(^
-
-%3void"|OrchardCore.Modules.InvokeExtensions.HandleException(System.Exception, Microsoft.Extensions.Logging.ILogger, string, string)*("&
-$OrchardCore.Modules.InvokeExtensions*
-
-exSystem.Exception*0
-.
-logger$Microsoft.Extensions.Logging.ILogger*
-""*
-
-%2string*
-1*È
-3§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Abstractions\Modules\Extensions\InvokeExtensions.cså	 å(	"º
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Abstractions\Modules\Extensions\InvokeExtensions.cså å(	
-implicit return:3
-events)System.Collections.Generic.IEnumerable<T>:(
-dispatchSystem.Func<T1, T2, TResult>:
-
-arg1T1:.
-logger$Microsoft.Extensions.Logging.ILoggerB("&
-$OrchardCore.Modules.InvokeExtensions

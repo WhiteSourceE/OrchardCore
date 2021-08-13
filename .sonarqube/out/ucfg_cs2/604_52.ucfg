@@ -1,254 +1,0 @@
-
-ŸOrchardCore.Lucene.Controllers.SearchController.SearchController(Microsoft.AspNetCore.Authorization.IAuthorizationService, OrchardCore.Settings.ISiteService, OrchardCore.Lucene.LuceneIndexManager, OrchardCore.Lucene.LuceneIndexingService, OrchardCore.Lucene.LuceneIndexSettingsService, OrchardCore.Lucene.Services.LuceneAnalyzerManager, OrchardCore.Lucene.Services.ISearchQueryService, YesSql.ISession, Microsoft.Extensions.Localization.IStringLocalizer<OrchardCore.Lucene.Controllers.SearchController>, System.Collections.Generic.IEnumerable<OrchardCore.Security.Permissions.IPermissionProvider>, OrchardCore.DisplayManagement.IShapeFactory, Microsoft.Extensions.Logging.ILogger<OrchardCore.Lucene.Controllers.SearchController>)ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs) )("3*ì
-1ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csD	 D(	i
-g
-
-%0void"0Microsoft.AspNetCore.Mvc.Controller.Controller()*'%
-#Microsoft.AspNetCore.Mvc.Controller*
-0*û"
-0ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs8 C(Ü
-É
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs8 8(8Ü1
-/OrchardCore.Lucene.Controllers.SearchController"Q
-_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*R
-P
-authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationService≈
-¬
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs9 9(&f1
-/OrchardCore.Lucene.Controllers.SearchController"1
-_siteService!OrchardCore.Settings.ISiteService"__id*2
-0
-siteService!OrchardCore.Settings.ISiteService›
-⁄
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs: :(6r1
-/OrchardCore.Lucene.Controllers.SearchController"=
-_luceneIndexProvider%OrchardCore.Lucene.LuceneIndexManager"__id*>
-<
-luceneIndexProvider%OrchardCore.Lucene.LuceneIndexManagerÁ
-‰
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs; ;(:w1
-/OrchardCore.Lucene.Controllers.SearchController"B
-_luceneIndexingService(OrchardCore.Lucene.LuceneIndexingService"__id*C
-A
-luceneIndexingService(OrchardCore.Lucene.LuceneIndexingService¸
-˘
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs< <(DÅ1
-/OrchardCore.Lucene.Controllers.SearchController"L
-_luceneIndexSettingsService-OrchardCore.Lucene.LuceneIndexSettingsService"__id*M
-K
-luceneIndexSettingsService-OrchardCore.Lucene.LuceneIndexSettingsService˙
-˜
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs= =(:Ä1
-/OrchardCore.Lucene.Controllers.SearchController"K
-_luceneAnalyzerManager1OrchardCore.Lucene.Services.LuceneAnalyzerManager"__id*L
-J
-luceneAnalyzerManager1OrchardCore.Lucene.Services.LuceneAnalyzerManagerÔ
-Ï
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs> >(4{1
-/OrchardCore.Lucene.Controllers.SearchController"F
-_searchQueryService/OrchardCore.Lucene.Services.ISearchQueryService"__id*G
-E
-searchQueryService/OrchardCore.Lucene.Services.ISearchQueryServiceô
-ñ
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs? ?(P1
-/OrchardCore.Lucene.Controllers.SearchController"
-_sessionYesSql.ISession"__id*
-
-sessionYesSql.ISession„
-‡
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs@ @(l1
-/OrchardCore.Lucene.Controllers.SearchController"7
-S2Microsoft.Extensions.Localization.IStringLocalizer"__id*J
-H
-stringLocalizer5Microsoft.Extensions.Localization.IStringLocalizer<T>Â
-‚
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csA A(6v1
-/OrchardCore.Lucene.Controllers.SearchController"A
-_permissionProviders)System.Collections.Generic.IEnumerable<T>"__id*B
-@
-permissionProviders)System.Collections.Generic.IEnumerable<T>≠
-™
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csB B(C1
-/OrchardCore.Lucene.Controllers.SearchController"
-Newdynamic"__id*=
-;
-shapeFactory+OrchardCore.DisplayManagement.IShapeFactory–
-Õ
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csC C(d1
-/OrchardCore.Lucene.Controllers.SearchController"/
-_logger$Microsoft.Extensions.Logging.ILogger"__id*?
-=
-logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>*
-2*€
-2ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csD	 D(	"µ
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.csD D(	
-implicit return*Ö5
-3ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs6 6(ó
-î
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs) )(d
-<
-luceneIndexProvider%OrchardCore.Lucene.LuceneIndexManager"$
-_clockOrchardCore.Modules.IClock"__entrypoint¢
-ü
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs) )(o
-<
-luceneIndexProvider%OrchardCore.Lucene.LuceneIndexManager"/
-_logger$Microsoft.Extensions.Logging.ILogger"__entrypointÜ
-É
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs) )(S
-<
-luceneIndexProvider%OrchardCore.Lucene.LuceneIndexManager"
-	_rootPathstring"__entrypoint√
-¿
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs) )(è
-<
-luceneIndexProvider%OrchardCore.Lucene.LuceneIndexManager"O
-_indexPools@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>"__entrypoint¿
-Ω
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs) )(å
-<
-luceneIndexProvider%OrchardCore.Lucene.LuceneIndexManager"L
-_writers@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>"__entrypoint√
-¿
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs) )(è
-<
-luceneIndexProvider%OrchardCore.Lucene.LuceneIndexManager"O
-_timestamps@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>"__entrypointø
-º
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs) )(ã
-<
-luceneIndexProvider%OrchardCore.Lucene.LuceneIndexManager"K
-_luceneAnalyzerManager1OrchardCore.Lucene.Services.LuceneAnalyzerManager"__entrypoint¿
-Ω
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs) )(å
-<
-luceneIndexProvider%OrchardCore.Lucene.LuceneIndexManager"L
-_luceneIndexSettingsService-OrchardCore.Lucene.LuceneIndexSettingsService"__entrypointÖ
-Ç
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs) )(R
-<
-luceneIndexProvider%OrchardCore.Lucene.LuceneIndexManager"
-_synLockobject"__entrypointÆ
-´
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs) )({
-A
-luceneIndexingService(OrchardCore.Lucene.LuceneIndexingService"6
-
-_shellHost(OrchardCore.Environment.Shell.IShellHost"__entrypoint∂
-≥
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs) )(Ç
-A
-luceneIndexingService(OrchardCore.Lucene.LuceneIndexingService"=
-_shellSettings+OrchardCore.Environment.Shell.ShellSettings"__entrypoint∞
-≠
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs) )(}
-A
-luceneIndexingService(OrchardCore.Lucene.LuceneIndexingService"8
-_indexingState&OrchardCore.Lucene.LuceneIndexingState"__entrypoint≈
-¬
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs) )(ë
-A
-luceneIndexingService(OrchardCore.Lucene.LuceneIndexingService"L
-_luceneIndexSettingsService-OrchardCore.Lucene.LuceneIndexSettingsService"__entrypointÆ
-´
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs) )({
-A
-luceneIndexingService(OrchardCore.Lucene.LuceneIndexingService"6
-_indexManager%OrchardCore.Lucene.LuceneIndexManager"__entrypoint∫
-∑
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs) )(Ü
-A
-luceneIndexingService(OrchardCore.Lucene.LuceneIndexingService"A
-_indexingTaskManager)OrchardCore.Indexing.IIndexingTaskManager"__entrypoint©
-¶
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs) )(v
-A
-luceneIndexingService(OrchardCore.Lucene.LuceneIndexingService"1
-_siteService!OrchardCore.Settings.ISiteService"__entrypointß
-§
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs) )(t
-A
-luceneIndexingService(OrchardCore.Lucene.LuceneIndexingService"/
-_logger$Microsoft.Extensions.Logging.ILogger"__entrypoint«
-ƒ
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs) )(ì
-K
-luceneIndexSettingsService-OrchardCore.Lucene.LuceneIndexSettingsService"D
-DocumentManager1OrchardCore.Documents.IDocumentManager<TDocument>"__entrypoint√
-¿
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs) )(è
-J
-luceneAnalyzerManager1OrchardCore.Lucene.Services.LuceneAnalyzerManager"A
-
-_analyzers3System.Collections.Generic.Dictionary<TKey, TValue>"__entrypointÄ
-˝
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs) )(M
-;
-shapeFactory+OrchardCore.DisplayManagement.IShapeFactory"
-Newdynamic"__entrypoint˙
-˜
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\SearchController.cs) )(
-%1"__entrypoint*R
-P
-authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationService*
-
-sessionYesSql.ISession*J
-H
-stringLocalizer5Microsoft.Extensions.Localization.IStringLocalizer<T>*B
-@
-permissionProviders)System.Collections.Generic.IEnumerable<T>*?
-=
-logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>*
-1:P
-authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationService:0
-siteService!OrchardCore.Settings.ISiteService:<
-luceneIndexProvider%OrchardCore.Lucene.LuceneIndexManager:A
-luceneIndexingService(OrchardCore.Lucene.LuceneIndexingService:K
-luceneIndexSettingsService-OrchardCore.Lucene.LuceneIndexSettingsService:J
-luceneAnalyzerManager1OrchardCore.Lucene.Services.LuceneAnalyzerManager:E
-searchQueryService/OrchardCore.Lucene.Services.ISearchQueryService:
-sessionYesSql.ISession:H
-stringLocalizer5Microsoft.Extensions.Localization.IStringLocalizer<T>:@
-permissionProviders)System.Collections.Generic.IEnumerable<T>:;
-shapeFactory+OrchardCore.DisplayManagement.IShapeFactory:=
-logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>B31
-/OrchardCore.Lucene.Controllers.SearchController

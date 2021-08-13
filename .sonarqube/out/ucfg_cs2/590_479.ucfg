@@ -1,145 +1,0 @@
-
-#!razor_component_DisplayContentItem±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\ViewComponents\DisplayContentItemViewComponent.cs0 (;"0*⁄
-0±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\ViewComponents\DisplayContentItemViewComponent.cs (%ˇ
-¸
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\ViewComponents\DisplayContentItemViewComponent.cs (*8
-contentItem)OrchardCore.ContentManagement.ContentItem"__id*
-""ñ
-ì
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\ViewComponents\DisplayContentItemViewComponent.cs (%
-
-%0bool""string.operator !=(string, string)*
-"
-string*
-
-contentItemIdstring*
-""*
-1
-2*Ã	
-1±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\ViewComponents\DisplayContentItemViewComponent.cs   (JÅ
-˛
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\ViewComponents\DisplayContentItemViewComponent.cs $  (33
-%1-OrchardCore.ContentManagement.IContentManager"__id*å*âE
-COrchardCore.Contents.ViewComponents.DisplayContentItemViewComponent"@
-_contentManager-OrchardCore.ContentManagement.IContentManageráÑ
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\ViewComponents\DisplayContentItemViewComponent.cs $  (K*
-%2$System.Threading.Tasks.Task<TResult>">OrchardCore.ContentManagement.IContentManager.GetAsync(string)*5
-3
-%1-OrchardCore.ContentManagement.IContentManager*
-
-contentItemIdstring2GetAsync(string)ˇ
-¸
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\ViewComponents\DisplayContentItemViewComponent.cs   (K8
-contentItem)OrchardCore.ContentManagement.ContentItem"__id*
-""*
-2*˘
-2±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\ViewComponents\DisplayContentItemViewComponent.cs# #(#∑
-¥
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\ViewComponents\DisplayContentItemViewComponent.cs# #(#
-
-%3bool""object.operator ==(object, object)*
-"
-object*:
-8
-contentItem)OrchardCore.ContentManagement.ContentItem*
-""*
-3
-4*È
-3±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\ViewComponents\DisplayContentItemViewComponent.cs% %(DÒÓ
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\ViewComponents\DisplayContentItemViewComponent.cs% %(E
-%4System.ArgumentException"System.ArgumentException∂
-≥
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\ViewComponents\DisplayContentItemViewComponent.cs% %(+
-
-%5void"3System.ArgumentException.ArgumentException(string?)* 
-
-%4System.ArgumentException*
-Content item not found*
-5*ó
-4±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\ViewComponents\DisplayContentItemViewComponent.cs( *(≤
-Ø
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\ViewComponents\DisplayContentItemViewComponent.cs( ((8F
-%6@OrchardCore.ContentManagement.Display.IContentItemDisplayManager"__id*™*ßE
-COrchardCore.Contents.ViewComponents.DisplayContentItemViewComponent"^
-_contentItemDisplayManager@OrchardCore.ContentManagement.Display.IContentItemDisplayManager´
-®
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\ViewComponents\DisplayContentItemViewComponent.cs(X ((mE
-%7?OrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessor"__id*§*°E
-COrchardCore.Contents.ViewComponents.DisplayContentItemViewComponent"X
-_modelUpdaterAccessor?OrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessor£†
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\ViewComponents\DisplayContentItemViewComponent.cs(X ((z=
-%87OrchardCore.DisplayManagement.ModelBinding.IUpdateModel"POrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessor.ModelUpdater.get*G
-E
-%7?OrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessor2ModelUpdater.getùö
-≤
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\ViewComponents\DisplayContentItemViewComponent.cs( ((à*
-%9$System.Threading.Tasks.Task<TResult>"∆OrchardCore.ContentManagement.Display.IContentItemDisplayManager.BuildDisplayAsync(OrchardCore.ContentManagement.ContentItem, OrchardCore.DisplayManagement.ModelBinding.IUpdateModel, string, string)*H
-F
-%6@OrchardCore.ContentManagement.Display.IContentItemDisplayManager*:
-8
-contentItem)OrchardCore.ContentManagement.ContentItem*?
-=
-%87OrchardCore.DisplayManagement.ModelBinding.IUpdateModel*
-
-displayTypestring*
-""2ÖBuildDisplayAsync(OrchardCore.ContentManagement.ContentItem, OrchardCore.DisplayManagement.ModelBinding.IUpdateModel, string, string)ı
-Ú
-≤
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\ViewComponents\DisplayContentItemViewComponent.cs( ((à-
-model$OrchardCore.DisplayManagement.IShape"__id*
-""ˆ
-Û
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\ViewComponents\DisplayContentItemViewComponent.cs* *(
-%10void"Gorchardcore.contents/views/shared/components/displaycontentitem/default*
-
-%11*/
--
-model$OrchardCore.DisplayManagement.IShape*
-
-ViewBagDataAllobject*
-
-ViewBagDataHtmlobject*
-
-TempDataAllobject*
-
-TempDataHtmlobject*
-
-HttpContextItemsAllobject* 
-
-HttpContextItemsHtmlobject"√
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\ViewComponents\DisplayContentItemViewComponent.cs* *(
-
-%10void*É
-5±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\ViewComponents\DisplayContentItemViewComponent.cs+	 +(	"…
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\ViewComponents\DisplayContentItemViewComponent.cs+ +(	
-implicit return:
-ViewBagDataAllobject:
-ViewBagDataHtmlobject:
-TempDataAllobject:
-TempDataHtmlobject:
-HttpContextItemsAllobject:
-HttpContextItemsHtmlobject:
-contentItemIdstring:
-displayTypestringBGE
-COrchardCore.Contents.ViewComponents.DisplayContentItemViewComponent

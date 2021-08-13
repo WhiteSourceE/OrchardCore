@@ -1,220 +1,0 @@
-
-QOrchardCore.Users.Controllers.RegistrationController.ConfirmEmail(string, string)¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csr) r(5"9*≥
-0¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.cst t(Ä
-˝
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.cst t(
-
-%0bool""string.operator ==(string, string)*
-"
-string*
-
-userIdstring*
-""*
-1
-2*±
-2¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.cst" t(.˛
-˚
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.cst" t(.
-
-%1bool""string.operator ==(string, string)*
-"
-string*
-
-codestring*
-""*
-1
-3*û
-1¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csv v(_íè
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csv v(`5
-%2/Microsoft.AspNetCore.Mvc.RedirectToActionResult"HMicrosoft.AspNetCore.Mvc.ControllerBase.RedirectToAction(string, string)*+)
-'Microsoft.AspNetCore.Mvc.ControllerBase*
-""*
-Registration2 RedirectToAction(string, string)"ﬁ
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csv v(a7
-5
-%2/Microsoft.AspNetCore.Mvc.RedirectToActionResult*á
-3¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csy {(‰
-·
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csy y()6
-%30Microsoft.AspNetCore.Identity.UserManager<TUser>"__id*|*z6
-4OrchardCore.Users.Controllers.RegistrationController"@
-_userManager0Microsoft.AspNetCore.Identity.UserManager<TUser>Å˛
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csy y(?*
-%4$System.Threading.Tasks.Task<TResult>"FMicrosoft.AspNetCore.Identity.UserManager<TUser>.FindByIdAsync(string)*8
-6
-%30Microsoft.AspNetCore.Identity.UserManager<TUser>*
-
-userIdstring2FindByIdAsync(string)◊
-‘
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csy y(?
-userOrchardCore.Users.IUser"__id*
-""è
-å
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.cs{ {(
-
-%5bool""object.operator ==(object, object)*
-"
-object*!
-
-userOrchardCore.Users.IUser*
-""*
-4
-5*»
-4¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.cs} }(!ƒ¡
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.cs} }(!-
-%6'Microsoft.AspNetCore.Mvc.NotFoundResult"2Microsoft.AspNetCore.Mvc.ControllerBase.NotFound()*+)
-'Microsoft.AspNetCore.Mvc.ControllerBase2
-NotFound()"÷
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.cs} }("/
--
-%6'Microsoft.AspNetCore.Mvc.NotFoundResult*˙
-5§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csÄ Ç( Ê
-„
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csÄ Ä(+6
-%70Microsoft.AspNetCore.Identity.UserManager<TUser>"__id*|*z6
-4OrchardCore.Users.Controllers.RegistrationController"@
-_userManager0Microsoft.AspNetCore.Identity.UserManager<TUser>∫∑
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csÄ Ä(I*
-%8$System.Threading.Tasks.Task<TResult>"QMicrosoft.AspNetCore.Identity.UserManager<TUser>.ConfirmEmailAsync(TUser, string)*8
-6
-%70Microsoft.AspNetCore.Identity.UserManager<TUser>*!
-
-userOrchardCore.Users.IUser*
-
-codestring2 ConfirmEmailAsync(TUser, string)
-Ì
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csÄ Ä(I6
-result,Microsoft.AspNetCore.Identity.IdentityResult"__id*
-""¨
-©
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csÇ Ç( 
-
-%9bool":Microsoft.AspNetCore.Identity.IdentityResult.Succeeded.get*8
-6
-result,Microsoft.AspNetCore.Identity.IdentityResult*
-6
-7*ù
-6§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csÑ Ñ(∑
-¥
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csÑ Ñ(
-%10void"1orchardcore.users/views/registration/confirmemail*
-
-%11*
-	{unknown}*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject* 
-
-%HttpContextItemsAllobject*!
-
-%HttpContextItemsHtmlobject"∂
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csÑ Ñ(
-
-%10void*–
-7§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csá á(«ƒ
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csá á(.
-%12'Microsoft.AspNetCore.Mvc.NotFoundResult"2Microsoft.AspNetCore.Mvc.ControllerBase.NotFound()*+)
-'Microsoft.AspNetCore.Mvc.ControllerBase2
-NotFound()"Ÿ
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csá á(0
-.
-%12'Microsoft.AspNetCore.Mvc.NotFoundResult*È
-8§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csà	 à(	"º
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csà à(	
-implicit return*«
-9¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csrQ r(Q„
-‡
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csr) r(5
-%13"__entrypoint*
-
-userIdstring*
-
-codestringë
-é
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csp	 p(
-%14"
-__annotate*@>
-<Microsoft.AspNetCore.Mvc.HttpGetAttribute.HttpGetAttribute()*
-
-userIdstring©
-¶
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csq	 q(
-%15"
-__annotate*XV
-TMicrosoft.AspNetCore.Authorization.AllowAnonymousAttribute.AllowAnonymousAttribute()*
-
-userIdstring⁄
-◊
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csr6 r(C
-userIdstring"__annotation*
-
-%14*
-
-%15è
-å
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csp	 p(
-%16"
-__annotate*@>
-<Microsoft.AspNetCore.Mvc.HttpGetAttribute.HttpGetAttribute()*
-
-codestringß
-§
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csq	 q(
-%17"
-__annotate*XV
-TMicrosoft.AspNetCore.Authorization.AllowAnonymousAttribute.AllowAnonymousAttribute()*
-
-codestringÿ
-’
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csrE r(P
-codestring"__annotation*
-
-%16*
-
-%17*
-0:
-userIdstring:
-codestringB86
-4OrchardCore.Users.Controllers.RegistrationController

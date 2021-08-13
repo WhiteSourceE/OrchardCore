@@ -1,8 +1,0 @@
-º
-®D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Index.cshtml.g.csutf-8Î
-ÂD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\obj\Debug\netcoreapp3.1\Razor\Views\Items\ThemesDeploymentStep.Edit.cshtml.g.csutf-8Ñ
-ÅD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\obj\Debug\netcoreapp3.1\Razor\Views\Items\ThemesDeploymentStep.Summary.cshtml.g.csutf-8Ó
-ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\obj\Debug\netcoreapp3.1\Razor\Views\Items\ThemesDeploymentStep.Thumbnail.cshtml.g.csutf-8Ë
-¿D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\obj\Debug\netcoreapp3.1\Razor\Views\NavigationItemText-themes.Id.cshtml.g.csutf-8»
-¯D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.csutf-8Ä
-¸D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Themes\obj\Debug\netcoreapp3.1\OrchardCore.Themes.RazorTargetAssemblyInfo.csutf-8

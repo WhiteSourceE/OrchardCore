@@ -1,106 +1,0 @@
-
-òOrchardCore.Apis.GraphQL.Client.HttpRequestExtensions.PatchAsJsonAsync<T>(System.Net.Http.HttpClient, string, T, Newtonsoft.Json.JsonSerializerSettings)¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpRequestExtensions.cs(0 ((@"0*‡
-0¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpRequestExtensions.cs/ /(;ñ
-ì
-¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpRequestExtensions.cs/3 /(;,
-%1&Newtonsoft.Json.JsonSerializerSettings"__id*4
-2
-settings&Newtonsoft.Json.JsonSerializerSettingsê
-ç
-¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpRequestExtensions.cs/3 /(;,
-%0&Newtonsoft.Json.JsonSerializerSettings"__id*.
-,
-%1&Newtonsoft.Json.JsonSerializerSettings*
-1
-2*Ø
-1¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpRequestExtensions.cs/? /(K’
-“
-¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpRequestExtensions.cs/? /(K,
-%3&Newtonsoft.Json.JsonSerializerSettings"__id*s*q7
-5OrchardCore.Apis.GraphQL.Client.HttpRequestExtensions"6
-JsonSettings&Newtonsoft.Json.JsonSerializerSettingsê
-ç
-¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpRequestExtensions.cs/? /(K,
-%2&Newtonsoft.Json.JsonSerializerSettings"__id*.
-,
-%3&Newtonsoft.Json.JsonSerializerSettingsê
-ç
-¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpRequestExtensions.cs/? /(K,
-%0&Newtonsoft.Json.JsonSerializerSettings"__id*.
-,
-%2&Newtonsoft.Json.JsonSerializerSettings*
-2*˛
-2¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpRequestExtensions.cs. 3(O˜
-Ù
-¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpRequestExtensions.cs/ /(L
-%4string"\Newtonsoft.Json.JsonConvert.SerializeObject(object?, Newtonsoft.Json.JsonSerializerSettings)*"
-Newtonsoft.Json.JsonConvert*
-
-
-valueT*.
-,
-%0&Newtonsoft.Json.JsonSerializerSettingsÅ
-˛
-¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpRequestExtensions.cs0 0(
-%5System.Text.Encoding"System.Text.Encoding.UTF8.get*"
-System.Text.EncodingÌ
-¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpRequestExtensions.cs. 1(##
-%6System.Net.Http.StringContent"System.Net.Http.StringContent¯
-ı
-¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpRequestExtensions.cs. .(+
-
-%7void"SSystem.Net.Http.StringContent.StringContent(string, System.Text.Encoding?, string?)*%
-#
-%6System.Net.Http.StringContent*
-
-%4string*
-
-%5System.Text.Encoding*
-application/jsonÉ
-Ä
-¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpRequestExtensions.cs. 1(#(
-contentSystem.Net.Http.StringContent"__id*%
-#
-%6System.Net.Http.StringContentÉ
-Ä
-¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpRequestExtensions.cs3 3(P*
-%8$System.Threading.Tasks.Task<TResult>"ÅOrchardCore.Apis.GraphQL.Client.HttpRequestExtensions.PatchAsync(System.Net.Http.HttpClient, string, System.Net.Http.HttpContent)*9"7
-5OrchardCore.Apis.GraphQL.Client.HttpRequestExtensions*&
-$
-clientSystem.Net.Http.HttpClient*
-
-
-requestUristring**
-(
-contentSystem.Net.Http.StringContent"◊
-¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpRequestExtensions.cs3 3(Q,
-*
-%8$System.Threading.Tasks.Task<TResult>*Ì
-3¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpRequestExtensions.cs4	 4(	"æ
-¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpRequestExtensions.cs4 4(	
-implicit return:$
-clientSystem.Net.Http.HttpClient:
-
-requestUristring:
-
-valueT:2
-settings&Newtonsoft.Json.JsonSerializerSettingsB9"7
-5OrchardCore.Apis.GraphQL.Client.HttpRequestExtensions

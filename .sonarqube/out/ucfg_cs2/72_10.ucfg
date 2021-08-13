@@ -1,103 +1,0 @@
-
-POrchardCore.FileStorage.FileSystem.FileSystemStore.GetDirectoryInfoAsync(string)ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.FileSystem\FileSystemStore.cs!% !(:"0*˘
-0ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.FileSystem\FileSystemStore.cs# '($¬
-ø
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.FileSystem\FileSystemStore.cs# #(4
-%0string"JOrchardCore.FileStorage.FileSystem.FileSystemStore.GetPhysicalPath(string)*64
-2OrchardCore.FileStorage.FileSystem.FileSystemStore*
-
-pathstringÃ
-…
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.FileSystem\FileSystemStore.cs# #(4
-physicalPathstring"__id*
-
-%0string÷”
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.FileSystem\FileSystemStore.cs%: %(Y
-%1System.IO.DirectoryInfo"System.IO.DirectoryInfoî
-ë
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.FileSystem\FileSystemStore.cs%> %(K
-
-%2void"-System.IO.DirectoryInfo.DirectoryInfo(string)*
-
-%1System.IO.DirectoryInfo*
-
-physicalPathstring™ß
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.FileSystem\FileSystemStore.cs%  %(ZG
-%3AMicrosoft.Extensions.FileProviders.Physical.PhysicalDirectoryInfo"AMicrosoft.Extensions.FileProviders.Physical.PhysicalDirectoryInfoà
-Ö
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.FileSystem\FileSystemStore.cs%$ %(9
-
-%4void"pMicrosoft.Extensions.FileProviders.Physical.PhysicalDirectoryInfo.PhysicalDirectoryInfo(System.IO.DirectoryInfo)*I
-G
-%3AMicrosoft.Extensions.FileProviders.Physical.PhysicalDirectoryInfo*
-
-%1System.IO.DirectoryInfo√
-¿
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.FileSystem\FileSystemStore.cs% %(ZR
-directoryInfoAMicrosoft.Extensions.FileProviders.Physical.PhysicalDirectoryInfo"__id*I
-G
-%3AMicrosoft.Extensions.FileProviders.Physical.PhysicalDirectoryInfoŒ
-À
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.FileSystem\FileSystemStore.cs' '($
-
-%5bool"LMicrosoft.Extensions.FileProviders.Physical.PhysicalDirectoryInfo.Exists.get*T
-R
-directoryInfoAMicrosoft.Extensions.FileProviders.Physical.PhysicalDirectoryInfo*
-1
-2*«
-1ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.FileSystem\FileSystemStore.cs) )(dñì
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.FileSystem\FileSystemStore.cs)8 )(e=
-%67OrchardCore.FileStorage.FileSystem.FileSystemStoreEntry"7OrchardCore.FileStorage.FileSystem.FileSystemStoreEntryÿ
-’
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.FileSystem\FileSystemStore.cs)< )(P
-
-%7void"ÇOrchardCore.FileStorage.FileSystem.FileSystemStoreEntry.FileSystemStoreEntry(string, Microsoft.Extensions.FileProviders.IFileInfo)*?
-=
-%67OrchardCore.FileStorage.FileSystem.FileSystemStoreEntry*
-
-pathstring*T
-R
-directoryInfoAMicrosoft.Extensions.FileProviders.Physical.PhysicalDirectoryInfoÊ
-„
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.FileSystem\FileSystemStore.cs) )(f*
-%8$System.Threading.Tasks.Task<TResult>"8System.Threading.Tasks.Task.FromResult<TResult>(TResult)*"
-System.Threading.Tasks.Task*?
-=
-%67OrchardCore.FileStorage.FileSystem.FileSystemStoreEntry"…
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.FileSystem\FileSystemStore.cs) )(g,
-*
-%8$System.Threading.Tasks.Task<TResult>*ö
-2ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.FileSystem\FileSystemStore.cs, ,(8≠
-™
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.FileSystem\FileSystemStore.cs, ,(9*
-%9$System.Threading.Tasks.Task<TResult>"8System.Threading.Tasks.Task.FromResult<TResult>(TResult)*"
-System.Threading.Tasks.Task*
-"""…
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.FileSystem\FileSystemStore.cs, ,(:,
-*
-%9$System.Threading.Tasks.Task<TResult>*—
-3ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.FileSystem\FileSystemStore.cs-	 -(	"∞
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.FileSystem\FileSystemStore.cs- -(	
-implicit return:
-pathstringB64
-2OrchardCore.FileStorage.FileSystem.FileSystemStore

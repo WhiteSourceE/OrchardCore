@@ -1,102 +1,0 @@
-
-ÕOrchardCore.Contents.Workflows.Drivers.UpdateContentTaskDisplayDriver.EditActivity(OrchardCore.Contents.Workflows.Activities.UpdateContentTask, OrchardCore.Contents.Workflows.ViewModels.UpdateContentTaskViewModel)³
-¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Drivers\UpdateContentTaskDisplayDriver.cs  (,"0*Î)
-0³
-¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Drivers\UpdateContentTaskDisplayDriver.cs (,µ
-²
-³
-¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Drivers\UpdateContentTaskDisplayDriver.cs* (CF
-%0@OrchardCore.ContentManagement.Metadata.IContentDefinitionManager"__id*«*¨G
-EOrchardCore.Contents.Workflows.Drivers.UpdateContentTaskDisplayDriver"]
-_contentDefinitionManager@OrchardCore.ContentManagement.Metadata.IContentDefinitionManager£ 
-³
-¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Drivers\UpdateContentTaskDisplayDriver.cs* (Y/
-%1)System.Collections.Generic.IEnumerable<T>"VOrchardCore.ContentManagement.Metadata.IContentDefinitionManager.ListTypeDefinitions()*H
-F
-%0@OrchardCore.ContentManagement.Metadata.IContentDefinitionManager2ListTypeDefinitions()Â
-¿
-³
-¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Drivers\UpdateContentTaskDisplayDriver.cs* (Y/
-%2)System.Collections.Generic.IEnumerable<T>"System.Linq.Enumerable.Select<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)*"
-System.Linq.Enumerable*1
-/
-%1)System.Collections.Generic.IEnumerable<T>*
-""‹
-ˆ
-³
-¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Drivers\UpdateContentTaskDisplayDriver.cs* ((
-%3"System.Collections.Generic.List<T>"WSystem.Linq.Enumerable.ToList<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
-System.Linq.Enumerable*1
-/
-%2)System.Collections.Generic.IEnumerable<T>Á
-¾
-³
-¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Drivers\UpdateContentTaskDisplayDriver.cs ()
-%4#System.Collections.Generic.IList<T>"^OrchardCore.Contents.Workflows.ViewModels.UpdateContentTaskViewModel.AvailableContentTypes.set*O
-M
-modelDOrchardCore.Contents.Workflows.ViewModels.UpdateContentTaskViewModel**
-(
-%3"System.Collections.Generic.List<T>…
-‚
-³
-¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Drivers\UpdateContentTaskDisplayDriver.cs, (<8
-%52OrchardCore.Workflows.Models.WorkflowExpression<T>"EOrchardCore.Contents.Workflows.Activities.ContentActivity.Content.get*I
-G
-activity;OrchardCore.Contents.Workflows.Activities.UpdateContentTaskÆ
-Ã
-³
-¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Drivers\UpdateContentTaskDisplayDriver.cs, (G
-%6string"AOrchardCore.Workflows.Models.WorkflowExpression<T>.Expression.get*:
-8
-%52OrchardCore.Workflows.Models.WorkflowExpression<T>Š
-‡
-³
-¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Drivers\UpdateContentTaskDisplayDriver.cs (G
-%7string"`OrchardCore.Contents.Workflows.ViewModels.UpdateContentTaskViewModel.ContentItemIdExpression.set*O
-M
-modelDOrchardCore.Contents.Workflows.ViewModels.UpdateContentTaskViewModel*
-
-%6string‘
-Ž
-³
-¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Drivers\UpdateContentTaskDisplayDriver.cs& (@8
-%82OrchardCore.Workflows.Models.WorkflowExpression<T>"QOrchardCore.Contents.Workflows.Activities.UpdateContentTask.ContentProperties.get*I
-G
-activity;OrchardCore.Contents.Workflows.Activities.UpdateContentTaskÆ
-Ã
-³
-¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Drivers\UpdateContentTaskDisplayDriver.cs& (K
-%9string"AOrchardCore.Workflows.Models.WorkflowExpression<T>.Expression.get*:
-8
-%82OrchardCore.Workflows.Models.WorkflowExpression<T>…
-‚
-³
-¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Drivers\UpdateContentTaskDisplayDriver.cs (K
-%10string"ZOrchardCore.Contents.Workflows.ViewModels.UpdateContentTaskViewModel.ContentProperties.set*O
-M
-modelDOrchardCore.Contents.Workflows.ViewModels.UpdateContentTaskViewModel*
-
-%9stringÚ
-×
-³
-¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Drivers\UpdateContentTaskDisplayDriver.cs (,
-%11bool"GOrchardCore.Contents.Workflows.Activities.UpdateContentTask.Publish.get*I
-G
-activity;OrchardCore.Contents.Workflows.Activities.UpdateContentTaskø
-õ
-³
-¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Drivers\UpdateContentTaskDisplayDriver.cs (,
-%12bool"POrchardCore.Contents.Workflows.ViewModels.UpdateContentTaskViewModel.Publish.set*O
-M
-modelDOrchardCore.Contents.Workflows.ViewModels.UpdateContentTaskViewModel*
-
-%11bool*
-1*‡
-1³
-¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Drivers\UpdateContentTaskDisplayDriver.cs	 (	"Ë
-³
-¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Workflows\Drivers\UpdateContentTaskDisplayDriver.cs (	
-implicit return:G
-activity;OrchardCore.Contents.Workflows.Activities.UpdateContentTask:M
-modelDOrchardCore.Contents.Workflows.ViewModels.UpdateContentTaskViewModelBIG
-EOrchardCore.Contents.Workflows.Drivers.UpdateContentTaskDisplayDriver

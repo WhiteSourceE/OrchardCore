@@ -1,312 +1,0 @@
-
-mOrchardCore.Users.Services.UserStore.CreateAsync(OrchardCore.Users.IUser, System.Threading.CancellationToken)è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csB* B(5"0*ú
-0è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csD D(¸
-˘
-è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csD D(
-
-%0bool""object.operator ==(object, object)*
-"
-object*!
-
-userOrchardCore.Users.IUser*
-""*
-1
-2*É
-1è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csF F(<◊‘
-è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csF F(="
-%1System.ArgumentNullException"System.ArgumentNullExceptionå
-â
-è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csF F(/
-
-%2void";System.ArgumentNullException.ArgumentNullException(string?)*$
-"
-%1System.ArgumentNullException*
-""*
-3*à
-2è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csI I(&Ë
-Â
-è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csI I(&(
-newUserOrchardCore.Users.Models.User"__id*!
-
-userOrchardCore.Users.IUser*
-4
-5*ó
-4è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csK K(UœÃ
-è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csK K(V
-%3System.ArgumentException"System.ArgumentException®
-•
-è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csK K(+
-
-%4void"<System.ArgumentException.ArgumentException(string?, string?)* 
-
-%3System.ArgumentException*
-Expected a User instance.*
-""*
-3*¬
-5è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csN P(.˘
-ˆ
-è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csN N(*
-%5string"(OrchardCore.Users.Models.User.UserId.get**
-(
-newUserOrchardCore.Users.Models.User¿
-Ω
-è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csN N(*
-	newUserIdstring"__id*
-
-%5string„
-‡
-è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csP P(/
-
-%6bool"string.IsNullOrEmpty(string?)*
-"
-string*
-
-	newUserIdstring*
-6
-7*Ï	
-6è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csS S(Bª
-∏
-è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csS S(,1
-%7+OrchardCore.Users.Services.IUserIdGenerator"__id*k*i&
-$OrchardCore.Users.Services.UserStore"?
-_userIdGenerator+OrchardCore.Users.Services.IUserIdGenerator˝˙
-è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csS S(C
-%8string"UOrchardCore.Users.Services.IUserIdGenerator.GenerateUniqueId(OrchardCore.Users.IUser)*3
-1
-%7+OrchardCore.Users.Services.IUserIdGenerator*!
-
-userOrchardCore.Users.IUser2)GenerateUniqueId(OrchardCore.Users.IUser)Œ
-À
-è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csS S(V
-%9string"string.ToLowerInvariant()*
-
-%8string¿
-Ω
-è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csS S(V
-	newUserIdstring"__id*
-
-%9string*
-7*œ
-7è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csX X(!≤
-Ø
-è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csX X(!
-attemptsint"__id*2
-*
-8*¥
-8è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csZ Z(i¸
-˘
-è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csZ Z(%
-%10YesSql.ISession"__id*G*E&
-$OrchardCore.Users.Services.UserStore"
-_sessionYesSql.ISession˝
-˙
-è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csZ Z(W
-%11YesSql.IQueryIndex<T>"ÅYesSql.QueryExtensions.QueryIndex<TIndex>(YesSql.ISession, System.Linq.Expressions.Expression<System.Func<TIndex, bool>>, string)*"
-YesSql.QueryExtensions*
-
-%10YesSql.ISession*
-""*
-""îë
-è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csZ Z(d+
-%12$System.Threading.Tasks.Task<TResult>""YesSql.IQueryIndex<T>.CountAsync()*
-
-%11YesSql.IQueryIndex<T>2CountAsync()*
-9
-10*ü
-9è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.cs\ \('*
-11
-12*∂
-11è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.cs^ ^(o÷”
-è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.cs^ ^(p"
-%13System.ApplicationException"System.ApplicationExceptionø
-º
-è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.cs^" ^(6
-%14void"9System.ApplicationException.ApplicationException(string?)*$
-"
-%13System.ApplicationException*:8
-6Couldn't generate a unique user id. Too many attempts.*
-3*Û	
-12è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csa a(Fº
-π
-è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csa  a(02
-%15+OrchardCore.Users.Services.IUserIdGenerator"__id*k*i&
-$OrchardCore.Users.Services.UserStore"?
-_userIdGenerator+OrchardCore.Users.Services.IUserIdGeneratorˇ¸
-è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csa  a(G
-%16string"UOrchardCore.Users.Services.IUserIdGenerator.GenerateUniqueId(OrchardCore.Users.IUser)*4
-2
-%15+OrchardCore.Users.Services.IUserIdGenerator*!
-
-userOrchardCore.Users.IUser2)GenerateUniqueId(OrchardCore.Users.IUser)–
-Õ
-è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csa  a(Z
-%17string"string.ToLowerInvariant()*
-
-%16string¡
-æ
-è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csa a(Z
-	newUserIdstring"__id*
-
-%17string*
-8*Œ
-10è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csd k(pë
-é
-è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csd d(*
-%18string"(OrchardCore.Users.Models.User.UserId.set**
-(
-newUserOrchardCore.Users.Models.User*
-
-	newUserIdstring¸
-˘
-è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csf f(
-%19YesSql.ISession"__id*G*E&
-$OrchardCore.Users.Services.UserStore"
-_sessionYesSql.ISession∑¥
-è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csf f(#
-%20void"*YesSql.ISession.Save(object, bool, string)*
-
-%19YesSql.ISession*!
-
-userOrchardCore.Users.IUser*
-""*
-""2Save(object, bool, string)¸
-˘
-è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csh h(
-%21YesSql.ISession"__id*G*E&
-$OrchardCore.Users.Services.UserStore"
-_sessionYesSql.ISessionÅ˛
-è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csh h(,"
-%22System.Threading.Tasks.Task"YesSql.ISession.CommitAsync()*
-
-%21YesSql.ISession2CommitAsync()ÏÈ
-è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csj j(3-
-%23&OrchardCore.Users.Handlers.UserContext"&OrchardCore.Users.Handlers.UserContext√
-¿
-è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csj" j(-
-%24void"KOrchardCore.Users.Handlers.UserContext.UserContext(OrchardCore.Users.IUser)*/
--
-%23&OrchardCore.Users.Handlers.UserContext*!
-
-userOrchardCore.Users.IUserˇ
-¸
-è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csj j(31
-context&OrchardCore.Users.Handlers.UserContext"__id*/
--
-%23&OrchardCore.Users.Handlers.UserContext§
-°
-è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csk k(0
-%25)System.Collections.Generic.IEnumerable<T>"1OrchardCore.Users.Services.UserStore.Handlers.get*(&
-$OrchardCore.Users.Services.UserStore•
-¢
-è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.cski k(p+
-%26$Microsoft.Extensions.Logging.ILogger"__id*[*Y&
-$OrchardCore.Users.Services.UserStore"/
-_logger$Microsoft.Extensions.Logging.ILogger’
-“
-è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csk k(q"
-%27System.Threading.Tasks.Task"œOrchardCore.Modules.InvokeExtensions.InvokeAsync<TEvents, T1>(System.Collections.Generic.IEnumerable<TEvents>, System.Func<TEvents, T1, System.Threading.Tasks.Task>, T1, Microsoft.Extensions.Logging.ILogger)*("&
-$OrchardCore.Modules.InvokeExtensions*2
-0
-%25)System.Collections.Generic.IEnumerable<T>*
-""*3
-1
-context&OrchardCore.Users.Handlers.UserContext*-
-+
-%26$Microsoft.Extensions.Logging.ILogger*
-13
-14*ﬂ
-13è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.cso q(.•
-¢
-è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.cso o(+
-%28$Microsoft.Extensions.Logging.ILogger"__id*[*Y&
-$OrchardCore.Users.Services.UserStore"/
-_logger$Microsoft.Extensions.Logging.ILogger‡
-›
-è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.cso o(R
-%29void"áMicrosoft.Extensions.Logging.LoggerExtensions.LogError(Microsoft.Extensions.Logging.ILogger, System.Exception, string, params object[])*1"/
--Microsoft.Extensions.Logging.LoggerExtensions*-
-+
-%28$Microsoft.Extensions.Logging.ILogger*
-
-eSystem.Exception*/-
-+Unexpected error while creating a new user.*
-""Ô
-Ï
-è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csq q(.3
-%30,Microsoft.AspNetCore.Identity.IdentityResult"iMicrosoft.AspNetCore.Identity.IdentityResult.Failed(params Microsoft.AspNetCore.Identity.IdentityError[])*0".
-,Microsoft.AspNetCore.Identity.IdentityResult*
-"""…
-è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csq q(/5
-3
-%30,Microsoft.AspNetCore.Identity.IdentityResult*õ
-14è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.cst t()∂
-≥
-è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.cst t()3
-%31,Microsoft.AspNetCore.Identity.IdentityResult"8Microsoft.AspNetCore.Identity.IdentityResult.Success.get*0".
-,Microsoft.AspNetCore.Identity.IdentityResult"…
-è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.cst t(*5
-3
-%31,Microsoft.AspNetCore.Identity.IdentityResult*ø
-3è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csu	 u(	"ß
-è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csu u(	
-implicit return:
-userOrchardCore.Users.IUser:7
-cancellationToken"System.Threading.CancellationTokenB(&
-$OrchardCore.Users.Services.UserStore

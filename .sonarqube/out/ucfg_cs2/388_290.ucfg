@@ -1,315 +1,0 @@
-
-kOrchardCore.Lucene.LuceneIndexManager.WriteAsync(string, System.Action<Lucene.Net.Index.IndexWriter>, bool)û
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs£ £(%"0*√
-0û
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs• •(?Ì
-Í
-û
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs• •(F
-%0@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>"__id*y*w'
-%OrchardCore.Lucene.LuceneIndexManager"L
-_writers@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>§
-°
-û
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs• •(@
-
-%1bool"^System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>.TryGetValue(TKey, out TValue)*H
-F
-%0@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>*
-
-	indexNamestring*1
-/
-writer%OrchardCore.Lucene.IndexWriterWrapper*
-1
-2*√
-1û
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csß ®(⁄
-◊
-û
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csß* ß(E3
-%2-OrchardCore.Lucene.LuceneIndexSettingsService"__id*y*w'
-%OrchardCore.Lucene.LuceneIndexManager"L
-_luceneIndexSettingsService-OrchardCore.Lucene.LuceneIndexSettingsServiceÏ
-È
-û
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csß* ß(g*
-%3$System.Threading.Tasks.Task<TResult>"LOrchardCore.Lucene.LuceneIndexSettingsService.LoadIndexAnalyzerAsync(string)*5
-3
-%2-OrchardCore.Lucene.LuceneIndexSettingsService*
-
-	indexNamestringÀ
-»
-û
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csß ß(g
-indexAnalyzerstring"__id*
-""*
-3*√
-3û
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs™ ™(CÌ
-Í
-û
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs™ ™(!F
-%4@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>"__id*y*w'
-%OrchardCore.Lucene.LuceneIndexManager"L
-_writers@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>§
-°
-û
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs™ ™(D
-
-%5bool"^System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>.TryGetValue(TKey, out TValue)*H
-F
-%4@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>*
-
-	indexNamestring*1
-/
-writer%OrchardCore.Lucene.IndexWriterWrapper*
-4
-2*ñ%
-4û
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs¨ ∂(!À
-»
-û
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs¨( ¨(B$
-%6Lucene.Net.Store.BaseDirectory"=OrchardCore.Lucene.LuceneIndexManager.CreateDirectory(string)*)'
-%OrchardCore.Lucene.LuceneIndexManager*
-
-	indexNamestringˇ
-¸
-û
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs¨ ¨(B+
-	directoryLucene.Net.Store.BaseDirectory"__id*&
-$
-%6Lucene.Net.Store.BaseDirectory›
-⁄
-û
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs≠' ≠(=7
-%71OrchardCore.Lucene.Services.LuceneAnalyzerManager"__id*x*v'
-%OrchardCore.Lucene.LuceneIndexManager"K
-_luceneAnalyzerManager1OrchardCore.Lucene.Services.LuceneAnalyzerManagerË
-Â
-û
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs≠' ≠(["
-%8Lucene.Net.Analysis.Analyzer"HOrchardCore.Lucene.Services.LuceneAnalyzerManager.CreateAnalyzer(string)*9
-7
-%71OrchardCore.Lucene.Services.LuceneAnalyzerManager*
-
-indexAnalyzerstring˙
-˜
-û
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs≠ ≠([(
-analyzerLucene.Net.Analysis.Analyzer"__id*$
-"
-%8Lucene.Net.Analysis.Analyzer∏
-µ
-û
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csÆ; Æ(X
-%9"__id*
-""Û
-û
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csÆ% ≤()
-%10"Lucene.Net.Index.IndexWriterConfig""Lucene.Net.Index.IndexWriterConfigÖ
-Ç
-û
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csÆ) Æ(:
-%11void"qLucene.Net.Index.IndexWriterConfig.IndexWriterConfig(Lucene.Net.Util.LuceneVersion, Lucene.Net.Analysis.Analyzer)*+
-)
-%10"Lucene.Net.Index.IndexWriterConfig*
-
-%9**
-(
-analyzerLucene.Net.Analysis.Analyzerπ
-∂
-û
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs∞' ∞(@
-%12"__id*
-""≠
-™
-û
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs∞ ∞(@ 
-%13Lucene.Net.Index.OpenMode"/Lucene.Net.Index.IndexWriterConfig.OpenMode.set*+
-)
-%10"Lucene.Net.Index.IndexWriterConfig*
-
-%12π
-∂
-û
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs±/ ±(F
-%14"__id*
-""ü
-ú
-û
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs± ±(J
-%15long"7Lucene.Net.Index.IndexWriterConfig.WriteLockTimeout.set*+
-)
-%10"Lucene.Net.Index.IndexWriterConfig*
-""Ö
-Ç
-û
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csÆ ≤(,
-config"Lucene.Net.Index.IndexWriterConfig"__id*+
-)
-%10"Lucene.Net.Index.IndexWriterConfig˘ˆ
-û
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs¥! ¥(J,
-%16%OrchardCore.Lucene.IndexWriterWrapper"%OrchardCore.Lucene.IndexWriterWrapper∫
-∑
-û
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs¥% ¥(7
-%17void"xOrchardCore.Lucene.IndexWriterWrapper.IndexWriterWrapper(Lucene.Net.Store.Directory, Lucene.Net.Index.IndexWriterConfig)*.
-,
-%16%OrchardCore.Lucene.IndexWriterWrapper*-
-+
-	directoryLucene.Net.Store.BaseDirectory*.
-,
-config"Lucene.Net.Index.IndexWriterConfigã
-à
-û
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs¥ ¥(J/
-writer%OrchardCore.Lucene.IndexWriterWrapper"__id*.
-,
-%16%OrchardCore.Lucene.IndexWriterWrapper*
-5
-6*¨
-5û
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs∏ ∏("*
-7
-8* 
-8û
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs∏# ∏(1û
-õ
-û
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs∏# ∏(2
-%18void"System.Action<T>.Invoke(T)*
-
-actionSystem.Action<T>*1
-/
-writer%OrchardCore.Lucene.IndexWriterWrapper*
-7*¡
-7û
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csπ ∫(Bå
-â
-û
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csπ π(,
-%19void"&Lucene.Net.Index.IndexWriter.Dispose()*1
-/
-writer%OrchardCore.Lucene.IndexWriterWrapperÒ
-Ó
-û
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs∫ ∫('G
-%20@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>"__id*|*z'
-%OrchardCore.Lucene.LuceneIndexManager"O
-_timestamps@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>†
-ù
-û
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs∫5 ∫(;!
-%21OrchardCore.Modules.IClock"__id*Q*O'
-%OrchardCore.Lucene.LuceneIndexManager"$
-_clockOrchardCore.Modules.IClockîë
-û
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs∫5 ∫(B
-%22System.DateTime"%OrchardCore.Modules.IClock.UtcNow.get*#
-!
-%21OrchardCore.Modules.IClock2
-UtcNow.get±
-Æ
-û
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs∫ ∫(B
-%23"__mapSet*I
-G
-%20@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>*
-
-	indexNamestring*
-
-%22System.DateTime"©
-û
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csª ª(#
-""*Á
-6û
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csæ æ(4Ó
-Î
-û
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csæ æ( G
-%24@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>"__id*y*w'
-%OrchardCore.Lucene.LuceneIndexManager"L
-_writers@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue> 
-«
-û
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csæ æ(4
-%25"__mapSet*I
-G
-%24@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>*
-
-	indexNamestring*1
-/
-writer%OrchardCore.Lucene.IndexWriterWrapper*
-2*…
-2û
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs√ √( ô
-ñ
-û
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs√ √( 
-%26bool"3OrchardCore.Lucene.IndexWriterWrapper.IsClosing.get*1
-/
-writer%OrchardCore.Lucene.IndexWriterWrapper*
-9
-10*–
-9û
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csÀ	 À(	"©
-û
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs≈ ≈(
-""*Ø
-10û
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs» »(*
-11
-12*Ã
-12û
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs» »(!û
-õ
-û
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs» »("
-%27void"System.Action<T>.Invoke(T)*
-
-actionSystem.Action<T>*1
-/
-writer%OrchardCore.Lucene.IndexWriterWrapper*
-11*ç
-11û
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs   (2Ò
-Ó
-û
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs   (G
-%28@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>"__id*|*z'
-%OrchardCore.Lucene.LuceneIndexManager"O
-_timestamps@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>†
-ù
-û
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs %  (+!
-%29OrchardCore.Modules.IClock"__id*Q*O'
-%OrchardCore.Lucene.LuceneIndexManager"$
-_clockOrchardCore.Modules.IClockîë
-û
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs %  (2
-%30System.DateTime"%OrchardCore.Modules.IClock.UtcNow.get*#
-!
-%29OrchardCore.Modules.IClock2
-UtcNow.get±
-Æ
-û
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.cs   (2
-%31"__mapSet*I
-G
-%28@System.Collections.Concurrent.ConcurrentDictionary<TKey, TValue>*
-
-	indexNamestring*
-
-%30System.DateTime*
-13*ﬁ
-13û
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csÀ	 À(	"∂
-û
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Services\LuceneIndexManager.csÀ À(	
-implicit return:
-	indexNamestring:
-actionSystem.Action<T>:
-closeboolB)'
-%OrchardCore.Lucene.LuceneIndexManager

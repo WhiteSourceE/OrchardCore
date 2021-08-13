@@ -1,171 +1,0 @@
-
-OOrchardCore.FileStorage.AzureBlob.BlobFileStore.TryDeleteDirectoryAsync(string)ó
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.csœ  œ(7"0*é
-0ó
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs— —()Ê
-„
-ó
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs— —(*
-
-%0bool"string.IsNullOrEmpty(string?)*
-"
-string*
-
-pathstring*
-1
-2*Ó
-1ó
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs” ”(P˚¯
-ó
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs” ”(Q0
-%1*OrchardCore.FileStorage.FileStoreException"*OrchardCore.FileStorage.FileStoreExceptionÀ
-»
-ó
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs” ”(,
-
-%2void"EOrchardCore.FileStorage.FileStoreException.FileStoreException(string)*2
-0
-%1*OrchardCore.FileStorage.FileStoreException*%#
-!Cannot delete the root directory.*
-3* 
-2ó
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs÷ €(+≈
-¬
-ó
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs÷ ÷((
-blobsWereDeletedbool"__id*
-""ˇ
-¸
-ó
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs◊& ◊(1
-%3string"__id*L*J1
-/OrchardCore.FileStorage.AzureBlob.BlobFileStore"
-_basePrefixstringü
-ú
-ó
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs◊ ◊(8
-%4string"iOrchardCore.FileStorage.IFileStoreExtensions.Combine(OrchardCore.FileStorage.IFileStore, params string[])*0".
-,OrchardCore.FileStorage.IFileStoreExtensions*31
-/OrchardCore.FileStorage.AzureBlob.BlobFileStore*
-
-%3string*
-
-pathstring≈
-¬
-ó
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs◊ ◊(8
-prefixstring"__id*
-
-%4stringΩ
-∫
-ó
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.csÿ ÿ(1
-%5string"GOrchardCore.FileStorage.AzureBlob.BlobFileStore.NormalizePrefix(string)*31
-/OrchardCore.FileStorage.AzureBlob.BlobFileStore*
-
-prefixstring≈
-¬
-ó
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.csÿ ÿ(1
-prefixstring"__id*
-
-%5stringƒ
-¡
-ó
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs⁄ ⁄(%-
-%6'Azure.Storage.Blobs.BlobContainerClient"__id*p*n1
-/OrchardCore.FileStorage.AzureBlob.BlobFileStore"9
-_blobContainer'Azure.Storage.Blobs.BlobContainerClient±
-Æ
-ó
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs⁄4 ⁄(G
-%7"__id*
-""±
-Æ
-ó
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs⁄I ⁄(X
-%8"__id*
-""‘—
-ó
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs⁄ ⁄(a
-%9Azure.AsyncPageable<T>"ØAzure.Storage.Blobs.BlobContainerClient.GetBlobsAsync(Azure.Storage.Blobs.Models.BlobTraits, Azure.Storage.Blobs.Models.BlobStates, string, System.Threading.CancellationToken)*/
--
-%6'Azure.Storage.Blobs.BlobContainerClient*
-
-%7*
-
-%8*
-
-prefixstring*
-""2áGetBlobsAsync(Azure.Storage.Blobs.Models.BlobTraits, Azure.Storage.Blobs.Models.BlobStates, string, System.Threading.CancellationToken)„
-‡
-ó
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs⁄ ⁄(a
-pageAzure.AsyncPageable<T>"__id*
-
-%9Azure.AsyncPageable<T>*
-4*•
-4ó
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs„	 „(	*
-5
-6*◊
-5ó
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs› ﬂ('≈
-¬
-ó
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs›$ ›(2.
-%10'Azure.Storage.Blobs.BlobContainerClient"__id*p*n1
-/OrchardCore.FileStorage.AzureBlob.BlobFileStore"9
-_blobContainer'Azure.Storage.Blobs.BlobContainerClientâ
-Ü
-ó
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs›A ›(J
-%11string",Azure.Storage.Blobs.Models.BlobItem.Name.get*-
-+
-blob#Azure.Storage.Blobs.Models.BlobItem›⁄
-ó
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs›$ ›(K%
-%12Azure.Storage.Blobs.BlobClient"=Azure.Storage.Blobs.BlobContainerClient.GetBlobClient(string)*0
-.
-%10'Azure.Storage.Blobs.BlobContainerClient*
-
-%11string2GetBlobClient(string)˝
-˙
-ó
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs› ›(K/
-blobReferenceAzure.Storage.Blobs.BlobClient"__id*'
-%
-%12Azure.Storage.Blobs.BlobClient≤
-Ø
-ó
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.csﬁ8 ﬁ(^
-%13"__id*
-""Å˛
-ó
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.csﬁ ﬁ(_+
-%14$System.Threading.Tasks.Task<TResult>" Azure.Storage.Blobs.Specialized.BlobBaseClient.DeleteIfExistsAsync(Azure.Storage.Blobs.Models.DeleteSnapshotsOption, Azure.Storage.Blobs.Models.BlobRequestConditions, System.Threading.CancellationToken)*1
-/
-blobReferenceAzure.Storage.Blobs.BlobClient*
-
-%13*
-""*
-""2õDeleteIfExistsAsync(Azure.Storage.Blobs.Models.DeleteSnapshotsOption, Azure.Storage.Blobs.Models.BlobRequestConditions, System.Threading.CancellationToken)≈
-¬
-ó
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.csﬂ ﬂ('
-blobsWereDeletedbool"__id*
-""*
-4*÷
-6ó
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs‚ ‚(#"∂
-ó
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs‚ ‚($
-
-blobsWereDeletedbool*œ
-3ó
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs„	 „(	"Ø
-ó
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs„ „(	
-implicit return:
-pathstringB31
-/OrchardCore.FileStorage.AzureBlob.BlobFileStore

@@ -1,95 +1,0 @@
-
-^ContentRazorHelperExtensions.GetContentItemByIdAsync(OrchardCore.IOrchardHelper, string, bool)¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Razor\ContentRazorHelperExtensions.cs2$ 2(;"0*¢
-0¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Razor\ContentRazorHelperExtensions.cs4 5(<ÄÁ
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Razor\ContentRazorHelperExtensions.cs4 4(6+
-%0%Microsoft.AspNetCore.Http.HttpContext"*OrchardCore.IOrchardHelper.HttpContext.get*-
-+
-orchardHelperOrchardCore.IOrchardHelper2HttpContext.get´
-±
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Razor\ContentRazorHelperExtensions.cs4 4(F
-%1System.IServiceProvider"9Microsoft.AspNetCore.Http.HttpContext.RequestServices.get*-
-+
-%0%Microsoft.AspNetCore.Http.HttpContextÂ
-¿
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Razor\ContentRazorHelperExtensions.cs4 4(d3
-%2-OrchardCore.ContentManagement.IContentManager"pMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService<T>(System.IServiceProvider)*M"K
-IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*
-
-%1System.IServiceProvider©
-¦
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Razor\ContentRazorHelperExtensions.cs4 4(d?
-contentManager-OrchardCore.ContentManagement.IContentManager"__id*5
-3
-%2-OrchardCore.ContentManagement.IContentManager*
-1
-2*¹
-1¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Razor\ContentRazorHelperExtensions.cs5? 5(TÊ
-Ç
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Razor\ContentRazorHelperExtensions.cs5? 5(T2
-%6,OrchardCore.ContentManagement.VersionOptions"7OrchardCore.ContentManagement.VersionOptions.Latest.get*0".
-,OrchardCore.ContentManagement.VersionOptions›
-˜
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Razor\ContentRazorHelperExtensions.cs5? 5(T2
-%4,OrchardCore.ContentManagement.VersionOptions"__id*4
-2
-%6,OrchardCore.ContentManagement.VersionOptions›
-˜
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Razor\ContentRazorHelperExtensions.cs5? 5(T2
-%3,OrchardCore.ContentManagement.VersionOptions"__id*4
-2
-%4,OrchardCore.ContentManagement.VersionOptions*
-3*¼
-2¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Razor\ContentRazorHelperExtensions.cs5W 5(oÍ
-Ê
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Razor\ContentRazorHelperExtensions.cs5W 5(o2
-%7,OrchardCore.ContentManagement.VersionOptions":OrchardCore.ContentManagement.VersionOptions.Published.get*0".
-,OrchardCore.ContentManagement.VersionOptions›
-˜
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Razor\ContentRazorHelperExtensions.cs5W 5(o2
-%5,OrchardCore.ContentManagement.VersionOptions"__id*4
-2
-%7,OrchardCore.ContentManagement.VersionOptions›
-˜
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Razor\ContentRazorHelperExtensions.cs5W 5(o2
-%3,OrchardCore.ContentManagement.VersionOptions"__id*4
-2
-%5,OrchardCore.ContentManagement.VersionOptions*
-3* 
-3¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Razor\ContentRazorHelperExtensions.cs5 5(p™–
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Razor\ContentRazorHelperExtensions.cs5 5(p*
-%8$System.Threading.Tasks.Task<TResult>"lOrchardCore.ContentManagement.IContentManager.GetAsync(string, OrchardCore.ContentManagement.VersionOptions)*A
-?
-contentManager-OrchardCore.ContentManagement.IContentManager*
-
-contentItemIdstring*4
-2
-%3,OrchardCore.ContentManagement.VersionOptions2>GetAsync(string, OrchardCore.ContentManagement.VersionOptions)"Ö
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Razor\ContentRazorHelperExtensions.cs5 5(q,
-*
-%8$System.Threading.Tasks.Task<TResult>*ë
-4¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Razor\ContentRazorHelperExtensions.cs6 6("½
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Razor\ContentRazorHelperExtensions.cs6 6(
-implicit return:+
-orchardHelperOrchardCore.IOrchardHelper:
-contentItemIdstring:
-latestboolB "
-ContentRazorHelperExtensions

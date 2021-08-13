@@ -1,430 +1,0 @@
-
-COrchardCore.OpenId.Controllers.ScopeController.Edit(string, string)ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.csž) ž(-"9*¾
-0ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.cs   (Zõ
-ò
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.cs   (,>
-%08Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*ˆ*…0
-.OrchardCore.OpenId.Controllers.ScopeController"Q
-_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationService±
-®
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.cs <  (@,
-%1&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*+)
-'Microsoft.AspNetCore.Mvc.ControllerBaseÀ
-½
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.cs B  (Z1
-%2+OrchardCore.Security.Permissions.Permission"__id*a*_ 
-OrchardCore.OpenId.Permissions";
-ManageScopes+OrchardCore.Security.Permissions.Permission 
-
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.cs   ([*
-%3$System.Threading.Tasks.Task<TResult>"ßMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission)*E"C
-AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*@
->
-%08Microsoft.AspNetCore.Authorization.IAuthorizationService*.
-,
-%1&System.Security.Claims.ClaimsPrincipal*3
-1
-%2+OrchardCore.Security.Permissions.Permission*
-1
-2*´
-1ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.cs¢ ¢(º·
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.cs¢ ¢(+
-%4%Microsoft.AspNetCore.Mvc.ForbidResult"0Microsoft.AspNetCore.Mvc.ControllerBase.Forbid()*+)
-'Microsoft.AspNetCore.Mvc.ControllerBase2Forbid()"Ð
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.cs¢ ¢( -
-+
-%4%Microsoft.AspNetCore.Mvc.ForbidResult*á
-2ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.cs¥ ¦(õ
-ò
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.cs¥ ¥(+B
-%5<OrchardCore.OpenId.Abstractions.Managers.IOpenIdScopeManager"__id*„*0
-.OrchardCore.OpenId.Controllers.ScopeController"M
-_scopeManager<OrchardCore.OpenId.Abstractions.Managers.IOpenIdScopeManageröó
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.cs¥ ¥(E/
-%6)System.Threading.Tasks.ValueTask<TResult>"~OrchardCore.OpenId.Abstractions.Managers.IOpenIdScopeManager.FindByPhysicalIdAsync(string, System.Threading.CancellationToken)*D
-B
-%5<OrchardCore.OpenId.Abstractions.Managers.IOpenIdScopeManager*
-
-idstring*
-""2AFindByPhysicalIdAsync(string, System.Threading.CancellationToken)Ã
-À
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.cs¥ ¥(E
-scopeobject"__id*
-""û
-ø
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.cs¦ ¦(
-
-%7bool""object.operator ==(object, object)*
-"
-object*
-
-scopeobject*
-""*
-3
-4*¼
-3ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.cs¨ ¨(!À½
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.cs¨ ¨(!-
-%8'Microsoft.AspNetCore.Mvc.NotFoundResult"2Microsoft.AspNetCore.Mvc.ControllerBase.NotFound()*+)
-'Microsoft.AspNetCore.Mvc.ControllerBase2
-NotFound()"Ò
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.cs¨ ¨("/
--
-%8'Microsoft.AspNetCore.Mvc.NotFoundResult*ÞC
-4ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.cs« º(hš—
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.cs« ±(<
-%96OrchardCore.OpenId.ViewModels.EditOpenIdScopeViewModel"6OrchardCore.OpenId.ViewModels.EditOpenIdScopeViewModelÄ
-Á
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.cs« «(4
-%10void"QOrchardCore.OpenId.ViewModels.EditOpenIdScopeViewModel.EditOpenIdScopeViewModel()*>
-<
-%96OrchardCore.OpenId.ViewModels.EditOpenIdScopeViewModelö
-ó
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.cs­$ ­(1C
-%11<OrchardCore.OpenId.Abstractions.Managers.IOpenIdScopeManager"__id*„*0
-.OrchardCore.OpenId.Controllers.ScopeController"M
-_scopeManager<OrchardCore.OpenId.Abstractions.Managers.IOpenIdScopeManagerêç
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.cs­$ ­(L0
-%12)System.Threading.Tasks.ValueTask<TResult>"oOpenIddict.Abstractions.IOpenIddictScopeManager.GetDescriptionAsync(object, System.Threading.CancellationToken)*E
-C
-%11<OrchardCore.OpenId.Abstractions.Managers.IOpenIdScopeManager*
-
-scopeobject*
-""2?GetDescriptionAsync(object, System.Threading.CancellationToken)Ã
-À
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.cs­ ­(L
-%13string"FOrchardCore.OpenId.ViewModels.EditOpenIdScopeViewModel.Description.set*>
-<
-%96OrchardCore.OpenId.ViewModels.EditOpenIdScopeViewModel*
-""ö
-ó
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.cs®$ ®(1C
-%14<OrchardCore.OpenId.Abstractions.Managers.IOpenIdScopeManager"__id*„*0
-.OrchardCore.OpenId.Controllers.ScopeController"M
-_scopeManager<OrchardCore.OpenId.Abstractions.Managers.IOpenIdScopeManagerêç
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.cs®$ ®(L0
-%15)System.Threading.Tasks.ValueTask<TResult>"oOpenIddict.Abstractions.IOpenIddictScopeManager.GetDisplayNameAsync(object, System.Threading.CancellationToken)*E
-C
-%14<OrchardCore.OpenId.Abstractions.Managers.IOpenIdScopeManager*
-
-scopeobject*
-""2?GetDisplayNameAsync(object, System.Threading.CancellationToken)Ã
-À
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.cs® ®(L
-%16string"FOrchardCore.OpenId.ViewModels.EditOpenIdScopeViewModel.DisplayName.set*>
-<
-%96OrchardCore.OpenId.ViewModels.EditOpenIdScopeViewModel*
-""ö
-ó
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.cs¯ ¯((C
-%17<OrchardCore.OpenId.Abstractions.Managers.IOpenIdScopeManager"__id*„*0
-.OrchardCore.OpenId.Controllers.ScopeController"M
-_scopeManager<OrchardCore.OpenId.Abstractions.Managers.IOpenIdScopeManagerõò
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.cs¯ ¯(B0
-%18)System.Threading.Tasks.ValueTask<TResult>"{OrchardCore.OpenId.Abstractions.Managers.IOpenIdScopeManager.GetPhysicalIdAsync(object, System.Threading.CancellationToken)*E
-C
-%17<OrchardCore.OpenId.Abstractions.Managers.IOpenIdScopeManager*
-
-scopeobject*
-""2>GetPhysicalIdAsync(object, System.Threading.CancellationToken)º
-·
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.cs¯ ¯(B
-%19string"=OrchardCore.OpenId.ViewModels.EditOpenIdScopeViewModel.Id.set*>
-<
-%96OrchardCore.OpenId.ViewModels.EditOpenIdScopeViewModel*
-""ö
-ó
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.cs° °(*C
-%20<OrchardCore.OpenId.Abstractions.Managers.IOpenIdScopeManager"__id*„*0
-.OrchardCore.OpenId.Controllers.ScopeController"M
-_scopeManager<OrchardCore.OpenId.Abstractions.Managers.IOpenIdScopeManagerÜÙ
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.cs° °(>0
-%21)System.Threading.Tasks.ValueTask<TResult>"hOpenIddict.Abstractions.IOpenIddictScopeManager.GetNameAsync(object, System.Threading.CancellationToken)*E
-C
-%20<OrchardCore.OpenId.Abstractions.Managers.IOpenIdScopeManager*
-
-scopeobject*
-""28GetNameAsync(object, System.Threading.CancellationToken)¼
-¹
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.cs° °(>
-%22string"?OrchardCore.OpenId.ViewModels.EditOpenIdScopeViewModel.Name.set*>
-<
-%96OrchardCore.OpenId.ViewModels.EditOpenIdScopeViewModel*
-""«
-¨
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.cs« ±(?
-model6OrchardCore.OpenId.ViewModels.EditOpenIdScopeViewModel"__id*>
-<
-%96OrchardCore.OpenId.ViewModels.EditOpenIdScopeViewModelö
-ó
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.cs³" ³(/C
-%23<OrchardCore.OpenId.Abstractions.Managers.IOpenIdScopeManager"__id*„*0
-.OrchardCore.OpenId.Controllers.ScopeController"M
-_scopeManager<OrchardCore.OpenId.Abstractions.Managers.IOpenIdScopeManageræã
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.cs³" ³(H0
-%24)System.Threading.Tasks.ValueTask<TResult>"mOpenIddict.Abstractions.IOpenIddictScopeManager.GetResourcesAsync(object, System.Threading.CancellationToken)*E
-C
-%23<OrchardCore.OpenId.Abstractions.Managers.IOpenIdScopeManager*
-
-scopeobject*
-""2=GetResourcesAsync(object, System.Threading.CancellationToken)ï
-ì
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.cs³ ³(H;
-	resources.System.Collections.Immutable.ImmutableArray<T>"__id*
-""•
-’
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.csµ ¸( 
-%25string"Estring.Join(string?, System.Collections.Generic.IEnumerable<string?>)*
-"
-string*
- *
-""Í
-Ê
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.csµ ¸( 
-%26string"DOrchardCore.OpenId.ViewModels.EditOpenIdScopeViewModel.Resources.set*A
-?
-model6OrchardCore.OpenId.ViewModels.EditOpenIdScopeViewModel*
-
-%25stringÉ
-Æ
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.csº# º(-/
-%27(OrchardCore.Environment.Shell.IShellHost"__id*l*j0
-.OrchardCore.OpenId.Controllers.ScopeController"6
-
-_shellHost(OrchardCore.Environment.Shell.IShellHostÖÓ
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.csº# º(>0
-%28)System.Collections.Generic.IEnumerable<T>"9OrchardCore.Environment.Shell.IShellHost.GetAllSettings()*1
-/
-%27(OrchardCore.Environment.Shell.IShellHost2GetAllSettings()¢
-Ÿ
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.csº# º(i0
-%29)System.Collections.Generic.IEnumerable<T>"rSystem.Linq.Enumerable.Where<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
-System.Linq.Enumerable*2
-0
-%28)System.Collections.Generic.IEnumerable<T>*
-""*
-5*¬
-5ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.csÆ	 Æ(	*
-6
-7*›'
-6ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.cs¼ À(_Ö
-Ó
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.cs¼ ¼()
-%30"System.Collections.Generic.List<T>"BOrchardCore.OpenId.ViewModels.EditOpenIdScopeViewModel.Tenants.get*A
-?
-model6OrchardCore.OpenId.ViewModels.EditOpenIdScopeViewModel³°
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.cs¼" Á(I
-%31BOrchardCore.OpenId.ViewModels.EditOpenIdScopeViewModel.TenantEntry"BOrchardCore.OpenId.ViewModels.EditOpenIdScopeViewModel.TenantEntryÐ
-Í
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.cs¼& ¼(J
-%32void"POrchardCore.OpenId.ViewModels.EditOpenIdScopeViewModel.TenantEntry.TenantEntry()*K
-I
-%31BOrchardCore.OpenId.ViewModels.EditOpenIdScopeViewModel.TenantEntry¢
-Ÿ
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.cs¾, ¾(7
-%33string"4OrchardCore.Environment.Shell.ShellSettings.Name.get*7
-5
-tenant+OrchardCore.Environment.Shell.ShellSettingsÓ
-Ð
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.cs¾9 ¾(G2
-%34+OrchardCore.Environment.Shell.ShellSettings"__id*s*q0
-.OrchardCore.OpenId.Controllers.ScopeController"=
-_shellSettings+OrchardCore.Environment.Shell.ShellSettingsŸ
-œ
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.cs¾9 ¾(L
-%35string"4OrchardCore.Environment.Shell.ShellSettings.Name.get*4
-2
-%34+OrchardCore.Environment.Shell.ShellSettings€
-ý
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.cs¾ ¾(M
-%36bool"string.Equals(string?, string?)*
-"
-string*
-
-%33string*
-
-%35stringÝ
-Ú
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.cs¾ ¾(M
-%37bool"NOrchardCore.OpenId.ViewModels.EditOpenIdScopeViewModel.TenantEntry.Current.set*K
-I
-%31BOrchardCore.OpenId.ViewModels.EditOpenIdScopeViewModel.TenantEntry*
-
-%36bool¢
-Ÿ
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.cs¿ ¿(&
-%38string"4OrchardCore.Environment.Shell.ShellSettings.Name.get*7
-5
-tenant+OrchardCore.Environment.Shell.ShellSettingsÞ
-Û
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.cs¿ ¿(&
-%39string"KOrchardCore.OpenId.ViewModels.EditOpenIdScopeViewModel.TenantEntry.Name.set*K
-I
-%31BOrchardCore.OpenId.ViewModels.EditOpenIdScopeViewModel.TenantEntry*
-
-%38string¹
-¶
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.csÀ2 À(Q
-%40"__id*
-""¢
-Ÿ
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.csÀT À(_
-%41string"4OrchardCore.Environment.Shell.ShellSettings.Name.get*7
-5
-tenant+OrchardCore.Environment.Shell.ShellSettingsÏ
-Ì
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.csÀ2 À(_
-%42"__concat*
-
-%40*
-
-%41stringµ
-²
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.csÀ À(`
-%43bool":System.Collections.Immutable.ImmutableArray<T>.Contains(T)*=
-;
-	resources.System.Collections.Immutable.ImmutableArray<T>*
-
-%42Þ
-Û
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.csÀ À(`
-%44bool"OOrchardCore.OpenId.ViewModels.EditOpenIdScopeViewModel.TenantEntry.Selected.set*K
-I
-%31BOrchardCore.OpenId.ViewModels.EditOpenIdScopeViewModel.TenantEntry*
-
-%43bool»
-¸
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.cs¼ Á(
-%45void"
-__arrayAdd*+
-)
-%30"System.Collections.Generic.List<T>*: *K
-I
-%31BOrchardCore.OpenId.ViewModels.EditOpenIdScopeViewModel.TenantEntry*
-5*®
-7ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.csÄ Å(ÇÄ
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.csÄ Ä(
-%ViewBagDataAllobject"objectÈÅ
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.csÄ Ä(
-%ViewBagDataHtmlobject"objectø
-õ
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.csÄ Ä(-
-%46"__mapSet*
-
-%ViewBagDataAllobject*
-	ReturnUrl*
-
-	returnUrlstringê
-ç
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.csÄ Ä(-
-%47"__mapSet*
-
-%ViewBagDataHtmlobject*
-	ReturnUrl*
-""×
-Ô
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.csÅ Å(
-%48void"#orchardcore.openid/views/scope/edit*
-
-%49*A
-?
-model6OrchardCore.OpenId.ViewModels.EditOpenIdScopeViewModel*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject* 
-
-%HttpContextItemsAllobject*!
-
-%HttpContextItemsHtmlobject"°
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.csÅ Å(
-
-%48void*Ý
-8ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.csÆ	 Æ(	"¶
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.csÆ Æ(	
-implicit return*Œ
-9ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.csžQ ž(Qà
-Ý
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Controllers\ScopeController.csž) ž(-
-%50"__entrypoint*
-
-idstring*
-
-	returnUrlstring*
-0:
-idstring:
-	returnUrlstringB20
-.OrchardCore.OpenId.Controllers.ScopeController

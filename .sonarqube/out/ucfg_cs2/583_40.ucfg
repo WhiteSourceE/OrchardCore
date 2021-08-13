@@ -1,102 +1,0 @@
-
-~OrchardCore.Liquid.Filters.JsonParseFilter.ProcessAsync(Fluid.Values.FluidValue, Fluid.FilterArguments, Fluid.TemplateContext)ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\JsonParseFilter.cs
-% 
-(1"0*ã
-0ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\JsonParseFilter.cs (4˘
-ˆ
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\JsonParseFilter.cs+ (@
-%0string"'Fluid.Values.FluidValue.ToStringValue()*"
- 
-inputFluid.Values.FluidValueù
-ö
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\JsonParseFilter.cs (A!
-%1Newtonsoft.Json.Linq.JToken")Newtonsoft.Json.Linq.JToken.Parse(string)*"
-Newtonsoft.Json.Linq.JToken*
-
-%0stringı
-Ú
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\JsonParseFilter.cs (A*
-parsedValueNewtonsoft.Json.Linq.JToken"__id*#
-!
-%1Newtonsoft.Json.Linq.JTokenô
-ñ
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\JsonParseFilter.cs ( %
-%2Newtonsoft.Json.Linq.JTokenType"$Newtonsoft.Json.Linq.JToken.Type.get*,
-*
-parsedValueNewtonsoft.Json.Linq.JToken≤
-Ø
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\JsonParseFilter.cs$ (4
-%3"__id*
-""*
-1
-2*ﬁ	
-1ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\JsonParseFilter.cs (N∞
-≠
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\JsonParseFilter.cs1 (O
-%4Fluid.Values.FluidValue"&Fluid.Values.FluidValue.Create(object)*"
-Fluid.Values.FluidValue*,
-*
-parsedValueNewtonsoft.Json.Linq.JToken˙˜
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\JsonParseFilter.cs (P/
-%5)System.Threading.Tasks.ValueTask<TResult>")System.Threading.Tasks.ValueTask<TResult>º
-π
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\JsonParseFilter.cs (0
-
-%6void"<System.Threading.Tasks.ValueTask<TResult>.ValueTask(TResult)*1
-/
-%5)System.Threading.Tasks.ValueTask<TResult>*
-
-%4Fluid.Values.FluidValue"Œ
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\JsonParseFilter.cs (Q1
-/
-%5)System.Threading.Tasks.ValueTask<TResult>*≥
-2ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\JsonParseFilter.cs (Hÿ’
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\JsonParseFilter.cs- (I
-%7Fluid.Values.ObjectValue"Fluid.Values.ObjectValue®
-•
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\JsonParseFilter.cs1 (<
-
-%8void",Fluid.Values.ObjectValue.ObjectValue(object)* 
-
-%7Fluid.Values.ObjectValue*,
-*
-parsedValueNewtonsoft.Json.Linq.JToken˙˜
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\JsonParseFilter.cs (J/
-%9)System.Threading.Tasks.ValueTask<TResult>")System.Threading.Tasks.ValueTask<TResult>æ
-ª
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\JsonParseFilter.cs (,
-%10void"<System.Threading.Tasks.ValueTask<TResult>.ValueTask(TResult)*1
-/
-%9)System.Threading.Tasks.ValueTask<TResult>* 
-
-%7Fluid.Values.ObjectValue"Œ
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\JsonParseFilter.cs (K1
-/
-%9)System.Threading.Tasks.ValueTask<TResult>*—
-3ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\JsonParseFilter.cs	 (	"∞
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\JsonParseFilter.cs (	
-implicit return: 
-inputFluid.Values.FluidValue:"
-	argumentsFluid.FilterArguments: 
-contextFluid.TemplateContextB.,
-*OrchardCore.Liquid.Filters.JsonParseFilter

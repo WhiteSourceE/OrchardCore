@@ -1,580 +1,0 @@
-
-ÙOrchardCore.ContentManagement.GraphQL.Queries.Types.TypedContentTypeBuilder.Build(GraphQL.Types.FieldType, OrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition, OrchardCore.ContentManagement.GraphQL.Queries.Types.ContentItemType)±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs ("0*Ò
-0±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs (<ê
-ç
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs" (64
-%0.Microsoft.AspNetCore.Http.IHttpContextAccessor"__id*ö*óM
-KOrchardCore.ContentManagement.GraphQL.Queries.Types.TypedContentTypeBuilder"F
-_httpContextAccessor.Microsoft.AspNetCore.Http.IHttpContextAccessorÌÍ
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs" (B+
-%1%Microsoft.AspNetCore.Http.HttpContext">Microsoft.AspNetCore.Http.IHttpContextAccessor.HttpContext.get*6
-4
-%0.Microsoft.AspNetCore.Http.IHttpContextAccessor2HttpContext.get¿
-Ω
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs" (R
-%2System.IServiceProvider"9Microsoft.AspNetCore.Http.HttpContext.RequestServices.get*-
-+
-%1%Microsoft.AspNetCore.Http.HttpContextä
-á
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs (R*
-serviceProviderSystem.IServiceProvider"__id*
-
-%2System.IServiceProviderÏ
-È
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs  (`D
-%3>OrchardCore.ContentManagement.ITypeActivatorFactory<TInstance>"pMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService<T>(System.IServiceProvider)*M"K
-IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*,
-*
-serviceProviderSystem.IServiceProvider÷
-”
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs (`O
-typeActivator>OrchardCore.ContentManagement.ITypeActivatorFactory<TInstance>"__id*F
-D
-%3>OrchardCore.ContentManagement.ITypeActivatorFactory<TInstance>ó
-î
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs! (</
-%4)System.Collections.Generic.IEnumerable<T>"MOrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition.Parts.get*^
-\
-contentTypeDefinitionCOrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition*
-1*ø
-1±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs{	 {(	*
-2
-3*˜
-2±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs (3µ
-≤
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs (#I
-%5COrchardCore.ContentManagement.GraphQL.Options.GraphQLContentOptions"__id*™*ßM
-KOrchardCore.ContentManagement.GraphQL.Queries.Types.TypedContentTypeBuilder"V
-_contentOptionsCOrchardCore.ContentManagement.GraphQL.Options.GraphQLContentOptions˝
-˙
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs (4
-
-%6bool"óOrchardCore.ContentManagement.GraphQL.Options.GraphQLContentOptions.ShouldSkip(OrchardCore.ContentManagement.Metadata.Models.ContentTypePartDefinition)*K
-I
-%5COrchardCore.ContentManagement.GraphQL.Options.GraphQLContentOptions*Q
-O
-partGOrchardCore.ContentManagement.Metadata.Models.ContentTypePartDefinition*
-4
-5*º
-4±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs{	 {(	*
-1*¸
-5±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs! $(5‚
-ﬂ
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs! !((
-%7string"HOrchardCore.ContentManagement.Metadata.Models.ContentDefinition.Name.get*Q
-O
-partGOrchardCore.ContentManagement.Metadata.Models.ContentTypePartDefinition·
-ﬁ
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs! !((
-partNamestring"__id*
-
-%7stringÒ
-Ó
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs$ $(6
-
-%8bool"<GraphQL.Types.ComplexGraphType<TSourceType>.HasField(string)*X
-V
-contentItemTypeCOrchardCore.ContentManagement.GraphQL.Queries.Types.ContentItemType*
-
-partNamestring*
-6
-7*º
-6±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs{	 {(	*
-1*∆ 
-7±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs& ,(=±
-Æ
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs&? &(RI
-%9COrchardCore.ContentManagement.Metadata.Models.ContentPartDefinition"ZOrchardCore.ContentManagement.Metadata.Models.ContentTypePartDefinition.PartDefinition.get*Q
-O
-partGOrchardCore.ContentManagement.Metadata.Models.ContentTypePartDefinition›
-⁄
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs&? &(W
-%10string"HOrchardCore.ContentManagement.Metadata.Models.ContentDefinition.Name.get*K
-I
-%9COrchardCore.ContentManagement.Metadata.Models.ContentPartDefinitionŒÀ
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs&  &(X>
-%117OrchardCore.ContentManagement.ITypeActivator<TInstance>"WOrchardCore.ContentManagement.ITypeActivatorFactory<TInstance>.GetTypeActivator(string)*Q
-O
-typeActivator>OrchardCore.ContentManagement.ITypeActivatorFactory<TInstance>*
-
-%10string2GetTypeActivator(string)≈
-¬
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs& &(XD
-	activator7OrchardCore.ContentManagement.ITypeActivator<TInstance>"__id*@
->
-%117OrchardCore.ContentManagement.ITypeActivator<TInstance>ﬂ‹
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs(O ((]
-%12System.Type"@OrchardCore.ContentManagement.ITypeActivator<TInstance>.Type.get*F
-D
-	activator7OrchardCore.ContentManagement.ITypeActivator<TInstance>2Type.get‰
-·
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs( ((^
-queryGraphTypeSystem.Type"__id*
-""∂
-≥
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs*# *(2J
-%13COrchardCore.ContentManagement.GraphQL.Options.GraphQLContentOptions"__id*™*ßM
-KOrchardCore.ContentManagement.GraphQL.Queries.Types.TypedContentTypeBuilder"V
-_contentOptionsCOrchardCore.ContentManagement.GraphQL.Options.GraphQLContentOptionsÉ
-Ä
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs*# *(G
-%14bool"õOrchardCore.ContentManagement.GraphQL.Options.GraphQLContentOptions.ShouldCollapse(OrchardCore.ContentManagement.Metadata.Models.ContentTypePartDefinition)*L
-J
-%13COrchardCore.ContentManagement.GraphQL.Options.GraphQLContentOptions*Q
-O
-partGOrchardCore.ContentManagement.Metadata.Models.ContentTypePartDefinition‚
-ﬂ
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs* *(G
-collapsePartbool"__id*
-
-%14boolﬂ‹
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs, ,(>
-%15object"/System.IServiceProvider.GetService(System.Type)*,
-*
-serviceProviderSystem.IServiceProvider*
-
-queryGraphTypeSystem.Type2GetService(System.Type)à
-Ö
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs, ,(i8
-queryGraphTypeResolvedGraphQL.Types.IObjectGraphType"__id*
-
-%15object*
-8
-9*¡
-8±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs. .($*
-10
-11*û
-10±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs0. 0(K›⁄
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs0. 0(K0
-%16)System.Collections.Generic.IEnumerable<T>"*GraphQL.Types.IComplexGraphType.Fields.get*:
-8
-queryGraphTypeResolvedGraphQL.Types.IObjectGraphType2
-Fields.get*
-12*¡
-12±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs{	 {(	*
-13
-9*∂
-
-13±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs2  2(U∂
-≥
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs2  2(/J
-%17COrchardCore.ContentManagement.GraphQL.Options.GraphQLContentOptions"__id*™*ßM
-KOrchardCore.ContentManagement.GraphQL.Queries.Types.TypedContentTypeBuilder"V
-_contentOptionsCOrchardCore.ContentManagement.GraphQL.Options.GraphQLContentOptionså
-â
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs2K 2(U
-%18string" GraphQL.Types.FieldType.Name.get*"
- 
-fieldGraphQL.Types.FieldType©
-¶
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs2  2(V
-%19bool"cOrchardCore.ContentManagement.GraphQL.Options.GraphQLContentOptions.ShouldSkip(System.Type, string)*L
-J
-%17COrchardCore.ContentManagement.GraphQL.Options.GraphQLContentOptions*
-
-queryGraphTypeSystem.Type*
-
-%18string*
-14
-15*æ
-14±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs{	 {(	*
-12*˛*
-15±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs4  J(BÌ
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs40 H(
-%20GraphQL.Types.FieldType"GraphQL.Types.FieldTypeã
-à
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs44 4(=
-%21void"#GraphQL.Types.FieldType.FieldType()* 
-
-%20GraphQL.Types.FieldTypeå
-â
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs6' 6(1
-%22string" GraphQL.Types.FieldType.Name.get*"
- 
-fieldGraphQL.Types.FieldTypeõ
-ò
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs6  6(1
-%23string" GraphQL.Types.FieldType.Name.set* 
-
-%20GraphQL.Types.FieldType*
-
-%22stringë
-é
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs7' 7(1
-%24System.Type" GraphQL.Types.FieldType.Type.get*"
- 
-fieldGraphQL.Types.FieldType•
-¢
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs7  7(1
-%25System.Type" GraphQL.Types.FieldType.Type.set* 
-
-%20GraphQL.Types.FieldType*
-
-%24System.Typeì
-ê
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs8. 8(?
-%26string"'GraphQL.Types.FieldType.Description.get*"
- 
-fieldGraphQL.Types.FieldType¢
-ü
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs8  8(?
-%27string"'GraphQL.Types.FieldType.Description.set* 
-
-%20GraphQL.Types.FieldType*
-
-%26stringô
-ñ
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs94 9(K
-%28string"-GraphQL.Types.FieldType.DeprecationReason.get*"
- 
-fieldGraphQL.Types.FieldType®
-•
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs9  9(K
-%29string"-GraphQL.Types.FieldType.DeprecationReason.set* 
-
-%20GraphQL.Types.FieldType*
-
-%28stringß
-§
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs:, :(;#
-%30GraphQL.Types.QueryArguments"%GraphQL.Types.FieldType.Arguments.get*"
- 
-fieldGraphQL.Types.FieldTypeÃ
-…
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs:  :(;#
-%31GraphQL.Types.QueryArguments"%GraphQL.Types.FieldType.Arguments.set* 
-
-%20GraphQL.Types.FieldType*%
-#
-%30GraphQL.Types.QueryArgumentsºπ
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs;+ G("D
-%32=GraphQL.Resolvers.FuncFieldResolver<TSourceType, TReturnType>"=GraphQL.Resolvers.FuncFieldResolver<TSourceType, TReturnType>∞
-≠
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs;/ ;(U
-%33void"ôGraphQL.Resolvers.FuncFieldResolver<TSourceType, TReturnType>.FuncFieldResolver(System.Func<GraphQL.Types.ResolveFieldContext<TSourceType>, TReturnType>)*F
-D
-%32=GraphQL.Resolvers.FuncFieldResolver<TSourceType, TReturnType>*
-""
-Ì
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs;  G("'
-%34 GraphQL.Resolvers.IFieldResolver"$GraphQL.Types.FieldType.Resolver.set* 
-
-%20GraphQL.Types.FieldType*F
-D
-%32=GraphQL.Resolvers.FuncFieldResolver<TSourceType, TReturnType>â
-Ü
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs4  H((
-rolledUpFieldGraphQL.Types.FieldType"__id* 
-
-%20GraphQL.Types.FieldTypeÁ‰
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.csJ J(C
-%35GraphQL.Types.FieldType"eOrchardCore.ContentManagement.GraphQL.Queries.Types.ContentItemType.AddField(GraphQL.Types.FieldType)*X
-V
-contentItemTypeCOrchardCore.ContentManagement.GraphQL.Queries.Types.ContentItemType**
-(
-rolledUpFieldGraphQL.Types.FieldType2!AddField(GraphQL.Types.FieldType)*
-12*¿
-11±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.csO Y(ô
-ñ
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.csP P(<
-%36System.Type"object.GetType()*:
-8
-queryGraphTypeResolvedGraphQL.Types.IObjectGraphType‰
-·
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.csQ Q(2
-%37string"JOrchardCore.ContentManagement.GraphQL.StringExtensions.ToFieldName(string)*:"8
-6OrchardCore.ContentManagement.GraphQL.StringExtensions*
-
-partNamestringΩ∫
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.csR) R(K
-%38string"(GraphQL.Types.IGraphType.Description.get*:
-8
-queryGraphTypeResolvedGraphQL.Types.IObjectGraphType2Description.getΩ
-∫
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.csO Y(
-%39GraphQL.Types.FieldType"πGraphQL.Types.ComplexGraphType<TSourceType>.Field(System.Type, string, string, GraphQL.Types.QueryArguments, System.Func<GraphQL.Types.ResolveFieldContext<TSourceType>, object>, string)*X
-V
-contentItemTypeCOrchardCore.ContentManagement.GraphQL.Queries.Types.ContentItemType*
-
-%36System.Type*
-
-%37string*
-
-%38string*
-""*
-""*
-""*
-9*˚
-
-9±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs] _(=ﬂ‹
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs]T ](b
-%40System.Type"@OrchardCore.ContentManagement.ITypeActivator<TInstance>.Type.get*F
-D
-	activator7OrchardCore.ContentManagement.ITypeActivator<TInstance>2Type.get‰
-·
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs] ](c
-inputGraphTypeSystem.Type"__id*
-""ﬂ‹
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs_ _(>
-%41object"/System.IServiceProvider.GetService(System.Type)*,
-*
-serviceProviderSystem.IServiceProvider*
-
-inputGraphTypeSystem.Type2GetService(System.Type)ç
-ä
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs_ _(n=
-inputGraphTypeResolved#GraphQL.Types.IInputObjectGraphType"__id*
-
-%41object*
-16
-1*‹
-16±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.csa b(-Æ
-´
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.csa( a(>#
-%42GraphQL.Types.QueryArguments"%GraphQL.Types.FieldType.Arguments.get*)
-'
-contentQueryGraphQL.Types.FieldType£
-†
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.csa( a(e"
-%43GraphQL.Types.QueryArgument"{System.Linq.Enumerable.FirstOrDefault<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
-System.Linq.Enumerable*%
-#
-%42GraphQL.Types.QueryArguments*
-""ë
-é
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.csa a(e,
-whereArgumentGraphQL.Types.QueryArgument"__id*$
-"
-%43GraphQL.Types.QueryArgument¨
-©
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.csb b(-
-%44bool""object.operator ==(object, object)*
-"
-object*.
-,
-whereArgumentGraphQL.Types.QueryArgument*
-""*
-17
-18*˜
-17±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs{	 {(	"º
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.csd d(
-""*á
-18±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.csg i($∂
-≥
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.csg< g(V
-%45GraphQL.Types.IGraphType",GraphQL.Types.QueryArgument.ResolvedType.get*.
-,
-whereArgumentGraphQL.Types.QueryArgumentÁ
-‰
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.csg% g(V
-%46"__id*!
-
-%45GraphQL.Types.IGraphTypeü
-ú
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.csg g(VW
-
-whereInputIOrchardCore.ContentManagement.GraphQL.Queries.Types.ContentItemWhereInput"__id*
-
-%46*
-19
-20*£
-19±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.csk. k(K‚ﬂ
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.csk. k(K0
-%47)System.Collections.Generic.IEnumerable<T>"*GraphQL.Types.IComplexGraphType.Fields.get*?
-=
-inputGraphTypeResolved#GraphQL.Types.IInputObjectGraphType2
-Fields.get*
-21*¡
-21±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs{	 {(	*
-22
-1*Ü
-22±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.csm m(o∂
-≥
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.csm0 m(Q
-%48GraphQL.Types.FieldType"rOrchardCore.ContentManagement.GraphQL.FieldTypeExtensions.WithPartCollapsedMetaData(GraphQL.Types.FieldType, bool)*=";
-9OrchardCore.ContentManagement.GraphQL.FieldTypeExtensions*"
- 
-fieldGraphQL.Types.FieldType*
-""ø
-º
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.csm0 m(p
-%49GraphQL.Types.FieldType"oOrchardCore.ContentManagement.GraphQL.FieldTypeExtensions.WithPartNameMetaData(GraphQL.Types.FieldType, string)*=";
-9OrchardCore.ContentManagement.GraphQL.FieldTypeExtensions* 
-
-%48GraphQL.Types.FieldType*
-
-partNamestring «
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.csm m(q
-%50GraphQL.Types.FieldType"QGraphQL.Types.InputObjectGraphType<TSourceType>.AddField(GraphQL.Types.FieldType)*Y
-W
-
-whereInputIOrchardCore.ContentManagement.GraphQL.Queries.Types.ContentItemWhereInput* 
-
-%49GraphQL.Types.FieldType2!AddField(GraphQL.Types.FieldType)*
-21*Ö
-20±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.csr w(7Ì
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.csr, w(
-%51GraphQL.Types.FieldType"GraphQL.Types.FieldTypeã
-à
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.csr0 r(9
-%52void"#GraphQL.Types.FieldType.FieldType()* 
-
-%51GraphQL.Types.FieldTypeû
-õ
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cst# t(C
-%53System.Type"object.GetType()*?
-=
-inputGraphTypeResolved#GraphQL.Types.IInputObjectGraphType•
-¢
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cst t(C
-%54System.Type" GraphQL.Types.FieldType.Type.set* 
-
-%51GraphQL.Types.FieldType*
-
-%53System.Type‰
-·
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.csu# u(9
-%55string"JOrchardCore.ContentManagement.GraphQL.StringExtensions.ToFieldName(string)*:"8
-6OrchardCore.ContentManagement.GraphQL.StringExtensions*
-
-partNamestringõ
-ò
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.csu u(9
-%56string" GraphQL.Types.FieldType.Name.set* 
-
-%51GraphQL.Types.FieldType*
-
-%55string¬ø
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.csv* v(L
-%57string"(GraphQL.Types.IGraphType.Description.get*?
-=
-inputGraphTypeResolved#GraphQL.Types.IInputObjectGraphType2Description.get¢
-ü
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.csv v(L
-%58string"'GraphQL.Types.FieldType.Description.set* 
-
-%51GraphQL.Types.FieldType*
-
-%57stringø
-º
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.csr, w(8
-%59GraphQL.Types.FieldType"oOrchardCore.ContentManagement.GraphQL.FieldTypeExtensions.WithPartNameMetaData(GraphQL.Types.FieldType, string)*=";
-9OrchardCore.ContentManagement.GraphQL.FieldTypeExtensions* 
-
-%51GraphQL.Types.FieldType*
-
-partNamestring «
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.csr w(9
-%60GraphQL.Types.FieldType"QGraphQL.Types.InputObjectGraphType<TSourceType>.AddField(GraphQL.Types.FieldType)*Y
-W
-
-whereInputIOrchardCore.ContentManagement.GraphQL.Queries.Types.ContentItemWhereInput* 
-
-%59GraphQL.Types.FieldType2!AddField(GraphQL.Types.FieldType)*
-1*É
-3±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs{	 {(	"…
-±
-¶D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.GraphQL\Queries\Types\TypedContentTypeBuilder.cs{ {(	
-implicit return:'
-contentQueryGraphQL.Types.FieldType:\
-contentTypeDefinitionCOrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition:V
-contentItemTypeCOrchardCore.ContentManagement.GraphQL.Queries.Types.ContentItemTypeBOM
-KOrchardCore.ContentManagement.GraphQL.Queries.Types.TypedContentTypeBuilder

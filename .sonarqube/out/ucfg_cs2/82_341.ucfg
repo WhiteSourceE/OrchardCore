@@ -1,66 +1,0 @@
-
-ÅOrchardCore.OpenId.YesSql.Stores.OpenIdApplicationStore<TApplication>.ListInRoleAsync(string, System.Threading.CancellationToken)§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdApplicationStore.csâ6 â(E"0*®
-0§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdApplicationStore.csã ã()Û
-
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdApplicationStore.csã ã(*
-
-%0bool"string.IsNullOrEmpty(string?)*
-"
-string*
-
-rolestring*
-1
-2*„
-1§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdApplicationStore.csç ç(b‰·
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdApplicationStore.csç ç(c
-%1System.ArgumentException"System.ArgumentException 
-«
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdApplicationStore.csç ç(+
-
-%2void"<System.ArgumentException.ArgumentException(string?, string?)* 
-
-%1System.ArgumentException**(
-&The role name cannot be null or empty.*
-""*
-3*¢
-2§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdApplicationStore.csê ê(i±
-Æ
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdApplicationStore.csê ê(
-%3YesSql.ISession"__id*h*fG
-EOrchardCore.OpenId.YesSql.Stores.OpenIdApplicationStore<TApplication>"
-_sessionYesSql.ISessionü
-ú
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdApplicationStore.csê ê(j
-%4YesSql.IQuery<T, TIndex>"ÖYesSql.QueryExtensions.Query<T, TIndex>(YesSql.ISession, System.Linq.Expressions.Expression<System.Func<TIndex, bool>>, bool, string)*"
-YesSql.QueryExtensions*
-
-%3YesSql.ISession*
-""*
-""*
-""Ω∫
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdApplicationStore.csê ê(~4
-%5.System.Collections.Generic.IAsyncEnumerable<T>"$YesSql.IQuery<T>.ToAsyncEnumerable()* 
-
-%4YesSql.IQuery<T, TIndex>2ToAsyncEnumerable()"ﬂ
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdApplicationStore.csê ê(6
-4
-%5.System.Collections.Generic.IAsyncEnumerable<T>*È
-3§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdApplicationStore.csë	 ë(	"º
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdApplicationStore.csë ë(	
-implicit return:
-rolestring:7
-cancellationToken"System.Threading.CancellationTokenBIG
-EOrchardCore.OpenId.YesSql.Stores.OpenIdApplicationStore<TApplication>

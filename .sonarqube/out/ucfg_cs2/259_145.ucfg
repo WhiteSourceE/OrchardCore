@@ -1,191 +1,0 @@
-
-OrchardCore.Users.Services.UserStore.GetTokenAsync(OrchardCore.Users.IUser, string, string, System.Threading.CancellationToken)‘
-„D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.cs¸ ¸()"0* 
-0‘
-„D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csº º(þ
-û
-‘
-„D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csº º(
-
-%0bool""object.operator ==(object, object)*
-"
-object*!
-
-userOrchardCore.Users.IUser*
-""*
-1
-2*‰
-1‘
-„D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.cs¼ ¼(<ÙÖ
-‘
-„D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.cs¼ ¼(="
-%1System.ArgumentNullException"System.ArgumentNullExceptionŽ
-‹
-‘
-„D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.cs¼ ¼(/
-
-%2void";System.ArgumentNullException.ArgumentNullException(string?)*$
-"
-%1System.ArgumentNullException*
-""*
-3*‹
-2‘
-„D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.cs¿ ¿(2é
-æ
-‘
-„D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.cs¿ ¿(3
-
-%3bool"string.IsNullOrEmpty(string?)*
-"
-string*
-
-loginProviderstring*
-4
-5*¯
-4‘
-„D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csÁ Á(pÑÎ
-‘
-„D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csÁ Á(q
-%4System.ArgumentException"System.ArgumentException¼
-¹
-‘
-„D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csÁ Á(+
-
-%5void"<System.ArgumentException.ArgumentException(string?, string?)* 
-
-%4System.ArgumentException*/-
-+The login provider cannot be null or empty.*
-""*
-3*‚
-5‘
-„D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csÄ Ä()à
-Ý
-‘
-„D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csÄ Ä(*
-
-%6bool"string.IsNullOrEmpty(string?)*
-"
-string*
-
-namestring*
-6
-7*¥
-6‘
-„D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csÆ Æ(]ÑÎ
-‘
-„D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csÆ Æ(^
-%7System.ArgumentException"System.ArgumentException²
-¯
-‘
-„D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csÆ Æ(+
-
-%8void"<System.ArgumentException.ArgumentException(string?, string?)* 
-
-%7System.ArgumentException*%#
-!The name cannot be null or empty.*
-""*
-3*†
-
-7‘
-„D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csÉ Ë(!»
-¸
-‘
-„D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csÉ É($
-
-tokenValuestring"__id*
-""—
-”
-‘
-„D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csÊ Ê(C(
-%9"OrchardCore.Users.Models.UserToken"ZOrchardCore.Users.Services.UserStore.GetUserToken(OrchardCore.Users.IUser, string, string)*("&
-$OrchardCore.Users.Services.UserStore*!
-
-userOrchardCore.Users.IUser*
-
-loginProviderstring*
-
-namestringú
-÷
-‘
-„D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csÊ Ê(C/
-	userToken"OrchardCore.Users.Models.UserToken"__id**
-(
-%9"OrchardCore.Users.Models.UserToken
-Œ
-‘
-„D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csË Ë(!
-%10bool""object.operator !=(object, object)*
-"
-object*1
-/
-	userToken"OrchardCore.Users.Models.UserToken*
-""*
-8
-9*â
-8‘
-„D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csÍ Í(nç
-ä
-‘
-„D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csÍ Í(4B
-%11;Microsoft.AspNetCore.DataProtection.IDataProtectionProvider"__id*ƒ*€&
-$OrchardCore.Users.Services.UserStore"V
-_dataProtectionProvider;Microsoft.AspNetCore.DataProtection.IDataProtectionProvider¬
-©
-‘
-„D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csÍE Í(S
-%12"__id*
-""Œ
-‘
-„D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csÍ Í(T9
-%132Microsoft.AspNetCore.DataProtection.IDataProtector"SMicrosoft.AspNetCore.DataProtection.IDataProtectionProvider.CreateProtector(string)*D
-B
-%11;Microsoft.AspNetCore.DataProtection.IDataProtectionProvider*
-
-%122CreateProtector(string)‡
-„
-‘
-„D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csÍ_ Í(n
-%14string",OrchardCore.Users.Models.UserToken.Value.get*1
-/
-	userToken"OrchardCore.Users.Models.UserTokenÇ
-Ä
-‘
-„D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csÍ Í(o
-%15string"ˆMicrosoft.AspNetCore.DataProtection.DataProtectionCommonExtensions.Unprotect(Microsoft.AspNetCore.DataProtection.IDataProtector, string)*F"D
-BMicrosoft.AspNetCore.DataProtection.DataProtectionCommonExtensions*;
-9
-%132Microsoft.AspNetCore.DataProtection.IDataProtector*
-
-%14stringÄ
-Á
-‘
-„D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csÍ Í(o
-
-tokenValuestring"__id*
-
-%15string*
-9*—
-9‘
-„D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csÐ Ð(-·
-´
-‘
-„D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csÐ Ð(.+
-%16$System.Threading.Tasks.Task<TResult>"8System.Threading.Tasks.Task.FromResult<TResult>(TResult)*"
-System.Threading.Tasks.Task*
-
-
-tokenValuestring"Ã
-‘
-„D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csÐ Ð(/-
-+
-%16$System.Threading.Tasks.Task<TResult>*Ã
-3‘
-„D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csÑ	 Ñ(	"©
-‘
-„D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csÑ Ñ(	
-implicit return:
-userOrchardCore.Users.IUser:
-loginProviderstring:
-namestring:7
-cancellationToken"System.Threading.CancellationTokenB(&
-$OrchardCore.Users.Services.UserStore

@@ -1,252 +1,0 @@
-
-ÜOrchardCore.ContentFields.Services.DefaultContentPickerResultProvider.Search(OrchardCore.ContentManagement.ContentPickerSearchContext)≥
-®D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentFields\Services\DefaultContentPickerResultProvider.cs< (B"0*‡	
-0≥
-®D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentFields\Services\DefaultContentPickerResultProvider.cs (4Ç
-ˇ
-≥
-®D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentFields\Services\DefaultContentPickerResultProvider.cs (9/
-%0)System.Collections.Generic.IEnumerable<T>"IOrchardCore.ContentManagement.ContentPickerSearchContext.ContentTypes.get*K
-I
-searchContext8OrchardCore.ContentManagement.ContentPickerSearchContext≠
-™
-≥
-®D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentFields\Services\DefaultContentPickerResultProvider.cs (99
-contentTypes)System.Collections.Generic.IEnumerable<T>"__id*1
-/
-%0)System.Collections.Generic.IEnumerable<T>Á
-‰
-≥
-®D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentFields\Services\DefaultContentPickerResultProvider.cs (4
-
-%1bool"SOrchardCore.ContentManagement.ContentPickerSearchContext.DisplayAllContentTypes.get*K
-I
-searchContext8OrchardCore.ContentManagement.ContentPickerSearchContext*
-1
-2*‰
-1≥
-®D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentFields\Services\DefaultContentPickerResultProvider.cs! $('µ
-≤
-≥
-®D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentFields\Services\DefaultContentPickerResultProvider.cs! !(8F
-%2@OrchardCore.ContentManagement.Metadata.IContentDefinitionManager"__id*´*®G
-EOrchardCore.ContentFields.Services.DefaultContentPickerResultProvider"]
-_contentDefinitionManager@OrchardCore.ContentManagement.Metadata.IContentDefinitionManager£†
-≥
-®D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentFields\Services\DefaultContentPickerResultProvider.cs! "(*/
-%3)System.Collections.Generic.IEnumerable<T>"VOrchardCore.ContentManagement.Metadata.IContentDefinitionManager.ListTypeDefinitions()*H
-F
-%2@OrchardCore.ContentManagement.Metadata.IContentDefinitionManager2ListTypeDefinitions()µ
-≤
-≥
-®D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentFields\Services\DefaultContentPickerResultProvider.cs! #(f/
-%4)System.Collections.Generic.IEnumerable<T>"rSystem.Linq.Enumerable.Where<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
-System.Linq.Enumerable*1
-/
-%3)System.Collections.Generic.IEnumerable<T>*
-""¬
-ø
-≥
-®D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentFields\Services\DefaultContentPickerResultProvider.cs! $((/
-%5)System.Collections.Generic.IEnumerable<T>"System.Linq.Enumerable.Select<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)*"
-System.Linq.Enumerable*1
-/
-%4)System.Collections.Generic.IEnumerable<T>*
-""ò
-ï
-≥
-®D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentFields\Services\DefaultContentPickerResultProvider.cs! %(#/
-%6)System.Collections.Generic.IEnumerable<T>"]System.Linq.Enumerable.AsEnumerable<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
-System.Linq.Enumerable*1
-/
-%5)System.Collections.Generic.IEnumerable<T>≠
-™
-≥
-®D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentFields\Services\DefaultContentPickerResultProvider.cs! %(#9
-contentTypes)System.Collections.Generic.IEnumerable<T>"__id*1
-/
-%6)System.Collections.Generic.IEnumerable<T>*
-2*Ü
-2≥
-®D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentFields\Services\DefaultContentPickerResultProvider.cs( +(9¿
-Ω
-≥
-®D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentFields\Services\DefaultContentPickerResultProvider.cs( (( 
-%7YesSql.ISession"__id*h*fG
-EOrchardCore.ContentFields.Services.DefaultContentPickerResultProvider"
-_sessionYesSql.ISessionÊ
-„
-≥
-®D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentFields\Services\DefaultContentPickerResultProvider.cs( ((G
-%8YesSql.IQuery<T, TIndex>"FYesSql.QueryExtensions.Query<T, TIndex>(YesSql.ISession, bool, string)*"
-YesSql.QueryExtensions*
-
-%7YesSql.ISession*
-""*
-""Æ´
-≥
-®D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentFields\Services\DefaultContentPickerResultProvider.cs( )(Z
-%9YesSql.IQuery<T, TIndex>"\YesSql.IQuery<T>.With<TIndex>(System.Linq.Expressions.Expression<System.Func<TIndex, bool>>)* 
-
-%8YesSql.IQuery<T, TIndex>*
-""2KWith<TIndex>(System.Linq.Expressions.Expression<System.Func<TIndex, bool>>)Ñ
-Å
-≥
-®D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentFields\Services\DefaultContentPickerResultProvider.cs( )(Z!
-queryYesSql.IQuery<T, TIndex>"__id* 
-
-%9YesSql.IQuery<T, TIndex>Ÿ
-÷
-≥
-®D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentFields\Services\DefaultContentPickerResultProvider.cs+& +(9
-%10string"BOrchardCore.ContentManagement.ContentPickerSearchContext.Query.get*K
-I
-searchContext8OrchardCore.ContentManagement.ContentPickerSearchContextÇ
-ˇ
-≥
-®D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentFields\Services\DefaultContentPickerResultProvider.cs+ +(:
-%11bool"string.IsNullOrEmpty(string?)*
-"
-string*
-
-%10string*
-3
-4*ı
-3¥
-®D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentFields\Services\DefaultContentPickerResultProvider.cs- -(å≥∞
-¥
-®D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentFields\Services\DefaultContentPickerResultProvider.cs- -(ç
-%12YesSql.IQuery<T, TIndex>"\YesSql.IQuery<T>.With<TIndex>(System.Linq.Expressions.Expression<System.Func<TIndex, bool>>)*#
-!
-queryYesSql.IQuery<T, TIndex>*
-""2KWith<TIndex>(System.Linq.Expressions.Expression<System.Func<TIndex, bool>>)*
-4*„
-4≥
-®D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentFields\Services\DefaultContentPickerResultProvider.cs0 4(4§°
-≥
-®D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentFields\Services\DefaultContentPickerResultProvider.cs0% 0(3
-%13YesSql.IQuery<T>"YesSql.IQuery<T>.Take(int)*#
-!
-queryYesSql.IQuery<T, TIndex>*222	Take(int)¨©
-≥
-®D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentFields\Services\DefaultContentPickerResultProvider.cs0% 0(?+
-%14$System.Threading.Tasks.Task<TResult>"YesSql.IQuery<T>.ListAsync()*
-
-%13YesSql.IQuery<T>2ListAsync()Ç
-ˇ
-≥
-®D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentFields\Services\DefaultContentPickerResultProvider.cs0 0(?9
-contentItems)System.Collections.Generic.IEnumerable<T>"__id*
-""àÖ
-≥
-®D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentFields\Services\DefaultContentPickerResultProvider.cs2 2(9)
-%15"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>û
-õ
-≥
-®D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentFields\Services\DefaultContentPickerResultProvider.cs2 2(7
-%16void")System.Collections.Generic.List<T>.List()*+
-)
-%15"System.Collections.Generic.List<T>õ
-ò
-≥
-®D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentFields\Services\DefaultContentPickerResultProvider.cs2 2(9-
-results"System.Collections.Generic.List<T>"__id*+
-)
-%15"System.Collections.Generic.List<T>*
-5*¡
-5≥
-®D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentFields\Services\DefaultContentPickerResultProvider.cs?	 ?(	*
-6
-7*‹
-6≥
-®D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentFields\Services\DefaultContentPickerResultProvider.cs6 :(]¶£
-≥
-®D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentFields\Services\DefaultContentPickerResultProvider.cs6 ;(8
-%171OrchardCore.ContentManagement.ContentPickerResult"1OrchardCore.ContentManagement.ContentPickerResultÀ
-»
-≥
-®D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentFields\Services\DefaultContentPickerResultProvider.cs6  6(3
-%18void"GOrchardCore.ContentManagement.ContentPickerResult.ContentPickerResult()*:
-8
-%171OrchardCore.ContentManagement.ContentPickerResult¡
-æ
-≥
-®D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentFields\Services\DefaultContentPickerResultProvider.cs8$ 8(=
-%19string";OrchardCore.ContentManagement.ContentItem.ContentItemId.get*:
-8
-contentItem)OrchardCore.ContentManagement.ContentItem⁄
-◊
-≥
-®D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentFields\Services\DefaultContentPickerResultProvider.cs8 8(=
-%20string"COrchardCore.ContentManagement.ContentPickerResult.ContentItemId.set*:
-8
-%171OrchardCore.ContentManagement.ContentPickerResult*
-
-%19string∆√
-≥
-®D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentFields\Services\DefaultContentPickerResultProvider.cs9" 9(8
-%21string"4OrchardCore.ContentManagement.ContentItem.ToString()*:
-8
-contentItem)OrchardCore.ContentManagement.ContentItem2
-ToString()ÿ
-’
-≥
-®D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentFields\Services\DefaultContentPickerResultProvider.cs9 9(8
-%22string"AOrchardCore.ContentManagement.ContentPickerResult.DisplayText.set*:
-8
-%171OrchardCore.ContentManagement.ContentPickerResult*
-
-%21stringÜ
-É
-≥
-®D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentFields\Services\DefaultContentPickerResultProvider.cs:) :(84
-%23-OrchardCore.ContentManagement.IContentManager"__id*é*ãG
-EOrchardCore.ContentFields.Services.DefaultContentPickerResultProvider"@
-_contentManager-OrchardCore.ContentManagement.IContentManagerø
-º
-≥
-®D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentFields\Services\DefaultContentPickerResultProvider.cs:) :(^+
-%24$System.Threading.Tasks.Task<TResult>"¶OrchardCore.ContentManagement.ContentManagerExtensions.HasPublishedVersionAsync(OrchardCore.ContentManagement.IContentManager, OrchardCore.ContentManagement.IContent)*:"8
-6OrchardCore.ContentManagement.ContentManagerExtensions*6
-4
-%23-OrchardCore.ContentManagement.IContentManager*:
-8
-contentItem)OrchardCore.ContentManagement.ContentItemŒ
-À
-≥
-®D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentFields\Services\DefaultContentPickerResultProvider.cs: :(^
-%25bool"BOrchardCore.ContentManagement.ContentPickerResult.HasPublished.set*:
-8
-%171OrchardCore.ContentManagement.ContentPickerResult*
-""√
-¿
-≥
-®D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentFields\Services\DefaultContentPickerResultProvider.cs6 ;(
-%26void"
-__arrayAdd*/
--
-results"System.Collections.Generic.List<T>*: *:
-8
-%171OrchardCore.ContentManagement.ContentPickerResult*
-5*„
-7≥
-®D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentFields\Services\DefaultContentPickerResultProvider.cs> >(5ª
-∏
-≥
-®D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentFields\Services\DefaultContentPickerResultProvider.cs> >(6/
-%27(System.Linq.IOrderedEnumerable<TElement>"zSystem.Linq.Enumerable.OrderBy<TSource, TKey>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TKey>)*"
-System.Linq.Enumerable*/
--
-results"System.Collections.Generic.List<T>*
-"""È
-≥
-®D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentFields\Services\DefaultContentPickerResultProvider.cs> >(71
-/
-%27(System.Linq.IOrderedEnumerable<TElement>*á
-8≥
-®D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentFields\Services\DefaultContentPickerResultProvider.cs?	 ?(	"À
-≥
-®D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentFields\Services\DefaultContentPickerResultProvider.cs? ?(	
-implicit return:I
-searchContext8OrchardCore.ContentManagement.ContentPickerSearchContextBIG
-EOrchardCore.ContentFields.Services.DefaultContentPickerResultProvider

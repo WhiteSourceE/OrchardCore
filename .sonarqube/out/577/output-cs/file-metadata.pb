@@ -1,5 +1,0 @@
-Î
-ÂD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Localization\obj\Debug\netcoreapp3.1\Razor\Views\LocalizationSettings.Edit.cshtml.g.csutf-8Ó
-ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Localization\obj\Debug\netcoreapp3.1\Razor\Views\NavigationItemText-cultures.Id.cshtml.g.csutf-8Á
-µD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Localization\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.csutf-8Ð
-ÄD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Localization\obj\Debug\netcoreapp3.1\OrchardCore.Localization.RazorTargetAssemblyInfo.csutf-8

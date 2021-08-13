@@ -1,96 +1,0 @@
-
-ùOrchardCore.ContentManagement.Handlers.ContentPartHandlerCoordinator.ContentPartHandlerCoordinator(OrchardCore.ContentManagement.Handlers.IContentPartHandlerResolver, OrchardCore.ContentManagement.ITypeActivatorFactory<OrchardCore.ContentManagement.ContentPart>, System.Collections.Generic.IEnumerable<OrchardCore.ContentManagement.Handlers.IContentPartHandler>, OrchardCore.ContentManagement.ITypeActivatorFactory<OrchardCore.ContentManagement.ContentField>, OrchardCore.ContentManagement.Metadata.IContentDefinitionManager, Microsoft.Extensions.Logging.ILogger<OrchardCore.ContentManagement.Handlers.ContentPartHandlerCoordinator>)ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\Handlers\ContentPartHandlerCoordinator.cs (,"1*Ö
-1ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\Handlers\ContentPartHandlerCoordinator.cs*	 *(	ž
-›
-
-%0void"NOrchardCore.ContentManagement.Handlers.ContentHandlerBase.ContentHandlerBase()*=;
-9OrchardCore.ContentManagement.Handlers.ContentHandlerBase*
-0*î
-0ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\Handlers\ContentPartHandlerCoordinator.cs $(HÈ
-Å
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\Handlers\ContentPartHandlerCoordinator.cs (D«F
-DOrchardCore.ContentManagement.Handlers.ContentPartHandlerCoordinator"a
-_contentPartHandlerResolverBOrchardCore.ContentManagement.Handlers.IContentPartHandlerResolver"__id*b
-`
-contentPartHandlerResolverBOrchardCore.ContentManagement.Handlers.IContentPartHandlerResolver°
-­
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\Handlers\ContentPartHandlerCoordinator.cs (4ŸF
-DOrchardCore.ContentManagement.Handlers.ContentPartHandlerCoordinator"U
-_contentPartFactory>OrchardCore.ContentManagement.ITypeActivatorFactory<TInstance>"__id*V
-T
-contentPartFactory>OrchardCore.ContentManagement.ITypeActivatorFactory<TInstance>²
-¯
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\Handlers\ContentPartHandlerCoordinator.cs   (6 F
-DOrchardCore.ContentManagement.Handlers.ContentPartHandlerCoordinator"V
-_contentFieldFactory>OrchardCore.ContentManagement.ITypeActivatorFactory<TInstance>"__id*W
-U
-contentFieldFactory>OrchardCore.ContentManagement.ITypeActivatorFactory<TInstance>ú
-÷
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\Handlers\ContentPartHandlerCoordinator.cs! !((„F
-DOrchardCore.ContentManagement.Handlers.ContentPartHandlerCoordinator":
-_partHandlers)System.Collections.Generic.IEnumerable<T>"__id*;
-9
-partHandlers)System.Collections.Generic.IEnumerable<T>À
-½
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\Handlers\ContentPartHandlerCoordinator.cs" "(@§F
-DOrchardCore.ContentManagement.Handlers.ContentPartHandlerCoordinator"]
-_contentDefinitionManager@OrchardCore.ContentManagement.Metadata.IContentDefinitionManager"__id*^
-\
-contentDefinitionManager@OrchardCore.ContentManagement.Metadata.IContentDefinitionManagerÃ
-À
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\Handlers\ContentPartHandlerCoordinator.cs$$ $(I/
-%1)System.Collections.Generic.IEnumerable<T>"System.Linq.Enumerable.Select<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)*"
-System.Linq.Enumerable*;
-9
-partHandlers)System.Collections.Generic.IEnumerable<T>*
-""*
-2*¸
-2ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\Handlers\ContentPartHandlerCoordinator.cs*	 *(	*
-3
-4*í
-3«
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\Handlers\ContentPartHandlerCoordinator.cs& &(—´
-±
-«
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\Handlers\ContentPartHandlerCoordinator.cs& &(˜
-
-%2void"wMicrosoft.Extensions.Logging.LoggerExtensions.LogWarning(Microsoft.Extensions.Logging.ILogger, string, params object[])*1"/
--Microsoft.Extensions.Logging.LoggerExtensions*?
-=
-logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>*nl
-jThe content part handler '{ContentPartHandler}' should not be registered in DI. Use AddHandler<T> instead.*
-
-elementSystem.Type*
-2*ª
-4ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\Handlers\ContentPartHandlerCoordinator.cs) )(ò
-ï
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\Handlers\ContentPartHandlerCoordinator.cs) )(yF
-DOrchardCore.ContentManagement.Handlers.ContentPartHandlerCoordinator"/
-_logger$Microsoft.Extensions.Logging.ILogger"__id*?
-=
-logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>*
-5*õ
-5ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\Handlers\ContentPartHandlerCoordinator.cs*	 *(	"Â
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement\Handlers\ContentPartHandlerCoordinator.cs* *(	
-implicit return:`
-contentPartHandlerResolverBOrchardCore.ContentManagement.Handlers.IContentPartHandlerResolver:T
-contentPartFactory>OrchardCore.ContentManagement.ITypeActivatorFactory<TInstance>:9
-partHandlers)System.Collections.Generic.IEnumerable<T>:U
-contentFieldFactory>OrchardCore.ContentManagement.ITypeActivatorFactory<TInstance>:\
-contentDefinitionManager@OrchardCore.ContentManagement.Metadata.IContentDefinitionManager:=
-logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>BHF
-DOrchardCore.ContentManagement.Handlers.ContentPartHandlerCoordinator

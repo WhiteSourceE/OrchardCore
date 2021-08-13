@@ -1,328 +1,0 @@
-
-¶OrchardCore.Lucene.QueryProviders.PrefixQueryProvider.CreateQuery(OrchardCore.Lucene.ILuceneQueryService, OrchardCore.Lucene.LuceneQueryContext, string, Newtonsoft.Json.Linq.JObject) 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs ( "0*±
-0 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs ( €
-ý
- 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs ( 
-
-%0bool""string.operator !=(string, string)*
-"
-string*
-
-typestring*
-
-prefix*
-1
-2*Ô
-1 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs ("«
- 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs (
-""*‹
-2 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs ($«
-¨
- 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs (*/
-%1)System.Collections.Generic.IEnumerable<T>")Newtonsoft.Json.Linq.JObject.Properties()*'
-%
-queryNewtonsoft.Json.Linq.JObjectó
-ð
- 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs (2$
-%2Newtonsoft.Json.Linq.JProperty"VSystem.Linq.Enumerable.First<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
-System.Linq.Enumerable*1
-/
-%1)System.Collections.Generic.IEnumerable<T>ý
-ú
- 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs (2'
-firstNewtonsoft.Json.Linq.JProperty"__id*&
-$
-%2Newtonsoft.Json.Linq.JPropertyž
-›
- 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs (!
-%3Newtonsoft.Json.Linq.JToken"(Newtonsoft.Json.Linq.JProperty.Value.get*)
-'
-firstNewtonsoft.Json.Linq.JProperty˜
-•
- 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs ($%
-%4Newtonsoft.Json.Linq.JTokenType"$Newtonsoft.Json.Linq.JToken.Type.get*#
-!
-%3Newtonsoft.Json.Linq.JToken*
-3*®
-3 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs ($*
-4
-5*Ú
-4 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs (Vˆ
-…
- 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs4 (>
-%5string"'Newtonsoft.Json.Linq.JProperty.Name.get*)
-'
-firstNewtonsoft.Json.Linq.JPropertyž
-›
- 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs@ (K!
-%6Newtonsoft.Json.Linq.JToken"(Newtonsoft.Json.Linq.JProperty.Value.get*)
-'
-firstNewtonsoft.Json.Linq.JPropertyŠ
- 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs@ (V
-%7string"&Newtonsoft.Json.Linq.JToken.ToString()*#
-!
-%6Newtonsoft.Json.Linq.JToken2
-ToString()Ú×
- 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs+ (W
-%8Lucene.Net.Index.Term"Lucene.Net.Index.Term
-š
- 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs/ (3
-
-%9void"*Lucene.Net.Index.Term.Term(string, string)*
-
-%8Lucene.Net.Index.Term*
-
-%5string*
-
-%7stringëè
- 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs (X$
-%10Lucene.Net.Search.PrefixQuery"Lucene.Net.Search.PrefixQuery¼
-¹
- 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs (*
-%11void"@Lucene.Net.Search.PrefixQuery.PrefixQuery(Lucene.Net.Index.Term)*&
-$
-%10Lucene.Net.Search.PrefixQuery*
-
-%8Lucene.Net.Index.Term"Ë
- 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs (Y&
-$
-%10Lucene.Net.Search.PrefixQuery*®
-5 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs ($*
-6
-7*Ò
-6 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs (>Ÿ
-œ
- 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs' (2"
-%12Newtonsoft.Json.Linq.JToken"(Newtonsoft.Json.Linq.JProperty.Value.get*)
-'
-firstNewtonsoft.Json.Linq.JPropertyÙ
-Ö
- 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs (2
-%13"__id*$
-"
-%12Newtonsoft.Json.Linq.JTokenÚ
-×
- 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs (2#
-objNewtonsoft.Json.Linq.JObject"__id*
-
-%13â
-ß
- 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs  (2,
-prefixQueryLucene.Net.Search.PrefixQuery"__id*
-""á
-Þ
- 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs (?
-%14bool"RNewtonsoft.Json.Linq.JObject.TryGetValue(string, out Newtonsoft.Json.Linq.JToken?)*%
-#
-objNewtonsoft.Json.Linq.JObject*	
-value*&
-$
-valueNewtonsoft.Json.Linq.JToken*
-8
-9*á
-8 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs   (`‰
-†
- 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs ?  (I
-%15string"'Newtonsoft.Json.Linq.JProperty.Name.get*)
-'
-firstNewtonsoft.Json.Linq.JPropertyñ
-î
- 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs K  (`
-%16string"mNewtonsoft.Json.Linq.Extensions.Value<U>(System.Collections.Generic.IEnumerable<Newtonsoft.Json.Linq.JToken>)*#"!
-Newtonsoft.Json.Linq.Extensions*&
-$
-valueNewtonsoft.Json.Linq.JTokenÛØ
- 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs 6  (a
-%17Lucene.Net.Index.Term"Lucene.Net.Index.Term¡
-ž
- 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs :  (>
-%18void"*Lucene.Net.Index.Term.Term(string, string)*
-
-%17Lucene.Net.Index.Term*
-
-%15string*
-
-%16stringëè
- 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs &  (b$
-%19Lucene.Net.Search.PrefixQuery"Lucene.Net.Search.PrefixQuery½
-º
- 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs *  (5
-%20void"@Lucene.Net.Search.PrefixQuery.PrefixQuery(Lucene.Net.Index.Term)*&
-$
-%19Lucene.Net.Search.PrefixQuery*
-
-%17Lucene.Net.Index.Term‚
-ÿ
- 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs   (b,
-prefixQueryLucene.Net.Search.PrefixQuery"__id*&
-$
-%19Lucene.Net.Search.PrefixQuery*
-10*–
-9 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs" "(Eã
-à
- 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs" "(F
-%21bool"RNewtonsoft.Json.Linq.JObject.TryGetValue(string, out Newtonsoft.Json.Linq.JToken?)*%
-#
-objNewtonsoft.Json.Linq.JObject*
-
-prefix*'
-%
-prefixNewtonsoft.Json.Linq.JToken*
-11
-12*ã
-11 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs$ $(a‰
-†
- 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs$? $(I
-%22string"'Newtonsoft.Json.Linq.JProperty.Name.get*)
-'
-firstNewtonsoft.Json.Linq.JPropertyò
-ï
- 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs$K $(a
-%23string"mNewtonsoft.Json.Linq.Extensions.Value<U>(System.Collections.Generic.IEnumerable<Newtonsoft.Json.Linq.JToken>)*#"!
-Newtonsoft.Json.Linq.Extensions*'
-%
-prefixNewtonsoft.Json.Linq.JTokenÛØ
- 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs$6 $(b
-%24Lucene.Net.Index.Term"Lucene.Net.Index.Term¡
-ž
- 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs$: $(>
-%25void"*Lucene.Net.Index.Term.Term(string, string)*
-
-%24Lucene.Net.Index.Term*
-
-%22string*
-
-%23stringëè
- 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs$& $(c$
-%26Lucene.Net.Search.PrefixQuery"Lucene.Net.Search.PrefixQuery½
-º
- 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs$* $(5
-%27void"@Lucene.Net.Search.PrefixQuery.PrefixQuery(Lucene.Net.Index.Term)*&
-$
-%26Lucene.Net.Search.PrefixQuery*
-
-%24Lucene.Net.Index.Term‚
-ÿ
- 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs$ $(c,
-prefixQueryLucene.Net.Search.PrefixQuery"__id*&
-$
-%26Lucene.Net.Search.PrefixQuery*
-10*Å
-12 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs( ((VáÞ
- 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs( ((W
-%28System.ArgumentException"System.ArgumentException±
-®
- 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs(" ((3
-%29void"3System.ArgumentException.ArgumentException(string?)*!
-
-%28System.ArgumentException*$"
- Prefix query misses prefix value*
-13*•
-10 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs+ +(>á
-Þ
- 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs+ +(?
-%30bool"RNewtonsoft.Json.Linq.JObject.TryGetValue(string, out Newtonsoft.Json.Linq.JToken?)*%
-#
-objNewtonsoft.Json.Linq.JObject*	
-boost*&
-$
-boostNewtonsoft.Json.Linq.JToken*
-14
-15*Å
-14 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs- -(@ð
-í
- 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs-, -(@
-%31float"mNewtonsoft.Json.Linq.Extensions.Value<U>(System.Collections.Generic.IEnumerable<Newtonsoft.Json.Linq.JToken>)*#"!
-Newtonsoft.Json.Linq.Extensions*&
-$
-boostNewtonsoft.Json.Linq.JToken¢Ÿ
- 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs- -(@
-%32float"!Lucene.Net.Search.Query.Boost.set*.
-,
-prefixQueryLucene.Net.Search.PrefixQuery*
-
-%31float2	Boost.set*
-15*ý
-15 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs0 0(&"Ó
- 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs0 0('.
-,
-prefixQueryLucene.Net.Search.PrefixQuery*¸
-7 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs1 1(KáÞ
- 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs1 1(L
-%33System.ArgumentException"System.ArgumentException¥
-¢
- 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs1# 1(4
-%34void"3System.ArgumentException.ArgumentException(string?)*!
-
-%33System.ArgumentException*
-Invalid prefix query*
-13*â
-13 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs3	 3(	"¸
- 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\PrefixQueryProvider.cs3 3(	
-implicit return:1
-builder&OrchardCore.Lucene.ILuceneQueryService:0
-context%OrchardCore.Lucene.LuceneQueryContext:
-typestring:%
-queryNewtonsoft.Json.Linq.JObjectB97
-5OrchardCore.Lucene.QueryProviders.PrefixQueryProvider

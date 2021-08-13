@@ -1,140 +1,0 @@
-
-èOrchardCore.OpenId.YesSql.Stores.OpenIdAuthorizationStore<TAuthorization>.SetPropertiesAsync(TAuthorization, System.Collections.Immutable.ImmutableDictionary<string, System.Text.Json.JsonElement>, System.Threading.CancellationToken)¦
-™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.cs½! ½(3"0*Ê
-0¦
-™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.cs¿ ¿(%“
-
-¦
-™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.cs¿ ¿(%
-
-%0bool""object.operator ==(object, object)*
-"
-object*!
-
-authorizationTAuthorization*
-""*
-1
-2*È
-1¦
-™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csÁ Á(Eîë
-¦
-™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csÁ Á(F"
-%1System.ArgumentNullException"System.ArgumentNullException£
- 
-¦
-™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csÁ Á(/
-
-%2void";System.ArgumentNullException.ArgumentNullException(string?)*$
-"
-%1System.ArgumentNullException*
-""*
-3*÷
-2¦
-™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csÄ Ä("À
-½
-¦
-™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csÄ Ä("
-
-%3bool""object.operator ==(object, object)*
-"
-object*N
-L
-
-properties>System.Collections.Immutable.ImmutableDictionary<TKey, TValue>*
-""*
-4
-5*‹
-5¦
-™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csÄ& Ä(8Ô
-Ñ
-¦
-™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csÄ& Ä(8
-
-%4bool"JSystem.Collections.Immutable.ImmutableDictionary<TKey, TValue>.IsEmpty.get*N
-L
-
-properties>System.Collections.Immutable.ImmutableDictionary<TKey, TValue>*
-4
-6*£
-4¦
-™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csÆ È(À
-½
-¦
-™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csÆ Æ(/"
-%5Newtonsoft.Json.Linq.JObject"COrchardCore.OpenId.YesSql.Models.OpenIdAuthorization.Properties.set*!
-
-authorizationTAuthorization*
-"""±
-¦
-™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csÈ È(
-""*ô
-6¦
-™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csË Ñ(‚ÿ
-¦
-™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csËZ Ï(,
-%6&System.Text.Json.JsonSerializerOptions"&System.Text.Json.JsonSerializerOptions¨
-¥
-¦
-™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csË^ Ë(s
-
-%7void">System.Text.Json.JsonSerializerOptions.JsonSerializerOptions()*.
-,
-%6&System.Text.Json.JsonSerializerOptionsÛ
-Ø
-¦
-™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csÍ Í(E1
-%8+System.Text.Encodings.Web.JavaScriptEncoder"ISystem.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping.get*/"-
-+System.Text.Encodings.Web.JavaScriptEncoderø
-õ
-¦
-™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csÍ Í(E1
-%9+System.Text.Encodings.Web.JavaScriptEncoder"2System.Text.Json.JsonSerializerOptions.Encoder.set*.
-,
-%6&System.Text.Json.JsonSerializerOptions*3
-1
-%8+System.Text.Encodings.Web.JavaScriptEncoder«
-¨
-¦
-™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csÎ Î(%
-%10bool"8System.Text.Json.JsonSerializerOptions.WriteIndented.set*.
-,
-%6&System.Text.Json.JsonSerializerOptions*
-""Ä
-Á
-¦
-™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csË5 Ï(
-%11string"bSystem.Text.Json.JsonSerializer.Serialize<TValue>(TValue, System.Text.Json.JsonSerializerOptions?)*#"!
-System.Text.Json.JsonSerializer*N
-L
-
-properties>System.Collections.Immutable.ImmutableDictionary<TKey, TValue>*.
-,
-%6&System.Text.Json.JsonSerializerOptions°
-­
-¦
-™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csË' Ï(#
-%12Newtonsoft.Json.Linq.JObject"*Newtonsoft.Json.Linq.JObject.Parse(string)* "
-Newtonsoft.Json.Linq.JObject*
-
-%11stringà
-Ý
-¦
-™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csË Ï(#
-%13Newtonsoft.Json.Linq.JObject"COrchardCore.OpenId.YesSql.Models.OpenIdAuthorization.Properties.set*!
-
-authorizationTAuthorization*%
-#
-%12Newtonsoft.Json.Linq.JObject"±
-¦
-™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csÑ Ñ(
-""*í
-3¦
-™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csÒ	 Ò(	"¾
-¦
-™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\YesSql\Stores\OpenIdAuthorizationStore.csÒ Ò(	
-implicit return:
-authorizationTAuthorization:L
-
-properties>System.Collections.Immutable.ImmutableDictionary<TKey, TValue>:7
-cancellationToken"System.Threading.CancellationTokenBMK
-IOrchardCore.OpenId.YesSql.Stores.OpenIdAuthorizationStore<TAuthorization>

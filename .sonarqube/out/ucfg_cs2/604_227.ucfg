@@ -1,173 +1,0 @@
-
->OrchardCore.Lucene.Controllers.AdminController.Rebuild(string)ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs“( “(/"6*¿
-0ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs• •([õ
-ò
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs• •(,>
-%08Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*ˆ*…0
-.OrchardCore.Lucene.Controllers.AdminController"Q
-_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationService±
-®
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs•< •(@,
-%1&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*+)
-'Microsoft.AspNetCore.Mvc.ControllerBaseÁ
-¾
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs•B •([1
-%2+OrchardCore.Security.Permissions.Permission"__id*b*` 
-OrchardCore.Lucene.Permissions"<
-ManageIndexes+OrchardCore.Security.Permissions.Permission 
-
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs• •(\*
-%3$System.Threading.Tasks.Task<TResult>"ßMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission)*E"C
-AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*@
->
-%08Microsoft.AspNetCore.Authorization.IAuthorizationService*.
-,
-%1&System.Security.Claims.ClaimsPrincipal*3
-1
-%2+OrchardCore.Security.Permissions.Permission*
-1
-2*´
-1ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs— —(º·
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs— —(+
-%4%Microsoft.AspNetCore.Mvc.ForbidResult"0Microsoft.AspNetCore.Mvc.ControllerBase.Forbid()*+)
-'Microsoft.AspNetCore.Mvc.ControllerBase2Forbid()"Ð
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs— —( -
-+
-%4%Microsoft.AspNetCore.Mvc.ForbidResult*¢
-2ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csš š(.Ë
-È
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csš š($+
-%5%OrchardCore.Lucene.LuceneIndexManager"__id*r*p0
-.OrchardCore.Lucene.Controllers.AdminController"<
-_luceneIndexManager%OrchardCore.Lucene.LuceneIndexManager¥
-¢
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csš š(/
-
-%6bool"4OrchardCore.Lucene.LuceneIndexManager.Exists(string)*-
-+
-%5%OrchardCore.Lucene.LuceneIndexManager*
-
-idstring*
-3
-4*¼
-3ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csœ œ(!À½
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csœ œ(!-
-%7'Microsoft.AspNetCore.Mvc.NotFoundResult"2Microsoft.AspNetCore.Mvc.ControllerBase.NotFound()*+)
-'Microsoft.AspNetCore.Mvc.ControllerBase2
-NotFound()"Ò
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csœ œ("/
--
-%7'Microsoft.AspNetCore.Mvc.NotFoundResult*û
-4ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csŸ ¤(+Ô
-Ñ
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csŸ Ÿ((.
-%8(OrchardCore.Lucene.LuceneIndexingService"__id*x*v0
-.OrchardCore.Lucene.Controllers.AdminController"B
-_luceneIndexingService(OrchardCore.Lucene.LuceneIndexingServiceÍ
-Ê
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.csŸ Ÿ(>!
-%9System.Threading.Tasks.Task"BOrchardCore.Lucene.LuceneIndexingService.RebuildIndexAsync(string)*0
-.
-%8(OrchardCore.Lucene.LuceneIndexingService*
-
-idstringÕ
-Ò
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs   ((/
-%10(OrchardCore.Lucene.LuceneIndexingService"__id*x*v0
-.OrchardCore.Lucene.Controllers.AdminController"B
-_luceneIndexingService(OrchardCore.Lucene.LuceneIndexingServiceÖ
-Ó
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs   (E"
-%11System.Threading.Tasks.Task"IOrchardCore.Lucene.LuceneIndexingService.ProcessContentItemsAsync(string)*1
-/
-%10(OrchardCore.Lucene.LuceneIndexingService*
-
-idstringÔ
-Ñ
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs¢ ¢(5
-%12.OrchardCore.DisplayManagement.Notify.INotifier"__id*q*o0
-.OrchardCore.Lucene.Controllers.AdminController";
-	_notifier.OrchardCore.DisplayManagement.Notify.INotifierØ
-Õ
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs¢ ¢(;
-%134Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer"__id*o*m0
-.OrchardCore.Lucene.Controllers.AdminController"9
-H4Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizerÞÛ
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs¢ ¢(O@
-%149Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString"VMicrosoft.AspNetCore.Mvc.Localization.IHtmlLocalizer.this[string, params object[]].get*=
-;
-%134Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer*,*
-(Index <em>{0}</em> rebuilt successfully.*
-
-idstring2!this[string, params object[]].get˜
-•
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs¢ ¢(P
-%15void"ªOrchardCore.DisplayManagement.Notify.NotifierExtensions.Success(OrchardCore.DisplayManagement.Notify.INotifier, Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString)*;"9
-7OrchardCore.DisplayManagement.Notify.NotifierExtensions*7
-5
-%12.OrchardCore.DisplayManagement.Notify.INotifier*B
-@
-%149Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlStringðí
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs¤ ¤(,6
-%16/Microsoft.AspNetCore.Mvc.RedirectToActionResult"@Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToAction(string)*+)
-'Microsoft.AspNetCore.Mvc.ControllerBase*	
-Index2RedirectToAction(string)"Û
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs¤ ¤(-8
-6
-%16/Microsoft.AspNetCore.Mvc.RedirectToActionResult*Ý
-5ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs¥	 ¥(	"¶
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs¥ ¥(	
-implicit return*Ï
-6ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs“: “(:É
-Æ
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs“( “(/
-%17"__entrypoint*
-
-idstring‹
-ˆ
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs’	 ’(
-%18"
-__annotate*B@
->Microsoft.AspNetCore.Mvc.HttpPostAttribute.HttpPostAttribute()*
-
-idstringÉ
-Æ
-ž
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\Controllers\AdminController.cs“0 “(9
-idstring"__annotation*
-
-%18*
-0:
-idstringB20
-.OrchardCore.Lucene.Controllers.AdminController

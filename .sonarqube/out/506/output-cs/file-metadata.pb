@@ -1,8 +1,0 @@
-¾
-²D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\obj\Debug\net5.0\Razor\Views\CustomSettings.cshtml.g.csutf-8Ã
-·D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\obj\Debug\net5.0\Razor\Views\CustomSettings.Edit.cshtml.g.csutf-8Þ
-ÒD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\obj\Debug\net5.0\Razor\Views\Items\CustomSettingsDeploymentStep.Fields.Edit.cshtml.g.csutf-8á
-ÕD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\obj\Debug\net5.0\Razor\Views\Items\CustomSettingsDeploymentStep.Fields.Summary.cshtml.g.csutf-8ã
-×D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\obj\Debug\net5.0\Razor\Views\Items\CustomSettingsDeploymentStep.Fields.Thumbnail.cshtml.g.csutf-8¼
-°D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.csutf-8Í
-ÁD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.CustomSettings\obj\Debug\net5.0\OrchardCore.CustomSettings.RazorTargetAssemblyInfo.csutf-8

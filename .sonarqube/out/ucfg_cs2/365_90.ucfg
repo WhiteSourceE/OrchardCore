@@ -1,134 +1,0 @@
-
-âOrchardCore.Microsoft.Authentication.Recipes.MicrosoftAccountSettingsStep.ExecuteAsync(OrchardCore.Recipes.Models.RecipeExecutionContext)∑
-¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Microsoft.Authentication\Recipes\MicrosoftAccountSettingsStep.cs (&"0*ï
-0∑
-¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Microsoft.Authentication\Recipes\MicrosoftAccountSettingsStep.cs (q«
-ƒ
-∑
-¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Microsoft.Authentication\Recipes\MicrosoftAccountSettingsStep.cs (+
-%0string":OrchardCore.Recipes.Models.RecipeExecutionContext.Name.get*>
-<
-context1OrchardCore.Recipes.Models.RecipeExecutionContext—
-Œ
-∑
-¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Microsoft.Authentication\Recipes\MicrosoftAccountSettingsStep.csO (q
-%1"__id*
-""Ø
-¨
-∑
-¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Microsoft.Authentication\Recipes\MicrosoftAccountSettingsStep.cs (r
-
-%2bool"8string.Equals(string?, string?, System.StringComparison)*
-"
-string*
-
-%0string*
-""*
-
-%1*
-1
-2*Ç
-1∑
-¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Microsoft.Authentication\Recipes\MicrosoftAccountSettingsStep.cs%	 %(	"¬
-∑
-¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Microsoft.Authentication\Recipes\MicrosoftAccountSettingsStep.cs (
-""*∆.
-2∑
-¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Microsoft.Authentication\Recipes\MicrosoftAccountSettingsStep.cs $(G›
-⁄
-∑
-¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Microsoft.Authentication\Recipes\MicrosoftAccountSettingsStep.cs ($"
-%3Newtonsoft.Json.Linq.JObject":OrchardCore.Recipes.Models.RecipeExecutionContext.Step.get*>
-<
-context1OrchardCore.Recipes.Models.RecipeExecutionContext‰
-·
-∑
-¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Microsoft.Authentication\Recipes\MicrosoftAccountSettingsStep.cs (RT
-%4NOrchardCore.Microsoft.Authentication.Recipes.MicrosoftAccountSettingsStepModel")Newtonsoft.Json.Linq.JToken.ToObject<T>()*$
-"
-%3Newtonsoft.Json.Linq.JObjectÙ
-Ò
-∑
-¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Microsoft.Authentication\Recipes\MicrosoftAccountSettingsStep.cs (RW
-modelNOrchardCore.Microsoft.Authentication.Recipes.MicrosoftAccountSettingsStepModel"__id*V
-T
-%4NOrchardCore.Microsoft.Authentication.Recipes.MicrosoftAccountSettingsStepModel»
-≈
-∑
-¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Microsoft.Authentication\Recipes\MicrosoftAccountSettingsStep.cs! (9L
-%5FOrchardCore.Microsoft.Authentication.Services.IMicrosoftAccountService"__id*¥*±K
-IOrchardCore.Microsoft.Authentication.Recipes.MicrosoftAccountSettingsStep"b
-_microsoftAccountServiceFOrchardCore.Microsoft.Authentication.Services.IMicrosoftAccountService™ß
-∑
-¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Microsoft.Authentication\Recipes\MicrosoftAccountSettingsStep.cs! (M*
-%6$System.Threading.Tasks.Task<TResult>"ZOrchardCore.Microsoft.Authentication.Services.IMicrosoftAccountService.LoadSettingsAsync()*N
-L
-%5FOrchardCore.Microsoft.Authentication.Services.IMicrosoftAccountService2LoadSettingsAsync()ü
-ú
-∑
-¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Microsoft.Authentication\Recipes\MicrosoftAccountSettingsStep.cs (MR
-settingsFOrchardCore.Microsoft.Authentication.Settings.MicrosoftAccountSettings"__id*
-""Ä
-˝
-∑
-¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Microsoft.Authentication\Recipes\MicrosoftAccountSettingsStep.cs   ((
-%7string"XOrchardCore.Microsoft.Authentication.Recipes.MicrosoftAccountSettingsStepModel.AppId.get*Y
-W
-modelNOrchardCore.Microsoft.Authentication.Recipes.MicrosoftAccountSettingsStepModelÉ
-Ä
-∑
-¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Microsoft.Authentication\Recipes\MicrosoftAccountSettingsStep.cs   ((
-%8string"POrchardCore.Microsoft.Authentication.Settings.MicrosoftAccountSettings.AppId.set*T
-R
-settingsFOrchardCore.Microsoft.Authentication.Settings.MicrosoftAccountSettings*
-
-%7stringÑ
-Å
-∑
-¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Microsoft.Authentication\Recipes\MicrosoftAccountSettingsStep.cs!! !(0
-%9string"\OrchardCore.Microsoft.Authentication.Recipes.MicrosoftAccountSettingsStepModel.AppSecret.get*Y
-W
-modelNOrchardCore.Microsoft.Authentication.Recipes.MicrosoftAccountSettingsStepModelà
-Ö
-∑
-¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Microsoft.Authentication\Recipes\MicrosoftAccountSettingsStep.cs! !(0
-%10string"TOrchardCore.Microsoft.Authentication.Settings.MicrosoftAccountSettings.AppSecret.set*T
-R
-settingsFOrchardCore.Microsoft.Authentication.Settings.MicrosoftAccountSettings*
-
-%9stringà
-Ö
-∑
-¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Microsoft.Authentication\Recipes\MicrosoftAccountSettingsStep.cs"$ "(6
-%11string"_OrchardCore.Microsoft.Authentication.Recipes.MicrosoftAccountSettingsStepModel.CallbackPath.get*Y
-W
-modelNOrchardCore.Microsoft.Authentication.Recipes.MicrosoftAccountSettingsStepModel™
-ß
-∑
-¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Microsoft.Authentication\Recipes\MicrosoftAccountSettingsStep.cs" "(6+
-%12$Microsoft.AspNetCore.Http.PathString"WOrchardCore.Microsoft.Authentication.Settings.MicrosoftAccountSettings.CallbackPath.set*T
-R
-settingsFOrchardCore.Microsoft.Authentication.Settings.MicrosoftAccountSettings*
-
-%11string…
-∆
-∑
-¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Microsoft.Authentication\Recipes\MicrosoftAccountSettingsStep.cs$ $(*M
-%13FOrchardCore.Microsoft.Authentication.Services.IMicrosoftAccountService"__id*¥*±K
-IOrchardCore.Microsoft.Authentication.Recipes.MicrosoftAccountSettingsStep"b
-_microsoftAccountServiceFOrchardCore.Microsoft.Authentication.Services.IMicrosoftAccountServiceäá
-∑
-¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Microsoft.Authentication\Recipes\MicrosoftAccountSettingsStep.cs$ $(H"
-%14System.Threading.Tasks.Task"¢OrchardCore.Microsoft.Authentication.Services.IMicrosoftAccountService.UpdateSettingsAsync(OrchardCore.Microsoft.Authentication.Settings.MicrosoftAccountSettings)*O
-M
-%13FOrchardCore.Microsoft.Authentication.Services.IMicrosoftAccountService*T
-R
-settingsFOrchardCore.Microsoft.Authentication.Settings.MicrosoftAccountSettings2[UpdateSettingsAsync(OrchardCore.Microsoft.Authentication.Settings.MicrosoftAccountSettings)*
-3*è
-3∑
-¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Microsoft.Authentication\Recipes\MicrosoftAccountSettingsStep.cs%	 %(	"œ
-∑
-¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Microsoft.Authentication\Recipes\MicrosoftAccountSettingsStep.cs% %(	
-implicit return:<
-context1OrchardCore.Recipes.Models.RecipeExecutionContextBMK
-IOrchardCore.Microsoft.Authentication.Recipes.MicrosoftAccountSettingsStep

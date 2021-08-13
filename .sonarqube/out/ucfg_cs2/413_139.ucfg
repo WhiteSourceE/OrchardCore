@@ -1,118 +1,0 @@
-
-bTaxonomyOrchardHelperExtensions.GetInheritedTermsAsync(OrchardCore.IOrchardHelper, string, string)´
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Helper\TaxonomyOrchardHelperExtensions.cs(0 ((F"0*Ç
-0´
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Helper\TaxonomyOrchardHelperExtensions.cs* -( «
-´
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Helper\TaxonomyOrchardHelperExtensions.cs* *(6+
-%0%Microsoft.AspNetCore.Http.HttpContext"*OrchardCore.IOrchardHelper.HttpContext.get*-
-+
-orchardHelperOrchardCore.IOrchardHelper2HttpContext.get∫
-∑
-´
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Helper\TaxonomyOrchardHelperExtensions.cs* *(F
-%1System.IServiceProvider"9Microsoft.AspNetCore.Http.HttpContext.RequestServices.get*-
-+
-%0%Microsoft.AspNetCore.Http.HttpContext»
-≈
-´
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Helper\TaxonomyOrchardHelperExtensions.cs* *(d3
-%2-OrchardCore.ContentManagement.IContentManager"pMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService<T>(System.IServiceProvider)*M"K
-IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*
-
-%1System.IServiceProviderØ
-¨
-´
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Helper\TaxonomyOrchardHelperExtensions.cs* *(d?
-contentManager-OrchardCore.ContentManagement.IContentManager"__id*5
-3
-%2-OrchardCore.ContentManagement.IContentManagerïí
-´
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Helper\TaxonomyOrchardHelperExtensions.cs+ +(K*
-%3$System.Threading.Tasks.Task<TResult>">OrchardCore.ContentManagement.IContentManager.GetAsync(string)*A
-?
-contentManager-OrchardCore.ContentManagement.IContentManager*!
-
-taxonomyContentItemIdstring2GetAsync(string)ˆ
-Û
-´
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Helper\TaxonomyOrchardHelperExtensions.cs+ +(K5
-taxonomy)OrchardCore.ContentManagement.ContentItem"__id*
-""Æ
-´
-´
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Helper\TaxonomyOrchardHelperExtensions.cs- -(
-
-%4bool""object.operator ==(object, object)*
-"
-object*7
-5
-taxonomy)OrchardCore.ContentManagement.ContentItem*
-""*
-1
-2*Í
-1´
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Helper\TaxonomyOrchardHelperExtensions.cs/ /("∂
-´
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Helper\TaxonomyOrchardHelperExtensions.cs/ /(
-""*å
-2´
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Helper\TaxonomyOrchardHelperExtensions.cs2 6(ˇ¸
-´
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Helper\TaxonomyOrchardHelperExtensions.cs2 2(+(
-%5"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>î
-ë
-´
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Helper\TaxonomyOrchardHelperExtensions.cs2 2()
-
-%6void")System.Collections.Generic.List<T>.List()**
-(
-%5"System.Collections.Generic.List<T>ê
-ç
-´
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Helper\TaxonomyOrchardHelperExtensions.cs2 2(++
-terms"System.Collections.Generic.List<T>"__id**
-(
-%5"System.Collections.Generic.List<T>≥
-∞
-´
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Helper\TaxonomyOrchardHelperExtensions.cs4 4(*
-%7dynamic"8OrchardCore.ContentManagement.ContentElement.Content.get*7
-5
-taxonomy)OrchardCore.ContentManagement.ContentItemÌ
-Í
-´
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Helper\TaxonomyOrchardHelperExtensions.cs4 4(7
-%8dynamic"__mapGet*
-
-%7dynamic*
-TaxonomyPart≈
-¬
-´
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Helper\TaxonomyOrchardHelperExtensions.cs4 4(G
-%9"__id*
-""ﬁ
-€
-´
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Helper\TaxonomyOrchardHelperExtensions.cs4 4(b
-%10bool"¢TaxonomyOrchardHelperExtensions.FindTermHierarchy(Newtonsoft.Json.Linq.JArray, string, System.Collections.Generic.List<OrchardCore.ContentManagement.ContentItem>)*#"!
-TaxonomyOrchardHelperExtensions*
-
-%9*
-
-termContentItemIdstring*-
-+
-terms"System.Collections.Generic.List<T>"›
-´
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Helper\TaxonomyOrchardHelperExtensions.cs6 6(-
-+
-terms"System.Collections.Generic.List<T>*˜
-3´
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Helper\TaxonomyOrchardHelperExtensions.cs7 7("√
-´
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Helper\TaxonomyOrchardHelperExtensions.cs7 7(
-implicit return:+
-orchardHelperOrchardCore.IOrchardHelper:
-taxonomyContentItemIdstring:
-termContentItemIdstringB#"!
-TaxonomyOrchardHelperExtensions

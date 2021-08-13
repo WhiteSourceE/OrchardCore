@@ -1,122 +1,0 @@
-
-“OrchardCore.DisplayManagement.Liquid.Filters.SanitizeHtmlFilter.ProcessAsync(Fluid.Values.FluidValue, Fluid.FilterArguments, Fluid.TemplateContext)¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Filters\SanitizeHtmlFilter.cs% (1"0*Õ
-
-0¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Filters\SanitizeHtmlFilter.cs (K†
-ƒ
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Filters\SanitizeHtmlFilter.cs (,
-%0string"'Fluid.Values.FluidValue.ToStringValue()*"
- 
-inputFluid.Values.FluidValueÑ
-Î
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Filters\SanitizeHtmlFilter.cs (,
-htmlstring"__id*
-
-%0stringÔ
-Ñ
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Filters\SanitizeHtmlFilter.cs ("9
-%13System.Collections.Generic.Dictionary<TKey, TValue>"__id*f*d
-
-ctxFluid.TemplateContext"D
-AmbientValues3System.Collections.Generic.Dictionary<TKey, TValue>ë
-è
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Filters\SanitizeHtmlFilter.cs (L
-
-%2bool"QSystem.Collections.Generic.Dictionary<TKey, TValue>.TryGetValue(TKey, out TValue)*;
-9
-%13System.Collections.Generic.Dictionary<TKey, TValue>*
-
-Services*
-
-servicesobject*
-1
-2*Ù
-1¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Filters\SanitizeHtmlFilter.cs (Xåâ
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Filters\SanitizeHtmlFilter.cs (Y
-%3System.ArgumentException"System.ArgumentException¾
-»
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Filters\SanitizeHtmlFilter.cs (+
-
-%4void"3System.ArgumentException.ArgumentException(string?)* 
-
-%3System.ArgumentException*.,
-*Services missing while invoking 'sanitize'*
-3*í
-2¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Filters\SanitizeHtmlFilter.cs (AÍ
-Ê
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Filters\SanitizeHtmlFilter.cs (7
-%5"__id*
-
-servicesobject¹
-¶
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Filters\SanitizeHtmlFilter.cs (d;
-%65OrchardCore.Infrastructure.Html.IHtmlSanitizerService"xMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<T>(System.IServiceProvider)*M"K
-IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*
-
-%5´
-±
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Filters\SanitizeHtmlFilter.cs (dB
-	sanitizer5OrchardCore.Infrastructure.Html.IHtmlSanitizerService"__id*=
-;
-%65OrchardCore.Infrastructure.Html.IHtmlSanitizerServiceëè
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Filters\SanitizeHtmlFilter.cs (+
-%7string"FOrchardCore.Infrastructure.Html.IHtmlSanitizerService.Sanitize(string)*D
-B
-	sanitizer5OrchardCore.Infrastructure.Html.IHtmlSanitizerService*
-
-htmlstring2Sanitize(string)Ñ
-Î
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Filters\SanitizeHtmlFilter.cs (+
-htmlstring"__id*
-
-%7stringåâ
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Filters\SanitizeHtmlFilter.cs- (B
-%8Fluid.Values.StringValue"Fluid.Values.StringValue™
-–
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Filters\SanitizeHtmlFilter.cs1 (<
-
-%9void",Fluid.Values.StringValue.StringValue(string)* 
-
-%8Fluid.Values.StringValue*
-
-htmlstringˆ…
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Filters\SanitizeHtmlFilter.cs (C0
-%10)System.Threading.Tasks.ValueTask<TResult>")System.Threading.Tasks.ValueTask<TResult>Ì
-É
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Filters\SanitizeHtmlFilter.cs (,
-%11void"<System.Threading.Tasks.ValueTask<TResult>.ValueTask(TResult)*2
-0
-%10)System.Threading.Tasks.ValueTask<TResult>* 
-
-%8Fluid.Values.StringValue"Ü
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Filters\SanitizeHtmlFilter.cs (D2
-0
-%10)System.Threading.Tasks.ValueTask<TResult>*ë
-3¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Filters\SanitizeHtmlFilter.cs	 (	"½
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Filters\SanitizeHtmlFilter.cs (	
-implicit return: 
-inputFluid.Values.FluidValue:"
-	argumentsFluid.FilterArguments:
-ctxFluid.TemplateContextBCA
-?OrchardCore.DisplayManagement.Liquid.Filters.SanitizeHtmlFilter

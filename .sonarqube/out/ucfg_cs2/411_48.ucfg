@@ -1,209 +1,0 @@
-
-ÉOrchardCore.Widgets.Controllers.AdminController.BuildEditor(string, string, string, string, string, string, string, string, string)ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Widgets\Controllers\AdminController.cs )  (4"4*ù
-0ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Widgets\Controllers\AdminController.cs" "(,Ô
-Ï
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Widgets\Controllers\AdminController.cs" "(-
-
-%0bool""string.IsNullOrWhiteSpace(string?)*
-"
-string*
-
-idstring*
-1
-2*π
-1ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Widgets\Controllers\AdminController.cs$ $(!øº
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Widgets\Controllers\AdminController.cs$ $(!-
-%1'Microsoft.AspNetCore.Mvc.NotFoundResult"2Microsoft.AspNetCore.Mvc.ControllerBase.NotFound()*+)
-'Microsoft.AspNetCore.Mvc.ControllerBase2
-NotFound()"—
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Widgets\Controllers\AdminController.cs$ $("/
--
-%1'Microsoft.AspNetCore.Mvc.NotFoundResult*‰3
-2ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Widgets\Controllers\AdminController.cs' P((◊
-‘
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Widgets\Controllers\AdminController.cs'$ '(33
-%2-OrchardCore.ContentManagement.IContentManager"__id*w*u1
-/OrchardCore.Widgets.Controllers.AdminController"@
-_contentManager-OrchardCore.ContentManagement.IContentManagerËÂ
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Widgets\Controllers\AdminController.cs'$ '(@*
-%3$System.Threading.Tasks.Task<TResult>">OrchardCore.ContentManagement.IContentManager.NewAsync(string)*5
-3
-%2-OrchardCore.ContentManagement.IContentManager*
-
-idstring2NewAsync(string)Î
-Ë
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Widgets\Controllers\AdminController.cs' '(@8
-contentItem)OrchardCore.ContentManagement.ContentItem"__id*
-""ˇ¸
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Widgets\Controllers\AdminController.cs) )(1/
-%4)OrchardCore.Widgets.Models.WidgetMetadata")OrchardCore.Widgets.Models.WidgetMetadataû
-õ
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Widgets\Controllers\AdminController.cs)! )(/
-
-%5void":OrchardCore.Widgets.Models.WidgetMetadata.WidgetMetadata()*1
-/
-%4)OrchardCore.Widgets.Models.WidgetMetadataÔ
-Ï
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Widgets\Controllers\AdminController.cs) )(2/
-%6)OrchardCore.ContentManagement.ContentItem"qOrchardCore.ContentManagement.ContentItemExtensions.Weld<TPart>(OrchardCore.ContentManagement.ContentItem, TPart)*7"5
-3OrchardCore.ContentManagement.ContentItemExtensions*:
-8
-contentItem)OrchardCore.ContentManagement.ContentItem*1
-/
-%4)OrchardCore.Widgets.Models.WidgetMetadataœ
-Ã
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Widgets\Controllers\AdminController.cs+ +(?
-cardCollectionTypestring"__id*
-""—
-Œ
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Widgets\Controllers\AdminController.cs.( .(51
-%7+OrchardCore.DisplayManagement.IShapeFactory"__id*s*q1
-/OrchardCore.Widgets.Controllers.AdminController"<
-_shapeFactory+OrchardCore.DisplayManagement.IShapeFactory•¢
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Widgets\Controllers\AdminController.cs.( .(9
-%8dynamic"3OrchardCore.DisplayManagement.IShapeFactory.New.get*3
-1
-%7+OrchardCore.DisplayManagement.IShapeFactory2New.getÇ
-ˇ
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Widgets\Controllers\AdminController.cs0 0(-E
-%9?OrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessor"__id*è*å1
-/OrchardCore.Widgets.Controllers.AdminController"W
-_updateModelAccessor?OrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessorêç
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Widgets\Controllers\AdminController.cs0 0(:>
-%107OrchardCore.DisplayManagement.ModelBinding.IUpdateModel"POrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessor.ModelUpdater.get*G
-E
-%9?OrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessor2ModelUpdater.getˆ
-Û
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Widgets\Controllers\AdminController.csA A(:
-%11string"string.Replace(char, char)*
-
-prefixesNamestring*
-.*
-_˙
-˜
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Widgets\Controllers\AdminController.csD  D(B
-%12string"string.Replace(char, char)*
-
-contentTypesNamestring*
-.*
-_Û
-
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Widgets\Controllers\AdminController.csG G(4
-%13string"string.Replace(char, char)*
-
-	zonesNamestring*
-.*
-_…
-∆
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Widgets\Controllers\AdminController.cs. I(
-contentCarddynamic"__id*
-""îë
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Widgets\Controllers\AdminController.csK N(:
-%143OrchardCore.Widgets.ViewModels.BuildEditorViewModel"3OrchardCore.Widgets.ViewModels.BuildEditorViewModel∫
-∑
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Widgets\Controllers\AdminController.csK K(0
-%15void"JOrchardCore.Widgets.ViewModels.BuildEditorViewModel.BuildEditorViewModel()*<
-:
-%143OrchardCore.Widgets.ViewModels.BuildEditorViewModel–
-Õ
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Widgets\Controllers\AdminController.csM M()
-%16dynamic"COrchardCore.Widgets.ViewModels.BuildEditorViewModel.EditorShape.set*<
-:
-%143OrchardCore.Widgets.ViewModels.BuildEditorViewModel*
-
-contentCarddynamic•
-¢
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Widgets\Controllers\AdminController.csK N(<
-model3OrchardCore.Widgets.ViewModels.BuildEditorViewModel"__id*<
-:
-%143OrchardCore.Widgets.ViewModels.BuildEditorViewModel◊
-‘
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Widgets\Controllers\AdminController.csP P()
-%17void"'orchardcore.widgets/views/admin/display*
-
-%18*>
-<
-model3OrchardCore.Widgets.ViewModels.BuildEditorViewModel*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject* 
-
-%HttpContextItemsAllobject*!
-
-%HttpContextItemsHtmlobject"Ø
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Widgets\Controllers\AdminController.csP P(*
-
-%17void*€
-3ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Widgets\Controllers\AdminController.csQ	 Q(	"µ
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Widgets\Controllers\AdminController.csQ Q(	
-implicit return*µ
-4ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Widgets\Controllers\AdminController.cs ◊  (◊à
-Ö
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Widgets\Controllers\AdminController.cs )  (4
-%19"__entrypoint*
-
-idstring*
-
-prefixstring*
-
-prefixesNamestring*
-
-contentTypesNamestring*
-
-	zonesNamestring*
-
-zonestring*
-
-targetIdstring*
-
-parentContentTypestring*
-
-partNamestring*
-0:
-idstring:
-prefixstring:
-prefixesNamestring:
-contentTypesNamestring:
-	zonesNamestring:
-zonestring:
-targetIdstring:
-parentContentTypestring:
-partNamestringB31
-/OrchardCore.Widgets.Controllers.AdminController

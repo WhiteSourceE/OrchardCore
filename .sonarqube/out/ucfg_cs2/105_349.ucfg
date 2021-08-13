@@ -1,187 +1,0 @@
-
-]OrchardCore.Modules.ModularBackgroundService.ExecuteAsync(System.Threading.CancellationToken)í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.cs1& 1(2"0*È
-0í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.cs3 6(…
-∆
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.cs3 6(4
-%0.System.Threading.CancellationTokenRegistration":System.Threading.CancellationToken.Register(System.Action)*5
-3
-stoppingToken"System.Threading.CancellationToken*
-""*
-1*¨
-1í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.cs8 8(1º
-π
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.cs8 8(%/
-%1)System.Collections.Generic.IEnumerable<T>"?OrchardCore.Modules.ModularBackgroundService.GetRunningShells()*0.
-,OrchardCore.Modules.ModularBackgroundService 
-«
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.cs8 8(-	
-%2int"VSystem.Linq.Enumerable.Count<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
-System.Linq.Enumerable*1
-/
-%1)System.Collections.Generic.IEnumerable<T>*
-2
-3*∂
-2í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.cs< <(?â
-Ü
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.cs<% <(0
-%3System.TimeSpan"__id*R*P.
-,OrchardCore.Modules.ModularBackgroundService"
-MinIdleTimeSystem.TimeSpanÑ
-Å
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.cs< <(@!
-%4System.Threading.Tasks.Task"VSystem.Threading.Tasks.Task.Delay(System.TimeSpan, System.Threading.CancellationToken)*"
-System.Threading.Tasks.Task*
-
-%3System.TimeSpan*5
-3
-stoppingToken"System.Threading.CancellationToken*	
-4
-1
-5*ù
-4í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.csX	 X(	*
-3*ø
-3í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.csD D(Aé
-ã
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.csD! D(A/
-%5)System.Collections.Generic.IEnumerable<T>"'System.Linq.Enumerable.Empty<TResult>()*"
-System.Linq.Enumerableé
-ã
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.csD D(A;
-previousShells)System.Collections.Generic.IEnumerable<T>"__id*1
-/
-%5)System.Collections.Generic.IEnumerable<T>*
-6*æ
-6í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.csF F(9õ
-ò
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.csF F(9
-
-%6bool">System.Threading.CancellationToken.IsCancellationRequested.get*5
-3
-stoppingToken"System.Threading.CancellationToken*
-7
-5*¬
-7í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.csJ Q(?º
-π
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.csJ( J(:/
-%7)System.Collections.Generic.IEnumerable<T>"?OrchardCore.Modules.ModularBackgroundService.GetRunningShells()*0.
-,OrchardCore.Modules.ModularBackgroundServiceç
-ä
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.csJ J(::
-runningShells)System.Collections.Generic.IEnumerable<T>"__id*1
-/
-%7)System.Collections.Generic.IEnumerable<T>∫
-∑
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.csK K(S!
-%8System.Threading.Tasks.Task"ñOrchardCore.Modules.ModularBackgroundService.UpdateAsync(System.Collections.Generic.IEnumerable<OrchardCore.Environment.Shell.Builders.ShellContext>, System.Collections.Generic.IEnumerable<OrchardCore.Environment.Shell.Builders.ShellContext>, System.Threading.CancellationToken)*0.
-,OrchardCore.Modules.ModularBackgroundService*=
-;
-previousShells)System.Collections.Generic.IEnumerable<T>*<
-:
-runningShells)System.Collections.Generic.IEnumerable<T>*5
-3
-stoppingToken"System.Threading.CancellationTokenô
-ñ
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.csL L(2;
-previousShells)System.Collections.Generic.IEnumerable<T>"__id*<
-:
-runningShells)System.Collections.Generic.IEnumerable<T>â
-Ü
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.csN2 N(=
-%9System.TimeSpan"__id*R*P.
-,OrchardCore.Modules.ModularBackgroundService"
-PollingTimeSystem.TimeSpanÖ
-Ç
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.csN' N(M"
-%10System.Threading.Tasks.Task"VSystem.Threading.Tasks.Task.Delay(System.TimeSpan, System.Threading.CancellationToken)*"
-System.Threading.Tasks.Task*
-
-%9System.TimeSpan*5
-3
-stoppingToken"System.Threading.CancellationTokenÒ
-Ó
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.csN N(M+
-pollingDelaySystem.Threading.Tasks.Task"__id*$
-"
-%10System.Threading.Tasks.Taskú
-ô
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.csP P(@"
-%11System.Threading.Tasks.Task"∂OrchardCore.Modules.ModularBackgroundService.RunAsync(System.Collections.Generic.IEnumerable<OrchardCore.Environment.Shell.Builders.ShellContext>, System.Threading.CancellationToken)*0.
-,OrchardCore.Modules.ModularBackgroundService*<
-:
-runningShells)System.Collections.Generic.IEnumerable<T>*5
-3
-stoppingToken"System.Threading.CancellationTokenÕ
- 
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.csQ Q(@"
-%12System.Threading.Tasks.Task"wOrchardCore.Modules.ModularBackgroundService.WaitAsync(System.Threading.Tasks.Task, System.Threading.CancellationToken)*0.
-,OrchardCore.Modules.ModularBackgroundService*-
-+
-pollingDelaySystem.Threading.Tasks.Task*5
-3
-stoppingToken"System.Threading.CancellationToken*	
-8
-6
-5*“
-8í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.csS+ S(8Ø
-¨
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.csS, S(8
-%13bool"AOrchardCore.Modules.ExceptionExtensions.IsFatal(System.Exception)*+")
-'OrchardCore.Modules.ExceptionExtensions*
-
-exSystem.Exception*
-9
-6*±
-9í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.csU U(r∞
-≠
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.csU U(+
-%14$Microsoft.Extensions.Logging.ILogger"__id*c*a.
-,OrchardCore.Modules.ModularBackgroundService"/
-_logger$Microsoft.Extensions.Logging.ILoggerﬁ
-€
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.csU U(s
-%15void"áMicrosoft.Extensions.Logging.LoggerExtensions.LogError(Microsoft.Extensions.Logging.ILogger, System.Exception, string, params object[])*1"/
--Microsoft.Extensions.Logging.LoggerExtensions*-
-+
-%14$Microsoft.Extensions.Logging.ILogger*
-
-exSystem.Exception*)'
-%Error while executing '{ServiceName}'*
-""*
-6*≈
-5í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.csX	 X(	"™
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\ModularBackgroundService.csX X(	
-implicit return:3
-stoppingToken"System.Threading.CancellationTokenB0.
-,OrchardCore.Modules.ModularBackgroundService

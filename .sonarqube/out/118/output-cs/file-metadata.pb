@@ -1,3 +1,0 @@
-Á
-µD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Mvc.HelloWorld\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.csutf-8Ô
-ÈD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Mvc.HelloWorld\obj\Debug\netcoreapp3.1\OrchardCore.Mvc.HelloWorld.RazorTargetAssemblyInfo.csutf-8

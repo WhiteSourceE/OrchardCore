@@ -1,260 +1,0 @@
-
-]OrchardCore.Contents.Controllers.AdminController.CreateAndPublishPOST(string, string, string)†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\AdminController.csı) ı(="4*Ç$
-0†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\AdminController.cs˜ ˛(pú
-ô
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\AdminController.cs˜! ˜(M
-
-%0bool""string.operator ==(string, string)*
-"
-string*
-
-submitPublishstring*
-submit.PublishAndContinue“
-œ
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\AdminController.cs˜ ˜(M
-stayOnSamePagebool"__id*
-
-
-%0bool€
-ÿ
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\AdminController.cs˘% ˘(43
-%1-OrchardCore.ContentManagement.IContentManager"__id*x*v2
-0OrchardCore.Contents.Controllers.AdminController"@
-_contentManager-OrchardCore.ContentManagement.IContentManagerÎË
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\AdminController.cs˘% ˘(A*
-%2$System.Threading.Tasks.Task<TResult>">OrchardCore.ContentManagement.IContentManager.NewAsync(string)*5
-3
-%1-OrchardCore.ContentManagement.IContentManager*
-
-idstring2NewAsync(string)Ô
-Ï
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\AdminController.cs˘ ˘(A9
-dummyContent)OrchardCore.ContentManagement.ContentItem"__id*
-""≥
-∞
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\AdminController.cs¸! ¸(%,
-%3&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*+)
-'Microsoft.AspNetCore.Mvc.ControllerBase∫
-∑
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\AdminController.cs¸5 ¸(N
-%4"__id*
-""á
-Ñ
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\AdminController.cs¸! ¸(O
-%5string"iSystem.Security.Claims.PrincipalExtensions.FindFirstValue(System.Security.Claims.ClaimsPrincipal, string)*.",
-*System.Security.Claims.PrincipalExtensions*.
-,
-%3&System.Security.Claims.ClaimsPrincipal*
-
-%4∂
-≥
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\AdminController.cs¸ ¸(O
-%6string"3OrchardCore.ContentManagement.ContentItem.Owner.set*;
-9
-dummyContent)OrchardCore.ContentManagement.ContentItem*
-
-%5string˘
-ˆ
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\AdminController.cs˛ ˛(,>
-%78Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*ä*á2
-0OrchardCore.Contents.Controllers.AdminController"Q
-_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationService≥
-∞
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\AdminController.cs˛< ˛(@,
-%8&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*+)
-'Microsoft.AspNetCore.Mvc.ControllerBaseÃ
-…
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\AdminController.cs˛B ˛(b1
-%9+OrchardCore.Security.Permissions.Permission"__id*k*i(
-&OrchardCore.Contents.CommonPermissions"=
-PublishContent+OrchardCore.Security.Permissions.PermissionË
-Â
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\AdminController.cs˛ ˛(q+
-%10$System.Threading.Tasks.Task<TResult>"ÁMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission, object)*E"C
-AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*@
->
-%78Microsoft.AspNetCore.Authorization.IAuthorizationService*.
-,
-%8&System.Security.Claims.ClaimsPrincipal*3
-1
-%9+OrchardCore.Security.Permissions.Permission*;
-9
-dummyContent)OrchardCore.ContentManagement.ContentItem*
-1
-2*º
-1†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\AdminController.csÄ Ä(Ω∫
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\AdminController.csÄ Ä(,
-%11%Microsoft.AspNetCore.Mvc.ForbidResult"0Microsoft.AspNetCore.Mvc.ControllerBase.Forbid()*+)
-'Microsoft.AspNetCore.Mvc.ControllerBase2Forbid()"”
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\AdminController.csÄ Ä( .
-,
-%11%Microsoft.AspNetCore.Mvc.ForbidResult*“
-2†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\AdminController.csÉ å(˚
-¯
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\AdminController.csÉ å(+
-%12$System.Threading.Tasks.Task<TResult>"¶OrchardCore.Contents.Controllers.AdminController.CreatePOST(string, string, bool, System.Func<OrchardCore.ContentManagement.ContentItem, System.Threading.Tasks.Task>)*42
-0OrchardCore.Contents.Controllers.AdminController*
-
-idstring*
-
-	returnUrlstring*
-
-stayOnSamePagebool*
-"""´
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\AdminController.csÉ å(
-""*·
-3†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\AdminController.csç	 ç(	"∏
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\AdminController.csç ç(	
-implicit return*©
-4¢
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\AdminController.csıí ı(í˝
-˙
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\AdminController.csı) ı(=
-%13"__entrypoint*
-
-idstring*
-
-submitPublishstring*
-
-	returnUrlstringç
-ä
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\AdminController.csÛ	 Û(
-%14"
-__annotate*B@
->Microsoft.AspNetCore.Mvc.HttpPostAttribute.HttpPostAttribute()*
-
-idstringó
-î
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\AdminController.csÛ Û('
-%15"
-__annotate*LJ
-HMicrosoft.AspNetCore.Mvc.ActionNameAttribute.ActionNameAttribute(string)*
-
-idstring†
-ù
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\AdminController.csÙ	 Ù(,
-%16"
-__annotate*US
-QOrchardCore.Routing.FormValueRequiredAttribute.FormValueRequiredAttribute(string)*
-
-idstring›
-⁄
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\AdminController.csı> ı(G
-idstring"__annotation*
-
-%14*
-
-%15*
-
-%16ü
-ú
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\AdminController.csıJ ı(i
-%17"
-__annotate*IG
-EMicrosoft.AspNetCore.Mvc.BindAttribute.BindAttribute(params string[])*
-
-submitPublishstringò
-ï
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\AdminController.csÛ	 Û(
-%18"
-__annotate*B@
->Microsoft.AspNetCore.Mvc.HttpPostAttribute.HttpPostAttribute()*
-
-submitPublishstring¢
-ü
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\AdminController.csÛ Û('
-%19"
-__annotate*LJ
-HMicrosoft.AspNetCore.Mvc.ActionNameAttribute.ActionNameAttribute(string)*
-
-submitPublishstring´
-®
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\AdminController.csÙ	 Ù(,
-%20"
-__annotate*US
-QOrchardCore.Routing.FormValueRequiredAttribute.FormValueRequiredAttribute(string)*
-
-submitPublishstringÒ
-Ó
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\AdminController.csıI ı(
-submitPublishstring"__annotation*
-
-%17*
-
-%18*
-
-%19*
-
-%20î
-ë
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\AdminController.csÛ	 Û(
-%21"
-__annotate*B@
->Microsoft.AspNetCore.Mvc.HttpPostAttribute.HttpPostAttribute()*
-
-	returnUrlstringû
-õ
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\AdminController.csÛ Û('
-%22"
-__annotate*LJ
-HMicrosoft.AspNetCore.Mvc.ActionNameAttribute.ActionNameAttribute(string)*
-
-	returnUrlstringß
-§
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\AdminController.csÙ	 Ù(,
-%23"
-__annotate*US
-QOrchardCore.Routing.FormValueRequiredAttribute.FormValueRequiredAttribute(string)*
-
-	returnUrlstringÊ
-„
-¢
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Controllers\AdminController.csıÅ ı(ë
-	returnUrlstring"__annotation*
-
-%21*
-
-%22*
-
-%23*
-0:
-idstring:
-submitPublishstring:
-	returnUrlstringB42
-0OrchardCore.Contents.Controllers.AdminController

@@ -1,44 +1,0 @@
-‰6
-.OrchardCore.ResourceManagement.ResourceManagerobjectø
-≈ResourceManager(System.Collections.Generic.IEnumerable<OrchardCore.ResourceManagement.IResourceManifestProvider>, OrchardCore.ResourceManagement.IResourceManifestState, Microsoft.Extensions.Options.IOptions<OrchardCore.ResourceManagement.ResourceManagementOptions>, Microsoft.AspNetCore.Mvc.ViewFeatures.IFileVersionProvider)ÙOrchardCore.ResourceManagement.ResourceManager.ResourceManager(System.Collections.Generic.IEnumerable<OrchardCore.ResourceManagement.IResourceManifestProvider>, OrchardCore.ResourceManagement.IResourceManifestState, Microsoft.Extensions.Options.IOptions<OrchardCore.ResourceManagement.ResourceManagementOptions>, Microsoft.AspNetCore.Mvc.ViewFeatures.IFileVersionProvider)s
- RegisterResource(string, string)OOrchardCore.ResourceManagement.ResourceManager.RegisterResource(string, string)y
-#RegisterUrl(string, string, string)ROrchardCore.ResourceManagement.ResourceManager.RegisterUrl(string, string, string)ß
-:RegisterHeadScript(Microsoft.AspNetCore.Html.IHtmlContent)iOrchardCore.ResourceManagement.ResourceManager.RegisterHeadScript(Microsoft.AspNetCore.Html.IHtmlContent)ß
-:RegisterFootScript(Microsoft.AspNetCore.Html.IHtmlContent)iOrchardCore.ResourceManagement.ResourceManager.RegisterFootScript(Microsoft.AspNetCore.Html.IHtmlContent)ù
-5RegisterStyle(Microsoft.AspNetCore.Html.IHtmlContent)dOrchardCore.ResourceManagement.ResourceManager.RegisterStyle(Microsoft.AspNetCore.Html.IHtmlContent)i
-NotRequired(string, string)JOrchardCore.ResourceManagement.ResourceManager.NotRequired(string, string)´
-<FindResource(OrchardCore.ResourceManagement.RequireSettings)kOrchardCore.ResourceManagement.ResourceManager.FindResource(OrchardCore.ResourceManagement.RequireSettings)∑
-BFindResource(OrchardCore.ResourceManagement.RequireSettings, bool)qOrchardCore.ResourceManagement.ResourceManager.FindResource(OrchardCore.ResourceManagement.RequireSettings, bool)©
-˙FindMatchingResource(System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<string, System.Collections.Generic.IList<OrchardCore.ResourceManagement.ResourceDefinition>>>, OrchardCore.ResourceManagement.RequireSettings, string)©OrchardCore.ResourceManagement.ResourceManager.FindMatchingResource(System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<string, System.Collections.Generic.IList<OrchardCore.ResourceManagement.ResourceDefinition>>>, OrchardCore.ResourceManagement.RequireSettings, string)k
-GetUpperBoundVersion(string)KOrchardCore.ResourceManagement.ResourceManager.GetUpperBoundVersion(string)k
-GetLowerBoundVersion(string)KOrchardCore.ResourceManagement.ResourceManager.GetLowerBoundVersion(string)s
- ResolveInlineDefinitions(string)OOrchardCore.ResourceManagement.ResourceManager.ResolveInlineDefinitions(string)s
- ResolveRequiredResources(string)OOrchardCore.ResourceManagement.ResourceManager.ResolveRequiredResources(string)[
-GetRegisteredLinks()COrchardCore.ResourceManagement.ResourceManager.GetRegisteredLinks()_
-DoGetRegisteredLinks()EOrchardCore.ResourceManagement.ResourceManager.DoGetRegisteredLinks()[
-GetRegisteredMetas()COrchardCore.ResourceManagement.ResourceManager.GetRegisteredMetas()_
-DoGetRegisteredMetas()EOrchardCore.ResourceManagement.ResourceManager.DoGetRegisteredMetas()g
-GetRegisteredHeadScripts()IOrchardCore.ResourceManagement.ResourceManager.GetRegisteredHeadScripts()k
-DoGetRegisteredHeadScripts()KOrchardCore.ResourceManagement.ResourceManager.DoGetRegisteredHeadScripts()g
-GetRegisteredFootScripts()IOrchardCore.ResourceManagement.ResourceManager.GetRegisteredFootScripts()k
-DoGetRegisteredFootScripts()KOrchardCore.ResourceManagement.ResourceManager.DoGetRegisteredFootScripts()]
-GetRegisteredStyles()DOrchardCore.ResourceManagement.ResourceManager.GetRegisteredStyles()a
-DoGetRegisteredStyles()FOrchardCore.ResourceManagement.ResourceManager.DoGetRegisteredStyles()k
-GetRequiredResources(string)KOrchardCore.ResourceManagement.ResourceManager.GetRequiredResources(string)o
-DoGetRequiredResources(string)MOrchardCore.ResourceManagement.ResourceManager.DoGetRequiredResources(string)Ö
-®ExpandDependencies(OrchardCore.ResourceManagement.ResourceDefinition, OrchardCore.ResourceManagement.RequireSettings, OrchardCore.ResourceManagement.ResourceDictionary)◊OrchardCore.ResourceManagement.ResourceManager.ExpandDependencies(OrchardCore.ResourceManagement.ResourceDefinition, OrchardCore.ResourceManagement.RequireSettings, OrchardCore.ResourceManagement.ResourceDictionary)ü
-6RegisterLink(OrchardCore.ResourceManagement.LinkEntry)eOrchardCore.ResourceManagement.ResourceManager.RegisterLink(OrchardCore.ResourceManagement.LinkEntry)ü
-6RegisterMeta(OrchardCore.ResourceManagement.MetaEntry)eOrchardCore.ResourceManagement.ResourceManager.RegisterMeta(OrchardCore.ResourceManagement.MetaEntry)´
-<AppendMeta(OrchardCore.ResourceManagement.MetaEntry, string)kOrchardCore.ResourceManagement.ResourceManager.AppendMeta(OrchardCore.ResourceManagement.MetaEntry, string)•
-9RenderMeta(Microsoft.AspNetCore.Html.IHtmlContentBuilder)hOrchardCore.ResourceManagement.ResourceManager.RenderMeta(Microsoft.AspNetCore.Html.IHtmlContentBuilder)≠
-=RenderHeadLink(Microsoft.AspNetCore.Html.IHtmlContentBuilder)lOrchardCore.ResourceManagement.ResourceManager.RenderHeadLink(Microsoft.AspNetCore.Html.IHtmlContentBuilder)±
-?RenderStylesheet(Microsoft.AspNetCore.Html.IHtmlContentBuilder)nOrchardCore.ResourceManagement.ResourceManager.RenderStylesheet(Microsoft.AspNetCore.Html.IHtmlContentBuilder)±
-?RenderHeadScript(Microsoft.AspNetCore.Html.IHtmlContentBuilder)nOrchardCore.ResourceManagement.ResourceManager.RenderHeadScript(Microsoft.AspNetCore.Html.IHtmlContentBuilder)±
-?RenderFootScript(Microsoft.AspNetCore.Html.IHtmlContentBuilder)nOrchardCore.ResourceManagement.ResourceManager.RenderFootScript(Microsoft.AspNetCore.Html.IHtmlContentBuilder)î
-pRenderLocalScript(OrchardCore.ResourceManagement.RequireSettings, Microsoft.AspNetCore.Html.IHtmlContentBuilder)üOrchardCore.ResourceManagement.ResourceManager.RenderLocalScript(OrchardCore.ResourceManagement.RequireSettings, Microsoft.AspNetCore.Html.IHtmlContentBuilder)í
-oRenderLocalStyle(OrchardCore.ResourceManagement.RequireSettings, Microsoft.AspNetCore.Html.IHtmlContentBuilder)ûOrchardCore.ResourceManagement.ResourceManager.RenderLocalStyle(OrchardCore.ResourceManagement.RequireSettings, Microsoft.AspNetCore.Html.IHtmlContentBuilder)o
-GetResourceKey(string, string)MOrchardCore.ResourceManagement.ResourceManager.GetResourceKey(string, string)]
-ResourceManifests.getDOrchardCore.ResourceManagement.ResourceManager.ResourceManifests.get]
-ResourceManifests.setDOrchardCore.ResourceManagement.ResourceManager.ResourceManifests.setW
-InlineManifest.getAOrchardCore.ResourceManagement.ResourceManager.InlineManifest.getW
-InlineManifest.setAOrchardCore.ResourceManagement.ResourceManager.InlineManifest.set

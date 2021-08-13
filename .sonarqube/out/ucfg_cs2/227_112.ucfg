@@ -1,267 +1,0 @@
-
-pOrchardCore.Users.Services.UserService.ResetPasswordAsync(string, string, string, System.Action<string, string>)“
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csœ  œ(2"0*Ï
-0“
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csž Ÿ(8·
-´
-“
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csž ž(
-resultbool"__id*
-""ñ
-î
-“
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csŸ Ÿ(9
-
-%0bool""string.IsNullOrWhiteSpace(string?)*
-"
-string*
-
-userIdentifierstring*
-1
-2*Ü
-
-1“
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs¡ ¢(À
-½
-“
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs¡( ¡()8
-%12Microsoft.Extensions.Localization.IStringLocalizer"__id*e*c(
-&OrchardCore.Users.Services.UserService"7
-S2Microsoft.Extensions.Localization.IStringLocalizerŒ‰
-“
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs¡( ¡(N7
-%21Microsoft.Extensions.Localization.LocalizedString"CMicrosoft.Extensions.Localization.IStringLocalizer.this[string].get*:
-8
-%12Microsoft.Extensions.Localization.IStringLocalizer*%#
-!A user name or email is required.2this[string].get¯
-¬
-“
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs¡ ¡(O
-
-%3void"$System.Action<T1, T2>.Invoke(T1, T2)*
-System.Action<T1, T2>*
-
-UserName*9
-7
-%21Microsoft.Extensions.Localization.LocalizedString·
-´
-“
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs¢ ¢(
-resultbool"__id*
-""*
-2*’
-2“
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs¥ ¥(5î
-ë
-“
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs¥ ¥(6
-
-%4bool""string.IsNullOrWhiteSpace(string?)*
-"
-string*
-
-newPasswordstring*
-3
-4*Ò
-
-3“
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs§ ¨(À
-½
-“
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs§( §()8
-%52Microsoft.Extensions.Localization.IStringLocalizer"__id*e*c(
-&OrchardCore.Users.Services.UserService"7
-S2Microsoft.Extensions.Localization.IStringLocalizer‚ÿ
-“
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs§( §(D7
-%61Microsoft.Extensions.Localization.LocalizedString"CMicrosoft.Extensions.Localization.IStringLocalizer.this[string].get*:
-8
-%52Microsoft.Extensions.Localization.IStringLocalizer*
-A password is required.2this[string].get¯
-¬
-“
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs§ §(E
-
-%7void"$System.Action<T1, T2>.Invoke(T1, T2)*
-System.Action<T1, T2>*
-
-Password*9
-7
-%61Microsoft.Extensions.Localization.LocalizedString·
-´
-“
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs¨ ¨(
-resultbool"__id*
-""*
-4*‘
-4“
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs« «(4í
-ê
-“
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs« «(5
-
-%8bool""string.IsNullOrWhiteSpace(string?)*
-"
-string*
-
-
-resetTokenstring*
-5
-6*Ï
-
-5“
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs­ ®(À
-½
-“
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs­% ­(&8
-%92Microsoft.Extensions.Localization.IStringLocalizer"__id*e*c(
-&OrchardCore.Users.Services.UserService"7
-S2Microsoft.Extensions.Localization.IStringLocalizer€ý
-“
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs­% ­(>8
-%101Microsoft.Extensions.Localization.LocalizedString"CMicrosoft.Extensions.Localization.IStringLocalizer.this[string].get*:
-8
-%92Microsoft.Extensions.Localization.IStringLocalizer*
-A token is required.2this[string].get®
-«
-“
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs­ ­(?
-%11void"$System.Action<T1, T2>.Invoke(T1, T2)*
-System.Action<T1, T2>*	
-Token*:
-8
-%101Microsoft.Extensions.Localization.LocalizedString·
-´
-“
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs® ®(
-resultbool"__id*
-""*
-6*¡
-6“
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs± ±(*
-7
-8*Ä
-7“
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs³ ³("¨
-“
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs³ ³(
-
-resultbool*ÿ
-8“
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs¶ ¸(È
-Å
-“
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs¶ ¶()7
-%120Microsoft.AspNetCore.Identity.UserManager<TUser>"__id*n*l(
-&OrchardCore.Users.Services.UserService"@
-_userManager0Microsoft.AspNetCore.Identity.UserManager<TUser>‚ÿ
-“
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs¶ ¶(J+
-%13$System.Threading.Tasks.Task<TResult>"IMicrosoft.AspNetCore.Identity.UserManager<TUser>.FindByEmailAsync(string)*9
-7
-%120Microsoft.AspNetCore.Identity.UserManager<TUser>*
-
-userIdentifierstring2FindByEmailAsync(string)®
-«
-“
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs¶ ¶(R
-%14"__id*
-""Ï
-Ì
-“
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs¶ ¶(R%
-userOrchardCore.Users.Models.User"__id*
-
-%14‡
-„
-“
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs¸ ¸(
-%15bool""object.operator ==(object, object)*
-"
-object*'
-%
-userOrchardCore.Users.Models.User*
-""*
-9
-10*º
-9“
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csº º("ž
-“
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csº º(
-""*å
-10“
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs½ ¿()È
-Å
-“
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs½' ½(37
-%160Microsoft.AspNetCore.Identity.UserManager<TUser>"__id*n*l(
-&OrchardCore.Users.Services.UserService"@
-_userManager0Microsoft.AspNetCore.Identity.UserManager<TUser>âß
-“
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs½' ½(e+
-%17$System.Threading.Tasks.Task<TResult>"ZMicrosoft.AspNetCore.Identity.UserManager<TUser>.ResetPasswordAsync(TUser, string, string)*9
-7
-%160Microsoft.AspNetCore.Identity.UserManager<TUser>*'
-%
-userOrchardCore.Users.Models.User*
-
-
-resetTokenstring*
-
-newPasswordstring2)ResetPasswordAsync(TUser, string, string)ç
-ä
-“
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs½ ½(e>
-identityResult,Microsoft.AspNetCore.Identity.IdentityResult"__id*
-""¤
-¡
-“
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.cs¿ ¿()
-%18bool":Microsoft.AspNetCore.Identity.IdentityResult.Succeeded.get*@
->
-identityResult,Microsoft.AspNetCore.Identity.IdentityResult*
-11
-12*—
-11“
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csÁ Á(PÆ
-Ã
-“
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csÁ( Á(=0
-%19)System.Collections.Generic.IEnumerable<T>"7Microsoft.AspNetCore.Identity.IdentityResult.Errors.get*@
->
-identityResult,Microsoft.AspNetCore.Identity.IdentityResult«
-¨
-“
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csÁ Á(Q
-%20void"ÑOrchardCore.Users.Services.UserService.ProcessValidationErrors(System.Collections.Generic.IEnumerable<Microsoft.AspNetCore.Identity.IdentityError>, OrchardCore.Users.Models.User, System.Action<string, string>)**(
-&OrchardCore.Users.Services.UserService*2
-0
-%19)System.Collections.Generic.IEnumerable<T>*'
-%
-userOrchardCore.Users.Models.User*&
-$
-reportErrorSystem.Action<T1, T2>*
-12*é
-12“
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csÄ Ä(+¤
-¡
-“
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csÄ Ä(+
-%21bool":Microsoft.AspNetCore.Identity.IdentityResult.Succeeded.get*@
->
-identityResult,Microsoft.AspNetCore.Identity.IdentityResult"¥
-“
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csÄ Ä(,
-
-%21bool*È
-13“
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csÅ	 Å(	"«
-“
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csÅ Å(	
-implicit return:
-userIdentifierstring:
-
-resetTokenstring:
-newPasswordstring:$
-reportErrorSystem.Action<T1, T2>B*(
-&OrchardCore.Users.Services.UserService

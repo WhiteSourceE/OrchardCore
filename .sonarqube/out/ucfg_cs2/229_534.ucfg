@@ -1,273 +1,0 @@
-
-≠OrchardCore.OpenId.ManagementStartup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, System.IServiceProvider)á
-}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Startup.csa a(&"0*„V
-0à
-}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Startup.csc ö(gª
-∏
-á
-}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Startup.csc c(V5
-%0/Microsoft.Extensions.Options.IOptions<TOptions>"xMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<T>(System.IServiceProvider)*M"K
-IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*,
-*
-serviceProviderSystem.IServiceProvider≤Ø
-á
-}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Startup.csc c(\$
-%1OrchardCore.Admin.AdminOptions"9Microsoft.Extensions.Options.IOptions<TOptions>.Value.get*7
-5
-%0/Microsoft.Extensions.Options.IOptions<TOptions>2	Value.getÊ
-„
-á
-}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Startup.csc c(\)
-optionsOrchardCore.Admin.AdminOptions"__id*&
-$
-%1OrchardCore.Admin.AdminOptionsµ
-≤
-á
-}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Startup.csf, f(Z
-%2string"SOrchardCore.Mvc.Core.Utilities.ControllerTypeExtensions.ControllerName(System.Type)*;"9
-7OrchardCore.Mvc.Core.Utilities.ControllerTypeExtensions*
-""»
-≈
-á
-}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Startup.csf f(Z#
-applicationControllerNamestring"__id*
-
-%2string˚
-¯
-á
-}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Startup.csk k(/
-%3string"1OrchardCore.Admin.AdminOptions.AdminUrlPrefix.get*+
-)
-optionsOrchardCore.Admin.AdminOptionsŒ
-À
-á
-}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Startup.csk k(G
-%4string"__concat*
-
-%3string*
-/OpenId/ApplicationÄ
-˝
-á
-}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Startup.csh m(L
-%5FMicrosoft.AspNetCore.Builder.ControllerActionEndpointConventionBuilder"¿Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapAreaControllerRoute(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, string, string, object, object, object)*I"G
-EMicrosoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions*>
-<
-routes2Microsoft.AspNetCore.Routing.IEndpointRouteBuilder*
-OpenIdApplication*
-OrchardCore.OpenId*
-
-%4string*
-""*
-""*
-""˚
-¯
-á
-}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Startup.csq q(/
-%6string"1OrchardCore.Admin.AdminOptions.AdminUrlPrefix.get*+
-)
-optionsOrchardCore.Admin.AdminOptions’
-“
-á
-}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Startup.csq q(N
-%7string"__concat*
-
-%6string*
-/OpenId/Application/CreateÜ
-É
-á
-}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Startup.csn s(L
-%8FMicrosoft.AspNetCore.Builder.ControllerActionEndpointConventionBuilder"¿Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapAreaControllerRoute(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, string, string, object, object, object)*I"G
-EMicrosoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions*>
-<
-routes2Microsoft.AspNetCore.Routing.IEndpointRouteBuilder*
-OpenIdApplicationCreate*
-OrchardCore.OpenId*
-
-%7string*
-""*
-""*
-""˚
-¯
-á
-}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Startup.csw w(/
-%9string"1OrchardCore.Admin.AdminOptions.AdminUrlPrefix.get*+
-)
-optionsOrchardCore.Admin.AdminOptions€
-ÿ
-á
-}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Startup.csw w(S
-%10string"__concat*
-
-%9string*#!
-/OpenId/Application/Delete/{id}à
-Ö
-á
-}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Startup.cst y(M
-%11FMicrosoft.AspNetCore.Builder.ControllerActionEndpointConventionBuilder"¿Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapAreaControllerRoute(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, string, string, object, object, object)*I"G
-EMicrosoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions*>
-<
-routes2Microsoft.AspNetCore.Routing.IEndpointRouteBuilder*
-OpenIdApplicationDelete*
-OrchardCore.OpenId*
-
-%10string*
-""*
-""*
-""¸
-˘
-á
-}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Startup.cs} }(/
-%12string"1OrchardCore.Admin.AdminOptions.AdminUrlPrefix.get*+
-)
-optionsOrchardCore.Admin.AdminOptions⁄
-◊
-á
-}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Startup.cs} }(Q
-%13string"__concat*
-
-%12string*!
-/OpenId/Application/Edit/{id}Ü
-É
-á
-}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Startup.csz (M
-%14FMicrosoft.AspNetCore.Builder.ControllerActionEndpointConventionBuilder"¿Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapAreaControllerRoute(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, string, string, object, object, object)*I"G
-EMicrosoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions*>
-<
-routes2Microsoft.AspNetCore.Routing.IEndpointRouteBuilder*
-OpenIdApplicationEdit*
-OrchardCore.OpenId*
-
-%13string*
-""*
-""*
-""∏
-µ
-â
-}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Startup.csÇ& Ç(N
-%15string"SOrchardCore.Mvc.Core.Utilities.ControllerTypeExtensions.ControllerName(System.Type)*;"9
-7OrchardCore.Mvc.Core.Utilities.ControllerTypeExtensions*
-""≈
-¬
-â
-}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Startup.csÇ Ç(N
-scopeControllerNamestring"__id*
-
-%15string˛
-˚
-â
-}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Startup.csá á(/
-%16string"1OrchardCore.Admin.AdminOptions.AdminUrlPrefix.get*+
-)
-optionsOrchardCore.Admin.AdminOptionsÃ
-…
-â
-}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Startup.csá á(A
-%17string"__concat*
-
-%16string*
-/OpenId/Scope˛
-˚
-â
-}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Startup.csÑ â(M
-%18FMicrosoft.AspNetCore.Builder.ControllerActionEndpointConventionBuilder"¿Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapAreaControllerRoute(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, string, string, object, object, object)*I"G
-EMicrosoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions*>
-<
-routes2Microsoft.AspNetCore.Routing.IEndpointRouteBuilder*
-OpenIdScope*
-OrchardCore.OpenId*
-
-%17string*
-""*
-""*
-""˛
-˚
-â
-}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Startup.csç ç(/
-%19string"1OrchardCore.Admin.AdminOptions.AdminUrlPrefix.get*+
-)
-optionsOrchardCore.Admin.AdminOptions”
-–
-â
-}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Startup.csç ç(H
-%20string"__concat*
-
-%19string*
-/OpenId/Scope/CreateÑ
-Å
-â
-}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Startup.csä è(M
-%21FMicrosoft.AspNetCore.Builder.ControllerActionEndpointConventionBuilder"¿Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapAreaControllerRoute(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, string, string, object, object, object)*I"G
-EMicrosoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions*>
-<
-routes2Microsoft.AspNetCore.Routing.IEndpointRouteBuilder*
-OpenIdScopeCreate*
-OrchardCore.OpenId*
-
-%20string*
-""*
-""*
-""˛
-˚
-â
-}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Startup.csì ì(/
-%22string"1OrchardCore.Admin.AdminOptions.AdminUrlPrefix.get*+
-)
-optionsOrchardCore.Admin.AdminOptionsÿ
-’
-â
-}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Startup.csì ì(M
-%23string"__concat*
-
-%22string*
-/OpenId/Scope/Delete/{id}Ñ
-Å
-â
-}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Startup.csê ï(M
-%24FMicrosoft.AspNetCore.Builder.ControllerActionEndpointConventionBuilder"¿Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapAreaControllerRoute(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, string, string, object, object, object)*I"G
-EMicrosoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions*>
-<
-routes2Microsoft.AspNetCore.Routing.IEndpointRouteBuilder*
-OpenIdScopeDelete*
-OrchardCore.OpenId*
-
-%23string*
-""*
-""*
-""˛
-˚
-â
-}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Startup.csô ô(/
-%25string"1OrchardCore.Admin.AdminOptions.AdminUrlPrefix.get*+
-)
-optionsOrchardCore.Admin.AdminOptions÷
-”
-â
-}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Startup.csô ô(K
-%26string"__concat*
-
-%25string*
-/OpenId/Scope/Edit/{id}Ç
-ˇ
-â
-}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Startup.csñ õ(M
-%27FMicrosoft.AspNetCore.Builder.ControllerActionEndpointConventionBuilder"¿Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapAreaControllerRoute(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, string, string, object, object, object)*I"G
-EMicrosoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions*>
-<
-routes2Microsoft.AspNetCore.Routing.IEndpointRouteBuilder*
-OpenIdScopeEdit*
-OrchardCore.OpenId*
-
-%26string*
-""*
-""*
-""*
-1*≥
-1â
-}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Startup.csú	 ú(	"°
-â
-}D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Startup.csú ú(	
-implicit return:;
-builder0Microsoft.AspNetCore.Builder.IApplicationBuilder:<
-routes2Microsoft.AspNetCore.Routing.IEndpointRouteBuilder:*
-serviceProviderSystem.IServiceProviderB(&
-$OrchardCore.OpenId.ManagementStartup

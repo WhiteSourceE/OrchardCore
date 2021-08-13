@@ -1,120 +1,0 @@
-
-QOrchardCore.Apis.GraphQL.Client.HttpContentExtensions.ReadAs<T>(System.IO.Stream)¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpContentExtensions.cs ("0*Ω
-0¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpContentExtensions.cs! !(7‚ﬂ
-¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpContentExtensions.cs!  !(8
-%0System.IO.StreamReader"System.IO.StreamReader≠
-™
-¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpContentExtensions.cs!$ !(0
-
-%1void"5System.IO.StreamReader.StreamReader(System.IO.Stream)*
-
-%0System.IO.StreamReader*
-
-streamSystem.IO.StreamÙ
-Ò
-¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpContentExtensions.cs! !(8 
-readerSystem.IO.StreamReader"__id*
-
-%0System.IO.StreamReader*
-1*˝
-1¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpContentExtensions.cs" "(=ÚÔ
-¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpContentExtensions.cs"$ "(>$
-%2Newtonsoft.Json.JsonTextReader"Newtonsoft.Json.JsonTextReader…
-∆
-¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpContentExtensions.cs"( "(6
-
-%3void"CNewtonsoft.Json.JsonTextReader.JsonTextReader(System.IO.TextReader)*&
-$
-%2Newtonsoft.Json.JsonTextReader*"
- 
-readerSystem.IO.StreamReaderà
-Ö
-¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpContentExtensions.cs" "(>,
-
-jsonReaderNewtonsoft.Json.JsonTextReader"__id*&
-$
-%2Newtonsoft.Json.JsonTextReader*
-2*⁄
-2¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpContentExtensions.cs$ *(?ÚÔ
-¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpContentExtensions.cs$% (($
-%4Newtonsoft.Json.JsonSerializer"Newtonsoft.Json.JsonSerializerë
-é
-¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpContentExtensions.cs$) $(7
-
-%5void"/Newtonsoft.Json.JsonSerializer.JsonSerializer()*&
-$
-%4Newtonsoft.Json.JsonSerializer¿
-Ω
-¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpContentExtensions.cs&( &(@
-%6"__id*
-""“œ
-¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpContentExtensions.cs& &(@'
-%7!Newtonsoft.Json.NullValueHandling"4Newtonsoft.Json.JsonSerializer.NullValueHandling.set*&
-$
-%4Newtonsoft.Json.JsonSerializer*
-
-%62NullValueHandling.setíè
-¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpContentExtensions.cs'# '(<4
-%8.Newtonsoft.Json.Converters.StringEnumConverter".Newtonsoft.Json.Converters.StringEnumConverter∂
-≥
-¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpContentExtensions.cs'' '(:
-
-%9void"DNewtonsoft.Json.Converters.StringEnumConverter.StringEnumConverter()*6
-4
-%8.Newtonsoft.Json.Converters.StringEnumConverterÖÇ
-¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpContentExtensions.cs'! '(>.
-%10'Newtonsoft.Json.JsonConverterCollection"'Newtonsoft.Json.JsonConverterCollectionÖ
-Ç
-%11void"ANewtonsoft.Json.JsonConverterCollection.JsonConverterCollection()*0
-.
-%10'Newtonsoft.Json.JsonConverterCollectionå
-â
-¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpContentExtensions.cs$ ((0
-jsonSerializerNewtonsoft.Json.JsonSerializer"__id*&
-$
-%4Newtonsoft.Json.JsonSerializerÂ
-‚
-¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpContentExtensions.cs* *(@
-%12T"INewtonsoft.Json.JsonSerializer.Deserialize<T>(Newtonsoft.Json.JsonReader)*2
-0
-jsonSerializerNewtonsoft.Json.JsonSerializer*.
-,
-
-jsonReaderNewtonsoft.Json.JsonTextReader"µ
-¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpContentExtensions.cs* *(A
-
-
-%12T*±
-3¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpContentExtensions.cs,	 ,(	*
-4*±
-4¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpContentExtensions.cs,	 ,(	*
-5*Ì
-5¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpContentExtensions.cs,	 ,(	"æ
-¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpContentExtensions.cs, ,(	
-implicit return:
-streamSystem.IO.StreamB9"7
-5OrchardCore.Apis.GraphQL.Client.HttpContentExtensions

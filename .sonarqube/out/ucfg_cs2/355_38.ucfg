@@ -1,97 +1,0 @@
-
-4OrchardCore.Redis.Services.RedisLock.Release(string)î
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Services\RedisLock.csÜ Ü("0*ƒ
-0î
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Services\RedisLock.csä ä(`û
-õ
-î
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Services\RedisLock.csä ä(%
-%0OrchardCore.Redis.IRedisService"__id*U*S&
-$OrchardCore.Redis.Services.RedisLock")
-_redisOrchardCore.Redis.IRedisService§°
-î
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Services\RedisLock.csä ä(#
-%1StackExchange.Redis.IDatabase",OrchardCore.Redis.IRedisService.Database.get*'
-%
-%0OrchardCore.Redis.IRedisService2Database.getÌ
-Í
-î
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Services\RedisLock.csä, ä(3
-%2string"__id*=*;&
-$OrchardCore.Redis.Services.RedisLock"
-_prefixstring”
-–
-î
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Services\RedisLock.csä, ä(9
-%3string"__concat*
-
-%2string*
-
-keystringÔ
-Ï
-î
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Services\RedisLock.csä; ä(D
-%4string"__id*?*=&
-$OrchardCore.Redis.Services.RedisLock"
-	_hostNamestringÆ
-´
-î
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Services\RedisLock.csäF ä(`
-%5"__id*
-""ÓÎ
-î
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Services\RedisLock.csä ä(a
-
-%6bool"âStackExchange.Redis.IDatabase.LockRelease(StackExchange.Redis.RedisKey, StackExchange.Redis.RedisValue, StackExchange.Redis.CommandFlags)*%
-#
-%1StackExchange.Redis.IDatabase*
-
-%3string*
-
-%4string*
-
-%52kLockRelease(StackExchange.Redis.RedisKey, StackExchange.Redis.RedisValue, StackExchange.Redis.CommandFlags)*
-1
-2*Ç
-1î
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Services\RedisLock.csé é(b©
-¶
-î
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Services\RedisLock.csé é(*
-%7$Microsoft.Extensions.Logging.ILogger"__id*[*Y&
-$OrchardCore.Redis.Services.RedisLock"/
-_logger$Microsoft.Extensions.Logging.ILoggerÌ
-Í
-î
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Services\RedisLock.cséU é(\
-%8string"__id*=*;&
-$OrchardCore.Redis.Services.RedisLock"
-_prefixstring”
-–
-î
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Services\RedisLock.cséU é(b
-%9string"__concat*
-
-%8string*
-
-keystringÓ
-Î
-î
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Services\RedisLock.csé é(c
-%10void"áMicrosoft.Extensions.Logging.LoggerExtensions.LogError(Microsoft.Extensions.Logging.ILogger, System.Exception, string, params object[])*1"/
--Microsoft.Extensions.Logging.LoggerExtensions*,
-*
-%7$Microsoft.Extensions.Logging.ILogger*
-
-eSystem.Exception*1/
--Fails to release the named lock '{LockName}'.*
-
-%9string*
-2*…
-2î
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Services\RedisLock.csê	 ê(	"¨
-î
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Services\RedisLock.csê ê(	
-implicit return:
-keystringB(&
-$OrchardCore.Redis.Services.RedisLock

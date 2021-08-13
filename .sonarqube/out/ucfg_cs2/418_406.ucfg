@@ -1,790 +1,0 @@
-
-¢OrchardCore.Media.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, System.IServiceProvider)à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.cs® ®(&"0*¯
-0à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.cs™ Ø(+±
-Æ
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.cs™$ ™(\*
-%0$OrchardCore.Media.IMediaFileProvider"xMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<T>(System.IServiceProvider)*M"K
-IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*,
-*
-serviceProviderSystem.IServiceProvider˝
-˙
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.cs™ ™(\9
-mediaFileProvider$OrchardCore.Media.IMediaFileProvider"__id*,
-*
-%0$OrchardCore.Media.IMediaFileProviderº
-π
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.cs´ ´([5
-%1/Microsoft.Extensions.Options.IOptions<TOptions>"xMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<T>(System.IServiceProvider)*M"K
-IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*,
-*
-serviceProviderSystem.IServiceProvider≥∞
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.cs´ ´(a$
-%2OrchardCore.Media.MediaOptions"9Microsoft.Extensions.Options.IOptions<TOptions>.Value.get*7
-5
-%1/Microsoft.Extensions.Options.IOptions<TOptions>2	Value.getÏ
-È
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.cs´ ´(a.
-mediaOptionsOrchardCore.Media.MediaOptions"__id*&
-$
-%2OrchardCore.Media.MediaOptions´
-®
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.cs¨& ¨(X,
-%3&OrchardCore.Media.IMediaFileStoreCache"pMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService<T>(System.IServiceProvider)*M"K
-IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*,
-*
-serviceProviderSystem.IServiceProviderÉ
-Ä
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.cs¨ ¨(X=
-mediaFileStoreCache&OrchardCore.Media.IMediaFileStoreCache"__id*.
-,
-%3&OrchardCore.Media.IMediaFileStoreCacheì
-ê
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.csØ Ø(+
-
-%4bool""object.operator !=(object, object)*
-"
-object*?
-=
-mediaFileStoreCache&OrchardCore.Media.IMediaFileStoreCache*
-""*
-1
-2*Ó
-1à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.cs± ±(Eÿ
-’
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.cs± ±(E6
-%50Microsoft.AspNetCore.Builder.IApplicationBuilder"íMicrosoft.AspNetCore.Builder.UseMiddlewareExtensions.UseMiddleware<TMiddleware>(Microsoft.AspNetCore.Builder.IApplicationBuilder, params object[])*8"6
-4Microsoft.AspNetCore.Builder.UseMiddlewareExtensions*9
-7
-app0Microsoft.AspNetCore.Builder.IApplicationBuilder*
-""*
-2*©Ï
-2à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.csµ ≈(y‹
-Ÿ
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.csµ µ(6
-%60Microsoft.AspNetCore.Builder.IApplicationBuilder"âSixLabors.ImageSharp.Web.DependencyInjection.ApplicationBuilderExtensions.UseImageSharp(Microsoft.AspNetCore.Builder.IApplicationBuilder)*M"K
-ISixLabors.ImageSharp.Web.DependencyInjection.ApplicationBuilderExtensions*9
-7
-app0Microsoft.AspNetCore.Builder.IApplicationBuilder¨
-©
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.cs∏ ∏(*4
-%7.Microsoft.AspNetCore.Builder.StaticFileOptions"4OrchardCore.Media.MediaOptions.StaticFileOptions.get*0
-.
-mediaOptionsOrchardCore.Media.MediaOptionsè
-å
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.cs∏ ∏(K6
-%80Microsoft.Extensions.FileProviders.IFileProvider"RMicrosoft.AspNetCore.StaticFiles.Infrastructure.SharedOptionsBase.FileProvider.set*6
-4
-%7.Microsoft.AspNetCore.Builder.StaticFileOptions*;
-9
-mediaFileProvider$OrchardCore.Media.IMediaFileProvider¨
-©
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.csª ª(=4
-%9.Microsoft.AspNetCore.Builder.StaticFileOptions"4OrchardCore.Media.MediaOptions.StaticFileOptions.get*0
-.
-mediaOptionsOrchardCore.Media.MediaOptionsñ
-ì
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.csª ª(>7
-%100Microsoft.AspNetCore.Builder.IApplicationBuilder"¢Microsoft.AspNetCore.Builder.StaticFileExtensions.UseStaticFiles(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Builder.StaticFileOptions)*5"3
-1Microsoft.AspNetCore.Builder.StaticFileExtensions*9
-7
-app0Microsoft.AspNetCore.Builder.IApplicationBuilder*6
-4
-%9.Microsoft.AspNetCore.Builder.StaticFileOptions∑
-¥
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.csΩ& Ω(N
-%11string"SOrchardCore.Mvc.Core.Utilities.ControllerTypeExtensions.ControllerName(System.Type)*;"9
-7OrchardCore.Mvc.Core.Utilities.ControllerTypeExtensions*
-""ƒ
-¡
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.csΩ Ω(N
-adminControllerNamestring"__id*
-
-%11stringç
-ä
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.cs¬ ¬(&%
-%12OrchardCore.Admin.AdminOptions"__id*P*N
-OrchardCore.Media.Startup"/
-_adminOptionsOrchardCore.Admin.AdminOptions˘
-ˆ
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.cs¬ ¬(5
-%13string"1OrchardCore.Admin.AdminOptions.AdminUrlPrefix.get*'
-%
-%12OrchardCore.Admin.AdminOptionsƒ
-¡
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.cs¬ ¬(@
-%14string"__concat*
-
-%13string*
-
-/Media¸
-˘
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.csø ƒ(M
-%15FMicrosoft.AspNetCore.Builder.ControllerActionEndpointConventionBuilder"¿Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapAreaControllerRoute(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, string, string, object, object, object)*I"G
-EMicrosoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions*>
-<
-routes2Microsoft.AspNetCore.Routing.IEndpointRouteBuilder*
-Media.Index*
-OrchardCore.Media*
-
-%14string*
-""*
-""*
-""ç
-ä
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.cs… …(&%
-%16OrchardCore.Admin.AdminOptions"__id*P*N
-OrchardCore.Media.Startup"/
-_adminOptionsOrchardCore.Admin.AdminOptions˘
-ˆ
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.cs… …(5
-%17string"1OrchardCore.Admin.AdminOptions.AdminUrlPrefix.get*'
-%
-%16OrchardCore.Admin.AdminOptions’
-“
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.cs… …(Q
-%18string"__concat*
-
-%17string*
-/Media/MediaApplicationá
-Ñ
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.cs∆ À(M
-%19FMicrosoft.AspNetCore.Builder.ControllerActionEndpointConventionBuilder"¿Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapAreaControllerRoute(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, string, string, object, object, object)*I"G
-EMicrosoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions*>
-<
-routes2Microsoft.AspNetCore.Routing.IEndpointRouteBuilder*
-Media.MediaApplication*
-OrchardCore.Media*
-
-%18string*
-""*
-""*
-""ç
-ä
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.cs– –(&%
-%20OrchardCore.Admin.AdminOptions"__id*P*N
-OrchardCore.Media.Startup"/
-_adminOptionsOrchardCore.Admin.AdminOptions˘
-ˆ
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.cs– –(5
-%21string"1OrchardCore.Admin.AdminOptions.AdminUrlPrefix.get*'
-%
-%20OrchardCore.Admin.AdminOptionsœ
-Ã
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.cs– –(K
-%22string"__concat*
-
-%21string*
-/Media/GetFoldersÅ
-˛
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.csÕ “(M
-%23FMicrosoft.AspNetCore.Builder.ControllerActionEndpointConventionBuilder"¿Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapAreaControllerRoute(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, string, string, object, object, object)*I"G
-EMicrosoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions*>
-<
-routes2Microsoft.AspNetCore.Routing.IEndpointRouteBuilder*
-Media.GetFolders*
-OrchardCore.Media*
-
-%22string*
-""*
-""*
-""ç
-ä
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.cs◊ ◊(&%
-%24OrchardCore.Admin.AdminOptions"__id*P*N
-OrchardCore.Media.Startup"/
-_adminOptionsOrchardCore.Admin.AdminOptions˘
-ˆ
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.cs◊ ◊(5
-%25string"1OrchardCore.Admin.AdminOptions.AdminUrlPrefix.get*'
-%
-%24OrchardCore.Admin.AdminOptions“
-œ
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.cs◊ ◊(N
-%26string"__concat*
-
-%25string*
-/Media/GetMediaItemsÑ
-Å
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.cs‘ Ÿ(M
-%27FMicrosoft.AspNetCore.Builder.ControllerActionEndpointConventionBuilder"¿Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapAreaControllerRoute(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, string, string, object, object, object)*I"G
-EMicrosoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions*>
-<
-routes2Microsoft.AspNetCore.Routing.IEndpointRouteBuilder*
-Media.GetMediaItems*
-OrchardCore.Media*
-
-%26string*
-""*
-""*
-""ç
-ä
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.csﬁ ﬁ(&%
-%28OrchardCore.Admin.AdminOptions"__id*P*N
-OrchardCore.Media.Startup"/
-_adminOptionsOrchardCore.Admin.AdminOptions˘
-ˆ
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.csﬁ ﬁ(5
-%29string"1OrchardCore.Admin.AdminOptions.AdminUrlPrefix.get*'
-%
-%28OrchardCore.Admin.AdminOptions—
-Œ
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.csﬁ ﬁ(M
-%30string"__concat*
-
-%29string*
-/Media/GetMediaItemÉ
-Ä
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.cs€ ‡(M
-%31FMicrosoft.AspNetCore.Builder.ControllerActionEndpointConventionBuilder"¿Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapAreaControllerRoute(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, string, string, object, object, object)*I"G
-EMicrosoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions*>
-<
-routes2Microsoft.AspNetCore.Routing.IEndpointRouteBuilder*
-Media.GetMediaItem*
-OrchardCore.Media*
-
-%30string*
-""*
-""*
-""ç
-ä
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.csÂ Â(&%
-%32OrchardCore.Admin.AdminOptions"__id*P*N
-OrchardCore.Media.Startup"/
-_adminOptionsOrchardCore.Admin.AdminOptions˘
-ˆ
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.csÂ Â(5
-%33string"1OrchardCore.Admin.AdminOptions.AdminUrlPrefix.get*'
-%
-%32OrchardCore.Admin.AdminOptionsÀ
-»
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.csÂ Â(G
-%34string"__concat*
-
-%33string*
-/Media/Upload˝
-˙
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.cs‚ Á(M
-%35FMicrosoft.AspNetCore.Builder.ControllerActionEndpointConventionBuilder"¿Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapAreaControllerRoute(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, string, string, object, object, object)*I"G
-EMicrosoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions*>
-<
-routes2Microsoft.AspNetCore.Routing.IEndpointRouteBuilder*
-Media.Upload*
-OrchardCore.Media*
-
-%34string*
-""*
-""*
-""ç
-ä
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.csÏ Ï(&%
-%36OrchardCore.Admin.AdminOptions"__id*P*N
-OrchardCore.Media.Startup"/
-_adminOptionsOrchardCore.Admin.AdminOptions˘
-ˆ
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.csÏ Ï(5
-%37string"1OrchardCore.Admin.AdminOptions.AdminUrlPrefix.get*'
-%
-%36OrchardCore.Admin.AdminOptions—
-Œ
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.csÏ Ï(M
-%38string"__concat*
-
-%37string*
-/Media/DeleteFolderÉ
-Ä
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.csÈ Ó(M
-%39FMicrosoft.AspNetCore.Builder.ControllerActionEndpointConventionBuilder"¿Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapAreaControllerRoute(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, string, string, object, object, object)*I"G
-EMicrosoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions*>
-<
-routes2Microsoft.AspNetCore.Routing.IEndpointRouteBuilder*
-Media.DeleteFolder*
-OrchardCore.Media*
-
-%38string*
-""*
-""*
-""ç
-ä
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.csÛ Û(&%
-%40OrchardCore.Admin.AdminOptions"__id*P*N
-OrchardCore.Media.Startup"/
-_adminOptionsOrchardCore.Admin.AdminOptions˘
-ˆ
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.csÛ Û(5
-%41string"1OrchardCore.Admin.AdminOptions.AdminUrlPrefix.get*'
-%
-%40OrchardCore.Admin.AdminOptions–
-Õ
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.csÛ Û(L
-%42string"__concat*
-
-%41string*
-/Media/DeleteMediaÇ
-ˇ
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.cs ı(M
-%43FMicrosoft.AspNetCore.Builder.ControllerActionEndpointConventionBuilder"¿Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapAreaControllerRoute(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, string, string, object, object, object)*I"G
-EMicrosoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions*>
-<
-routes2Microsoft.AspNetCore.Routing.IEndpointRouteBuilder*
-Media.DeleteMedia*
-OrchardCore.Media*
-
-%42string*
-""*
-""*
-""ç
-ä
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.cs˙ ˙(&%
-%44OrchardCore.Admin.AdminOptions"__id*P*N
-OrchardCore.Media.Startup"/
-_adminOptionsOrchardCore.Admin.AdminOptions˘
-ˆ
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.cs˙ ˙(5
-%45string"1OrchardCore.Admin.AdminOptions.AdminUrlPrefix.get*'
-%
-%44OrchardCore.Admin.AdminOptionsŒ
-À
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.cs˙ ˙(J
-%46string"__concat*
-
-%45string*
-/Media/MoveMedia∑
-¥
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.cs˚- ˚(U
-%47string"SOrchardCore.Mvc.Core.Utilities.ControllerTypeExtensions.ControllerName(System.Type)*;"9
-7OrchardCore.Mvc.Core.Utilities.ControllerTypeExtensions*
-""Ä
-˝
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.cs˜ ¸(M
-%48FMicrosoft.AspNetCore.Builder.ControllerActionEndpointConventionBuilder"¿Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapAreaControllerRoute(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, string, string, object, object, object)*I"G
-EMicrosoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions*>
-<
-routes2Microsoft.AspNetCore.Routing.IEndpointRouteBuilder*
-Media.MoveMedia*
-OrchardCore.Media*
-
-%46string*
-""*
-""*
-""ç
-ä
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.csÅ Å(&%
-%49OrchardCore.Admin.AdminOptions"__id*P*N
-OrchardCore.Media.Startup"/
-_adminOptionsOrchardCore.Admin.AdminOptions˘
-ˆ
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.csÅ Å(5
-%50string"1OrchardCore.Admin.AdminOptions.AdminUrlPrefix.get*'
-%
-%49OrchardCore.Admin.AdminOptions‘
-—
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.csÅ Å(P
-%51string"__concat*
-
-%50string*
-/Media/DeleteMediaListÜ
-É
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.cs˛ É(M
-%52FMicrosoft.AspNetCore.Builder.ControllerActionEndpointConventionBuilder"¿Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapAreaControllerRoute(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, string, string, object, object, object)*I"G
-EMicrosoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions*>
-<
-routes2Microsoft.AspNetCore.Routing.IEndpointRouteBuilder*
-Media.DeleteMediaList*
-OrchardCore.Media*
-
-%51string*
-""*
-""*
-""ç
-ä
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.csà à(&%
-%53OrchardCore.Admin.AdminOptions"__id*P*N
-OrchardCore.Media.Startup"/
-_adminOptionsOrchardCore.Admin.AdminOptions˘
-ˆ
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.csà à(5
-%54string"1OrchardCore.Admin.AdminOptions.AdminUrlPrefix.get*'
-%
-%53OrchardCore.Admin.AdminOptions“
-œ
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.csà à(N
-%55string"__concat*
-
-%54string*
-/Media/MoveMediaListÑ
-Å
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.csÖ ä(M
-%56FMicrosoft.AspNetCore.Builder.ControllerActionEndpointConventionBuilder"¿Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapAreaControllerRoute(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, string, string, object, object, object)*I"G
-EMicrosoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions*>
-<
-routes2Microsoft.AspNetCore.Routing.IEndpointRouteBuilder*
-Media.MoveMediaList*
-OrchardCore.Media*
-
-%55string*
-""*
-""*
-""ç
-ä
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.csè è(&%
-%57OrchardCore.Admin.AdminOptions"__id*P*N
-OrchardCore.Media.Startup"/
-_adminOptionsOrchardCore.Admin.AdminOptions˘
-ˆ
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.csè è(5
-%58string"1OrchardCore.Admin.AdminOptions.AdminUrlPrefix.get*'
-%
-%57OrchardCore.Admin.AdminOptions—
-Œ
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.csè è(M
-%59string"__concat*
-
-%58string*
-/Media/CreateFolderÉ
-Ä
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.cså ë(M
-%60FMicrosoft.AspNetCore.Builder.ControllerActionEndpointConventionBuilder"¿Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapAreaControllerRoute(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, string, string, object, object, object)*I"G
-EMicrosoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions*>
-<
-routes2Microsoft.AspNetCore.Routing.IEndpointRouteBuilder*
-Media.CreateFolder*
-OrchardCore.Media*
-
-%59string*
-""*
-""*
-""∑
-¥
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.csì+ ì(X
-%61string"SOrchardCore.Mvc.Core.Utilities.ControllerTypeExtensions.ControllerName(System.Type)*;"9
-7OrchardCore.Mvc.Core.Utilities.ControllerTypeExtensions*
-""…
-∆
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.csì ì(X"
-mediaCacheControllerNamestring"__id*
-
-%61stringç
-ä
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.csò ò(&%
-%62OrchardCore.Admin.AdminOptions"__id*P*N
-OrchardCore.Media.Startup"/
-_adminOptionsOrchardCore.Admin.AdminOptions˘
-ˆ
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.csò ò(5
-%63string"1OrchardCore.Admin.AdminOptions.AdminUrlPrefix.get*'
-%
-%62OrchardCore.Admin.AdminOptions…
-∆
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.csò ò(E
-%64string"__concat*
-
-%63string*
-/MediaCacheÅ
-˛
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.csï ö(M
-%65FMicrosoft.AspNetCore.Builder.ControllerActionEndpointConventionBuilder"¿Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapAreaControllerRoute(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, string, string, object, object, object)*I"G
-EMicrosoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions*>
-<
-routes2Microsoft.AspNetCore.Routing.IEndpointRouteBuilder*
-MediaCache.Index*
-OrchardCore.Media*
-
-%64string*
-""*
-""*
-""ç
-ä
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.csü ü(&%
-%66OrchardCore.Admin.AdminOptions"__id*P*N
-OrchardCore.Media.Startup"/
-_adminOptionsOrchardCore.Admin.AdminOptions˘
-ˆ
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.csü ü(5
-%67string"1OrchardCore.Admin.AdminOptions.AdminUrlPrefix.get*'
-%
-%66OrchardCore.Admin.AdminOptionsœ
-Ã
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.csü ü(K
-%68string"__concat*
-
-%67string*
-/MediaCache/PurgeÅ
-˛
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.csú °(M
-%69FMicrosoft.AspNetCore.Builder.ControllerActionEndpointConventionBuilder"¿Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapAreaControllerRoute(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, string, string, object, object, object)*I"G
-EMicrosoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions*>
-<
-routes2Microsoft.AspNetCore.Routing.IEndpointRouteBuilder*
-MediaCache.Purge*
-OrchardCore.Media*
-
-%68string*
-""*
-""*
-""ç
-ä
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.cs¶ ¶(&%
-%70OrchardCore.Admin.AdminOptions"__id*P*N
-OrchardCore.Media.Startup"/
-_adminOptionsOrchardCore.Admin.AdminOptions˘
-ˆ
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.cs¶ ¶(5
-%71string"1OrchardCore.Admin.AdminOptions.AdminUrlPrefix.get*'
-%
-%70OrchardCore.Admin.AdminOptionsÃ
-…
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.cs¶ ¶(H
-%72string"__concat*
-
-%71string*
-/Media/Options˛
-˚
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.cs£ ®(M
-%73FMicrosoft.AspNetCore.Builder.ControllerActionEndpointConventionBuilder"¿Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapAreaControllerRoute(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, string, string, object, object, object)*I"G
-EMicrosoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions*>
-<
-routes2Microsoft.AspNetCore.Routing.IEndpointRouteBuilder*
-Media.Options*
-OrchardCore.Media*
-
-%72string*
-""*
-""*
-""∑
-¥
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.cs™. ™(^
-%74string"SOrchardCore.Mvc.Core.Utilities.ControllerTypeExtensions.ControllerName(System.Type)*;"9
-7OrchardCore.Mvc.Core.Utilities.ControllerTypeExtensions*
-""Ã
-…
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.cs™ ™(^%
-mediaProfilesControllerNamestring"__id*
-
-%74stringç
-ä
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.csØ Ø(&%
-%75OrchardCore.Admin.AdminOptions"__id*P*N
-OrchardCore.Media.Startup"/
-_adminOptionsOrchardCore.Admin.AdminOptions˘
-ˆ
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.csØ Ø(5
-%76string"1OrchardCore.Admin.AdminOptions.AdminUrlPrefix.get*'
-%
-%75OrchardCore.Admin.AdminOptionsÃ
-…
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.csØ Ø(H
-%77string"__concat*
-
-%76string*
-/MediaProfilesÑ
-Å
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.cs¨ ±(M
-%78FMicrosoft.AspNetCore.Builder.ControllerActionEndpointConventionBuilder"¿Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapAreaControllerRoute(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, string, string, object, object, object)*I"G
-EMicrosoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions*>
-<
-routes2Microsoft.AspNetCore.Routing.IEndpointRouteBuilder*
-MediaProfiles.Index*
-OrchardCore.Media*
-
-%77string*
-""*
-""*
-""ç
-ä
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.cs∂ ∂(&%
-%79OrchardCore.Admin.AdminOptions"__id*P*N
-OrchardCore.Media.Startup"/
-_adminOptionsOrchardCore.Admin.AdminOptions˘
-ˆ
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.cs∂ ∂(5
-%80string"1OrchardCore.Admin.AdminOptions.AdminUrlPrefix.get*'
-%
-%79OrchardCore.Admin.AdminOptions”
-–
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.cs∂ ∂(O
-%81string"__concat*
-
-%80string*
-/MediaProfiles/CreateÖ
-Ç
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.cs≥ ∏(M
-%82FMicrosoft.AspNetCore.Builder.ControllerActionEndpointConventionBuilder"¿Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapAreaControllerRoute(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, string, string, object, object, object)*I"G
-EMicrosoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions*>
-<
-routes2Microsoft.AspNetCore.Routing.IEndpointRouteBuilder*
-MediaProfiles.Create*
-OrchardCore.Media*
-
-%81string*
-""*
-""*
-""ç
-ä
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.csΩ Ω(&%
-%83OrchardCore.Admin.AdminOptions"__id*P*N
-OrchardCore.Media.Startup"/
-_adminOptionsOrchardCore.Admin.AdminOptions˘
-ˆ
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.csΩ Ω(5
-%84string"1OrchardCore.Admin.AdminOptions.AdminUrlPrefix.get*'
-%
-%83OrchardCore.Admin.AdminOptions—
-Œ
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.csΩ Ω(M
-%85string"__concat*
-
-%84string*
-/MediaProfiles/EditÉ
-Ä
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.cs∫ ø(M
-%86FMicrosoft.AspNetCore.Builder.ControllerActionEndpointConventionBuilder"¿Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapAreaControllerRoute(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, string, string, object, object, object)*I"G
-EMicrosoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions*>
-<
-routes2Microsoft.AspNetCore.Routing.IEndpointRouteBuilder*
-MediaProfiles.Edit*
-OrchardCore.Media*
-
-%85string*
-""*
-""*
-""ç
-ä
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.csƒ ƒ(&%
-%87OrchardCore.Admin.AdminOptions"__id*P*N
-OrchardCore.Media.Startup"/
-_adminOptionsOrchardCore.Admin.AdminOptions˘
-ˆ
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.csƒ ƒ(5
-%88string"1OrchardCore.Admin.AdminOptions.AdminUrlPrefix.get*'
-%
-%87OrchardCore.Admin.AdminOptions”
-–
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.csƒ ƒ(O
-%89string"__concat*
-
-%88string*
-/MediaProfiles/DeleteÖ
-Ç
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.cs¡ ∆(M
-%90FMicrosoft.AspNetCore.Builder.ControllerActionEndpointConventionBuilder"¿Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapAreaControllerRoute(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, string, string, object, object, object)*I"G
-EMicrosoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions*>
-<
-routes2Microsoft.AspNetCore.Routing.IEndpointRouteBuilder*
-MediaProfiles.Delete*
-OrchardCore.Media*
-
-%89string*
-""*
-""*
-""*
-3*±
-3à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.cs«	 «(	"†
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Startup.cs« «(	
-implicit return:7
-app0Microsoft.AspNetCore.Builder.IApplicationBuilder:<
-routes2Microsoft.AspNetCore.Routing.IEndpointRouteBuilder:*
-serviceProviderSystem.IServiceProviderB
-OrchardCore.Media.Startup

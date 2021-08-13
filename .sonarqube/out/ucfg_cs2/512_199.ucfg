@@ -1,175 +1,0 @@
-
-|OrchardCore.Users.Liquid.UsersByIdFilter.ProcessAsync(Fluid.Values.FluidValue, Fluid.FilterArguments, Fluid.TemplateContext)ï
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Liquid\GetUsersFilter.cs+ (7"0*»
-0ï
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Liquid\GetUsersFilter.cs (Kƒ
-¡
-ï
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Liquid\GetUsersFilter.cs ("9
-%03System.Collections.Generic.Dictionary<TKey, TValue>"__id*f*d
-
-ctxFluid.TemplateContext"D
-AmbientValues3System.Collections.Generic.Dictionary<TKey, TValue>€
-ÿ
-ï
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Liquid\GetUsersFilter.cs (L
-
-%1bool"QSystem.Collections.Generic.Dictionary<TKey, TValue>.TryGetValue(TKey, out TValue)*;
-9
-%03System.Collections.Generic.Dictionary<TKey, TValue>*
-
-Services*
-
-servicesobject*
-1
-2*•
-1ï
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Liquid\GetUsersFilter.cs (T’“
-ï
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Liquid\GetUsersFilter.cs (U
-%2System.ArgumentException"System.ArgumentException™
-ß
-ï
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Liquid\GetUsersFilter.cs (+
-
-%3void"3System.ArgumentException.ArgumentException(string?)* 
-
-%2System.ArgumentException**(
-&Services missing while invoking 'user'*
-3*¯
-
-2ï
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Liquid\GetUsersFilter.cs (/Ω
-∫
-ï
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Liquid\GetUsersFilter.cs (5
-%4"__id*
-
-servicesobjectÉ
-Ä
-ï
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Liquid\GetUsersFilter.cs (U
-%5YesSql.ISession"xMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<T>(System.IServiceProvider)*M"K
-IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*
-
-%4÷
-”
-ï
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Liquid\GetUsersFilter.cs (U
-sessionYesSql.ISession"__id*
-
-%5YesSql.ISessionÅ
-˛
-ï
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Liquid\GetUsersFilter.cs (
-%6Fluid.Values.FluidValues" Fluid.Values.FluidValue.Type.get*"
- 
-inputFluid.Values.FluidValueØ
-¨
-ï
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Liquid\GetUsersFilter.cs (/
-%7"__id*
-""*
-4
-5*Ö
-4ï
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Liquid\GetUsersFilter.cs (j¢ü
-ï
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Liquid\GetUsersFilter.cs (//
-%8)System.Collections.Generic.IEnumerable<T>"#Fluid.Values.FluidValue.Enumerate()*"
- 
-inputFluid.Values.FluidValue2Enumerate()§
-°
-ï
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Liquid\GetUsersFilter.cs (N/
-%9)System.Collections.Generic.IEnumerable<T>"System.Linq.Enumerable.Select<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)*"
-System.Linq.Enumerable*1
-/
-%8)System.Collections.Generic.IEnumerable<T>*
-""’
-“
-ï
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Liquid\GetUsersFilter.cs (X
-%10string[]"XSystem.Linq.Enumerable.ToArray<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
-System.Linq.Enumerable*1
-/
-%9)System.Collections.Generic.IEnumerable<T>…
-∆
-ï
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Liquid\GetUsersFilter.cs (X
-userIdsstring[]"__id*
-
-%10string[]ñ
-ì
-ï
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Liquid\GetUsersFilter.cs0 (k
-%11YesSql.IQuery<T, TIndex>"ÖYesSql.QueryExtensions.Query<T, TIndex>(YesSql.ISession, System.Linq.Expressions.Expression<System.Func<TIndex, bool>>, bool, string)*"
-YesSql.QueryExtensions*
-
-sessionYesSql.ISession*
-""*
-""*
-""ñì
-ï
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Liquid\GetUsersFilter.cs0 (w+
-%12$System.Threading.Tasks.Task<TResult>"YesSql.IQuery<T>.ListAsync()*!
-
-%11YesSql.IQuery<T, TIndex>2ListAsync()à
-Ö
-ï
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Liquid\GetUsersFilter.cs (y
-%13Fluid.Values.FluidValue"&Fluid.Values.FluidValue.Create(object)*"
-Fluid.Values.FluidValue*
-"""∫
-ï
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Liquid\GetUsersFilter.cs (z 
-
-%13Fluid.Values.FluidValue*Í
-5ï
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Liquid\GetUsersFilter.cs# %(e˜
-Ù
-ï
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Liquid\GetUsersFilter.cs# #(2
-%14string"'Fluid.Values.FluidValue.ToStringValue()*"
- 
-inputFluid.Values.FluidValueƒ
-¡
-ï
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Liquid\GetUsersFilter.cs# #(2
-userIdstring"__id*
-
-%14stringñ
-ì
-ï
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Liquid\GetUsersFilter.cs%/ %(f
-%15YesSql.IQuery<T, TIndex>"ÖYesSql.QueryExtensions.Query<T, TIndex>(YesSql.ISession, System.Linq.Expressions.Expression<System.Func<TIndex, bool>>, bool, string)*"
-YesSql.QueryExtensions*
-
-sessionYesSql.ISession*
-""*
-""*
-""™ß
-ï
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Liquid\GetUsersFilter.cs%/ %(|+
-%16$System.Threading.Tasks.Task<TResult>"&YesSql.IQuery<T>.FirstOrDefaultAsync()*!
-
-%15YesSql.IQuery<T, TIndex>2FirstOrDefaultAsync()à
-Ö
-ï
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Liquid\GetUsersFilter.cs% %(}
-%17Fluid.Values.FluidValue"&Fluid.Values.FluidValue.Create(object)*"
-Fluid.Values.FluidValue*
-"""∫
-ï
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Liquid\GetUsersFilter.cs% %(~ 
-
-%17Fluid.Values.FluidValue*À
-3ï
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Liquid\GetUsersFilter.cs'	 '(	"≠
-ï
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Liquid\GetUsersFilter.cs' '(	
-implicit return: 
-inputFluid.Values.FluidValue:"
-	argumentsFluid.FilterArguments:
-ctxFluid.TemplateContextB,*
-(OrchardCore.Users.Liquid.UsersByIdFilter

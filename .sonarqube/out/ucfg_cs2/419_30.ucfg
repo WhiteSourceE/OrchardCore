@@ -1,656 +1,0 @@
-
-µOrchardCore.Lucene.QueryProviders.RangeQueryProvider.CreateQuery(OrchardCore.Lucene.ILuceneQueryService, OrchardCore.Lucene.LuceneQueryContext, string, Newtonsoft.Json.Linq.JObject)ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs
- 
-( "0*Æ
-0ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs (˛
-˚
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs (
-
-%0bool""string.operator !=(string, string)*
-"
-string*
-
-typestring*	
-range*
-1
-2*“
-1ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs ("™
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs (
-""*Ö
-2ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs ($™
-ß
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs (*/
-%1)System.Collections.Generic.IEnumerable<T>")Newtonsoft.Json.Linq.JObject.Properties()*'
-%
-queryNewtonsoft.Json.Linq.JObjectÚ
-Ô
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs (2$
-%2Newtonsoft.Json.Linq.JProperty"VSystem.Linq.Enumerable.First<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
-System.Linq.Enumerable*1
-/
-%1)System.Collections.Generic.IEnumerable<T>¸
-˘
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs (2'
-rangeNewtonsoft.Json.Linq.JProperty"__id*&
-$
-%2Newtonsoft.Json.Linq.JPropertyù
-ö
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs (!
-%3Newtonsoft.Json.Linq.JToken"(Newtonsoft.Json.Linq.JProperty.Value.get*)
-'
-rangeNewtonsoft.Json.Linq.JPropertyó
-î
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs ($%
-%4Newtonsoft.Json.Linq.JTokenType"$Newtonsoft.Json.Linq.JToken.Type.get*#
-!
-%3Newtonsoft.Json.Linq.JToken*
-3*≠
-3ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs ($*
-4
-5*≈
-4ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs  (Aá
-Ñ
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs  (*
-%5string"'Newtonsoft.Json.Linq.JProperty.Name.get*)
-'
-rangeNewtonsoft.Json.Linq.JPropertyÃ
-…
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs (*
-fieldstring"__id*
-
-%5string÷
-”
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs ($!
-gtNewtonsoft.Json.Linq.JToken"__id*
-""÷
-”
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs ($!
-ltNewtonsoft.Json.Linq.JToken"__id*
-""π
-∂
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs$ (3
-%6"__id*
-""·
-ﬁ
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs (3,
-	tokenTypeNewtonsoft.Json.Linq.JTokenType"__id*
-
-%6–
-Õ
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs ('
-boostSystem.Nullable<T>"__id*
-""…
-∆
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs (-
-includeLowerbool"__id*
-""…
-∆
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs/ (C
-includeUpperbool"__id*
-""ù
-ö
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs 6  (A!
-%7Newtonsoft.Json.Linq.JToken"(Newtonsoft.Json.Linq.JProperty.Value.get*)
-'
-rangeNewtonsoft.Json.Linq.JProperty÷
-”
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs -  (A
-%8"__id*#
-!
-%7Newtonsoft.Json.Linq.JTokenâ
-Ü
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs ,  (O/
-%9)System.Collections.Generic.IEnumerable<T>")Newtonsoft.Json.Linq.JObject.Properties()*
-
-%8*
-6*≠
-6ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs]	 ](	*
-7
-8*ö
-7ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs"  "(?ä
-á
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs"  "(,
-%10string"'Newtonsoft.Json.Linq.JProperty.Name.get*+
-)
-elementNewtonsoft.Json.Linq.JProperty‡
-›
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs"  "(?
-%11string"string.ToLowerInvariant()*
-
-%10string*
-9*Ø
-9ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs"  "(?*
-10
-11*Ê	
-10ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs%  &(3†
-ù
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs%% %(2"
-%12Newtonsoft.Json.Linq.JToken"(Newtonsoft.Json.Linq.JProperty.Value.get*+
-)
-elementNewtonsoft.Json.Linq.JPropertyÙ
-Ò
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs%  %(2!
-gtNewtonsoft.Json.Linq.JToken"__id*$
-"
-%12Newtonsoft.Json.Linq.JTokenò
-ï
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs&, &(3&
-%13Newtonsoft.Json.Linq.JTokenType"$Newtonsoft.Json.Linq.JToken.Type.get*#
-!
-gtNewtonsoft.Json.Linq.JTokenÉ
-Ä
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs&  &(3,
-	tokenTypeNewtonsoft.Json.Linq.JTokenType"__id*(
-&
-%13Newtonsoft.Json.Linq.JTokenType*
-6*∞
-11ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs"  "(?*
-12
-13*≤
-12ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs)  +(3†
-ù
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs)% )(2"
-%14Newtonsoft.Json.Linq.JToken"(Newtonsoft.Json.Linq.JProperty.Value.get*+
-)
-elementNewtonsoft.Json.Linq.JPropertyÙ
-Ò
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs)  )(2!
-gtNewtonsoft.Json.Linq.JToken"__id*$
-"
-%14Newtonsoft.Json.Linq.JTokenò
-ï
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs*, *(3&
-%15Newtonsoft.Json.Linq.JTokenType"$Newtonsoft.Json.Linq.JToken.Type.get*#
-!
-gtNewtonsoft.Json.Linq.JTokenÉ
-Ä
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs*  *(3,
-	tokenTypeNewtonsoft.Json.Linq.JTokenType"__id*(
-&
-%15Newtonsoft.Json.Linq.JTokenType…
-∆
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs+  +(3
-includeLowerbool"__id*
-""*
-6*∞
-13ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs"  "(?*
-14
-15*Ê	
-14ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs.  /(3†
-ù
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs.% .(2"
-%16Newtonsoft.Json.Linq.JToken"(Newtonsoft.Json.Linq.JProperty.Value.get*+
-)
-elementNewtonsoft.Json.Linq.JPropertyÙ
-Ò
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs.  .(2!
-ltNewtonsoft.Json.Linq.JToken"__id*$
-"
-%16Newtonsoft.Json.Linq.JTokenò
-ï
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs/, /(3&
-%17Newtonsoft.Json.Linq.JTokenType"$Newtonsoft.Json.Linq.JToken.Type.get*#
-!
-ltNewtonsoft.Json.Linq.JTokenÉ
-Ä
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs/  /(3,
-	tokenTypeNewtonsoft.Json.Linq.JTokenType"__id*(
-&
-%17Newtonsoft.Json.Linq.JTokenType*
-6*∞
-15ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs"  "(?*
-16
-17*≤
-16ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs2  4(3†
-ù
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs2% 2(2"
-%18Newtonsoft.Json.Linq.JToken"(Newtonsoft.Json.Linq.JProperty.Value.get*+
-)
-elementNewtonsoft.Json.Linq.JPropertyÙ
-Ò
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs2  2(2!
-ltNewtonsoft.Json.Linq.JToken"__id*$
-"
-%18Newtonsoft.Json.Linq.JTokenò
-ï
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs3, 3(3&
-%19Newtonsoft.Json.Linq.JTokenType"$Newtonsoft.Json.Linq.JToken.Type.get*#
-!
-ltNewtonsoft.Json.Linq.JTokenÉ
-Ä
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs3  3(3,
-	tokenTypeNewtonsoft.Json.Linq.JTokenType"__id*(
-&
-%19Newtonsoft.Json.Linq.JTokenType…
-∆
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs4  4(3
-includeUpperbool"__id*
-""*
-6*Ø
-17ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs"  "(?*
-18
-6*ô
-18ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs7  7(D†
-ù
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs7( 7(5"
-%20Newtonsoft.Json.Linq.JToken"(Newtonsoft.Json.Linq.JProperty.Value.get*+
-)
-elementNewtonsoft.Json.Linq.JPropertyÌ
-Í
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs7( 7(D
-%21float"mNewtonsoft.Json.Linq.Extensions.Value<U>(System.Collections.Generic.IEnumerable<Newtonsoft.Json.Linq.JToken>)*#"!
-Newtonsoft.Json.Linq.Extensions*$
-"
-%20Newtonsoft.Json.Linq.JTokenÿ
-’
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs7  7(D
-boostSystem.Nullable<T>"__id*
-
-%21float*
-6*¡
-8ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs< <("è
-å
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs< <("
-%22bool""object.operator !=(object, object)*
-"
-object*#
-!
-gtNewtonsoft.Json.Linq.JToken*
-""*
-19
-20*¬
-19ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs<& <(0è
-å
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs<& <(0
-%23bool""object.operator !=(object, object)*
-"
-object*#
-!
-ltNewtonsoft.Json.Linq.JToken*
-""*
-21
-20*Ê
-21ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs<4 <(Fò
-ï
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs<4 <(;&
-%24Newtonsoft.Json.Linq.JTokenType"$Newtonsoft.Json.Linq.JToken.Type.get*#
-!
-gtNewtonsoft.Json.Linq.JTokenò
-ï
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs<? <(F&
-%25Newtonsoft.Json.Linq.JTokenType"$Newtonsoft.Json.Linq.JToken.Type.get*#
-!
-ltNewtonsoft.Json.Linq.JToken*
-22
-20*œ
-22ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs> >(c‡›
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs> >(d
-%26System.ArgumentException"System.ArgumentExceptionΩ
-∫
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs>" >(3
-%27void"3System.ArgumentException.ArgumentException(string?)*!
-
-%26System.ArgumentException*1/
--Lower and upper bound range types don't match*
-23*¨
-20ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.csA A(%*
-24*∞
-24ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.csA A(%*
-25
-26*∞
-25ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.csD) D(+*
-27
-28*ö
-28ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.csD, D(8Î
-Ë
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.csD, D(:
-%28long"mNewtonsoft.Json.Linq.Extensions.Value<U>(System.Collections.Generic.IEnumerable<Newtonsoft.Json.Linq.JToken>)*#"!
-Newtonsoft.Json.Linq.Extensions*#
-!
-gtNewtonsoft.Json.Linq.JToken*
-27*ã
-27ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.csD  E(+ÿ
-’
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.csD  D(:
-minIntSystem.Nullable<T>"__id*
-
-%28long*
-29
-30*ö
-30ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.csE, E(8Î
-Ë
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.csE, E(:
-%29long"mNewtonsoft.Json.Linq.Extensions.Value<U>(System.Collections.Generic.IEnumerable<Newtonsoft.Json.Linq.JToken>)*#"!
-Newtonsoft.Json.Linq.Extensions*#
-!
-ltNewtonsoft.Json.Linq.JToken*
-29*Â
-29ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.csE  F(zÿ
-’
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.csE  E(:
-maxIntSystem.Nullable<T>"__id*
-
-%29long’
-“
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.csF) F({-
-%30&Lucene.Net.Search.NumericRangeQuery<T>"SLucene.Net.Search.NumericRangeQuery.NewInt64Range(string, long?, long?, bool, bool)*'"%
-#Lucene.Net.Search.NumericRangeQuery*
-
-fieldstring*
-
-minIntSystem.Nullable<T>*
-
-maxIntSystem.Nullable<T>*
-
-includeLowerbool*
-
-includeUpperboolÉ
-Ä
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.csF F({%
-
-rangeQueryLucene.Net.Search.Query"__id*/
--
-%30&Lucene.Net.Search.NumericRangeQuery<T>*
-31*∞
-26ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.csA A(%*
-32
-33*∞
-32ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.csI+ I(-*
-34
-35*ú
-35ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.csI. I(<Ì
-Í
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.csI. I(>
-%31double"mNewtonsoft.Json.Linq.Extensions.Value<U>(System.Collections.Generic.IEnumerable<Newtonsoft.Json.Linq.JToken>)*#"!
-Newtonsoft.Json.Linq.Extensions*#
-!
-gtNewtonsoft.Json.Linq.JToken*
-34*è
-34ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.csI  J(-‹
-Ÿ
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.csI  I(>
-minFloatSystem.Nullable<T>"__id*
-
-%31double*
-36
-37*ú
-37ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.csJ. J(<Ì
-Í
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.csJ. J(>
-%32double"mNewtonsoft.Json.Linq.Extensions.Value<U>(System.Collections.Generic.IEnumerable<Newtonsoft.Json.Linq.JToken>)*#"!
-Newtonsoft.Json.Linq.Extensions*#
-!
-ltNewtonsoft.Json.Linq.JToken*
-36*Ù
-36ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.csJ  K(‹
-Ÿ
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.csJ  J(>
-maxFloatSystem.Nullable<T>"__id*
-
-%32doubleﬂ
-‹
-†
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.csK) K(Ä-
-%33&Lucene.Net.Search.NumericRangeQuery<T>"XLucene.Net.Search.NumericRangeQuery.NewDoubleRange(string, double?, double?, bool, bool)*'"%
-#Lucene.Net.Search.NumericRangeQuery*
-
-fieldstring* 
-
-minFloatSystem.Nullable<T>* 
-
-maxFloatSystem.Nullable<T>*
-
-includeLowerbool*
-
-includeUpperboolÑ
-Å
-†
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.csK K(Ä%
-
-rangeQueryLucene.Net.Search.Query"__id*/
--
-%33&Lucene.Net.Search.NumericRangeQuery<T>*
-31*∞
-33ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.csA A(%*
-38
-39*∞
-38ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.csN, N(.*
-40
-41*ú
-41ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.csN/ N(=Ì
-Í
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.csN/ N(?
-%34string"mNewtonsoft.Json.Linq.Extensions.Value<U>(System.Collections.Generic.IEnumerable<Newtonsoft.Json.Linq.JToken>)*#"!
-Newtonsoft.Json.Linq.Extensions*#
-!
-gtNewtonsoft.Json.Linq.JToken*
-40*Ñ
-40ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.csN  O(.—
-Œ
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.csN  N(?
-	minStringstring"__id*
-
-%34string*
-42
-43*ú
-43ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.csO/ O(=Ì
-Í
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.csO/ O(?
-%35string"mNewtonsoft.Json.Linq.Extensions.Value<U>(System.Collections.Generic.IEnumerable<Newtonsoft.Json.Linq.JToken>)*#"!
-Newtonsoft.Json.Linq.Extensions*#
-!
-ltNewtonsoft.Json.Linq.JToken*
-42*Ω
-42ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.csO  P(~—
-Œ
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.csO  O(?
-	maxStringstring"__id*
-
-%35string∫
-∑
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.csP) P('
-%36 Lucene.Net.Search.TermRangeQuery"SLucene.Net.Search.TermRangeQuery.NewStringRange(string, string, string, bool, bool)*$""
- Lucene.Net.Search.TermRangeQuery*
-
-fieldstring*
-
-	minStringstring*
-
-	maxStringstring*
-
-includeLowerbool*
-
-includeUpperbool˝
-˙
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.csP P(%
-
-rangeQueryLucene.Net.Search.Query"__id*)
-'
-%36 Lucene.Net.Search.TermRangeQuery*
-31*à
-39ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.csR' R(bÿ
-’
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.csR= R(d
-%37string"__concat*
-""*
-
-typestring‡›
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.csR' R(e
-%38System.ArgumentException"System.ArgumentExceptionõ
-ò
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.csR+ R(<
-%39void"3System.ArgumentException.ArgumentException(string?)*!
-
-%38System.ArgumentException*
-
-%37string*
-23*º
-31ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.csU U(%â
-Ü
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.csU U(%
-%40bool""object.operator !=(object, object)*
-"
-object*
-
-boostSystem.Nullable<T>*
-""*
-44
-45*º
-44ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.csW W(6
-Ì
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.csW+ W(6
-%41float"System.Nullable<T>.Value.get*
-
-boostSystem.Nullable<T>öó
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.csW W(6
-%42float"!Lucene.Net.Search.Query.Boost.set*'
-%
-
-rangeQueryLucene.Net.Search.Query*
-
-%41float2	Boost.set*
-45*Ù
-45ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.csZ Z(%"À
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.csZ Z(&'
-%
-
-rangeQueryLucene.Net.Search.Query*¥
-5ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs[ [(J‡›
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs[ [(K
-%43System.ArgumentException"System.ArgumentException£
-†
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs[# [(4
-%44void"3System.ArgumentException.ArgumentException(string?)*!
-
-%43System.ArgumentException*
-Invalid range query*
-23*‡
-23ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs]	 ](	"∑
-ü
-îD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Lucene.Core\QueryProviders\RangeQueryProvider.cs] ](	
-implicit return:1
-builder&OrchardCore.Lucene.ILuceneQueryService:0
-context%OrchardCore.Lucene.LuceneQueryContext:
-typestring:%
-queryNewtonsoft.Json.Linq.JObjectB86
-4OrchardCore.Lucene.QueryProviders.RangeQueryProvider

@@ -1,106 +1,0 @@
-
-hOrchardCore.Redis.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)Ü
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Startup.cs! !(."0*±
-0Ü
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Startup.cs% &(oÕ
- 
-Ü
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Startup.cs%F %(TE
-%0?OrchardCore.Environment.Shell.Configuration.IShellConfiguration"__id*r*p
-OrchardCore.Redis.Startup"Q
-_configuration?OrchardCore.Environment.Shell.Configuration.IShellConfigurationﬁ€
-Ü
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Startup.cs%F %(w
-%1string"BMicrosoft.Extensions.Configuration.IConfiguration.this[string].get*G
-E
-%0?OrchardCore.Environment.Shell.Configuration.IShellConfiguration*#!
-OrchardCore_Redis:Configuration2this[string].get≤
-Ø
-Ü
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Startup.cs%+ %(x.
-%2(StackExchange.Redis.ConfigurationOptions"6StackExchange.Redis.ConfigurationOptions.Parse(string)*,"*
-(StackExchange.Redis.ConfigurationOptions*
-
-%1stringÜ
-É
-Ü
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Startup.cs% %(x@
-configurationOptions(StackExchange.Redis.ConfigurationOptions"__id*0
-.
-%2(StackExchange.Redis.ConfigurationOptions´
-®
-Ü
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Startup.cs& &(pA
-%3;Microsoft.Extensions.DependencyInjection.IServiceCollection"µMicrosoft.Extensions.DependencyInjection.OptionsServiceCollectionExtensions.Configure<TOptions>(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<TOptions>)*O"M
-KMicrosoft.Extensions.DependencyInjection.OptionsServiceCollectionExtensions*I
-G
-services;Microsoft.Extensions.DependencyInjection.IServiceCollection*
-""*
-1
-2*∞
-1á
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Startup.cs* *(¶ê
-ç
-Ü
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Startup.cs* *(*
-%4$Microsoft.Extensions.Logging.ILogger"__id*P*N
-OrchardCore.Redis.Startup"/
-_logger$Microsoft.Extensions.Logging.ILogger‡›
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Startup.cs*î *(ù
-%5string"System.Exception.Message.get*
-
-eSystem.Exception2Message.get©
-¶
-á
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Startup.cs*! *(ù
-%6string"__concat*rp
-n'Redis' features are not active on tenant '{TenantName}' as the 'Configuration' string is missing or invalid: *
-
-%5string÷
-”
-à
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Startup.cs*ü *(¶
-%7string"__id*2*0
-OrchardCore.Redis.Startup"
-_tenantstringë
-é
-á
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Startup.cs* *(ß
-
-%8void"uMicrosoft.Extensions.Logging.LoggerExtensions.LogError(Microsoft.Extensions.Logging.ILogger, string, params object[])*1"/
--Microsoft.Extensions.Logging.LoggerExtensions*,
-*
-%4$Microsoft.Extensions.Logging.ILogger*
-
-%6string*
-
-%7string"ë
-Ü
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Startup.cs+ +(
-""*˚	
-2Ü
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Startup.cs. /(dû
-õ
-Ü
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Startup.cs. .(@A
-%9;Microsoft.Extensions.DependencyInjection.IServiceCollection"∞Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton<TService, TImplementation>(Microsoft.Extensions.DependencyInjection.IServiceCollection)*O"M
-KMicrosoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions*I
-G
-services;Microsoft.Extensions.DependencyInjection.IServiceCollection∆
-√
-Ü
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Startup.cs/ /(eB
-%10;Microsoft.Extensions.DependencyInjection.IServiceCollection"œMicrosoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton<TService>(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Func<System.IServiceProvider, TService>)*O"M
-KMicrosoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions*I
-G
-services;Microsoft.Extensions.DependencyInjection.IServiceCollection*
-""*
-3*≠
-3Ü
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Startup.cs0	 0(	"û
-Ü
-|D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Redis\Startup.cs0 0(	
-implicit return:G
-services;Microsoft.Extensions.DependencyInjection.IServiceCollectionB
-OrchardCore.Redis.Startup

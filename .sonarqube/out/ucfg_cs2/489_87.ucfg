@@ -1,122 +1,0 @@
-
-hOrchardCore.Deployment.Remote.Services.RemoteClientService.TryUpdateRemoteClient(string, string, string)®
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Services\RemoteClientService.csP  P(5"0*ˆ
-0®
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Services\RemoteClientService.csR U($Ò
-Ó
-®
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Services\RemoteClientService.csR) R(C*
-%0$System.Threading.Tasks.Task<TResult>"UOrchardCore.Deployment.Remote.Services.RemoteClientService.GetRemoteClientListAsync()*><
-:OrchardCore.Deployment.Remote.Services.RemoteClientServiceá
-Ñ
-®
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Services\RemoteClientService.csR R(CI
-remoteClientList5OrchardCore.Deployment.Remote.Models.RemoteClientList"__id*
-""É
-Ä
-®
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Services\RemoteClientService.csS% S(=*
-%1$System.Threading.Tasks.Task<TResult>"WOrchardCore.Deployment.Remote.Services.RemoteClientService.GetRemoteClientAsync(string)*><
-:OrchardCore.Deployment.Remote.Services.RemoteClientService*
-
-idstringˇ
-¸
-®
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Services\RemoteClientService.csS S(=A
-remoteClient1OrchardCore.Deployment.Remote.Models.RemoteClient"__id*
-""∑
-¥
-®
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Services\RemoteClientService.csU U($
-
-%2bool""object.operator ==(object, object)*
-"
-object*C
-A
-remoteClient1OrchardCore.Deployment.Remote.Models.RemoteClient*
-""*
-1
-2*‰
-1®
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Services\RemoteClientService.csW W("≥
-®
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Services\RemoteClientService.csW W(
-""*…
-2®
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Services\RemoteClientService.csZ _(€
-ÿ
-®
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Services\RemoteClientService.csZ Z(0
-%3string"@OrchardCore.Deployment.Remote.Models.RemoteClient.ClientName.set*C
-A
-remoteClient1OrchardCore.Deployment.Remote.Models.RemoteClient*
-
-
-clientNamestring¯
-ı
-®
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Services\RemoteClientService.cs[+ [(98
-%42Microsoft.AspNetCore.DataProtection.IDataProtector"__id*á*Ñ<
-:OrchardCore.Deployment.Remote.Services.RemoteClientService"D
-_dataProtector2Microsoft.AspNetCore.DataProtection.IDataProtectorÉ
-Ä
-®
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Services\RemoteClientService.cs[B [(O
-%5System.Text.Encoding"System.Text.Encoding.UTF8.get*"
-System.Text.Encodingß§
-®
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Services\RemoteClientService.cs[B [(`
-%6byte[]"%System.Text.Encoding.GetBytes(string)*
-
-%5System.Text.Encoding*
-
-apiKeystring2GetBytes(string)›⁄
-®
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Services\RemoteClientService.cs[+ [(a
-%7byte[]"BMicrosoft.AspNetCore.DataProtection.IDataProtector.Protect(byte[])*:
-8
-%42Microsoft.AspNetCore.DataProtection.IDataProtector*
-
-%6byte[]2Protect(byte[])ÿ
-’
-®
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Services\RemoteClientService.cs[ [(a
-%8byte[]"EOrchardCore.Deployment.Remote.Models.RemoteClient.ProtectedApiKey.set*C
-A
-remoteClient1OrchardCore.Deployment.Remote.Models.RemoteClient*
-
-%7byte[]™
-ß
-®
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Services\RemoteClientService.cs] ](
-%9YesSql.ISession"__id*]*[<
-:OrchardCore.Deployment.Remote.Services.RemoteClientService"
-_sessionYesSql.ISessionÇ
-ˇ
-®
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Services\RemoteClientService.cs] ](+<
-%105OrchardCore.Deployment.Remote.Models.RemoteClientList"__id*ç*ä<
-:OrchardCore.Deployment.Remote.Services.RemoteClientService"J
-_remoteClientList5OrchardCore.Deployment.Remote.Models.RemoteClientListÏÈ
-®
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Services\RemoteClientService.cs] ](,
-%11void"*YesSql.ISession.Save(object, bool, string)*
-
-%9YesSql.ISession*>
-<
-%105OrchardCore.Deployment.Remote.Models.RemoteClientList*
-""*
-""2Save(object, bool, string)"≥
-®
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Services\RemoteClientService.cs_ _(
-""*Ò
-3®
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Services\RemoteClientService.cs`	 `(	"¿
-®
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\Services\RemoteClientService.cs` `(	
-implicit return:
-idstring:
-
-clientNamestring:
-apiKeystringB><
-:OrchardCore.Deployment.Remote.Services.RemoteClientService

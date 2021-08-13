@@ -1,192 +1,0 @@
-
-=OrchardCore.AdminMenu.Controllers.MenuController.Edit(string) 
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csš) š(-"6*Ð
-0 
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csœ œ(]ù
-ö
- 
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csœ œ(,>
-%08Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*Š*‡2
-0OrchardCore.AdminMenu.Controllers.MenuController"Q
-_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationService³
-°
- 
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csœ< œ(@,
-%1&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*+)
-'Microsoft.AspNetCore.Mvc.ControllerBaseÈ
-Å
- 
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csœB œ(]1
-%2+OrchardCore.Security.Permissions.Permission"__id*g*e#
-!OrchardCore.AdminMenu.Permissions">
-ManageAdminMenu+OrchardCore.Security.Permissions.Permission¢
-Ÿ
- 
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csœ œ(^*
-%3$System.Threading.Tasks.Task<TResult>"ßMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission)*E"C
-AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*@
->
-%08Microsoft.AspNetCore.Authorization.IAuthorizationService*.
-,
-%1&System.Security.Claims.ClaimsPrincipal*3
-1
-%2+OrchardCore.Security.Permissions.Permission*
-1
-2*º
-1 
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csž ž(¼¹
- 
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csž ž(+
-%4%Microsoft.AspNetCore.Mvc.ForbidResult"0Microsoft.AspNetCore.Mvc.ControllerBase.Forbid()*+)
-'Microsoft.AspNetCore.Mvc.ControllerBase2Forbid()"Ò
- 
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csž ž( -
-+
-%4%Microsoft.AspNetCore.Mvc.ForbidResult*µ
-2 
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cs¡ ¤(!ã
-à
- 
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cs¡& ¡(76
-%50OrchardCore.AdminMenu.Services.IAdminMenuService"__id*}*{2
-0OrchardCore.AdminMenu.Controllers.MenuController"E
-_adminMenuService0OrchardCore.AdminMenu.Services.IAdminMenuServiceïì
- 
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cs¡& ¡(O*
-%6$System.Threading.Tasks.Task<TResult>"HOrchardCore.AdminMenu.Services.IAdminMenuService.GetAdminMenuListAsync()*8
-6
-%50OrchardCore.AdminMenu.Services.IAdminMenuService2GetAdminMenuListAsync()ñ
-î
- 
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cs¡ ¡(O;
-adminMenuList*OrchardCore.AdminMenu.Models.AdminMenuList"__id*
-""ã
-à
- 
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cs¢ ¢(-6
-%70OrchardCore.AdminMenu.Services.IAdminMenuService"__id*}*{2
-0OrchardCore.AdminMenu.Controllers.MenuController"E
-_adminMenuService0OrchardCore.AdminMenu.Services.IAdminMenuServiceš—
- 
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cs¢ ¢(Q,
-%8&OrchardCore.AdminMenu.Models.AdminMenu"uOrchardCore.AdminMenu.Services.IAdminMenuService.GetAdminMenuById(OrchardCore.AdminMenu.Models.AdminMenuList, string)*8
-6
-%70OrchardCore.AdminMenu.Services.IAdminMenuService*=
-;
-adminMenuList*OrchardCore.AdminMenu.Models.AdminMenuList*
-
-idstring2DGetAdminMenuById(OrchardCore.AdminMenu.Models.AdminMenuList, string)‘
-Ž
- 
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cs¢ ¢(Q3
-	adminMenu&OrchardCore.AdminMenu.Models.AdminMenu"__id*.
-,
-%8&OrchardCore.AdminMenu.Models.AdminMenu¡
-ž
- 
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cs¤ ¤(!
-
-%9bool""object.operator ==(object, object)*
-"
-object*5
-3
-	adminMenu&OrchardCore.AdminMenu.Models.AdminMenu*
-""*
-3
-4*Ä
-3 
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cs¦ ¦(!ÃÀ
- 
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cs¦ ¦(!.
-%10'Microsoft.AspNetCore.Mvc.NotFoundResult"2Microsoft.AspNetCore.Mvc.ControllerBase.NotFound()*+)
-'Microsoft.AspNetCore.Mvc.ControllerBase2
-NotFound()"Õ
- 
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cs¦ ¦("0
-.
-%10'Microsoft.AspNetCore.Mvc.NotFoundResult*¯
-4 
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cs© ¯(Ÿœ
- 
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cs© ­(>
-%117OrchardCore.AdminMenu.ViewModels.AdminMenuEditViewModel"7OrchardCore.AdminMenu.ViewModels.AdminMenuEditViewModelÇ
-Ä
- 
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cs© ©(2
-%12void"POrchardCore.AdminMenu.ViewModels.AdminMenuEditViewModel.AdminMenuEditViewModel()*@
->
-%117OrchardCore.AdminMenu.ViewModels.AdminMenuEditViewModel›
-˜
- 
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cs« «(!
-%13string"-OrchardCore.AdminMenu.Models.AdminMenu.Id.get*5
-3
-	adminMenu&OrchardCore.AdminMenu.Models.AdminMenuÈ
-Å
- 
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cs« «(!
-%14string">OrchardCore.AdminMenu.ViewModels.AdminMenuEditViewModel.Id.set*@
->
-%117OrchardCore.AdminMenu.ViewModels.AdminMenuEditViewModel*
-
-%13string
-š
- 
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cs¬ ¬(%
-%15string"/OrchardCore.AdminMenu.Models.AdminMenu.Name.get*5
-3
-	adminMenu&OrchardCore.AdminMenu.Models.AdminMenuÊ
-Ç
- 
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cs¬ ¬(%
-%16string"@OrchardCore.AdminMenu.ViewModels.AdminMenuEditViewModel.Name.set*@
->
-%117OrchardCore.AdminMenu.ViewModels.AdminMenuEditViewModel*
-
-%15string°
-­
- 
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cs© ­(@
-model7OrchardCore.AdminMenu.ViewModels.AdminMenuEditViewModel"__id*@
->
-%117OrchardCore.AdminMenu.ViewModels.AdminMenuEditViewModelÜ
-Ù
- 
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cs¯ ¯(
-%17void"%orchardcore.adminmenu/views/menu/edit*
-
-%18*B
-@
-model7OrchardCore.AdminMenu.ViewModels.AdminMenuEditViewModel*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject* 
-
-%HttpContextItemsAllobject*!
-
-%HttpContextItemsHtmlobject"²
- 
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cs¯ ¯(
-
-%17void*á
-5 
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cs°	 °(	"¸
- 
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.cs° °(	
-implicit return*ù
-6 
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csš8 š(8Ë
-È
- 
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\MenuController.csš) š(-
-%19"__entrypoint*
-
-idstring*
-0:
-idstringB42
-0OrchardCore.AdminMenu.Controllers.MenuController

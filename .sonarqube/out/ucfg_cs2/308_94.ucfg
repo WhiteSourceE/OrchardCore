@@ -1,148 +1,0 @@
-
-ÄOrchardCore.Microsoft.Authentication.Recipes.AzureADSettingsStep.ExecuteAsync(OrchardCore.Recipes.Models.RecipeExecutionContext)Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Microsoft.Authentication\Recipes\AzureADSettingsStep.cs (&"0*Ò
-0Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Microsoft.Authentication\Recipes\AzureADSettingsStep.cs (hæ
-ª
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Microsoft.Authentication\Recipes\AzureADSettingsStep.cs (+
-%0string":OrchardCore.Recipes.Models.RecipeExecutionContext.Name.get*>
-<
-context1OrchardCore.Recipes.Models.RecipeExecutionContext»
-≈
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Microsoft.Authentication\Recipes\AzureADSettingsStep.csF (h
-%1"__id*
-""¶
-£
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Microsoft.Authentication\Recipes\AzureADSettingsStep.cs (i
-
-%2bool"8string.Equals(string?, string?, System.StringComparison)*
-"
-string*
-
-%0string*
-""*
-
-%1*
-1
-2*
-1Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Microsoft.Authentication\Recipes\AzureADSettingsStep.cs&	 &(	"π
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Microsoft.Authentication\Recipes\AzureADSettingsStep.cs (
-""*à1
-2Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Microsoft.Authentication\Recipes\AzureADSettingsStep.cs %(>‘
-—
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Microsoft.Authentication\Recipes\AzureADSettingsStep.cs ($"
-%3Newtonsoft.Json.Linq.JObject":OrchardCore.Recipes.Models.RecipeExecutionContext.Step.get*>
-<
-context1OrchardCore.Recipes.Models.RecipeExecutionContext“
-œ
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Microsoft.Authentication\Recipes\AzureADSettingsStep.cs (IK
-%4EOrchardCore.Microsoft.Authentication.Recipes.AzureADSettingsStepModel")Newtonsoft.Json.Linq.JToken.ToObject<T>()*$
-"
-%3Newtonsoft.Json.Linq.JObjectŸ
-÷
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Microsoft.Authentication\Recipes\AzureADSettingsStep.cs (IN
-modelEOrchardCore.Microsoft.Authentication.Recipes.AzureADSettingsStepModel"__id*M
-K
-%4EOrchardCore.Microsoft.Authentication.Recipes.AzureADSettingsStepModelõ
-ò
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Microsoft.Authentication\Recipes\AzureADSettingsStep.cs! (0C
-%5=OrchardCore.Microsoft.Authentication.Services.IAzureADService"__id*ô*ñB
-@OrchardCore.Microsoft.Authentication.Recipes.AzureADSettingsStep"P
-_azureADService=OrchardCore.Microsoft.Authentication.Services.IAzureADServiceèå
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Microsoft.Authentication\Recipes\AzureADSettingsStep.cs! (D*
-%6$System.Threading.Tasks.Task<TResult>"QOrchardCore.Microsoft.Authentication.Services.IAzureADService.LoadSettingsAsync()*E
-C
-%5=OrchardCore.Microsoft.Authentication.Services.IAzureADService2LoadSettingsAsync()ç
-ä
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Microsoft.Authentication\Recipes\AzureADSettingsStep.cs (DI
-settings=OrchardCore.Microsoft.Authentication.Settings.AzureADSettings"__id*
-""Â
-‚
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Microsoft.Authentication\Recipes\AzureADSettingsStep.cs   ((
-%7string"OOrchardCore.Microsoft.Authentication.Recipes.AzureADSettingsStepModel.AppId.get*P
-N
-modelEOrchardCore.Microsoft.Authentication.Recipes.AzureADSettingsStepModelË
-Â
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Microsoft.Authentication\Recipes\AzureADSettingsStep.cs   ((
-%8string"GOrchardCore.Microsoft.Authentication.Settings.AzureADSettings.AppId.set*K
-I
-settings=OrchardCore.Microsoft.Authentication.Settings.AzureADSettings*
-
-%7stringË
-Â
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Microsoft.Authentication\Recipes\AzureADSettingsStep.cs!  !(.
-%9string"ROrchardCore.Microsoft.Authentication.Recipes.AzureADSettingsStepModel.TenantId.get*P
-N
-modelEOrchardCore.Microsoft.Authentication.Recipes.AzureADSettingsStepModelÏ
-È
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Microsoft.Authentication\Recipes\AzureADSettingsStep.cs! !(.
-%10string"JOrchardCore.Microsoft.Authentication.Settings.AzureADSettings.TenantId.set*K
-I
-settings=OrchardCore.Microsoft.Authentication.Settings.AzureADSettings*
-
-%9stringÏ
-È
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Microsoft.Authentication\Recipes\AzureADSettingsStep.cs"# "(4
-%11string"UOrchardCore.Microsoft.Authentication.Recipes.AzureADSettingsStepModel.DisplayName.get*P
-N
-modelEOrchardCore.Microsoft.Authentication.Recipes.AzureADSettingsStepModel
-Ì
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Microsoft.Authentication\Recipes\AzureADSettingsStep.cs" "(4
-%12string"MOrchardCore.Microsoft.Authentication.Settings.AzureADSettings.DisplayName.set*K
-I
-settings=OrchardCore.Microsoft.Authentication.Settings.AzureADSettings*
-
-%11stringÌ
-Í
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Microsoft.Authentication\Recipes\AzureADSettingsStep.cs#$ #(6
-%13string"VOrchardCore.Microsoft.Authentication.Recipes.AzureADSettingsStepModel.CallbackPath.get*P
-N
-modelEOrchardCore.Microsoft.Authentication.Recipes.AzureADSettingsStepModelè
-å
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Microsoft.Authentication\Recipes\AzureADSettingsStep.cs# #(6+
-%14$Microsoft.AspNetCore.Http.PathString"NOrchardCore.Microsoft.Authentication.Settings.AzureADSettings.CallbackPath.set*K
-I
-settings=OrchardCore.Microsoft.Authentication.Settings.AzureADSettings*
-
-%13stringú
-ô
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Microsoft.Authentication\Recipes\AzureADSettingsStep.cs% %(!D
-%15=OrchardCore.Microsoft.Authentication.Services.IAzureADService"__id*ô*ñB
-@OrchardCore.Microsoft.Authentication.Recipes.AzureADSettingsStep"P
-_azureADService=OrchardCore.Microsoft.Authentication.Services.IAzureADService‘—
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Microsoft.Authentication\Recipes\AzureADSettingsStep.cs% %(?"
-%16System.Threading.Tasks.Task"êOrchardCore.Microsoft.Authentication.Services.IAzureADService.UpdateSettingsAsync(OrchardCore.Microsoft.Authentication.Settings.AzureADSettings)*F
-D
-%15=OrchardCore.Microsoft.Authentication.Services.IAzureADService*K
-I
-settings=OrchardCore.Microsoft.Authentication.Settings.AzureADSettings2RUpdateSettingsAsync(OrchardCore.Microsoft.Authentication.Settings.AzureADSettings)*
-3*˝
-3Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Microsoft.Authentication\Recipes\AzureADSettingsStep.cs&	 &(	"∆
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Microsoft.Authentication\Recipes\AzureADSettingsStep.cs& &(	
-implicit return:<
-context1OrchardCore.Recipes.Models.RecipeExecutionContextBDB
-@OrchardCore.Microsoft.Authentication.Recipes.AzureADSettingsStep

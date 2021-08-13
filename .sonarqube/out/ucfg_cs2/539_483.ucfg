@@ -1,82 +1,0 @@
-
-¦OrchardCore.Workflows.Http.Activities.HttpRequestEvent.CanExecute(OrchardCore.Workflows.Models.WorkflowExecutionContext, OrchardCore.Workflows.Models.ActivityContext)¤
-™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Activities\HttpRequestEvent.cs7 7('"0*Í
-0¤
-™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Activities\HttpRequestEvent.cs9 =(î
-ë
-¤
-™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Activities\HttpRequestEvent.cs9 9(24
-%0.Microsoft.AspNetCore.Http.IHttpContextAccessor"__id*…*‚8
-6OrchardCore.Workflows.Http.Activities.HttpRequestEvent"F
-_httpContextAccessor.Microsoft.AspNetCore.Http.IHttpContextAccessoràÝ
-¤
-™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Activities\HttpRequestEvent.cs9 9(>+
-%1%Microsoft.AspNetCore.Http.HttpContext">Microsoft.AspNetCore.Http.IHttpContextAccessor.HttpContext.get*6
-4
-%0.Microsoft.AspNetCore.Http.IHttpContextAccessor2HttpContext.get•
-’
-¤
-™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Activities\HttpRequestEvent.cs9 9(>4
-httpContext%Microsoft.AspNetCore.Http.HttpContext"__id*-
-+
-%1%Microsoft.AspNetCore.Http.HttpContextÂ
-¿
-¤
-™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Activities\HttpRequestEvent.cs: :(1+
-%2%Microsoft.AspNetCore.Http.HttpRequest"1Microsoft.AspNetCore.Http.HttpContext.Request.get*6
-4
-httpContext%Microsoft.AspNetCore.Http.HttpContext•
-’
-¤
-™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Activities\HttpRequestEvent.cs: :(14
-httpRequest%Microsoft.AspNetCore.Http.HttpRequest"__id*-
-+
-%2%Microsoft.AspNetCore.Http.HttpRequest»
-¸
-¤
-™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Activities\HttpRequestEvent.cs;( ;(2
-%3string"EOrchardCore.Workflows.Http.Activities.HttpRequestEvent.HttpMethod.get*:8
-6OrchardCore.Workflows.Http.Activities.HttpRequestEvent¢
-Ÿ
-¤
-™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Activities\HttpRequestEvent.cs;4 ;(F
-%4string"0Microsoft.AspNetCore.Http.HttpRequest.Method.get*6
-4
-httpRequest%Microsoft.AspNetCore.Http.HttpRequest¾
-»
-¤
-™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Activities\HttpRequestEvent.cs;H ;(j
-%5"__id*
-""¤
-¡
-¤
-™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Activities\HttpRequestEvent.cs; ;(k
-
-%6bool"8string.Equals(string?, string?, System.StringComparison)*
-"
-string*
-
-%3string*
-
-%4string*
-
-%5Ï
-Ì
-¤
-™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Activities\HttpRequestEvent.cs; ;(k
-isMatchbool"__id*
-
-
-%6bool"º
-¤
-™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Activities\HttpRequestEvent.cs= =(
-
-isMatchbool*é
-1¤
-™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Activities\HttpRequestEvent.cs>	 >(	"¼
-¤
-™D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Activities\HttpRequestEvent.cs> >(	
-implicit return:H
-workflowContext5OrchardCore.Workflows.Models.WorkflowExecutionContext:?
-activityContext,OrchardCore.Workflows.Models.ActivityContextB:8
-6OrchardCore.Workflows.Http.Activities.HttpRequestEvent

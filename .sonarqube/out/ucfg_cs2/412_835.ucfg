@@ -1,165 +1,0 @@
-
-mOrchardCore.Workflows.Services.WorkflowManager.NewWorkflow(OrchardCore.Workflows.Models.WorkflowType, string)ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowManager.cs4 4(#"0*≥:
-0ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowManager.cs6 C(ˆÛ
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowManager.cs6 @(+
-%0%OrchardCore.Workflows.Models.Workflow"%OrchardCore.Workflows.Models.Workflowè
-å
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowManager.cs6 6('
-
-%1void"0OrchardCore.Workflows.Models.Workflow.Workflow()*-
-+
-%0%OrchardCore.Workflows.Models.Workflow´
-®
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowManager.cs8! 8(<
-%2string"<OrchardCore.Workflows.Models.WorkflowType.WorkflowTypeId.get*;
-9
-workflowType)OrchardCore.Workflows.Models.WorkflowType©
-¶
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowManager.cs8 8(<
-%3string"8OrchardCore.Workflows.Models.Workflow.WorkflowTypeId.set*-
-+
-%0%OrchardCore.Workflows.Models.Workflow*
-
-%2string∂
-≥
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowManager.cs9 9(,
-%4"__id*
-""æ
-ª
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowManager.cs9 9(,1
-%5+OrchardCore.Workflows.Models.WorkflowStatus"0OrchardCore.Workflows.Models.Workflow.Status.set*-
-+
-%0%OrchardCore.Workflows.Models.Workflow*
-
-%4Ä˝
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowManager.cs:+ =(0
-%6*OrchardCore.Workflows.Models.WorkflowState"*OrchardCore.Workflows.Models.WorkflowStateû
-õ
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowManager.cs:/ :(<
-
-%7void":OrchardCore.Workflows.Models.WorkflowState.WorkflowState()*2
-0
-%6*OrchardCore.Workflows.Models.WorkflowStateƒ
-¡
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowManager.cs<% <(<)
-%8#System.Collections.Generic.IList<T>"8OrchardCore.Workflows.Models.WorkflowType.Activities.get*;
-9
-workflowType)OrchardCore.Workflows.Models.WorkflowType•
-¢
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowManager.cs<% <(K/
-%9)System.Collections.Generic.IEnumerable<T>"System.Linq.Enumerable.Select<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)*"
-System.Linq.Enumerable*+
-)
-%8#System.Collections.Generic.IList<T>*
-""È
-Ê
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowManager.cs<% <(~:
-%103System.Collections.Generic.Dictionary<TKey, TValue>"©System.Linq.Enumerable.ToDictionary<TSource, TKey, TElement>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TKey>, System.Func<TSource, TElement>)*"
-System.Linq.Enumerable*1
-/
-%9)System.Collections.Generic.IEnumerable<T>*
-""*
-""ê
-ç
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowManager.cs< <(~;
-%114System.Collections.Generic.IDictionary<TKey, TValue>"=OrchardCore.Workflows.Models.WorkflowState.ActivityStates.set*2
-0
-%6*OrchardCore.Workflows.Models.WorkflowState*<
-:
-%103System.Collections.Generic.Dictionary<TKey, TValue>Œ
-À
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowManager.cs: =(#
-%12Newtonsoft.Json.Linq.JObject"/Newtonsoft.Json.Linq.JObject.FromObject(object)* "
-Newtonsoft.Json.Linq.JObject*2
-0
-%6*OrchardCore.Workflows.Models.WorkflowStateŒ
-À
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowManager.cs: =(#
-%13Newtonsoft.Json.Linq.JObject"/OrchardCore.Workflows.Models.Workflow.State.set*-
-+
-%0%OrchardCore.Workflows.Models.Workflow*%
-#
-%12Newtonsoft.Json.Linq.JObject¥
-±
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowManager.cs> >(-
-%14string"7OrchardCore.Workflows.Models.Workflow.CorrelationId.set*-
-+
-%0%OrchardCore.Workflows.Models.Workflow*
-
-correlationIdstringß
-§
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowManager.cs? ?(#!
-%15OrchardCore.Modules.IClock"__id*Z*X0
-.OrchardCore.Workflows.Services.WorkflowManager"$
-_clockOrchardCore.Modules.IClockíè
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowManager.cs? ?(*
-%16System.DateTime"%OrchardCore.Modules.IClock.UtcNow.get*#
-!
-%15OrchardCore.Modules.IClock2
-UtcNow.getπ
-∂
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowManager.cs? ?(*
-%17System.DateTime"4OrchardCore.Workflows.Models.Workflow.CreatedUtc.set*-
-+
-%0%OrchardCore.Workflows.Models.Workflow*
-
-%16System.DateTimeä
-á
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowManager.cs6 @(1
-workflow%OrchardCore.Workflows.Models.Workflow"__id*-
-+
-%0%OrchardCore.Workflows.Models.WorkflowË
-Â
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowManager.csB" B(6:
-%183OrchardCore.Workflows.Services.IWorkflowIdGenerator"__id*Å*0
-.OrchardCore.Workflows.Services.WorkflowManager"K
-_workflowIdGenerator3OrchardCore.Workflows.Services.IWorkflowIdGenerator «
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowManager.csB" B(Q
-%19string"kOrchardCore.Workflows.Services.IWorkflowIdGenerator.GenerateUniqueId(OrchardCore.Workflows.Models.Workflow)*<
-:
-%183OrchardCore.Workflows.Services.IWorkflowIdGenerator*3
-1
-workflow%OrchardCore.Workflows.Models.Workflow27GenerateUniqueId(OrchardCore.Workflows.Models.Workflow)≠
-™
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowManager.csB B(Q
-%20string"4OrchardCore.Workflows.Models.Workflow.WorkflowId.set*3
-1
-workflow%OrchardCore.Workflows.Models.Workflow*
-
-%19string"‘
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowManager.csC C(3
-1
-workflow%OrchardCore.Workflows.Models.Workflow*Ÿ
-1ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowManager.csD	 D(	"¥
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Services\WorkflowManager.csD D(	
-implicit return:9
-workflowType)OrchardCore.Workflows.Models.WorkflowType:
-correlationIdstringB20
-.OrchardCore.Workflows.Services.WorkflowManager

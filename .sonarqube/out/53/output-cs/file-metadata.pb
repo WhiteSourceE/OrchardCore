@@ -1,9 +1,0 @@
-í
-àD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Admin.Abstractions\AdminAttribute.csutf-8ê
-ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Admin.Abstractions\AdminOptions.csutf-8ç
-ÉD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Admin.Abstractions\Constants.csutf-8ñ
-åD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Admin.Abstractions\IAdminThemeService.csutf-8ò
-éD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Admin.Abstractions\Models\AdminSettings.csutf-8õ
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Admin.Abstractions\Properties\AssemblyInfo.csutf-8…
-ΩD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Admin.Abstractions\obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.csutf-8…
-ΩD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Admin.Abstractions\obj\Debug\netcoreapp3.1\OrchardCore.Admin.Abstractions.AssemblyInfo.csutf-8

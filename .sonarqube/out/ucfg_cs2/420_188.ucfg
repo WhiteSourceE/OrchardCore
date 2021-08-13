@@ -1,197 +1,0 @@
-
-ROrchardCore.Users.Controllers.RegistrationController.SendVerificationEmail(string)§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csç) ç(>"6*‡
-0§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csè è(YÅ
-˛
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csè è(,>
-%08Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*é*ã6
-4OrchardCore.Users.Controllers.RegistrationController"Q
-_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationService∑
-¥
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csè< è(@,
-%1&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*+)
-'Microsoft.AspNetCore.Mvc.ControllerBaseƒ
-¡
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csèB è(Y1
-%2+OrchardCore.Security.Permissions.Permission"__id*_*]
-OrchardCore.Users.Permissions":
-ManageUsers+OrchardCore.Security.Permissions.Permission¶
-£
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csè è(Z*
-%3$System.Threading.Tasks.Task<TResult>"ﬂMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission)*E"C
-AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*@
->
-%08Microsoft.AspNetCore.Authorization.IAuthorizationService*.
-,
-%1&System.Security.Claims.ClaimsPrincipal*3
-1
-%2+OrchardCore.Security.Permissions.Permission*
-1
-2*∆
-1§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csë ë(¿Ω
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csë ë(+
-%4%Microsoft.AspNetCore.Mvc.ForbidResult"0Microsoft.AspNetCore.Mvc.ControllerBase.Forbid()*+)
-'Microsoft.AspNetCore.Mvc.ControllerBase2Forbid()"÷
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csë ë( -
-+
-%4%Microsoft.AspNetCore.Mvc.ForbidResult*⁄
-2§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csî ï(Ê
-„
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csî î()6
-%50Microsoft.AspNetCore.Identity.UserManager<TUser>"__id*|*z6
-4OrchardCore.Users.Controllers.RegistrationController"@
-_userManager0Microsoft.AspNetCore.Identity.UserManager<TUser>ˇ¸
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csî î(;*
-%6$System.Threading.Tasks.Task<TResult>"FMicrosoft.AspNetCore.Identity.UserManager<TUser>.FindByIdAsync(string)*8
-6
-%50Microsoft.AspNetCore.Identity.UserManager<TUser>*
-
-idstring2FindByIdAsync(string)æ
-ª
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csî î(C
-%7"__id*
-""ﬂ
-‹
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csî î(C%
-userOrchardCore.Users.Models.User"__id*
-
-%7ó
-î
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csï ï(
-
-%8bool""object.operator !=(object, object)*
-"
-object*'
-%
-userOrchardCore.Users.Models.User*
-""*
-3
-4*á
-3§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csó ô(>ﬂ
-‹
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csóA ó(B8
-%92Microsoft.Extensions.Localization.IStringLocalizer"__id*s*q6
-4OrchardCore.Users.Controllers.RegistrationController"7
-S2Microsoft.Extensions.Localization.IStringLocalizerëé
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csóA ó(Z8
-%101Microsoft.Extensions.Localization.LocalizedString"CMicrosoft.Extensions.Localization.IStringLocalizer.this[string].get*:
-8
-%92Microsoft.Extensions.Localization.IStringLocalizer*
-Confirm your account2this[string].getœ
-Ã
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csó ó([+
-%11$System.Threading.Tasks.Task<TResult>"ûOrchardCore.Users.Controllers.ControllerExtensions.SendEmailConfirmationTokenAsync(Microsoft.AspNetCore.Mvc.Controller, OrchardCore.Users.Models.User, string)*6"4
-2OrchardCore.Users.Controllers.ControllerExtensions*86
-4OrchardCore.Users.Controllers.RegistrationController*'
-%
-userOrchardCore.Users.Models.User*:
-8
-%101Microsoft.Extensions.Localization.LocalizedString‡
-›
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csô ô(5
-%12.OrchardCore.DisplayManagement.Notify.INotifier"__id*w*u6
-4OrchardCore.Users.Controllers.RegistrationController";
-	_notifier.OrchardCore.DisplayManagement.Notify.INotifier‰
-·
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csô" ô(#;
-%134Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer"__id*u*s6
-4OrchardCore.Users.Controllers.RegistrationController"9
-H4Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer¢ü
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csô" ô(?@
-%149Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString"EMicrosoft.AspNetCore.Mvc.Localization.IHtmlLocalizer.this[string].get*=
-;
-%134Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer*
-Verification email sent.2this[string].getû
-õ
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csô ô(@
-%15void"™OrchardCore.DisplayManagement.Notify.NotifierExtensions.Success(OrchardCore.DisplayManagement.Notify.INotifier, Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString)*;"9
-7OrchardCore.DisplayManagement.Notify.NotifierExtensions*7
-5
-%12.OrchardCore.DisplayManagement.Notify.INotifier*B
-@
-%149Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString*
-4*ü
-4§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csú ú(Jéã
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csú ú(K6
-%16/Microsoft.AspNetCore.Mvc.RedirectToActionResult"HMicrosoft.AspNetCore.Mvc.ControllerBase.RedirectToAction(string, string)*+)
-'Microsoft.AspNetCore.Mvc.ControllerBase*
-""*	
-Admin2 RedirectToAction(string, string)"·
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csú ú(L8
-6
-%16/Microsoft.AspNetCore.Mvc.RedirectToActionResult*È
-5§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csù	 ù(	"º
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csù ù(	
-implicit return*Õ
-6§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csçI ç(Iœ
-Ã
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csç) ç(>
-%17"__entrypoint*
-
-idstringù
-ö
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csä	 ä(
-%18"
-__annotate*NL
-JMicrosoft.AspNetCore.Authorization.AuthorizeAttribute.AuthorizeAttribute()*
-
-idstringë
-é
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csã	 ã(
-%19"
-__annotate*B@
->Microsoft.AspNetCore.Mvc.HttpPostAttribute.HttpPostAttribute()*
-
-idstring±
-Æ
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.cså	 å(!
-%20"
-__annotate*b`
-^Microsoft.AspNetCore.Mvc.ValidateAntiForgeryTokenAttribute.ValidateAntiForgeryTokenAttribute()*
-
-idstring·
-ﬁ
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\RegistrationController.csç? ç(H
-idstring"__annotation*
-
-%18*
-
-%19*
-
-%20*
-0:
-idstringB86
-4OrchardCore.Users.Controllers.RegistrationController

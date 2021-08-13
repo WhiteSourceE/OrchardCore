@@ -1,5 +1,0 @@
-Ð
-ÄD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\obj\Debug\netcoreapp3.1\Razor\Views\GithubAuthenticationSettings.Edit.cshtml.g.csutf-8Ë
-¿D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\obj\Debug\netcoreapp3.1\Razor\Views\NavigationItemText-github.Id.cshtml.g.csutf-8»
-¯D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.csutf-8Ä
-¸D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\obj\Debug\netcoreapp3.1\OrchardCore.GitHub.RazorTargetAssemblyInfo.csutf-8

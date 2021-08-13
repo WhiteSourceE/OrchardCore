@@ -1,352 +1,0 @@
-
-éOrchardCore.Shells.Azure.Configuration.BlobShellConfigurationSources.SaveAsync(string, System.Collections.Generic.IDictionary<string, string>)™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.cs8 8(#"0*©
-0™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.cs: ?( ¶
-£
-™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.cs:A :(K
-%0string"__id*`*^F
-DOrchardCore.Shells.Azure.Configuration.BlobShellConfigurationSources"
-
-_containerstringù
-ö
-™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.cs: :(h
-%1string"iOrchardCore.FileStorage.IFileStoreExtensions.Combine(OrchardCore.FileStorage.IFileStore, params string[])*0".
-,OrchardCore.FileStorage.IFileStoreExtensions*
-""*
-
-%0string*
-
-tenantstring*
-appsettings.json›
-⁄
-™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.cs: :(h
-appsettingsstring"__id*
-
-%1stringÜ
-É
-™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.cs=! =(18
-%22OrchardCore.Shells.Azure.Services.IShellsFileStore"__id*ì*êF
-DOrchardCore.Shells.Azure.Configuration.BlobShellConfigurationSources"F
-_shellsFileStore2OrchardCore.Shells.Azure.Services.IShellsFileStoreòï
-™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.cs=! =(O*
-%3$System.Threading.Tasks.Task<TResult>"KOrchardCore.Shells.Azure.Services.IShellsFileStore.GetFileInfoAsync(string)*:
-8
-%22OrchardCore.Shells.Azure.Services.IShellsFileStore*
-
-appsettingsstring2GetFileInfoAsync(string)Û
-
-™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.cs= =(O3
-fileInfo'OrchardCore.FileStorage.IFileStoreEntry"__id*
-""´
-®
-™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.cs? ?( 
-
-%4bool""object.operator !=(object, object)*
-"
-object*5
-3
-fileInfo'OrchardCore.FileStorage.IFileStoreEntry*
-""*
-1
-2*∫	
-1™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.csA A(YÜ
-É
-™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.csA* A(:8
-%52OrchardCore.Shells.Azure.Services.IShellsFileStore"__id*ì*êF
-DOrchardCore.Shells.Azure.Configuration.BlobShellConfigurationSources"F
-_shellsFileStore2OrchardCore.Shells.Azure.Services.IShellsFileStoreúô
-™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.csA* A(Z*
-%6$System.Threading.Tasks.Task<TResult>"MOrchardCore.Shells.Azure.Services.IShellsFileStore.GetFileStreamAsync(string)*:
-8
-%52OrchardCore.Shells.Azure.Services.IShellsFileStore*
-
-appsettingsstring2GetFileStreamAsync(string)⁄
-◊
-™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.csA A(Z
-streamSystem.IO.Stream"__id*
-""*
-3*”
-3™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.csC C(EÊ„
-™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.csC. C(F
-%7System.IO.StreamReader"System.IO.StreamReader±
-Æ
-™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.csC2 C(>
-
-%8void"5System.IO.StreamReader.StreamReader(System.IO.Stream)*
-
-%7System.IO.StreamReader*
-
-streamSystem.IO.Stream˛
-˚
-™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.csC C(F&
-streamReaderSystem.IO.StreamReader"__id*
-
-%7System.IO.StreamReader*
-4*ê
-4™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.csE# E(KˆÛ
-™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.csE, E(L$
-%9Newtonsoft.Json.JsonTextReader"Newtonsoft.Json.JsonTextReader‘
-—
-™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.csE0 E(>
-%10void"CNewtonsoft.Json.JsonTextReader.JsonTextReader(System.IO.TextReader)*&
-$
-%9Newtonsoft.Json.JsonTextReader*(
-&
-streamReaderSystem.IO.StreamReaderà
-Ö
-™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.csE# E(L(
-readerNewtonsoft.Json.JsonTextReader"__id*&
-$
-%9Newtonsoft.Json.JsonTextReader*
-5*º
-5™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.csG G(Cõ
-ò
-™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.csG+ G(D+
-%11$System.Threading.Tasks.Task<TResult>"fNewtonsoft.Json.Linq.JObject.LoadAsync(Newtonsoft.Json.JsonReader, System.Threading.CancellationToken)* "
-Newtonsoft.Json.Linq.JObject**
-(
-readerNewtonsoft.Json.JsonTextReader*
-""Ê
-„
-™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.csG G(D&
-configNewtonsoft.Json.Linq.JObject"__id*
-""*
-6*µ
-6™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.csk	 k(	*
-7*µ
-7™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.csk	 k(	*
-8*¬
-2™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.csN N(&Û
-™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.csN N(&#
-%12Newtonsoft.Json.Linq.JObject"Newtonsoft.Json.Linq.JObjectå
-â
-™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.csN N($
-%13void"&Newtonsoft.Json.Linq.JObject.JObject()*%
-#
-%12Newtonsoft.Json.Linq.JObjectÖ
-Ç
-™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.csN N(&&
-configNewtonsoft.Json.Linq.JObject"__id*%
-#
-%12Newtonsoft.Json.Linq.JObject*
-8*£
-8™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.csQ  Q()ÎË
-™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.csQ  Q()0
-%14)System.Collections.Generic.ICollection<T>"=System.Collections.Generic.IDictionary<TKey, TValue>.Keys.get*>
-<
-data4System.Collections.Generic.IDictionary<TKey, TValue>2Keys.get*
-9*∫
-9™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.csk	 k(	*
-10
-11*·
-10™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.csS S(%ö
-ó
-™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.csS S(
-%15string"__mapGet*>
-<
-data4System.Collections.Generic.IDictionary<TKey, TValue>*
-
-keystringÜ
-É
-™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.csS S(%
-%16bool""string.operator !=(string, string)*
-"
-string*
-
-%15string*
-""*
-12
-13*„
-12™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.csU U(*ö
-ó
-™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.csU" U(+
-%17string"__mapGet*>
-<
-data4System.Collections.Generic.IDictionary<TKey, TValue>*
-
-keystringç
-ä
-™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.csU U(+
-%18"__mapSet*(
-&
-configNewtonsoft.Json.Linq.JObject*
-
-keystring*
-
-%17string*
-9*æ
-13™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.csY Y(%Ö
-Ç
-™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.csY Y(&
-%19bool"__mapRemove*(
-&
-configNewtonsoft.Json.Linq.JObject*
-
-keystring*
-9*´
-11™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.cs] ](8Á‰
-™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.cs]& ](8
-%20System.IO.MemoryStream"System.IO.MemoryStreamÖ
-Ç
-™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.cs]* ](6
-%21void"%System.IO.MemoryStream.MemoryStream()*
-
-%20System.IO.MemoryStreamˇ
-¸
-™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.cs] ](8&
-memoryStreamSystem.IO.MemoryStream"__id*
-
-%20System.IO.MemoryStream*
-14*Â
-14™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.cs_ _(GÁ‰
-™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.cs_* _(H
-%22System.IO.StreamWriter"System.IO.StreamWriterø
-º
-™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.cs_. _(:
-%23void"5System.IO.StreamWriter.StreamWriter(System.IO.Stream)*
-
-%22System.IO.StreamWriter*(
-&
-memoryStreamSystem.IO.MemoryStreamˇ
-¸
-™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.cs_ _(H&
-streamWriterSystem.IO.StreamWriter"__id*
-
-%22System.IO.StreamWriter*
-15*î
-15™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.csa a(o˜Ù
-™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.csa, a(q%
-%24Newtonsoft.Json.JsonTextWriter"Newtonsoft.Json.JsonTextWriter’
-“
-™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.csa0 a(>
-%25void"CNewtonsoft.Json.JsonTextWriter.JsonTextWriter(System.IO.TextWriter)*'
-%
-%24Newtonsoft.Json.JsonTextWriter*(
-&
-streamWriterSystem.IO.StreamWriter≈
-¬
-™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.csa\ a(o
-%26"__id*
-""∞
-≠
-™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.csaO a(o!
-%27Newtonsoft.Json.Formatting")Newtonsoft.Json.JsonWriter.Formatting.set*'
-%
-%24Newtonsoft.Json.JsonTextWriter*
-
-%26ç
-ä
-™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.csa a(q,
-
-jsonWriterNewtonsoft.Json.JsonTextWriter"__id*'
-%
-%24Newtonsoft.Json.JsonTextWriter*
-16*î
-16™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.csc f(b§
-°
-™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.csc c(="
-%28System.Threading.Tasks.Task"lNewtonsoft.Json.Linq.JToken.WriteToAsync(Newtonsoft.Json.JsonWriter, params Newtonsoft.Json.JsonConverter[])*(
-&
-configNewtonsoft.Json.Linq.JObject*.
-,
-
-jsonWriterNewtonsoft.Json.JsonTextWriter*
-""ãà
-™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.csd d(5"
-%29System.Threading.Tasks.Task"MNewtonsoft.Json.JsonTextWriter.FlushAsync(System.Threading.CancellationToken)*.
-,
-
-jsonWriterNewtonsoft.Json.JsonTextWriter*
-""2.FlushAsync(System.Threading.CancellationToken)ûõ
-™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.cse e(1
-%30long"#System.IO.MemoryStream.Position.set*(
-&
-memoryStreamSystem.IO.MemoryStream*2 2Position.setá
-Ñ
-™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.csf f(.9
-%312OrchardCore.Shells.Azure.Services.IShellsFileStore"__id*ì*êF
-DOrchardCore.Shells.Azure.Configuration.BlobShellConfigurationSources"F
-_shellsFileStore2OrchardCore.Shells.Azure.Services.IShellsFileStore˙˜
-™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.csf f(c+
-%32$System.Threading.Tasks.Task<TResult>"fOrchardCore.Shells.Azure.Services.IShellsFileStore.CreateFileFromStreamAsync(string, System.IO.Stream)*;
-9
-%312OrchardCore.Shells.Azure.Services.IShellsFileStore*
-
-appsettingsstring*(
-&
-memoryStreamSystem.IO.MemoryStream23CreateFileFromStreamAsync(string, System.IO.Stream)*
-17*∑
-17™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.csk	 k(	*
-18*∑
-18™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.csk	 k(	*
-19*ˆ
-19™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.csk	 k(	"¬
-™
-üD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.csk k(	
-implicit return:
-tenantstring:<
-data4System.Collections.Generic.IDictionary<TKey, TValue>BHF
-DOrchardCore.Shells.Azure.Configuration.BlobShellConfigurationSources

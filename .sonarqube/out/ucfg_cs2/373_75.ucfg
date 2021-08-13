@@ -1,441 +1,0 @@
-
-¢OrchardCore.Email.Workflows.Activities.EmailTask.ExecuteAsync(OrchardCore.Workflows.Models.WorkflowExecutionContext, OrchardCore.Workflows.Models.ActivityContext)ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.csU< U(H"0*¦M
-0ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.csW ](aü
-ù
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.csW W(3A
-%0;OrchardCore.Workflows.Services.IWorkflowExpressionEvaluator"__id*Œ*‰2
-0OrchardCore.Email.Workflows.Activities.EmailTask"S
-_expressionEvaluator;OrchardCore.Workflows.Services.IWorkflowExpressionEvaluatorÑ
-Î
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.csWB W(H8
-%12OrchardCore.Workflows.Models.WorkflowExpression<T>";OrchardCore.Email.Workflows.Activities.EmailTask.Author.get*42
-0OrchardCore.Email.Workflows.Activities.EmailTask«¨
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.csW W(`*
-%2$System.Threading.Tasks.Task<TResult>"ÞOrchardCore.Workflows.Services.IWorkflowExpressionEvaluator.EvaluateAsync<T>(OrchardCore.Workflows.Models.WorkflowExpression<T>, OrchardCore.Workflows.Models.WorkflowExecutionContext, System.Text.Encodings.Web.TextEncoder)*C
-A
-%0;OrchardCore.Workflows.Services.IWorkflowExpressionEvaluator*:
-8
-%12OrchardCore.Workflows.Models.WorkflowExpression<T>*J
-H
-workflowContext5OrchardCore.Workflows.Models.WorkflowExecutionContext*
-""2¢EvaluateAsync<T>(OrchardCore.Workflows.Models.WorkflowExpression<T>, OrchardCore.Workflows.Models.WorkflowExecutionContext, System.Text.Encodings.Web.TextEncoder)Ä
-Á
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.csW W(`
-authorstring"__id*
-""ü
-ù
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.csX X(3A
-%3;OrchardCore.Workflows.Services.IWorkflowExpressionEvaluator"__id*Œ*‰2
-0OrchardCore.Email.Workflows.Activities.EmailTask"S
-_expressionEvaluator;OrchardCore.Workflows.Services.IWorkflowExpressionEvaluatorÑ
-Î
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.csXB X(H8
-%42OrchardCore.Workflows.Models.WorkflowExpression<T>";OrchardCore.Email.Workflows.Activities.EmailTask.Sender.get*42
-0OrchardCore.Email.Workflows.Activities.EmailTask«¨
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.csX X(`*
-%5$System.Threading.Tasks.Task<TResult>"ÞOrchardCore.Workflows.Services.IWorkflowExpressionEvaluator.EvaluateAsync<T>(OrchardCore.Workflows.Models.WorkflowExpression<T>, OrchardCore.Workflows.Models.WorkflowExecutionContext, System.Text.Encodings.Web.TextEncoder)*C
-A
-%3;OrchardCore.Workflows.Services.IWorkflowExpressionEvaluator*:
-8
-%42OrchardCore.Workflows.Models.WorkflowExpression<T>*J
-H
-workflowContext5OrchardCore.Workflows.Models.WorkflowExecutionContext*
-""2¢EvaluateAsync<T>(OrchardCore.Workflows.Models.WorkflowExpression<T>, OrchardCore.Workflows.Models.WorkflowExecutionContext, System.Text.Encodings.Web.TextEncoder)Ä
-Á
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.csX X(`
-senderstring"__id*
-""ü
-ù
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.csY  Y(4A
-%6;OrchardCore.Workflows.Services.IWorkflowExpressionEvaluator"__id*Œ*‰2
-0OrchardCore.Email.Workflows.Activities.EmailTask"S
-_expressionEvaluator;OrchardCore.Workflows.Services.IWorkflowExpressionEvaluatorÒ
-Ï
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.csYC Y(J8
-%72OrchardCore.Workflows.Models.WorkflowExpression<T>"<OrchardCore.Email.Workflows.Activities.EmailTask.ReplyTo.get*42
-0OrchardCore.Email.Workflows.Activities.EmailTask«¨
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.csY  Y(b*
-%8$System.Threading.Tasks.Task<TResult>"ÞOrchardCore.Workflows.Services.IWorkflowExpressionEvaluator.EvaluateAsync<T>(OrchardCore.Workflows.Models.WorkflowExpression<T>, OrchardCore.Workflows.Models.WorkflowExecutionContext, System.Text.Encodings.Web.TextEncoder)*C
-A
-%6;OrchardCore.Workflows.Services.IWorkflowExpressionEvaluator*:
-8
-%72OrchardCore.Workflows.Models.WorkflowExpression<T>*J
-H
-workflowContext5OrchardCore.Workflows.Models.WorkflowExecutionContext*
-""2¢EvaluateAsync<T>(OrchardCore.Workflows.Models.WorkflowExpression<T>, OrchardCore.Workflows.Models.WorkflowExecutionContext, System.Text.Encodings.Web.TextEncoder)Å
-Â
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.csY Y(b
-replyTostring"__id*
-""ü
-ù
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.csZ# Z(7A
-%9;OrchardCore.Workflows.Services.IWorkflowExpressionEvaluator"__id*Œ*‰2
-0OrchardCore.Email.Workflows.Activities.EmailTask"S
-_expressionEvaluator;OrchardCore.Workflows.Services.IWorkflowExpressionEvaluatorÖ
-Ó
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.csZF Z(P9
-%102OrchardCore.Workflows.Models.WorkflowExpression<T>"?OrchardCore.Email.Workflows.Activities.EmailTask.Recipients.get*42
-0OrchardCore.Email.Workflows.Activities.EmailTask­ª
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.csZ# Z(h+
-%11$System.Threading.Tasks.Task<TResult>"ÞOrchardCore.Workflows.Services.IWorkflowExpressionEvaluator.EvaluateAsync<T>(OrchardCore.Workflows.Models.WorkflowExpression<T>, OrchardCore.Workflows.Models.WorkflowExecutionContext, System.Text.Encodings.Web.TextEncoder)*C
-A
-%9;OrchardCore.Workflows.Services.IWorkflowExpressionEvaluator*;
-9
-%102OrchardCore.Workflows.Models.WorkflowExpression<T>*J
-H
-workflowContext5OrchardCore.Workflows.Models.WorkflowExecutionContext*
-""2¢EvaluateAsync<T>(OrchardCore.Workflows.Models.WorkflowExpression<T>, OrchardCore.Workflows.Models.WorkflowExecutionContext, System.Text.Encodings.Web.TextEncoder)È
-Å
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.csZ Z(h
-
-recipientsstring"__id*
-""ý
-ú
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.cs[  [(4B
-%12;OrchardCore.Workflows.Services.IWorkflowExpressionEvaluator"__id*Œ*‰2
-0OrchardCore.Email.Workflows.Activities.EmailTask"S
-_expressionEvaluator;OrchardCore.Workflows.Services.IWorkflowExpressionEvaluatorÓ
-Ð
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.cs[C [(J9
-%132OrchardCore.Workflows.Models.WorkflowExpression<T>"<OrchardCore.Email.Workflows.Activities.EmailTask.Subject.get*42
-0OrchardCore.Email.Workflows.Activities.EmailTask®«
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.cs[  [(b+
-%14$System.Threading.Tasks.Task<TResult>"ÞOrchardCore.Workflows.Services.IWorkflowExpressionEvaluator.EvaluateAsync<T>(OrchardCore.Workflows.Models.WorkflowExpression<T>, OrchardCore.Workflows.Models.WorkflowExecutionContext, System.Text.Encodings.Web.TextEncoder)*D
-B
-%12;OrchardCore.Workflows.Services.IWorkflowExpressionEvaluator*;
-9
-%132OrchardCore.Workflows.Models.WorkflowExpression<T>*J
-H
-workflowContext5OrchardCore.Workflows.Models.WorkflowExecutionContext*
-""2¢EvaluateAsync<T>(OrchardCore.Workflows.Models.WorkflowExpression<T>, OrchardCore.Workflows.Models.WorkflowExecutionContext, System.Text.Encodings.Web.TextEncoder)Å
-Â
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.cs[ [(b
-subjectstring"__id*
-""ý
-ú
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.cs] ](1B
-%15;OrchardCore.Workflows.Services.IWorkflowExpressionEvaluator"__id*Œ*‰2
-0OrchardCore.Email.Workflows.Activities.EmailTask"S
-_expressionEvaluator;OrchardCore.Workflows.Services.IWorkflowExpressionEvaluatorÐ
-Í
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.cs]@ ](D9
-%162OrchardCore.Workflows.Models.WorkflowExpression<T>"9OrchardCore.Email.Workflows.Activities.EmailTask.Body.get*42
-0OrchardCore.Email.Workflows.Activities.EmailTask¨
-¥
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.cs]W ](a
-%17bool"?OrchardCore.Email.Workflows.Activities.EmailTask.IsBodyHtml.get*42
-0OrchardCore.Email.Workflows.Activities.EmailTask*
-1
-2*‰
-1ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.cs]d ](pÇ
-Ä
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.cs]d ](p,
-%21%System.Text.Encodings.Web.HtmlEncoder"__id*m*k2
-0OrchardCore.Email.Workflows.Activities.EmailTask"5
-_htmlEncoder%System.Text.Encodings.Web.HtmlEncoderˆ
-…
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.cs]d ](p,
-%19%System.Text.Encodings.Web.HtmlEncoder"__id*.
-,
-%21%System.Text.Encodings.Web.HtmlEncoderˆ
-…
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.cs]d ](p,
-%18%System.Text.Encodings.Web.TextEncoder"__id*.
-,
-%19%System.Text.Encodings.Web.HtmlEncoder*
-3*É
-2ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.cs]s ](w¹
-¶
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.cs]s ](w
-%20"__id*
-""á
-Þ
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.cs]s ](w,
-%18%System.Text.Encodings.Web.TextEncoder"__id*
-
-%20*
-3*¿
-3ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.cs] b(ÖÓ
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.cs] ](x+
-%22$System.Threading.Tasks.Task<TResult>"ÞOrchardCore.Workflows.Services.IWorkflowExpressionEvaluator.EvaluateAsync<T>(OrchardCore.Workflows.Models.WorkflowExpression<T>, OrchardCore.Workflows.Models.WorkflowExecutionContext, System.Text.Encodings.Web.TextEncoder)*D
-B
-%15;OrchardCore.Workflows.Services.IWorkflowExpressionEvaluator*;
-9
-%162OrchardCore.Workflows.Models.WorkflowExpression<T>*J
-H
-workflowContext5OrchardCore.Workflows.Models.WorkflowExecutionContext*.
-,
-%18%System.Text.Encodings.Web.TextEncoder2¢EvaluateAsync<T>(OrchardCore.Workflows.Models.WorkflowExpression<T>, OrchardCore.Workflows.Models.WorkflowExecutionContext, System.Text.Encodings.Web.TextEncoder)Â
-¿
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.cs] ](x
-bodystring"__id*
-""éæ
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.cs_ i($
-%23OrchardCore.Email.MailMessage"OrchardCore.Email.MailMessage†
-ƒ
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.cs_ _()
-%24void"+OrchardCore.Email.MailMessage.MailMessage()*&
-$
-%23OrchardCore.Email.MailMessage*
-4
-5*‚
-5ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.csb b(#Ö
-Ó
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.csb b(%
-%25string"string.Trim()*
-
-authorstring*
-4*¬
-4ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.csy	 y(	*
-6
-7*¬
-6ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.csb) b(/*
-7
-8*‚
-8ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.csb0 b(5Ö
-Ó
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.csb0 b(7
-%29string"string.Trim()*
-
-senderstring*
-7*¶
-7ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.csb e(!”
-‘
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.csb b(7
-%30string"&OrchardCore.Email.MailMessage.From.set*&
-$
-%23OrchardCore.Email.MailMessage*
-
-%26stringÚ
-×
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.csc c(&
-%31string"string.Trim()*
-
-
-recipientsstring’
-
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.csc c(&
-%32string"$OrchardCore.Email.MailMessage.To.set*&
-$
-%23OrchardCore.Email.MailMessage*
-
-%31string*
-9
-10*„
-10ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.cse" e('×
-Ô
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.cse" e()
-%33string"string.Trim()*
-
-replyTostring*
-9*¼
-9ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.cse g(—
-”
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.cse e()
-%34string")OrchardCore.Email.MailMessage.ReplyTo.set*&
-$
-%23OrchardCore.Email.MailMessage*
-
-%33string×
-Ô
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.csf f((
-%35string"string.Trim()*
-
-subjectstring—
-”
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.csf f((
-%36string")OrchardCore.Email.MailMessage.Subject.set*&
-$
-%23OrchardCore.Email.MailMessage*
-
-%35string*
-11
-12*‚
-12ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.csg g(!Ô
-Ñ
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.csg g(#
-%37string"string.Trim()*
-
-bodystring*
-11*ó
-11ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.cs_ k(1”
-‘
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.csg g(#
-%38string"&OrchardCore.Email.MailMessage.Body.set*&
-$
-%23OrchardCore.Email.MailMessage*
-
-%37stringš
-—
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.csh h('
-%39bool"?OrchardCore.Email.Workflows.Activities.EmailTask.IsBodyHtml.get*&
-$
-%23OrchardCore.Email.MailMessage–
-“
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.csh h('
-%40bool",OrchardCore.Email.MailMessage.IsBodyHtml.set*&
-$
-%23OrchardCore.Email.MailMessage*
-
-%39boolü
-ù
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.cs_ i((
-messageOrchardCore.Email.MailMessage"__id*&
-$
-%23OrchardCore.Email.MailMessageõ
-ò
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.csk k(2
-%41bool""string.IsNullOrWhiteSpace(string?)*
-"
-string*
-
-senderstring*
-13
-14*¡
-13ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.csm m(.Ö
-Ó
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.csm! m(.
-%42string"string.Trim()*
-
-senderstringš
-—
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.csm m(.
-%43string"(OrchardCore.Email.MailMessage.Sender.set**
-(
-messageOrchardCore.Email.MailMessage*
-
-%42string*
-14*à
-14ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.csp s(!¹
-¶
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.csp p(+%
-%44OrchardCore.Email.ISmtpService"__id*f*d2
-0OrchardCore.Email.Workflows.Activities.EmailTask".
-_smtpServiceOrchardCore.Email.ISmtpService™–
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.csp p(>+
-%45$System.Threading.Tasks.Task<TResult>"GOrchardCore.Email.ISmtpService.SendAsync(OrchardCore.Email.MailMessage)*'
-%
-%44OrchardCore.Email.ISmtpService**
-(
-messageOrchardCore.Email.MailMessage2(SendAsync(OrchardCore.Email.MailMessage)Ú
-×
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.csp p(>&
-resultOrchardCore.Email.SmtpResult"__id*
-""ï
-ì
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.csq q(/
-%46object"DOrchardCore.Workflows.Models.WorkflowExecutionContext.LastResult.set*J
-H
-workflowContext5OrchardCore.Workflows.Models.WorkflowExecutionContext*(
-&
-resultOrchardCore.Email.SmtpResult‡
-„
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.css s(!
-%47bool"*OrchardCore.Email.SmtpResult.Succeeded.get*(
-&
-resultOrchardCore.Email.SmtpResult*
-15
-16*ë
-15ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.csu u((Ü
-Ù
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.csu u()?
-%488OrchardCore.Workflows.Activities.ActivityExecutionResult":OrchardCore.Workflows.Activities.Activity.Outcomes(string)*-+
-)OrchardCore.Workflows.Activities.Activity*
-
-Failed"ä
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.csu u(*A
-?
-%488OrchardCore.Workflows.Activities.ActivityExecutionResult*é
-16ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.csx x("Ú
-×
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.csx x(#?
-%498OrchardCore.Workflows.Activities.ActivityExecutionResult":OrchardCore.Workflows.Activities.Activity.Outcomes(string)*-+
-)OrchardCore.Workflows.Activities.Activity*
-Done"ä
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.csx x($A
-?
-%498OrchardCore.Workflows.Activities.ActivityExecutionResult*Þ
-17ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.csy	 y(	"¶
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Workflows\Activities\EmailTask.csy y(	
-implicit return:H
-workflowContext5OrchardCore.Workflows.Models.WorkflowExecutionContext:?
-activityContext,OrchardCore.Workflows.Models.ActivityContextB42
-0OrchardCore.Email.Workflows.Activities.EmailTask

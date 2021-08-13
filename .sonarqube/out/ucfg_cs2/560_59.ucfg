@@ -1,187 +1,0 @@
-
-~OrchardCore.Liquid.Filters.ShortcodeFilter.ProcessAsync(Fluid.Values.FluidValue, Fluid.FilterArguments, Fluid.TemplateContext)ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\ShortCodeFilter.cs+ (7"0*—
-0ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\ShortCodeFilter.cs (K«
-ƒ
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\ShortCodeFilter.cs ("9
-%03System.Collections.Generic.Dictionary<TKey, TValue>"__id*f*d
-
-ctxFluid.TemplateContext"D
-AmbientValues3System.Collections.Generic.Dictionary<TKey, TValue>ﬁ
-€
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\ShortCodeFilter.cs (L
-
-%1bool"QSystem.Collections.Generic.Dictionary<TKey, TValue>.TryGetValue(TKey, out TValue)*;
-9
-%03System.Collections.Generic.Dictionary<TKey, TValue>*
-
-Services*
-
-servicesobject*
-1
-2*≥
-1ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\ShortCodeFilter.cs (Yÿ’
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\ShortCodeFilter.cs (Z
-%2System.ArgumentException"System.ArgumentException≤
-Ø
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\ShortCodeFilter.cs (+
-
-%3void"3System.ArgumentException.ArgumentException(string?)* 
-
-%2System.ArgumentException*/-
-+Services missing while invoking 'shortcode'*
-3*ˇ
-2ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\ShortCodeFilter.cs ($¿
-Ω
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\ShortCodeFilter.cs$ (>
-%4"__id*
-
-servicesobject®
-•
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\ShortCodeFilter.cs# (g7
-%51OrchardCore.Shortcodes.Services.IShortcodeService"xMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<T>(System.IServiceProvider)*M"K
-IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*
-
-%4¶
-£
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\ShortCodeFilter.cs (gE
-shortcodeService1OrchardCore.Shortcodes.Services.IShortcodeService"__id*9
-7
-%51OrchardCore.Shortcodes.Services.IShortcodeServiceÃ…
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\ShortCodeFilter.cs ('
-%6Shortcodes.Context"Shortcodes.Context‰
-·
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\ShortCodeFilter.cs (%
-
-%7void"Shortcodes.Context.Context()*
-
-%6Shortcodes.Contextﬂ
-‹
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\ShortCodeFilter.cs ('
-contextShortcodes.Context"__id*
-
-%6Shortcodes.Context˜
-Ù
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\ShortCodeFilter.cs (&
-%8Fluid.Scope"$Fluid.TemplateContext.LocalScope.get*
-
-ctxFluid.TemplateContext˚
-¯
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\ShortCodeFilter.cs (8
-%9Fluid.Values.FluidValue"Fluid.Scope.GetValue(string)*
-
-%8Fluid.Scope*	
-Model˜
-Ù
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\ShortCodeFilter.cs (H
-%10object"'Fluid.Values.FluidValue.ToObjectValue()*
-
-%9Fluid.Values.FluidValue∆
-√
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\ShortCodeFilter.cs (H
-modelobject"__id*
-
-%10objectÏ
-È
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\ShortCodeFilter.cs ($3
-shape*OrchardCore.DisplayManagement.Shapes.Shape"__id*
-
-modelobject*
-4
-5*Ñ
-4ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\ShortCodeFilter.cs( (g—
-Œ
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\ShortCodeFilter.cs( (8;
-%114System.Collections.Generic.IDictionary<TKey, TValue>"=OrchardCore.DisplayManagement.Shapes.Composite.Properties.get*5
-3
-shape*OrchardCore.DisplayManagement.Shapes.ShapeáÑ
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\ShortCodeFilter.cs( (h
-%12bool"RSystem.Collections.Generic.IDictionary<TKey, TValue>.TryGetValue(TKey, out TValue)*=
-;
-%114System.Collections.Generic.IDictionary<TKey, TValue>*
-ContentItem*
-
-contentItemobject2TryGetValue(TKey, out TValue)*
-6
-5*™
-6ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\ShortCodeFilter.cs (4Ñ
-Å
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\ShortCodeFilter.cs (4
-%13object"#Shortcodes.Context.this[string].set*
-
-contextShortcodes.Context*
-ContentItem*
-7*™
-5ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\ShortCodeFilter.cs! !(-Ñ
-Å
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\ShortCodeFilter.cs! !(-
-%14object"#Shortcodes.Context.this[string].set*
-
-contextShortcodes.Context*
-ContentItem*
-7*ì
-7ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\ShortCodeFilter.cs$ $(e˙
-˜
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\ShortCodeFilter.cs$G $(\
-%15string"'Fluid.Values.FluidValue.ToStringValue()*"
- 
-inputFluid.Values.FluidValue—Œ
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\ShortCodeFilter.cs$) $(f0
-%16)System.Threading.Tasks.ValueTask<TResult>"ZOrchardCore.Shortcodes.Services.IShortcodeService.ProcessAsync(string, Shortcodes.Context)*G
-E
-shortcodeService1OrchardCore.Shortcodes.Services.IShortcodeService*
-
-%15string*
-
-contextShortcodes.Context2(ProcessAsync(string, Shortcodes.Context)Ÿ÷
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\ShortCodeFilter.cs$ $(g
-%17Fluid.Values.StringValue"Fluid.Values.StringValueÑ
-Å
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\ShortCodeFilter.cs$ $("
-%18void",Fluid.Values.StringValue.StringValue(string)*!
-
-%17Fluid.Values.StringValue*
-"""æ
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\ShortCodeFilter.cs$ $(h!
-
-%17Fluid.Values.StringValue*—
-3ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\ShortCodeFilter.cs%	 %(	"∞
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Filters\ShortCodeFilter.cs% %(	
-implicit return: 
-inputFluid.Values.FluidValue:"
-	argumentsFluid.FilterArguments:
-ctxFluid.TemplateContextB.,
-*OrchardCore.Liquid.Filters.ShortcodeFilter

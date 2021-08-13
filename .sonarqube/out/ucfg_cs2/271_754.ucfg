@@ -1,142 +1,0 @@
-
-¬OrchardCore.Workflows.Http.Activities.HttpRequestFilterEvent.CanExecute(OrchardCore.Workflows.Models.WorkflowExecutionContext, OrchardCore.Workflows.Models.ActivityContext)ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Activities\HttpRequestFilterEvent.cs= =('"0*ö
-0ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Activities\HttpRequestFilterEvent.cs? C("ú
-÷
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Activities\HttpRequestFilterEvent.cs? ?(24
-%0.Microsoft.AspNetCore.Http.IHttpContextAccessor"__id*‹*ˆ>
-<OrchardCore.Workflows.Http.Activities.HttpRequestFilterEvent"F
-_httpContextAccessor.Microsoft.AspNetCore.Http.IHttpContextAccessoræã
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Activities\HttpRequestFilterEvent.cs? ?(>+
-%1%Microsoft.AspNetCore.Http.HttpContext">Microsoft.AspNetCore.Http.IHttpContextAccessor.HttpContext.get*6
-4
-%0.Microsoft.AspNetCore.Http.IHttpContextAccessor2HttpContext.get›
-˜
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Activities\HttpRequestFilterEvent.cs? ?(>4
-httpContext%Microsoft.AspNetCore.Http.HttpContext"__id*-
-+
-%1%Microsoft.AspNetCore.Http.HttpContextÈ
-Å
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Activities\HttpRequestFilterEvent.cs@ @(1+
-%2%Microsoft.AspNetCore.Http.HttpRequest"1Microsoft.AspNetCore.Http.HttpContext.Request.get*6
-4
-httpContext%Microsoft.AspNetCore.Http.HttpContext›
-˜
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Activities\HttpRequestFilterEvent.cs@ @(14
-httpRequest%Microsoft.AspNetCore.Http.HttpRequest"__id*-
-+
-%2%Microsoft.AspNetCore.Http.HttpRequestÍ
-Ê
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Activities\HttpRequestFilterEvent.csA2 A(<
-%3string"KOrchardCore.Workflows.Http.Activities.HttpRequestFilterEvent.HttpMethod.get*@>
-<OrchardCore.Workflows.Http.Activities.HttpRequestFilterEvent¨
-¥
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Activities\HttpRequestFilterEvent.csA> A(P
-%4string"0Microsoft.AspNetCore.Http.HttpRequest.Method.get*6
-4
-httpRequest%Microsoft.AspNetCore.Http.HttpRequestÄ
-Á
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Activities\HttpRequestFilterEvent.csAR A(t
-%5"__id*
-""ª
-§
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Activities\HttpRequestFilterEvent.csA$ A(u
-
-%6bool"8string.Equals(string?, string?, System.StringComparison)*
-"
-string*
-
-%3string*
-
-%4string*
-
-%5ß
-Ü
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Activities\HttpRequestFilterEvent.csA A(u
-isHttpMethodMatchbool"__id*
-
-
-%6bool*
-1
-2*è
-1ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Activities\HttpRequestFilterEvent.csE E("µ
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Activities\HttpRequestFilterEvent.csE E(
-""*ö
-2ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Activities\HttpRequestFilterEvent.csH L(ù
-ö
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Activities\HttpRequestFilterEvent.csH H()7
-%71Microsoft.AspNetCore.Routing.RouteValueDictionary"LOrchardCore.Workflows.Http.Activities.HttpRequestFilterEvent.RouteValues.get*@>
-<OrchardCore.Workflows.Http.Activities.HttpRequestFilterEvent³
-°
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Activities\HttpRequestFilterEvent.csH H()@
-routeValues1Microsoft.AspNetCore.Routing.RouteValueDictionary"__id*9
-7
-%71Microsoft.AspNetCore.Routing.RouteValueDictionaryÈ
-Å
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Activities\HttpRequestFilterEvent.csI% I(8+
-%8%Microsoft.AspNetCore.Http.HttpRequest"1Microsoft.AspNetCore.Http.HttpContext.Request.get*6
-4
-httpContext%Microsoft.AspNetCore.Http.HttpContextàÝ
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Activities\HttpRequestFilterEvent.csI% I(D7
-%91Microsoft.AspNetCore.Routing.RouteValueDictionary"5Microsoft.AspNetCore.Http.HttpRequest.RouteValues.get*-
-+
-%8%Microsoft.AspNetCore.Http.HttpRequest2RouteValues.getº
-·
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Activities\HttpRequestFilterEvent.csI I(DG
-currentRouteValues1Microsoft.AspNetCore.Routing.RouteValueDictionary"__id*9
-7
-%91Microsoft.AspNetCore.Routing.RouteValueDictionaryÀ
-½
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Activities\HttpRequestFilterEvent.csJ J(L
-%10bool"¯OrchardCore.Workflows.Http.Activities.HttpRequestFilterEvent.RouteMatches(Microsoft.AspNetCore.Routing.RouteValueDictionary, Microsoft.AspNetCore.Routing.RouteValueDictionary)*@>
-<OrchardCore.Workflows.Http.Activities.HttpRequestFilterEvent*B
-@
-routeValues1Microsoft.AspNetCore.Routing.RouteValueDictionary*I
-G
-currentRouteValues1Microsoft.AspNetCore.Routing.RouteValueDictionaryÛ
-Ø
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Activities\HttpRequestFilterEvent.csJ J(L
-isRouteMatchbool"__id*
-
-%10bool*
-3
-4*è
-3ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Activities\HttpRequestFilterEvent.csN N("µ
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Activities\HttpRequestFilterEvent.csN N(
-""*è
-4ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Activities\HttpRequestFilterEvent.csQ Q("µ
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Activities\HttpRequestFilterEvent.csQ Q(
-""*õ
-5ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Activities\HttpRequestFilterEvent.csR	 R(	"Â
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Http\Activities\HttpRequestFilterEvent.csR R(	
-implicit return:H
-workflowContext5OrchardCore.Workflows.Models.WorkflowExecutionContext:?
-activityContext,OrchardCore.Workflows.Models.ActivityContextB@>
-<OrchardCore.Workflows.Http.Activities.HttpRequestFilterEvent

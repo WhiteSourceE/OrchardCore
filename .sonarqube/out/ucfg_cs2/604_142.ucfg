@@ -1,356 +1,0 @@
-
-iOrchardCore.Queries.Lucene.GraphQL.Queries.LuceneQueryFieldTypeProvider.BuildAsync(GraphQL.Types.ISchema)•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.cs# #($"0*ﬂ
-0•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.cs% )(?Ä
-˝
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.cs% %(34
-%0.Microsoft.AspNetCore.Http.IHttpContextAccessor"__id*ñ*ìI
-GOrchardCore.Queries.Lucene.GraphQL.Queries.LuceneQueryFieldTypeProvider"F
-_httpContextAccessor.Microsoft.AspNetCore.Http.IHttpContextAccessor·ﬁ
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.cs% %(?+
-%1%Microsoft.AspNetCore.Http.HttpContext">Microsoft.AspNetCore.Http.IHttpContextAccessor.HttpContext.get*6
-4
-%0.Microsoft.AspNetCore.Http.IHttpContextAccessor2HttpContext.get¥
-±
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.cs% %(O
-%2System.IServiceProvider"9Microsoft.AspNetCore.Http.HttpContext.RequestServices.get*-
-+
-%1%Microsoft.AspNetCore.Http.HttpContext∂
-≥
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.cs% %(k'
-%3!OrchardCore.Queries.IQueryManager"pMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService<T>(System.IServiceProvider)*M"K
-IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*
-
-%2System.IServiceProviderè
-å
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.cs% %(k1
-queryManager!OrchardCore.Queries.IQueryManager"__id*)
-'
-%3!OrchardCore.Queries.IQueryManager÷”
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.cs'  '(?*
-%4$System.Threading.Tasks.Task<TResult>"4OrchardCore.Queries.IQueryManager.ListQueriesAsync()*3
-1
-queryManager!OrchardCore.Queries.IQueryManager2ListQueriesAsync()Ô
-Ï
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.cs' '(?4
-queries)System.Collections.Generic.IEnumerable<T>"__id*
-""¯
-ı
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.cs)" )(?/
-%5)System.Collections.Generic.IEnumerable<T>"FSystem.Linq.Enumerable.OfType<TResult>(System.Collections.IEnumerable)*"
-System.Linq.Enumerable*6
-4
-queries)System.Collections.Generic.IEnumerable<T>*
-1*≥
-1•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.csR	 R(	*
-2
-3*∫
-2•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.cs+ +(:ä
-á
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.cs+. +(:
-%6string"$OrchardCore.Queries.Query.Schema.get*)
-'
-queryOrchardCore.Lucene.LuceneQuery˜
-Ù
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.cs+ +(;
-
-%7bool""string.IsNullOrWhiteSpace(string?)*
-"
-string*
-
-%6string*
-4
-5*∞
-4•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.csR	 R(	*
-1*è
-5•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.cs. .(%à
-Ö
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.cs. .(%
-%8string""OrchardCore.Queries.Query.Name.get*)
-'
-queryOrchardCore.Lucene.LuceneQuery—
-Œ
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.cs. .(%
-namestring"__id*
-
-%8string*
-6*ü
-
-6•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.cs2 3(7ä
-á
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.cs24 2(@
-%9string"$OrchardCore.Queries.Query.Schema.get*)
-'
-queryOrchardCore.Lucene.LuceneQueryÆ
-´
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.cs2& 2(A#
-%10Newtonsoft.Json.Linq.JObject"*Newtonsoft.Json.Linq.JObject.Parse(string)* "
-Newtonsoft.Json.Linq.JObject*
-
-%9stringÖ
-Ç
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.cs2 2(A+
-querySchemaNewtonsoft.Json.Linq.JObject"__id*%
-#
-%10Newtonsoft.Json.Linq.JObject£
-†
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.cs3 3(8
-%11bool"0Newtonsoft.Json.Linq.JObject.ContainsKey(string)*-
-+
-querySchemaNewtonsoft.Json.Linq.JObject*
-type*
-7
-8*¥
-7•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.cs5 5(y˛
-˚
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.cs5 5(:
-%123Microsoft.Extensions.Logging.ILogger<TCategoryName>"__id*é*ãI
-GOrchardCore.Queries.Lucene.GraphQL.Queries.LuceneQueryFieldTypeProvider">
-_logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>Ä
-˝
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.cs5 5(z
-%13void"uMicrosoft.Extensions.Logging.LoggerExtensions.LogError(Microsoft.Extensions.Logging.ILogger, string, params object[])*1"/
--Microsoft.Extensions.Logging.LoggerExtensions*<
-:
-%123Microsoft.Extensions.Logging.ILogger<TCategoryName>*LJ
-HThe Query '{Name}' schema is invalid, the 'type' property was not found.*
-
-namestring*
-1*”	
-8•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.cs8 ;(Cí
-è
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.cs8 8(2"
-%14Newtonsoft.Json.Linq.JToken"__mapGet*-
-+
-querySchemaNewtonsoft.Json.Linq.JObject*
-typeîë
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.cs8 8(=
-%15string"&Newtonsoft.Json.Linq.JToken.ToString()*$
-"
-%14Newtonsoft.Json.Linq.JToken2
-ToString()“
-œ
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.cs8 8(=
-typestring"__id*
-
-%15stringõ
-ò
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.cs;( ;(D"
-%16Newtonsoft.Json.Linq.JToken"__mapGet*-
-+
-querySchemaNewtonsoft.Json.Linq.JObject*
-fieldTypeName*
-9
-10*»
-10•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.cs;E ;(Nîë
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.cs;E ;(P
-%17string"&Newtonsoft.Json.Linq.JToken.ToString()*$
-"
-%16Newtonsoft.Json.Linq.JToken2
-ToString()*
-9*µ
-9•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.csR	 R(	*
-11
-12*Ê
-11•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.cs;T ;(^â
-Ü
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.cs;T ;(^
-%21string""OrchardCore.Queries.Query.Name.get*)
-'
-queryOrchardCore.Lucene.LuceneQuery—
-Œ
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.cs;T ;(^
-%20string"__id*
-
-%21string—
-Œ
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.cs;T ;(^
-%18string"__id*
-
-%20string*
-12*±
-12•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.cs; =(0€
-ÿ
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.cs; ;(^
-fieldTypeNamestring"__id*
-
-%18stringö
-ó
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.cs= =(0
-%22bool"5OrchardCore.Lucene.LuceneQuery.ReturnContentItems.get*)
-'
-queryOrchardCore.Lucene.LuceneQuery*
-13
-14*ï
-13•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.cs> >(Z¿
-Ω
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.cs>8 >(Z
-%23"__id*
-""ô
-ñ
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.cs> >([
-%24bool"2string.StartsWith(string, System.StringComparison)*
-
-typestring*
-ContentItem/*
-
-%23*
-15
-14*ƒ
-15•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.cs@ A(gÔ
-Ï
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.cs@* @(<
-%25string"string.Remove(int, int)*
-
-typestring*2 *2Ÿ
-÷
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.cs@ @(<
-contentTypestring"__id*
-
-%25string≈
-¬
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.csA$ A(h
-%26GraphQL.Types.FieldType"®OrchardCore.Queries.Lucene.GraphQL.Queries.LuceneQueryFieldTypeProvider.BuildContentTypeFieldType(GraphQL.Types.ISchema, string, OrchardCore.Lucene.LuceneQuery, string)*KI
-GOrchardCore.Queries.Lucene.GraphQL.Queries.LuceneQueryFieldTypeProvider*!
-
-schemaGraphQL.Types.ISchema*
-
-contentTypestring*)
-'
-queryOrchardCore.Lucene.LuceneQuery*
-
-fieldTypeNamestring˘
-ˆ
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.csA A(h$
-	fieldTypeGraphQL.Types.FieldType"__id* 
-
-%26GraphQL.Types.FieldType*
-16*Á
-14•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.csE E(_∂
-≥
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.csE$ E(`
-%27GraphQL.Types.FieldType"¶OrchardCore.Queries.Lucene.GraphQL.Queries.LuceneQueryFieldTypeProvider.BuildSchemaBasedFieldType(OrchardCore.Lucene.LuceneQuery, Newtonsoft.Json.Linq.JToken, string)*KI
-GOrchardCore.Queries.Lucene.GraphQL.Queries.LuceneQueryFieldTypeProvider*)
-'
-queryOrchardCore.Lucene.LuceneQuery*-
-+
-querySchemaNewtonsoft.Json.Linq.JObject*
-
-fieldTypeNamestring˘
-ˆ
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.csE E(`$
-	fieldTypeGraphQL.Types.FieldType"__id* 
-
-%27GraphQL.Types.FieldType*
-16*—
-16•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.csH H()ò
-ï
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.csH H()
-%28bool""object.operator !=(object, object)*
-"
-object*&
-$
-	fieldTypeGraphQL.Types.FieldType*
-""*
-17
-18*€
-17•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.csJ J(7°û
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.csJ J($%
-%29GraphQL.Types.IObjectGraphType"GraphQL.Types.ISchema.Query.get*!
-
-schemaGraphQL.Types.ISchema2	Query.getÇˇ
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.csJ J(8
-%30GraphQL.Types.FieldType"AGraphQL.Types.IComplexGraphType.AddField(GraphQL.Types.FieldType)*'
-%
-%29GraphQL.Types.IObjectGraphType*&
-$
-	fieldTypeGraphQL.Types.FieldType2!AddField(GraphQL.Types.FieldType)*
-18*µ
-18•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.csR	 R(	*
-19
-1*¬
-19•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.csO O(Y˛
-˚
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.csO O(:
-%313Microsoft.Extensions.Logging.ILogger<TCategoryName>"__id*é*ãI
-GOrchardCore.Queries.Lucene.GraphQL.Queries.LuceneQueryFieldTypeProvider">
-_logger3Microsoft.Extensions.Logging.ILogger<TCategoryName>ç
-ä
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.csO O(Z
-%32void"áMicrosoft.Extensions.Logging.LoggerExtensions.LogError(Microsoft.Extensions.Logging.ILogger, System.Exception, string, params object[])*1"/
--Microsoft.Extensions.Logging.LoggerExtensions*<
-:
-%313Microsoft.Extensions.Logging.ILogger<TCategoryName>*
-
-eSystem.Exception*-+
-)The Query '{Name}' has an invalid schema.*
-
-namestring*
-1*Î
-3•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.csR	 R(	"Ω
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lucene\GraphQL\LuceneQueryFieldTypeProvider.csR R(	
-implicit return:
-schemaGraphQL.Types.ISchemaBKI
-GOrchardCore.Queries.Lucene.GraphQL.Queries.LuceneQueryFieldTypeProvider

@@ -1,98 +1,0 @@
-
-UOrchardCore.Sitemaps.Cache.DefaultSitemapCacheProvider.ClearSitemapCacheAsync(string)§
-ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Cache\DefaultSitemapCacheProvider.cs` `(*"0*ï
-0§
-ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Cache\DefaultSitemapCacheProvider.csb c(˘
-ˆ
-§
-ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Cache\DefaultSitemapCacheProvider.csb b((=
-%07Microsoft.Extensions.FileProviders.PhysicalFileProvider"__id*á*Ñ8
-6OrchardCore.Sitemaps.Cache.DefaultSitemapCacheProvider"H
-_fileProvider7Microsoft.Extensions.FileProviders.PhysicalFileProviderá
-Ñ
-§
-ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Cache\DefaultSitemapCacheProvider.csb b(C2
-%1,Microsoft.Extensions.FileProviders.IFileInfo"KMicrosoft.Extensions.FileProviders.PhysicalFileProvider.GetFileInfo(string)*?
-=
-%07Microsoft.Extensions.FileProviders.PhysicalFileProvider*
-
-cacheFileNamestring†
-ù
-§
-ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Cache\DefaultSitemapCacheProvider.csb b(C8
-fileInfo,Microsoft.Extensions.FileProviders.IFileInfo"__id*4
-2
-%1,Microsoft.Extensions.FileProviders.IFileInfo∑¥
-§
-ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Cache\DefaultSitemapCacheProvider.csc c(
-
-%2bool"7Microsoft.Extensions.FileProviders.IFileInfo.Exists.get*:
-8
-fileInfo,Microsoft.Extensions.FileProviders.IFileInfo2
-Exists.get*
-1
-2*˘
-1§
-ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Cache\DefaultSitemapCacheProvider.csg g(5≈¬
-§
-ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Cache\DefaultSitemapCacheProvider.csg  g(5
-%3string"=Microsoft.Extensions.FileProviders.IFileInfo.PhysicalPath.get*:
-8
-fileInfo,Microsoft.Extensions.FileProviders.IFileInfo2PhysicalPath.get˘
-ˆ
-§
-ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Cache\DefaultSitemapCacheProvider.csg g(6
-
-%4void"System.IO.File.Delete(string)*"
-System.IO.File*
-
-%3string*	
-3
-2
-4*æ
-
-3§
-ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Cache\DefaultSitemapCacheProvider.csk k(bÀ
-»
-§
-ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Cache\DefaultSitemapCacheProvider.csk k(*
-%5$Microsoft.Extensions.Logging.ILogger"__id*m*k8
-6OrchardCore.Sitemaps.Cache.DefaultSitemapCacheProvider"/
-_logger$Microsoft.Extensions.Logging.ILogger≈¬
-§
-ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Cache\DefaultSitemapCacheProvider.cskM k(b
-%6string"=Microsoft.Extensions.FileProviders.IFileInfo.PhysicalPath.get*:
-8
-fileInfo,Microsoft.Extensions.FileProviders.IFileInfo2PhysicalPath.getˆ
-Û
-§
-ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Cache\DefaultSitemapCacheProvider.csk k(c
-
-%7void"áMicrosoft.Extensions.Logging.LoggerExtensions.LogError(Microsoft.Extensions.Logging.ILogger, System.Exception, string, params object[])*1"/
--Microsoft.Extensions.Logging.LoggerExtensions*,
-*
-%5$Microsoft.Extensions.Logging.ILogger*
-
-exSystem.IO.IOException*$"
- Error deleting cache file {Path}*
-
-%6string*
-2*ô
-2§
-ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Cache\DefaultSitemapCacheProvider.cso o(%ù
-ö
-§
-ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Cache\DefaultSitemapCacheProvider.cso o(%!
-%8System.Threading.Tasks.Task"-System.Threading.Tasks.Task.CompletedTask.get*"
-System.Threading.Tasks.Task"Ã
-§
-ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Cache\DefaultSitemapCacheProvider.cso o(&#
-!
-%8System.Threading.Tasks.Task*È
-4§
-ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Cache\DefaultSitemapCacheProvider.csp	 p(	"º
-§
-ôD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Cache\DefaultSitemapCacheProvider.csp p(	
-implicit return:
-cacheFileNamestringB:8
-6OrchardCore.Sitemaps.Cache.DefaultSitemapCacheProvider

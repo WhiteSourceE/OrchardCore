@@ -1,869 +1,0 @@
-
-áOrchardCore.Apis.GraphQL.GraphQLMiddleware.ExecuteAsync(Microsoft.AspNetCore.Http.HttpContext, OrchardCore.Apis.GraphQL.ISchemaFactory)ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csL L('"0*ë
-0ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csN T(9“œ
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csN N(=*
-%0$System.Threading.Tasks.Task<TResult>"8OrchardCore.Apis.GraphQL.ISchemaFactory.GetSchemaAsync()*:
-8
-schemaService'OrchardCore.Apis.GraphQL.ISchemaFactory2GetSchemaAsync()Õ
- 
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csN N(=
-schemaGraphQL.Types.ISchema"__id*
-""‡
-›
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csP P()2
-request'OrchardCore.Apis.GraphQL.GraphQLRequest"__id*
-""≤
-Ø
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csT# T(2+
-%1%Microsoft.AspNetCore.Http.HttpRequest"1Microsoft.AspNetCore.Http.HttpContext.Request.get*2
-0
-context%Microsoft.AspNetCore.Http.HttpContextç
-ä
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csT# T(9
-%2string"0Microsoft.AspNetCore.Http.HttpRequest.Method.get*-
-+
-%1%Microsoft.AspNetCore.Http.HttpRequestõ
-ò
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csT T(:
-
-%3bool"4Microsoft.AspNetCore.Http.HttpMethods.IsPost(string)*)"'
-%Microsoft.AspNetCore.Http.HttpMethods*
-
-%2string*
-1
-2*¡
-1ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csV V(I≤
-Ø
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csV. V(=+
-%4%Microsoft.AspNetCore.Http.HttpRequest"1Microsoft.AspNetCore.Http.HttpContext.Request.get*2
-0
-context%Microsoft.AspNetCore.Http.HttpContextí
-è
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csV. V(I
-%5string"5Microsoft.AspNetCore.Http.HttpRequest.ContentType.get*-
-+
-%4%Microsoft.AspNetCore.Http.HttpRequestÇˇ
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csV  V(J3
-%6-Microsoft.AspNetCore.Mvc.Formatters.MediaType"-Microsoft.AspNetCore.Mvc.Formatters.MediaType≤
-Ø
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csV$ V(-
-
-%7void"?Microsoft.AspNetCore.Mvc.Formatters.MediaType.MediaType(string)*5
-3
-%6-Microsoft.AspNetCore.Mvc.Formatters.MediaType*
-
-%5stringó
-î
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csV V(J:
-	mediaType-Microsoft.AspNetCore.Mvc.Formatters.MediaType"__id*5
-3
-%6-Microsoft.AspNetCore.Mvc.Formatters.MediaType*
-3*Ä
-3ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csZ Z(;Ã
-…
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csZ- Z(;3
-%8-Microsoft.AspNetCore.Mvc.Formatters.MediaType"__id*q*o,
-*OrchardCore.Apis.GraphQL.GraphQLMiddleware"?
-_jsonMediaType-Microsoft.AspNetCore.Mvc.Formatters.MediaTypeà
-Ö
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csZ Z(<
-
-%9bool"gMicrosoft.AspNetCore.Mvc.Formatters.MediaType.IsSubsetOf(Microsoft.AspNetCore.Mvc.Formatters.MediaType)*<
-:
-	mediaType-Microsoft.AspNetCore.Mvc.Formatters.MediaType*5
-3
-%8-Microsoft.AspNetCore.Mvc.Formatters.MediaType*
-4
-5*“
-4ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cs\# \(M≥
-∞
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cs\9 \(H,
-%10%Microsoft.AspNetCore.Http.HttpRequest"1Microsoft.AspNetCore.Http.HttpContext.Request.get*2
-0
-context%Microsoft.AspNetCore.Http.HttpContextó
-î
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cs\9 \(M
-%11System.IO.Stream".Microsoft.AspNetCore.Http.HttpRequest.Body.get*.
-,
-%10%Microsoft.AspNetCore.Http.HttpRequest’“
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cs\( \(N
-%12System.IO.StreamReader"System.IO.StreamReaderû
-õ
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cs\, \(8
-%13void"5System.IO.StreamReader.StreamReader(System.IO.Stream)*
-
-%12System.IO.StreamReader*
-
-%11System.IO.Stream„
-‡
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cs\# \(N
-srSystem.IO.StreamReader"__id*
-
-%12System.IO.StreamReader*
-6*·
-6ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cs_  `(8¶£
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cs_- _(@+
-%14$System.Threading.Tasks.Task<TResult>"'System.IO.StreamReader.ReadToEndAsync()*
-
-srSystem.IO.StreamReader2ReadToEndAsync()º
-π
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cs_  _(@
-jsonstring"__id*
-""£
-†
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cs`& `(9#
-%15Newtonsoft.Json.Linq.JObject"*Newtonsoft.Json.Linq.JObject.Parse(string)* "
-Newtonsoft.Json.Linq.JObject*
-
-jsonstring†
-ù
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cs`& `(T.
-%16'OrchardCore.Apis.GraphQL.GraphQLRequest")Newtonsoft.Json.Linq.JToken.ToObject<T>()*%
-#
-%15Newtonsoft.Json.Linq.JObjectä
-á
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cs` `(T2
-request'OrchardCore.Apis.GraphQL.GraphQLRequest"__id*0
-.
-%16'OrchardCore.Apis.GraphQL.GraphQLRequest*
-7*Ü
-5ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csc c(C–
-Õ
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csc2 c(C4
-%17-Microsoft.AspNetCore.Mvc.Formatters.MediaType"__id*t*r,
-*OrchardCore.Apis.GraphQL.GraphQLMiddleware"B
-_graphQlMediaType-Microsoft.AspNetCore.Mvc.Formatters.MediaTypeä
-á
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csc c(D
-%18bool"gMicrosoft.AspNetCore.Mvc.Formatters.MediaType.IsSubsetOf(Microsoft.AspNetCore.Mvc.Formatters.MediaType)*<
-:
-	mediaType-Microsoft.AspNetCore.Mvc.Formatters.MediaType*6
-4
-%17-Microsoft.AspNetCore.Mvc.Formatters.MediaType*
-8
-9*Ù
-8ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cse g(M˜Ù
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cse" e(6.
-%19'OrchardCore.Apis.GraphQL.GraphQLRequest"'OrchardCore.Apis.GraphQL.GraphQLRequestó
-î
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cse& e(4
-%20void"8OrchardCore.Apis.GraphQL.GraphQLRequest.GraphQLRequest()*0
-.
-%19'OrchardCore.Apis.GraphQL.GraphQLRequestä
-á
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cse e(62
-request'OrchardCore.Apis.GraphQL.GraphQLRequest"__id*0
-.
-%19'OrchardCore.Apis.GraphQL.GraphQLRequest≥
-∞
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csg9 g(H,
-%21%Microsoft.AspNetCore.Http.HttpRequest"1Microsoft.AspNetCore.Http.HttpContext.Request.get*2
-0
-context%Microsoft.AspNetCore.Http.HttpContextó
-î
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csg9 g(M
-%22System.IO.Stream".Microsoft.AspNetCore.Http.HttpRequest.Body.get*.
-,
-%21%Microsoft.AspNetCore.Http.HttpRequest’“
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csg( g(N
-%23System.IO.StreamReader"System.IO.StreamReaderû
-õ
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csg, g(8
-%24void"5System.IO.StreamReader.StreamReader(System.IO.Stream)*
-
-%23System.IO.StreamReader*
-
-%22System.IO.Stream„
-‡
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csg# g(N
-srSystem.IO.StreamReader"__id*
-
-%23System.IO.StreamReader*
-10*Ó
-10ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csi i(E¶£
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csi2 i(E+
-%25$System.Threading.Tasks.Task<TResult>"'System.IO.StreamReader.ReadToEndAsync()*
-
-srSystem.IO.StreamReader2ReadToEndAsync()û
-õ
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csi i(E
-%26string"1OrchardCore.Apis.GraphQL.GraphQLRequest.Query.set*4
-2
-request'OrchardCore.Apis.GraphQL.GraphQLRequest*
-""*
-7*’
-9ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csl l(F≥
-∞
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csl l(,,
-%27%Microsoft.AspNetCore.Http.HttpRequest"1Microsoft.AspNetCore.Http.HttpContext.Request.get*2
-0
-context%Microsoft.AspNetCore.Http.HttpContext≤
-Ø
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csl l(21
-%28*Microsoft.AspNetCore.Http.IQueryCollection"/Microsoft.AspNetCore.Http.HttpRequest.Query.get*.
-,
-%27%Microsoft.AspNetCore.Http.HttpRequest¿Ω
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csl l(G
-%29bool">Microsoft.AspNetCore.Http.IQueryCollection.ContainsKey(string)*3
-1
-%28*Microsoft.AspNetCore.Http.IQueryCollection*	
-query2ContainsKey(string)*
-11
-7*ò
-11ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csn s(I˜Ù
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csn" q(.
-%30'OrchardCore.Apis.GraphQL.GraphQLRequest"'OrchardCore.Apis.GraphQL.GraphQLRequestó
-î
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csn& n(4
-%31void"8OrchardCore.Apis.GraphQL.GraphQLRequest.GraphQLRequest()*0
-.
-%30'OrchardCore.Apis.GraphQL.GraphQLRequest≥
-∞
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csp$ p(3,
-%32%Microsoft.AspNetCore.Http.HttpRequest"1Microsoft.AspNetCore.Http.HttpContext.Request.get*2
-0
-context%Microsoft.AspNetCore.Http.HttpContext≤
-Ø
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csp$ p(91
-%33*Microsoft.AspNetCore.Http.IQueryCollection"/Microsoft.AspNetCore.Http.HttpRequest.Query.get*.
-,
-%32%Microsoft.AspNetCore.Http.HttpRequest‚ﬂ
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csp$ p(B3
-%34,Microsoft.Extensions.Primitives.StringValues";Microsoft.AspNetCore.Http.IQueryCollection.this[string].get*3
-1
-%33*Microsoft.AspNetCore.Http.IQueryCollection*	
-query2this[string].get…
-∆
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csp p(B
-%35string"1OrchardCore.Apis.GraphQL.GraphQLRequest.Query.set*0
-.
-%30'OrchardCore.Apis.GraphQL.GraphQLRequest*5
-3
-%34,Microsoft.Extensions.Primitives.StringValuesä
-á
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csn q(2
-request'OrchardCore.Apis.GraphQL.GraphQLRequest"__id*0
-.
-%30'OrchardCore.Apis.GraphQL.GraphQLRequest≥
-∞
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.css s(+,
-%36%Microsoft.AspNetCore.Http.HttpRequest"1Microsoft.AspNetCore.Http.HttpContext.Request.get*2
-0
-context%Microsoft.AspNetCore.Http.HttpContext≤
-Ø
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.css s(11
-%37*Microsoft.AspNetCore.Http.IQueryCollection"/Microsoft.AspNetCore.Http.HttpRequest.Query.get*.
-,
-%36%Microsoft.AspNetCore.Http.HttpRequestƒ¡
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.css s(J
-%38bool">Microsoft.AspNetCore.Http.IQueryCollection.ContainsKey(string)*3
-1
-%37*Microsoft.AspNetCore.Http.IQueryCollection*
-	variables2ContainsKey(string)*
-12
-13*û
-12ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csu u(_≥
-∞
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csu> u(M,
-%39%Microsoft.AspNetCore.Http.HttpRequest"1Microsoft.AspNetCore.Http.HttpContext.Request.get*2
-0
-context%Microsoft.AspNetCore.Http.HttpContext≤
-Ø
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csu> u(S1
-%40*Microsoft.AspNetCore.Http.IQueryCollection"/Microsoft.AspNetCore.Http.HttpRequest.Query.get*.
-,
-%39%Microsoft.AspNetCore.Http.HttpRequestÊ„
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csu> u(`3
-%41,Microsoft.Extensions.Primitives.StringValues";Microsoft.AspNetCore.Http.IQueryCollection.this[string].get*3
-1
-%40*Microsoft.AspNetCore.Http.IQueryCollection*
-	variables2this[string].get»
-≈
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csu0 u(a#
-%42Newtonsoft.Json.Linq.JObject"*Newtonsoft.Json.Linq.JObject.Parse(string)* "
-Newtonsoft.Json.Linq.JObject*5
-3
-%41,Microsoft.Extensions.Primitives.StringValues◊
-‘
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csu u(a#
-%43Newtonsoft.Json.Linq.JObject"5OrchardCore.Apis.GraphQL.GraphQLRequest.Variables.set*4
-2
-request'OrchardCore.Apis.GraphQL.GraphQLRequest*%
-#
-%42Newtonsoft.Json.Linq.JObject*
-13*ﬁ
-13ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csx x(M≥
-∞
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csx x(+,
-%44%Microsoft.AspNetCore.Http.HttpRequest"1Microsoft.AspNetCore.Http.HttpContext.Request.get*2
-0
-context%Microsoft.AspNetCore.Http.HttpContext≤
-Ø
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csx x(11
-%45*Microsoft.AspNetCore.Http.IQueryCollection"/Microsoft.AspNetCore.Http.HttpRequest.Query.get*.
-,
-%44%Microsoft.AspNetCore.Http.HttpRequest»≈
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csx x(N
-%46bool">Microsoft.AspNetCore.Http.IQueryCollection.ContainsKey(string)*3
-1
-%45*Microsoft.AspNetCore.Http.IQueryCollection*
-operationName2ContainsKey(string)*
-14
-7*‘
-14ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csz z(Y≥
-∞
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csz4 z(C,
-%47%Microsoft.AspNetCore.Http.HttpRequest"1Microsoft.AspNetCore.Http.HttpContext.Request.get*2
-0
-context%Microsoft.AspNetCore.Http.HttpContext≤
-Ø
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csz4 z(I1
-%48*Microsoft.AspNetCore.Http.IQueryCollection"/Microsoft.AspNetCore.Http.HttpRequest.Query.get*.
-,
-%47%Microsoft.AspNetCore.Http.HttpRequestÍÁ
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csz4 z(Z3
-%49,Microsoft.Extensions.Primitives.StringValues";Microsoft.AspNetCore.Http.IQueryCollection.this[string].get*3
-1
-%48*Microsoft.AspNetCore.Http.IQueryCollection*
-operationName2this[string].get’
-“
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csz z(Z
-%50string"9OrchardCore.Apis.GraphQL.GraphQLRequest.OperationName.set*4
-2
-request'OrchardCore.Apis.GraphQL.GraphQLRequest*5
-3
-%49,Microsoft.Extensions.Primitives.StringValues*
-7*™
-7ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csø	 ø(	*
-15
-16*ƒ
-15ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csÄ Ä(l¯
-ı
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csÄ Ä(m"
-%51System.Threading.Tasks.Task"{OrchardCore.Apis.GraphQL.GraphQLMiddleware.WriteErrorAsync(Microsoft.AspNetCore.Http.HttpContext, string, System.Exception)*.,
-*OrchardCore.Apis.GraphQL.GraphQLMiddleware*2
-0
-context%Microsoft.AspNetCore.Http.HttpContext*86
-4An error occurred while processing the GraphQL query*
-
-eSystem.Exception"•
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csÅ Å(
-""*ó
-2ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csÑ Ñ(=µ
-≤
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csÑ' Ñ(6,
-%52%Microsoft.AspNetCore.Http.HttpRequest"1Microsoft.AspNetCore.Http.HttpContext.Request.get*2
-0
-context%Microsoft.AspNetCore.Http.HttpContextë
-é
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csÑ' Ñ(=
-%53string"0Microsoft.AspNetCore.Http.HttpRequest.Method.get*.
-,
-%52%Microsoft.AspNetCore.Http.HttpRequestû
-õ
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csÑ Ñ(>
-%54bool"3Microsoft.AspNetCore.Http.HttpMethods.IsGet(string)*)"'
-%Microsoft.AspNetCore.Http.HttpMethods*
-
-%53string*
-17
-16*ﬂ
-17ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csÜ Ü(>µ
-≤
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csÜ Ü($,
-%55%Microsoft.AspNetCore.Http.HttpRequest"1Microsoft.AspNetCore.Http.HttpContext.Request.get*2
-0
-context%Microsoft.AspNetCore.Http.HttpContext¥
-±
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csÜ Ü(*1
-%56*Microsoft.AspNetCore.Http.IQueryCollection"/Microsoft.AspNetCore.Http.HttpRequest.Query.get*.
-,
-%55%Microsoft.AspNetCore.Http.HttpRequest¬ø
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csÜ Ü(?
-%57bool">Microsoft.AspNetCore.Http.IQueryCollection.ContainsKey(string)*3
-1
-%56*Microsoft.AspNetCore.Http.IQueryCollection*	
-query2ContainsKey(string)*
-18
-19*¨
-18ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csà à(b‡
-›
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csà à(c"
-%58System.Threading.Tasks.Task"{OrchardCore.Apis.GraphQL.GraphQLMiddleware.WriteErrorAsync(Microsoft.AspNetCore.Http.HttpContext, string, System.Exception)*.,
-*OrchardCore.Apis.GraphQL.GraphQLMiddleware*2
-0
-context%Microsoft.AspNetCore.Http.HttpContext*1/
--The 'query' query string parameter is missing*
-"""•
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csâ â(
-""*Ú
-19ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cså é(9˘ˆ
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cså è(.
-%59'OrchardCore.Apis.GraphQL.GraphQLRequest"'OrchardCore.Apis.GraphQL.GraphQLRequestô
-ñ
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cså å(,
-%60void"8OrchardCore.Apis.GraphQL.GraphQLRequest.GraphQLRequest()*0
-.
-%59'OrchardCore.Apis.GraphQL.GraphQLRequestµ
-≤
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csé é(+,
-%61%Microsoft.AspNetCore.Http.HttpRequest"1Microsoft.AspNetCore.Http.HttpContext.Request.get*2
-0
-context%Microsoft.AspNetCore.Http.HttpContext¥
-±
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csé é(11
-%62*Microsoft.AspNetCore.Http.IQueryCollection"/Microsoft.AspNetCore.Http.HttpRequest.Query.get*.
-,
-%61%Microsoft.AspNetCore.Http.HttpRequest‰·
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csé é(:3
-%63,Microsoft.Extensions.Primitives.StringValues";Microsoft.AspNetCore.Http.IQueryCollection.this[string].get*3
-1
-%62*Microsoft.AspNetCore.Http.IQueryCollection*	
-query2this[string].getÀ
-»
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csé é(:
-%64string"1OrchardCore.Apis.GraphQL.GraphQLRequest.Query.set*0
-.
-%59'OrchardCore.Apis.GraphQL.GraphQLRequest*5
-3
-%63,Microsoft.Extensions.Primitives.StringValueså
-â
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cså è(2
-request'OrchardCore.Apis.GraphQL.GraphQLRequest"__id*0
-.
-%59'OrchardCore.Apis.GraphQL.GraphQLRequest*
-16*¶	
-16ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csí î(8ò
-ï
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csí! í(.
-%65string"1OrchardCore.Apis.GraphQL.GraphQLRequest.Query.get*4
-2
-request'OrchardCore.Apis.GraphQL.GraphQLRequest—
-Œ
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csí í(.
-queryToExecutestring"__id*
-
-%65stringù
-ö
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csî& î(8
-%66string"6OrchardCore.Apis.GraphQL.GraphQLRequest.NamedQuery.get*4
-2
-request'OrchardCore.Apis.GraphQL.GraphQLRequestÈ
-Ê
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csî î(9
-%67bool"string.IsNullOrEmpty(string?)*
-"
-string*
-
-%66string*
-20
-21*£
-20ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csñ ú(;Ø
-¨
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csñ# ñ(:
-%68System.IServiceProvider"9Microsoft.AspNetCore.Http.HttpContext.RequestServices.get*2
-0
-context%Microsoft.AspNetCore.Http.HttpContext∂
-≥
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csñ# ñ(]0
-%69)System.Collections.Generic.IEnumerable<T>"qMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetServices<T>(System.IServiceProvider)*M"K
-IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions* 
-
-%68System.IServiceProviderï
-í
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csñ ñ(]9
-namedQueries)System.Collections.Generic.IEnumerable<T>"__id*2
-0
-%69)System.Collections.Generic.IEnumerable<T>·
-ﬁ
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csò ô(70
-%70)System.Collections.Generic.IEnumerable<T>"´System.Linq.Enumerable.SelectMany<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, System.Collections.Generic.IEnumerable<TResult>>)*"
-System.Linq.Enumerable*;
-9
-namedQueries)System.Collections.Generic.IEnumerable<T>*
-""Ë
-Â
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csò ö(G:
-%713System.Collections.Generic.Dictionary<TKey, TValue>"©System.Linq.Enumerable.ToDictionary<TSource, TKey, TElement>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TKey>, System.Func<TSource, TElement>)*"
-System.Linq.Enumerable*2
-0
-%70)System.Collections.Generic.IEnumerable<T>*
-""*
-""§
-°
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csò ö(G>
-queries3System.Collections.Generic.Dictionary<TKey, TValue>"__id*<
-:
-%713System.Collections.Generic.Dictionary<TKey, TValue>ù
-ö
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csú) ú(;
-%72string"6OrchardCore.Apis.GraphQL.GraphQLRequest.NamedQuery.get*4
-2
-request'OrchardCore.Apis.GraphQL.GraphQLRequestå
-â
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csú! ú(<
-%73string"__mapGet*@
->
-queries3System.Collections.Generic.Dictionary<TKey, TValue>*
-
-%72string—
-Œ
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csú ú(<
-queryToExecutestring"__id*
-
-%73string*
-21*ô
-21ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csü ¥(EØ
-¨
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csü- ü(D
-%74System.IServiceProvider"9Microsoft.AspNetCore.Http.HttpContext.RequestServices.get*2
-0
-context%Microsoft.AspNetCore.Http.HttpContext¿
-Ω
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csü- ü(u3
-%75,GraphQL.Execution.IDocumentExecutionListener"xMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<T>(System.IServiceProvider)*M"K
-IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions* 
-
-%74System.IServiceProvider©
-¶
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csü ü(uJ
-dataLoaderDocumentListener,GraphQL.Execution.IDocumentExecutionListener"__id*5
-3
-%75,GraphQL.Execution.IDocumentExecutionListener¢
-ü
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cs° °(( 
-%76GraphQL.IDocumentExecuter"__id*X*V,
-*OrchardCore.Apis.GraphQL.GraphQLMiddleware"&
-	_executerGraphQL.IDocumentExecuterÅ˛
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cs° ≤(+
-%77$System.Threading.Tasks.Task<TResult>"OGraphQL.IDocumentExecuter.ExecuteAsync(System.Action<GraphQL.ExecutionOptions>)*"
- 
-%76GraphQL.IDocumentExecuter*
-""25ExecuteAsync(System.Action<GraphQL.ExecutionOptions>)—
-Œ
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cs° ≤(!
-resultGraphQL.ExecutionResult"__id*
-""∑
-¥
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cs¥ ¥(-
-%78&Microsoft.AspNetCore.Http.HttpResponse"2Microsoft.AspNetCore.Http.HttpContext.Response.get*2
-0
-context%Microsoft.AspNetCore.Http.HttpContextâ
-Ü
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cs¥0 ¥(=
-%79GraphQL.ExecutionErrors""GraphQL.ExecutionResult.Errors.get*#
-!
-resultGraphQL.ExecutionResultá
-Ñ
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cs¥0 ¥(E
-%80bool""object.operator ==(object, object)*
-"
-object* 
-
-%79GraphQL.ExecutionErrors*
-""*
-22
-23*´
-23ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cs¥I ¥(aâ
-Ü
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cs¥I ¥(V
-%81GraphQL.ExecutionErrors""GraphQL.ExecutionResult.Errors.get*#
-!
-resultGraphQL.ExecutionResultÒ
-Ó
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cs¥I ¥(\
-
-%82int"!GraphQL.ExecutionErrors.Count.get* 
-
-%81GraphQL.ExecutionErrors*
-22
-24*ﬂ
-22ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csµ µ(#µ
-≤
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csµ µ(#
-%83"__id*
-""*
-25*ü
-24ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cs∂ ∂(]â
-Ü
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cs∂ ∂(
-%84GraphQL.ExecutionErrors""GraphQL.ExecutionResult.Errors.get*#
-!
-resultGraphQL.ExecutionResultÂ
-‚
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cs∂ ∂(^
-%85bool"pSystem.Linq.Enumerable.Any<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
-System.Linq.Enumerable* 
-
-%84GraphQL.ExecutionErrors*
-""*
-26
-27*¢
-26ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cs∑ ∑(1µ
-≤
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cs∑ ∑(1
-%89"__id*
-""—
-Œ
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cs∑ ∑(1 
-%87System.Net.HttpStatusCode"__id*
-
-%89Ï
-È
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cs∑ ∑(1 
-%86System.Net.HttpStatusCode"__id*"
- 
-%87System.Net.HttpStatusCode*
-25*¢
-27ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cs∏ ∏(/µ
-≤
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cs∏ ∏(/
-%90"__id*
-""—
-Œ
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cs∏ ∏(/ 
-%88System.Net.HttpStatusCode"__id*
-
-%90Ï
-È
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cs∏ ∏(/ 
-%86System.Net.HttpStatusCode"__id*"
- 
-%88System.Net.HttpStatusCode*
-25*∆
-25ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cs¥ æ(Wº
-π
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cs¥* ∏(0
-%91"__id*
-	{unknown}ù
-ö
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cs¥ ∏(0
-
-%92int"5Microsoft.AspNetCore.Http.HttpResponse.StatusCode.set*/
--
-%78&Microsoft.AspNetCore.Http.HttpResponse*
-
-%91∑
-¥
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cs∫ ∫(-
-%93&Microsoft.AspNetCore.Http.HttpResponse"2Microsoft.AspNetCore.Http.HttpContext.Response.get*2
-0
-context%Microsoft.AspNetCore.Http.HttpContextÆ
-´
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.cs∫ ∫(=
-%94string"6Microsoft.AspNetCore.Http.HttpResponse.ContentType.set*/
--
-%93&Microsoft.AspNetCore.Http.HttpResponse*
-application/jsonú
-ô
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csΩ Ω(,
-%95System.Text.Encoding"__id*W*U,
-*OrchardCore.Apis.GraphQL.GraphQLMiddleware"%
-_utf8EncodingSystem.Text.EncodingΩ
-∫
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csΩ6 Ω(P#
-%96Newtonsoft.Json.Linq.JObject"/Newtonsoft.Json.Linq.JObject.FromObject(object)* "
-Newtonsoft.Json.Linq.JObject*#
-!
-resultGraphQL.ExecutionResultäá
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csΩ6 Ω([
-%97string"&Newtonsoft.Json.Linq.JToken.ToString()*%
-#
-%96Newtonsoft.Json.Linq.JObject2
-ToString()òï
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csΩ Ω(\
-%98byte[]"%System.Text.Encoding.GetBytes(string)*
-
-%95System.Text.Encoding*
-
-%97string2GetBytes(string)œ
-Ã
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csΩ Ω(\
-encodedBytesbyte[]"__id*
-
-%98byte[]∑
-¥
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csæ æ("-
-%99&Microsoft.AspNetCore.Http.HttpResponse"2Microsoft.AspNetCore.Http.HttpContext.Response.get*2
-0
-context%Microsoft.AspNetCore.Http.HttpContextú
-ô
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csæ æ('
-%100System.IO.Stream"/Microsoft.AspNetCore.Http.HttpResponse.Body.get*/
--
-%99&Microsoft.AspNetCore.Http.HttpResponse‡
-›
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csæD æ(W
-%101int"System.Array.Length.get*
-
-encodedBytesbyte[]Ω
-∫
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csæ æ(X#
-%102System.Threading.Tasks.Task"-System.IO.Stream.WriteAsync(byte[], int, int)*
-
-%100System.IO.Stream*
-
-encodedBytesbyte[]*2 *
-
-%101int*
-28*÷
-28ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csø	 ø(	"≤
-ö
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\GraphQLMiddleware.csø ø(	
-implicit return:0
-context%Microsoft.AspNetCore.Http.HttpContext:8
-schemaService'OrchardCore.Apis.GraphQL.ISchemaFactoryB.,
-*OrchardCore.Apis.GraphQL.GraphQLMiddleware

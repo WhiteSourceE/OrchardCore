@@ -1,283 +1,0 @@
-
-<OrchardCore.Users.Controllers.AdminController.Delete(string)ù
-êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.cs∞) ∞(/"11*©
-0ù
-êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.cs≤ ¥(ÿ
-’
-ù
-êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.cs≤ ≤()6
-%00Microsoft.AspNetCore.Identity.UserManager<TUser>"__id*u*s/
--OrchardCore.Users.Controllers.AdminController"@
-_userManager0Microsoft.AspNetCore.Identity.UserManager<TUser>¯ı
-ù
-êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.cs≤ ≤(;*
-%1$System.Threading.Tasks.Task<TResult>"FMicrosoft.AspNetCore.Identity.UserManager<TUser>.FindByIdAsync(string)*8
-6
-%00Microsoft.AspNetCore.Identity.UserManager<TUser>*
-
-idstring2FindByIdAsync(string)∑
-¥
-ù
-êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.cs≤ ≤(C
-%2"__id*
-""ÿ
-’
-ù
-êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.cs≤ ≤(C%
-userOrchardCore.Users.Models.User"__id*
-
-%2ê
-ç
-ù
-êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.cs¥ ¥(
-
-%3bool""object.operator ==(object, object)*
-"
-object*'
-%
-userOrchardCore.Users.Models.User*
-""*
-1
-2*π
-1ù
-êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.cs∂ ∂(!øº
-ù
-êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.cs∂ ∂(!-
-%4'Microsoft.AspNetCore.Mvc.NotFoundResult"2Microsoft.AspNetCore.Mvc.ControllerBase.NotFound()*+)
-'Microsoft.AspNetCore.Mvc.ControllerBase2
-NotFound()"—
-ù
-êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.cs∂ ∂("/
--
-%4'Microsoft.AspNetCore.Mvc.NotFoundResult*Á
-2ù
-êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.csπ π(_Û
-
-ù
-êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.csπ π(,>
-%58Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*á*Ñ/
--OrchardCore.Users.Controllers.AdminController"Q
-_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationService∞
-≠
-ù
-êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.csπ< π(@,
-%6&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*+)
-'Microsoft.AspNetCore.Mvc.ControllerBaseΩ
-∫
-ù
-êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.csπB π(Y1
-%7+OrchardCore.Security.Permissions.Permission"__id*_*]
-OrchardCore.Users.Permissions":
-ManageUsers+OrchardCore.Security.Permissions.Permission–
-Õ
-ù
-êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.csπ π(`*
-%8$System.Threading.Tasks.Task<TResult>"ÁMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission, object)*E"C
-AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*@
->
-%58Microsoft.AspNetCore.Authorization.IAuthorizationService*.
-,
-%6&System.Security.Claims.ClaimsPrincipal*3
-1
-%7+OrchardCore.Security.Permissions.Permission*'
-%
-userOrchardCore.Users.Models.User*
-3
-4*±
-3ù
-êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.csª ª(π∂
-ù
-êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.csª ª(+
-%9%Microsoft.AspNetCore.Mvc.ForbidResult"0Microsoft.AspNetCore.Mvc.ControllerBase.Forbid()*+)
-'Microsoft.AspNetCore.Mvc.ControllerBase2Forbid()"œ
-ù
-êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.csª ª( -
-+
-%9%Microsoft.AspNetCore.Mvc.ForbidResult*¨
-4ù
-êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.csæ ¿( Ÿ
-÷
-ù
-êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.csæ æ(+7
-%100Microsoft.AspNetCore.Identity.UserManager<TUser>"__id*u*s/
--OrchardCore.Users.Controllers.AdminController"@
-_userManager0Microsoft.AspNetCore.Identity.UserManager<TUser>çä
-ù
-êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.csæ æ(=+
-%11$System.Threading.Tasks.Task<TResult>"CMicrosoft.AspNetCore.Identity.UserManager<TUser>.DeleteAsync(TUser)*9
-7
-%100Microsoft.AspNetCore.Identity.UserManager<TUser>*'
-%
-userOrchardCore.Users.Models.User2DeleteAsync(TUser)È
-Ê
-ù
-êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.csæ æ(=6
-result,Microsoft.AspNetCore.Identity.IdentityResult"__id*
-""¶
-£
-ù
-êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.cs¿ ¿( 
-%12bool":Microsoft.AspNetCore.Identity.IdentityResult.Succeeded.get*8
-6
-result,Microsoft.AspNetCore.Identity.IdentityResult*
-5
-6*ê
-5ù
-êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.cs¬ ¬(@“
-œ
-ù
-êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.cs¬ ¬(5
-%13.OrchardCore.DisplayManagement.Notify.INotifier"__id*p*n/
--OrchardCore.Users.Controllers.AdminController";
-	_notifier.OrchardCore.DisplayManagement.Notify.INotifier÷
-”
-ù
-êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.cs¬" ¬(#;
-%144Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer"__id*n*l/
--OrchardCore.Users.Controllers.AdminController"9
-H4Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizerùö
-ù
-êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.cs¬" ¬(A@
-%159Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString"EMicrosoft.AspNetCore.Mvc.Localization.IHtmlLocalizer.this[string].get*=
-;
-%144Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer*
-User deleted successfully.2this[string].getó
-î
-ù
-êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.cs¬ ¬(B
-%16void"™OrchardCore.DisplayManagement.Notify.NotifierExtensions.Success(OrchardCore.DisplayManagement.Notify.INotifier, Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString)*;"9
-7OrchardCore.DisplayManagement.Notify.NotifierExtensions*7
-5
-%13.OrchardCore.DisplayManagement.Notify.INotifier*B
-@
-%159Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString*
-7*‡
-6ù
-êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.cs∆  (3ì
-ê
-ù
-êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.cs∆ ∆(
-%17YesSql.ISession"__id*P*N/
--OrchardCore.Users.Controllers.AdminController"
-_sessionYesSql.ISessionÓÎ
-ù
-êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.cs∆ ∆(!
-%18void"YesSql.ISession.Cancel()*
-
-%17YesSql.ISession2Cancel()“
-œ
-ù
-êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.cs» »(5
-%19.OrchardCore.DisplayManagement.Notify.INotifier"__id*p*n/
--OrchardCore.Users.Controllers.AdminController";
-	_notifier.OrchardCore.DisplayManagement.Notify.INotifier÷
-”
-ù
-êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.cs»  »(!;
-%204Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer"__id*n*l/
--OrchardCore.Users.Controllers.AdminController"9
-H4Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizerùö
-ù
-êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.cs»  »(?@
-%219Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString"EMicrosoft.AspNetCore.Mvc.Localization.IHtmlLocalizer.this[string].get*=
-;
-%204Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer*
-Could not delete the user.2this[string].getï
-í
-ù
-êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.cs» »(@
-%22void"®OrchardCore.DisplayManagement.Notify.NotifierExtensions.Error(OrchardCore.DisplayManagement.Notify.INotifier, Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString)*;"9
-7OrchardCore.DisplayManagement.Notify.NotifierExtensions*7
-5
-%19.OrchardCore.DisplayManagement.Notify.INotifier*B
-@
-%219Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString»
-≈
-ù
-êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.cs &  (30
-%23)System.Collections.Generic.IEnumerable<T>"7Microsoft.AspNetCore.Identity.IdentityResult.Errors.get*8
-6
-result,Microsoft.AspNetCore.Identity.IdentityResult*
-8*´
-8ù
-êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.cs—	 —(	*
-9
-7*©
-9ù
-êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.csÃ Ã(7“
-œ
-ù
-êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.csÃ Ã(5
-%24.OrchardCore.DisplayManagement.Notify.INotifier"__id*p*n/
--OrchardCore.Users.Controllers.AdminController";
-	_notifier.OrchardCore.DisplayManagement.Notify.INotifier÷
-”
-ù
-êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.csÃ$ Ã(%;
-%254Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer"__id*n*l/
--OrchardCore.Users.Controllers.AdminController"9
-H4Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizerß
-§
-ù
-êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.csÃ& Ã(7
-%26string";Microsoft.AspNetCore.Identity.IdentityError.Description.get*6
-4
-error+Microsoft.AspNetCore.Identity.IdentityErroréã
-ù
-êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.csÃ$ Ã(8@
-%279Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString"EMicrosoft.AspNetCore.Mvc.Localization.IHtmlLocalizer.this[string].get*=
-;
-%254Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer*
-
-%26string2this[string].getï
-í
-ù
-êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.csÃ Ã(9
-%28void"®OrchardCore.DisplayManagement.Notify.NotifierExtensions.Error(OrchardCore.DisplayManagement.Notify.INotifier, Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString)*;"9
-7OrchardCore.DisplayManagement.Notify.NotifierExtensions*7
-5
-%24.OrchardCore.DisplayManagement.Notify.INotifier*B
-@
-%279Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString*
-8*Ô
-7ù
-êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.cs– –(1ÏÈ
-ù
-êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.cs– –(26
-%29/Microsoft.AspNetCore.Mvc.RedirectToActionResult"@Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToAction(string)*+)
-'Microsoft.AspNetCore.Mvc.ControllerBase*
-""2RedirectToAction(string)"⁄
-ù
-êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.cs– –(38
-6
-%29/Microsoft.AspNetCore.Mvc.RedirectToActionResult*‹
-10ù
-êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.cs—	 —(	"µ
-ù
-êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.cs— —(	
-implicit return*Ã
-11ù
-êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.cs∞: ∞(:»
-≈
-ù
-êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.cs∞) ∞(/
-%30"__entrypoint*
-
-idstringä
-á
-ù
-êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.csØ	 Ø(
-%31"
-__annotate*B@
->Microsoft.AspNetCore.Mvc.HttpPostAttribute.HttpPostAttribute()*
-
-idstring»
-≈
-ù
-êD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AdminController.cs∞0 ∞(9
-idstring"__annotation*
-
-%31*
-0:
-idstringB1/
--OrchardCore.Users.Controllers.AdminController

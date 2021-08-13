@@ -1,97 +1,0 @@
-
-¨OrchardCore.ContentManagement.ContentManagerExtensions.GetAsync(OrchardCore.ContentManagement.IContentManager, string, string, OrchardCore.ContentManagement.VersionOptions)¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Abstractions\IContentManager.cs—. —(6"0*Æ	
-0¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Abstractions\IContentManager.cs” ÷(.êç
-¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Abstractions\IContentManager.cs”$ ”(H*
-%0$System.Threading.Tasks.Task<TResult>"lOrchardCore.ContentManagement.IContentManager.GetAsync(string, OrchardCore.ContentManagement.VersionOptions)*A
-?
-contentManager-OrchardCore.ContentManagement.IContentManager*
-
-idstring*9
-7
-options,OrchardCore.ContentManagement.VersionOptions2>GetAsync(string, OrchardCore.ContentManagement.VersionOptions)
-Ì
-¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Abstractions\IContentManager.cs” ”(H8
-contentItem)OrchardCore.ContentManagement.ContentItem"__id*
-""ı
-Ú
-¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Abstractions\IContentManager.cs÷ ÷(/
-
-%1bool"string.IsNullOrEmpty(string?)*
-"
-string*
-
-jsonPathstring*
-1
-2*÷	
-1¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Abstractions\IContentManager.csÿ Ÿ(7≠
-™
-¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Abstractions\IContentManager.csÿ ÿ(.
-%2dynamic"8OrchardCore.ContentManagement.ContentElement.Content.get*:
-8
-contentItem)OrchardCore.ContentManagement.ContentItemŒ
-À
-¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Abstractions\IContentManager.csÿ ÿ(9
-%3dynamic"__id*
-
-%2dynamicÂ
-‚
-¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Abstractions\IContentManager.csÿ ÿ(9$
-rootNewtonsoft.Json.Linq.JObject"__id*
-
-%3dynamic∫
-∑
-¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Abstractions\IContentManager.csŸ Ÿ(8!
-%4Newtonsoft.Json.Linq.JToken"/Newtonsoft.Json.Linq.JToken.SelectToken(string)*&
-$
-rootNewtonsoft.Json.Linq.JObject*
-
-jsonPathstring*
-3
-4*Ÿ
-4¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Abstractions\IContentManager.csŸ9 Ÿ(O©
-¶
-¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Abstractions\IContentManager.csŸ9 Ÿ(Q/
-%5)OrchardCore.ContentManagement.ContentItem")Newtonsoft.Json.Linq.JToken.ToObject<T>()*#
-!
-%4Newtonsoft.Json.Linq.JToken*
-3*™
-3¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Abstractions\IContentManager.csŸ €("õ
-ò
-¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Abstractions\IContentManager.csŸ Ÿ(Q8
-contentItem)OrchardCore.ContentManagement.ContentItem"__id*1
-/
-%5)OrchardCore.ContentManagement.ContentItem"·
-¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Abstractions\IContentManager.cs€ €(#:
-8
-contentItem)OrchardCore.ContentManagement.ContentItem*å
-2¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Abstractions\IContentManager.csﬁ ﬁ("·
-¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Abstractions\IContentManager.csﬁ ﬁ(:
-8
-contentItem)OrchardCore.ContentManagement.ContentItem*Â
-5¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Abstractions\IContentManager.csﬂ	 ﬂ(	"∫
-¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.ContentManagement.Abstractions\IContentManager.csﬂ ﬂ(	
-implicit return:?
-contentManager-OrchardCore.ContentManagement.IContentManager:
-idstring:
-jsonPathstring:7
-options,OrchardCore.ContentManagement.VersionOptionsB:"8
-6OrchardCore.ContentManagement.ContentManagerExtensions

@@ -1,210 +1,0 @@
-
-¿OrchardCore.OpenId.Services.Managers.OpenIdApplicationManager<TApplication>.SetRolesAsync(TApplication, System.Collections.Immutable.ImmutableArray<string>, System.Threading.CancellationToken)™
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdApplicationManager.csà' à(4"0*Œ
-0™
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdApplicationManager.csã ã(#ì
-ê
-™
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdApplicationManager.csã ã(#
-
-%0bool""object.operator ==(object, object)*
-"
-object*
-
-applicationTApplication*
-""*
-1
-2*‘
-1™
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdApplicationManager.csç ç(CÚÔ
-™
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdApplicationManager.csç ç(D"
-%1System.ArgumentNullException"System.ArgumentNullExceptionß
-§
-™
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdApplicationManager.csç ç(/
-
-%2void";System.ArgumentNullException.ArgumentNullException(string?)*$
-"
-%1System.ArgumentNullException*
-""*
-3*◊
-2™
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdApplicationManager.csê ê(<ú
-ô
-™
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdApplicationManager.csê ê(=
-
-%3bool"qSystem.Linq.ImmutableArrayExtensions.Any<T>(System.Collections.Immutable.ImmutableArray<T>, System.Func<T, bool>)*("&
-$System.Linq.ImmutableArrayExtensions*9
-7
-roles.System.Collections.Immutable.ImmutableArray<T>*
-""*
-4
-5*Ú
-4™
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdApplicationManager.csí í(`ÍÁ
-™
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdApplicationManager.csí í(a
-%4System.ArgumentException"System.ArgumentExceptionÕ
- 
-™
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdApplicationManager.csí í(+
-
-%5void"<System.ArgumentException.ArgumentException(string?, string?)* 
-
-%4System.ArgumentException*'%
-#Role names cannot be null or empty.*
-""*
-3*ï
-5™
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdApplicationManager.csï ï(Dˇ
-¸
-™
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdApplicationManager.csï ï(G
-%6AOpenIddict.Abstractions.IOpenIddictApplicationStore<TApplication>"DOpenIddict.Core.OpenIddictApplicationManager<TApplication>.Store.get*><
-:OpenIddict.Core.OpenIddictApplicationManager<TApplication>ÿ
-’
-™
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdApplicationManager.csï ï(DU
-storeLOrchardCore.OpenId.Abstractions.Stores.IOpenIdApplicationStore<TApplication>"__id*I
-G
-%6AOpenIddict.Abstractions.IOpenIddictApplicationStore<TApplication>*
-6
-7*∏
-6™
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdApplicationManager.csó ó(OÄ˝
-™
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdApplicationManager.csó ó(P&
-%7 System.Threading.Tasks.ValueTask"¡OrchardCore.OpenId.Abstractions.Stores.IOpenIdApplicationStore<TApplication>.SetRolesAsync(TApplication, System.Collections.Immutable.ImmutableArray<string>, System.Threading.CancellationToken)*W
-U
-storeLOrchardCore.OpenId.Abstractions.Stores.IOpenIdApplicationStore<TApplication>*
-
-applicationTApplication*9
-7
-roles.System.Collections.Immutable.ImmutableArray<T>*9
-7
-cancellationToken"System.Threading.CancellationToken2tSetRolesAsync(TApplication, System.Collections.Immutable.ImmutableArray<string>, System.Threading.CancellationToken)*
-8*¨-
-7™
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdApplicationManager.csõ ¢(Yˇ
-¸
-™
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdApplicationManager.csõ' õ(,G
-%8AOpenIddict.Abstractions.IOpenIddictApplicationStore<TApplication>"DOpenIddict.Core.OpenIddictApplicationManager<TApplication>.Store.get*><
-:OpenIddict.Core.OpenIddictApplicationManager<TApplication>’“
-™
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdApplicationManager.csõ' õ(_/
-%9)System.Threading.Tasks.ValueTask<TResult>"ÜOpenIddict.Abstractions.IOpenIddictApplicationStore<TApplication>.GetPropertiesAsync(TApplication, System.Threading.CancellationToken)*I
-G
-%8AOpenIddict.Abstractions.IOpenIddictApplicationStore<TApplication>*
-
-applicationTApplication*9
-7
-cancellationToken"System.Threading.CancellationToken2DGetPropertiesAsync(TApplication, System.Threading.CancellationToken)å
-â
-™
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdApplicationManager.csõ õ(_L
-
-properties>System.Collections.Immutable.ImmutableDictionary<TKey, TValue>"__id*
-""≈
-¬
-™
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdApplicationManager.csú0 ú(P
-%10"__id*
-""áÑ
-™
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdApplicationManager.csù4 †(-
-%11&System.Text.Json.JsonSerializerOptions"&System.Text.Json.JsonSerializerOptionsÆ
-´
-™
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdApplicationManager.csù8 ù(M
-%12void">System.Text.Json.JsonSerializerOptions.JsonSerializerOptions()*/
--
-%11&System.Text.Json.JsonSerializerOptions‡
-›
-™
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdApplicationManager.csü" ü(M2
-%13+System.Text.Encodings.Web.JavaScriptEncoder"ISystem.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping.get*/"-
-+System.Text.Encodings.Web.JavaScriptEncoderˇ
-¸
-™
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdApplicationManager.csü ü(M2
-%14+System.Text.Encodings.Web.JavaScriptEncoder"2System.Text.Json.JsonSerializerOptions.Encoder.set*/
--
-%11&System.Text.Json.JsonSerializerOptions*4
-2
-%13+System.Text.Encodings.Web.JavaScriptEncoder≥
-∞
-™
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdApplicationManager.csù †(
-%15string"aSystem.Text.Json.JsonSerializer.Serialize<TValue>(TValue, System.Text.Json.JsonSerializerOptions)*#"!
-System.Text.Json.JsonSerializer*9
-7
-roles.System.Collections.Immutable.ImmutableArray<T>*/
--
-%11&System.Text.Json.JsonSerializerOptions¯
-ı
-™
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdApplicationManager.csúR †(#
-%16System.Text.Json.JsonElement"cSystem.Text.Json.JsonSerializer.Deserialize<TValue>(string, System.Text.Json.JsonSerializerOptions)*#"!
-System.Text.Json.JsonSerializer*
-
-%15string*
-""Õ
- 
-™
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdApplicationManager.csú †(E
-%17>System.Collections.Immutable.ImmutableDictionary<TKey, TValue>"TSystem.Collections.Immutable.ImmutableDictionary<TKey, TValue>.SetItem(TKey, TValue)*N
-L
-
-properties>System.Collections.Immutable.ImmutableDictionary<TKey, TValue>*
-
-%10*%
-#
-%16System.Text.Json.JsonElementÕ
- 
-™
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdApplicationManager.csú †(L
-
-properties>System.Collections.Immutable.ImmutableDictionary<TKey, TValue>"__id*G
-E
-%17>System.Collections.Immutable.ImmutableDictionary<TKey, TValue>Ä
-˝
-™
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdApplicationManager.cs¢ ¢(H
-%18AOpenIddict.Abstractions.IOpenIddictApplicationStore<TApplication>"DOpenIddict.Core.OpenIddictApplicationManager<TApplication>.Store.get*><
-:OpenIddict.Core.OpenIddictApplicationManager<TApplication>œÃ
-™
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdApplicationManager.cs¢ ¢(Z'
-%19 System.Threading.Tasks.ValueTask"ﬁOpenIddict.Abstractions.IOpenIddictApplicationStore<TApplication>.SetPropertiesAsync(TApplication, System.Collections.Immutable.ImmutableDictionary<string, System.Text.Json.JsonElement>, System.Threading.CancellationToken)*J
-H
-%18AOpenIddict.Abstractions.IOpenIddictApplicationStore<TApplication>*
-
-applicationTApplication*N
-L
-
-properties>System.Collections.Immutable.ImmutableDictionary<TKey, TValue>*9
-7
-cancellationToken"System.Threading.CancellationToken2úSetPropertiesAsync(TApplication, System.Collections.Immutable.ImmutableDictionary<string, System.Text.Json.JsonElement>, System.Threading.CancellationToken)*
-8*‰
-8™
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdApplicationManager.cs• •(<¨©
-™
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdApplicationManager.cs• •(='
-%20 System.Threading.Tasks.ValueTask"xOpenIddict.Core.OpenIddictApplicationManager<TApplication>.UpdateAsync(TApplication, System.Threading.CancellationToken)*><
-:OpenIddict.Core.OpenIddictApplicationManager<TApplication>*
-
-applicationTApplication*9
-7
-cancellationToken"System.Threading.CancellationToken2=UpdateAsync(TApplication, System.Threading.CancellationToken)*
-3*ı
-3™
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdApplicationManager.cs¶	 ¶(	"¬
-™
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.OpenId.Core\Services\Managers\OpenIdApplicationManager.cs¶ ¶(	
-implicit return:
-applicationTApplication:7
-roles.System.Collections.Immutable.ImmutableArray<T>:7
-cancellationToken"System.Threading.CancellationTokenBOM
-KOrchardCore.OpenId.Services.Managers.OpenIdApplicationManager<TApplication>

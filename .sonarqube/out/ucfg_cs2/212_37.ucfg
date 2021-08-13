@@ -1,80 +1,0 @@
-
-LOrchardCore.FileStorage.AzureBlob.BlobFileStore.CreateDirectoryAsync(string)ó
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs‘ ‘(/"0*‚
-0ò
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs÷ Ÿ(õ±
-Æ
-ó
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs÷F ÷(^
-%0"__id*
-""ó
-î
-ó
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs÷3 ÷(_
-%1string"iOrchardCore.FileStorage.IFileStoreExtensions.Combine(OrchardCore.FileStorage.IFileStore, params string[])*0".
-,OrchardCore.FileStorage.IFileStoreExtensions*31
-/OrchardCore.FileStorage.AzureBlob.BlobFileStore*
-
-pathstring*
-
-%0“
-œ
-ó
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs÷" ÷(`$
-%2Azure.Storage.Blobs.BlobClient"HOrchardCore.FileStorage.AzureBlob.BlobFileStore.GetBlobReference(string)*31
-/OrchardCore.FileStorage.AzureBlob.BlobFileStore*
-
-%1string˛
-˚
-ó
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs÷ ÷(`1
-placeholderBlobAzure.Storage.Blobs.BlobClient"__id*&
-$
-%2Azure.Storage.Blobs.BlobClientÚ
-Ô
-ó
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.csŸ1 Ÿ(>
-%3System.Text.Encoding"System.Text.Encoding.UTF8.get*"
-System.Text.Encoding⁄◊
-ò
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.csŸ1 Ÿ(ú
-%4byte[]"%System.Text.Encoding.GetBytes(string)*
-
-%3System.Text.Encoding*US
-QThis is a directory marker file created by Orchard Core. It is safe to delete it.2GetBytes(string)‘—
-ò
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.csŸ  Ÿ(ù
-%5System.IO.MemoryStream"System.IO.MemoryStreamÜ
-É
-ó
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.csŸ$ Ÿ(0
-
-%6void"+System.IO.MemoryStream.MemoryStream(byte[])*
-
-%5System.IO.MemoryStream*
-
-%4byte[]Ê
-„
-ò
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.csŸ Ÿ(ù 
-streamSystem.IO.MemoryStream"__id*
-
-%5System.IO.MemoryStream*
-1*§
-1ó
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs€ €(8ˇ¸
-ó
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs€ €(9*
-%7$System.Threading.Tasks.Task<TResult>"<Azure.Storage.Blobs.BlobClient.UploadAsync(System.IO.Stream)*3
-1
-placeholderBlobAzure.Storage.Blobs.BlobClient*"
- 
-streamSystem.IO.MemoryStream2UploadAsync(System.IO.Stream)*
-2*œ
-2ó
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs›	 ›(	"Ø
-ó
-äD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.FileStorage.AzureBlob\BlobFileStore.cs› ›(	
-implicit return:
-pathstringB31
-/OrchardCore.FileStorage.AzureBlob.BlobFileStore

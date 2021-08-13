@@ -1,121 +1,0 @@
-
-ÚOrchardCore.Lists.Services.ListPartContentsAdminListFilter.FilterAsync(OrchardCore.Contents.ViewModels.ContentOptionsViewModel, YesSql.IQuery<OrchardCore.ContentManagement.ContentItem>, OrchardCore.DisplayManagement.ModelBinding.IUpdateModel)®
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Services\ListPartContentsAdminListFilter.cs (%"0*∆
-0®
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Services\ListPartContentsAdminListFilter.cs (M∫∑
-®
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Services\ListPartContentsAdminListFilter.cs (FG
-%0AOrchardCore.Lists.ViewModels.ListPartContentsAdminFilterViewModel"AOrchardCore.Lists.ViewModels.ListPartContentsAdminFilterViewModelÔ
-Ï
-®
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Services\ListPartContentsAdminListFilter.cs  (D
-
-%1void"hOrchardCore.Lists.ViewModels.ListPartContentsAdminFilterViewModel.ListPartContentsAdminFilterViewModel()*I
-G
-%0AOrchardCore.Lists.ViewModels.ListPartContentsAdminFilterViewModelœ
-Ã
-®
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Services\ListPartContentsAdminListFilter.cs (FN
-	viewModelAOrchardCore.Lists.ViewModels.ListPartContentsAdminFilterViewModel"__id*I
-G
-%0AOrchardCore.Lists.ViewModels.ListPartContentsAdminFilterViewModelåâ
-®
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Services\ListPartContentsAdminListFilter.cs (N*
-%2$System.Threading.Tasks.Task<TResult>"cOrchardCore.DisplayManagement.ModelBinding.IUpdateModel.TryUpdateModelAsync<TModel>(TModel, string)*D
-B
-updater7OrchardCore.DisplayManagement.ModelBinding.IUpdateModel*P
-N
-	viewModelAOrchardCore.Lists.ViewModels.ListPartContentsAdminFilterViewModel*
-""2+TryUpdateModelAsync<TModel>(TModel, string)*
-1
-2*°
-1®
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Services\ListPartContentsAdminListFilter.cs   (2Ë
-Â
-®
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Services\ListPartContentsAdminListFilter.cs   (2
-
-%3bool"ZOrchardCore.Lists.ViewModels.ListPartContentsAdminFilterViewModel.ShowListContentTypes.get*P
-N
-	viewModelAOrchardCore.Lists.ViewModels.ListPartContentsAdminFilterViewModel*
-3
-4*û
-3®
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Services\ListPartContentsAdminListFilter.cs" )(Wü
-ú
-®
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Services\ListPartContentsAdminListFilter.cs"( "(AF
-%4@OrchardCore.ContentManagement.Metadata.IContentDefinitionManager"__id*†*ù<
-:OrchardCore.Lists.Services.ListPartContentsAdminListFilter"]
-_contentDefinitionManager@OrchardCore.ContentManagement.Metadata.IContentDefinitionManageròï
-®
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Services\ListPartContentsAdminListFilter.cs"( #(./
-%5)System.Collections.Generic.IEnumerable<T>"VOrchardCore.ContentManagement.Metadata.IContentDefinitionManager.ListTypeDefinitions()*H
-F
-%4@OrchardCore.ContentManagement.Metadata.IContentDefinitionManager2ListTypeDefinitions()™
-ß
-®
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Services\ListPartContentsAdminListFilter.cs"( &(K/
-%6)System.Collections.Generic.IEnumerable<T>"rSystem.Linq.Enumerable.Where<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
-System.Linq.Enumerable*1
-/
-%5)System.Collections.Generic.IEnumerable<T>*
-""∑
-¥
-®
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Services\ListPartContentsAdminListFilter.cs"( '(,/
-%7)System.Collections.Generic.IEnumerable<T>"System.Linq.Enumerable.Select<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)*"
-System.Linq.Enumerable*1
-/
-%6)System.Collections.Generic.IEnumerable<T>*
-""£
-†
-®
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Services\ListPartContentsAdminListFilter.cs" '(,:
-listableTypes)System.Collections.Generic.IEnumerable<T>"__id*1
-/
-%7)System.Collections.Generic.IEnumerable<T>ûõ
-®
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Services\ListPartContentsAdminListFilter.cs) )(X
-%8YesSql.IQuery<T, TIndex>"\YesSql.IQuery<T>.With<TIndex>(System.Linq.Expressions.Expression<System.Func<TIndex, bool>>)*
-
-queryYesSql.IQuery<T>*
-""2KWith<TIndex>(System.Linq.Expressions.Expression<System.Func<TIndex, bool>>)*
-2*¶
-4®
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Services\ListPartContentsAdminListFilter.cs- -(<Á
-‰
-®
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Services\ListPartContentsAdminListFilter.cs- -(4
-%9string"WOrchardCore.Lists.ViewModels.ListPartContentsAdminFilterViewModel.ListContentItemId.get*P
-N
-	viewModelAOrchardCore.Lists.ViewModels.ListPartContentsAdminFilterViewModelÉ
-Ä
-®
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Services\ListPartContentsAdminListFilter.cs- -(<
-%10bool""string.operator !=(string, string)*
-"
-string*
-
-%9string*
-""*
-5
-2*’
-5®
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Services\ListPartContentsAdminListFilter.cs/ /(jüú
-®
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Services\ListPartContentsAdminListFilter.cs/ /(k
-%11YesSql.IQuery<T, TIndex>"\YesSql.IQuery<T>.With<TIndex>(System.Linq.Expressions.Expression<System.Func<TIndex, bool>>)*
-
-queryYesSql.IQuery<T>*
-""2KWith<TIndex>(System.Linq.Expressions.Expression<System.Func<TIndex, bool>>)*
-2*Ò
-2®
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Services\ListPartContentsAdminListFilter.cs2	 2(	"¿
-®
-ùD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Services\ListPartContentsAdminListFilter.cs2 2(	
-implicit return:@
-model7OrchardCore.Contents.ViewModels.ContentOptionsViewModel:
-queryYesSql.IQuery<T>:B
-updater7OrchardCore.DisplayManagement.ModelBinding.IUpdateModelB><
-:OrchardCore.Lists.Services.ListPartContentsAdminListFilter

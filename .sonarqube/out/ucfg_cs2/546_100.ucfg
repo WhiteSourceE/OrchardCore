@@ -1,386 +1,0 @@
-
-gOrchardCore.Placements.Controllers.AdminController.Edit(string, string, string, string, string, string)¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csÇ) Ç(-"15*ﬁ
-0¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csÑ Ñ(^˝
-˙
-¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csÑ Ñ(,>
-%08Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*å*â4
-2OrchardCore.Placements.Controllers.AdminController"Q
-_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationServiceµ
-≤
-¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csÑ< Ñ(@,
-%1&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*+)
-'Microsoft.AspNetCore.Mvc.ControllerBaseÃ
-…
-¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csÑB Ñ(^1
-%2+OrchardCore.Security.Permissions.Permission"__id*i*g$
-"OrchardCore.Placements.Permissions"?
-ManagePlacements+OrchardCore.Security.Permissions.Permission§
-°
-¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csÑ Ñ(_*
-%3$System.Threading.Tasks.Task<TResult>"ﬂMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission)*E"C
-AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*@
->
-%08Microsoft.AspNetCore.Authorization.IAuthorizationService*.
-,
-%1&System.Security.Claims.ClaimsPrincipal*3
-1
-%2+OrchardCore.Security.Permissions.Permission*
-1
-2*¿
-1¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csÜ Ü(æª
-¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csÜ Ü(+
-%4%Microsoft.AspNetCore.Mvc.ForbidResult"0Microsoft.AspNetCore.Mvc.ControllerBase.Forbid()*+)
-'Microsoft.AspNetCore.Mvc.ControllerBase2Forbid()"‘
-¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csÜ Ü( -
-+
-%4%Microsoft.AspNetCore.Mvc.ForbidResult*ö
-2¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csâ" â(\Î
-Ë
-¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csâ( â(:7
-%51OrchardCore.Placements.Services.PlacementsManager"__id*Å*4
-2OrchardCore.Placements.Controllers.AdminController"G
-_placementsManager1OrchardCore.Placements.Services.PlacementsManager˘
-ˆ
-¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csâ( â(]*
-%6$System.Threading.Tasks.Task<TResult>"QOrchardCore.Placements.Services.PlacementsManager.GetShapePlacementsAsync(string)*9
-7
-%51OrchardCore.Placements.Services.PlacementsManager*
-
-	shapeTypestring*
-3
-4*ˇ
-4¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csâ_ â(fœ
-Ã
-¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csâ_ â(h(
-%7"System.Collections.Generic.List<T>"WSystem.Linq.Enumerable.ToList<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
-System.Linq.Enumerable*
-""*
-3*∞
-3¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs¶	 ¶(	*
-5
-6*Õ	
-5£
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csâl â(Ö¯ı
-£
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csâl â(Ö)
-%11"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>é
-ã
-£
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csâp â(É
-%12void")System.Collections.Generic.List<T>.List()*+
-)
-%11"System.Collections.Generic.List<T>á
-Ñ
-£
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csâl â(Ö)
-%10"System.Collections.Generic.List<T>"__id*+
-)
-%11"System.Collections.Generic.List<T>Ü
-É
-£
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csâl â(Ö(
-%8"System.Collections.Generic.List<T>"__id*+
-)
-%10"System.Collections.Generic.List<T>*
-6*¶
-6¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csâ ã(%ë
-é
-£
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csâ â(Ö4
-placementNodes"System.Collections.Generic.List<T>"__id**
-(
-%8"System.Collections.Generic.List<T>ﬂ
-‹
-¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csã ã(%
-%13bool"TSystem.Linq.Enumerable.Any<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
-System.Linq.Enumerable*6
-4
-placementNodes"System.Collections.Generic.List<T>*
-7
-8*û
-8¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csã) ã(Î
-Ë
-£
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csã) ã(Ä
-%14bool"€OrchardCore.Placements.Controllers.AdminController.ShouldCreateNode(System.Collections.Generic.IEnumerable<OrchardCore.DisplayManagement.Descriptors.ShapePlacementStrategy.PlacementNode>, string, string, string, string)*6"4
-2OrchardCore.Placements.Controllers.AdminController*6
-4
-placementNodes"System.Collections.Generic.List<T>*
-
-displayTypestring*
-
-contentTypestring*
-
-contentPartstring*
-
-differentiatorstring*
-7
-9*˙
-7¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csç í(5œÃ
-¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csç$ ë(U
-%15NOrchardCore.DisplayManagement.Descriptors.ShapePlacementStrategy.PlacementNode"NOrchardCore.DisplayManagement.Descriptors.ShapePlacementStrategy.PlacementNodeÓ
-Î
-¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csç( ç(5
-%16void"^OrchardCore.DisplayManagement.Descriptors.ShapePlacementStrategy.PlacementNode.PlacementNode()*W
-U
-%15NOrchardCore.DisplayManagement.Descriptors.ShapePlacementStrategy.PlacementNodeâ
-Ü
-¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csè è(-
-%17string"^OrchardCore.DisplayManagement.Descriptors.ShapePlacementStrategy.PlacementNode.DisplayType.set*W
-U
-%15NOrchardCore.DisplayManagement.Descriptors.ShapePlacementStrategy.PlacementNode*
-
-displayTypestringè
-å
-¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csê ê(3
-%18string"aOrchardCore.DisplayManagement.Descriptors.ShapePlacementStrategy.PlacementNode.Differentiator.set*W
-U
-%15NOrchardCore.DisplayManagement.Descriptors.ShapePlacementStrategy.PlacementNode*
-
-differentiatorstringË
-Â
-¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csç ë(_
-generatedNodeNOrchardCore.DisplayManagement.Descriptors.ShapePlacementStrategy.PlacementNode"__id*W
-U
-%15NOrchardCore.DisplayManagement.Descriptors.ShapePlacementStrategy.PlacementNode˘
-ˆ
-¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csí í(6
-%19bool"string.IsNullOrEmpty(string?)*
-"
-string*
-
-contentTypestring*
-10
-11*ù
-10¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csî î(S§
-°
-¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csî î();
-%204System.Collections.Generic.IDictionary<TKey, TValue>"ZOrchardCore.DisplayManagement.Descriptors.ShapePlacementStrategy.PlacementNode.Filters.get*a
-_
-generatedNodeNOrchardCore.DisplayManagement.Descriptors.ShapePlacementStrategy.PlacementNodeÈÊ
-¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csî= î(T"
-%21Newtonsoft.Json.Linq.JArray"Newtonsoft.Json.Linq.JArray†
-ù
-¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csîA î(G
-%22void"*Newtonsoft.Json.Linq.JArray.JArray(object)*$
-"
-%21Newtonsoft.Json.Linq.JArray*
-
-contentTypestringµ
-≤
-¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csî î(U
-%23void"__mapSet*=
-;
-%204System.Collections.Generic.IDictionary<TKey, TValue>*
-contentType*$
-"
-%21Newtonsoft.Json.Linq.JArray*
-11*Ø
-11¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csñ ñ(5˘
-ˆ
-¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csñ ñ(6
-%24bool"string.IsNullOrEmpty(string?)*
-"
-string*
-
-contentPartstring*
-12
-13*ù
-12¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csò ò(S§
-°
-¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csò ò();
-%254System.Collections.Generic.IDictionary<TKey, TValue>"ZOrchardCore.DisplayManagement.Descriptors.ShapePlacementStrategy.PlacementNode.Filters.get*a
-_
-generatedNodeNOrchardCore.DisplayManagement.Descriptors.ShapePlacementStrategy.PlacementNodeÈÊ
-¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csò= ò(T"
-%26Newtonsoft.Json.Linq.JArray"Newtonsoft.Json.Linq.JArray†
-ù
-¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csòA ò(G
-%27void"*Newtonsoft.Json.Linq.JArray.JArray(object)*$
-"
-%26Newtonsoft.Json.Linq.JArray*
-
-contentPartstringµ
-≤
-¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csò ò(U
-%28void"__mapSet*=
-;
-%254System.Collections.Generic.IDictionary<TKey, TValue>*
-contentPart*$
-"
-%26Newtonsoft.Json.Linq.JArray*
-13*ë
-13¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csõ õ(0‡
-›
-¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csõ õ(1
-%29void"
-__arrayAdd*6
-4
-placementNodes"System.Collections.Generic.List<T>*: *a
-_
-generatedNodeNOrchardCore.DisplayManagement.Descriptors.ShapePlacementStrategy.PlacementNode*
-9*õ
-9¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csû •(!≠™
-¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csû ¢(D
-%30=OrchardCore.Placements.ViewModels.EditShapePlacementViewModel"=OrchardCore.Placements.ViewModels.EditShapePlacementViewModel⁄
-◊
-¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csû  û(;
-%31void"[OrchardCore.Placements.ViewModels.EditShapePlacementViewModel.EditShapePlacementViewModel()*F
-D
-%30=OrchardCore.Placements.ViewModels.EditShapePlacementViewModel„
-‡
-¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs† †(%
-%32string"KOrchardCore.Placements.ViewModels.EditShapePlacementViewModel.ShapeType.set*F
-D
-%30=OrchardCore.Placements.ViewModels.EditShapePlacementViewModel*
-
-	shapeTypestringΩ
-∫
-¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs°D °(W
-%33"__id*
-""Î
-Ë
-¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs° °(X
-%34string"PNewtonsoft.Json.JsonConvert.SerializeObject(object?, Newtonsoft.Json.Formatting)*"
-Newtonsoft.Json.JsonConvert*6
-4
-placementNodes"System.Collections.Generic.List<T>*
-
-%33Ÿ
-÷
-¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs° °(X
-%35string"GOrchardCore.Placements.ViewModels.EditShapePlacementViewModel.Nodes.set*F
-D
-%30=OrchardCore.Placements.ViewModels.EditShapePlacementViewModel*
-
-%34string¬
-ø
-¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csû ¢(J
-	viewModel=OrchardCore.Placements.ViewModels.EditShapePlacementViewModel"__id*F
-D
-%30=OrchardCore.Placements.ViewModels.EditShapePlacementViewModelÀ»
-¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs§ §(
-%ViewBagDataAllobject"objectÃ…
-¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs§ §(
-%ViewBagDataHtmlobject"object¸
-˘
-¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs§ §(-
-%36"__mapSet*
-
-%ViewBagDataAllobject*
-	ReturnUrl*
-
-	returnUrlstringÓ
-Î
-¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs§ §(-
-%37"__mapSet*
-
-%ViewBagDataHtmlobject*
-	ReturnUrl*
-""Í
-Á
-¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs• •("
-%38void"'orchardcore.placements/views/admin/edit*
-
-%39*L
-J
-	viewModel=OrchardCore.Placements.ViewModels.EditShapePlacementViewModel*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject* 
-
-%HttpContextItemsAllobject*!
-
-%HttpContextItemsHtmlobject"¥
-¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs• •(#
-
-%38void*Ê
-14¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs¶	 ¶(	"∫
-¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.cs¶ ¶(	
-implicit return*Ö
-15§
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csÇ« Ç(«“
-œ
-¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Controllers\AdminController.csÇ) Ç(-
-%40"__entrypoint*
-
-	shapeTypestring*
-
-displayTypestring*
-
-contentTypestring*
-
-contentPartstring*
-
-differentiatorstring*
-
-	returnUrlstring*
-0:
-	shapeTypestring:
-displayTypestring:
-contentTypestring:
-contentPartstring:
-differentiatorstring:
-	returnUrlstringB64
-2OrchardCore.Placements.Controllers.AdminController

@@ -1,136 +1,0 @@
-
-äOrchardCore.Google.Authentication.Recipes.GoogleAuthenticationSettingsStep.ExecuteAsync(OrchardCore.Recipes.Models.RecipeExecutionContext)∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Google\Authentication\Recipes\GoogleAuthenticationSettingsStep.cs (&"0*ô
-0∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Google\Authentication\Recipes\GoogleAuthenticationSettingsStep.cs (u»
-≈
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Google\Authentication\Recipes\GoogleAuthenticationSettingsStep.cs (+
-%0string":OrchardCore.Recipes.Models.RecipeExecutionContext.Name.get*>
-<
-context1OrchardCore.Recipes.Models.RecipeExecutionContext“
-œ
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Google\Authentication\Recipes\GoogleAuthenticationSettingsStep.csS (u
-%1"__id*
-""∞
-≠
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Google\Authentication\Recipes\GoogleAuthenticationSettingsStep.cs (v
-
-%2bool"8string.Equals(string?, string?, System.StringComparison)*
-"
-string*
-
-%0string*
-""*
-
-%1*
-1
-2*Ñ
-1∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Google\Authentication\Recipes\GoogleAuthenticationSettingsStep.cs%	 %(	"√
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Google\Authentication\Recipes\GoogleAuthenticationSettingsStep.cs (
-""*¶.
-2∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Google\Authentication\Recipes\GoogleAuthenticationSettingsStep.cs $(Kﬁ
-€
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Google\Authentication\Recipes\GoogleAuthenticationSettingsStep.cs ($"
-%3Newtonsoft.Json.Linq.JObject":OrchardCore.Recipes.Models.RecipeExecutionContext.Step.get*>
-<
-context1OrchardCore.Recipes.Models.RecipeExecutionContextÈ
-Ê
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Google\Authentication\Recipes\GoogleAuthenticationSettingsStep.cs (VX
-%4ROrchardCore.Google.Authentication.ViewModels.GoogleAuthenticationSettingsViewModel")Newtonsoft.Json.Linq.JToken.ToObject<T>()*$
-"
-%3Newtonsoft.Json.Linq.JObject˝
-˙
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Google\Authentication\Recipes\GoogleAuthenticationSettingsStep.cs (V[
-modelROrchardCore.Google.Authentication.ViewModels.GoogleAuthenticationSettingsViewModel"__id*Z
-X
-%4ROrchardCore.Google.Authentication.ViewModels.GoogleAuthenticationSettingsViewModelŒ
-À
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Google\Authentication\Recipes\GoogleAuthenticationSettingsStep.cs! (=L
-%5FOrchardCore.Google.Authentication.Services.GoogleAuthenticationService"__id*π*∂L
-JOrchardCore.Google.Authentication.Recipes.GoogleAuthenticationSettingsStep"f
-_googleAuthenticationServiceFOrchardCore.Google.Authentication.Services.GoogleAuthenticationServiceñ
-ì
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Google\Authentication\Recipes\GoogleAuthenticationSettingsStep.cs! (Q*
-%6$System.Threading.Tasks.Task<TResult>"ZOrchardCore.Google.Authentication.Services.GoogleAuthenticationService.LoadSettingsAsync()*N
-L
-%5FOrchardCore.Google.Authentication.Services.GoogleAuthenticationService°
-û
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Google\Authentication\Recipes\GoogleAuthenticationSettingsStep.cs (QS
-settingsGOrchardCore.Google.Authentication.Settings.GoogleAuthenticationSettings"__id*
-""å
-â
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Google\Authentication\Recipes\GoogleAuthenticationSettingsStep.cs    (.
-%7string"_OrchardCore.Google.Authentication.ViewModels.GoogleAuthenticationSettingsViewModel.ClientID.get*]
-[
-modelROrchardCore.Google.Authentication.ViewModels.GoogleAuthenticationSettingsViewModelâ
-Ü
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Google\Authentication\Recipes\GoogleAuthenticationSettingsStep.cs   (.
-%8string"TOrchardCore.Google.Authentication.Settings.GoogleAuthenticationSettings.ClientID.set*U
-S
-settingsGOrchardCore.Google.Authentication.Settings.GoogleAuthenticationSettings*
-
-%7stringê
-ç
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Google\Authentication\Recipes\GoogleAuthenticationSettingsStep.cs!$ !(6
-%9string"cOrchardCore.Google.Authentication.ViewModels.GoogleAuthenticationSettingsViewModel.ClientSecret.get*]
-[
-modelROrchardCore.Google.Authentication.ViewModels.GoogleAuthenticationSettingsViewModelé
-ã
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Google\Authentication\Recipes\GoogleAuthenticationSettingsStep.cs! !(6
-%10string"XOrchardCore.Google.Authentication.Settings.GoogleAuthenticationSettings.ClientSecret.set*U
-S
-settingsGOrchardCore.Google.Authentication.Settings.GoogleAuthenticationSettings*
-
-%9stringë
-é
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Google\Authentication\Recipes\GoogleAuthenticationSettingsStep.cs"$ "(6
-%11string"cOrchardCore.Google.Authentication.ViewModels.GoogleAuthenticationSettingsViewModel.CallbackPath.get*]
-[
-modelROrchardCore.Google.Authentication.ViewModels.GoogleAuthenticationSettingsViewModel≠
-™
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Google\Authentication\Recipes\GoogleAuthenticationSettingsStep.cs" "(6+
-%12$Microsoft.AspNetCore.Http.PathString"XOrchardCore.Google.Authentication.Settings.GoogleAuthenticationSettings.CallbackPath.set*U
-S
-settingsGOrchardCore.Google.Authentication.Settings.GoogleAuthenticationSettings*
-
-%11stringœ
-Ã
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Google\Authentication\Recipes\GoogleAuthenticationSettingsStep.cs$ $(.M
-%13FOrchardCore.Google.Authentication.Services.GoogleAuthenticationService"__id*π*∂L
-JOrchardCore.Google.Authentication.Recipes.GoogleAuthenticationSettingsStep"f
-_googleAuthenticationServiceFOrchardCore.Google.Authentication.Services.GoogleAuthenticationService∞
-≠
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Google\Authentication\Recipes\GoogleAuthenticationSettingsStep.cs$ $(L"
-%14System.Threading.Tasks.Task"£OrchardCore.Google.Authentication.Services.GoogleAuthenticationService.UpdateSettingsAsync(OrchardCore.Google.Authentication.Settings.GoogleAuthenticationSettings)*O
-M
-%13FOrchardCore.Google.Authentication.Services.GoogleAuthenticationService*U
-S
-settingsGOrchardCore.Google.Authentication.Settings.GoogleAuthenticationSettings*
-3*ë
-3∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Google\Authentication\Recipes\GoogleAuthenticationSettingsStep.cs%	 %(	"–
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Google\Authentication\Recipes\GoogleAuthenticationSettingsStep.cs% %(	
-implicit return:<
-context1OrchardCore.Recipes.Models.RecipeExecutionContextBNL
-JOrchardCore.Google.Authentication.Recipes.GoogleAuthenticationSettingsStep

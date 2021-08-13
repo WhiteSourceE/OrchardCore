@@ -1,102 +1,0 @@
-
-IOrchardCore.Modules.LocalClock.ConvertToLocalAsync(System.DateTimeOffset)ç
-ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\LocalClock.cs/* /(="0*¨ 
-0ç
-ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\LocalClock.cs1 6(Sõ
-ò
-ç
-ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\LocalClock.cs1& 1(=*
-%0$System.Threading.Tasks.Task<TResult>"6OrchardCore.Modules.LocalClock.GetLocalTimeZoneAsync()*" 
-OrchardCore.Modules.LocalClock—
-Œ
-ç
-ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\LocalClock.cs1 1(=.
-localTimeZoneOrchardCore.Modules.ITimeZone"__id*
-""—
-Œ
-ç
-ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\LocalClock.cs2  2(7
-%1"__id*0
-.
-localTimeZoneOrchardCore.Modules.ITimeZoneÁ
-‰
-ç
-ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\LocalClock.cs2 2(E
-%2NodaTime.DateTimeZone"-OrchardCore.Modules.TimeZone.DateTimeZone.get*
-
-%1ﬂ
-‹
-ç
-ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\LocalClock.cs2 2(E%
-dateTimeZoneNodaTime.DateTimeZone"__id*
-
-%2NodaTime.DateTimeZoneΩ
-∫
-ç
-ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\LocalClock.cs3! 3(R
-%3NodaTime.OffsetDateTime"ANodaTime.OffsetDateTime.FromDateTimeOffset(System.DateTimeOffset)*"
-NodaTime.OffsetDateTime*)
-'
-dateTimeOffSetSystem.DateTimeOffsetÂ
-‚
-ç
-ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\LocalClock.cs3 3(R)
-offsetDateTimeNodaTime.OffsetDateTime"__id*
-
-%3NodaTime.OffsetDateTimeØ
-¨
-ç
-ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\LocalClock.cs4G 4(W/
-%4)OrchardCore.Localization.ICalendarManager"__id*c*a 
-OrchardCore.Modules.LocalClock"=
-_calendarManager)OrchardCore.Localization.ICalendarManager»≈
-ç
-ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\LocalClock.cs4G 4(l*
-%5$System.Threading.Tasks.Task<TResult>">OrchardCore.Localization.ICalendarManager.GetCurrentCalendar()*1
-/
-%4)OrchardCore.Localization.ICalendarManager2GetCurrentCalendar()≈
-¬
-ç
-ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\LocalClock.cs4" 4(m
-%6NodaTime.CalendarSystem"^OrchardCore.Localization.BclCalendars.GetCalendarByName(OrchardCore.Localization.CalendarName)*)"'
-%OrchardCore.Localization.BclCalendars*
-""Ê
-„
-ç
-ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\LocalClock.cs4 4(m*
-currentCalendarNodaTime.CalendarSystem"__id*
-
-%6NodaTime.CalendarSystemæ
-ª
-ç
-ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\LocalClock.cs6 6(6
-%7NodaTime.ZonedDateTime"5NodaTime.OffsetDateTime.InZone(NodaTime.DateTimeZone)*+
-)
-offsetDateTimeNodaTime.OffsetDateTime*'
-%
-dateTimeZoneNodaTime.DateTimeZoneΩ
-∫
-ç
-ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\LocalClock.cs6 6(T
-%8NodaTime.ZonedDateTime"<NodaTime.ZonedDateTime.WithCalendar(NodaTime.CalendarSystem)*
-
-%7NodaTime.ZonedDateTime*,
-*
-currentCalendarNodaTime.CalendarSystem˚
-¯
-ç
-ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\LocalClock.cs6 6(g
-%9System.DateTimeOffset")NodaTime.ZonedDateTime.ToDateTimeOffset()*
-
-%8NodaTime.ZonedDateTime"Ø
-ç
-ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\LocalClock.cs6 6(h
-
-%9System.DateTimeOffset*ª
-1ç
-ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\LocalClock.cs7	 7(	"•
-ç
-ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore\Modules\Services\LocalClock.cs7 7(	
-implicit return:'
-dateTimeOffSetSystem.DateTimeOffsetB" 
-OrchardCore.Modules.LocalClock

@@ -1,58 +1,0 @@
-
-POrchardCore.Documents.DocumentEntityManager<TDocumentEntity>.RemoveAsync(string) 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentEntityManager.cs# #(%"0*ë
-0 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentEntityManager.cs% '(7ò
-ï
- 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentEntityManager.cs%! %(17
-%01OrchardCore.Documents.IDocumentManager<TDocument>"__id*Š*‡>
-<OrchardCore.Documents.DocumentEntityManager<TDocumentEntity>"E
-_documentManager1OrchardCore.Documents.IDocumentManager<TDocument>ãà
- 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentEntityManager.cs%! %(K*
-%1$System.Threading.Tasks.Task<TResult>"~OrchardCore.Documents.IDocumentManager<TDocument>.GetOrCreateMutableAsync(System.Func<System.Threading.Tasks.Task<TDocument>>)*9
-7
-%01OrchardCore.Documents.IDocumentManager<TDocument>*
-""2LGetOrCreateMutableAsync(System.Func<System.Threading.Tasks.Task<TDocument>>)Ñ
-Î
- 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentEntityManager.cs% %(K
-documentTDocumentEntity"__id*
-""¦£
- 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentEntityManager.cs& &("
-%2Newtonsoft.Json.Linq.JObject"+OrchardCore.Entities.IEntity.Properties.get*
-
-documentTDocumentEntity2Properties.getö
-ó
- 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentEntityManager.cs& &(+
-
-%3bool"__mapRemove*$
-"
-%2Newtonsoft.Json.Linq.JObject*
-
-keystringò
-ï
- 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentEntityManager.cs' '("7
-%41OrchardCore.Documents.IDocumentManager<TDocument>"__id*Š*‡>
-<OrchardCore.Documents.DocumentEntityManager<TDocumentEntity>"E
-_documentManager1OrchardCore.Documents.IDocumentManager<TDocument>÷ô
- 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentEntityManager.cs' '(8!
-%5System.Threading.Tasks.Task"}OrchardCore.Documents.IDocumentManager<TDocument>.UpdateAsync(TDocument, System.Func<TDocument, System.Threading.Tasks.Task>)*9
-7
-%41OrchardCore.Documents.IDocumentManager<TDocument>*
-
-documentTDocumentEntity*
-""2KUpdateAsync(TDocument, System.Func<TDocument, System.Threading.Tasks.Task>)*
-1*á
-1 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentEntityManager.cs(	 ((	"¸
- 
-•D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentEntityManager.cs( ((	
-implicit return:
-keystringB@>
-<OrchardCore.Documents.DocumentEntityManager<TDocumentEntity>

@@ -1,299 +1,0 @@
-
-§OrchardCore.Roles.Deployment.AllRolesDeploymentSource.ProcessDeploymentStepAsync(OrchardCore.Deployment.DeploymentStep, OrchardCore.Deployment.DeploymentPlanResult)£
-òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Deployment\AllRolesDeploymentSource.cs (4"0*û
-0£
-òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Deployment\AllRolesDeploymentSource.cs ($ç
-ä
-£
-òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Deployment\AllRolesDeploymentSource.cs (=+
-%0%OrchardCore.Deployment.DeploymentStep"__id*/
--
-step%OrchardCore.Deployment.DeploymentStep£
-†
-£
-òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Deployment\AllRolesDeploymentSource.cs (=C
-allRolesStep3OrchardCore.Roles.Deployment.AllRolesDeploymentStep"__id*-
-+
-%0%OrchardCore.Deployment.DeploymentStep¥
-±
-£
-òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Deployment\AllRolesDeploymentSource.cs ($
-
-%1bool""object.operator ==(object, object)*
-"
-object*E
-C
-allRolesStep3OrchardCore.Roles.Deployment.AllRolesDeploymentStep*
-""*
-1
-2*⁄
-1£
-òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Deployment\AllRolesDeploymentSource.cs;	 ;(	"Æ
-£
-òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Deployment\AllRolesDeploymentSource.cs (
-""*€
-2£
-òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Deployment\AllRolesDeploymentSource.cs# '()⁄
-◊
-£
-òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Deployment\AllRolesDeploymentSource.cs#! #(-0
-%2*OrchardCore.Security.Services.IRoleService"__id*w*u7
-5OrchardCore.Roles.Deployment.AllRolesDeploymentSource":
-_roleService*OrchardCore.Security.Services.IRoleService÷”
-£
-òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Deployment\AllRolesDeploymentSource.cs#! #(=*
-%3$System.Threading.Tasks.Task<TResult>":OrchardCore.Security.Services.IRoleService.GetRolesAsync()*2
-0
-%2*OrchardCore.Security.Services.IRoleService2GetRolesAsync()Ó
-Î
-£
-òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Deployment\AllRolesDeploymentSource.cs# #(=5
-allRoles)System.Collections.Generic.IEnumerable<T>"__id*
-""ÈÊ
-£
-òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Deployment\AllRolesDeploymentSource.cs$ $(*!
-%4Newtonsoft.Json.Linq.JArray"Newtonsoft.Json.Linq.JArrayÄ
-˝
-£
-òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Deployment\AllRolesDeploymentSource.cs$" $((
-
-%5void"$Newtonsoft.Json.Linq.JArray.JArray()*#
-!
-%4Newtonsoft.Json.Linq.JArrayÄ
-˝
-£
-òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Deployment\AllRolesDeploymentSource.cs$ $(**
-permissionsNewtonsoft.Json.Linq.JArray"__id*#
-!
-%4Newtonsoft.Json.Linq.JArray˜Ù
-£
-òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Deployment\AllRolesDeploymentSource.cs% %(((
-%6"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>å
-â
-£
-òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Deployment\AllRolesDeploymentSource.cs% %(&
-
-%7void")System.Collections.Generic.List<T>.List()**
-(
-%6"System.Collections.Generic.List<T>à
-Ö
-£
-òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Deployment\AllRolesDeploymentSource.cs% %((+
-tasks"System.Collections.Generic.List<T>"__id**
-(
-%6"System.Collections.Generic.List<T>*
-3*±
-3£
-òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Deployment\AllRolesDeploymentSource.cs;	 ;(	*
-4
-5*»
-4£
-òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Deployment\AllRolesDeploymentSource.cs) +('Ê
-„
-£
-òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Deployment\AllRolesDeploymentSource.cs). )(:6
-%80Microsoft.AspNetCore.Identity.RoleManager<TRole>"__id*}*{7
-5OrchardCore.Roles.Deployment.AllRolesDeploymentSource"@
-_roleManager0Microsoft.AspNetCore.Identity.RoleManager<TRole>Ê
-„
-£
-òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Deployment\AllRolesDeploymentSource.cs)K )(W6
-%90Microsoft.AspNetCore.Identity.RoleManager<TRole>"__id*}*{7
-5OrchardCore.Roles.Deployment.AllRolesDeploymentSource"@
-_roleManager0Microsoft.AspNetCore.Identity.RoleManager<TRole>ïí
-£
-òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Deployment\AllRolesDeploymentSource.cs)e )(r
-%10string"'OrchardCore.Security.IRole.RoleName.get*$
-"
-roleOrchardCore.Security.IRole2RoleName.get‡›
-£
-òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Deployment\AllRolesDeploymentSource.cs)K )(s
-%11string"EMicrosoft.AspNetCore.Identity.RoleManager<TRole>.NormalizeKey(string)*8
-6
-%90Microsoft.AspNetCore.Identity.RoleManager<TRole>*
-
-%10string2NormalizeKey(string)ÑÅ
-£
-òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Deployment\AllRolesDeploymentSource.cs). )(t+
-%12$System.Threading.Tasks.Task<TResult>"HMicrosoft.AspNetCore.Identity.RoleManager<TRole>.FindByNameAsync(string)*8
-6
-%80Microsoft.AspNetCore.Identity.RoleManager<TRole>*
-
-%11string2FindByNameAsync(string)æ
-ª
-£
-òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Deployment\AllRolesDeploymentSource.cs)" )(t
-%13"__id*
-""‚
-ﬂ
-£
-òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Deployment\AllRolesDeploymentSource.cs) )(t(
-currentRoleOrchardCore.Security.Role"__id*
-
-%13ö
-ó
-£
-òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Deployment\AllRolesDeploymentSource.cs+ +('
-%14bool""object.operator !=(object, object)*
-"
-object**
-(
-currentRoleOrchardCore.Security.Role*
-""*
-6
-3*¿"
-6§
-òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Deployment\AllRolesDeploymentSource.cs- 2(âåâ
-£
-òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Deployment\AllRolesDeploymentSource.cs. 3(3
-%15,OrchardCore.Roles.Recipes.RolesStepRoleModel",OrchardCore.Roles.Recipes.RolesStepRoleModel∞
-≠
-£
-òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Deployment\AllRolesDeploymentSource.cs. .(.
-%16void"AOrchardCore.Roles.Recipes.RolesStepRoleModel.RolesStepRoleModel()*5
-3
-%15,OrchardCore.Roles.Recipes.RolesStepRoleModelå
-â
-£
-òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Deployment\AllRolesDeploymentSource.cs0# 0(7
-%17string"&OrchardCore.Security.Role.RoleName.get**
-(
-currentRoleOrchardCore.Security.Role∑
-¥
-£
-òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Deployment\AllRolesDeploymentSource.cs0 0(7
-%18string"5OrchardCore.Roles.Recipes.RolesStepRoleModel.Name.set*5
-3
-%15,OrchardCore.Roles.Recipes.RolesStepRoleModel*
-
-%17stringì
-ê
-£
-òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Deployment\AllRolesDeploymentSource.cs1* 1(E
-%19string"-OrchardCore.Security.Role.RoleDescription.get**
-(
-currentRoleOrchardCore.Security.Roleæ
-ª
-£
-òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Deployment\AllRolesDeploymentSource.cs1 1(E
-%20string"<OrchardCore.Roles.Recipes.RolesStepRoleModel.Description.set*5
-3
-%15,OrchardCore.Roles.Recipes.RolesStepRoleModel*
-
-%19string™
-ß
-£
-òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Deployment\AllRolesDeploymentSource.cs2* 2(@)
-%21"System.Collections.Generic.List<T>"(OrchardCore.Security.Role.RoleClaims.get**
-(
-currentRoleOrchardCore.Security.Role†
-ù
-£
-òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Deployment\AllRolesDeploymentSource.cs2* 2(p0
-%22)System.Collections.Generic.IEnumerable<T>"rSystem.Linq.Enumerable.Where<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
-System.Linq.Enumerable*+
-)
-%21"System.Collections.Generic.List<T>*
-""µ
-≤
-§
-òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Deployment\AllRolesDeploymentSource.cs2* 2(ä0
-%23)System.Collections.Generic.IEnumerable<T>"System.Linq.Enumerable.Select<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)*"
-System.Linq.Enumerable*2
-0
-%22)System.Collections.Generic.IEnumerable<T>*
-""Â
-‚
-§
-òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Deployment\AllRolesDeploymentSource.cs2* 2(î
-%24string[]"XSystem.Linq.Enumerable.ToArray<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
-System.Linq.Enumerable*2
-0
-%23)System.Collections.Generic.IEnumerable<T>√
-¿
-§
-òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Deployment\AllRolesDeploymentSource.cs2 2(î
-%25string[]"<OrchardCore.Roles.Recipes.RolesStepRoleModel.Permissions.set*5
-3
-%15,OrchardCore.Roles.Recipes.RolesStepRoleModel*
-
-%24string[]ÿ
-’
-£
-òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Deployment\AllRolesDeploymentSource.cs-$ 3(#
-%26Newtonsoft.Json.Linq.JObject"/Newtonsoft.Json.Linq.JObject.FromObject(object)* "
-Newtonsoft.Json.Linq.JObject*5
-3
-%15,OrchardCore.Roles.Recipes.RolesStepRoleModelõ
-ò
-£
-òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Deployment\AllRolesDeploymentSource.cs- 3(
-%27void"
-__arrayAdd*,
-*
-permissionsNewtonsoft.Json.Linq.JArray*: *%
-#
-%26Newtonsoft.Json.Linq.JObject*
-3*⁄
-5£
-òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Deployment\AllRolesDeploymentSource.cs7 9(2≈
-¬
-£
-òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Deployment\AllRolesDeploymentSource.cs7 7(*
-%28#System.Collections.Generic.IList<T>"5OrchardCore.Deployment.DeploymentPlanResult.Steps.get*7
-5
-result+OrchardCore.Deployment.DeploymentPlanResultÌ
-£
-òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Deployment\AllRolesDeploymentSource.cs8 8(.%
-%29Newtonsoft.Json.Linq.JProperty"Newtonsoft.Json.Linq.JPropertyØ
-¨
-£
-òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Deployment\AllRolesDeploymentSource.cs8 8(
-%30void"9Newtonsoft.Json.Linq.JProperty.JProperty(string, object?)*'
-%
-%29Newtonsoft.Json.Linq.JProperty*
-name*	
-RolesÌ
-£
-òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Deployment\AllRolesDeploymentSource.cs9 9(3%
-%31Newtonsoft.Json.Linq.JProperty"Newtonsoft.Json.Linq.JProperty”
-–
-£
-òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Deployment\AllRolesDeploymentSource.cs9 9(
-%32void"9Newtonsoft.Json.Linq.JProperty.JProperty(string, object?)*'
-%
-%31Newtonsoft.Json.Linq.JProperty*	
-Roles*,
-*
-permissionsNewtonsoft.Json.Linq.JArrayÏÈ
-£
-òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Deployment\AllRolesDeploymentSource.cs7 :(#
-%33Newtonsoft.Json.Linq.JObject"Newtonsoft.Json.Linq.JObjectÊ
-„
-£
-òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Deployment\AllRolesDeploymentSource.cs7! 7((
-%34void"5Newtonsoft.Json.Linq.JObject.JObject(params object[])*%
-#
-%33Newtonsoft.Json.Linq.JObject*'
-%
-%29Newtonsoft.Json.Linq.JProperty*'
-%
-%31Newtonsoft.Json.Linq.JPropertyõ
-ò
-£
-òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Deployment\AllRolesDeploymentSource.cs7 :(
-%35void"
-__arrayAdd*,
-*
-%28#System.Collections.Generic.IList<T>*: *%
-#
-%33Newtonsoft.Json.Linq.JObject*
-7*Á
-7£
-òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Deployment\AllRolesDeploymentSource.cs;	 ;(	"ª
-£
-òD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Deployment\AllRolesDeploymentSource.cs; ;(	
-implicit return:-
-step%OrchardCore.Deployment.DeploymentStep:5
-result+OrchardCore.Deployment.DeploymentPlanResultB97
-5OrchardCore.Roles.Deployment.AllRolesDeploymentSource

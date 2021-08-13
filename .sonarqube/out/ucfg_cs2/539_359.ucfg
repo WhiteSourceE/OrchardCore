@@ -1,64 +1,0 @@
-
-OrchardCore.Workflows.Activities.MissingActivity.Execute(OrchardCore.Workflows.Models.WorkflowExecutionContext, OrchardCore.Workflows.Models.ActivityContext)ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Activities\MissingActivity.cs%0 %(7"0*±
-0ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Activities\MissingActivity.cs' ((¿
-¼
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Activities\MissingActivity.cs' '(*
-%0$Microsoft.Extensions.Logging.ILogger"__id*g*e2
-0OrchardCore.Workflows.Activities.MissingActivity"/
-_logger$Microsoft.Extensions.Logging.ILoggerÛ
-Ø
- 
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Activities\MissingActivity.cs'… '(š1
-%1+OrchardCore.Workflows.Models.ActivityRecord"JOrchardCore.Workflows.Activities.MissingActivity.MissingActivityRecord.get*42
-0OrchardCore.Workflows.Activities.MissingActivityŸ
-œ
- 
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Activities\MissingActivity.cs'… '(Ÿ
-%2string"4OrchardCore.Workflows.Models.ActivityRecord.Name.get*3
-1
-%1+OrchardCore.Workflows.Models.ActivityRecordë
-è
- 
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Activities\MissingActivity.cs'¡ '(½/
-%3)OrchardCore.Workflows.Models.WorkflowType"FOrchardCore.Workflows.Models.WorkflowExecutionContext.WorkflowType.get*J
-H
-workflowContext5OrchardCore.Workflows.Models.WorkflowExecutionContext–
-“
- 
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Activities\MissingActivity.cs'¡ '(À	
-%4int"0OrchardCore.Workflows.Models.WorkflowType.Id.get*1
-/
-%3)OrchardCore.Workflows.Models.WorkflowType“
-
-Ÿ
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Activities\MissingActivity.cs' '(Á
-
-%5void"wMicrosoft.Extensions.Logging.LoggerExtensions.LogWarning(Microsoft.Extensions.Logging.ILogger, string, params object[])*1"/
--Microsoft.Extensions.Logging.LoggerExtensions*,
-*
-%0$Microsoft.Extensions.Logging.ILogger*èå
-âActivity '{ActivityName}' is no longer available. This can happen if the feature providing the activity is no longer enabled. Either enable the feature, or remove this activity from workflow definition with ID {WorkflowTypeId}*
-
-%2string*
-	
-%4intÅ
-Â
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Activities\MissingActivity.cs( ((>
-%68OrchardCore.Workflows.Activities.ActivityExecutionResult"0OrchardCore.Workflows.Activities.Activity.Noop()*-+
-)OrchardCore.Workflows.Activities.Activity"ã
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Activities\MissingActivity.cs( ((@
->
-%68OrchardCore.Workflows.Activities.ActivityExecutionResult*Ý
-1ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Activities\MissingActivity.cs)	 )(	"¶
-ž
-“D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Activities\MissingActivity.cs) )(	
-implicit return:H
-workflowContext5OrchardCore.Workflows.Models.WorkflowExecutionContext:?
-activityContext,OrchardCore.Workflows.Models.ActivityContextB42
-0OrchardCore.Workflows.Activities.MissingActivity

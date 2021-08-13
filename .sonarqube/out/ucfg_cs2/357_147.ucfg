@@ -1,119 +1,0 @@
-
-‡OrchardCore.Security.AuthorizationHandlers.SuperUserHandler.HandleAsync(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext)°
-¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Security\AuthorizationHandlers\SuperUserHandler.cs (%"0*¾
-0°
-¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Security\AuthorizationHandlers\SuperUserHandler.cs ( *
-1
-2*Å
-2°
-¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Security\AuthorizationHandlers\SuperUserHandler.cs! (&„
-°
-¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Security\AuthorizationHandlers\SuperUserHandler.cs" (&,
-%0&System.Security.Claims.ClaimsPrincipal"GMicrosoft.AspNetCore.Authorization.AuthorizationHandlerContext.User.get*K
-I
-context>Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext2User.get*
-1
-3*¢
-3°
-¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Security\AuthorizationHandlers\SuperUserHandler.cs' (PÊ
-Ç
-°
-¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Security\AuthorizationHandlers\SuperUserHandler.cs7 (P
-%1"__id*
-""—
-”
-°
-¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Security\AuthorizationHandlers\SuperUserHandler.cs' (Q
-%2string"iSystem.Security.Claims.PrincipalExtensions.FindFirstValue(System.Security.Claims.ClaimsPrincipal, string)*.",
-*System.Security.Claims.PrincipalExtensions*.
-,
-%0&System.Security.Claims.ClaimsPrincipal*
-
-%1*
-1*°
-1°
-¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Security\AuthorizationHandlers\SuperUserHandler.cs (Þ
-Û
-°
-¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Security\AuthorizationHandlers\SuperUserHandler.cs (Q
-userIdstring"__id*
-
-%2stringŽ
-‹
-°
-¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Security\AuthorizationHandlers\SuperUserHandler.cs (
-
-%3bool""string.operator ==(string, string)*
-"
-string*
-
-userIdstring*
-""*
-4
-5*ô
-4°
-¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Security\AuthorizationHandlers\SuperUserHandler.cs$	 $(	"»
-°
-¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Security\AuthorizationHandlers\SuperUserHandler.cs (
-""*“
-5°
-¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Security\AuthorizationHandlers\SuperUserHandler.cs  (XÛ
-Ø
-°
-¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Security\AuthorizationHandlers\SuperUserHandler.cs ()'
-%4!OrchardCore.Settings.ISiteService"__id*t*r=
-;OrchardCore.Security.AuthorizationHandlers.SuperUserHandler"1
-_siteService!OrchardCore.Settings.ISiteServiceßÜ
-°
-¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Security\AuthorizationHandlers\SuperUserHandler.cs (@*
-%5$System.Threading.Tasks.Task<TResult>"8OrchardCore.Settings.ISiteService.GetSiteSettingsAsync()*)
-'
-%4!OrchardCore.Settings.ISiteService2GetSiteSettingsAsync()è
-å
-°
-¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Security\AuthorizationHandlers\SuperUserHandler.cs (@"
-siteOrchardCore.Settings.ISite"__id*
-""£ 
-°
-¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Security\AuthorizationHandlers\SuperUserHandler.cs &  (4
-%6string"(OrchardCore.Settings.ISite.SuperUser.get*$
-"
-siteOrchardCore.Settings.ISite2SuperUser.getÊ
-Ç
-°
-¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Security\AuthorizationHandlers\SuperUserHandler.cs 6  (X
-%7"__id*
-""´
-±
-°
-¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Security\AuthorizationHandlers\SuperUserHandler.cs   (Y
-
-%8bool"8string.Equals(string?, string?, System.StringComparison)*
-"
-string*
-
-userIdstring*
-
-%6string*
-
-%7*
-6
-7*£
-6°
-¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Security\AuthorizationHandlers\SuperUserHandler.cs" "(.å
-â
-°
-¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Security\AuthorizationHandlers\SuperUserHandler.cs" "(/
-
-%9void"’OrchardCore.Security.AuthorizationHandlers.SuperUserHandler.SucceedAllRequirements(Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext)*?"=
-;OrchardCore.Security.AuthorizationHandlers.SuperUserHandler*K
-I
-context>Microsoft.AspNetCore.Authorization.AuthorizationHandlerContext*
-7*
-7°
-¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Security\AuthorizationHandlers\SuperUserHandler.cs$	 $(	"È
-°
-¥D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Security\AuthorizationHandlers\SuperUserHandler.cs$ $(	
-implicit return:I
-context>Microsoft.AspNetCore.Authorization.AuthorizationHandlerContextB?=
-;OrchardCore.Security.AuthorizationHandlers.SuperUserHandler

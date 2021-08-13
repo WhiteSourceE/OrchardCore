@@ -1,228 +1,0 @@
-
-úOrchardCore.Users.Controllers.ControllerExtensions.SendEmailAsync(Microsoft.AspNetCore.Mvc.Controller, string, string, OrchardCore.DisplayManagement.IShape)†
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.cs) (7"0*Ç*
-0†
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.cs (.¡
-æ
-†
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.cs (4+
-%0%Microsoft.AspNetCore.Http.HttpContext"7Microsoft.AspNetCore.Mvc.ControllerBase.HttpContext.get*3
-1
-
-controller#Microsoft.AspNetCore.Mvc.ControllerØ
-¨
-†
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.cs (D
-%1System.IServiceProvider"9Microsoft.AspNetCore.Http.HttpContext.RequestServices.get*-
-+
-%0%Microsoft.AspNetCore.Http.HttpContext∂
-≥
-†
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.cs (g$
-%2OrchardCore.Email.ISmtpService"xMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<T>(System.IServiceProvider)*M"K
-IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*
-
-%1System.IServiceProviderÉ
-Ä
-†
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.cs (g-
-smtpServiceOrchardCore.Email.ISmtpService"__id*&
-$
-%2OrchardCore.Email.ISmtpService¡
-æ
-†
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.cs  (6+
-%3%Microsoft.AspNetCore.Http.HttpContext"7Microsoft.AspNetCore.Mvc.ControllerBase.HttpContext.get*3
-1
-
-controller#Microsoft.AspNetCore.Mvc.ControllerØ
-¨
-†
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.cs  (F
-%4System.IServiceProvider"9Microsoft.AspNetCore.Http.HttpContext.RequestServices.get*-
-+
-%3%Microsoft.AspNetCore.Http.HttpContextƒ
-¡
-†
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.cs  (k2
-%5,OrchardCore.DisplayManagement.IDisplayHelper"xMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<T>(System.IServiceProvider)*M"K
-IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*
-
-%4System.IServiceProvider°
-û
-†
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.cs (k=
-displayHelper,OrchardCore.DisplayManagement.IDisplayHelper"__id*4
-2
-%5,OrchardCore.DisplayManagement.IDisplayHelper¡
-æ
-†
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.cs (4+
-%6%Microsoft.AspNetCore.Http.HttpContext"7Microsoft.AspNetCore.Mvc.ControllerBase.HttpContext.get*3
-1
-
-controller#Microsoft.AspNetCore.Mvc.ControllerØ
-¨
-†
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.cs (D
-%7System.IServiceProvider"9Microsoft.AspNetCore.Http.HttpContext.RequestServices.get*-
-+
-%6%Microsoft.AspNetCore.Http.HttpContextΩ
-∫
-†
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.cs (f+
-%8%System.Text.Encodings.Web.HtmlEncoder"xMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<T>(System.IServiceProvider)*M"K
-IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*
-
-%7System.IServiceProviderë
-é
-†
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.cs (f4
-htmlEncoder%System.Text.Encodings.Web.HtmlEncoder"__id*-
-+
-%8%System.Text.Encodings.Web.HtmlEncoderŸ
-÷
-†
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.cs (#
-%9string"__id**
-string"
-EmptystringÃ
-…
-†
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.cs (#
-bodystring"__id*
-
-%9string›⁄
-†
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.cs (.
-%10System.IO.StringWriter"System.IO.StringWriter˚
-¯
-†
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.cs  (,
-%11void"%System.IO.StringWriter.StringWriter()*
-
-%10System.IO.StringWriterÎ
-Ë
-†
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.cs (.
-swSystem.IO.StringWriter"__id*
-
-%10System.IO.StringWriter*
-1*ï
-1†
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.cs! #($®•
-†
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.cs!( !(N+
-%12$System.Threading.Tasks.Task<TResult>"FOrchardCore.DisplayManagement.IDisplayHelper.ShapeExecuteAsync(object)*?
-=
-displayHelper,OrchardCore.DisplayManagement.IDisplayHelper*/
--
-model$OrchardCore.DisplayManagement.IShape2ShapeExecuteAsync(object)Î
-Ë
-†
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.cs! !(N5
-htmlContent&Microsoft.AspNetCore.Html.IHtmlContent"__id*
-""˜Ù
-†
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.cs" "(4
-%13void"kMicrosoft.AspNetCore.Html.IHtmlContent.WriteTo(System.IO.TextWriter, System.Text.Encodings.Web.HtmlEncoder)*7
-5
-htmlContent&Microsoft.AspNetCore.Html.IHtmlContent*
-
-swSystem.IO.StringWriter*6
-4
-htmlEncoder%System.Text.Encodings.Web.HtmlEncoder2DWriteTo(System.IO.TextWriter, System.Text.Encodings.Web.HtmlEncoder)ÑÅ
-†
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.cs# #($
-%14string"!System.IO.StringWriter.ToString()*
-
-swSystem.IO.StringWriter2
-ToString()Õ
- 
-†
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.cs# #($
-bodystring"__id*
-
-%14string*
-2*Õ
-2†
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.cs& 0(#ÎË
-†
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.cs& ,($
-%15OrchardCore.Email.MailMessage"OrchardCore.Email.MailMessageà
-Ö
-†
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.cs& &()
-%16void"+OrchardCore.Email.MailMessage.MailMessage()*&
-$
-%15OrchardCore.Email.MailMessageñ
-ì
-†
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.cs( ((
-%17string"$OrchardCore.Email.MailMessage.To.set*&
-$
-%15OrchardCore.Email.MailMessage*
-
-emailstringù
-ö
-†
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.cs) )(!
-%18string")OrchardCore.Email.MailMessage.Subject.set*&
-$
-%15OrchardCore.Email.MailMessage*
-
-subjectstringó
-î
-†
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.cs* *(
-%19string"&OrchardCore.Email.MailMessage.Body.set*&
-$
-%15OrchardCore.Email.MailMessage*
-
-bodystringë
-é
-†
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.cs+ +(!
-%20bool",OrchardCore.Email.MailMessage.IsBodyHtml.set*&
-$
-%15OrchardCore.Email.MailMessage*
-""˛
-˚
-†
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.cs& ,((
-messageOrchardCore.Email.MailMessage"__id*&
-$
-%15OrchardCore.Email.MailMessage£†
-†
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.cs. .(=+
-%21$System.Threading.Tasks.Task<TResult>"GOrchardCore.Email.ISmtpService.SendAsync(OrchardCore.Email.MailMessage)*/
--
-smtpServiceOrchardCore.Email.ISmtpService**
-(
-messageOrchardCore.Email.MailMessage2(SendAsync(OrchardCore.Email.MailMessage)‹
-Ÿ
-†
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.cs. .(=&
-resultOrchardCore.Email.SmtpResult"__id*
-""â
-Ü
-†
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.cs0 0(#
-%22bool"*OrchardCore.Email.SmtpResult.Succeeded.get*(
-&
-resultOrchardCore.Email.SmtpResult"≤
-†
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.cs0 0($
-
-%22bool*·
-3†
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.cs1	 1(	"∏
-†
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.cs1 1(	
-implicit return:1
-
-controller#Microsoft.AspNetCore.Mvc.Controller:
-emailstring:
-subjectstring:-
-model$OrchardCore.DisplayManagement.IShapeB6"4
-2OrchardCore.Users.Controllers.ControllerExtensions

@@ -1,130 +1,0 @@
-
-dOrchardCore.Users.Services.UserStore.GetUsersInRoleAsync(string, System.Threading.CancellationToken)ë
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csß( ß(;"0*ê
-0ë
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.cs© ©(7Ó
-Î
-ë
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.cs© ©(8
-
-%0bool"string.IsNullOrEmpty(string?)*
-"
-string*
-
-normalizedRoleNamestring*
-1
-2*â
-1ë
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.cs´ ´(JŸ÷
-ë
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.cs´ ´(K"
-%1System.ArgumentNullException"System.ArgumentNullExceptioné
-ã
-ë
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.cs´ ´(/
-
-%2void";System.ArgumentNullException.ArgumentNullException(string?)*$
-"
-%1System.ArgumentNullException*
-""*
-3*±
-2ë
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csÆ Ø( ˝
-˙
-ë
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csÆ Æ(&
-%3YesSql.ISession"__id*G*E&
-$OrchardCore.Users.Services.UserStore"
-_sessionYesSql.ISessionå
-â
-ë
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csÆ Æ(n
-%4YesSql.IQuery<T, TIndex>"ÖYesSql.QueryExtensions.Query<T, TIndex>(YesSql.ISession, System.Linq.Expressions.Expression<System.Func<TIndex, bool>>, bool, string)*"
-YesSql.QueryExtensions*
-
-%3YesSql.ISession*
-""*
-""*
-""êç
-ë
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csÆ Æ(z*
-%5$System.Threading.Tasks.Task<TResult>"YesSql.IQuery<T>.ListAsync()* 
-
-%4YesSql.IQuery<T, TIndex>2ListAsync()Ÿ
-÷
-ë
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csÆ Æ(z2
-users)System.Collections.Generic.IEnumerable<T>"__id*
-""ë
-é
-ë
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csØ Ø( 
-
-%6bool""object.operator ==(object, object)*
-"
-object*4
-2
-users)System.Collections.Generic.IEnumerable<T>*
-""*
-4
-5*Ú
-4ë
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csØ# Ø(4Ê„
-ë
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csØ# Ø(4)
-%10"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>¸
-˘
-ë
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csØ' Ø(2
-%11void")System.Collections.Generic.List<T>.List()*+
-)
-%10"System.Collections.Generic.List<T>Ù
-Ò
-ë
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csØ# Ø(4(
-%8"System.Collections.Generic.List<T>"__id*+
-)
-%10"System.Collections.Generic.List<T>Ù
-Ò
-ë
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csØ# Ø(4)
-%7#System.Collections.Generic.IList<T>"__id**
-(
-%8"System.Collections.Generic.List<T>*
-6*˙
-5ë
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csØ7 Ø(LÌ
-Í
-ë
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csØ7 Ø(L)
-%12"System.Collections.Generic.List<T>"WSystem.Linq.Enumerable.ToList<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
-System.Linq.Enumerable*4
-2
-users)System.Collections.Generic.IEnumerable<T>Ù
-Ò
-ë
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csØ7 Ø(L(
-%9"System.Collections.Generic.List<T>"__id*+
-)
-%12"System.Collections.Generic.List<T>Ù
-Ò
-ë
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csØ7 Ø(L)
-%7#System.Collections.Generic.IList<T>"__id**
-(
-%9"System.Collections.Generic.List<T>*
-6*€
-6ë
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.cs∞	 ∞(	"¡
-ë
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.csØ Ø(M+
-)
-%7#System.Collections.Generic.IList<T>*√
-3ë
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.cs∞	 ∞(	"©
-ë
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserStore.cs∞ ∞(	
-implicit return:
-normalizedRoleNamestring:7
-cancellationToken"System.Threading.CancellationTokenB(&
-$OrchardCore.Users.Services.UserStore

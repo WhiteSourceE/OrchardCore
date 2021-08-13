@@ -1,183 +1,0 @@
-
-1OrchardCore.Media.Azure.AdminController.Options()¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media.Azure\Controllers\AdminController.cs) (0"4*Ó
-0¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media.Azure\Controllers\AdminController.cs (cð
-í
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media.Azure\Controllers\AdminController.cs (,>
-%08Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*€*~)
-'OrchardCore.Media.Azure.AdminController"Q
-_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationService´
-±
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media.Azure\Controllers\AdminController.cs< (@,
-%1&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*+)
-'Microsoft.AspNetCore.Mvc.ControllerBaseÑ
-Î
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media.Azure\Controllers\AdminController.csB (c1
-%2+OrchardCore.Security.Permissions.Permission"__id*o*m%
-#OrchardCore.Media.Azure.Permissions"D
-ViewAzureMediaOptions+OrchardCore.Security.Permissions.Permission£
- 
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media.Azure\Controllers\AdminController.cs (d*
-%3$System.Threading.Tasks.Task<TResult>"ßMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission)*E"C
-AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*@
->
-%08Microsoft.AspNetCore.Authorization.IAuthorizationService*.
-,
-%1&System.Security.Claims.ClaimsPrincipal*3
-1
-%2+OrchardCore.Security.Permissions.Permission*
-1
-2*½
-1¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media.Azure\Controllers\AdminController.cs (½º
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media.Azure\Controllers\AdminController.cs (+
-%4%Microsoft.AspNetCore.Mvc.ForbidResult"0Microsoft.AspNetCore.Mvc.ControllerBase.Forbid()*+)
-'Microsoft.AspNetCore.Mvc.ControllerBase2Forbid()"Ó
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media.Azure\Controllers\AdminController.cs ( -
-+
-%4%Microsoft.AspNetCore.Mvc.ForbidResult*£,
-2¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media.Azure\Controllers\AdminController.cs '(—”
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media.Azure\Controllers\AdminController.cs %(9
-%53OrchardCore.Media.Azure.ViewModels.OptionsViewModel"3OrchardCore.Media.Azure.ViewModels.OptionsViewModel¸
-µ
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media.Azure\Controllers\AdminController.cs (,
-
-%6void"FOrchardCore.Media.Azure.ViewModels.OptionsViewModel.OptionsViewModel()*;
-9
-%53OrchardCore.Media.Azure.ViewModels.OptionsViewModelÐ
-Í
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media.Azure\Controllers\AdminController.cs!" !(*5
-%7/OrchardCore.Media.Azure.MediaBlobStorageOptions"__id*j*h)
-'OrchardCore.Media.Azure.AdminController";
-_options/OrchardCore.Media.Azure.MediaBlobStorageOptions±
-®
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media.Azure\Controllers\AdminController.cs!" !(:
-
-%8bool"COrchardCore.Media.Azure.MediaBlobStorageOptions.CreateContainer.get*7
-5
-%7/OrchardCore.Media.Azure.MediaBlobStorageOptionsÇ
-Ä
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media.Azure\Controllers\AdminController.cs! !(:
-
-%9bool"GOrchardCore.Media.Azure.ViewModels.OptionsViewModel.CreateContainer.set*;
-9
-%53OrchardCore.Media.Azure.ViewModels.OptionsViewModel*
-
-
-%8boolÑ
-Î
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media.Azure\Controllers\AdminController.cs"  "((6
-%10/OrchardCore.Media.Azure.MediaBlobStorageOptions"__id*j*h)
-'OrchardCore.Media.Azure.AdminController";
-_options/OrchardCore.Media.Azure.MediaBlobStorageOptions¸
-µ
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media.Azure\Controllers\AdminController.cs"  "(6
-%11string"FOrchardCore.FileStorage.AzureBlob.BlobStorageOptions.ContainerName.get*8
-6
-%10/OrchardCore.Media.Azure.MediaBlobStorageOptionsË
-È
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media.Azure\Controllers\AdminController.cs" "(6
-%12string"EOrchardCore.Media.Azure.ViewModels.OptionsViewModel.ContainerName.set*;
-9
-%53OrchardCore.Media.Azure.ViewModels.OptionsViewModel*
-
-%11stringÑ
-Î
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media.Azure\Controllers\AdminController.cs## #(+6
-%13/OrchardCore.Media.Azure.MediaBlobStorageOptions"__id*j*h)
-'OrchardCore.Media.Azure.AdminController";
-_options/OrchardCore.Media.Azure.MediaBlobStorageOptions»
-¸
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media.Azure\Controllers\AdminController.cs## #(<
-%14string"IOrchardCore.FileStorage.AzureBlob.BlobStorageOptions.ConnectionString.get*8
-6
-%13/OrchardCore.Media.Azure.MediaBlobStorageOptionsÎ
-Ë
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media.Azure\Controllers\AdminController.cs# #(<
-%15string"HOrchardCore.Media.Azure.ViewModels.OptionsViewModel.ConnectionString.set*;
-9
-%53OrchardCore.Media.Azure.ViewModels.OptionsViewModel*
-
-%14stringÑ
-Î
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media.Azure\Controllers\AdminController.cs$ $(#6
-%16/OrchardCore.Media.Azure.MediaBlobStorageOptions"__id*j*h)
-'OrchardCore.Media.Azure.AdminController";
-_options/OrchardCore.Media.Azure.MediaBlobStorageOptions³
-°
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media.Azure\Controllers\AdminController.cs$ $(,
-%17string"AOrchardCore.FileStorage.AzureBlob.BlobStorageOptions.BasePath.get*8
-6
-%16/OrchardCore.Media.Azure.MediaBlobStorageOptionsÆ
-Ã
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media.Azure\Controllers\AdminController.cs$ $(,
-%18string"@OrchardCore.Media.Azure.ViewModels.OptionsViewModel.BasePath.set*;
-9
-%53OrchardCore.Media.Azure.ViewModels.OptionsViewModel*
-
-%17string¨
-¥
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media.Azure\Controllers\AdminController.cs %(<
-model3OrchardCore.Media.Azure.ViewModels.OptionsViewModel"__id*;
-9
-%53OrchardCore.Media.Azure.ViewModels.OptionsViewModelß
-Ü
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media.Azure\Controllers\AdminController.cs' '(
-%19void"+orchardcore.media.azure/views/admin/options*
-
-%20*>
-<
-model3OrchardCore.Media.Azure.ViewModels.OptionsViewModel*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject* 
-
-%HttpContextItemsAllobject*!
-
-%HttpContextItemsHtmlobject"³
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media.Azure\Controllers\AdminController.cs' '(
-
-%19void*ã
-3¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media.Azure\Controllers\AdminController.cs(	 ((	"¹
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media.Azure\Controllers\AdminController.cs( ((	
-implicit return*ë
-4¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media.Azure\Controllers\AdminController.cs2 (2¼
-¹
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media.Azure\Controllers\AdminController.cs) (0
-%21"__entrypoint*
-0B+)
-'OrchardCore.Media.Azure.AdminController

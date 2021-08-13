@@ -1,126 +1,0 @@
-
-§OrchardCore.Taxonomies.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, System.IServiceProvider)Œ
-D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Startup.csb b(&"0*Þ&
-0Œ
-D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Startup.csd x(lº
-·
-Œ
-D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Startup.csd) d(Q
-%0string"SOrchardCore.Mvc.Core.Utilities.ControllerTypeExtensions.ControllerName(System.Type)*;"9
-7OrchardCore.Mvc.Core.Utilities.ControllerTypeExtensions*
-""Ê
-Ç
-Œ
-D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Startup.csd d(Q 
-taxonomyControllerNamestring"__id*
-
-%0string•
-’
-Œ
-D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Startup.csi i(&$
-%1OrchardCore.Admin.AdminOptions"__id*U*S 
-OrchardCore.Taxonomies.Startup"/
-_adminOptionsOrchardCore.Admin.AdminOptionsû
-ø
-Œ
-D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Startup.csi i(5
-%2string"1OrchardCore.Admin.AdminOptions.AdminUrlPrefix.get*&
-$
-%1OrchardCore.Admin.AdminOptions×
-Ô
-Œ
-D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Startup.csi i(Q
-%3string"__concat*
-
-%2string*
-/Taxonomies/Create/{id}‰
-†
-Œ
-D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Startup.csf k(L
-%4FMicrosoft.AspNetCore.Builder.ControllerActionEndpointConventionBuilder"ÀMicrosoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapAreaControllerRoute(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, string, string, object, object, object)*I"G
-EMicrosoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions*>
-<
-routes2Microsoft.AspNetCore.Routing.IEndpointRouteBuilder*
-Taxonomies.Create*
-OrchardCore.Taxonomies*
-
-%3string*
-""*
-""*
-""•
-’
-Œ
-D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Startup.csp p(&$
-%5OrchardCore.Admin.AdminOptions"__id*U*S 
-OrchardCore.Taxonomies.Startup"/
-_adminOptionsOrchardCore.Admin.AdminOptionsû
-ø
-Œ
-D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Startup.csp p(5
-%6string"1OrchardCore.Admin.AdminOptions.AdminUrlPrefix.get*&
-$
-%5OrchardCore.Admin.AdminOptionsù
-ö
-Œ
-D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Startup.csp p(s
-%7string"__concat*
-
-%6string*=;
-9/Taxonomies/Edit/{taxonomyContentItemId}/{taxonomyItemId}‡
-„
-Œ
-D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Startup.csm r(L
-%8FMicrosoft.AspNetCore.Builder.ControllerActionEndpointConventionBuilder"ÀMicrosoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapAreaControllerRoute(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, string, string, object, object, object)*I"G
-EMicrosoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions*>
-<
-routes2Microsoft.AspNetCore.Routing.IEndpointRouteBuilder*
-Taxonomies.Edit*
-OrchardCore.Taxonomies*
-
-%7string*
-""*
-""*
-""•
-’
-Œ
-D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Startup.csw w(&$
-%9OrchardCore.Admin.AdminOptions"__id*U*S 
-OrchardCore.Taxonomies.Startup"/
-_adminOptionsOrchardCore.Admin.AdminOptionsü
-ù
-Œ
-D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Startup.csw w(5
-%10string"1OrchardCore.Admin.AdminOptions.AdminUrlPrefix.get*&
-$
-%9OrchardCore.Admin.AdminOptionsý
-ú
-Œ
-D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Startup.csw w(u
-%11string"__concat*
-
-%10string*?=
-;/Taxonomies/Delete/{taxonomyContentItemId}/{taxonomyItemId}‹
-ˆ
-Œ
-D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Startup.cst y(M
-%12FMicrosoft.AspNetCore.Builder.ControllerActionEndpointConventionBuilder"ÀMicrosoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapAreaControllerRoute(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder, string, string, string, object, object, object)*I"G
-EMicrosoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions*>
-<
-routes2Microsoft.AspNetCore.Routing.IEndpointRouteBuilder*
-Taxonomies.Delete*
-OrchardCore.Taxonomies*
-
-%11string*
-""*
-""*
-""*
-1*¹
-1Œ
-D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Startup.csz	 z(	"¤
-Œ
-D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Taxonomies\Startup.csz z(	
-implicit return:7
-app0Microsoft.AspNetCore.Builder.IApplicationBuilder:<
-routes2Microsoft.AspNetCore.Routing.IEndpointRouteBuilder:*
-serviceProviderSystem.IServiceProviderB" 
-OrchardCore.Taxonomies.Startup

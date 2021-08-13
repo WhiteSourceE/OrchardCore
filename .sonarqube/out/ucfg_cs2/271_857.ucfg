@@ -1,475 +1,0 @@
-
-{OrchardCore.Workflows.Controllers.ActivityController.Create(string, OrchardCore.Workflows.ViewModels.ActivityEditViewModel)¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csT) T(/"9*ﬁ
-0¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csV V(]ˇ
-¸
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csV V(,>
-%08Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*é*ã6
-4OrchardCore.Workflows.Controllers.ActivityController"Q
-_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationServiceµ
-≤
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csV< V(@,
-%1&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*+)
-'Microsoft.AspNetCore.Mvc.ControllerBase 
-«
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csVB V(]1
-%2+OrchardCore.Security.Permissions.Permission"__id*g*e#
-!OrchardCore.Workflows.Permissions">
-ManageWorkflows+OrchardCore.Security.Permissions.Permission§
-°
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csV V(^*
-%3$System.Threading.Tasks.Task<TResult>"ﬂMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission)*E"C
-AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*@
->
-%08Microsoft.AspNetCore.Authorization.IAuthorizationService*.
-,
-%1&System.Security.Claims.ClaimsPrincipal*3
-1
-%2+OrchardCore.Security.Permissions.Permission*
-1
-2*¿
-1¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csX X(æª
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csX X(+
-%4%Microsoft.AspNetCore.Mvc.ForbidResult"0Microsoft.AspNetCore.Mvc.ControllerBase.Forbid()*+)
-'Microsoft.AspNetCore.Mvc.ControllerBase2Forbid()"‘
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csX X( -
-+
-%4%Microsoft.AspNetCore.Mvc.ForbidResult*Â(
-2¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.cs[ _(#û
-õ
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.cs[% [(-
-%5YesSql.ISession"__id*W*U6
-4OrchardCore.Workflows.Controllers.ActivityController"
-_sessionYesSql.ISession¡
-æ
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.cs[E [(Y	
-%6int"IOrchardCore.Workflows.ViewModels.ActivityEditViewModel.WorkflowTypeId.get*A
-?
-model6OrchardCore.Workflows.ViewModels.ActivityEditViewModel‰
-·
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.cs[% [(Z*
-%7$System.Threading.Tasks.Task<TResult>"BYesSql.SessionExtensions.GetAsync<T>(YesSql.ISession, int, string)*"
-YesSql.SessionExtensions*
-
-%5YesSql.ISession*
-	
-%6int*
-""Ò
-Ó
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.cs[ [(Z9
-workflowType)OrchardCore.Workflows.Models.WorkflowType"__id*
-""Ê
-„
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.cs\ \(+5
-%8/OrchardCore.Workflows.Services.IActivityLibrary"__id**}6
-4OrchardCore.Workflows.Controllers.ActivityController"C
-_activityLibrary/OrchardCore.Workflows.Services.IActivityLibraryóî
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.cs\ \(M0
-%9*OrchardCore.Workflows.Activities.IActivity"KOrchardCore.Workflows.Services.IActivityLibrary.InstantiateActivity(string)*7
-5
-%8/OrchardCore.Workflows.Services.IActivityLibrary*
-
-activityNamestring2InstantiateActivity(string)ö
-ó
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.cs\ \(M6
-activity*OrchardCore.Workflows.Activities.IActivity"__id*2
-0
-%9*OrchardCore.Workflows.Activities.IActivity˛
-˚
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.cs]' ](>=
-%106OrchardCore.Workflows.Services.IActivityDisplayManager"__id*é*ã6
-4OrchardCore.Workflows.Controllers.ActivityController"Q
-_activityDisplayManager6OrchardCore.Workflows.Services.IActivityDisplayManagerç
-ä
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.cs][ ](oF
-%11?OrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessor"__id*î*ë6
-4OrchardCore.Workflows.Controllers.ActivityController"W
-_updateModelAccessor?OrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessorñì
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.cs][ ](|>
-%127OrchardCore.DisplayManagement.ModelBinding.IUpdateModel"POrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessor.ModelUpdater.get*H
-F
-%11?OrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessor2ModelUpdater.getûõ
-£
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.cs]' ](ä+
-%13$System.Threading.Tasks.Task<TResult>"ñOrchardCore.DisplayManagement.IDisplayManager<TModel>.UpdateEditorAsync(TModel, OrchardCore.DisplayManagement.ModelBinding.IUpdateModel, bool, string)*?
-=
-%106OrchardCore.Workflows.Services.IActivityDisplayManager*8
-6
-activity*OrchardCore.Workflows.Activities.IActivity*@
->
-%127OrchardCore.DisplayManagement.ModelBinding.IUpdateModel*
-""*
-""2`UpdateEditorAsync(TModel, OrchardCore.DisplayManagement.ModelBinding.IUpdateModel, bool, string)Ô
-Ï
-£
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.cs] ](ä6
-activityEditor$OrchardCore.DisplayManagement.IShape"__id*
-""–
-Õ
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.cs_ _(A
-%14:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary"6Microsoft.AspNetCore.Mvc.ControllerBase.ModelState.get*+)
-'Microsoft.AspNetCore.Mvc.ControllerBase¬
-ø
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.cs_ _(#
-%15bool"FMicrosoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary.IsValid.get*C
-A
-%14:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary*
-3
-4*ê
-3¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csa d(!ﬁ€
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csa a('9
-%162OrchardCore.DisplayManagement.Shapes.ShapeMetadata"1OrchardCore.DisplayManagement.IShape.Metadata.get*8
-6
-activityEditor$OrchardCore.DisplayManagement.IShape2Metadata.getƒ
-¡
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csa a(>
-%17string";OrchardCore.DisplayManagement.Shapes.ShapeMetadata.Type.set*;
-9
-%162OrchardCore.DisplayManagement.Shapes.ShapeMetadata*
-Activity_Editù
-ö
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csb b()1
-%18*OrchardCore.Workflows.Activities.IActivity"COrchardCore.Workflows.ViewModels.ActivityEditViewModel.Activity.set*A
-?
-model6OrchardCore.Workflows.ViewModels.ActivityEditViewModel*8
-6
-activity*OrchardCore.Workflows.Activities.IActivityÄ
-˝
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csc c(5
-%19dynamic"IOrchardCore.Workflows.ViewModels.ActivityEditViewModel.ActivityEditor.set*A
-?
-model6OrchardCore.Workflows.ViewModels.ActivityEditViewModel*8
-6
-activityEditor$OrchardCore.DisplayManagement.IShape„
-‡
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csd d("
-%20void"+orchardcore.workflows/views/activity/create*
-
-%21*A
-?
-model6OrchardCore.Workflows.ViewModels.ActivityEditViewModel*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject* 
-
-%HttpContextItemsAllobject*!
-
-%HttpContextItemsHtmlobject"¥
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csd d(#
-
-%20void*¸5
-4¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csg r(1âÜ
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csg! l(2
-%22+OrchardCore.Workflows.Models.ActivityRecord"+OrchardCore.Workflows.Models.ActivityRecord©
-¶
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csg% g(3
-%23void"<OrchardCore.Workflows.Models.ActivityRecord.ActivityRecord()*4
-2
-%22+OrchardCore.Workflows.Models.ActivityRecord¡
-æ
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csi i(-
-%24string"EOrchardCore.Workflows.ViewModels.ActivityEditViewModel.ActivityId.get*A
-?
-model6OrchardCore.Workflows.ViewModels.ActivityEditViewModel∫
-∑
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csi i(-
-%25string":OrchardCore.Workflows.Models.ActivityRecord.ActivityId.set*4
-2
-%22+OrchardCore.Workflows.Models.ActivityRecord*
-
-%24string∞≠
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csj j($
-%26string"3OrchardCore.Workflows.Activities.IActivity.Name.get*8
-6
-activity*OrchardCore.Workflows.Activities.IActivity2Name.get¥
-±
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csj j($
-%27string"4OrchardCore.Workflows.Models.ActivityRecord.Name.set*4
-2
-%22+OrchardCore.Workflows.Models.ActivityRecord*
-
-%26string“œ
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csk k(0#
-%28Newtonsoft.Json.Linq.JObject"9OrchardCore.Workflows.Activities.IActivity.Properties.get*8
-6
-activity*OrchardCore.Workflows.Activities.IActivity2Properties.get÷
-”
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csk k(0#
-%29Newtonsoft.Json.Linq.JObject"*OrchardCore.Entities.Entity.Properties.set*4
-2
-%22+OrchardCore.Workflows.Models.ActivityRecord*%
-#
-%28Newtonsoft.Json.Linq.JObject£
-†
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csg l(=
-activityRecord+OrchardCore.Workflows.Models.ActivityRecord"__id*4
-2
-%22+OrchardCore.Workflows.Models.ActivityRecordÀ
-»
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csm m(#*
-%30#System.Collections.Generic.IList<T>"8OrchardCore.Workflows.Models.WorkflowType.Activities.get*;
-9
-workflowType)OrchardCore.Workflows.Models.WorkflowType¥
-±
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csm m(7
-%31void"
-__arrayAdd*,
-*
-%30#System.Collections.Generic.IList<T>*: *?
-=
-activityRecord+OrchardCore.Workflows.Models.ActivityRecordü
-ú
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.cso o(
-%32YesSql.ISession"__id*W*U6
-4OrchardCore.Workflows.Controllers.ActivityController"
-_sessionYesSql.ISession‰·
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.cso o('
-%33void"*YesSql.ISession.Save(object, bool, string)*
-
-%32YesSql.ISession*;
-9
-workflowType)OrchardCore.Workflows.Models.WorkflowType*
-""*
-""2Save(object, bool, string)ﬁ
-€
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csp p(5
-%34.OrchardCore.DisplayManagement.Notify.INotifier"__id*w*u6
-4OrchardCore.Workflows.Controllers.ActivityController";
-	_notifier.OrchardCore.DisplayManagement.Notify.INotifier‚
-ﬂ
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csp p(;
-%354Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer"__id*u*s6
-4OrchardCore.Workflows.Controllers.ActivityController"9
-H4Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer§°
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csp p(?@
-%369Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString"EMicrosoft.AspNetCore.Mvc.Localization.IHtmlLocalizer.this[string].get*=
-;
-%354Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer* 
-Activity added successfully.2this[string].getú
-ô
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csp p(@
-%37void"™OrchardCore.DisplayManagement.Notify.NotifierExtensions.Success(OrchardCore.DisplayManagement.Notify.INotifier, Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString)*;"9
-7OrchardCore.DisplayManagement.Notify.NotifierExtensions*7
-5
-%34.OrchardCore.DisplayManagement.Notify.INotifier*B
-@
-%369Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString≤
-Ø
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csr r(*
-%38#Microsoft.AspNetCore.Mvc.IUrlHelper"/Microsoft.AspNetCore.Mvc.ControllerBase.Url.get*+)
-'Microsoft.AspNetCore.Mvc.ControllerBase¿
-Ω
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csr" r(1
-%39string"DOrchardCore.Workflows.ViewModels.ActivityEditViewModel.ReturnUrl.get*A
-?
-model6OrchardCore.Workflows.ViewModels.ActivityEditViewModel¿Ω
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csr r(2
-%40bool"6Microsoft.AspNetCore.Mvc.IUrlHelper.IsLocalUrl(string)*,
-*
-%38#Microsoft.AspNetCore.Mvc.IUrlHelper*
-
-%39string2IsLocalUrl(string)*
-5
-6*È
-5¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csr5 r(\¿
-Ω
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csrM r(\
-%44string"DOrchardCore.Workflows.ViewModels.ActivityEditViewModel.ReturnUrl.get*A
-?
-model6OrchardCore.Workflows.ViewModels.ActivityEditViewModel‚ﬂ
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csrD r(].
-%45'Microsoft.AspNetCore.Mvc.RedirectResult"8Microsoft.AspNetCore.Mvc.ControllerBase.Redirect(string)*+)
-'Microsoft.AspNetCore.Mvc.ControllerBase*
-
-%44string2Redirect(string)Á
-‰
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csr5 r(]
-%46"__id*0
-.
-%45'Microsoft.AspNetCore.Mvc.RedirectResultæ
-ª
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csr5 r(]
-%42"__id*
-
-%46Ê
-„
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csr5 r(]-
-%41&Microsoft.AspNetCore.Mvc.IActionResult"__id*
-
-%42*
-7*Â
-6£
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csr` r(®ƒ
-¡
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csrî r(®
-
-%47int"IOrchardCore.Workflows.ViewModels.ActivityEditViewModel.WorkflowTypeId.get*A
-?
-model6OrchardCore.Workflows.ViewModels.ActivityEditViewModelÆ´
-£
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csr` r(´6
-%48/Microsoft.AspNetCore.Mvc.RedirectToActionResult"PMicrosoft.AspNetCore.Mvc.ControllerBase.RedirectToAction(string, string, object)*+)
-'Microsoft.AspNetCore.Mvc.ControllerBase*
-Edit*
-WorkflowType*
-""2(RedirectToAction(string, string, object)°
-û
-£
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csr` r(´6
-%43/Microsoft.AspNetCore.Mvc.RedirectToActionResult"__id*8
-6
-%48/Microsoft.AspNetCore.Mvc.RedirectToActionResultò
-ï
-£
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csr` r(´-
-%41&Microsoft.AspNetCore.Mvc.IActionResult"__id*8
-6
-%43/Microsoft.AspNetCore.Mvc.RedirectToActionResult*
-7*Ç
-7¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.css	 s(	"◊
-£
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csr r(¨/
--
-%41&Microsoft.AspNetCore.Mvc.IActionResult*Â
-8¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.css	 s(	"∫
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.css s(	
-implicit return*û
-9¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csTa T(a•
-¢
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csT) T(/m
-?
-model6OrchardCore.Workflows.ViewModels.ActivityEditViewModel"*
-<ActivityEditor>k__BackingFielddynamic"__entrypointî
-ë
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csT) T(/\
-?
-model6OrchardCore.Workflows.ViewModels.ActivityEditViewModel"
-ActivityEditordynamic"__entrypoint√
-¿
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csT) T(/ä
-?
-model6OrchardCore.Workflows.ViewModels.ActivityEditViewModel"G
-<Activity>k__BackingField*OrchardCore.Workflows.Activities.IActivity"__entrypoint±
-Æ
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csT) T(/y
-?
-model6OrchardCore.Workflows.ViewModels.ActivityEditViewModel"6
-Activity*OrchardCore.Workflows.Activities.IActivity"__entrypoint†
-ù
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csT) T(/h
-?
-model6OrchardCore.Workflows.ViewModels.ActivityEditViewModel"%
-<ActivityId>k__BackingFieldstring"__entrypointè
-å
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csT) T(/W
-?
-model6OrchardCore.Workflows.ViewModels.ActivityEditViewModel"
-
-ActivityIdstring"__entrypointü
-ú
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csT) T(/g
-?
-model6OrchardCore.Workflows.ViewModels.ActivityEditViewModel"$
-<ReturnUrl>k__BackingFieldstring"__entrypointé
-ã
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csT) T(/V
-?
-model6OrchardCore.Workflows.ViewModels.ActivityEditViewModel"
-	ReturnUrlstring"__entrypoint◊
-‘
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csT) T(/
-%49"__entrypoint*
-
-activityNamestringô
-ñ
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csS	 S(
-%50"
-__annotate*B@
->Microsoft.AspNetCore.Mvc.HttpPostAttribute.HttpPostAttribute()*
-
-activityNamestring◊
-‘
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\ActivityController.csT0 T(C
-activityNamestring"__annotation*
-
-%50*
-0:
-activityNamestring:?
-model6OrchardCore.Workflows.ViewModels.ActivityEditViewModelB86
-4OrchardCore.Workflows.Controllers.ActivityController

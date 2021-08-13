@@ -1,9 +1,0 @@
-Æ
-ºD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\obj\Debug\net5.0\Razor\Views\RemoteClient\Create.cshtml.g.csutf-8Ä
-¸D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\obj\Debug\net5.0\Razor\Views\RemoteClient\Edit.cshtml.g.csutf-8Å
-¹D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\obj\Debug\net5.0\Razor\Views\RemoteClient\Index.cshtml.g.csutf-8È
-¼D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\obj\Debug\net5.0\Razor\Views\RemoteInstance\Create.cshtml.g.csutf-8Æ
-ºD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\obj\Debug\net5.0\Razor\Views\RemoteInstance\Edit.cshtml.g.csutf-8Ç
-»D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\obj\Debug\net5.0\Razor\Views\RemoteInstance\Index.cshtml.g.csutf-8¿
-³D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.csutf-8Ó
-ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Deployment.Remote\obj\Debug\net5.0\OrchardCore.Deployment.Remote.RazorTargetAssemblyInfo.csutf-8

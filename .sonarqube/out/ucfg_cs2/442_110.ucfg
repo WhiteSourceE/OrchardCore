@@ -1,110 +1,0 @@
-
-IOrchardCore.Users.Services.UserService.GetForgotPasswordUserAsync(string)ì
-ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csâ! â(;"0*ï
-0ì
-ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csã ã(8Ò
-Ó
-ì
-ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csã ã(9
-
-%0bool""string.IsNullOrWhiteSpace(string?)*
-"
-string*
-
-userIdentifierstring*
-1
-2*Â
-1ì
-ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csç ç(8®
-•
-ì
-ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csç ç(9*
-%1$System.Threading.Tasks.Task<TResult>"8System.Threading.Tasks.Task.FromResult<TResult>(TResult)*"
-System.Threading.Tasks.Task*
-"""û
-ì
-ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csç ç(:
-""*¯
-2ì
-ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csê í(«
-ƒ
-ì
-ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csê ê()6
-%20Microsoft.AspNetCore.Identity.UserManager<TUser>"__id*n*l(
-&OrchardCore.Users.Services.UserService"@
-_userManager0Microsoft.AspNetCore.Identity.UserManager<TUser>Ä˝
-ì
-ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csê ê(J*
-%3$System.Threading.Tasks.Task<TResult>"IMicrosoft.AspNetCore.Identity.UserManager<TUser>.FindByEmailAsync(string)*8
-6
-%20Microsoft.AspNetCore.Identity.UserManager<TUser>*
-
-userIdentifierstring2FindByEmailAsync(string)≠
-™
-ì
-ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csê ê(R
-%4"__id*
-""Œ
-À
-ì
-ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csê ê(R%
-userOrchardCore.Users.Models.User"__id*
-
-%4Ü
-É
-ì
-ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csí í(
-
-%5bool""object.operator ==(object, object)*
-"
-object*'
-%
-userOrchardCore.Users.Models.User*
-""*
-3
-4*Â
-3ì
-ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csî î(8®
-•
-ì
-ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csî î(9*
-%6$System.Threading.Tasks.Task<TResult>"8System.Threading.Tasks.Task.FromResult<TResult>(TResult)*"
-System.Threading.Tasks.Task*
-"""û
-ì
-ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csî î(:
-""*⁄
-
-4ì
-ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csó ô(«
-ƒ
-ì
-ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csó$ ó(06
-%70Microsoft.AspNetCore.Identity.UserManager<TUser>"__id*n*l(
-&OrchardCore.Users.Services.UserService"@
-_userManager0Microsoft.AspNetCore.Identity.UserManager<TUser>©¶
-ì
-ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csó$ ó(V*
-%8$System.Threading.Tasks.Task<TResult>"WMicrosoft.AspNetCore.Identity.UserManager<TUser>.GeneratePasswordResetTokenAsync(TUser)*8
-6
-%70Microsoft.AspNetCore.Identity.UserManager<TUser>*'
-%
-userOrchardCore.Users.Models.User2&GeneratePasswordResetTokenAsync(TUser)Ü
-É
-ì
-ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csó ó(V
-%9string",OrchardCore.Users.Models.User.ResetToken.set*'
-%
-userOrchardCore.Users.Models.User*
-"""ø
-ì
-ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csô ô('
-%
-userOrchardCore.Users.Models.User*«
-5ì
-ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csö	 ö(	"´
-ì
-ÜD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Users.Core\Services\UserService.csö ö(	
-implicit return:
-userIdentifierstringB*(
-&OrchardCore.Users.Services.UserService

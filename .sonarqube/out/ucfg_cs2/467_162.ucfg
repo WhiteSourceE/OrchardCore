@@ -1,440 +1,0 @@
-
-nOrchardCore.AdminMenu.Controllers.NodeController.Edit(OrchardCore.AdminMenu.ViewModels.AdminNodeEditViewModel)†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs…) …(-"10*–
-0†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.csÀ À(]˘
-ˆ
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.csÀ À(,>
-%08Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*ä*á2
-0OrchardCore.AdminMenu.Controllers.NodeController"Q
-_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationService≥
-∞
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.csÀ< À(@,
-%1&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*+)
-'Microsoft.AspNetCore.Mvc.ControllerBase»
-≈
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.csÀB À(]1
-%2+OrchardCore.Security.Permissions.Permission"__id*g*e#
-!OrchardCore.AdminMenu.Permissions">
-ManageAdminMenu+OrchardCore.Security.Permissions.Permission¢
-ü
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.csÀ À(^*
-%3$System.Threading.Tasks.Task<TResult>"ﬂMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission)*E"C
-AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*@
->
-%08Microsoft.AspNetCore.Authorization.IAuthorizationService*.
-,
-%1&System.Security.Claims.ClaimsPrincipal*3
-1
-%2+OrchardCore.Security.Permissions.Permission*
-1
-2*∫
-1†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.csÕ Õ(ºπ
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.csÕ Õ(+
-%4%Microsoft.AspNetCore.Mvc.ForbidResult"0Microsoft.AspNetCore.Mvc.ControllerBase.Forbid()*+)
-'Microsoft.AspNetCore.Mvc.ControllerBase2Forbid()"“
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.csÕ Õ( -
-+
-%4%Microsoft.AspNetCore.Mvc.ForbidResult*¸
-2†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs– ”(!„
-‡
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs–& –(76
-%50OrchardCore.AdminMenu.Services.IAdminMenuService"__id*}*{2
-0OrchardCore.AdminMenu.Controllers.NodeController"E
-_adminMenuService0OrchardCore.AdminMenu.Services.IAdminMenuServiceÒÓ
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs–& –(P*
-%6$System.Threading.Tasks.Task<TResult>"IOrchardCore.AdminMenu.Services.IAdminMenuService.LoadAdminMenuListAsync()*8
-6
-%50OrchardCore.AdminMenu.Services.IAdminMenuService2LoadAdminMenuListAsync()Ò
-Ó
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs– –(P;
-adminMenuList*OrchardCore.AdminMenu.Models.AdminMenuList"__id*
-""„
-‡
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs— —(-6
-%70OrchardCore.AdminMenu.Services.IAdminMenuService"__id*}*{2
-0OrchardCore.AdminMenu.Controllers.NodeController"E
-_adminMenuService0OrchardCore.AdminMenu.Services.IAdminMenuService¡
-æ
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs—N —(_
-%8string"GOrchardCore.AdminMenu.ViewModels.AdminNodeEditViewModel.AdminMenuId.get*B
-@
-model7OrchardCore.AdminMenu.ViewModels.AdminNodeEditViewModelöó
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs— —(`,
-%9&OrchardCore.AdminMenu.Models.AdminMenu"uOrchardCore.AdminMenu.Services.IAdminMenuService.GetAdminMenuById(OrchardCore.AdminMenu.Models.AdminMenuList, string)*8
-6
-%70OrchardCore.AdminMenu.Services.IAdminMenuService*=
-;
-adminMenuList*OrchardCore.AdminMenu.Models.AdminMenuList*
-
-%8string2DGetAdminMenuById(OrchardCore.AdminMenu.Models.AdminMenuList, string)ë
-é
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs— —(`3
-	adminMenu&OrchardCore.AdminMenu.Models.AdminMenu"__id*.
-,
-%9&OrchardCore.AdminMenu.Models.AdminMenu¢
-ü
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs” ”(!
-%10bool""object.operator ==(object, object)*
-"
-object*5
-3
-	adminMenu&OrchardCore.AdminMenu.Models.AdminMenu*
-""*
-3
-4*ƒ
-3†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs’ ’(!√¿
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs’ ’(!.
-%11'Microsoft.AspNetCore.Mvc.NotFoundResult"2Microsoft.AspNetCore.Mvc.ControllerBase.NotFound()*+)
-'Microsoft.AspNetCore.Mvc.ControllerBase2
-NotFound()"’
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs’ ’("0
-.
-%11'Microsoft.AspNetCore.Mvc.NotFoundResult*ã
-4†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.csÿ ⁄( ¬
-ø
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.csÿ5 ÿ(F
-%12string"GOrchardCore.AdminMenu.ViewModels.AdminNodeEditViewModel.AdminNodeId.get*B
-@
-model7OrchardCore.AdminMenu.ViewModels.AdminNodeEditViewModel›
-⁄
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.csÿ ÿ(G-
-%13&OrchardCore.AdminMenu.Models.AdminNode">OrchardCore.AdminMenu.Models.AdminMenu.GetMenuItemById(string)*5
-3
-	adminMenu&OrchardCore.AdminMenu.Models.AdminMenu*
-
-%12stringë
-é
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.csÿ ÿ(G2
-treeNode&OrchardCore.AdminMenu.Models.AdminNode"__id*/
--
-%13&OrchardCore.AdminMenu.Models.AdminNode°
-û
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs⁄ ⁄( 
-%14bool""object.operator ==(object, object)*
-"
-object*4
-2
-treeNode&OrchardCore.AdminMenu.Models.AdminNode*
-""*
-5
-6*ƒ
-5†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs‹ ‹(!√¿
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs‹ ‹(!.
-%15'Microsoft.AspNetCore.Mvc.NotFoundResult"2Microsoft.AspNetCore.Mvc.ControllerBase.NotFound()*+)
-'Microsoft.AspNetCore.Mvc.ControllerBase2
-NotFound()"’
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs‹ ‹("0
-.
-%15'Microsoft.AspNetCore.Mvc.NotFoundResult*’
-6†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.csﬂ ·("Ì
-Í
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.csﬂ ﬂ(.<
-%165OrchardCore.DisplayManagement.IDisplayManager<TModel>"__id*Ä*~2
-0OrchardCore.AdminMenu.Controllers.NodeController"H
-_displayManager5OrchardCore.DisplayManagement.IDisplayManager<TModel>á
-Ñ
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.csﬂT ﬂ(hF
-%17?OrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessor"__id*ê*ç2
-0OrchardCore.AdminMenu.Controllers.NodeController"W
-_updateModelAccessor?OrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessorîë
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.csﬂT ﬂ(u>
-%187OrchardCore.DisplayManagement.ModelBinding.IUpdateModel"POrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessor.ModelUpdater.get*H
-F
-%17?OrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessor2ModelUpdater.getóî
-°
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.csﬂ ﬂ(Ñ+
-%19$System.Threading.Tasks.Task<TResult>"ñOrchardCore.DisplayManagement.IDisplayManager<TModel>.UpdateEditorAsync(TModel, OrchardCore.DisplayManagement.ModelBinding.IUpdateModel, bool, string)*>
-<
-%165OrchardCore.DisplayManagement.IDisplayManager<TModel>*4
-2
-treeNode&OrchardCore.AdminMenu.Models.AdminNode*@
->
-%187OrchardCore.DisplayManagement.ModelBinding.IUpdateModel*
-""*
-""2`UpdateEditorAsync(TModel, OrchardCore.DisplayManagement.ModelBinding.IUpdateModel, bool, string)Â
-‚
-°
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.csﬂ ﬂ(Ñ.
-editor$OrchardCore.DisplayManagement.IShape"__id*
-""Œ
-À
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs· ·(A
-%20:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary"6Microsoft.AspNetCore.Mvc.ControllerBase.ModelState.get*+)
-'Microsoft.AspNetCore.Mvc.ControllerBase¿
-Ω
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs· ·("
-%21bool"FMicrosoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary.IsValid.get*C
-A
-%20:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary*
-7
-8*Á%
-7†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs„ È(Rº
-π
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs„$ „(2
-
-%22int"DOrchardCore.AdminMenu.ViewModels.AdminNodeEditViewModel.Priority.get*B
-@
-model7OrchardCore.AdminMenu.ViewModels.AdminNodeEditViewModel§
-°
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs„ „(2
-
-%23int",OrchardCore.Navigation.MenuItem.Priority.set*4
-2
-treeNode&OrchardCore.AdminMenu.Models.AdminNode*
-
-
-%22intø
-º
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs‰$ ‰(2
-%24string"DOrchardCore.AdminMenu.ViewModels.AdminNodeEditViewModel.Position.get*B
-@
-model7OrchardCore.AdminMenu.ViewModels.AdminNodeEditViewModel™
-ß
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs‰ ‰(2
-%25string",OrchardCore.Navigation.MenuItem.Position.set*4
-2
-treeNode&OrchardCore.AdminMenu.Models.AdminNode*
-
-%24string‰
-·
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.csÊ Ê('7
-%260OrchardCore.AdminMenu.Services.IAdminMenuService"__id*}*{2
-0OrchardCore.AdminMenu.Controllers.NodeController"E
-_adminMenuService0OrchardCore.AdminMenu.Services.IAdminMenuService”–
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.csÊ Ê(<"
-%27System.Threading.Tasks.Task"bOrchardCore.AdminMenu.Services.IAdminMenuService.SaveAsync(OrchardCore.AdminMenu.Models.AdminMenu)*9
-7
-%260OrchardCore.AdminMenu.Services.IAdminMenuService*5
-3
-	adminMenu&OrchardCore.AdminMenu.Models.AdminMenu21SaveAsync(OrchardCore.AdminMenu.Models.AdminMenu)ÿ
-’
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.csË Ë(5
-%28.OrchardCore.DisplayManagement.Notify.INotifier"__id*s*q2
-0OrchardCore.AdminMenu.Controllers.NodeController";
-	_notifier.OrchardCore.DisplayManagement.Notify.INotifier‹
-Ÿ
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.csË" Ë(#;
-%294Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer"__id*q*o2
-0OrchardCore.AdminMenu.Controllers.NodeController"9
-H4Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer¶£
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.csË" Ë(G@
-%309Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString"EMicrosoft.AspNetCore.Mvc.Localization.IHtmlLocalizer.this[string].get*=
-;
-%294Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer*$"
- Admin node updated successfully.2this[string].getö
-ó
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.csË Ë(H
-%31void"™OrchardCore.DisplayManagement.Notify.NotifierExtensions.Success(OrchardCore.DisplayManagement.Notify.INotifier, Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString)*;"9
-7OrchardCore.DisplayManagement.Notify.NotifierExtensions*7
-5
-%28.OrchardCore.DisplayManagement.Notify.INotifier*B
-@
-%309Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString¬
-ø
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.csÈA È(R
-%32string"GOrchardCore.AdminMenu.ViewModels.AdminNodeEditViewModel.AdminMenuId.get*B
-@
-model7OrchardCore.AdminMenu.ViewModels.AdminNodeEditViewModeláÑ
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.csÈ È(U6
-%33/Microsoft.AspNetCore.Mvc.RedirectToActionResult"HMicrosoft.AspNetCore.Mvc.ControllerBase.RedirectToAction(string, object)*+)
-'Microsoft.AspNetCore.Mvc.ControllerBase*
-""*
-""2 RedirectToAction(string, object)"›
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.csÈ È(V8
-6
-%33/Microsoft.AspNetCore.Mvc.RedirectToActionResult*∞
-8†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.csÏ (ÿ
-’
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.csÏ Ï(5
-%34.OrchardCore.DisplayManagement.Notify.INotifier"__id*s*q2
-0OrchardCore.AdminMenu.Controllers.NodeController";
-	_notifier.OrchardCore.DisplayManagement.Notify.INotifier‹
-Ÿ
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.csÏ Ï(;
-%354Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer"__id*q*o2
-0OrchardCore.AdminMenu.Controllers.NodeController"9
-H4Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer´®
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.csÏ Ï(F@
-%369Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString"EMicrosoft.AspNetCore.Mvc.Localization.IHtmlLocalizer.this[string].get*=
-;
-%354Microsoft.AspNetCore.Mvc.Localization.IHtmlLocalizer*)'
-%The admin node has validation errors.2this[string].getò
-ï
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.csÏ Ï(G
-%37void"®OrchardCore.DisplayManagement.Notify.NotifierExtensions.Error(OrchardCore.DisplayManagement.Notify.INotifier, Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString)*;"9
-7OrchardCore.DisplayManagement.Notify.NotifierExtensions*7
-5
-%34.OrchardCore.DisplayManagement.Notify.INotifier*B
-@
-%369Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString
-Ì
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.csÌ Ì(!
-%38dynamic"BOrchardCore.AdminMenu.ViewModels.AdminNodeEditViewModel.Editor.set*B
-@
-model7OrchardCore.AdminMenu.ViewModels.AdminNodeEditViewModel*0
-.
-editor$OrchardCore.DisplayManagement.IShape‹
-Ÿ
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs (
-%39void"%orchardcore.adminmenu/views/node/edit*
-
-%40*B
-@
-model7OrchardCore.AdminMenu.ViewModels.AdminNodeEditViewModel*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject* 
-
-%HttpContextItemsAllobject*!
-
-%HttpContextItemsHtmlobject"≤
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs (
-
-%39void*·
-9†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.csÒ	 Ò(	"∏
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.csÒ Ò(	
-implicit return*€
-10†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs…K …(K†
-ù
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs…) …(-j
-@
-model7OrchardCore.AdminMenu.ViewModels.AdminNodeEditViewModel"&
-<AdminMenuId>k__BackingFieldstring"__entrypointè
-å
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs…) …(-Y
-@
-model7OrchardCore.AdminMenu.ViewModels.AdminNodeEditViewModel"
-AdminMenuIdstring"__entrypoint†
-ù
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs…) …(-j
-@
-model7OrchardCore.AdminMenu.ViewModels.AdminNodeEditViewModel"&
-<AdminNodeId>k__BackingFieldstring"__entrypointè
-å
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs…) …(-Y
-@
-model7OrchardCore.AdminMenu.ViewModels.AdminNodeEditViewModel"
-AdminNodeIdstring"__entrypoint¢
-ü
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs…) …(-l
-@
-model7OrchardCore.AdminMenu.ViewModels.AdminNodeEditViewModel"(
-<AdminNodeType>k__BackingFieldstring"__entrypointë
-é
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs…) …(-[
-@
-model7OrchardCore.AdminMenu.ViewModels.AdminNodeEditViewModel"
-AdminNodeTypestring"__entrypointù
-ö
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs…) …(-g
-@
-model7OrchardCore.AdminMenu.ViewModels.AdminNodeEditViewModel"#
-<Position>k__BackingFieldstring"__entrypointå
-â
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs…) …(-V
-@
-model7OrchardCore.AdminMenu.ViewModels.AdminNodeEditViewModel"
-Positionstring"__entrypointú
-ô
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs…) …(-f
-@
-model7OrchardCore.AdminMenu.ViewModels.AdminNodeEditViewModel""
-<Editor>k__BackingFielddynamic"__entrypointã
-à
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs…) …(-U
-@
-model7OrchardCore.AdminMenu.ViewModels.AdminNodeEditViewModel"
-Editordynamic"__entrypointø
-º
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs…) …(-à
-@
-model7OrchardCore.AdminMenu.ViewModels.AdminNodeEditViewModel"D
-<AdminNode>k__BackingField&OrchardCore.AdminMenu.Models.AdminNode"__entrypoint≠
-™
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs…) …(-w
-@
-model7OrchardCore.AdminMenu.ViewModels.AdminNodeEditViewModel"3
-	AdminNode&OrchardCore.AdminMenu.Models.AdminNode"__entrypointª
-∏
-†
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.AdminMenu\Controllers\NodeController.cs…) …(-
-%41"__entrypoint*
-0:@
-model7OrchardCore.AdminMenu.ViewModels.AdminNodeEditViewModelB42
-0OrchardCore.AdminMenu.Controllers.NodeController

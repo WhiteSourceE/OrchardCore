@@ -1,447 +1,0 @@
-
-îOrchardCore.Sitemaps.Controllers.SitemapIndexController.List(OrchardCore.Sitemaps.ViewModels.ContentOptions, OrchardCore.Navigation.PagerParameters)•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.cs>) >(-"6*Ó
-0•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.cs@ @(\Ö
-Ç
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.cs@ @(,>
-%08Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*ë*é9
-7OrchardCore.Sitemaps.Controllers.SitemapIndexController"Q
-_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationService∏
-µ
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.cs@< @(@,
-%1&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*+)
-'Microsoft.AspNetCore.Mvc.ControllerBaseÀ
-»
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.cs@B @(\1
-%2+OrchardCore.Security.Permissions.Permission"__id*e*c"
- OrchardCore.Sitemaps.Permissions"=
-ManageSitemaps+OrchardCore.Security.Permissions.Permissionß
-§
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.cs@ @(]*
-%3$System.Threading.Tasks.Task<TResult>"ﬂMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission)*E"C
-AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*@
->
-%08Microsoft.AspNetCore.Authorization.IAuthorizationService*.
-,
-%1&System.Security.Claims.ClaimsPrincipal*3
-1
-%2+OrchardCore.Security.Permissions.Permission*
-1
-2*…
-1•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.csB B(¡æ
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.csB B(+
-%4%Microsoft.AspNetCore.Mvc.ForbidResult"0Microsoft.AspNetCore.Mvc.ControllerBase.Forbid()*+)
-'Microsoft.AspNetCore.Mvc.ControllerBase2Forbid()"◊
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.csB B( -
-+
-%4%Microsoft.AspNetCore.Mvc.ForbidResult*ª 
-2•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.csE K(9Ã
-…
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.csE% E(1'
-%5!OrchardCore.Settings.ISiteService"__id*p*n9
-7OrchardCore.Sitemaps.Controllers.SitemapIndexController"1
-_siteService!OrchardCore.Settings.ISiteService‘—
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.csE% E(H*
-%6$System.Threading.Tasks.Task<TResult>"8OrchardCore.Settings.ISiteService.GetSiteSettingsAsync()*)
-'
-%5!OrchardCore.Settings.ISiteService2GetSiteSettingsAsync()Â
-‚
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.csE E(H*
-siteSettingsOrchardCore.Settings.ISite"__id*
-""õò
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.csF3 F(H	
-%7int"'OrchardCore.Settings.ISite.PageSize.get*,
-*
-siteSettingsOrchardCore.Settings.ISite2PageSize.getÌÍ
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.csF F(I"
-%8OrchardCore.Navigation.Pager"OrchardCore.Navigation.Pager¯
-ı
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.csF F(!
-
-%9void"OOrchardCore.Navigation.Pager.Pager(OrchardCore.Navigation.PagerParameters, int)*$
-"
-%8OrchardCore.Navigation.Pager*;
-9
-pagerParameters&OrchardCore.Navigation.PagerParameters*
-	
-%7int˛
-˚
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.csF F(I%
-pagerOrchardCore.Navigation.Pager"__id*$
-"
-%8OrchardCore.Navigation.PagerË
-Â
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.csH" H(14
-%10-OrchardCore.Sitemaps.Services.ISitemapManager"__id**}9
-7OrchardCore.Sitemaps.Controllers.SitemapIndexController"@
-_sitemapManager-OrchardCore.Sitemaps.Services.ISitemapManagerÊ„
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.csH" H(D+
-%11$System.Threading.Tasks.Task<TResult>"@OrchardCore.Sitemaps.Services.ISitemapManager.GetSitemapsAsync()*6
-4
-%10-OrchardCore.Sitemaps.Services.ISitemapManager2GetSitemapsAsync()…
-∆
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.csH I('0
-%12)System.Collections.Generic.IEnumerable<T>"FSystem.Linq.Enumerable.OfType<TResult>(System.Collections.IEnumerable)*"
-System.Linq.Enumerable*
-""ú
-ô
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.csH I('5
-sitemaps)System.Collections.Generic.IEnumerable<T>"__id*2
-0
-%12)System.Collections.Generic.IEnumerable<T>≤
-Ø
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.csK+ K(9
-%13string"9OrchardCore.Sitemaps.ViewModels.ContentOptions.Search.get*;
-9
-options.OrchardCore.Sitemaps.ViewModels.ContentOptions˘
-ˆ
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.csK K(:
-%14bool""string.IsNullOrWhiteSpace(string?)*
-"
-string*
-
-%13string*
-3
-4*Ä
-3•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.csM M(rÆ
-´
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.csM M(s0
-%15)System.Collections.Generic.IEnumerable<T>"rSystem.Linq.Enumerable.Where<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
-System.Linq.Enumerable*7
-5
-sitemaps)System.Collections.Generic.IEnumerable<T>*
-""ú
-ô
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.csM M(s5
-sitemaps)System.Collections.Generic.IEnumerable<T>"__id*2
-0
-%15)System.Collections.Generic.IEnumerable<T>*
-4*Î]
-4•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.csP h(‰
-·
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.csP P((
-
-%16int"VSystem.Linq.Enumerable.Count<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
-System.Linq.Enumerable*7
-5
-sitemaps)System.Collections.Generic.IEnumerable<T>Õ
- 
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.csP P((
-countint"__id*
-
-
-%16intö
-ó
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.csS S(+
-
-%17int"0OrchardCore.Navigation.Pager.GetStartIndex(int?)*'
-%
-pagerOrchardCore.Navigation.Pager*
-""ú
-ô
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.csR S(,0
-%18)System.Collections.Generic.IEnumerable<T>"ZSystem.Linq.Enumerable.Skip<TSource>(System.Collections.Generic.IEnumerable<TSource>, int)*"
-System.Linq.Enumerable*7
-5
-sitemaps)System.Collections.Generic.IEnumerable<T>*
-
-
-%17intã
-à
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.csT T($
-
-%19int")OrchardCore.Navigation.Pager.PageSize.get*'
-%
-pagerOrchardCore.Navigation.Pageró
-î
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.csR T(%0
-%20)System.Collections.Generic.IEnumerable<T>"ZSystem.Linq.Enumerable.Take<TSource>(System.Collections.Generic.IEnumerable<TSource>, int)*"
-System.Linq.Enumerable*2
-0
-%18)System.Collections.Generic.IEnumerable<T>*
-
-
-%19intˇ
-¸
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.csR U()
-%21"System.Collections.Generic.List<T>"WSystem.Linq.Enumerable.ToList<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
-System.Linq.Enumerable*2
-0
-%20)System.Collections.Generic.IEnumerable<T>ç
-ä
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.csR U(-
-results"System.Collections.Generic.List<T>"__id*+
-)
-%21"System.Collections.Generic.List<T>Çˇ
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.csX X(+-
-%22&Microsoft.AspNetCore.Routing.RouteData"&Microsoft.AspNetCore.Routing.RouteDataù
-ö
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.csX  X()
-%23void"2Microsoft.AspNetCore.Routing.RouteData.RouteData()*/
--
-%22&Microsoft.AspNetCore.Routing.RouteDataó
-î
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.csX X(+3
-	routeData&Microsoft.AspNetCore.Routing.RouteData"__id*/
--
-%22&Microsoft.AspNetCore.Routing.RouteDataœ
-Ã
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.csY Y(8
-%241Microsoft.AspNetCore.Routing.RouteValueDictionary"1Microsoft.AspNetCore.Routing.RouteData.Values.get*5
-3
-	routeData&Microsoft.AspNetCore.Routing.RouteData≤
-Ø
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.csY3 Y(A
-%25string"9OrchardCore.Sitemaps.ViewModels.ContentOptions.Search.get*;
-9
-options.OrchardCore.Sitemaps.ViewModels.ContentOptions£
-†
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.csY Y(B
-%26void"__mapSet*:
-8
-%241Microsoft.AspNetCore.Routing.RouteValueDictionary*
-Options.Search*
-
-%25stringê
-ç
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.cs[$ [('
-%27dynamic"__id*M*K9
-7OrchardCore.Sitemaps.Controllers.SitemapIndexController"
-Newdynamic–
-Õ
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.cs[ [(`
-
-pagerShapedynamic"__id*
-""®•
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.cs] b(@
-%289OrchardCore.Sitemaps.ViewModels.ListSitemapIndexViewModel"9OrchardCore.Sitemaps.ViewModels.ListSitemapIndexViewModel”
-–
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.cs] ](5
-%29void"UOrchardCore.Sitemaps.ViewModels.ListSitemapIndexViewModel.ListSitemapIndexViewModel()*B
-@
-%289OrchardCore.Sitemaps.ViewModels.ListSitemapIndexViewModel¥
-±
-¶
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.cs_! _(ì0
-%30)System.Collections.Generic.IEnumerable<T>"System.Linq.Enumerable.Select<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)*"
-System.Linq.Enumerable*/
--
-results"System.Collections.Generic.List<T>*
-""Ä
-˝
-¶
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.cs_! _(ú)
-%31"System.Collections.Generic.List<T>"WSystem.Linq.Enumerable.ToList<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
-System.Linq.Enumerable*2
-0
-%30)System.Collections.Generic.IEnumerable<T>ó
-î
-¶
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.cs_ _(ú*
-%32#System.Collections.Generic.IList<T>"LOrchardCore.Sitemaps.ViewModels.ListSitemapIndexViewModel.SitemapIndexes.set*B
-@
-%289OrchardCore.Sitemaps.ViewModels.ListSitemapIndexViewModel*+
-)
-%31"System.Collections.Generic.List<T>™
-ß
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.cs` `(!5
-%33.OrchardCore.Sitemaps.ViewModels.ContentOptions"EOrchardCore.Sitemaps.ViewModels.ListSitemapIndexViewModel.Options.set*B
-@
-%289OrchardCore.Sitemaps.ViewModels.ListSitemapIndexViewModel*;
-9
-options.OrchardCore.Sitemaps.ViewModels.ContentOptions›
-⁄
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.csa a("
-%34dynamic"COrchardCore.Sitemaps.ViewModels.ListSitemapIndexViewModel.Pager.set*B
-@
-%289OrchardCore.Sitemaps.ViewModels.ListSitemapIndexViewModel*
-
-
-pagerShapedynamicπ
-∂
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.cs] b(B
-model9OrchardCore.Sitemaps.ViewModels.ListSitemapIndexViewModel"__id*B
-@
-%289OrchardCore.Sitemaps.ViewModels.ListSitemapIndexViewModelÔ
-Ï
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.csd d(5
-%35.OrchardCore.Sitemaps.ViewModels.ContentOptions"EOrchardCore.Sitemaps.ViewModels.ListSitemapIndexViewModel.Options.get*D
-B
-model9OrchardCore.Sitemaps.ViewModels.ListSitemapIndexViewModel˙˜
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.csd/ f()
-%36"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>ê
-ç
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.csd3 d(G
-%37void")System.Collections.Generic.List<T>.List()*+
-)
-%36"System.Collections.Generic.List<T>òï
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.cse e(f8
-%381Microsoft.AspNetCore.Mvc.Rendering.SelectListItem"1Microsoft.AspNetCore.Mvc.Rendering.SelectListItem∏
-µ
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.cse e("
-%39void"BMicrosoft.AspNetCore.Mvc.Rendering.SelectListItem.SelectListItem()*:
-8
-%381Microsoft.AspNetCore.Mvc.Rendering.SelectListItem‰
-·
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.cse. e(/9
-%402Microsoft.Extensions.Localization.IStringLocalizer"__id*v*t9
-7OrchardCore.Sitemaps.Controllers.SitemapIndexController"7
-S2Microsoft.Extensions.Localization.IStringLocalizerÖÇ
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.cse. e(98
-%411Microsoft.Extensions.Localization.LocalizedString"CMicrosoft.Extensions.Localization.IStringLocalizer.this[string].get*;
-9
-%402Microsoft.Extensions.Localization.IStringLocalizer*
-
-Delete2this[string].getÓ
-Î
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.cse' e(9
-%42string":Microsoft.AspNetCore.Mvc.Rendering.SelectListItem.Text.set*:
-8
-%381Microsoft.AspNetCore.Mvc.Rendering.SelectListItem*:
-8
-%411Microsoft.Extensions.Localization.LocalizedStringª
-∏
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.cse; e(d
-%43string";Microsoft.AspNetCore.Mvc.Rendering.SelectListItem.Value.set*:
-8
-%381Microsoft.AspNetCore.Mvc.Rendering.SelectListItem*
-""É
-Ä
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.csd f()
-%44"System.Collections.Generic.List<T>"EOrchardCore.Sitemaps.ViewModels.ContentOptions.ContentsBulkAction.set*7
-5
-%35.OrchardCore.Sitemaps.ViewModels.ContentOptions*+
-)
-%36"System.Collections.Generic.List<T>Í
-Á
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.csh h(
-%45void",orchardcore.sitemaps/views/sitemapindex/list*
-
-%46*D
-B
-model9OrchardCore.Sitemaps.ViewModels.ListSitemapIndexViewModel*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject* 
-
-%HttpContextItemsAllobject*!
-
-%HttpContextItemsHtmlobject"∑
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.csh h(
-
-%45void*Î
-5•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.csi	 i(	"Ω
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.csi i(	
-implicit return*¿
-6•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.cs>f >(fô
-ñ
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.cs>) >(-^
-9
-options.OrchardCore.Sitemaps.ViewModels.ContentOptions"!
-<Search>k__BackingFieldstring"__entrypointà
-Ö
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.cs>) >(-M
-9
-options.OrchardCore.Sitemaps.ViewModels.ContentOptions"
-Searchstring"__entrypoint¬
-ø
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.cs>) >(-Ü
-9
-options.OrchardCore.Sitemaps.ViewModels.ContentOptions"I
-#<ContentsBulkAction>k__BackingField"System.Collections.Generic.List<T>"__entrypoint∞
-≠
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.cs>) >(-u
-9
-options.OrchardCore.Sitemaps.ViewModels.ContentOptions"8
-ContentsBulkAction"System.Collections.Generic.List<T>"__entrypointí
-è
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.cs>) >(-W
-9
-pagerParameters&OrchardCore.Navigation.PagerParameters"
-PageSystem.Nullable<T>"__entrypointñ
-ì
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.cs>) >(-[
-9
-pagerParameters&OrchardCore.Navigation.PagerParameters"
-PageSizeSystem.Nullable<T>"__entrypoint¿
-Ω
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapIndexController.cs>) >(-
-%47"__entrypoint*
-0:9
-options.OrchardCore.Sitemaps.ViewModels.ContentOptions:9
-pagerParameters&OrchardCore.Navigation.PagerParametersB;9
-7OrchardCore.Sitemaps.Controllers.SitemapIndexController

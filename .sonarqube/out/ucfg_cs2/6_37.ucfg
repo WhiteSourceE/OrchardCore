@@ -1,161 +1,0 @@
-
-DOrchardCore.Data.Documents.FileDocumentStore.SaveDocumentAsync<T>(T)í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\FileDocumentStore.cs{ {(,"0*Í
-0ì
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\FileDocumentStore.cs} Ä(5∫
-∑
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\FileDocumentStore.cs} }()
-typeNamestring"__id*
-""â
-Ü
-î
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\FileDocumentStore.csÄ Ä(5
-
-%0bool""string.operator ==(string, string)*
-"
-string*
-
-typeNamestring*
-ContentDefinitionRecord*
-1
-2*Ì
-1î
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\FileDocumentStore.csÇ Ç(.À
-»
-î
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\FileDocumentStore.csÇ Ç(.
-typeNamestring"__id*
-ContentDefinition*
-2*Ã
-2î
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\FileDocumentStore.csÖ á((˘
-ˆ
-î
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\FileDocumentStore.csÖ Ö(&
-%1string"__id*I*G.
-,OrchardCore.Data.Documents.FileDocumentStore"
-_tenantPathstringÿ
-’
-î
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\FileDocumentStore.csÖ Ö(1
-%2string"__concat*
-
-%1string*
-
-typeNamestringÕ
- 
-î
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\FileDocumentStore.csÖ Ö(;
-%3string"__concat*
-
-%2string*	
-.jsonƒ
-¡
-î
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\FileDocumentStore.csÖ Ö(;
-filenamestring"__id*
-
-%3string®
-•
-î
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\FileDocumentStore.csá á($
-%4System.Threading.SemaphoreSlim"__id*`*^.
-,OrchardCore.Data.Documents.FileDocumentStore",
-
-_semaphoreSystem.Threading.SemaphoreSlimë
-é
-î
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\FileDocumentStore.csá á((!
-%5System.Threading.Tasks.Task"*System.Threading.SemaphoreSlim.WaitAsync()*&
-$
-%4System.Threading.SemaphoreSlim*
-3*ä
-3î
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\FileDocumentStore.csä ä(:Ö
-Ç
-î
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\FileDocumentStore.csä" ä(;
-%6System.IO.StreamWriter"!System.IO.File.CreateText(string)*"
-System.IO.File*
-
-filenamestring‡
-›
-î
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\FileDocumentStore.csä ä(;
-fileSystem.IO.StreamWriter"__id*
-
-%6System.IO.StreamWriter*
-4*ª
-4î
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\FileDocumentStore.cså é(7‡›
-î
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\FileDocumentStore.cså% å(9$
-%7Newtonsoft.Json.JsonSerializer"Newtonsoft.Json.JsonSerializerˇ
-¸
-î
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\FileDocumentStore.cså) å(7
-
-%8void"/Newtonsoft.Json.JsonSerializer.JsonSerializer()*&
-$
-%7Newtonsoft.Json.JsonSerializerˆ
-Û
-î
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\FileDocumentStore.cså å(9,
-
-serializerNewtonsoft.Json.JsonSerializer"__id*&
-$
-%7Newtonsoft.Json.JsonSerializerÆ
-´
-î
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\FileDocumentStore.csç, ç(?
-%9"__id*
-""¥±
-î
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\FileDocumentStore.csç ç(?!
-%10Newtonsoft.Json.Formatting"-Newtonsoft.Json.JsonSerializer.Formatting.set*.
-,
-
-serializerNewtonsoft.Json.JsonSerializer*
-
-%92Formatting.set”
-–
-î
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\FileDocumentStore.csé é(8
-%11void"GNewtonsoft.Json.JsonSerializer.Serialize(System.IO.TextWriter, object?)*.
-,
-
-serializerNewtonsoft.Json.JsonSerializer* 
-
-fileSystem.IO.StreamWriter*
-
-documentT*
-5*ü
-5î
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\FileDocumentStore.csï	 ï(	*
-6* 
-6î
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\FileDocumentStore.csì ì($©
-¶
-î
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\FileDocumentStore.csì ì(%
-%12System.Threading.SemaphoreSlim"__id*`*^.
-,OrchardCore.Data.Documents.FileDocumentStore",
-
-_semaphoreSystem.Threading.SemaphoreSlim˘
-ˆ
-î
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\FileDocumentStore.csì ì($
-
-%13int"(System.Threading.SemaphoreSlim.Release()*'
-%
-%12System.Threading.SemaphoreSlim*
-7
-7*…
-7î
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\FileDocumentStore.csï	 ï(	"¨
-î
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Data\Documents\FileDocumentStore.csï ï(	
-implicit return:
-documentTB0.
-,OrchardCore.Data.Documents.FileDocumentStore

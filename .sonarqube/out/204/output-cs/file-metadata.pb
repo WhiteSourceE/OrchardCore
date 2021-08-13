@@ -1,7 +1,0 @@
-Í
-ÁD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\test\OrchardCore.Tests.Pages\OrchardCore.Themes.Pages\Theme.Pages\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.csutf-8Å
-¹D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\test\OrchardCore.Tests.Pages\OrchardCore.Themes.Pages\Theme.Pages\obj\Debug\net5.0\Razor\Views\Layout.cshtml.g.csutf-8Ð
-ÄD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\test\OrchardCore.Tests.Pages\OrchardCore.Themes.Pages\Theme.Pages\obj\Debug\net5.0\Razor\Views\Shared\_FooLayout.cshtml.g.csutf-8Í
-ÁD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\test\OrchardCore.Tests.Pages\OrchardCore.Themes.Pages\Theme.Pages\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.csutf-8Ë
-¿D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\test\OrchardCore.Tests.Pages\OrchardCore.Themes.Pages\Theme.Pages\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.csutf-8Í
-ÁD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\test\OrchardCore.Tests.Pages\OrchardCore.Themes.Pages\Theme.Pages\obj\Debug\net5.0\Theme.Pages.RazorTargetAssemblyInfo.csutf-8

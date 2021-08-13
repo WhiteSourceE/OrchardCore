@@ -1,68 +1,0 @@
-
-VOrchardCore.Email.Services.SmtpService.SendOfflineMessage(MimeKit.MimeMessage, string)ñ
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpService.csﬂ ﬂ(-"0*»
-0ñ
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpService.cs· ‚(G◊
-‘
-ñ
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpService.cs·9 ·(G
-%0System.Guid"System.Guid.NewGuid()*"
-System.Guid◊
-‘
-ñ
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpService.cs·9 ·(R
-%1string"System.Guid.ToString()*
-
-%0System.Guid∞
-≠
-ñ
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpService.cs·U ·(c
-%2"__id*
-""Ã
-…
-ñ
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpService.cs·9 ·(c
-%3string"__concat*
-
-%1string*
-
-%2ì
-ê
-ñ
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpService.cs· ·(d
-%4string"&System.IO.Path.Combine(string, string)*"
-System.IO.Path*
-
-pickupDirectorystring*
-
-%3string∆
-√
-ñ
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpService.cs· ·(d
-mailPathstring"__id*
-
-%4stringõ
-ò
-ñ
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpService.cs‚1 ‚(G(
-%5"System.Threading.CancellationToken"+System.Threading.CancellationToken.None.get*&"$
-"System.Threading.CancellationTokenÒ
-Ó
-ñ
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpService.cs‚ ‚(H!
-%6System.Threading.Tasks.Task"LMimeKit.MimeMessage.WriteToAsync(string, System.Threading.CancellationToken)* 
-
-messageMimeKit.MimeMessage*
-
-mailPathstring**
-(
-%5"System.Threading.CancellationToken*
-1*Õ
-1ñ
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpService.cs„	 „(	"Æ
-ñ
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Email\Services\SmtpService.cs„ „(	
-implicit return:
-messageMimeKit.MimeMessage:
-pickupDirectorystringB*(
-&OrchardCore.Email.Services.SmtpService

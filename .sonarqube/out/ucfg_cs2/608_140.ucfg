@@ -1,228 +1,0 @@
-
-xOrchardCore.Lists.Handlers.ContainedPartHandler.CloningAsync(OrchardCore.ContentManagement.Handlers.CloneContentContext)ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Handlers\ContainedPartHandler.cs# (/"0*Ä
-0ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Handlers\ContainedPartHandler.cs (%Ó
-Î
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Handlers\ContainedPartHandler.cs  (8/
-%0)OrchardCore.ContentManagement.ContentItem"OOrchardCore.ContentManagement.Handlers.CloneContentContext.CloneContentItem.get*G
-E
-context:OrchardCore.ContentManagement.Handlers.CloneContentContextß
-§
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Handlers\ContainedPartHandler.cs  (L,
-%1&OrchardCore.Lists.Models.ContainedPart"hOrchardCore.ContentManagement.ContentItemExtensions.As<TPart>(OrchardCore.ContentManagement.ContentItem)*7"5
-3OrchardCore.ContentManagement.ContentItemExtensions*1
-/
-%0)OrchardCore.ContentManagement.ContentItemí
-è
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Handlers\ContainedPartHandler.cs (L7
-containedPart&OrchardCore.Lists.Models.ContainedPart"__id*.
-,
-%1&OrchardCore.Lists.Models.ContainedPart¢
-ü
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Handlers\ContainedPartHandler.cs (%
-
-%2bool""object.operator !=(object, object)*
-"
-object*9
-7
-containedPart&OrchardCore.Lists.Models.ContainedPart*
-""*
-1
-2*É
-1ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Handlers\ContainedPartHandler.cs (+¨
-©
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Handlers\ContainedPartHandler.cs% (5
-%3System.IServiceProvider"__id*b*`1
-/OrchardCore.Lists.Handlers.ContainedPartHandler"+
-_serviceProviderSystem.IServiceProvider¬
-ø
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Handlers\ContainedPartHandler.cs% ([3
-%4-OrchardCore.ContentManagement.IContentManager"xMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<T>(System.IServiceProvider)*M"K
-IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*
-
-%3System.IServiceProvider°
-û
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Handlers\ContainedPartHandler.cs ([?
-contentManager-OrchardCore.ContentManagement.IContentManager"__id*5
-3
-%4-OrchardCore.ContentManagement.IContentManager™
-ß
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Handlers\ContainedPartHandler.csD (c
-%5string"<OrchardCore.Lists.Models.ContainedPart.ListContentItemId.get*9
-7
-containedPart&OrchardCore.Lists.Models.ContainedPartÙÒ
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Handlers\ContainedPartHandler.cs, (d*
-%6$System.Threading.Tasks.Task<TResult>">OrchardCore.ContentManagement.IContentManager.GetAsync(string)*A
-?
-contentManager-OrchardCore.ContentManagement.IContentManager*
-
-%5string2GetAsync(string)Ô
-Ï
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Handlers\ContainedPartHandler.cs (d<
-listContentItem)OrchardCore.ContentManagement.ContentItem"__id*
-""ß
-§
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Handlers\ContainedPartHandler.cs (+
-
-%7bool""object.operator !=(object, object)*
-"
-object*>
-<
-listContentItem)OrchardCore.ContentManagement.ContentItem*
-""*
-3
-2*Û#
-3ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Handlers\ContainedPartHandler.cs! %(/¨
-©
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Handlers\ContainedPartHandler.cs!3 !(C
-%8System.IServiceProvider"__id*b*`1
-/OrchardCore.Lists.Handlers.ContainedPartHandler"+
-_serviceProviderSystem.IServiceProvider’
-“
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Handlers\ContainedPartHandler.cs!3 !(sF
-%9@OrchardCore.ContentManagement.Metadata.IContentDefinitionManager"xMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<T>(System.IServiceProvider)*M"K
-IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*
-
-%8System.IServiceProvider—
-Œ
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Handlers\ContainedPartHandler.cs! !(s\
-contentDefinitionManager@OrchardCore.ContentManagement.Metadata.IContentDefinitionManager"__id*H
-F
-%9@OrchardCore.ContentManagement.Metadata.IContentDefinitionManager≠
-™
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Handlers\ContainedPartHandler.cs"[ "(v
-%10string"9OrchardCore.ContentManagement.ContentItem.ContentType.get*>
-<
-listContentItem)OrchardCore.ContentManagement.ContentItem◊‘
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Handlers\ContainedPartHandler.cs"0 "(wJ
-%11COrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition"ZOrchardCore.ContentManagement.Metadata.IContentDefinitionManager.GetTypeDefinition(string)*^
-\
-contentDefinitionManager@OrchardCore.ContentManagement.Metadata.IContentDefinitionManager*
-
-%10string2GetTypeDefinition(string)’
-“
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Handlers\ContainedPartHandler.cs" "(w\
-contentTypeDefinitionCOrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition"__id*L
-J
-%11COrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinitionÑ
-Å
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Handlers\ContainedPartHandler.cs#4 #(O0
-%12)System.Collections.Generic.IEnumerable<T>"MOrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition.Parts.get*^
-\
-contentTypeDefinitionCOrchardCore.ContentManagement.Metadata.Models.ContentTypeDefinition…
-∆
-û
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Handlers\ContainedPartHandler.cs#4 #(ïN
-%13GOrchardCore.ContentManagement.Metadata.Models.ContentTypePartDefinition"{System.Linq.Enumerable.FirstOrDefault<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
-System.Linq.Enumerable*2
-0
-%12)System.Collections.Generic.IEnumerable<T>*
-""‚
-ﬂ
-û
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Handlers\ContainedPartHandler.cs# #(ïd
-contentTypePartDefinitionGOrchardCore.ContentManagement.Metadata.Models.ContentTypePartDefinition"__id*P
-N
-%13GOrchardCore.ContentManagement.Metadata.Models.ContentTypePartDefinitionè
-å
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Handlers\ContainedPartHandler.cs$# $(\0
-%14)OrchardCore.Lists.Models.ListPartSettings"POrchardCore.ContentManagement.Metadata.Models.ContentDefinition.GetSettings<T>()*f
-d
-contentTypePartDefinitionGOrchardCore.ContentManagement.Metadata.Models.ContentTypePartDefinitionî
-ë
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Handlers\ContainedPartHandler.cs$ $(\5
-settings)OrchardCore.Lists.Models.ListPartSettings"__id*2
-0
-%14)OrchardCore.Lists.Models.ListPartSettingsß
-§
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Handlers\ContainedPartHandler.cs% %(/
-%15bool"<OrchardCore.Lists.Models.ListPartSettings.EnableOrdering.get*7
-5
-settings)OrchardCore.Lists.Models.ListPartSettings*
-4
-2*ë
-4ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Handlers\ContainedPartHandler.cs' )(^≠
-™
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Handlers\ContainedPartHandler.cs'/ '(?
-%16System.IServiceProvider"__id*b*`1
-/OrchardCore.Lists.Handlers.ContainedPartHandler"+
-_serviceProviderSystem.IServiceProvider√
-¿
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Handlers\ContainedPartHandler.cs'/ '(g3
-%17,OrchardCore.Lists.Services.IContainerService"xMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<T>(System.IServiceProvider)*M"K
-IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions* 
-
-%16System.IServiceProvider¢
-ü
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Handlers\ContainedPartHandler.cs' '(g@
-containerService,OrchardCore.Lists.Services.IContainerService"__id*5
-3
-%17,OrchardCore.Lists.Services.IContainerService´
-®
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Handlers\ContainedPartHandler.cs(W ((v
-%18string"<OrchardCore.Lists.Models.ContainedPart.ListContentItemId.get*9
-7
-containedPart&OrchardCore.Lists.Models.ContainedPartîë
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Handlers\ContainedPartHandler.cs(. ((w+
-%19$System.Threading.Tasks.Task<TResult>"LOrchardCore.Lists.Services.IContainerService.GetNextOrderNumberAsync(string)*B
-@
-containerService,OrchardCore.Lists.Services.IContainerService*
-
-%18string2GetNextOrderNumberAsync(string)√
-¿
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Handlers\ContainedPartHandler.cs( ((w
-	nextOrderint"__id*
-""Ô
-Ï
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Handlers\ContainedPartHandler.cs) )(00
-%20)OrchardCore.ContentManagement.ContentItem"OOrchardCore.ContentManagement.Handlers.CloneContentContext.CloneContentItem.get*G
-E
-context:OrchardCore.ContentManagement.Handlers.CloneContentContextŒ
-À
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Handlers\ContainedPartHandler.cs) )(_0
-%21)OrchardCore.ContentManagement.ContentItem"ÅOrchardCore.ContentManagement.ContentItemExtensions.Alter<TPart>(OrchardCore.ContentManagement.ContentItem, System.Action<TPart>)*7"5
-3OrchardCore.ContentManagement.ContentItemExtensions*2
-0
-%20)OrchardCore.ContentManagement.ContentItem*
-""*
-2*€
-2ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Handlers\ContainedPartHandler.cs-	 -(	"µ
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Lists\Handlers\ContainedPartHandler.cs- -(	
-implicit return:E
-context:OrchardCore.ContentManagement.Handlers.CloneContentContextB31
-/OrchardCore.Lists.Handlers.ContainedPartHandler

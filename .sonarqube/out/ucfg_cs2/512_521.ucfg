@@ -1,189 +1,0 @@
-
-tOrchardCore.Users.Controllers.AccountController.ChangePassword(OrchardCore.Users.ViewModels.ChangePasswordViewModel)ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csˆ) ˆ(7"6*´
-0ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.cs¯ ¯(&˚¯
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.cs¯ ¯('
-
-%0bool"@Microsoft.AspNetCore.Mvc.ControllerBase.TryValidateModel(object)*+)
-'Microsoft.AspNetCore.Mvc.ControllerBase*?
-=
-model4OrchardCore.Users.ViewModels.ChangePasswordViewModel2TryValidateModel(object)*
-1
-2*º
-1ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.cs¯+ ¯(=Ã
-…
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.cs¯+ ¯(5@
-%1:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary"6Microsoft.AspNetCore.Mvc.ControllerBase.ModelState.get*+)
-'Microsoft.AspNetCore.Mvc.ControllerBaseΩ
-∫
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.cs¯+ ¯(=
-
-%2bool"FMicrosoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary.IsValid.get*B
-@
-%1:Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary*
-3
-2*Ê
-3†
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.cs˙ ˚(† 
-«
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.cs˙! ˙(--
-%3'OrchardCore.Users.Services.IUserService"__id*n*l1
-/OrchardCore.Users.Controllers.AccountController"7
-_userService'OrchardCore.Users.Services.IUserService≤
-Ø
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.cs˙H ˙(L,
-%4&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*+)
-'Microsoft.AspNetCore.Mvc.ControllerBase‡›
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.cs˙! ˙(M*
-%5$System.Threading.Tasks.Task<TResult>"iOrchardCore.Users.Services.IUserService.GetAuthenticatedUserAsync(System.Security.Claims.ClaimsPrincipal)*/
--
-%3'OrchardCore.Users.Services.IUserService*.
-,
-%4&System.Security.Claims.ClaimsPrincipal2AGetAuthenticatedUserAsync(System.Security.Claims.ClaimsPrincipal)‘
-—
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.cs˙ ˙(M
-userOrchardCore.Users.IUser"__id*
-"" 
-«
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.cs˚ ˚(&-
-%6'OrchardCore.Users.Services.IUserService"__id*n*l1
-/OrchardCore.Users.Controllers.AccountController"7
-_userService'OrchardCore.Users.Services.IUserServiceæ
-ª
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.cs˚A ˚(V
-%7string"HOrchardCore.Users.ViewModels.ChangePasswordViewModel.CurrentPassword.get*?
-=
-model4OrchardCore.Users.ViewModels.ChangePasswordViewModel∑
-¥
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.cs˚X ˚(f
-%8string"AOrchardCore.Users.ViewModels.ChangePasswordViewModel.Password.get*?
-=
-model4OrchardCore.Users.ViewModels.ChangePasswordViewModel±Æ
-†
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.cs˚ ˚(°*
-%9$System.Threading.Tasks.Task<TResult>"ÉOrchardCore.Users.Services.IUserService.ChangePasswordAsync(OrchardCore.Users.IUser, string, string, System.Action<string, string>)*/
--
-%6'OrchardCore.Users.Services.IUserService*!
-
-userOrchardCore.Users.IUser*
-
-%7string*
-
-%8string*
-""2[ChangePasswordAsync(OrchardCore.Users.IUser, string, string, System.Action<string, string>)*
-4
-2*¨
-4ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.cs˝ ˝(RØ
-¨
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.cs˝+ ˝(.*
-%10#Microsoft.AspNetCore.Mvc.IUrlHelper"/Microsoft.AspNetCore.Mvc.ControllerBase.Url.get*+)
-'Microsoft.AspNetCore.Mvc.ControllerBaseñ
-ì
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.cs˝+ ˝(S
-%11string"`Microsoft.AspNetCore.Mvc.UrlHelperExtensions.Action(Microsoft.AspNetCore.Mvc.IUrlHelper, string)*0".
-,Microsoft.AspNetCore.Mvc.UrlHelperExtensions*,
-*
-%10#Microsoft.AspNetCore.Mvc.IUrlHelper*
-ChangePasswordConfirmation„
-‡
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.cs˝ ˝(T-
-%12&Microsoft.AspNetCore.Mvc.IActionResult"GOrchardCore.Users.Controllers.AccountController.RedirectToLocal(string)*31
-/OrchardCore.Users.Controllers.AccountController*
-
-%11string"”
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.cs˝ ˝(U/
--
-%12&Microsoft.AspNetCore.Mvc.IActionResult*Ω
-2ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csÅ Å(·
-ﬁ
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csÅ Å(
-%13void".orchardcore.users/views/account/changepassword*
-
-%14*?
-=
-model4OrchardCore.Users.ViewModels.ChangePasswordViewModel*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject* 
-
-%HttpContextItemsAllobject*!
-
-%HttpContextItemsHtmlobject"±
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csÅ Å(
-
-%13void*ﬂ
-5ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csÇ	 Ç(	"∑
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csÇ Ç(	
-implicit return*Ç
-6ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csˆV ˆ(V†
-ù
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csˆ) ˆ(7k
-=
-model4OrchardCore.Users.ViewModels.ChangePasswordViewModel"*
- <CurrentPassword>k__BackingFieldstring"__entrypointè
-å
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csˆ) ˆ(7Z
-=
-model4OrchardCore.Users.ViewModels.ChangePasswordViewModel"
-CurrentPasswordstring"__entrypointô
-ñ
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csˆ) ˆ(7d
-=
-model4OrchardCore.Users.ViewModels.ChangePasswordViewModel"#
-<Password>k__BackingFieldstring"__entrypointà
-Ö
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csˆ) ˆ(7S
-=
-model4OrchardCore.Users.ViewModels.ChangePasswordViewModel"
-Passwordstring"__entrypoint•
-¢
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csˆ) ˆ(7p
-=
-model4OrchardCore.Users.ViewModels.ChangePasswordViewModel"/
-%<PasswordConfirmation>k__BackingFieldstring"__entrypointî
-ë
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csˆ) ˆ(7_
-=
-model4OrchardCore.Users.ViewModels.ChangePasswordViewModel"
-PasswordConfirmationstring"__entrypoint∫
-∑
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\AccountController.csˆ) ˆ(7
-%15"__entrypoint*
-0:=
-model4OrchardCore.Users.ViewModels.ChangePasswordViewModelB31
-/OrchardCore.Users.Controllers.AccountController

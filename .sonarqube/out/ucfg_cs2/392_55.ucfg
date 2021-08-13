@@ -1,124 +1,0 @@
-
-ƒOrchardCore.ContentLocalization.ContentRequestCultureProvider.DetermineProviderCultureResult(Microsoft.AspNetCore.Http.HttpContext)«
- D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\ContentRequestCultureProvider.cs: (X"0*é
-0«
- D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\ContentRequestCultureProvider.cs (#­
-ª
-«
- D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\ContentRequestCultureProvider.cs (#
-
-%0bool""object.operator ==(object, object)*
-"
-object*6
-4
-httpContext%Microsoft.AspNetCore.Http.HttpContext*
-""*
-1
-2*×
-1«
- D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\ContentRequestCultureProvider.cs (Cóð
-«
- D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\ContentRequestCultureProvider.cs (D"
-%1System.ArgumentNullException"System.ArgumentNullException¨
-¥
-«
- D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\ContentRequestCultureProvider.cs (/
-
-%2void";System.ArgumentNullException.ArgumentNullException(string?)*$
-"
-%1System.ArgumentNullException*
-""*
-3*å
-2«
- D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\ContentRequestCultureProvider.cs ($Ã
-À
-«
- D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\ContentRequestCultureProvider.cs' (B
-%3System.IServiceProvider"9Microsoft.AspNetCore.Http.HttpContext.RequestServices.get*6
-4
-httpContext%Microsoft.AspNetCore.Http.HttpContextà
-Ý
-«
- D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\ContentRequestCultureProvider.cs' (mK
-%4EOrchardCore.ContentLocalization.Services.IContentCulturePickerService"pMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService<T>(System.IServiceProvider)*M"K
-IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*
-
-%3System.IServiceProviderå
-â
-«
- D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\ContentRequestCultureProvider.cs (m]
-culturePickerServiceEOrchardCore.ContentLocalization.Services.IContentCulturePickerService"__id*M
-K
-%4EOrchardCore.ContentLocalization.Services.IContentCulturePickerServiceÉ
-Æ
-«
- D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\ContentRequestCultureProvider.csX (k+
-%5%Microsoft.AspNetCore.Http.HttpRequest"1Microsoft.AspNetCore.Http.HttpContext.Request.get*6
-4
-httpContext%Microsoft.AspNetCore.Http.HttpContext¼
-¹
-«
- D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\ContentRequestCultureProvider.csX (p*
-%6$Microsoft.AspNetCore.Http.PathString".Microsoft.AspNetCore.Http.HttpRequest.Path.get*-
-+
-%5%Microsoft.AspNetCore.Http.HttpRequest½º
-«
- D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\ContentRequestCultureProvider.cs% (q*
-%7$System.Threading.Tasks.Task<TResult>"‰OrchardCore.ContentLocalization.Services.IContentCulturePickerService.GetLocalizationFromRouteAsync(Microsoft.AspNetCore.Http.PathString)*_
-]
-culturePickerServiceEOrchardCore.ContentLocalization.Services.IContentCulturePickerService*,
-*
-%6$Microsoft.AspNetCore.Http.PathString2CGetLocalizationFromRouteAsync(Microsoft.AspNetCore.Http.PathString)‰
-†
-«
- D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\ContentRequestCultureProvider.cs (qH
-localization8OrchardCore.ContentLocalization.Models.LocalizationEntry"__id*
-""Á
-¾
-«
- D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\ContentRequestCultureProvider.cs ($
-
-%8bool""object.operator !=(object, object)*
-"
-object*J
-H
-localization8OrchardCore.ContentLocalization.Models.LocalizationEntry*
-""*
-4
-5*‹
-4«
- D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\ContentRequestCultureProvider.cs (E¦
-£
-«
- D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\ContentRequestCultureProvider.cs1 (E
-%9string"__id*_*]
-H
-localization8OrchardCore.ContentLocalization.Models.LocalizationEntry"
-Culturestringª§
-«
- D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\ContentRequestCultureProvider.cs (F>
-%107Microsoft.AspNetCore.Localization.ProviderCultureResult"7Microsoft.AspNetCore.Localization.ProviderCultureResultŽ
-‹
-«
- D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\ContentRequestCultureProvider.cs (0
-%11void"|Microsoft.AspNetCore.Localization.ProviderCultureResult.ProviderCultureResult(Microsoft.Extensions.Primitives.StringSegment)*@
->
-%107Microsoft.AspNetCore.Localization.ProviderCultureResult*
-
-%9string"ð
-«
- D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\ContentRequestCultureProvider.cs (G@
->
-%107Microsoft.AspNetCore.Localization.ProviderCultureResult*ê
-5«
- D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\ContentRequestCultureProvider.cs ("¶
-«
- D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\ContentRequestCultureProvider.cs (
-""*÷
-3«
- D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\ContentRequestCultureProvider.cs	 (	"Ã
-«
- D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\ContentRequestCultureProvider.cs (	
-implicit return:4
-httpContext%Microsoft.AspNetCore.Http.HttpContextBA?
-=OrchardCore.ContentLocalization.ContentRequestCultureProvider

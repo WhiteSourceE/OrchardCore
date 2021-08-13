@@ -1,162 +1,0 @@
-
-OOrchardCore.Documents.DocumentManager<TDocument>.GetFromDistributedCacheAsync()ú
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.cs˚& ˚(B"0*¶
-0ú
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.cs˝ ˇ(¿
-Ω
-ú
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.cs˝ ˝(
-databyte[]"__id*
-""∂
-≥
-ú
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.csˇ ˇ(
-%0"__id*
-""*
-1
-2*Ø
-1ú
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.csÅ Å(Iı
-Ú
-ú
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.csÅ Å(.@
-%1:Microsoft.Extensions.Caching.Distributed.IDistributedCache"__id*à*Ö2
-0OrchardCore.Documents.DocumentManager<TDocument>"O
-_distributedCache:Microsoft.Extensions.Caching.Distributed.IDistributedCache–
-Õ
-ú
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.csÅ8 Å(@3
-%2-OrchardCore.Documents.Options.DocumentOptions"__id*q*o2
-0OrchardCore.Documents.DocumentManager<TDocument>"9
-_options-OrchardCore.Documents.Options.DocumentOptions£
-†
-ú
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.csÅ8 Å(I
-%3string":OrchardCore.Documents.Options.DocumentOptions.CacheKey.get*5
-3
-%2-OrchardCore.Documents.Options.DocumentOptions—Œ
-ú
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.csÅ Å(J*
-%4$System.Threading.Tasks.Task<TResult>"oMicrosoft.Extensions.Caching.Distributed.IDistributedCache.GetAsync(string, System.Threading.CancellationToken)*B
-@
-%1:Microsoft.Extensions.Caching.Distributed.IDistributedCache*
-
-%3string*
-""24GetAsync(string, System.Threading.CancellationToken)¿
-Ω
-ú
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.csÅ Å(J
-databyte[]"__id*
-""*
-3*Ÿ
-2ú
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.csÉ É(Z⁄
-◊
-ú
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.csÉ É(!6
-%50Microsoft.Extensions.Caching.Memory.IMemoryCache"__id*x*v2
-0OrchardCore.Documents.DocumentManager<TDocument>"@
-_memoryCache0Microsoft.Extensions.Caching.Memory.IMemoryCache–
-Õ
-ú
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.csÉ9 É(A3
-%6-OrchardCore.Documents.Options.DocumentOptions"__id*q*o2
-0OrchardCore.Documents.DocumentManager<TDocument>"9
-_options-OrchardCore.Documents.Options.DocumentOptions£
-†
-ú
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.csÉ9 É(J
-%7string":OrchardCore.Documents.Options.DocumentOptions.CacheKey.get*5
-3
-%6-OrchardCore.Documents.Options.DocumentOptions÷
-”
-ú
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.csÉ É([
-
-%8bool"ãMicrosoft.Extensions.Caching.Memory.CacheExtensions.TryGetValue<TItem>(Microsoft.Extensions.Caching.Memory.IMemoryCache, object, out TItem)*7"5
-3Microsoft.Extensions.Caching.Memory.CacheExtensions*8
-6
-%50Microsoft.Extensions.Caching.Memory.IMemoryCache*
-
-%7string*
-
-cached	TDocument*
-4
-3*Æ
-4ú
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.csÖ Ö(F–
-Õ
-ú
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.csÖ Ö(%3
-%9-OrchardCore.Documents.Options.DocumentOptions"__id*q*o2
-0OrchardCore.Documents.DocumentManager<TDocument>"9
-_options-OrchardCore.Documents.Options.DocumentOptions…
-∆
-ú
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.csÖ Ö(00
-%10)OrchardCore.Documents.IDocumentSerialiser"<OrchardCore.Documents.Options.DocumentOptions.Serializer.get*5
-3
-%9-OrchardCore.Documents.Options.DocumentOptions¢ü
-ú
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.csÖ Ö(G+
-%11$System.Threading.Tasks.Task<TResult>"SOrchardCore.Documents.IDocumentSerialiser.SerializeAsync<TDocument>(TDocument, int)*2
-0
-%10)OrchardCore.Documents.IDocumentSerialiser*
-
-cached	TDocument*
-""2)SerializeAsync<TDocument>(TDocument, int)¿
-Ω
-ú
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.csÖ Ö(G
-databyte[]"__id*
-""*
-3*¶
-3ú
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.csà à(˘
-ˆ
-ú
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.csà à(
-%12bool""object.operator ==(object, object)*
-"
-object*
-
-databyte[]*
-""*
-5
-6*Ã
-5ú
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.csä ä("ß
-ú
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.csä ä(
-""*˘
-
-6ú
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.csç ç(M—
-Œ
-ú
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.csç ç(!4
-%13-OrchardCore.Documents.Options.DocumentOptions"__id*q*o2
-0OrchardCore.Documents.DocumentManager<TDocument>"9
-_options-OrchardCore.Documents.Options.DocumentOptions 
-«
-ú
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.csç ç(,0
-%14)OrchardCore.Documents.IDocumentSerialiser"<OrchardCore.Documents.Options.DocumentOptions.Serializer.get*6
-4
-%13-OrchardCore.Documents.Options.DocumentOptionsâÜ
-ú
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.csç ç(N+
-%15$System.Threading.Tasks.Task<TResult>"MOrchardCore.Documents.IDocumentSerialiser.DeserializeAsync<TDocument>(byte[])*2
-0
-%14)OrchardCore.Documents.IDocumentSerialiser*
-
-databyte[]2#DeserializeAsync<TDocument>(byte[])"ß
-ú
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.csç ç(O
-""*Ÿ
-7ú
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.csé	 é(	"¥
-ú
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Infrastructure\Documents\DocumentManager.csé é(	
-implicit returnB42
-0OrchardCore.Documents.DocumentManager<TDocument>

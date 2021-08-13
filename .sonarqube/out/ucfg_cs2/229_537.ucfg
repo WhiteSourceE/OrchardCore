@@ -1,315 +1,0 @@
-
-sOrchardCore.OpenId.Recipes.OpenIdClientSettingsStep.ExecuteAsync(OrchardCore.Recipes.Models.RecipeExecutionContext)¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdClientSettingsStep.cs (&"0*Ï
-0¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdClientSettingsStep.cs (g±
-®
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdClientSettingsStep.cs (+
-%0string":OrchardCore.Recipes.Models.RecipeExecutionContext.Name.get*>
-<
-context1OrchardCore.Recipes.Models.RecipeExecutionContext»
-¸
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdClientSettingsStep.csE (g
-%1"__id*
-""«
-¨
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdClientSettingsStep.cs (h
-
-%2bool"8string.Equals(string?, string?, System.StringComparison)*
-"
-string*
-
-%0string*
-OpenIdClientSettings*
-
-%1*
-1
-2*Ö
-1¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdClientSettingsStep.cs,	 ,(	"¬
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdClientSettingsStep.cs (
-""*Œ
-2¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdClientSettingsStep.cs !(FÇ
-Ä
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdClientSettingsStep.cs ($"
-%3Newtonsoft.Json.Linq.JObject":OrchardCore.Recipes.Models.RecipeExecutionContext.Step.get*>
-<
-context1OrchardCore.Recipes.Models.RecipeExecutionContext¸
-µ
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdClientSettingsStep.cs (N>
-%48OrchardCore.OpenId.Recipes.OpenIdClientSettingsStepModel")Newtonsoft.Json.Linq.JToken.ToObject<T>()*$
-"
-%3Newtonsoft.Json.Linq.JObject²
-¯
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdClientSettingsStep.cs (NA
-model8OrchardCore.OpenId.Recipes.OpenIdClientSettingsStepModel"__id*@
->
-%48OrchardCore.OpenId.Recipes.OpenIdClientSettingsStepModelä
-á
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdClientSettingsStep.cs! (/6
-%50OrchardCore.OpenId.Services.IOpenIdClientService"__id*}*{5
-3OrchardCore.OpenId.Recipes.OpenIdClientSettingsStep"B
-_clientService0OrchardCore.OpenId.Services.IOpenIdClientServiceèå
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdClientSettingsStep.cs! (C*
-%6$System.Threading.Tasks.Task<TResult>"DOrchardCore.OpenId.Services.IOpenIdClientService.LoadSettingsAsync()*8
-6
-%50OrchardCore.OpenId.Services.IOpenIdClientService2LoadSettingsAsync()ó
-ð
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdClientSettingsStep.cs (C<
-settings0OrchardCore.OpenId.Settings.OpenIdClientSettings"__id*
-""¿
-¼
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdClientSettingsStep.cs   (*
-%7string"COrchardCore.OpenId.Recipes.OpenIdClientSettingsStepModel.Scopes.get*C
-A
-model8OrchardCore.OpenId.Recipes.OpenIdClientSettingsStepModeló
-ð
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdClientSettingsStep.cs   (:
-%8string[]"string.Split(params char[]?)*
-
-%7string*
- *
-,ç
-ä
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdClientSettingsStep.cs   (:/
-%9)System.Collections.Generic.IEnumerable<T>";OrchardCore.OpenId.Settings.OpenIdClientSettings.Scopes.set*>
-<
-settings0OrchardCore.OpenId.Settings.OpenIdClientSettings*
-
-%8string[]Ã
-À
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdClientSettingsStep.cs!7 !(F
-%10string"FOrchardCore.OpenId.Recipes.OpenIdClientSettingsStepModel.Authority.get*C
-A
-model8OrchardCore.OpenId.Recipes.OpenIdClientSettingsStepModelð
-í
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdClientSettingsStep.cs!" !(G
-%11bool"string.IsNullOrEmpty(string?)*
-"
-string*
-
-%10string*
-3
-4*¸
-3¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdClientSettingsStep.cs!J !(sÃ
-À
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdClientSettingsStep.cs!R !(a
-%15string"FOrchardCore.OpenId.Recipes.OpenIdClientSettingsStepModel.Authority.get*C
-A
-model8OrchardCore.OpenId.Recipes.OpenIdClientSettingsStepModel¼
-¹
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdClientSettingsStep.cs!c !(s
-%16"__id*
-""ÆÃ
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdClientSettingsStep.cs!J !(t
-%17
-System.Uri"
-System.Uri‹
-ˆ
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdClientSettingsStep.cs!N !(Q
-%18void"&System.Uri.Uri(string, System.UriKind)*
-
-%17
-System.Uri*
-
-%15string*
-
-%16Õ
-Ò
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdClientSettingsStep.cs!J !(t
-%13
-System.Uri"__id*
-
-%17
-System.UriÕ
-Ò
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdClientSettingsStep.cs!J !(t
-%12
-System.Uri"__id*
-
-%13
-System.Uri*
-5*·
-4¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdClientSettingsStep.cs!w !({¼
-¹
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdClientSettingsStep.cs!w !({
-%14"__id*
-""É
-Æ
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdClientSettingsStep.cs!w !({
-%12
-System.Uri"__id*
-
-%14*
-5*¶4
-5¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdClientSettingsStep.cs! +(=Ï
-Ì
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdClientSettingsStep.cs! !({
-%19
-System.Uri">OrchardCore.OpenId.Settings.OpenIdClientSettings.Authority.set*>
-<
-settings0OrchardCore.OpenId.Settings.OpenIdClientSettings*
-
-%12
-System.UriÆ
-Ã
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdClientSettingsStep.cs"$ "(6
-%20string"IOrchardCore.OpenId.Recipes.OpenIdClientSettingsStepModel.CallbackPath.get*C
-A
-model8OrchardCore.OpenId.Recipes.OpenIdClientSettingsStepModelÊ
-Ç
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdClientSettingsStep.cs" "(6
-%21string"AOrchardCore.OpenId.Settings.OpenIdClientSettings.CallbackPath.set*>
-<
-settings0OrchardCore.OpenId.Settings.OpenIdClientSettings*
-
-%20stringÂ
-¿
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdClientSettingsStep.cs#  #(.
-%22string"EOrchardCore.OpenId.Recipes.OpenIdClientSettingsStepModel.ClientId.get*C
-A
-model8OrchardCore.OpenId.Recipes.OpenIdClientSettingsStepModelÆ
-Ã
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdClientSettingsStep.cs# #(.
-%23string"=OrchardCore.OpenId.Settings.OpenIdClientSettings.ClientId.set*>
-<
-settings0OrchardCore.OpenId.Settings.OpenIdClientSettings*
-
-%22stringÆ
-Ã
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdClientSettingsStep.cs$$ $(6
-%24string"IOrchardCore.OpenId.Recipes.OpenIdClientSettingsStepModel.ClientSecret.get*C
-A
-model8OrchardCore.OpenId.Recipes.OpenIdClientSettingsStepModelÊ
-Ç
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdClientSettingsStep.cs$ $(6
-%25string"AOrchardCore.OpenId.Settings.OpenIdClientSettings.ClientSecret.set*>
-<
-settings0OrchardCore.OpenId.Settings.OpenIdClientSettings*
-
-%24stringÅ
-Â
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdClientSettingsStep.cs%# %(4
-%26string"HOrchardCore.OpenId.Recipes.OpenIdClientSettingsStepModel.DisplayName.get*C
-A
-model8OrchardCore.OpenId.Recipes.OpenIdClientSettingsStepModelÉ
-Æ
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdClientSettingsStep.cs% %(4
-%27string"@OrchardCore.OpenId.Settings.OpenIdClientSettings.DisplayName.set*>
-<
-settings0OrchardCore.OpenId.Settings.OpenIdClientSettings*
-
-%26stringÆ
-Ã
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdClientSettingsStep.cs&$ &(6
-%28string"IOrchardCore.OpenId.Recipes.OpenIdClientSettingsStepModel.ResponseMode.get*C
-A
-model8OrchardCore.OpenId.Recipes.OpenIdClientSettingsStepModelÊ
-Ç
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdClientSettingsStep.cs& &(6
-%29string"AOrchardCore.OpenId.Settings.OpenIdClientSettings.ResponseMode.set*>
-<
-settings0OrchardCore.OpenId.Settings.OpenIdClientSettings*
-
-%28stringÆ
-Ã
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdClientSettingsStep.cs'$ '(6
-%30string"IOrchardCore.OpenId.Recipes.OpenIdClientSettingsStepModel.ResponseType.get*C
-A
-model8OrchardCore.OpenId.Recipes.OpenIdClientSettingsStepModelÊ
-Ç
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdClientSettingsStep.cs' '(6
-%31string"AOrchardCore.OpenId.Settings.OpenIdClientSettings.ResponseType.set*>
-<
-settings0OrchardCore.OpenId.Settings.OpenIdClientSettings*
-
-%30stringÏ
-Ì
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdClientSettingsStep.cs(- ((H
-%32string"ROrchardCore.OpenId.Recipes.OpenIdClientSettingsStepModel.SignedOutCallbackPath.get*C
-A
-model8OrchardCore.OpenId.Recipes.OpenIdClientSettingsStepModelÓ
-Ð
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdClientSettingsStep.cs( ((H
-%33string"JOrchardCore.OpenId.Settings.OpenIdClientSettings.SignedOutCallbackPath.set*>
-<
-settings0OrchardCore.OpenId.Settings.OpenIdClientSettings*
-
-%32stringÎ
-Ë
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdClientSettingsStep.cs), )(F
-%34string"QOrchardCore.OpenId.Recipes.OpenIdClientSettingsStepModel.SignedOutRedirectUri.get*C
-A
-model8OrchardCore.OpenId.Recipes.OpenIdClientSettingsStepModelÒ
-Ï
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdClientSettingsStep.cs) )(F
-%35string"IOrchardCore.OpenId.Settings.OpenIdClientSettings.SignedOutRedirectUri.set*>
-<
-settings0OrchardCore.OpenId.Settings.OpenIdClientSettings*
-
-%34stringå
-â
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdClientSettingsStep.cs+ +( 7
-%360OrchardCore.OpenId.Services.IOpenIdClientService"__id*}*{5
-3OrchardCore.OpenId.Recipes.OpenIdClientSettingsStep"B
-_clientService0OrchardCore.OpenId.Services.IOpenIdClientService…‚
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdClientSettingsStep.cs+ +(>"
-%37System.Threading.Tasks.Task"vOrchardCore.OpenId.Services.IOpenIdClientService.UpdateSettingsAsync(OrchardCore.OpenId.Settings.OpenIdClientSettings)*9
-7
-%360OrchardCore.OpenId.Services.IOpenIdClientService*>
-<
-settings0OrchardCore.OpenId.Settings.OpenIdClientSettings2EUpdateSettingsAsync(OrchardCore.OpenId.Settings.OpenIdClientSettings)*
-6*ã
-6¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdClientSettingsStep.cs,	 ,(	"¹
-¡
-–D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.OpenId\Recipes\OpenIdClientSettingsStep.cs, ,(	
-implicit return:<
-context1OrchardCore.Recipes.Models.RecipeExecutionContextB75
-3OrchardCore.OpenId.Recipes.OpenIdClientSettingsStep

@@ -1,3096 +1,0 @@
-
-=orchardcore.contents/views/contentsbuttonactions_summaryadmin"0*©T
-0‘
-«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\obj\Debug\netcoreapp3.1\Razor\Views\ContentsButtonActions_SummaryAdmin.cshtml.g.cs˚ ç(Û
-
-Ø
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml (0
-%0dynamic"__mapGet*
-
-Modeldynamic*
-ContentItemÜ
-É
-Ø
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml (08
-contentItem)OrchardCore.ContentManagement.ContentItem"__id*
-
-%0dynamicÎ
-Ë
-Ø
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml (R3
-%1-OrchardCore.ContentManagement.IContentManager"FAspNetCore.Views_ContentsButtonActions_SummaryAdmin.ContentManager.get*75
-3AspNetCore.Views_ContentsButtonActions_SummaryAdminπ
-∂
-Ø
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml (R*
-%2$System.Threading.Tasks.Task<TResult>"¶OrchardCore.ContentManagement.ContentManagerExtensions.HasPublishedVersionAsync(OrchardCore.ContentManagement.IContentManager, OrchardCore.ContentManagement.IContent)*:"8
-6OrchardCore.ContentManagement.ContentManagerExtensions*5
-3
-%1-OrchardCore.ContentManagement.IContentManager*:
-8
-contentItem)OrchardCore.ContentManagement.ContentItemŸ
-÷
-Ø
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml (R
-hasPublishedbool"__id*
-""î
-ë
-Ø
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml (*
-
-%3bool"`OrchardCore.ContentManagement.ContentExtensions.HasDraft(OrchardCore.ContentManagement.IContent)*3"1
-/OrchardCore.ContentManagement.ContentExtensions*:
-8
-contentItem)OrchardCore.ContentManagement.ContentItem€
-ÿ
-Ø
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml (*
-hasDraftbool"__id*
-
-
-%3bool¸
-˘
-Ø
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml	 	(|>
-%48Microsoft.AspNetCore.Authorization.IAuthorizationService"LAspNetCore.Views_ContentsButtonActions_SummaryAdmin.AuthorizationService.get*75
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin÷”
-Ø
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml	 	(|,
-%5&System.Security.Claims.ClaimsPrincipal"5Microsoft.AspNetCore.Mvc.Razor.RazorPageBase.User.get*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBase2User.get⁄
-◊
-Ø
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml	 	(|1
-%6+OrchardCore.Security.Permissions.Permission"__id*j*h(
-&OrchardCore.Contents.CommonPermissions"<
-DeleteContent+OrchardCore.Security.Permissions.Permissionı
-Ú
-Ø
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml	 	(|*
-%7$System.Threading.Tasks.Task<TResult>"ÁMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission, object)*E"C
-AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*@
->
-%48Microsoft.AspNetCore.Authorization.IAuthorizationService*.
-,
-%5&System.Security.Claims.ClaimsPrincipal*3
-1
-%6+OrchardCore.Security.Permissions.Permission*:
-8
-contentItem)OrchardCore.ContentManagement.ContentItem‡
-›
-Ø
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml	 	(|
-hasDeletePermissionbool"__id*
-""¸
-˘
-Ø
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml
- 
-(x>
-%88Microsoft.AspNetCore.Authorization.IAuthorizationService"LAspNetCore.Views_ContentsButtonActions_SummaryAdmin.AuthorizationService.get*75
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin÷”
-Ø
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml
- 
-(x,
-%9&System.Security.Claims.ClaimsPrincipal"5Microsoft.AspNetCore.Mvc.Razor.RazorPageBase.User.get*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBase2User.getŸ
-÷
-Ø
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml
- 
-(x2
-%10+OrchardCore.Security.Permissions.Permission"__id*h*f(
-&OrchardCore.Contents.CommonPermissions":
-EditContent+OrchardCore.Security.Permissions.Permission˜
-Ù
-Ø
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml
- 
-(x+
-%11$System.Threading.Tasks.Task<TResult>"ÁMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission, object)*E"C
-AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*@
->
-%88Microsoft.AspNetCore.Authorization.IAuthorizationService*.
-,
-%9&System.Security.Claims.ClaimsPrincipal*4
-2
-%10+OrchardCore.Security.Permissions.Permission*:
-8
-contentItem)OrchardCore.ContentManagement.ContentItemﬁ
-€
-Ø
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml
- 
-(x
-hasEditPermissionbool"__id*
-""˝
-˙
-Ø
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml (~?
-%128Microsoft.AspNetCore.Authorization.IAuthorizationService"LAspNetCore.Views_ContentsButtonActions_SummaryAdmin.AuthorizationService.get*75
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin◊‘
-Ø
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml (~-
-%13&System.Security.Claims.ClaimsPrincipal"5Microsoft.AspNetCore.Mvc.Razor.RazorPageBase.User.get*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBase2User.get‹
-Ÿ
-Ø
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml (~2
-%14+OrchardCore.Security.Permissions.Permission"__id*k*i(
-&OrchardCore.Contents.CommonPermissions"=
-PublishContent+OrchardCore.Security.Permissions.Permission˘
-ˆ
-Ø
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml (~+
-%15$System.Threading.Tasks.Task<TResult>"ÁMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission, object)*E"C
-AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*A
-?
-%128Microsoft.AspNetCore.Authorization.IAuthorizationService*/
--
-%13&System.Security.Claims.ClaimsPrincipal*4
-2
-%14+OrchardCore.Security.Permissions.Permission*:
-8
-contentItem)OrchardCore.ContentManagement.ContentItem·
-ﬁ
-Ø
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml (~
-hasPublishPermissionbool"__id*
-""˝
-˙
-Ø
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml (z?
-%168Microsoft.AspNetCore.Authorization.IAuthorizationService"LAspNetCore.Views_ContentsButtonActions_SummaryAdmin.AuthorizationService.get*75
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin◊‘
-Ø
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml (z-
-%17&System.Security.Claims.ClaimsPrincipal"5Microsoft.AspNetCore.Mvc.Razor.RazorPageBase.User.get*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBase2User.get⁄
-◊
-Ø
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml (z2
-%18+OrchardCore.Security.Permissions.Permission"__id*i*g(
-&OrchardCore.Contents.CommonPermissions";
-CloneContent+OrchardCore.Security.Permissions.Permission˘
-ˆ
-Ø
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml (z+
-%19$System.Threading.Tasks.Task<TResult>"ÁMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission, object)*E"C
-AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*A
-?
-%168Microsoft.AspNetCore.Authorization.IAuthorizationService*/
--
-%17&System.Security.Claims.ClaimsPrincipal*4
-2
-%18+OrchardCore.Security.Permissions.Permission*:
-8
-contentItem)OrchardCore.ContentManagement.ContentItemﬂ
-‹
-Ø
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml (z
-hasClonePermissionbool"__id*
-""*
-1
-2*‚
-1‘
-«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\obj\Debug\netcoreapp3.1\Razor\Views\ContentsButtonActions_SummaryAdmin.cshtml.g.csè è(*
-3
-4*ﬁ.
-3‘
-«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\obj\Debug\netcoreapp3.1\Razor\Views\ContentsButtonActions_SummaryAdmin.cshtml.g.csï ¶(YŸ
-÷J
-%20CMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager"OAspNetCore.Views_ContentsButtonActions_SummaryAdmin.__tagHelperScopeManager.get*75
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin
-
-%21"__id*
-""†
-ù
-%22void"Borchardcore.contents/views/contentsbuttonactions_summaryadmin!a277*
-
-%23*
-
-Modeldynamic*
-
-ViewBagDataAllobject*
-
-ViewBagDataHtmlobject*
-
-TempDataAllobject*
-
-TempDataHtmlobject*
-
-HttpContextItemsAllobject* 
-
-HttpContextItemsHtmlobject∫
-∑ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*
-
-%22voidΩ
-∫:
-%243Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"JMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.CreateTagHelper<TTagHelper>()*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBaseÔ
-Ï•5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"l
-5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*<
-:
-%243Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper˛
-˚N
-%25GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext
-Ì:
-%263Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®*•5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"l
-5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelperü
-ú
-%27void"}Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.Add(Microsoft.AspNetCore.Razor.TagHelpers.ITagHelper)*P
-N
-%25GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*<
-:
-%263Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper
-Ì:
-%283Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®*•5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"l
-5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper€
-ÿ?
-%298Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"__id*é*ã5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"R
-__tagHelperAttribute_08Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttributeô
-ñ
-%30object"BMicrosoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute.Value.get*A
-?
-%298Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute 
-
-%31"__id*
-
-%30objectô
-ñ
-%32string">Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Action.set*<
-:
-%283Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper*
-
-%31˛
-˚N
-%33GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext€
-ÿ?
-%348Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"__id*é*ã5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"R
-__tagHelperAttribute_08Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttributeø
-º
-%35void"óMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddTagHelperAttribute(Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute)*P
-N
-%33GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*A
-?
-%348Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute
-Ì:
-%363Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®*•5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"l
-5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper€
-ÿ?
-%378Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"__id*é*ã5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"R
-__tagHelperAttribute_18Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttributeô
-ñ
-%38object"BMicrosoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute.Value.get*A
-?
-%378Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute 
-
-%39"__id*
-
-%38objectù
-ö
-%40string"BMicrosoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Controller.set*<
-:
-%363Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper*
-
-%39˛
-˚N
-%41GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext€
-ÿ?
-%428Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"__id*é*ã5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"R
-__tagHelperAttribute_18Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttributeø
-º
-%43void"óMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddTagHelperAttribute(Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute)*P
-N
-%41GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*A
-?
-%428Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute
-Ì:
-%443Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®*•5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"l
-5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper√
-¿;
-%454System.Collections.Generic.IDictionary<TKey, TValue>"CMicrosoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.RouteValues.get*<
-:
-%443Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelperá
-Ñ
-%46bool""object.operator ==(object, object)*
-"
-object*=
-;
-%454System.Collections.Generic.IDictionary<TKey, TValue>*
-""*
-5
-6*–
-5’
-«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\obj\Debug\netcoreapp3.1\Razor\Views\ContentsButtonActions_SummaryAdmin.cshtml.g.cs® ®(¨ä
-á
-%47string"fMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.InvalidTagHelperIndexerAssignment(string, string, string)*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBase*
-asp-route-area*75
-3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper*
-RouteValuesMK'
-%48 System.InvalidOperationException" System.InvalidOperationExceptionë
-é
-%49void"CSystem.InvalidOperationException.InvalidOperationException(string?)*)
-'
-%48 System.InvalidOperationException*
-
-%47string*
-7*Ç
-6‘
-«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\obj\Debug\netcoreapp3.1\Razor\Views\ContentsButtonActions_SummaryAdmin.cshtml.g.cs™ ¨(Y
-Ì:
-%503Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®*•5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"l
-5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper√
-¿;
-%514System.Collections.Generic.IDictionary<TKey, TValue>"CMicrosoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.RouteValues.get*<
-:
-%503Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper€
-ÿ?
-%528Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"__id*é*ã5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"R
-__tagHelperAttribute_28Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttributeô
-ñ
-%53object"BMicrosoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute.Value.get*A
-?
-%528Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute 
-
-%54"__id*
-
-%53objecte
-c
-%55"__mapSet*=
-;
-%514System.Collections.Generic.IDictionary<TKey, TValue>*
-area*
-
-%54˛
-˚N
-%56GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext€
-ÿ?
-%578Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"__id*é*ã5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"R
-__tagHelperAttribute_28Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttributeø
-º
-%58void"óMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddTagHelperAttribute(Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute)*P
-N
-%56GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*A
-?
-%578Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute
-Ì:
-%593Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®*•5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"l
-5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper√
-¿;
-%604System.Collections.Generic.IDictionary<TKey, TValue>"CMicrosoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.RouteValues.get*<
-:
-%593Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelperá
-Ñ
-%61bool""object.operator ==(object, object)*
-"
-object*=
-;
-%604System.Collections.Generic.IDictionary<TKey, TValue>*
-""*
-8
-9*Ÿ
-8’
-«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\obj\Debug\netcoreapp3.1\Razor\Views\ContentsButtonActions_SummaryAdmin.cshtml.g.csÆ Æ(µì
-ê
-%62string"fMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.InvalidTagHelperIndexerAssignment(string, string, string)*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBase*
-asp-route-contentItemId*75
-3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper*
-RouteValuesMK'
-%63 System.InvalidOperationException" System.InvalidOperationExceptionë
-é
-%64void"CSystem.InvalidOperationException.InvalidOperationException(string?)*)
-'
-%63 System.InvalidOperationException*
-
-%62string*
-7*ùB
-9‘
-«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\obj\Debug\netcoreapp3.1\Razor\Views\ContentsButtonActions_SummaryAdmin.cshtml.g.cs∞ …(Eè
-å
-%65void"KMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.BeginWriteTagHelperAttribute()*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBaseæ
-ª
-∞
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml (Ö
-%66string";OrchardCore.ContentManagement.ContentItem.ContentItemId.get*:
-8
-contentItem)OrchardCore.ContentManagement.ContentItemè
-å
-%67string"IMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.EndWriteTagHelperAttribute()*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBasez
-x_5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"&
-__tagHelperStringValueBufferstring"__id*
-
-%67string
-Ì:
-%683Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®*•5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"l
-5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper√
-¿;
-%694System.Collections.Generic.IDictionary<TKey, TValue>"CMicrosoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.RouteValues.get*<
-:
-%683Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelperz
-x
-%70string"__id*a*_5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"&
-__tagHelperStringValueBufferstringv
-t
-%71"__mapSet*=
-;
-%694System.Collections.Generic.IDictionary<TKey, TValue>*
-contentItemId*
-
-%70string˛
-˚N
-%72GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext
-Ì:
-%733Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®*•5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"l
-5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper√
-¿;
-%744System.Collections.Generic.IDictionary<TKey, TValue>"CMicrosoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.RouteValues.get*<
-:
-%733Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelperm
-k
-%75string"__mapGet*=
-;
-%744System.Collections.Generic.IDictionary<TKey, TValue>*
-contentItemId
-
-%76"__id*
-""»
-≈
-%77void"¨Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddTagHelperAttribute(string, object, Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle)*P
-N
-%72GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*
-asp-route-contentItemId*
-
-%75string*
-
-%76è
-å
-%78void"KMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.BeginWriteTagHelperAttribute()*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBaseÀ
-»
-∞
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml (Ö
-%79string"IOrchardCore.DisplayManagement.Razor.RazorPage<TModel>.FullRequestPath.get*97
-5OrchardCore.DisplayManagement.Razor.RazorPage<TModel>è
-å
-%80string"IMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.EndWriteTagHelperAttribute()*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBasez
-x_5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"&
-__tagHelperStringValueBufferstring"__id*
-
-%80string
-Ì:
-%813Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®*•5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"l
-5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper√
-¿;
-%824System.Collections.Generic.IDictionary<TKey, TValue>"CMicrosoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.RouteValues.get*<
-:
-%813Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelperz
-x
-%83string"__id*a*_5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"&
-__tagHelperStringValueBufferstringr
-p
-%84"__mapSet*=
-;
-%824System.Collections.Generic.IDictionary<TKey, TValue>*
-	returnUrl*
-
-%83string˛
-˚N
-%85GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext
-Ì:
-%863Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®*•5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"l
-5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper√
-¿;
-%874System.Collections.Generic.IDictionary<TKey, TValue>"CMicrosoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.RouteValues.get*<
-:
-%863Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelperi
-g
-%88string"__mapGet*=
-;
-%874System.Collections.Generic.IDictionary<TKey, TValue>*
-	returnUrl
-
-%89"__id*
-""ƒ
-¡
-%90void"¨Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddTagHelperAttribute(string, object, Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle)*P
-N
-%85GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*
-asp-route-returnUrl*
-
-%88string*
-
-%89˛
-˚N
-%91GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext€
-ÿ?
-%928Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"__id*é*ã5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"R
-__tagHelperAttribute_38Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute∫
-∑
-%93void"íMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddHtmlAttribute(Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute)*P
-N
-%91GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*A
-?
-%928Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute˛
-˚N
-%94GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext€
-ÿ?
-%958Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"__id*é*ã5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"R
-__tagHelperAttribute_48Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute∫
-∑
-%96void"íMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddHtmlAttribute(Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute)*P
-N
-%94GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*A
-?
-%958Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute‡
-›D
-%97=Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner"__id*é*ã5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"R
-__tagHelperRunner=Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner˛
-˚N
-%98GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext”
-–"
-%99System.Threading.Tasks.Task"èMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner.RunAsync(Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext)*F
-D
-%97=Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner*P
-N
-%98GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextˇ
-¸O
-%100GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextÈ
-Ê=
-%1015Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput"RMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.Output.get*Q
-O
-%100GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextü
-ú
-%102bool"KMicrosoft.AspNetCore.Razor.TagHelpers.TagHelperOutput.IsContentModified.get*?
-=
-%1015Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput*
-10
-11*¬
-10‘
-«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\obj\Debug\netcoreapp3.1\Razor\Views\ContentsButtonActions_SummaryAdmin.cshtml.g.csÀ À(Iˇ
-¸O
-%103GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext‹
-Ÿ#
-%104System.Threading.Tasks.Task"_Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()*Q
-O
-%103GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*
-11*˝
-11‘
-«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\obj\Debug\netcoreapp3.1\Razor\Views\ContentsButtonActions_SummaryAdmin.cshtml.g.csÕ œ(ˇ
-¸O
-%105GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextÈ
-Ê=
-%1065Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput"RMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.Output.get*Q
-O
-%105GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext^
-\
-%107void"!razor_sink*?
-=
-%1065Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput⁄
-◊K
-%108CMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager"OAspNetCore.Views_ContentsButtonActions_SummaryAdmin.__tagHelperScopeManager.get*75
-3AspNetCore.Views_ContentsButtonActions_SummaryAdminÓ
-ÎO
-%109GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"IMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager.End()*M
-K
-%108CMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager˛
-˚ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*Q
-O
-%109GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*
-4*„
-4‘
-«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\obj\Debug\netcoreapp3.1\Razor\Views\ContentsButtonActions_SummaryAdmin.cshtml.g.cs‘ ‘(*
-12
-2*‡
-12‘
-«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\obj\Debug\netcoreapp3.1\Razor\Views\ContentsButtonActions_SummaryAdmin.cshtml.g.cs⁄ ⁄(M*
-2*‰
-2‘
-«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\obj\Debug\netcoreapp3.1\Razor\Views\ContentsButtonActions_SummaryAdmin.cshtml.g.cs„ Ê(*
-13
-14*Â
-13‘
-«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\obj\Debug\netcoreapp3.1\Razor\Views\ContentsButtonActions_SummaryAdmin.cshtml.g.csÊ Ê("*
-15
-14*é/
-15‘
-«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\obj\Debug\netcoreapp3.1\Razor\Views\ContentsButtonActions_SummaryAdmin.cshtml.g.csÏ ˝(Y⁄
-◊K
-%110CMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager"OAspNetCore.Views_ContentsButtonActions_SummaryAdmin.__tagHelperScopeManager.get*75
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin
-
-%111"__id*
-""¢
-ü
-%112void"Borchardcore.contents/views/contentsbuttonactions_summaryadmin!a364*
-
-%113*
-
-Modeldynamic*
-
-ViewBagDataAllobject*
-
-ViewBagDataHtmlobject*
-
-TempDataAllobject*
-
-TempDataHtmlobject*
-
-HttpContextItemsAllobject* 
-
-HttpContextItemsHtmlobjectª
-∏ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*
-
-%112voidæ
-ª;
-%1143Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"JMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.CreateTagHelper<TTagHelper>()*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBase
-Ì•5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"l
-5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*=
-;
-%1143Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelperˇ
-¸O
-%115GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextÒ
-Ó;
-%1163Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®*•5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"l
-5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper¢
-ü
-%117void"}Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.Add(Microsoft.AspNetCore.Razor.TagHelpers.ITagHelper)*Q
-O
-%115GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*=
-;
-%1163Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelperÒ
-Ó;
-%1183Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®*•5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"l
-5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper‹
-Ÿ@
-%1198Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"__id*é*ã5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"R
-__tagHelperAttribute_58Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttributeõ
-ò
-%120object"BMicrosoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute.Value.get*B
-@
-%1198Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"
- 
-%121"__id*
-
-%120objectú
-ô
-%122string">Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Action.set*=
-;
-%1183Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper*
-
-%121ˇ
-¸O
-%123GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext‹
-Ÿ@
-%1248Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"__id*é*ã5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"R
-__tagHelperAttribute_58Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute¬
-ø
-%125void"óMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddTagHelperAttribute(Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute)*Q
-O
-%123GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*B
-@
-%1248Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttributeÒ
-Ó;
-%1263Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®*•5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"l
-5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper‹
-Ÿ@
-%1278Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"__id*é*ã5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"R
-__tagHelperAttribute_18Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttributeõ
-ò
-%128object"BMicrosoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute.Value.get*B
-@
-%1278Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"
- 
-%129"__id*
-
-%128object†
-ù
-%130string"BMicrosoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Controller.set*=
-;
-%1263Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper*
-
-%129ˇ
-¸O
-%131GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext‹
-Ÿ@
-%1328Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"__id*é*ã5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"R
-__tagHelperAttribute_18Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute¬
-ø
-%133void"óMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddTagHelperAttribute(Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute)*Q
-O
-%131GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*B
-@
-%1328Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttributeÒ
-Ó;
-%1343Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®*•5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"l
-5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper≈
-¬<
-%1354System.Collections.Generic.IDictionary<TKey, TValue>"CMicrosoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.RouteValues.get*=
-;
-%1343Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelperâ
-Ü
-%136bool""object.operator ==(object, object)*
-"
-object*>
-<
-%1354System.Collections.Generic.IDictionary<TKey, TValue>*
-""*
-16
-17*÷
-16’
-«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\obj\Debug\netcoreapp3.1\Razor\Views\ContentsButtonActions_SummaryAdmin.cshtml.g.csˇ ˇ(¨ã
-à
-%137string"fMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.InvalidTagHelperIndexerAssignment(string, string, string)*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBase*
-asp-route-area*75
-3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper*
-RouteValuesNL(
-%138 System.InvalidOperationException" System.InvalidOperationExceptionî
-ë
-%139void"CSystem.InvalidOperationException.InvalidOperationException(string?)**
-(
-%138 System.InvalidOperationException*
-
-%137string*
-7*ö
-17‘
-«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\obj\Debug\netcoreapp3.1\Razor\Views\ContentsButtonActions_SummaryAdmin.cshtml.g.csÅ É(YÒ
-Ó;
-%1403Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®*•5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"l
-5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper≈
-¬<
-%1414System.Collections.Generic.IDictionary<TKey, TValue>"CMicrosoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.RouteValues.get*=
-;
-%1403Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper‹
-Ÿ@
-%1428Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"__id*é*ã5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"R
-__tagHelperAttribute_28Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttributeõ
-ò
-%143object"BMicrosoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute.Value.get*B
-@
-%1428Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"
- 
-%144"__id*
-
-%143objecth
-f
-%145"__mapSet*>
-<
-%1414System.Collections.Generic.IDictionary<TKey, TValue>*
-area*
-
-%144ˇ
-¸O
-%146GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext‹
-Ÿ@
-%1478Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"__id*é*ã5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"R
-__tagHelperAttribute_28Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute¬
-ø
-%148void"óMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddTagHelperAttribute(Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute)*Q
-O
-%146GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*B
-@
-%1478Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttributeÒ
-Ó;
-%1493Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®*•5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"l
-5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper≈
-¬<
-%1504System.Collections.Generic.IDictionary<TKey, TValue>"CMicrosoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.RouteValues.get*=
-;
-%1493Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelperâ
-Ü
-%151bool""object.operator ==(object, object)*
-"
-object*>
-<
-%1504System.Collections.Generic.IDictionary<TKey, TValue>*
-""*
-18
-19*ﬂ
-18’
-«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\obj\Debug\netcoreapp3.1\Razor\Views\ContentsButtonActions_SummaryAdmin.cshtml.g.csÖ Ö(µî
-ë
-%152string"fMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.InvalidTagHelperIndexerAssignment(string, string, string)*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBase*
-asp-route-contentItemId*75
-3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper*
-RouteValuesNL(
-%153 System.InvalidOperationException" System.InvalidOperationExceptionî
-ë
-%154void"CSystem.InvalidOperationException.InvalidOperationException(string?)**
-(
-%153 System.InvalidOperationException*
-
-%152string*
-7*íú
-19‘
-«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\obj\Debug\netcoreapp3.1\Razor\Views\ContentsButtonActions_SummaryAdmin.cshtml.g.csá …(Eê
-ç
-%155void"KMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.BeginWriteTagHelperAttribute()*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBaseø
-º
-∞
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml (¿
-%156string";OrchardCore.ContentManagement.ContentItem.ContentItemId.get*:
-8
-contentItem)OrchardCore.ContentManagement.ContentItemê
-ç
-%157string"IMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.EndWriteTagHelperAttribute()*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBase{
-y_5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"&
-__tagHelperStringValueBufferstring"__id*
-
-%157stringÒ
-Ó;
-%1583Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®*•5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"l
-5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper≈
-¬<
-%1594System.Collections.Generic.IDictionary<TKey, TValue>"CMicrosoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.RouteValues.get*=
-;
-%1583Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper{
-y
-%160string"__id*a*_5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"&
-__tagHelperStringValueBufferstringy
-w
-%161"__mapSet*>
-<
-%1594System.Collections.Generic.IDictionary<TKey, TValue>*
-contentItemId*
-
-%160stringˇ
-¸O
-%162GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextÒ
-Ó;
-%1633Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®*•5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"l
-5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper≈
-¬<
-%1644System.Collections.Generic.IDictionary<TKey, TValue>"CMicrosoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.RouteValues.get*=
-;
-%1633Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelpero
-m
-%165string"__mapGet*>
-<
-%1644System.Collections.Generic.IDictionary<TKey, TValue>*
-contentItemId
-
-%166"__id*
-""Ã
-…
-%167void"¨Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddTagHelperAttribute(string, object, Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle)*Q
-O
-%162GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*
-asp-route-contentItemId*
-
-%165string*
-
-%166ê
-ç
-%168void"KMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.BeginWriteTagHelperAttribute()*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBaseÃ
-…
-∞
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml (¿
-%169string"IOrchardCore.DisplayManagement.Razor.RazorPage<TModel>.FullRequestPath.get*97
-5OrchardCore.DisplayManagement.Razor.RazorPage<TModel>ê
-ç
-%170string"IMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.EndWriteTagHelperAttribute()*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBase{
-y_5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"&
-__tagHelperStringValueBufferstring"__id*
-
-%170stringÒ
-Ó;
-%1713Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®*•5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"l
-5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper≈
-¬<
-%1724System.Collections.Generic.IDictionary<TKey, TValue>"CMicrosoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.RouteValues.get*=
-;
-%1713Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper{
-y
-%173string"__id*a*_5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"&
-__tagHelperStringValueBufferstringu
-s
-%174"__mapSet*>
-<
-%1724System.Collections.Generic.IDictionary<TKey, TValue>*
-	returnUrl*
-
-%173stringˇ
-¸O
-%175GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextÒ
-Ó;
-%1763Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®*•5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"l
-5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper≈
-¬<
-%1774System.Collections.Generic.IDictionary<TKey, TValue>"CMicrosoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.RouteValues.get*=
-;
-%1763Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelperk
-i
-%178string"__mapGet*>
-<
-%1774System.Collections.Generic.IDictionary<TKey, TValue>*
-	returnUrl
-
-%179"__id*
-""»
-≈
-%180void"¨Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddTagHelperAttribute(string, object, Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle)*Q
-O
-%175GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*
-asp-route-returnUrl*
-
-%178string*
-
-%179ˇ
-¸O
-%181GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext‹
-Ÿ@
-%1828Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"__id*é*ã5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"R
-__tagHelperAttribute_68Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttributeΩ
-∫
-%183void"íMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddHtmlAttribute(Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute)*Q
-O
-%181GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*B
-@
-%1828Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttributeê
-ç
-%184void"KMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.BeginWriteTagHelperAttribute()*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBaseÏ
-È
-∞
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml (¿<
-%1854Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer";OrchardCore.DisplayManagement.Razor.RazorPage<TModel>.T.get*97
-5OrchardCore.DisplayManagement.Razor.RazorPage<TModel>•¢
-∞
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml (¿A
-%1869Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString"EMicrosoft.AspNetCore.Mvc.Localization.IHtmlLocalizer.this[string].get*>
-<
-%1854Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer*
-Discard Draft2this[string].getñ
-ì
-∞
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml (¿
-%187void"!razor_sink*C
-A
-%1869Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlStringê
-ç
-%188string"IMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.EndWriteTagHelperAttribute()*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBase{
-y_5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"&
-__tagHelperStringValueBufferstring"__id*
-
-%188stringˇ
-¸O
-%189GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext∫
-∑>
-%1906Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>"<AspNetCore.Views_ContentsButtonActions_SummaryAdmin.Html.get*75
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin{
-y
-%191string"__id*a*_5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"&
-__tagHelperStringValueBufferstringÿ’.
-%192&Microsoft.AspNetCore.Html.IHtmlContent"BMicrosoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>.Raw(string)*@
->
-%1906Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>*
-
-%191string2Raw(string)
-
-%193"__id*
-""⁄
-◊
-%194void"ßMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddHtmlAttribute(string, object, Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle)*Q
-O
-%189GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*
-
-data-title*0
-.
-%192&Microsoft.AspNetCore.Html.IHtmlContent*
-
-%193ê
-ç
-%195void"KMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.BeginWriteTagHelperAttribute()*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBaseÏ
-È
-∞
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml (¿<
-%1964Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer";OrchardCore.DisplayManagement.Razor.RazorPage<TModel>.T.get*97
-5OrchardCore.DisplayManagement.Razor.RazorPage<TModel>ƒ¡
-∞
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml (¿A
-%1979Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString"EMicrosoft.AspNetCore.Mvc.Localization.IHtmlLocalizer.this[string].get*>
-<
-%1964Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer*0.
-,Are you sure you want to discard this draft?2this[string].getñ
-ì
-∞
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml (¿
-%198void"!razor_sink*C
-A
-%1979Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlStringê
-ç
-%199string"IMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.EndWriteTagHelperAttribute()*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBase{
-y_5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"&
-__tagHelperStringValueBufferstring"__id*
-
-%199stringˇ
-¸O
-%200GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext∫
-∑>
-%2016Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>"<AspNetCore.Views_ContentsButtonActions_SummaryAdmin.Html.get*75
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin{
-y
-%202string"__id*a*_5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"&
-__tagHelperStringValueBufferstringÿ’.
-%203&Microsoft.AspNetCore.Html.IHtmlContent"BMicrosoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>.Raw(string)*@
->
-%2016Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>*
-
-%202string2Raw(string)
-
-%204"__id*
-""‹
-Ÿ
-%205void"ßMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddHtmlAttribute(string, object, Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle)*Q
-O
-%200GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*
-data-message*0
-.
-%203&Microsoft.AspNetCore.Html.IHtmlContent*
-
-%204ê
-ç
-%206void"KMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.BeginWriteTagHelperAttribute()*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBaseÏ
-È
-∞
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml (¿<
-%2074Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer";OrchardCore.DisplayManagement.Razor.RazorPage<TModel>.T.get*97
-5OrchardCore.DisplayManagement.Razor.RazorPage<TModel>õò
-∞
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml (¿A
-%2089Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString"EMicrosoft.AspNetCore.Mvc.Localization.IHtmlLocalizer.this[string].get*>
-<
-%2074Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer*
-Yes2this[string].getñ
-ì
-∞
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml (¿
-%209void"!razor_sink*C
-A
-%2089Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlStringê
-ç
-%210string"IMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.EndWriteTagHelperAttribute()*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBase{
-y_5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"&
-__tagHelperStringValueBufferstring"__id*
-
-%210stringˇ
-¸O
-%211GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext∫
-∑>
-%2126Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>"<AspNetCore.Views_ContentsButtonActions_SummaryAdmin.Html.get*75
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin{
-y
-%213string"__id*a*_5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"&
-__tagHelperStringValueBufferstringÿ’.
-%214&Microsoft.AspNetCore.Html.IHtmlContent"BMicrosoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>.Raw(string)*@
->
-%2126Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>*
-
-%213string2Raw(string)
-
-%215"__id*
-""‹
-Ÿ
-%216void"ßMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddHtmlAttribute(string, object, Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle)*Q
-O
-%211GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*
-data-ok-text*0
-.
-%214&Microsoft.AspNetCore.Html.IHtmlContent*
-
-%215ê
-ç
-%217void"KMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.BeginWriteTagHelperAttribute()*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBaseÏ
-È
-∞
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml (¿<
-%2184Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer";OrchardCore.DisplayManagement.Razor.RazorPage<TModel>.T.get*97
-5OrchardCore.DisplayManagement.Razor.RazorPage<TModel>öó
-∞
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml (¿A
-%2199Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString"EMicrosoft.AspNetCore.Mvc.Localization.IHtmlLocalizer.this[string].get*>
-<
-%2184Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer*
-No2this[string].getñ
-ì
-∞
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml (¿
-%220void"!razor_sink*C
-A
-%2199Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlStringê
-ç
-%221string"IMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.EndWriteTagHelperAttribute()*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBase{
-y_5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"&
-__tagHelperStringValueBufferstring"__id*
-
-%221stringˇ
-¸O
-%222GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext∫
-∑>
-%2236Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>"<AspNetCore.Views_ContentsButtonActions_SummaryAdmin.Html.get*75
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin{
-y
-%224string"__id*a*_5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"&
-__tagHelperStringValueBufferstringÿ’.
-%225&Microsoft.AspNetCore.Html.IHtmlContent"BMicrosoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>.Raw(string)*@
->
-%2236Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>*
-
-%224string2Raw(string)
-
-%226"__id*
-""‡
-›
-%227void"ßMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddHtmlAttribute(string, object, Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle)*Q
-O
-%222GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*
-data-cancel-text*0
-.
-%225&Microsoft.AspNetCore.Html.IHtmlContent*
-
-%226ˇ
-¸O
-%228GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext‹
-Ÿ@
-%2298Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"__id*é*ã5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"R
-__tagHelperAttribute_78Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttributeΩ
-∫
-%230void"íMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddHtmlAttribute(Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute)*Q
-O
-%228GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*B
-@
-%2298Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttributeˇ
-¸O
-%231GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext‹
-Ÿ@
-%2328Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"__id*é*ã5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"R
-__tagHelperAttribute_48Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttributeΩ
-∫
-%233void"íMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddHtmlAttribute(Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute)*Q
-O
-%231GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*B
-@
-%2328Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute·
-ﬁE
-%234=Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner"__id*é*ã5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"R
-__tagHelperRunner=Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunnerˇ
-¸O
-%235GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext÷
-”#
-%236System.Threading.Tasks.Task"èMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner.RunAsync(Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext)*G
-E
-%234=Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner*Q
-O
-%235GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextˇ
-¸O
-%237GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextÈ
-Ê=
-%2385Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput"RMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.Output.get*Q
-O
-%237GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextü
-ú
-%239bool"KMicrosoft.AspNetCore.Razor.TagHelpers.TagHelperOutput.IsContentModified.get*?
-=
-%2385Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput*
-20
-21*¬
-20‘
-«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\obj\Debug\netcoreapp3.1\Razor\Views\ContentsButtonActions_SummaryAdmin.cshtml.g.csÀ À(Iˇ
-¸O
-%240GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext‹
-Ÿ#
-%241System.Threading.Tasks.Task"_Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()*Q
-O
-%240GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*
-21*˛
-21‘
-«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\obj\Debug\netcoreapp3.1\Razor\Views\ContentsButtonActions_SummaryAdmin.cshtml.g.csÕ œ(ˇ
-¸O
-%242GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextÈ
-Ê=
-%2435Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput"RMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.Output.get*Q
-O
-%242GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext^
-\
-%244void"!razor_sink*?
-=
-%2435Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput⁄
-◊K
-%245CMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager"OAspNetCore.Views_ContentsButtonActions_SummaryAdmin.__tagHelperScopeManager.get*75
-3AspNetCore.Views_ContentsButtonActions_SummaryAdminÓ
-ÎO
-%246GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"IMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager.End()*M
-K
-%245CMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager˛
-˚ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*Q
-O
-%246GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*
-14*Â
-14‘
-«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\obj\Debug\netcoreapp3.1\Razor\Views\ContentsButtonActions_SummaryAdmin.cshtml.g.cs◊ ⁄(*
-22
-23*Â
-22‘
-«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\obj\Debug\netcoreapp3.1\Razor\Views\ContentsButtonActions_SummaryAdmin.cshtml.g.cs⁄ ⁄()*
-24
-23*é/
-24‘
-«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\obj\Debug\netcoreapp3.1\Razor\Views\ContentsButtonActions_SummaryAdmin.cshtml.g.cs‡ Ò(Y⁄
-◊K
-%247CMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager"OAspNetCore.Views_ContentsButtonActions_SummaryAdmin.__tagHelperScopeManager.get*75
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin
-
-%248"__id*
-""¢
-ü
-%249void"Borchardcore.contents/views/contentsbuttonactions_summaryadmin!a480*
-
-%250*
-
-Modeldynamic*
-
-ViewBagDataAllobject*
-
-ViewBagDataHtmlobject*
-
-TempDataAllobject*
-
-TempDataHtmlobject*
-
-HttpContextItemsAllobject* 
-
-HttpContextItemsHtmlobjectª
-∏ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*
-
-%249voidæ
-ª;
-%2513Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"JMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.CreateTagHelper<TTagHelper>()*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBase
-Ì•5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"l
-5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*=
-;
-%2513Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelperˇ
-¸O
-%252GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextÒ
-Ó;
-%2533Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®*•5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"l
-5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper¢
-ü
-%254void"}Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.Add(Microsoft.AspNetCore.Razor.TagHelpers.ITagHelper)*Q
-O
-%252GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*=
-;
-%2533Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelperÒ
-Ó;
-%2553Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®*•5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"l
-5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper‹
-Ÿ@
-%2568Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"__id*é*ã5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"R
-__tagHelperAttribute_88Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttributeõ
-ò
-%257object"BMicrosoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute.Value.get*B
-@
-%2568Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"
- 
-%258"__id*
-
-%257objectú
-ô
-%259string">Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Action.set*=
-;
-%2553Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper*
-
-%258ˇ
-¸O
-%260GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext‹
-Ÿ@
-%2618Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"__id*é*ã5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"R
-__tagHelperAttribute_88Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute¬
-ø
-%262void"óMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddTagHelperAttribute(Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute)*Q
-O
-%260GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*B
-@
-%2618Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttributeÒ
-Ó;
-%2633Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®*•5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"l
-5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper‹
-Ÿ@
-%2648Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"__id*é*ã5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"R
-__tagHelperAttribute_18Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttributeõ
-ò
-%265object"BMicrosoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute.Value.get*B
-@
-%2648Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"
- 
-%266"__id*
-
-%265object†
-ù
-%267string"BMicrosoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Controller.set*=
-;
-%2633Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper*
-
-%266ˇ
-¸O
-%268GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext‹
-Ÿ@
-%2698Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"__id*é*ã5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"R
-__tagHelperAttribute_18Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute¬
-ø
-%270void"óMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddTagHelperAttribute(Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute)*Q
-O
-%268GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*B
-@
-%2698Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttributeÒ
-Ó;
-%2713Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®*•5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"l
-5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper≈
-¬<
-%2724System.Collections.Generic.IDictionary<TKey, TValue>"CMicrosoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.RouteValues.get*=
-;
-%2713Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelperâ
-Ü
-%273bool""object.operator ==(object, object)*
-"
-object*>
-<
-%2724System.Collections.Generic.IDictionary<TKey, TValue>*
-""*
-25
-26*÷
-25’
-«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\obj\Debug\netcoreapp3.1\Razor\Views\ContentsButtonActions_SummaryAdmin.cshtml.g.csÛ Û(¨ã
-à
-%274string"fMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.InvalidTagHelperIndexerAssignment(string, string, string)*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBase*
-asp-route-area*75
-3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper*
-RouteValuesNL(
-%275 System.InvalidOperationException" System.InvalidOperationExceptionî
-ë
-%276void"CSystem.InvalidOperationException.InvalidOperationException(string?)**
-(
-%275 System.InvalidOperationException*
-
-%274string*
-7*ö
-26‘
-«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\obj\Debug\netcoreapp3.1\Razor\Views\ContentsButtonActions_SummaryAdmin.cshtml.g.csı ˜(YÒ
-Ó;
-%2773Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®*•5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"l
-5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper≈
-¬<
-%2784System.Collections.Generic.IDictionary<TKey, TValue>"CMicrosoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.RouteValues.get*=
-;
-%2773Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper‹
-Ÿ@
-%2798Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"__id*é*ã5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"R
-__tagHelperAttribute_28Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttributeõ
-ò
-%280object"BMicrosoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute.Value.get*B
-@
-%2798Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"
- 
-%281"__id*
-
-%280objecth
-f
-%282"__mapSet*>
-<
-%2784System.Collections.Generic.IDictionary<TKey, TValue>*
-area*
-
-%281ˇ
-¸O
-%283GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext‹
-Ÿ@
-%2848Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"__id*é*ã5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"R
-__tagHelperAttribute_28Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute¬
-ø
-%285void"óMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddTagHelperAttribute(Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute)*Q
-O
-%283GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*B
-@
-%2848Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttributeÒ
-Ó;
-%2863Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®*•5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"l
-5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper≈
-¬<
-%2874System.Collections.Generic.IDictionary<TKey, TValue>"CMicrosoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.RouteValues.get*=
-;
-%2863Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelperâ
-Ü
-%288bool""object.operator ==(object, object)*
-"
-object*>
-<
-%2874System.Collections.Generic.IDictionary<TKey, TValue>*
-""*
-27
-28*ﬂ
-27’
-«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\obj\Debug\netcoreapp3.1\Razor\Views\ContentsButtonActions_SummaryAdmin.cshtml.g.cs˘ ˘(µî
-ë
-%289string"fMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.InvalidTagHelperIndexerAssignment(string, string, string)*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBase*
-asp-route-contentItemId*75
-3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper*
-RouteValuesNL(
-%290 System.InvalidOperationException" System.InvalidOperationExceptionî
-ë
-%291void"CSystem.InvalidOperationException.InvalidOperationException(string?)**
-(
-%290 System.InvalidOperationException*
-
-%289string*
-7*èú
-28‘
-«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\obj\Debug\netcoreapp3.1\Razor\Views\ContentsButtonActions_SummaryAdmin.cshtml.g.cs˚ Ω(Eê
-ç
-%292void"KMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.BeginWriteTagHelperAttribute()*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBaseø
-º
-∞
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml# #(∂
-%293string";OrchardCore.ContentManagement.ContentItem.ContentItemId.get*:
-8
-contentItem)OrchardCore.ContentManagement.ContentItemê
-ç
-%294string"IMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.EndWriteTagHelperAttribute()*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBase{
-y_5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"&
-__tagHelperStringValueBufferstring"__id*
-
-%294stringÒ
-Ó;
-%2953Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®*•5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"l
-5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper≈
-¬<
-%2964System.Collections.Generic.IDictionary<TKey, TValue>"CMicrosoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.RouteValues.get*=
-;
-%2953Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper{
-y
-%297string"__id*a*_5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"&
-__tagHelperStringValueBufferstringy
-w
-%298"__mapSet*>
-<
-%2964System.Collections.Generic.IDictionary<TKey, TValue>*
-contentItemId*
-
-%297stringˇ
-¸O
-%299GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextÒ
-Ó;
-%3003Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®*•5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"l
-5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper≈
-¬<
-%3014System.Collections.Generic.IDictionary<TKey, TValue>"CMicrosoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.RouteValues.get*=
-;
-%3003Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelpero
-m
-%302string"__mapGet*>
-<
-%3014System.Collections.Generic.IDictionary<TKey, TValue>*
-contentItemId
-
-%303"__id*
-""Ã
-…
-%304void"¨Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddTagHelperAttribute(string, object, Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle)*Q
-O
-%299GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*
-asp-route-contentItemId*
-
-%302string*
-
-%303ê
-ç
-%305void"KMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.BeginWriteTagHelperAttribute()*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBaseÃ
-…
-∞
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml# #(∂
-%306string"IOrchardCore.DisplayManagement.Razor.RazorPage<TModel>.FullRequestPath.get*97
-5OrchardCore.DisplayManagement.Razor.RazorPage<TModel>ê
-ç
-%307string"IMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.EndWriteTagHelperAttribute()*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBase{
-y_5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"&
-__tagHelperStringValueBufferstring"__id*
-
-%307stringÒ
-Ó;
-%3083Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®*•5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"l
-5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper≈
-¬<
-%3094System.Collections.Generic.IDictionary<TKey, TValue>"CMicrosoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.RouteValues.get*=
-;
-%3083Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper{
-y
-%310string"__id*a*_5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"&
-__tagHelperStringValueBufferstringu
-s
-%311"__mapSet*>
-<
-%3094System.Collections.Generic.IDictionary<TKey, TValue>*
-	returnUrl*
-
-%310stringˇ
-¸O
-%312GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextÒ
-Ó;
-%3133Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®*•5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"l
-5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper≈
-¬<
-%3144System.Collections.Generic.IDictionary<TKey, TValue>"CMicrosoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.RouteValues.get*=
-;
-%3133Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelperk
-i
-%315string"__mapGet*>
-<
-%3144System.Collections.Generic.IDictionary<TKey, TValue>*
-	returnUrl
-
-%316"__id*
-""»
-≈
-%317void"¨Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddTagHelperAttribute(string, object, Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle)*Q
-O
-%312GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*
-asp-route-returnUrl*
-
-%315string*
-
-%316ˇ
-¸O
-%318GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext‹
-Ÿ@
-%3198Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"__id*é*ã5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"R
-__tagHelperAttribute_68Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttributeΩ
-∫
-%320void"íMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddHtmlAttribute(Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute)*Q
-O
-%318GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*B
-@
-%3198Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttributeê
-ç
-%321void"KMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.BeginWriteTagHelperAttribute()*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBaseÏ
-È
-∞
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml# #(∂<
-%3224Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer";OrchardCore.DisplayManagement.Razor.RazorPage<TModel>.T.get*97
-5OrchardCore.DisplayManagement.Razor.RazorPage<TModel>°û
-∞
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml# #(∂A
-%3239Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString"EMicrosoft.AspNetCore.Mvc.Localization.IHtmlLocalizer.this[string].get*>
-<
-%3224Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer*
-	Unpublish2this[string].getñ
-ì
-∞
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml# #(∂
-%324void"!razor_sink*C
-A
-%3239Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlStringê
-ç
-%325string"IMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.EndWriteTagHelperAttribute()*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBase{
-y_5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"&
-__tagHelperStringValueBufferstring"__id*
-
-%325stringˇ
-¸O
-%326GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext∫
-∑>
-%3276Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>"<AspNetCore.Views_ContentsButtonActions_SummaryAdmin.Html.get*75
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin{
-y
-%328string"__id*a*_5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"&
-__tagHelperStringValueBufferstringÿ’.
-%329&Microsoft.AspNetCore.Html.IHtmlContent"BMicrosoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>.Raw(string)*@
->
-%3276Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>*
-
-%328string2Raw(string)
-
-%330"__id*
-""⁄
-◊
-%331void"ßMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddHtmlAttribute(string, object, Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle)*Q
-O
-%326GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*
-
-data-title*0
-.
-%329&Microsoft.AspNetCore.Html.IHtmlContent*
-
-%330ê
-ç
-%332void"KMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.BeginWriteTagHelperAttribute()*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBaseÏ
-È
-∞
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml# #(∂<
-%3334Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer";OrchardCore.DisplayManagement.Razor.RazorPage<TModel>.T.get*97
-5OrchardCore.DisplayManagement.Razor.RazorPage<TModel>≈¬
-∞
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml# #(∂A
-%3349Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString"EMicrosoft.AspNetCore.Mvc.Localization.IHtmlLocalizer.this[string].get*>
-<
-%3334Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer*1/
--Are you sure you want to unpublish this item?2this[string].getñ
-ì
-∞
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml# #(∂
-%335void"!razor_sink*C
-A
-%3349Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlStringê
-ç
-%336string"IMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.EndWriteTagHelperAttribute()*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBase{
-y_5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"&
-__tagHelperStringValueBufferstring"__id*
-
-%336stringˇ
-¸O
-%337GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext∫
-∑>
-%3386Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>"<AspNetCore.Views_ContentsButtonActions_SummaryAdmin.Html.get*75
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin{
-y
-%339string"__id*a*_5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"&
-__tagHelperStringValueBufferstringÿ’.
-%340&Microsoft.AspNetCore.Html.IHtmlContent"BMicrosoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>.Raw(string)*@
->
-%3386Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>*
-
-%339string2Raw(string)
-
-%341"__id*
-""‹
-Ÿ
-%342void"ßMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddHtmlAttribute(string, object, Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle)*Q
-O
-%337GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*
-data-message*0
-.
-%340&Microsoft.AspNetCore.Html.IHtmlContent*
-
-%341ê
-ç
-%343void"KMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.BeginWriteTagHelperAttribute()*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBaseÏ
-È
-∞
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml# #(∂<
-%3444Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer";OrchardCore.DisplayManagement.Razor.RazorPage<TModel>.T.get*97
-5OrchardCore.DisplayManagement.Razor.RazorPage<TModel>õò
-∞
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml# #(∂A
-%3459Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString"EMicrosoft.AspNetCore.Mvc.Localization.IHtmlLocalizer.this[string].get*>
-<
-%3444Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer*
-Yes2this[string].getñ
-ì
-∞
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml# #(∂
-%346void"!razor_sink*C
-A
-%3459Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlStringê
-ç
-%347string"IMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.EndWriteTagHelperAttribute()*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBase{
-y_5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"&
-__tagHelperStringValueBufferstring"__id*
-
-%347stringˇ
-¸O
-%348GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext∫
-∑>
-%3496Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>"<AspNetCore.Views_ContentsButtonActions_SummaryAdmin.Html.get*75
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin{
-y
-%350string"__id*a*_5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"&
-__tagHelperStringValueBufferstringÿ’.
-%351&Microsoft.AspNetCore.Html.IHtmlContent"BMicrosoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>.Raw(string)*@
->
-%3496Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>*
-
-%350string2Raw(string)
-
-%352"__id*
-""‹
-Ÿ
-%353void"ßMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddHtmlAttribute(string, object, Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle)*Q
-O
-%348GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*
-data-ok-text*0
-.
-%351&Microsoft.AspNetCore.Html.IHtmlContent*
-
-%352ê
-ç
-%354void"KMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.BeginWriteTagHelperAttribute()*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBaseÏ
-È
-∞
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml# #(∂<
-%3554Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer";OrchardCore.DisplayManagement.Razor.RazorPage<TModel>.T.get*97
-5OrchardCore.DisplayManagement.Razor.RazorPage<TModel>öó
-∞
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml# #(∂A
-%3569Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString"EMicrosoft.AspNetCore.Mvc.Localization.IHtmlLocalizer.this[string].get*>
-<
-%3554Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer*
-No2this[string].getñ
-ì
-∞
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml# #(∂
-%357void"!razor_sink*C
-A
-%3569Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlStringê
-ç
-%358string"IMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.EndWriteTagHelperAttribute()*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBase{
-y_5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"&
-__tagHelperStringValueBufferstring"__id*
-
-%358stringˇ
-¸O
-%359GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext∫
-∑>
-%3606Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>"<AspNetCore.Views_ContentsButtonActions_SummaryAdmin.Html.get*75
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin{
-y
-%361string"__id*a*_5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"&
-__tagHelperStringValueBufferstringÿ’.
-%362&Microsoft.AspNetCore.Html.IHtmlContent"BMicrosoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>.Raw(string)*@
->
-%3606Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>*
-
-%361string2Raw(string)
-
-%363"__id*
-""‡
-›
-%364void"ßMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddHtmlAttribute(string, object, Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle)*Q
-O
-%359GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*
-data-cancel-text*0
-.
-%362&Microsoft.AspNetCore.Html.IHtmlContent*
-
-%363ˇ
-¸O
-%365GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext‹
-Ÿ@
-%3668Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"__id*é*ã5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"R
-__tagHelperAttribute_78Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttributeΩ
-∫
-%367void"íMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddHtmlAttribute(Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute)*Q
-O
-%365GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*B
-@
-%3668Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttributeˇ
-¸O
-%368GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext‹
-Ÿ@
-%3698Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"__id*é*ã5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"R
-__tagHelperAttribute_48Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttributeΩ
-∫
-%370void"íMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddHtmlAttribute(Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute)*Q
-O
-%368GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*B
-@
-%3698Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute·
-ﬁE
-%371=Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner"__id*é*ã5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"R
-__tagHelperRunner=Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunnerˇ
-¸O
-%372GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext÷
-”#
-%373System.Threading.Tasks.Task"èMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner.RunAsync(Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext)*G
-E
-%371=Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner*Q
-O
-%372GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextˇ
-¸O
-%374GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextÈ
-Ê=
-%3755Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput"RMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.Output.get*Q
-O
-%374GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextü
-ú
-%376bool"KMicrosoft.AspNetCore.Razor.TagHelpers.TagHelperOutput.IsContentModified.get*?
-=
-%3755Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput*
-29
-30*¬
-29‘
-«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\obj\Debug\netcoreapp3.1\Razor\Views\ContentsButtonActions_SummaryAdmin.cshtml.g.csø ø(Iˇ
-¸O
-%377GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext‹
-Ÿ#
-%378System.Threading.Tasks.Task"_Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()*Q
-O
-%377GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*
-30*˛
-30‘
-«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\obj\Debug\netcoreapp3.1\Razor\Views\ContentsButtonActions_SummaryAdmin.cshtml.g.cs¡ √(ˇ
-¸O
-%379GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextÈ
-Ê=
-%3805Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput"RMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.Output.get*Q
-O
-%379GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext^
-\
-%381void"!razor_sink*?
-=
-%3805Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput⁄
-◊K
-%382CMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager"OAspNetCore.Views_ContentsButtonActions_SummaryAdmin.__tagHelperScopeManager.get*75
-3AspNetCore.Views_ContentsButtonActions_SummaryAdminÓ
-ÎO
-%383GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"IMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager.End()*M
-K
-%382CMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager˛
-˚ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*Q
-O
-%383GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*
-23*Â
-23‘
-«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\obj\Debug\netcoreapp3.1\Razor\Views\ContentsButtonActions_SummaryAdmin.cshtml.g.csÀ Œ(*
-31
-32*Â
-32‘
-«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\obj\Debug\netcoreapp3.1\Razor\Views\ContentsButtonActions_SummaryAdmin.cshtml.g.csŒ Œ(*
-31
-33*Â
-31‘
-«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\obj\Debug\netcoreapp3.1\Razor\Views\ContentsButtonActions_SummaryAdmin.cshtml.g.csŒ# Œ(6*
-34
-33*Ÿ4
-34‘
-«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\obj\Debug\netcoreapp3.1\Razor\Views\ContentsButtonActions_SummaryAdmin.cshtml.g.cs‘ Ï(Y⁄
-◊K
-%384CMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager"OAspNetCore.Views_ContentsButtonActions_SummaryAdmin.__tagHelperScopeManager.get*75
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin
-
-%385"__id*
-""¢
-ü
-%386void"Borchardcore.contents/views/contentsbuttonactions_summaryadmin!a596*
-
-%387*
-
-Modeldynamic*
-
-ViewBagDataAllobject*
-
-ViewBagDataHtmlobject*
-
-TempDataAllobject*
-
-TempDataHtmlobject*
-
-HttpContextItemsAllobject* 
-
-HttpContextItemsHtmlobjectª
-∏ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*
-
-%386voidæ
-ª;
-%3883Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"JMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.CreateTagHelper<TTagHelper>()*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBase
-Ì•5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"l
-5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*=
-;
-%3883Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelperˇ
-¸O
-%389GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextÒ
-Ó;
-%3903Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®*•5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"l
-5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper¢
-ü
-%391void"}Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.Add(Microsoft.AspNetCore.Razor.TagHelpers.ITagHelper)*Q
-O
-%389GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*=
-;
-%3903Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelperø
-º<
-%3924OrchardCore.Contents.TagHelpers.ContentLinkTagHelper"JMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.CreateTagHelper<TTagHelper>()*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBaseÛ
-ß5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"n
-6__OrchardCore_Contents_TagHelpers_ContentLinkTagHelper4OrchardCore.Contents.TagHelpers.ContentLinkTagHelper"__id*>
-<
-%3924OrchardCore.Contents.TagHelpers.ContentLinkTagHelperˇ
-¸O
-%393GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextÙ
-Ò<
-%3944OrchardCore.Contents.TagHelpers.ContentLinkTagHelper"__id*™*ß5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"n
-6__OrchardCore_Contents_TagHelpers_ContentLinkTagHelper4OrchardCore.Contents.TagHelpers.ContentLinkTagHelper£
-†
-%395void"}Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.Add(Microsoft.AspNetCore.Razor.TagHelpers.ITagHelper)*Q
-O
-%393GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*>
-<
-%3944OrchardCore.Contents.TagHelpers.ContentLinkTagHelperß
-§
-∞
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml( ((±<
-%3964OrchardCore.Contents.TagHelpers.ContentLinkTagHelper"__id*™*ß5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"n
-6__OrchardCore_Contents_TagHelpers_ContentLinkTagHelper4OrchardCore.Contents.TagHelpers.ContentLinkTagHelper©
-¶
-∞
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml( ((±1
-%397)OrchardCore.ContentManagement.ContentItem"BOrchardCore.Contents.TagHelpers.ContentLinkTagHelper.RemoveFor.set*>
-<
-%3964OrchardCore.Contents.TagHelpers.ContentLinkTagHelper*:
-8
-contentItem)OrchardCore.ContentManagement.ContentItemˇ
-¸O
-%398GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextÙ
-Ò<
-%3994OrchardCore.Contents.TagHelpers.ContentLinkTagHelper"__id*™*ß5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"n
-6__OrchardCore_Contents_TagHelpers_ContentLinkTagHelper4OrchardCore.Contents.TagHelpers.ContentLinkTagHelper∫
-∑1
-%400)OrchardCore.ContentManagement.ContentItem"BOrchardCore.Contents.TagHelpers.ContentLinkTagHelper.RemoveFor.get*>
-<
-%3994OrchardCore.Contents.TagHelpers.ContentLinkTagHelper
-
-%401"__id*
-""‚
-ﬂ
-%402void"¨Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddTagHelperAttribute(string, object, Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle)*Q
-O
-%398GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*
-
-remove-for*3
-1
-%400)OrchardCore.ContentManagement.ContentItem*
-
-%401ˇ
-¸O
-%403GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext‹
-Ÿ@
-%4048Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"__id*é*ã5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"R
-__tagHelperAttribute_48Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttributeΩ
-∫
-%405void"íMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddHtmlAttribute(Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute)*Q
-O
-%403GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*B
-@
-%4048Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttributeÒ
-Ó;
-%4063Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®*•5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"l
-5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper≈
-¬<
-%4074System.Collections.Generic.IDictionary<TKey, TValue>"CMicrosoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.RouteValues.get*=
-;
-%4063Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelperâ
-Ü
-%408bool""object.operator ==(object, object)*
-"
-object*>
-<
-%4074System.Collections.Generic.IDictionary<TKey, TValue>*
-""*
-35
-36*€
-35’
-«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\obj\Debug\netcoreapp3.1\Razor\Views\ContentsButtonActions_SummaryAdmin.cshtml.g.csÓ Ó(±ê
-ç
-%409string"fMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.InvalidTagHelperIndexerAssignment(string, string, string)*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBase*
-asp-route-returnUrl*75
-3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper*
-RouteValuesNL(
-%410 System.InvalidOperationException" System.InvalidOperationExceptionî
-ë
-%411void"CSystem.InvalidOperationException.InvalidOperationException(string?)**
-(
-%410 System.InvalidOperationException*
-
-%409string*
-7*°{
-36‘
-«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\obj\Debug\netcoreapp3.1\Razor\Views\ContentsButtonActions_SummaryAdmin.cshtml.g.cs •(Eê
-ç
-%412void"KMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.BeginWriteTagHelperAttribute()*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBaseÃ
-…
-∞
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml( ((±
-%413string"IOrchardCore.DisplayManagement.Razor.RazorPage<TModel>.FullRequestPath.get*97
-5OrchardCore.DisplayManagement.Razor.RazorPage<TModel>ê
-ç
-%414string"IMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.EndWriteTagHelperAttribute()*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBase{
-y_5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"&
-__tagHelperStringValueBufferstring"__id*
-
-%414stringÒ
-Ó;
-%4153Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®*•5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"l
-5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper≈
-¬<
-%4164System.Collections.Generic.IDictionary<TKey, TValue>"CMicrosoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.RouteValues.get*=
-;
-%4153Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper{
-y
-%417string"__id*a*_5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"&
-__tagHelperStringValueBufferstringu
-s
-%418"__mapSet*>
-<
-%4164System.Collections.Generic.IDictionary<TKey, TValue>*
-	returnUrl*
-
-%417stringˇ
-¸O
-%419GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextÒ
-Ó;
-%4203Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®*•5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"l
-5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper≈
-¬<
-%4214System.Collections.Generic.IDictionary<TKey, TValue>"CMicrosoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.RouteValues.get*=
-;
-%4203Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelperk
-i
-%422string"__mapGet*>
-<
-%4214System.Collections.Generic.IDictionary<TKey, TValue>*
-	returnUrl
-
-%423"__id*
-""»
-≈
-%424void"¨Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddTagHelperAttribute(string, object, Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle)*Q
-O
-%419GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*
-asp-route-returnUrl*
-
-%422string*
-
-%423ˇ
-¸O
-%425GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext‹
-Ÿ@
-%4268Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"__id*é*ã5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"R
-__tagHelperAttribute_98Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttributeΩ
-∫
-%427void"íMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddHtmlAttribute(Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute)*Q
-O
-%425GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*B
-@
-%4268Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttributeê
-ç
-%428void"KMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.BeginWriteTagHelperAttribute()*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBaseÏ
-È
-∞
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml( ((±<
-%4294Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer";OrchardCore.DisplayManagement.Razor.RazorPage<TModel>.T.get*97
-5OrchardCore.DisplayManagement.Razor.RazorPage<TModel>ûõ
-∞
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml( ((±A
-%4309Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString"EMicrosoft.AspNetCore.Mvc.Localization.IHtmlLocalizer.this[string].get*>
-<
-%4294Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer*
-
-Delete2this[string].getñ
-ì
-∞
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml( ((±
-%431void"!razor_sink*C
-A
-%4309Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlStringê
-ç
-%432string"IMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.EndWriteTagHelperAttribute()*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBase{
-y_5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"&
-__tagHelperStringValueBufferstring"__id*
-
-%432stringˇ
-¸O
-%433GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext∫
-∑>
-%4346Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>"<AspNetCore.Views_ContentsButtonActions_SummaryAdmin.Html.get*75
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin{
-y
-%435string"__id*a*_5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"&
-__tagHelperStringValueBufferstringÿ’.
-%436&Microsoft.AspNetCore.Html.IHtmlContent"BMicrosoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>.Raw(string)*@
->
-%4346Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>*
-
-%435string2Raw(string)
-
-%437"__id*
-""⁄
-◊
-%438void"ßMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddHtmlAttribute(string, object, Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle)*Q
-O
-%433GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*
-
-data-title*0
-.
-%436&Microsoft.AspNetCore.Html.IHtmlContent*
-
-%437ê
-ç
-%439void"KMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.BeginWriteTagHelperAttribute()*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBaseÏ
-È
-∞
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml( ((±<
-%4404Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer";OrchardCore.DisplayManagement.Razor.RazorPage<TModel>.T.get*97
-5OrchardCore.DisplayManagement.Razor.RazorPage<TModel> «
-∞
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml( ((±A
-%4419Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString"EMicrosoft.AspNetCore.Mvc.Localization.IHtmlLocalizer.this[string].get*>
-<
-%4404Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer*64
-2Are you sure you want to delete this content item?2this[string].getñ
-ì
-∞
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml( ((±
-%442void"!razor_sink*C
-A
-%4419Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlStringê
-ç
-%443string"IMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.EndWriteTagHelperAttribute()*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBase{
-y_5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"&
-__tagHelperStringValueBufferstring"__id*
-
-%443stringˇ
-¸O
-%444GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext∫
-∑>
-%4456Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>"<AspNetCore.Views_ContentsButtonActions_SummaryAdmin.Html.get*75
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin{
-y
-%446string"__id*a*_5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"&
-__tagHelperStringValueBufferstringÿ’.
-%447&Microsoft.AspNetCore.Html.IHtmlContent"BMicrosoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>.Raw(string)*@
->
-%4456Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>*
-
-%446string2Raw(string)
-
-%448"__id*
-""‹
-Ÿ
-%449void"ßMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddHtmlAttribute(string, object, Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle)*Q
-O
-%444GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*
-data-message*0
-.
-%447&Microsoft.AspNetCore.Html.IHtmlContent*
-
-%448ê
-ç
-%450void"KMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.BeginWriteTagHelperAttribute()*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBaseÏ
-È
-∞
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml( ((±<
-%4514Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer";OrchardCore.DisplayManagement.Razor.RazorPage<TModel>.T.get*97
-5OrchardCore.DisplayManagement.Razor.RazorPage<TModel>öó
-∞
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml( ((±A
-%4529Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString"EMicrosoft.AspNetCore.Mvc.Localization.IHtmlLocalizer.this[string].get*>
-<
-%4514Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer*
-Ok2this[string].getñ
-ì
-∞
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml( ((±
-%453void"!razor_sink*C
-A
-%4529Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlStringê
-ç
-%454string"IMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.EndWriteTagHelperAttribute()*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBase{
-y_5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"&
-__tagHelperStringValueBufferstring"__id*
-
-%454stringˇ
-¸O
-%455GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext∫
-∑>
-%4566Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>"<AspNetCore.Views_ContentsButtonActions_SummaryAdmin.Html.get*75
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin{
-y
-%457string"__id*a*_5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"&
-__tagHelperStringValueBufferstringÿ’.
-%458&Microsoft.AspNetCore.Html.IHtmlContent"BMicrosoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>.Raw(string)*@
->
-%4566Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>*
-
-%457string2Raw(string)
-
-%459"__id*
-""‹
-Ÿ
-%460void"ßMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddHtmlAttribute(string, object, Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle)*Q
-O
-%455GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*
-data-ok-text*0
-.
-%458&Microsoft.AspNetCore.Html.IHtmlContent*
-
-%459ê
-ç
-%461void"KMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.BeginWriteTagHelperAttribute()*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBaseÏ
-È
-∞
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml( ((±<
-%4624Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer";OrchardCore.DisplayManagement.Razor.RazorPage<TModel>.T.get*97
-5OrchardCore.DisplayManagement.Razor.RazorPage<TModel>ûõ
-∞
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml( ((±A
-%4639Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlString"EMicrosoft.AspNetCore.Mvc.Localization.IHtmlLocalizer.this[string].get*>
-<
-%4624Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer*
-
-Cancel2this[string].getñ
-ì
-∞
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml( ((±
-%464void"!razor_sink*C
-A
-%4639Microsoft.AspNetCore.Mvc.Localization.LocalizedHtmlStringê
-ç
-%465string"IMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.EndWriteTagHelperAttribute()*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBase{
-y_5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"&
-__tagHelperStringValueBufferstring"__id*
-
-%465stringˇ
-¸O
-%466GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext∫
-∑>
-%4676Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>"<AspNetCore.Views_ContentsButtonActions_SummaryAdmin.Html.get*75
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin{
-y
-%468string"__id*a*_5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"&
-__tagHelperStringValueBufferstringÿ’.
-%469&Microsoft.AspNetCore.Html.IHtmlContent"BMicrosoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>.Raw(string)*@
->
-%4676Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<TModel>*
-
-%468string2Raw(string)
-
-%470"__id*
-""‡
-›
-%471void"ßMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddHtmlAttribute(string, object, Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle)*Q
-O
-%466GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*
-data-cancel-text*0
-.
-%469&Microsoft.AspNetCore.Html.IHtmlContent*
-
-%470·
-ﬁE
-%472=Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner"__id*é*ã5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"R
-__tagHelperRunner=Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunnerˇ
-¸O
-%473GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext÷
-”#
-%474System.Threading.Tasks.Task"èMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner.RunAsync(Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext)*G
-E
-%472=Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner*Q
-O
-%473GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextˇ
-¸O
-%475GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextÈ
-Ê=
-%4765Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput"RMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.Output.get*Q
-O
-%475GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextü
-ú
-%477bool"KMicrosoft.AspNetCore.Razor.TagHelpers.TagHelperOutput.IsContentModified.get*?
-=
-%4765Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput*
-37
-38*¬
-37‘
-«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\obj\Debug\netcoreapp3.1\Razor\Views\ContentsButtonActions_SummaryAdmin.cshtml.g.csß ß(Iˇ
-¸O
-%478GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext‹
-Ÿ#
-%479System.Threading.Tasks.Task"_Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()*Q
-O
-%478GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*
-38*˛
-38‘
-«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\obj\Debug\netcoreapp3.1\Razor\Views\ContentsButtonActions_SummaryAdmin.cshtml.g.cs© ´(ˇ
-¸O
-%480GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextÈ
-Ê=
-%4815Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput"RMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.Output.get*Q
-O
-%480GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext^
-\
-%482void"!razor_sink*?
-=
-%4815Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput⁄
-◊K
-%483CMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager"OAspNetCore.Views_ContentsButtonActions_SummaryAdmin.__tagHelperScopeManager.get*75
-3AspNetCore.Views_ContentsButtonActions_SummaryAdminÓ
-ÎO
-%484GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"IMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager.End()*M
-K
-%483CMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager˛
-˚ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*Q
-O
-%484GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*
-33*‰
-33‘
-«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\obj\Debug\netcoreapp3.1\Razor\Views\ContentsButtonActions_SummaryAdmin.cshtml.g.cs≥ ∂(*
-39
-7*ê/
-39‘
-«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\obj\Debug\netcoreapp3.1\Razor\Views\ContentsButtonActions_SummaryAdmin.cshtml.g.csº Õ(Y⁄
-◊K
-%485CMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager"OAspNetCore.Views_ContentsButtonActions_SummaryAdmin.__tagHelperScopeManager.get*75
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin
-
-%486"__id*
-""¢
-ü
-%487void"Borchardcore.contents/views/contentsbuttonactions_summaryadmin!a700*
-
-%488*
-
-Modeldynamic*
-
-ViewBagDataAllobject*
-
-ViewBagDataHtmlobject*
-
-TempDataAllobject*
-
-TempDataHtmlobject*
-
-HttpContextItemsAllobject* 
-
-HttpContextItemsHtmlobjectª
-∏ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*
-
-%487voidæ
-ª;
-%4893Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"JMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.CreateTagHelper<TTagHelper>()*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBase
-Ì•5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"l
-5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*=
-;
-%4893Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelperˇ
-¸O
-%490GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextÒ
-Ó;
-%4913Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®*•5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"l
-5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper¢
-ü
-%492void"}Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.Add(Microsoft.AspNetCore.Razor.TagHelpers.ITagHelper)*Q
-O
-%490GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*=
-;
-%4913Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelperÒ
-Ó;
-%4933Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®*•5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"l
-5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper›
-⁄@
-%4948Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"__id*è*å5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"S
-__tagHelperAttribute_108Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttributeõ
-ò
-%495object"BMicrosoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute.Value.get*B
-@
-%4948Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"
- 
-%496"__id*
-
-%495objectú
-ô
-%497string">Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Action.set*=
-;
-%4933Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper*
-
-%496ˇ
-¸O
-%498GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext›
-⁄@
-%4998Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"__id*è*å5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"S
-__tagHelperAttribute_108Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute¬
-ø
-%500void"óMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddTagHelperAttribute(Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute)*Q
-O
-%498GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*B
-@
-%4998Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttributeÒ
-Ó;
-%5013Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®*•5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"l
-5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper‹
-Ÿ@
-%5028Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"__id*é*ã5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"R
-__tagHelperAttribute_18Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttributeõ
-ò
-%503object"BMicrosoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute.Value.get*B
-@
-%5028Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"
- 
-%504"__id*
-
-%503object†
-ù
-%505string"BMicrosoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Controller.set*=
-;
-%5013Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper*
-
-%504ˇ
-¸O
-%506GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext‹
-Ÿ@
-%5078Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"__id*é*ã5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"R
-__tagHelperAttribute_18Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute¬
-ø
-%508void"óMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddTagHelperAttribute(Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute)*Q
-O
-%506GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*B
-@
-%5078Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttributeÒ
-Ó;
-%5093Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®*•5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"l
-5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper≈
-¬<
-%5104System.Collections.Generic.IDictionary<TKey, TValue>"CMicrosoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.RouteValues.get*=
-;
-%5093Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelperâ
-Ü
-%511bool""object.operator ==(object, object)*
-"
-object*>
-<
-%5104System.Collections.Generic.IDictionary<TKey, TValue>*
-""*
-40
-41*÷
-40’
-«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\obj\Debug\netcoreapp3.1\Razor\Views\ContentsButtonActions_SummaryAdmin.cshtml.g.csœ œ(¨ã
-à
-%512string"fMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.InvalidTagHelperIndexerAssignment(string, string, string)*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBase*
-asp-route-area*75
-3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper*
-RouteValuesNL(
-%513 System.InvalidOperationException" System.InvalidOperationExceptionî
-ë
-%514void"CSystem.InvalidOperationException.InvalidOperationException(string?)**
-(
-%513 System.InvalidOperationException*
-
-%512string*
-7*ö
-41‘
-«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\obj\Debug\netcoreapp3.1\Razor\Views\ContentsButtonActions_SummaryAdmin.cshtml.g.cs— ”(YÒ
-Ó;
-%5153Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®*•5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"l
-5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper≈
-¬<
-%5164System.Collections.Generic.IDictionary<TKey, TValue>"CMicrosoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.RouteValues.get*=
-;
-%5153Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper‹
-Ÿ@
-%5178Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"__id*é*ã5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"R
-__tagHelperAttribute_28Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttributeõ
-ò
-%518object"BMicrosoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute.Value.get*B
-@
-%5178Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"
- 
-%519"__id*
-
-%518objecth
-f
-%520"__mapSet*>
-<
-%5164System.Collections.Generic.IDictionary<TKey, TValue>*
-area*
-
-%519ˇ
-¸O
-%521GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext‹
-Ÿ@
-%5228Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"__id*é*ã5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"R
-__tagHelperAttribute_28Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute¬
-ø
-%523void"óMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddTagHelperAttribute(Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute)*Q
-O
-%521GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*B
-@
-%5228Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttributeÒ
-Ó;
-%5243Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®*•5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"l
-5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper≈
-¬<
-%5254System.Collections.Generic.IDictionary<TKey, TValue>"CMicrosoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.RouteValues.get*=
-;
-%5243Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelperâ
-Ü
-%526bool""object.operator ==(object, object)*
-"
-object*>
-<
-%5254System.Collections.Generic.IDictionary<TKey, TValue>*
-""*
-42
-43*ﬂ
-42’
-«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\obj\Debug\netcoreapp3.1\Razor\Views\ContentsButtonActions_SummaryAdmin.cshtml.g.cs’ ’(µî
-ë
-%527string"fMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.InvalidTagHelperIndexerAssignment(string, string, string)*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBase*
-asp-route-contentItemId*75
-3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper*
-RouteValuesNL(
-%528 System.InvalidOperationException" System.InvalidOperationExceptionî
-ë
-%529void"CSystem.InvalidOperationException.InvalidOperationException(string?)**
-(
-%528 System.InvalidOperationException*
-
-%527string*
-7*ŸB
-43‘
-«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\obj\Debug\netcoreapp3.1\Razor\Views\ContentsButtonActions_SummaryAdmin.cshtml.g.cs◊ (Eê
-ç
-%530void"KMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.BeginWriteTagHelperAttribute()*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBaseø
-º
-∞
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml- -(˜
-%531string";OrchardCore.ContentManagement.ContentItem.ContentItemId.get*:
-8
-contentItem)OrchardCore.ContentManagement.ContentItemê
-ç
-%532string"IMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.EndWriteTagHelperAttribute()*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBase{
-y_5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"&
-__tagHelperStringValueBufferstring"__id*
-
-%532stringÒ
-Ó;
-%5333Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®*•5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"l
-5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper≈
-¬<
-%5344System.Collections.Generic.IDictionary<TKey, TValue>"CMicrosoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.RouteValues.get*=
-;
-%5333Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper{
-y
-%535string"__id*a*_5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"&
-__tagHelperStringValueBufferstringy
-w
-%536"__mapSet*>
-<
-%5344System.Collections.Generic.IDictionary<TKey, TValue>*
-contentItemId*
-
-%535stringˇ
-¸O
-%537GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextÒ
-Ó;
-%5383Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®*•5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"l
-5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper≈
-¬<
-%5394System.Collections.Generic.IDictionary<TKey, TValue>"CMicrosoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.RouteValues.get*=
-;
-%5383Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelpero
-m
-%540string"__mapGet*>
-<
-%5394System.Collections.Generic.IDictionary<TKey, TValue>*
-contentItemId
-
-%541"__id*
-""Ã
-…
-%542void"¨Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddTagHelperAttribute(string, object, Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle)*Q
-O
-%537GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*
-asp-route-contentItemId*
-
-%540string*
-
-%541ê
-ç
-%543void"KMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.BeginWriteTagHelperAttribute()*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBaseÃ
-…
-∞
-§D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Views\ContentsButtonActions_SummaryAdmin.cshtml- -(˜
-%544string"IOrchardCore.DisplayManagement.Razor.RazorPage<TModel>.FullRequestPath.get*97
-5OrchardCore.DisplayManagement.Razor.RazorPage<TModel>ê
-ç
-%545string"IMicrosoft.AspNetCore.Mvc.Razor.RazorPageBase.EndWriteTagHelperAttribute()*0.
-,Microsoft.AspNetCore.Mvc.Razor.RazorPageBase{
-y_5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"&
-__tagHelperStringValueBufferstring"__id*
-
-%545stringÒ
-Ó;
-%5463Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®*•5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"l
-5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper≈
-¬<
-%5474System.Collections.Generic.IDictionary<TKey, TValue>"CMicrosoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.RouteValues.get*=
-;
-%5463Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper{
-y
-%548string"__id*a*_5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"&
-__tagHelperStringValueBufferstringu
-s
-%549"__mapSet*>
-<
-%5474System.Collections.Generic.IDictionary<TKey, TValue>*
-	returnUrl*
-
-%548stringˇ
-¸O
-%550GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextÒ
-Ó;
-%5513Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper"__id*®*•5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"l
-5__Microsoft_AspNetCore_Mvc_TagHelpers_AnchorTagHelper3Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper≈
-¬<
-%5524System.Collections.Generic.IDictionary<TKey, TValue>"CMicrosoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.RouteValues.get*=
-;
-%5513Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelperk
-i
-%553string"__mapGet*>
-<
-%5524System.Collections.Generic.IDictionary<TKey, TValue>*
-	returnUrl
-
-%554"__id*
-""»
-≈
-%555void"¨Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddTagHelperAttribute(string, object, Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle)*Q
-O
-%550GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*
-asp-route-returnUrl*
-
-%553string*
-
-%554ˇ
-¸O
-%556GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext‹
-Ÿ@
-%5578Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"__id*é*ã5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"R
-__tagHelperAttribute_38Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttributeΩ
-∫
-%558void"íMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddHtmlAttribute(Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute)*Q
-O
-%556GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*B
-@
-%5578Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttributeˇ
-¸O
-%559GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext‹
-Ÿ@
-%5608Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute"__id*é*ã5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"R
-__tagHelperAttribute_48Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttributeΩ
-∫
-%561void"íMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.AddHtmlAttribute(Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute)*Q
-O
-%559GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*B
-@
-%5608Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute·
-ﬁE
-%562=Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner"__id*é*ã5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"R
-__tagHelperRunner=Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunnerˇ
-¸O
-%563GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext÷
-”#
-%564System.Threading.Tasks.Task"èMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner.RunAsync(Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext)*G
-E
-%562=Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner*Q
-O
-%563GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextˇ
-¸O
-%565GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextÈ
-Ê=
-%5665Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput"RMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.Output.get*Q
-O
-%565GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextü
-ú
-%567bool"KMicrosoft.AspNetCore.Razor.TagHelpers.TagHelperOutput.IsContentModified.get*?
-=
-%5665Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput*
-44
-45*¬
-44‘
-«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\obj\Debug\netcoreapp3.1\Razor\Views\ContentsButtonActions_SummaryAdmin.cshtml.g.csÚ Ú(Iˇ
-¸O
-%568GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext‹
-Ÿ#
-%569System.Threading.Tasks.Task"_Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()*Q
-O
-%568GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*
-45*˝
-45‘
-«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\obj\Debug\netcoreapp3.1\Razor\Views\ContentsButtonActions_SummaryAdmin.cshtml.g.csÙ ˆ(ˇ
-¸O
-%570GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*¢*ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContextÈ
-Ê=
-%5715Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput"RMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.Output.get*Q
-O
-%570GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext^
-\
-%572void"!razor_sink*?
-=
-%5715Microsoft.AspNetCore.Razor.TagHelpers.TagHelperOutput⁄
-◊K
-%573CMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager"OAspNetCore.Views_ContentsButtonActions_SummaryAdmin.__tagHelperScopeManager.get*75
-3AspNetCore.Views_ContentsButtonActions_SummaryAdminÓ
-ÎO
-%574GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"IMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager.End()*M
-K
-%573CMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperScopeManager˛
-˚ü5
-3AspNetCore.Views_ContentsButtonActions_SummaryAdmin"f
-__tagHelperExecutionContextGMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext"__id*Q
-O
-%574GMicrosoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext*
-7*Ò
-7‘
-«D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\obj\Debug\netcoreapp3.1\Razor\Views\ContentsButtonActions_SummaryAdmin.cshtml.g.cs˛	 ˛(	"
-implicit return:
-Modeldynamic:
-ViewBagDataAllobject:
-ViewBagDataHtmlobject:
-TempDataAllobject:
-TempDataHtmlobject:
-HttpContextItemsAllobject:
-HttpContextItemsHtmlobjectB 

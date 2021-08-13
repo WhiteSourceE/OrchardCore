@@ -1,599 +1,0 @@
-
-“OrchardCore.DisplayManagement.Liquid.LiquidTemplateContextExtensions.EnterScopeAsync(OrchardCore.Liquid.LiquidTemplateContext, Microsoft.AspNetCore.Mvc.Rendering.ViewContext, object, System.Action<Fluid.Scope>)ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.cs∏# ∏(2"0*‹
-0ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.cs∫ º(.í
-è
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.cs∫" ∫(J.
-%0(OrchardCore.Liquid.LiquidTemplateContext"__id*5
-3
-context(OrchardCore.Liquid.LiquidTemplateContext¥
-±
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.cs∫ ∫(JU
-contextInternalBOrchardCore.DisplayManagement.Liquid.LiquidTemplateContextInternal"__id*0
-.
-%0(OrchardCore.Liquid.LiquidTemplateContext‡
-›
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csº º(.
-
-%1bool"TOrchardCore.DisplayManagement.Liquid.LiquidTemplateContextInternal.IsInitialized.get*W
-U
-contextInternalBOrchardCore.DisplayManagement.Liquid.LiquidTemplateContextInternal*
-1
-2*≈d
-1ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csæ ”(cÂ
-‚
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csæ æ(%9
-%23System.Collections.Generic.Dictionary<TKey, TValue>"__id*}*{
-3
-context(OrchardCore.Liquid.LiquidTemplateContext"D
-AmbientValues3System.Collections.Generic.Dictionary<TKey, TValue>º
-π
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csæ æ(7	
-%3int"GSystem.Collections.Generic.Dictionary<TKey, TValue>.EnsureCapacity(int)*;
-9
-%23System.Collections.Generic.Dictionary<TKey, TValue>*2	Â
-‚
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csø ø(%9
-%43System.Collections.Generic.Dictionary<TKey, TValue>"__id*}*{
-3
-context(OrchardCore.Liquid.LiquidTemplateContext"D
-AmbientValues3System.Collections.Generic.Dictionary<TKey, TValue>≤
-Ø
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csø6 ø(F
-%5System.IServiceProvider"5OrchardCore.Liquid.LiquidTemplateContext.Services.get*5
-3
-context(OrchardCore.Liquid.LiquidTemplateContextß
-§
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csø ø(G
-
-%6void"__mapSet*;
-9
-%43System.Collections.Generic.Dictionary<TKey, TValue>*
-
-Services*
-
-%5System.IServiceProvider≤
-Ø
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.cs¡$ ¡(4
-%7System.IServiceProvider"5OrchardCore.Liquid.LiquidTemplateContext.Services.get*5
-3
-context(OrchardCore.Liquid.LiquidTemplateContext√
-¿
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.cs¡$ ¡(Y2
-%8,OrchardCore.DisplayManagement.IDisplayHelper"xMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<T>(System.IServiceProvider)*M"K
-IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*
-
-%7System.IServiceProvider†
-ù
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.cs¡ ¡(Y=
-displayHelper,OrchardCore.DisplayManagement.IDisplayHelper"__id*4
-2
-%8,OrchardCore.DisplayManagement.IDisplayHelperÂ
-‚
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.cs¬ ¬(%9
-%93System.Collections.Generic.Dictionary<TKey, TValue>"__id*}*{
-3
-context(OrchardCore.Liquid.LiquidTemplateContext"D
-AmbientValues3System.Collections.Generic.Dictionary<TKey, TValue>Õ
- 
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.cs¬ ¬(I
-%10void"__mapSet*;
-9
-%93System.Collections.Generic.Dictionary<TKey, TValue>*
-DisplayHelper*?
-=
-displayHelper,OrchardCore.DisplayManagement.IDisplayHelper≥
-∞
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csƒ' ƒ(7
-%11System.IServiceProvider"5OrchardCore.Liquid.LiquidTemplateContext.Services.get*5
-3
-context(OrchardCore.Liquid.LiquidTemplateContextÀ
-»
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csƒ' ƒ(_9
-%122Microsoft.AspNetCore.Mvc.Routing.IUrlHelperFactory"xMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<T>(System.IServiceProvider)*M"K
-IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions* 
-
-%11System.IServiceProvider∞
-≠
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csƒ ƒ(_F
-urlHelperFactory2Microsoft.AspNetCore.Mvc.Routing.IUrlHelperFactory"__id*;
-9
-%122Microsoft.AspNetCore.Mvc.Routing.IUrlHelperFactory˚¯
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.cs≈  ≈(J*
-%13#Microsoft.AspNetCore.Mvc.IUrlHelper"gMicrosoft.AspNetCore.Mvc.Routing.IUrlHelperFactory.GetUrlHelper(Microsoft.AspNetCore.Mvc.ActionContext)*H
-F
-urlHelperFactory2Microsoft.AspNetCore.Mvc.Routing.IUrlHelperFactory*?
-=
-viewContext.Microsoft.AspNetCore.Mvc.Rendering.ViewContext24GetUrlHelper(Microsoft.AspNetCore.Mvc.ActionContext)ã
-à
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.cs≈ ≈(J0
-	urlHelper#Microsoft.AspNetCore.Mvc.IUrlHelper"__id*,
-*
-%13#Microsoft.AspNetCore.Mvc.IUrlHelperÊ
-„
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.cs∆ ∆(%:
-%143System.Collections.Generic.Dictionary<TKey, TValue>"__id*}*{
-3
-context(OrchardCore.Liquid.LiquidTemplateContext"D
-AmbientValues3System.Collections.Generic.Dictionary<TKey, TValue>Ω
-∫
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.cs∆ ∆(A
-%15void"__mapSet*<
-:
-%143System.Collections.Generic.Dictionary<TKey, TValue>*
-	UrlHelper*2
-0
-	urlHelper#Microsoft.AspNetCore.Mvc.IUrlHelper≥
-∞
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.cs»# »(3
-%16System.IServiceProvider"5OrchardCore.Liquid.LiquidTemplateContext.Services.get*5
-3
-context(OrchardCore.Liquid.LiquidTemplateContextƒ
-¡
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.cs»# »(W2
-%17+OrchardCore.DisplayManagement.IShapeFactory"xMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<T>(System.IServiceProvider)*M"K
-IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions* 
-
-%16System.IServiceProviderû
-õ
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.cs» »(W;
-shapeFactory+OrchardCore.DisplayManagement.IShapeFactory"__id*4
-2
-%17+OrchardCore.DisplayManagement.IShapeFactoryÊ
-„
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.cs… …(%:
-%183System.Collections.Generic.Dictionary<TKey, TValue>"__id*}*{
-3
-context(OrchardCore.Liquid.LiquidTemplateContext"D
-AmbientValues3System.Collections.Generic.Dictionary<TKey, TValue>À
-»
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.cs… …(G
-%19void"__mapSet*<
-:
-%183System.Collections.Generic.Dictionary<TKey, TValue>*
-ShapeFactory*=
-;
-shapeFactory+OrchardCore.DisplayManagement.IShapeFactory≥
-∞
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csÀ% À(5
-%20System.IServiceProvider"5OrchardCore.Liquid.LiquidTemplateContext.Services.get*5
-3
-context(OrchardCore.Liquid.LiquidTemplateContextÕ
- 
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csÀ% À([;
-%214OrchardCore.DisplayManagement.Layout.ILayoutAccessor"xMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<T>(System.IServiceProvider)*M"K
-IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions* 
-
-%20System.IServiceProvider≤
-Ø
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csÀ À([F
-layoutAccessor4OrchardCore.DisplayManagement.Layout.ILayoutAccessor"__id*=
-;
-%214OrchardCore.DisplayManagement.Layout.ILayoutAccessorıÚ
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csÃ# Ã(B+
-%22$System.Threading.Tasks.Task<TResult>"EOrchardCore.DisplayManagement.Layout.ILayoutAccessor.GetLayoutAsync()*H
-F
-layoutAccessor4OrchardCore.DisplayManagement.Layout.ILayoutAccessor2GetLayoutAsync()„
-‡
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csÃ Ã(B.
-layout$OrchardCore.DisplayManagement.IShape"__id*
-""Ê
-„
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csÕ Õ(%:
-%233System.Collections.Generic.Dictionary<TKey, TValue>"__id*}*{
-3
-context(OrchardCore.Liquid.LiquidTemplateContext"D
-AmbientValues3System.Collections.Generic.Dictionary<TKey, TValue>Ω
-∫
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csÕ Õ(@
-%24void"__mapSet*<
-:
-%233System.Collections.Generic.Dictionary<TKey, TValue>*
-ThemeLayout*0
-.
-layout$OrchardCore.DisplayManagement.IShape≥
-∞
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csœ œ(.
-%25System.IServiceProvider"5OrchardCore.Liquid.LiquidTemplateContext.Services.get*5
-3
-context(OrchardCore.Liquid.LiquidTemplateContext»
-≈
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csœ œ(\6
-%26/Microsoft.Extensions.Options.IOptions<TOptions>"xMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<T>(System.IServiceProvider)*M"K
-IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions* 
-
-%25System.IServiceProviderŒÀ
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csœ œ(b'
-%27 OrchardCore.Liquid.LiquidOptions"9Microsoft.Extensions.Options.IOptions<TOptions>.Value.get*8
-6
-%26/Microsoft.Extensions.Options.IOptions<TOptions>2	Value.getÉ
-Ä
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csœ œ(b+
-options OrchardCore.Liquid.LiquidOptions"__id*)
-'
-%27 OrchardCore.Liquid.LiquidOptionsÖ
-Ç
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.cs— —(0
-%28void"†OrchardCore.DisplayManagement.Liquid.LiquidTemplateContextExtensions.AddAsyncFilters(OrchardCore.Liquid.LiquidTemplateContext, OrchardCore.Liquid.LiquidOptions)*H"F
-DOrchardCore.DisplayManagement.Liquid.LiquidTemplateContextExtensions*5
-3
-context(OrchardCore.Liquid.LiquidTemplateContext*-
-+
-options OrchardCore.Liquid.LiquidOptions≥
-∞
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.cs”( ”(8
-%29System.IServiceProvider"5OrchardCore.Liquid.LiquidTemplateContext.Services.get*5
-3
-context(OrchardCore.Liquid.LiquidTemplateContextª
-∏
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.cs”( ”(c0
-%30)System.Collections.Generic.IEnumerable<T>"qMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetServices<T>(System.IServiceProvider)*M"K
-IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions* 
-
-%29System.IServiceProvider*
-3*≠
-3ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csˇ	 ˇ(	*
-4
-5*Á
-4ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.cs’ ’(8∫∑
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.cs’ ’(9"
-%31System.Threading.Tasks.Task"TOrchardCore.Liquid.ILiquidTemplateEventHandler.RenderingAsync(Fluid.TemplateContext)*;
-9
-handler.OrchardCore.Liquid.ILiquidTemplateEventHandler*5
-3
-context(OrchardCore.Liquid.LiquidTemplateContext2%RenderingAsync(Fluid.TemplateContext)*
-3*„
-5ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csÿ ‹(4≥
-∞
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csÿ' ÿ(7
-%32System.IServiceProvider"5OrchardCore.Liquid.LiquidTemplateContext.Services.get*5
-3
-context(OrchardCore.Liquid.LiquidTemplateContextÊ
-„
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csÿ' ÿ(mT
-%33MOrchardCore.DisplayManagement.Liquid.Internal.ILiquidViewFileProviderAccessor"xMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<T>(System.IServiceProvider)*M"K
-IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions* 
-
-%32System.IServiceProvider®•
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csÿ' ÿ(z7
-%340Microsoft.Extensions.FileProviders.IFileProvider"^OrchardCore.DisplayManagement.Liquid.Internal.ILiquidViewFileProviderAccessor.FileProvider.get*V
-T
-%33MOrchardCore.DisplayManagement.Liquid.Internal.ILiquidViewFileProviderAccessor2FileProvider.get¯
-ı
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csÿ ÿ(z7
-%350Microsoft.Extensions.FileProviders.IFileProvider"&Fluid.TemplateContext.FileProvider.set*5
-3
-context(OrchardCore.Liquid.LiquidTemplateContext*9
-7
-%340Microsoft.Extensions.FileProviders.IFileProvider´
-®
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.cs⁄& ⁄(B'
-%36 System.Globalization.CultureInfo"5System.Globalization.CultureInfo.CurrentUICulture.get*$""
- System.Globalization.CultureInfo◊
-‘
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.cs⁄ ⁄(B'
-%37 System.Globalization.CultureInfo"%Fluid.TemplateContext.CultureInfo.set*5
-3
-context(OrchardCore.Liquid.LiquidTemplateContext*)
-'
-%36 System.Globalization.CultureInfoÈ
-Ê
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.cs‹ ‹(4
-%38bool"TOrchardCore.DisplayManagement.Liquid.LiquidTemplateContextInternal.IsInitialized.set*W
-U
-contextInternalBOrchardCore.DisplayManagement.Liquid.LiquidTemplateContextInternal*
-""*
-2*ª
-2ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csﬂ „(>í
-è
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csﬂ ﬂ(%
-%39void"'Fluid.TemplateContext.EnterChildScope()*5
-3
-context(OrchardCore.Liquid.LiquidTemplateContext≥
-∞
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.cs·  ·(0
-%40System.IServiceProvider"5OrchardCore.Liquid.LiquidTemplateContext.Services.get*5
-3
-context(OrchardCore.Liquid.LiquidTemplateContextÕ
- 
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.cs·  ·(U;
-%414Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer"xMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<T>(System.IServiceProvider)*M"K
-IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions* 
-
-%40System.IServiceProvider±
-Æ
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.cs· ·(UE
-viewLocalizer4Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer"__id*=
-;
-%414Microsoft.AspNetCore.Mvc.Localization.IViewLocalizerº
-π
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.cs„ „(>F
-contextable7Microsoft.AspNetCore.Mvc.ViewFeatures.IViewContextAware"__id*G
-E
-viewLocalizer4Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer*
-6
-7*†
-6ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csÂ Â(5Û
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csÂ Â(6
-%42void"uMicrosoft.AspNetCore.Mvc.ViewFeatures.IViewContextAware.Contextualize(Microsoft.AspNetCore.Mvc.Rendering.ViewContext)*H
-F
-contextable7Microsoft.AspNetCore.Mvc.ViewFeatures.IViewContextAware*?
-=
-viewContext.Microsoft.AspNetCore.Mvc.Rendering.ViewContext2=Contextualize(Microsoft.AspNetCore.Mvc.Rendering.ViewContext)*
-7*∂
-7ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csË Í(Ü
-É
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csË Ë(<
-%43Fluid.TemplateContext".Fluid.TemplateContext.SetValue(string, object)*5
-3
-context(OrchardCore.Liquid.LiquidTemplateContext*
-ViewLocalizer*G
-E
-viewLocalizer4Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer˝
-˙
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csÍ Í(
-%44bool""object.operator !=(object, object)*
-"
-object*
-
-modelobject*
-""*
-8
-9*ø
-8ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csÏ Ï(EΩ
-∫
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csÏ Ï(,"
-%45Fluid.IMemberAccessStrategy"__id*l*j
-3
-context(OrchardCore.Liquid.LiquidTemplateContext"3
-MemberAccessStrategyFluid.IMemberAccessStrategyﬁ
-€
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csÏ6 Ï(E
-%46System.Type"object.GetType()*
-
-modelobjectÒ
-Ó
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csÏ Ï(F
-%47void"WFluid.MemberAccessStrategyExtensions.Register(Fluid.IMemberAccessStrategy, System.Type)*("&
-$Fluid.MemberAccessStrategyExtensions*$
-"
-%45Fluid.IMemberAccessStrategy*
-
-%46System.Type*
-9*·
-9ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csÔ Ô((Ø
-¨
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csÔ Ô()
-%48Fluid.Values.FluidValue"&Fluid.TemplateContext.GetValue(string)*5
-3
-context(OrchardCore.Liquid.LiquidTemplateContext*	
-Model*
-10
-11*Æ
-11ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csÔ* Ô(8ˇ
-¸
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csÔ* Ô(:
-%49object"'Fluid.Values.FluidValue.ToObjectValue()* 
-
-%48Fluid.Values.FluidValue*
-10*π
-10ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csÔ Ô(CÜ
-É
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csÔ Ô(C
-%50bool""object.operator ==(object, object)*
-"
-object*
-
-%49object*
-
-modelobject*
-12
-13*†
-12ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csÔG Ô(\Ì
-Í
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csÔG Ô(\-
-shape$OrchardCore.DisplayManagement.IShape"__id*
-
-modelobject*
-14
-13*“
-14ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csÒ Ò(h‚
-ﬂ
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csÒ Ò(3
-
-%51int"VOrchardCore.DisplayManagement.Liquid.LiquidTemplateContextInternal.ShapeRecursions.get*W
-U
-contextInternalBOrchardCore.DisplayManagement.Liquid.LiquidTemplateContextInternal∫
-∑
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csÒ8 Ò(h
-%52"__id*
-""*
-15
-16*à
-15†
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csÛ Ù(ì“œ
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csÙ  Ù(.9
-%532OrchardCore.DisplayManagement.Shapes.ShapeMetadata"1OrchardCore.DisplayManagement.IShape.Metadata.get*/
--
-shape$OrchardCore.DisplayManagement.IShape2Metadata.getÆ
-´
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csÙ  Ù(3
-%54string";OrchardCore.DisplayManagement.Shapes.ShapeMetadata.Type.get*;
-9
-%532OrchardCore.DisplayManagement.Shapes.ShapeMetadataª
-∏
-†
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csÙc Ù(ì
-%55"__id*
-""ÿ
-’
-†
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csÙ Ù(ú
-%56string"__concat*
-""*
-
-%54stringÿ
-’
-†
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csÙ Ù(ú
-%57string"__concat*
-
-%56string*
-""Ÿ
-÷
-†
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csÙ Ù(ú
-%58string"__concat*
-
-%57string*
-
-%55ÿ
-’
-†
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csÙ Ù(ú
-%59string"__concat*
-
-%58string*
-""ÒÓ
-†
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csÛ Ù(ù'
-%60 System.InvalidOperationException" System.InvalidOperationException≥
-∞
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csÛ Û(7
-%61void"CSystem.InvalidOperationException.InvalidOperationException(string?)*)
-'
-%60 System.InvalidOperationException*
-
-%59string*
-17*ï
-13ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.cs˘ ˘(3Ê
-„
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.cs˘ ˘(3
-
-%62int"VOrchardCore.DisplayManagement.Liquid.LiquidTemplateContextInternal.ShapeRecursions.set*W
-U
-contextInternalBOrchardCore.DisplayManagement.Liquid.LiquidTemplateContextInternal*2 *
-16*˚
-16ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.cs¸ ˛(»
-≈
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.cs¸ ¸(,
-%63Fluid.TemplateContext".Fluid.TemplateContext.SetValue(string, object)*5
-3
-context(OrchardCore.Liquid.LiquidTemplateContext*	
-Model*
-
-modelobject*
-17
-18*œ
-18ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.cs˛ ˛(2ñ
-ì
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.cs˛  ˛(2
-%64Fluid.Scope"$Fluid.TemplateContext.LocalScope.get*5
-3
-context(OrchardCore.Liquid.LiquidTemplateContextá
-Ñ
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.cs˛ ˛(3
-%65void"System.Action<T>.Invoke(T)*!
-
-scopeActionSystem.Action<T>*
-
-%64Fluid.Scope*
-17*‡
-17ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csˇ	 ˇ(	"∑
-ü
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\LiquidViewTemplate.csˇ ˇ(	
-implicit return:3
-context(OrchardCore.Liquid.LiquidTemplateContext:=
-viewContext.Microsoft.AspNetCore.Mvc.Rendering.ViewContext:
-modelobject:
-scopeActionSystem.Action<T>BH"F
-DOrchardCore.DisplayManagement.Liquid.LiquidTemplateContextExtensions

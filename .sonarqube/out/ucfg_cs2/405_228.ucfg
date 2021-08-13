@@ -1,387 +1,0 @@
-
-~OrchardCore.Contents.Liquid.FullTextFilter.ProcessAsync(Fluid.Values.FluidValue, Fluid.FilterArguments, Fluid.TemplateContext)ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.cs+ (7"0*—
-0ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.cs (K«
-ƒ
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.cs ("9
-%03System.Collections.Generic.Dictionary<TKey, TValue>"__id*f*d
-
-ctxFluid.TemplateContext"D
-AmbientValues3System.Collections.Generic.Dictionary<TKey, TValue>ﬁ
-€
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.cs (L
-
-%1bool"QSystem.Collections.Generic.Dictionary<TKey, TValue>.TryGetValue(TKey, out TValue)*;
-9
-%03System.Collections.Generic.Dictionary<TKey, TValue>*
-
-Services*
-
-servicesobject*
-1
-2*∫
-1ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.cs (`ÿ’
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.cs (a
-%2System.ArgumentException"System.ArgumentExceptionπ
-∂
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.cs (+
-
-%3void"3System.ArgumentException.ArgumentException(string?)* 
-
-%2System.ArgumentException*64
-2Services missing while invoking 'full_text_aspect'*
-3*à
-2ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.cs (/¿
-Ω
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.cs" (<
-%4"__id*
-
-servicesobjectÿ
-’
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.cs (<*
-serviceProviderSystem.IServiceProvider"__id*
-
-%4 
-«
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.cs! (V3
-%5-OrchardCore.ContentManagement.IContentManager"xMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<T>(System.IServiceProvider)*M"K
-IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*,
-*
-serviceProviderSystem.IServiceProviderú
-ô
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.cs (V?
-contentManager-OrchardCore.ContentManagement.IContentManager"__id*5
-3
-%5-OrchardCore.ContentManagement.IContentManager◊
-‘
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.cs* ({@
-%6:OrchardCore.Contents.Liquid.IContentItemRecursionHelper<T>"xMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<T>(System.IServiceProvider)*M"K
-IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*,
-*
-serviceProviderSystem.IServiceProviderø
-º
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.cs ({U
-fullTextRecursionHelper:OrchardCore.Contents.Liquid.IContentItemRecursionHelper<T>"__id*B
-@
-%6:OrchardCore.Contents.Liquid.IContentItemRecursionHelper<T>Ñ
-Å
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.cs (
-%7Fluid.Values.FluidValues" Fluid.Values.FluidValue.Type.get*"
- 
-inputFluid.Values.FluidValue≤
-Ø
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.cs (/
-%8"__id*
-""*
-4
-5*«	
-4ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.cs  (9ÏÈ
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.cs# (:(
-%9"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>Ç
-ˇ
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.cs' (8
-%10void")System.Collections.Generic.List<T>.List()**
-(
-%9"System.Collections.Generic.List<T>Ñ
-Å
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.cs (:2
-contentItems"System.Collections.Generic.List<T>"__id**
-(
-%9"System.Collections.Generic.List<T>¶£
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.cs (  (90
-%11)System.Collections.Generic.IEnumerable<T>"#Fluid.Values.FluidValue.Enumerate()*"
- 
-inputFluid.Values.FluidValue2Enumerate()*
-6*¶
-6ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.csI	 I(	*
-7
-8*€
-7ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.cs" #(+˚
-¯
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.cs"& "(>0
-%12)OrchardCore.ContentManagement.ContentItem"ROrchardCore.Contents.Liquid.FullTextFilter.GetContentItem(Fluid.Values.FluidValue)*.",
-*OrchardCore.Contents.Liquid.FullTextFilter*%
-#
-objValueFluid.Values.FluidValueí
-è
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.cs" "(>8
-contentItem)OrchardCore.ContentManagement.ContentItem"__id*2
-0
-%12)OrchardCore.ContentManagement.ContentItemü
-ú
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.cs# #(+
-%13bool""object.operator !=(object, object)*
-"
-object*:
-8
-contentItem)OrchardCore.ContentManagement.ContentItem*
-""*
-9
-6*ß
-9ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.cs% %(L˝˙
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.cs% %(M
-%14bool"vOrchardCore.Contents.Liquid.IContentItemRecursionHelper<T>.IsRecursive(OrchardCore.ContentManagement.ContentItem, int)*W
-U
-fullTextRecursionHelper:OrchardCore.Contents.Liquid.IContentItemRecursionHelper<T>*:
-8
-contentItem)OrchardCore.ContentManagement.ContentItem*
-""2;IsRecursive(OrchardCore.ContentManagement.ContentItem, int)*
-10
-6*‘
-10ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.cs' '(8≠
-™
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.cs' '(9
-%15void"
-__arrayAdd*4
-2
-contentItems"System.Collections.Generic.List<T>*: *:
-8
-contentItem)OrchardCore.ContentManagement.ContentItem*
-6*˛
-8ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.cs, ,('”
-–
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.cs, ,('
-%16bool"TSystem.Linq.Enumerable.Any<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
-System.Linq.Enumerable*4
-2
-contentItems"System.Collections.Generic.List<T>*
-11
-12*‚
-11ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.cs. .(,Ç
-ˇ
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.cs. .(,
-%17Fluid.Values.NilValue"__id*>*<
-Fluid.Values.NilValue"!
-InstanceFluid.Values.NilValue"ª
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.cs. .(-
-
-%17Fluid.Values.NilValue*û
-12ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.cs1 3(7ÌÍ
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.cs1 1(8)
-%18"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>É
-Ä
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.cs1" 1(6
-%19void")System.Collections.Generic.List<T>.List()*+
-)
-%18"System.Collections.Generic.List<T>Ä
-˝
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.cs1 1(8-
-aspects"System.Collections.Generic.List<T>"__id*+
-)
-%18"System.Collections.Generic.List<T>*
-13*©
-13ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.csI	 I(	*
-14
-15*“
-14ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.cs5 5(d≥
-∞
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.cs5& 5(e+
-%20$System.Threading.Tasks.Task<TResult>"™OrchardCore.ContentManagement.ContentManagerExtensions.PopulateAspectAsync<TAspect>(OrchardCore.ContentManagement.IContentManager, OrchardCore.ContentManagement.IContent)*:"8
-6OrchardCore.ContentManagement.ContentManagerExtensions*A
-?
-contentManager-OrchardCore.ContentManagement.IContentManager*:
-8
-contentItem)OrchardCore.ContentManagement.ContentItemÙ
-Ò
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.cs5 5(f
-%21void"
-__arrayAdd*/
--
-aspects"System.Collections.Generic.List<T>*: *
-""*
-13*«
-15ô
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.cs9 9(ì”
-–
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.cs9& 9(I0
-%22)System.Collections.Generic.IEnumerable<T>"´System.Linq.Enumerable.SelectMany<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, System.Collections.Generic.IEnumerable<TResult>>)*"
-System.Linq.Enumerable*/
--
-aspects"System.Collections.Generic.List<T>*
-""ú
-ô
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.cs9& 9(n0
-%23)System.Collections.Generic.IEnumerable<T>"rSystem.Linq.Enumerable.Where<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
-System.Linq.Enumerable*2
-0
-%22)System.Collections.Generic.IEnumerable<T>*
-""™
-ß
-ô
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.cs9& 9(î0
-%24)System.Collections.Generic.IEnumerable<T>"System.Linq.Enumerable.Select<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)*"
-System.Linq.Enumerable*2
-0
-%23)System.Collections.Generic.IEnumerable<T>*
-""ÿ’
-ô
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.cs9 9(ï
-%25Fluid.Values.ArrayValue"Fluid.Values.ArrayValueÊ
-„
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.cs9 9(%
-%26void"cFluid.Values.ArrayValue.ArrayValue(System.Collections.Generic.IEnumerable<Fluid.Values.FluidValue>)* 
-
-%25Fluid.Values.ArrayValue*2
-0
-%24)System.Collections.Generic.IEnumerable<T>"æ
-ô
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.cs9 9(ñ 
-
-%25Fluid.Values.ArrayValue*⁄
-5ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.cs= ?('¯
-ı
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.cs=" =(70
-%27)OrchardCore.ContentManagement.ContentItem"ROrchardCore.Contents.Liquid.FullTextFilter.GetContentItem(Fluid.Values.FluidValue)*.",
-*OrchardCore.Contents.Liquid.FullTextFilter*"
- 
-inputFluid.Values.FluidValueí
-è
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.cs= =(78
-contentItem)OrchardCore.ContentManagement.ContentItem"__id*2
-0
-%27)OrchardCore.ContentManagement.ContentItemü
-ú
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.cs? ?('
-%28bool""object.operator ==(object, object)*
-"
-object*:
-8
-contentItem)OrchardCore.ContentManagement.ContentItem*
-""*
-16
-17*©
-17ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.cs?+ ?(Z˝˙
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.cs?+ ?([
-%29bool"vOrchardCore.Contents.Liquid.IContentItemRecursionHelper<T>.IsRecursive(OrchardCore.ContentManagement.ContentItem, int)*W
-U
-fullTextRecursionHelper:OrchardCore.Contents.Liquid.IContentItemRecursionHelper<T>*:
-8
-contentItem)OrchardCore.ContentManagement.ContentItem*
-""2;IsRecursive(OrchardCore.ContentManagement.ContentItem, int)*
-16
-18*‚
-16ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.csA A(,Ç
-ˇ
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.csA A(,
-%30Fluid.Values.NilValue"__id*>*<
-Fluid.Values.NilValue"!
-InstanceFluid.Values.NilValue"ª
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.csA A(-
-
-%30Fluid.Values.NilValue*Ì
-18ô
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.csD G(Å≥
-∞
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.csD+ D(j+
-%31$System.Threading.Tasks.Task<TResult>"™OrchardCore.ContentManagement.ContentManagerExtensions.PopulateAspectAsync<TAspect>(OrchardCore.ContentManagement.IContentManager, OrchardCore.ContentManagement.IContent)*:"8
-6OrchardCore.ContentManagement.ContentManagerExtensions*A
-?
-contentManager-OrchardCore.ContentManagement.IContentManager*:
-8
-contentItem)OrchardCore.ContentManagement.ContentItemÛ
-
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.csD D(jE
-fullTextAspect3OrchardCore.ContentManagement.Models.FullTextAspect"__id*
-""‘
-—
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.csG& G(=)
-%32"System.Collections.Generic.List<T>"@OrchardCore.ContentManagement.Models.FullTextAspect.Segments.get*G
-E
-fullTextAspect3OrchardCore.ContentManagement.Models.FullTextAspectï
-í
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.csG& G(b0
-%33)System.Collections.Generic.IEnumerable<T>"rSystem.Linq.Enumerable.Where<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
-System.Linq.Enumerable*+
-)
-%32"System.Collections.Generic.List<T>*
-""™
-ß
-ô
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.csG& G(Ç0
-%34)System.Collections.Generic.IEnumerable<T>"System.Linq.Enumerable.Select<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)*"
-System.Linq.Enumerable*2
-0
-%33)System.Collections.Generic.IEnumerable<T>*
-""ÿ’
-ô
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.csG G(É
-%35Fluid.Values.ArrayValue"Fluid.Values.ArrayValueÊ
-„
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.csG G(%
-%36void"cFluid.Values.ArrayValue.ArrayValue(System.Collections.Generic.IEnumerable<Fluid.Values.FluidValue>)* 
-
-%35Fluid.Values.ArrayValue*2
-0
-%34)System.Collections.Generic.IEnumerable<T>"æ
-ô
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.csG G(Ñ 
-
-%35Fluid.Values.ArrayValue*—
-3ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.csI	 I(	"∞
-ò
-çD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\FullTextFilter.csI I(	
-implicit return: 
-inputFluid.Values.FluidValue:"
-	argumentsFluid.FilterArguments:
-ctxFluid.TemplateContextB.,
-*OrchardCore.Contents.Liquid.FullTextFilter

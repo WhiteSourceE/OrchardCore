@@ -1,307 +1,0 @@
-
-„OrchardCore.GitHub.Configuration.GitHubHandler.CreateTicketAsync(System.Security.Claims.ClaimsIdentity, Microsoft.AspNetCore.Authentication.AuthenticationProperties, Microsoft.AspNetCore.Authentication.OAuth.OAuthTokenResponse)ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Configuration\GithubHandler.cs< (M"0*ı,
-0ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Configuration\GithubHandler.cs (-à
-Ö
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Configuration\GithubHandler.cs1 (? 
-%0System.Net.Http.HttpMethod""System.Net.Http.HttpMethod.Get.get*"
-System.Net.Http.HttpMethodÚ
-Ô
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Configuration\GithubHandler.csA (H4
-%1.OrchardCore.GitHub.Configuration.GitHubOptions"OMicrosoft.AspNetCore.Authentication.AuthenticationHandler<TOptions>.Options.get*GE
-CMicrosoft.AspNetCore.Authentication.AuthenticationHandler<TOptions>º
-π
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Configuration\GithubHandler.csA (`
-%2string"RMicrosoft.AspNetCore.Authentication.OAuth.OAuthOptions.UserInformationEndpoint.get*6
-4
-%1.OrchardCore.GitHub.Configuration.GitHubOptionsÌ
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Configuration\GithubHandler.cs (a(
-%3"System.Net.Http.HttpRequestMessage""System.Net.Http.HttpRequestMessageÈ
-Ê
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Configuration\GithubHandler.cs (0
-
-%4void"YSystem.Net.Http.HttpRequestMessage.HttpRequestMessage(System.Net.Http.HttpMethod, string)**
-(
-%3"System.Net.Http.HttpRequestMessage*"
- 
-%0System.Net.Http.HttpMethod*
-
-%2stringÉ
-Ä
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Configuration\GithubHandler.cs (a-
-request"System.Net.Http.HttpRequestMessage"__id**
-(
-%3"System.Net.Http.HttpRequestMessageµ
-≤
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Configuration\GithubHandler.cs (0
-%5*System.Net.Http.Headers.HttpRequestHeaders".System.Net.Http.HttpRequestMessage.Headers.get*/
--
-request"System.Net.Http.HttpRequestMessage»
-≈
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Configuration\GithubHandler.csT (f
-%6string"LMicrosoft.AspNetCore.Authentication.OAuth.OAuthTokenResponse.AccessToken.get*H
-F
-tokens<Microsoft.AspNetCore.Authentication.OAuth.OAuthTokenResponseéã
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Configuration\GithubHandler.cs, (g7
-%71System.Net.Http.Headers.AuthenticationHeaderValue"1System.Net.Http.Headers.AuthenticationHeaderValue‚
-ﬂ
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Configuration\GithubHandler.cs0 (I
-
-%8void"[System.Net.Http.Headers.AuthenticationHeaderValue.AuthenticationHeaderValue(string, string)*9
-7
-%71System.Net.Http.Headers.AuthenticationHeaderValue*
-
-Bearer*
-
-%6stringà
-Ö
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Configuration\GithubHandler.cs (g7
-%91System.Net.Http.Headers.AuthenticationHeaderValue"<System.Net.Http.Headers.HttpRequestHeaders.Authorization.set*2
-0
-%5*System.Net.Http.Headers.HttpRequestHeaders*9
-7
-%71System.Net.Http.Headers.AuthenticationHeaderValue›
-⁄
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Configuration\GithubHandler.cs! (,!
-%10System.Net.Http.HttpClient"PMicrosoft.AspNetCore.Authentication.OAuth.OAuthHandler<TOptions>.Backchannel.get*DB
-@Microsoft.AspNetCore.Authentication.OAuth.OAuthHandler<TOptions>Í
-Á
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Configuration\GithubHandler.cs@ (G,
-%11%Microsoft.AspNetCore.Http.HttpContext"OMicrosoft.AspNetCore.Authentication.AuthenticationHandler<TOptions>.Context.get*GE
-CMicrosoft.AspNetCore.Authentication.AuthenticationHandler<TOptions>∑
-¥
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Configuration\GithubHandler.cs@ (V)
-%12"System.Threading.CancellationToken"8Microsoft.AspNetCore.Http.HttpContext.RequestAborted.get*.
-,
-%11%Microsoft.AspNetCore.Http.HttpContextìê
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Configuration\GithubHandler.cs! (W+
-%13$System.Threading.Tasks.Task<TResult>"lSystem.Net.Http.HttpClient.SendAsync(System.Net.Http.HttpRequestMessage, System.Threading.CancellationToken)*#
-!
-%10System.Net.Http.HttpClient*/
--
-request"System.Net.Http.HttpRequestMessage*+
-)
-%12"System.Threading.CancellationToken2QSendAsync(System.Net.Http.HttpRequestMessage, System.Threading.CancellationToken)·
-ﬁ
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Configuration\GithubHandler.cs (W/
-response#System.Net.Http.HttpResponseMessage"__id*
-""ü
-ú
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Configuration\GithubHandler.cs (-
-%14bool";System.Net.Http.HttpResponseMessage.IsSuccessStatusCode.get*1
-/
-response#System.Net.Http.HttpResponseMessage*
-1
-2*î
-1ù
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Configuration\GithubHandler.cs (Ä¨
-©
-ù
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Configuration\GithubHandler.csm (Ä 
-%15System.Net.HttpStatusCode"2System.Net.Http.HttpResponseMessage.StatusCode.get*1
-/
-response#System.Net.Http.HttpResponseMessage˚
-¯
-ù
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Configuration\GithubHandler.cs/ (Á 
-%16System.Net.HttpStatusCode"__concat*
-""*"
- 
-%15System.Net.HttpStatusCode˚
-¯
-ù
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Configuration\GithubHandler.cs/ (Á 
-%17System.Net.HttpStatusCode"__concat*"
- 
-%16System.Net.HttpStatusCode*
-""ˆÛ
-ù
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Configuration\GithubHandler.cs (Ë+
-%18$System.Net.Http.HttpRequestException"$System.Net.Http.HttpRequestException≈
-¬
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Configuration\GithubHandler.cs (.
-%19void"ASystem.Net.Http.HttpRequestException.HttpRequestException(string)*-
-+
-%18$System.Net.Http.HttpRequestException*"
- 
-%17System.Net.HttpStatusCode*
-3*«G
-2ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Configuration\GithubHandler.cs %(^™
-ß
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Configuration\GithubHandler.cs? (O"
-%20System.Net.Http.HttpContent"/System.Net.Http.HttpResponseMessage.Content.get*1
-/
-response#System.Net.Http.HttpResponseMessage¶
-£
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Configuration\GithubHandler.cs? (c+
-%21$System.Threading.Tasks.Task<TResult>"/System.Net.Http.HttpContent.ReadAsStreamAsync()*$
-"
-%20System.Net.Http.HttpContentë
-é
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Configuration\GithubHandler.cs! (d+
-%22$System.Threading.Tasks.Task<TResult>"ÑSystem.Text.Json.JsonDocument.ParseAsync(System.IO.Stream, System.Text.Json.JsonDocumentOptions, System.Threading.CancellationToken)*!"
-System.Text.Json.JsonDocument*
-""*
-""*
-""Ÿ
-÷
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Configuration\GithubHandler.cs (q'
-payloadSystem.Text.Json.JsonElement"__id*
-""˘ˆ
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Configuration\GithubHandler.cs!9 !(V-
-%23&System.Security.Claims.ClaimsPrincipal"&System.Security.Claims.ClaimsPrincipalÚ
-Ô
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Configuration\GithubHandler.cs!= !(L
-%24void"[System.Security.Claims.ClaimsPrincipal.ClaimsPrincipal(System.Security.Principal.IIdentity)*/
--
-%23&System.Security.Claims.ClaimsPrincipal*3
-1
-identity%System.Security.Claims.ClaimsIdentityÍ
-Á
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Configuration\GithubHandler.cs!d !(k,
-%25%Microsoft.AspNetCore.Http.HttpContext"OMicrosoft.AspNetCore.Authentication.AuthenticationHandler<TOptions>.Context.get*GE
-CMicrosoft.AspNetCore.Authentication.AuthenticationHandler<TOptions>¸
-˘
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Configuration\GithubHandler.cs!m !(s?
-%268Microsoft.AspNetCore.Authentication.AuthenticationScheme"NMicrosoft.AspNetCore.Authentication.AuthenticationHandler<TOptions>.Scheme.get*GE
-CMicrosoft.AspNetCore.Authentication.AuthenticationHandler<TOptions>Û
-
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Configuration\GithubHandler.cs!u !(|5
-%27.OrchardCore.GitHub.Configuration.GitHubOptions"OMicrosoft.AspNetCore.Authentication.AuthenticationHandler<TOptions>.Options.get*GE
-CMicrosoft.AspNetCore.Authentication.AuthenticationHandler<TOptions>ﬁ
-€
-ù
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Configuration\GithubHandler.cs!~ !(â!
-%28System.Net.Http.HttpClient"PMicrosoft.AspNetCore.Authentication.OAuth.OAuthHandler<TOptions>.Backchannel.get*DB
-@Microsoft.AspNetCore.Authentication.OAuth.OAuthHandler<TOptions>∂≥
-ù
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Configuration\GithubHandler.cs! !(õK
-%29DMicrosoft.AspNetCore.Authentication.OAuth.OAuthCreatingTicketContext"DMicrosoft.AspNetCore.Authentication.OAuth.OAuthCreatingTicketContextú	
-ô	
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Configuration\GithubHandler.cs! !(8
-%30void"÷Microsoft.AspNetCore.Authentication.OAuth.OAuthCreatingTicketContext.OAuthCreatingTicketContext(System.Security.Claims.ClaimsPrincipal, Microsoft.AspNetCore.Authentication.AuthenticationProperties, Microsoft.AspNetCore.Http.HttpContext, Microsoft.AspNetCore.Authentication.AuthenticationScheme, Microsoft.AspNetCore.Authentication.OAuth.OAuthOptions, System.Net.Http.HttpClient, Microsoft.AspNetCore.Authentication.OAuth.OAuthTokenResponse, System.Text.Json.JsonElement)*M
-K
-%29DMicrosoft.AspNetCore.Authentication.OAuth.OAuthCreatingTicketContext*/
--
-%23&System.Security.Claims.ClaimsPrincipal*L
-J
-
-properties<Microsoft.AspNetCore.Authentication.AuthenticationProperties*.
-,
-%25%Microsoft.AspNetCore.Http.HttpContext*A
-?
-%268Microsoft.AspNetCore.Authentication.AuthenticationScheme*7
-5
-%27.OrchardCore.GitHub.Configuration.GitHubOptions*#
-!
-%28System.Net.Http.HttpClient*H
-F
-tokens<Microsoft.AspNetCore.Authentication.OAuth.OAuthTokenResponse*)
-'
-payloadSystem.Text.Json.JsonElement…
-∆
-ù
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Configuration\GithubHandler.cs! !(õO
-contextDMicrosoft.AspNetCore.Authentication.OAuth.OAuthCreatingTicketContext"__id*M
-K
-%29DMicrosoft.AspNetCore.Authentication.OAuth.OAuthCreatingTicketContext⁄
-◊
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Configuration\GithubHandler.cs" "(%
-%31void"VMicrosoft.AspNetCore.Authentication.OAuth.OAuthCreatingTicketContext.RunClaimActions()*Q
-O
-contextDMicrosoft.AspNetCore.Authentication.OAuth.OAuthCreatingTicketContextÛ
-
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Configuration\GithubHandler.cs$ $(<
-%325Microsoft.AspNetCore.Authentication.OAuth.OAuthEvents"KMicrosoft.AspNetCore.Authentication.OAuth.OAuthHandler<TOptions>.Events.get*DB
-@Microsoft.AspNetCore.Authentication.OAuth.OAuthHandler<TOptions>ºπ
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Configuration\GithubHandler.cs$ $(0"
-%33System.Threading.Tasks.Task"äMicrosoft.AspNetCore.Authentication.OAuth.OAuthEvents.CreatingTicket(Microsoft.AspNetCore.Authentication.OAuth.OAuthCreatingTicketContext)*>
-<
-%325Microsoft.AspNetCore.Authentication.OAuth.OAuthEvents*Q
-O
-contextDMicrosoft.AspNetCore.Authentication.OAuth.OAuthCreatingTicketContext2TCreatingTicket(Microsoft.AspNetCore.Authentication.OAuth.OAuthCreatingTicketContext)Ô
-Ï
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Configuration\GithubHandler.cs%, %(=-
-%34&System.Security.Claims.ClaimsPrincipal"IMicrosoft.AspNetCore.Authentication.ResultContext<TOptions>.Principal.get*Q
-O
-contextDMicrosoft.AspNetCore.Authentication.OAuth.OAuthCreatingTicketContextÜ
-É
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Configuration\GithubHandler.cs%? %(QC
-%35<Microsoft.AspNetCore.Authentication.AuthenticationProperties"JMicrosoft.AspNetCore.Authentication.ResultContext<TOptions>.Properties.get*Q
-O
-contextDMicrosoft.AspNetCore.Authentication.OAuth.OAuthCreatingTicketContext¸
-˘
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Configuration\GithubHandler.cs%S %(Y?
-%368Microsoft.AspNetCore.Authentication.AuthenticationScheme"NMicrosoft.AspNetCore.Authentication.AuthenticationHandler<TOptions>.Scheme.get*GE
-CMicrosoft.AspNetCore.Authentication.AuthenticationHandler<TOptions>∑
-¥
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Configuration\GithubHandler.cs%S %(^
-%37string"AMicrosoft.AspNetCore.Authentication.AuthenticationScheme.Name.get*A
-?
-%368Microsoft.AspNetCore.Authentication.AuthenticationSchemeùö
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Configuration\GithubHandler.cs% %(_?
-%388Microsoft.AspNetCore.Authentication.AuthenticationTicket"8Microsoft.AspNetCore.Authentication.AuthenticationTicketπ
-∂
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Configuration\GithubHandler.cs% %(+
-%39void"ªMicrosoft.AspNetCore.Authentication.AuthenticationTicket.AuthenticationTicket(System.Security.Claims.ClaimsPrincipal, Microsoft.AspNetCore.Authentication.AuthenticationProperties, string)*A
-?
-%388Microsoft.AspNetCore.Authentication.AuthenticationTicket*/
--
-%34&System.Security.Claims.ClaimsPrincipal*E
-C
-%35<Microsoft.AspNetCore.Authentication.AuthenticationProperties*
-
-%37string"‚
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Configuration\GithubHandler.cs% %(`A
-?
-%388Microsoft.AspNetCore.Authentication.AuthenticationTicket*Ÿ
-3ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Configuration\GithubHandler.cs&	 &(	"¥
-ú
-ëD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.GitHub\Configuration\GithubHandler.cs& &(	
-implicit return:1
-identity%System.Security.Claims.ClaimsIdentity:J
-
-properties<Microsoft.AspNetCore.Authentication.AuthenticationProperties:F
-tokens<Microsoft.AspNetCore.Authentication.OAuth.OAuthTokenResponseB20
-.OrchardCore.GitHub.Configuration.GitHubHandler

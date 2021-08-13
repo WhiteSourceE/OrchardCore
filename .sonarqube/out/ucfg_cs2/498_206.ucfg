@@ -1,188 +1,0 @@
-
-ºOrchardCore.DisplayManagement.Liquid.Tags.HttpContextAddItemTag.WriteToAsync(System.IO.TextWriter, System.Text.Encodings.Web.TextEncoder, Fluid.TemplateContext, Fluid.Ast.FilterArgument[])•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Tags\HttpContextAddItemTag.cs4 (@"0*Å
-0•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Tags\HttpContextAddItemTag.cs (Tÿ
-’
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Tags\HttpContextAddItemTag.cs (&9
-%03System.Collections.Generic.Dictionary<TKey, TValue>"__id*j*h
- 
-contextFluid.TemplateContext"D
-AmbientValues3System.Collections.Generic.Dictionary<TKey, TValue>
-Ì
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Tags\HttpContextAddItemTag.cs (U
-
-%1bool"QSystem.Collections.Generic.Dictionary<TKey, TValue>.TryGetValue(TKey, out TValue)*;
-9
-%03System.Collections.Generic.Dictionary<TKey, TValue>*
-
-Services*
-
-servicesValueobject*
-1
-2*◊
-1•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Tags\HttpContextAddItemTag.cs (VÂ‚
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Tags\HttpContextAddItemTag.cs (W
-%2System.ArgumentException"System.ArgumentExceptionº
-π
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Tags\HttpContextAddItemTag.cs (+
-
-%3void"3System.ArgumentException.ArgumentException(string?)* 
-
-%2System.ArgumentException*,*
-(Services missing while invoking 'helper'*
-3*Õ
-2•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Tags\HttpContextAddItemTag.cs (Q⁄
-◊
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Tags\HttpContextAddItemTag.cs (<
-%4object"__id*
-
-servicesValueobjectÊ
-„
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Tags\HttpContextAddItemTag.cs (<#
-servicesSystem.IServiceProvider"__id*
-
-%4object—
-Œ
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Tags\HttpContextAddItemTag.cs (Q4
-%5.Microsoft.AspNetCore.Http.IHttpContextAccessor"xMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<T>(System.IServiceProvider)*M"K
-IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*%
-#
-servicesSystem.IServiceProvider*
-4
-5*î
-5•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Tags\HttpContextAddItemTag.csR (^·ﬁ
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Tags\HttpContextAddItemTag.csS (^+
-%6%Microsoft.AspNetCore.Http.HttpContext">Microsoft.AspNetCore.Http.IHttpContextAccessor.HttpContext.get*6
-4
-%5.Microsoft.AspNetCore.Http.IHttpContextAccessor2HttpContext.get*
-4*ˆ
-4•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Tags\HttpContextAddItemTag.cs (#ñ
-ì
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Tags\HttpContextAddItemTag.cs (^4
-httpContext%Microsoft.AspNetCore.Http.HttpContext"__id*-
-+
-%6%Microsoft.AspNetCore.Http.HttpContextß
-§
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Tags\HttpContextAddItemTag.cs (#
-
-%7bool""object.operator !=(object, object)*
-"
-object*6
-4
-httpContext%Microsoft.AspNetCore.Http.HttpContext*
-""*
-6
-7*¶
-6•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Tags\HttpContextAddItemTag.cs (4âÜ
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Tags\HttpContextAddItemTag.cs8 (U0
-%8*OrchardCore.Liquid.Ast.ArgumentsExpression"*OrchardCore.Liquid.Ast.ArgumentsExpressionÌ
-Í
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Tags\HttpContextAddItemTag.cs< (O
-
-%9void"ZOrchardCore.Liquid.Ast.ArgumentsExpression.ArgumentsExpression(Fluid.Ast.FilterArgument[])*2
-0
-%8*OrchardCore.Liquid.Ast.ArgumentsExpression*$
-"
-argsFluid.Ast.FilterArgument[]¨©
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Tags\HttpContextAddItemTag.cs8 (l0
-%10)System.Threading.Tasks.ValueTask<TResult>"OOrchardCore.Liquid.Ast.ArgumentsExpression.EvaluateAsync(Fluid.TemplateContext)*2
-0
-%8*OrchardCore.Liquid.Ast.ArgumentsExpression*"
- 
-contextFluid.TemplateContext2$EvaluateAsync(Fluid.TemplateContext)¿
-Ω
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Tags\HttpContextAddItemTag.cs  (}
-%11"__id*
-""ﬁ
-€
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Tags\HttpContextAddItemTag.cs (}"
-	argumentsFluid.FilterArguments"__id*
-
-%11§
-°
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Tags\HttpContextAddItemTag.cs% (40
-%12)System.Collections.Generic.IEnumerable<T>"Fluid.FilterArguments.Names.get*$
-"
-	argumentsFluid.FilterArguments*
-8*≥
-8•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Tags\HttpContextAddItemTag.cs%	 %(	*
-9
-7*€
-
-9•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Tags\HttpContextAddItemTag.cs! !(<—
-Œ
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Tags\HttpContextAddItemTag.cs! !(%;
-%134System.Collections.Generic.IDictionary<TKey, TValue>"/Microsoft.AspNetCore.Http.HttpContext.Items.get*6
-4
-httpContext%Microsoft.AspNetCore.Http.HttpContext´
-®
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Tags\HttpContextAddItemTag.cs!. !(=
-%14Fluid.Values.FluidValue"&Fluid.FilterArguments.this[string].get*$
-"
-	argumentsFluid.FilterArguments*
-
-namestringÖ
-Ç
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Tags\HttpContextAddItemTag.cs!. !(M
-%15object"'Fluid.Values.FluidValue.ToObjectValue()* 
-
-%14Fluid.Values.FluidValueû
-õ
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Tags\HttpContextAddItemTag.cs! !(M
-%16"__mapSet*=
-;
-%134System.Collections.Generic.IDictionary<TKey, TValue>*
-
-namestring*
-
-%15object*
-8*¢
-7•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Tags\HttpContextAddItemTag.cs$ $($¿
-Ω
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Tags\HttpContextAddItemTag.cs$ $($
-%17"__id*
-"""±
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Tags\HttpContextAddItemTag.cs$ $(%
-
-%17*Î
-3•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Tags\HttpContextAddItemTag.cs%	 %(	"Ω
-•
-öD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.DisplayManagement.Liquid\Tags\HttpContextAddItemTag.cs% %(	
-implicit return:
-writerSystem.IO.TextWriter:0
-encoder%System.Text.Encodings.Web.TextEncoder: 
-contextFluid.TemplateContext:"
-argsFluid.Ast.FilterArgument[]BCA
-?OrchardCore.DisplayManagement.Liquid.Tags.HttpContextAddItemTag

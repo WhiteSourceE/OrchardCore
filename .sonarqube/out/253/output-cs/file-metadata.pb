@@ -1,9 +1,0 @@
-’
-ˆD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Deployment.Core\CommonPermissions.csutf-8›
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Deployment.Core\Mvc\DeleteFileResultFilter.csutf-8˜
-ŽD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Deployment.Core\Properties\AssemblyInfo.csutf-8œ
-’D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Deployment.Core\ServiceCollectionExtensions.csutf-8›
-‘D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Deployment.Core\Services\DeploymentManager.csutf-8ž
-”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Deployment.Core\Services\TemporaryFileBuilder.csutf-8¿
-³D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Deployment.Core\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.csutf-8¼
-°D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Deployment.Core\obj\Debug\net5.0\OrchardCore.Deployment.Core.AssemblyInfo.csutf-8

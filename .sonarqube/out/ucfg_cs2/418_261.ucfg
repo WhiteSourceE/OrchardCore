@@ -1,775 +1,0 @@
-
-}OrchardCore.Media.Filters.ResizeUrlFilter.ProcessAsync(Fluid.Values.FluidValue, Fluid.FilterArguments, Fluid.TemplateContext)î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.cs9+ 9(7"0*ı
-0î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.cs; >(Kı
-Ú
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.cs; ;(+
-%0string"'Fluid.Values.FluidValue.ToStringValue()*"
- 
-inputFluid.Values.FluidValueø
-º
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.cs; ;(+
-urlstring"__id*
-
-%0stringÛ
-
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.cs=( =(@I
-queryStringParams4System.Collections.Generic.IDictionary<TKey, TValue>"__id*
-""√
-¿
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.cs> >("9
-%13System.Collections.Generic.Dictionary<TKey, TValue>"__id*f*d
-
-ctxFluid.TemplateContext"D
-AmbientValues3System.Collections.Generic.Dictionary<TKey, TValue>⁄
-◊
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.cs> >(L
-
-%2bool"QSystem.Collections.Generic.Dictionary<TKey, TValue>.TryGetValue(TKey, out TValue)*;
-9
-%13System.Collections.Generic.Dictionary<TKey, TValue>*
-
-Services*
-
-servicesobject*
-1
-2*®
-1î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.cs@ @(Z‘—
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.cs@ @([
-%3System.ArgumentException"System.ArgumentExceptionØ
-¨
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.cs@ @(+
-
-%4void"3System.ArgumentException.ArgumentException(string?)* 
-
-%3System.ArgumentException*0.
-,Services missing while invoking 'resize_url'*
-3*∞
-
-2î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csC H( º
-π
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csC# C(=
-%5"__id*
-
-servicesobject‘
-—
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csC C(>*
-serviceProviderSystem.IServiceProvider"__id*
-
-%5î
-ë
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csF F(.
-%6Fluid.Values.FluidValue"&Fluid.FilterArguments.this[string].get*$
-"
-	argumentsFluid.FilterArguments*	
-profileÂ
-‚
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csF F(."
-profileFluid.Values.FluidValue"__id*
-
-%6Fluid.Values.FluidValueˆÛ
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csH H( 
-
-%7bool"Fluid.Values.FluidValue.IsNil()*$
-"
-profileFluid.Values.FluidValue2IsNil()*
-4
-5*›0
-4î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csJ V(o»
-≈
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csJ* J(d5
-%8/OrchardCore.Media.Services.IMediaProfileService"xMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<T>(System.IServiceProvider)*M"K
-IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*,
-*
-serviceProviderSystem.IServiceProvider°
-û
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csJ J(dF
-mediaProfileService/OrchardCore.Media.Services.IMediaProfileService"__id*7
-5
-%8/OrchardCore.Media.Services.IMediaProfileService˜
-Ù
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csKV K(m
-%9string"'Fluid.Values.FluidValue.ToStringValue()*$
-"
-profileFluid.Values.FluidValueìê
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csK* K(n+
-%10$System.Threading.Tasks.Task<TResult>"OOrchardCore.Media.Services.IMediaProfileService.GetMediaProfileCommands(string)*H
-F
-mediaProfileService/OrchardCore.Media.Services.IMediaProfileService*
-
-%9string2GetMediaProfileCommands(string)Û
-
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csK K(nI
-queryStringParams4System.Collections.Generic.IDictionary<TKey, TValue>"__id*
-""ì
-ê
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csN N(.
-%11Fluid.Values.FluidValue"&Fluid.FilterArguments.this[string].get*$
-"
-	argumentsFluid.FilterArguments*	
-width‰
-·
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csN N(. 
-widthFluid.Values.FluidValue"__id* 
-
-%11Fluid.Values.FluidValueî
-ë
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csO O(0
-%12Fluid.Values.FluidValue"&Fluid.FilterArguments.this[string].get*$
-"
-	argumentsFluid.FilterArguments*
-
-heightÂ
-‚
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csO O(0!
-heightFluid.Values.FluidValue"__id* 
-
-%12Fluid.Values.FluidValueí
-è
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csP P(,
-%13Fluid.Values.FluidValue"&Fluid.FilterArguments.this[string].get*$
-"
-	argumentsFluid.FilterArguments*
-mode„
-‡
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csP P(,
-modeFluid.Values.FluidValue"__id* 
-
-%13Fluid.Values.FluidValueï
-í
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csQ Q(2
-%14Fluid.Values.FluidValue"&Fluid.FilterArguments.this[string].get*$
-"
-	argumentsFluid.FilterArguments*	
-qualityÊ
-„
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csQ Q(2"
-qualityFluid.Values.FluidValue"__id* 
-
-%14Fluid.Values.FluidValueî
-ë
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csR R(0
-%15Fluid.Values.FluidValue"&Fluid.FilterArguments.this[string].get*$
-"
-	argumentsFluid.FilterArguments*
-
-formatÂ
-‚
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csR R(0!
-formatFluid.Values.FluidValue"__id* 
-
-%15Fluid.Values.FluidValueî
-ë
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csS S(0
-%16Fluid.Values.FluidValue"&Fluid.FilterArguments.this[string].get*$
-"
-	argumentsFluid.FilterArguments*
-
-anchorÂ
-‚
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csS S(0!
-anchorFluid.Values.FluidValue"__id* 
-
-%16Fluid.Values.FluidValueï
-í
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csT T(2
-%17Fluid.Values.FluidValue"&Fluid.FilterArguments.this[string].get*$
-"
-	argumentsFluid.FilterArguments*	
-bgcolorÊ
-„
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csT T(2"
-bgcolorFluid.Values.FluidValue"__id* 
-
-%17Fluid.Values.FluidValueœ
-Ã
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csV V(p
-%18void"ßOrchardCore.Media.Filters.ResizeUrlFilter.ApplyQueryStringParams(System.Collections.Generic.IDictionary<string, string>, Fluid.Values.FluidValue, Fluid.Values.FluidValue, Fluid.Values.FluidValue, Fluid.Values.FluidValue, Fluid.Values.FluidValue, Fluid.Values.FluidValue, Fluid.Values.FluidValue)*-"+
-)OrchardCore.Media.Filters.ResizeUrlFilter*K
-I
-queryStringParams4System.Collections.Generic.IDictionary<TKey, TValue>*"
- 
-widthFluid.Values.FluidValue*#
-!
-heightFluid.Values.FluidValue*!
-
-modeFluid.Values.FluidValue*$
-"
-qualityFluid.Values.FluidValue*#
-!
-formatFluid.Values.FluidValue*#
-!
-anchorFluid.Values.FluidValue*$
-"
-bgcolorFluid.Values.FluidValue*
-6*∞
-5î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csZ ^($ãà
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csZ$ Z(D:
-%193System.Collections.Generic.Dictionary<TKey, TValue>"3System.Collections.Generic.Dictionary<TKey, TValue>ß
-§
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csZ( Z(B
-%20void"@System.Collections.Generic.Dictionary<TKey, TValue>.Dictionary()*<
-:
-%193System.Collections.Generic.Dictionary<TKey, TValue>©
-¶
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csZ Z(DI
-queryStringParams4System.Collections.Generic.IDictionary<TKey, TValue>"__id*<
-:
-%193System.Collections.Generic.Dictionary<TKey, TValue>ì
-ê
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.cs\ \(.0
-%21)System.Collections.Generic.IEnumerable<T>"Fluid.FilterArguments.Names.get*$
-"
-	argumentsFluid.FilterArgumentsÕ
- 
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.cs\ \(4
-%22bool"TSystem.Linq.Enumerable.Any<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
-System.Linq.Enumerable*2
-0
-%21)System.Collections.Generic.IEnumerable<T>¡
-æ
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.cs\ \(4
-useNamedbool"__id*
-
-%22bool*
-7
-8*ˇ
-7î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.cs^' ^(8ì
-ê
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.cs^' ^(9
-%26Fluid.Values.FluidValue"&Fluid.FilterArguments.this[string].get*$
-"
-	argumentsFluid.FilterArguments*	
-width‚
-ﬂ
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.cs^' ^(9
-%24Fluid.Values.FluidValue"__id* 
-
-%26Fluid.Values.FluidValue‚
-ﬂ
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.cs^' ^(9
-%23Fluid.Values.FluidValue"__id* 
-
-%24Fluid.Values.FluidValue*
-9*Ô
-8î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.cs^< ^(JÉ
-Ä
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.cs^< ^(K
-%27Fluid.Values.FluidValue"Fluid.FilterArguments.At(int)*$
-"
-	argumentsFluid.FilterArguments*2 ‚
-ﬂ
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.cs^< ^(K
-%25Fluid.Values.FluidValue"__id* 
-
-%27Fluid.Values.FluidValue‚
-ﬂ
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.cs^< ^(K
-%23Fluid.Values.FluidValue"__id* 
-
-%25Fluid.Values.FluidValue*
-9*ã
-9î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.cs^ _(%‰
-·
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.cs^ ^(K 
-widthFluid.Values.FluidValue"__id* 
-
-%23Fluid.Values.FluidValue*
-10
-11*Ç
-10î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.cs_( _(:î
-ë
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.cs_( _(;
-%31Fluid.Values.FluidValue"&Fluid.FilterArguments.this[string].get*$
-"
-	argumentsFluid.FilterArguments*
-
-height‚
-ﬂ
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.cs_( _(;
-%29Fluid.Values.FluidValue"__id* 
-
-%31Fluid.Values.FluidValue‚
-ﬂ
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.cs_( _(;
-%28Fluid.Values.FluidValue"__id* 
-
-%29Fluid.Values.FluidValue*
-12*Û
-11î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.cs_> _(LÖ
-Ç
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.cs_> _(M
-%32Fluid.Values.FluidValue"Fluid.FilterArguments.At(int)*$
-"
-	argumentsFluid.FilterArguments*2‚
-ﬂ
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.cs_> _(M
-%30Fluid.Values.FluidValue"__id* 
-
-%32Fluid.Values.FluidValue‚
-ﬂ
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.cs_> _(M
-%28Fluid.Values.FluidValue"__id* 
-
-%30Fluid.Values.FluidValue*
-12*ç
-12î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.cs_ `(#Â
-‚
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.cs_ _(M!
-heightFluid.Values.FluidValue"__id* 
-
-%28Fluid.Values.FluidValue*
-13
-14*Ä
-13î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.cs`& `(6í
-è
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.cs`& `(7
-%36Fluid.Values.FluidValue"&Fluid.FilterArguments.this[string].get*$
-"
-	argumentsFluid.FilterArguments*
-mode‚
-ﬂ
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.cs`& `(7
-%34Fluid.Values.FluidValue"__id* 
-
-%36Fluid.Values.FluidValue‚
-ﬂ
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.cs`& `(7
-%33Fluid.Values.FluidValue"__id* 
-
-%34Fluid.Values.FluidValue*
-15*Û
-14î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.cs`: `(HÖ
-Ç
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.cs`: `(I
-%37Fluid.Values.FluidValue"Fluid.FilterArguments.At(int)*$
-"
-	argumentsFluid.FilterArguments*2‚
-ﬂ
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.cs`: `(I
-%35Fluid.Values.FluidValue"__id* 
-
-%37Fluid.Values.FluidValue‚
-ﬂ
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.cs`: `(I
-%33Fluid.Values.FluidValue"__id* 
-
-%35Fluid.Values.FluidValue*
-15*ã
-15î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.cs` a(&„
-‡
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.cs` `(I
-modeFluid.Values.FluidValue"__id* 
-
-%33Fluid.Values.FluidValue*
-16
-17*É
-16î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csa) a(<ï
-í
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csa) a(=
-%41Fluid.Values.FluidValue"&Fluid.FilterArguments.this[string].get*$
-"
-	argumentsFluid.FilterArguments*	
-quality‚
-ﬂ
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csa) a(=
-%39Fluid.Values.FluidValue"__id* 
-
-%41Fluid.Values.FluidValue‚
-ﬂ
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csa) a(=
-%38Fluid.Values.FluidValue"__id* 
-
-%39Fluid.Values.FluidValue*
-18*Û
-17î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csa@ a(NÖ
-Ç
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csa@ a(O
-%42Fluid.Values.FluidValue"Fluid.FilterArguments.At(int)*$
-"
-	argumentsFluid.FilterArguments*2‚
-ﬂ
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csa@ a(O
-%40Fluid.Values.FluidValue"__id* 
-
-%42Fluid.Values.FluidValue‚
-ﬂ
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csa@ a(O
-%38Fluid.Values.FluidValue"__id* 
-
-%40Fluid.Values.FluidValue*
-18*é
-18î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csa b(%Ê
-„
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csa a(O"
-qualityFluid.Values.FluidValue"__id* 
-
-%38Fluid.Values.FluidValue*
-19
-20*Ç
-19î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csb( b(:î
-ë
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csb( b(;
-%46Fluid.Values.FluidValue"&Fluid.FilterArguments.this[string].get*$
-"
-	argumentsFluid.FilterArguments*
-
-format‚
-ﬂ
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csb( b(;
-%44Fluid.Values.FluidValue"__id* 
-
-%46Fluid.Values.FluidValue‚
-ﬂ
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csb( b(;
-%43Fluid.Values.FluidValue"__id* 
-
-%44Fluid.Values.FluidValue*
-21*Û
-20î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csb> b(LÖ
-Ç
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csb> b(M
-%47Fluid.Values.FluidValue"Fluid.FilterArguments.At(int)*$
-"
-	argumentsFluid.FilterArguments*2‚
-ﬂ
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csb> b(M
-%45Fluid.Values.FluidValue"__id* 
-
-%47Fluid.Values.FluidValue‚
-ﬂ
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csb> b(M
-%43Fluid.Values.FluidValue"__id* 
-
-%45Fluid.Values.FluidValue*
-21*ç
-21î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csb c(%Â
-‚
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csb b(M!
-formatFluid.Values.FluidValue"__id* 
-
-%43Fluid.Values.FluidValue*
-22
-23*Ç
-22î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csc( c(:î
-ë
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csc( c(;
-%51Fluid.Values.FluidValue"&Fluid.FilterArguments.this[string].get*$
-"
-	argumentsFluid.FilterArguments*
-
-anchor‚
-ﬂ
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csc( c(;
-%49Fluid.Values.FluidValue"__id* 
-
-%51Fluid.Values.FluidValue‚
-ﬂ
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csc( c(;
-%48Fluid.Values.FluidValue"__id* 
-
-%49Fluid.Values.FluidValue*
-24*Û
-23î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csc> c(LÖ
-Ç
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csc> c(M
-%52Fluid.Values.FluidValue"Fluid.FilterArguments.At(int)*$
-"
-	argumentsFluid.FilterArguments*2‚
-ﬂ
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csc> c(M
-%50Fluid.Values.FluidValue"__id* 
-
-%52Fluid.Values.FluidValue‚
-ﬂ
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csc> c(M
-%48Fluid.Values.FluidValue"__id* 
-
-%50Fluid.Values.FluidValue*
-24*ç
-24î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csc d(&Â
-‚
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csc c(M!
-anchorFluid.Values.FluidValue"__id* 
-
-%48Fluid.Values.FluidValue*
-25
-26*É
-25î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csd) d(<ï
-í
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csd) d(=
-%56Fluid.Values.FluidValue"&Fluid.FilterArguments.this[string].get*$
-"
-	argumentsFluid.FilterArguments*	
-bgcolor‚
-ﬂ
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csd) d(=
-%54Fluid.Values.FluidValue"__id* 
-
-%56Fluid.Values.FluidValue‚
-ﬂ
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csd) d(=
-%53Fluid.Values.FluidValue"__id* 
-
-%54Fluid.Values.FluidValue*
-27*Û
-26î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csd@ d(NÖ
-Ç
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csd@ d(O
-%57Fluid.Values.FluidValue"Fluid.FilterArguments.At(int)*$
-"
-	argumentsFluid.FilterArguments*2‚
-ﬂ
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csd@ d(O
-%55Fluid.Values.FluidValue"__id* 
-
-%57Fluid.Values.FluidValue‚
-ﬂ
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csd@ d(O
-%53Fluid.Values.FluidValue"__id* 
-
-%55Fluid.Values.FluidValue*
-27*€	
-27î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csd f(oÊ
-„
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csd d(O"
-bgcolorFluid.Values.FluidValue"__id* 
-
-%53Fluid.Values.FluidValueœ
-Ã
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csf f(p
-%58void"ßOrchardCore.Media.Filters.ResizeUrlFilter.ApplyQueryStringParams(System.Collections.Generic.IDictionary<string, string>, Fluid.Values.FluidValue, Fluid.Values.FluidValue, Fluid.Values.FluidValue, Fluid.Values.FluidValue, Fluid.Values.FluidValue, Fluid.Values.FluidValue, Fluid.Values.FluidValue)*-"+
-)OrchardCore.Media.Filters.ResizeUrlFilter*K
-I
-queryStringParams4System.Collections.Generic.IDictionary<TKey, TValue>*"
- 
-widthFluid.Values.FluidValue*#
-!
-heightFluid.Values.FluidValue*!
-
-modeFluid.Values.FluidValue*$
-"
-qualityFluid.Values.FluidValue*#
-!
-formatFluid.Values.FluidValue*#
-!
-anchorFluid.Values.FluidValue*$
-"
-bgcolorFluid.Values.FluidValue*
-6*œ
-6î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csi m(4∫
-∑
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csi i(P
-%59string"}Microsoft.AspNetCore.WebUtilities.QueryHelpers.AddQueryString(string, System.Collections.Generic.IDictionary<string, string>)*2"0
-.Microsoft.AspNetCore.WebUtilities.QueryHelpers*
-
-urlstring*K
-I
-queryStringParams4System.Collections.Generic.IDictionary<TKey, TValue>«
-ƒ
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csi i(P
-
-resizedUrlstring"__id*
-
-%59string…
-∆
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csk k([6
-%60/Microsoft.Extensions.Options.IOptions<TOptions>"xMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<T>(System.IServiceProvider)*M"K
-IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*,
-*
-serviceProviderSystem.IServiceProvider¡æ
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csk k(a%
-%61OrchardCore.Media.MediaOptions"9Microsoft.Extensions.Options.IOptions<TOptions>.Value.get*8
-6
-%60/Microsoft.Extensions.Options.IOptions<TOptions>2	Value.get˘
-ˆ
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csk k(a.
-mediaOptionsOrchardCore.Media.MediaOptions"__id*'
-%
-%61OrchardCore.Media.MediaOptionsï
-í
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csm m(4
-%62bool":OrchardCore.Media.MediaOptions.UseTokenizedQueryString.get*0
-.
-mediaOptionsOrchardCore.Media.MediaOptions*
-28
-29*è
-28î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.cso p(Hæ
-ª
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.cso( o(`+
-%63$OrchardCore.Media.IMediaTokenService"xMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<T>(System.IServiceProvider)*M"K
-IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*,
-*
-serviceProviderSystem.IServiceProviderä
-á
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.cso o(`9
-mediaTokenService$OrchardCore.Media.IMediaTokenService"__id*-
-+
-%63$OrchardCore.Media.IMediaTokenService”–
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csp p(I
-%64string";OrchardCore.Media.IMediaTokenService.AddTokenToPath(string)*;
-9
-mediaTokenService$OrchardCore.Media.IMediaTokenService*
-
-
-resizedUrlstring2AddTokenToPath(string)«
-ƒ
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.csp p(I
-
-resizedUrlstring"__id*
-
-%64string*
-29*√
-29î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.css s(-’“
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.css s(.
-%65Fluid.Values.StringValue"Fluid.Values.StringValueê
-ç
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.css s("
-%66void",Fluid.Values.StringValue.StringValue(string)*!
-
-%65Fluid.Values.StringValue*
-
-
-resizedUrlstring"∫
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.css s(/!
-
-%65Fluid.Values.StringValue*…
-3î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.cst	 t(	"¨
-î
-âD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Media\Filters\MediaFilters.cst t(	
-implicit return: 
-inputFluid.Values.FluidValue:"
-	argumentsFluid.FilterArguments:
-ctxFluid.TemplateContextB-+
-)OrchardCore.Media.Filters.ResizeUrlFilter

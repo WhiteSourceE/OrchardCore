@@ -1,101 +1,0 @@
-
-ÅOrchardCore.Feeds.Rss.RssFeedBuilder.ProcessAsync(OrchardCore.Feeds.Models.FeedContext, System.Func<System.Threading.Tasks.Task>)è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Feeds.Core\Rss\RssFeedBuilder.cs
-% 
-(1"0*‡
-0è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Feeds.Core\Rss\RssFeedBuilder.cs ($œÃ
-è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Feeds.Core\Rss\RssFeedBuilder.cs ()
-%0System.Xml.Linq.XElement"System.Xml.Linq.XElementÜ
-É
-è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Feeds.Core\Rss\RssFeedBuilder.cs ("
-
-%1void"8System.Xml.Linq.XElement.XElement(System.Xml.Linq.XName)* 
-
-%0System.Xml.Linq.XElement*
-rssﬁ
-€
-è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Feeds.Core\Rss\RssFeedBuilder.cs ()
-rssSystem.Xml.Linq.XElement"__id* 
-
-%0System.Xml.Linq.XElement•
-¢
-è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Feeds.Core\Rss\RssFeedBuilder.cs (3
-
-%2void"ISystem.Xml.Linq.XElement.SetAttributeValue(System.Xml.Linq.XName, object)*!
-
-rssSystem.Xml.Linq.XElement*	
-version*
-2.0œÃ
-è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Feeds.Core\Rss\RssFeedBuilder.cs (1
-%3System.Xml.Linq.XElement"System.Xml.Linq.XElementä
-á
-è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Feeds.Core\Rss\RssFeedBuilder.cs (&
-
-%4void"8System.Xml.Linq.XElement.XElement(System.Xml.Linq.XName)* 
-
-%3System.Xml.Linq.XElement*	
-channel‚
-ﬂ
-è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Feeds.Core\Rss\RssFeedBuilder.cs (1#
-channelSystem.Xml.Linq.XElement"__id* 
-
-%3System.Xml.Linq.XElement®
-•
-è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Feeds.Core\Rss\RssFeedBuilder.cs (+
-%5%OrchardCore.Feeds.Models.FeedResponse"1OrchardCore.Feeds.Models.FeedContext.Response.get*1
-/
-context$OrchardCore.Feeds.Models.FeedContextæ
-ª
-è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Feeds.Core\Rss\RssFeedBuilder.cs (.
-%6System.Xml.Linq.XElement"1OrchardCore.Feeds.Models.FeedResponse.Element.set*-
-+
-%5%OrchardCore.Feeds.Models.FeedResponse*%
-#
-channelSystem.Xml.Linq.XElementì
-ê
-è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Feeds.Core\Rss\RssFeedBuilder.cs (
-
-%7void"&System.Xml.Linq.XContainer.Add(object)*!
-
-rssSystem.Xml.Linq.XElement*%
-#
-channelSystem.Xml.Linq.XElementÒ
-Ó
-è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Feeds.Core\Rss\RssFeedBuilder.cs (!
-%8System.Threading.Tasks.Task"System.Func<TResult>.Invoke()*
-System.Func<TResult>—Œ
-è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Feeds.Core\Rss\RssFeedBuilder.cs (%
-%9System.Xml.Linq.XDocument"System.Xml.Linq.XDocumentû
-õ
-è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Feeds.Core\Rss\RssFeedBuilder.cs ( 
-%10void"4System.Xml.Linq.XDocument.XDocument(params object[])*!
-
-%9System.Xml.Linq.XDocument*!
-
-rssSystem.Xml.Linq.XElement"µ
-è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Feeds.Core\Rss\RssFeedBuilder.cs (&!
-
-%9System.Xml.Linq.XDocument*ø
-1è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Feeds.Core\Rss\RssFeedBuilder.cs	 (	"ß
-è
-ÑD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Feeds.Core\Rss\RssFeedBuilder.cs (	
-implicit return:/
-context$OrchardCore.Feeds.Models.FeedContext: 
-populateSystem.Func<TResult>B(&
-$OrchardCore.Feeds.Rss.RssFeedBuilder

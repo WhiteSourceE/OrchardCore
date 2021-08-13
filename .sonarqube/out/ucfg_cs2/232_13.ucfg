@@ -1,137 +1,0 @@
-
-`OrchardCore.Deployment.Core.Services.TemporaryFileBuilder.SetFileAsync(string, System.IO.Stream)Ÿ
-”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Deployment.Core\Services\TemporaryFileBuilder.cs (&"0*–
-0Ÿ
-”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Deployment.Core\Services\TemporaryFileBuilder.cs   (&æ
-ã
-Ÿ
-”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Deployment.Core\Services\TemporaryFileBuilder.cs   ('
-
-%0bool"string.StartsWith(char)*
-
-subpathstring*
-/*
-1
-2*ß
-1Ÿ
-”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Deployment.Core\Services\TemporaryFileBuilder.cs" "(Pïì
-Ÿ
-”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Deployment.Core\Services\TemporaryFileBuilder.cs" "(Q&
-%1 System.InvalidOperationException" System.InvalidOperationExceptionÀ
-½
-Ÿ
-”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Deployment.Core\Services\TemporaryFileBuilder.cs" "(3
-
-%2void"CSystem.InvalidOperationException.InvalidOperationException(string?)*(
-&
-%1 System.InvalidOperationException*
-A virtual path is required*
-3*À
-2Ÿ
-”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Deployment.Core\Services\TemporaryFileBuilder.cs% )(!¸
-µ
-Ÿ
-”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Deployment.Core\Services\TemporaryFileBuilder.cs%2 %(8
-%3string"DOrchardCore.Deployment.Core.Services.TemporaryFileBuilder.Folder.get*=;
-9OrchardCore.Deployment.Core.Services.TemporaryFileBuilder¨
-¥
-Ÿ
-”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Deployment.Core\Services\TemporaryFileBuilder.cs% %(B
-%4string"0System.IO.PathExtensions.Combine(string, string)*"
-System.IO.PathExtensions*
-
-%3string*
-
-subpathstringÏ
-Ì
-Ÿ
-”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Deployment.Core\Services\TemporaryFileBuilder.cs% %(B
-fullnamestring"__id*
-
-%4stringÓÐ
-Ÿ
-”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Deployment.Core\Services\TemporaryFileBuilder.cs' '(2
-%5System.IO.FileInfo"System.IO.FileInfoˆ
-…
-Ÿ
-”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Deployment.Core\Services\TemporaryFileBuilder.cs'  '((
-
-%6void"#System.IO.FileInfo.FileInfo(string)*
-
-%5System.IO.FileInfo*
-
-fullnamestring‚
-ÿ
-Ÿ
-”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Deployment.Core\Services\TemporaryFileBuilder.cs' '(<
-%7System.IO.DirectoryInfo" System.IO.FileInfo.Directory.get*
-
-%5System.IO.FileInfoò
-ï
-Ÿ
-”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Deployment.Core\Services\TemporaryFileBuilder.cs' '(<$
-	directorySystem.IO.DirectoryInfo"__id*
-
-%7System.IO.DirectoryInfoý
-ú
-Ÿ
-”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Deployment.Core\Services\TemporaryFileBuilder.cs) )(!
-
-%8bool""System.IO.DirectoryInfo.Exists.get*&
-$
-	directorySystem.IO.DirectoryInfo*
-4
-5*¨
-4Ÿ
-”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Deployment.Core\Services\TemporaryFileBuilder.cs+ +("û
-ø
-Ÿ
-”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Deployment.Core\Services\TemporaryFileBuilder.cs+ +("
-
-%9void" System.IO.DirectoryInfo.Create()*&
-$
-	directorySystem.IO.DirectoryInfo*
-5*‹
-5Ÿ
-”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Deployment.Core\Services\TemporaryFileBuilder.cs. .(Lº
-·
-Ÿ
-”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Deployment.Core\Services\TemporaryFileBuilder.cs.< .(L
-%10"__id*
-""¸
-µ
-Ÿ
-”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Deployment.Core\Services\TemporaryFileBuilder.cs. .(M
-%11System.IO.FileStream"9System.IO.File.Create(string, int, System.IO.FileOptions)*"
-System.IO.File*
-
-fullnamestring*
-""*
-
-%10æ
-ã
-Ÿ
-”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Deployment.Core\Services\TemporaryFileBuilder.cs. .(M
-fsSystem.IO.FileStream"__id*
-
-%11System.IO.FileStream*
-6*â
-6Ÿ
-”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Deployment.Core\Services\TemporaryFileBuilder.cs0 0(+µ
-²
-Ÿ
-”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Deployment.Core\Services\TemporaryFileBuilder.cs0 0(,"
-%12System.Threading.Tasks.Task".System.IO.Stream.CopyToAsync(System.IO.Stream)*
-
-streamSystem.IO.Stream*
-
-fsSystem.IO.FileStream*
-3*ß
-3Ÿ
-”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Deployment.Core\Services\TemporaryFileBuilder.cs2	 2(	"·
-Ÿ
-”D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Deployment.Core\Services\TemporaryFileBuilder.cs2 2(	
-implicit return:
-subpathstring:
-streamSystem.IO.StreamB=;
-9OrchardCore.Deployment.Core.Services.TemporaryFileBuilder

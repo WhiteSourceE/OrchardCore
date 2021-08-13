@@ -1,296 +1,0 @@
-
-ÄOrchardCore.Contents.Liquid.DisplayUrlFilter.ProcessAsync(Fluid.Values.FluidValue, Fluid.FilterArguments, Fluid.TemplateContext)ö
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\DisplayUrlFilter.cs+ (7"0*É	
-0ö
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\DisplayUrlFilter.cs (#˚
-¯
-ö
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\DisplayUrlFilter.cs (3
-%0object"'Fluid.Values.FluidValue.ToObjectValue()*"
- 
-inputFluid.Values.FluidValueƒ
-¡
-ö
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\DisplayUrlFilter.cs (B
-%1object"__id*
-
-%0object
-Ì
-ö
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\DisplayUrlFilter.cs (B8
-contentItem)OrchardCore.ContentManagement.ContentItem"__id*
-
-%1object†
-ù
-ö
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\DisplayUrlFilter.cs (#
-
-%2bool""object.operator ==(object, object)*
-"
-object*:
-8
-contentItem)OrchardCore.ContentManagement.ContentItem*
-""*
-1
-2*‹
-1ö
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\DisplayUrlFilter.cs (T…
-∆
-ö
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\DisplayUrlFilter.cs (&9
-%33System.Collections.Generic.Dictionary<TKey, TValue>"__id*f*d
-
-ctxFluid.TemplateContext"D
-AmbientValues3System.Collections.Generic.Dictionary<TKey, TValue>Â
-‚
-ö
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\DisplayUrlFilter.cs (U
-
-%4bool"QSystem.Collections.Generic.Dictionary<TKey, TValue>.TryGetValue(TKey, out TValue)*;
-9
-%33System.Collections.Generic.Dictionary<TKey, TValue>*
-
-Services*
-
-servicesValueobject*
-3
-4*ª
-3ö
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\DisplayUrlFilter.cs! !(_⁄◊
-ö
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\DisplayUrlFilter.cs! !(`
-%5System.ArgumentException"System.ArgumentException∂
-≥
-ö
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\DisplayUrlFilter.cs! !(/
-
-%6void"3System.ArgumentException.ArgumentException(string?)* 
-
-%5System.ArgumentException*1/
--Services missing while invoking 'display_url'*
-5*ù
-4ö
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\DisplayUrlFilter.cs#& #(F«
-ƒ
-ö
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\DisplayUrlFilter.cs#' #(F
-%7"__id*
-
-servicesValueobject®
-•
-ö
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\DisplayUrlFilter.cs#& #(x5
-%8/Microsoft.Extensions.Options.IOptions<TOptions>"xMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<T>(System.IServiceProvider)*M"K
-IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*
-
-%7*
-6
-7*Ö
-7ö
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\DisplayUrlFilter.cs#y #(›⁄
-ö
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\DisplayUrlFilter.cs#z #(<
-%96OrchardCore.ContentManagement.Routing.AutorouteOptions"9Microsoft.Extensions.Options.IOptions<TOptions>.Value.get*7
-5
-%8/Microsoft.Extensions.Options.IOptions<TOptions>2	Value.get*
-6*´
-6ö
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\DisplayUrlFilter.cs# %(>±
-Æ
-ö
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\DisplayUrlFilter.cs# #(I
-autoRouteOption6OrchardCore.ContentManagement.Routing.AutorouteOptions"__id*>
-<
-%96OrchardCore.ContentManagement.Routing.AutorouteOptionsı
-Ú
-ö
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\DisplayUrlFilter.cs$7 $(X8
-%101Microsoft.AspNetCore.Routing.RouteValueDictionary"LOrchardCore.ContentManagement.Routing.AutorouteOptions.GlobalRouteValues.get*K
-I
-autoRouteOption6OrchardCore.ContentManagement.Routing.AutorouteOptionsçä
-ö
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\DisplayUrlFilter.cs$ $(Y8
-%111Microsoft.AspNetCore.Routing.RouteValueDictionary"1Microsoft.AspNetCore.Routing.RouteValueDictionary≤
-Ø
-ö
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\DisplayUrlFilter.cs$" $(6
-%12void"__mapSetAll*:
-8
-%111Microsoft.AspNetCore.Routing.RouteValueDictionary*:
-8
-%101Microsoft.AspNetCore.Routing.RouteValueDictionary§
-°
-ö
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\DisplayUrlFilter.cs$ $(Y@
-routeValues1Microsoft.AspNetCore.Routing.RouteValueDictionary"__id*:
-8
-%111Microsoft.AspNetCore.Routing.RouteValueDictionary¸
-˘
-ö
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\DisplayUrlFilter.cs%) %(>
-%13string"'Fluid.Values.FluidValue.ToStringValue()*"
- 
-inputFluid.Values.FluidValueÈ
-Ê
-ö
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\DisplayUrlFilter.cs% %(?
-%14bool"string.IsNullOrEmpty(string?)*
-"
-string*
-
-%13string*
-8
-9*∆
-8ö
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\DisplayUrlFilter.cs' '(g€ÿ
-ö
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\DisplayUrlFilter.cs' '(h
-%15System.ArgumentException"System.ArgumentException¿
-Ω
-ö
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\DisplayUrlFilter.cs' '(/
-%16void"3System.ArgumentException.ArgumentException(string?)*!
-
-%15System.ArgumentException*97
-5content_item_id is empty while invoking 'display_url'*
-5*ã
-9ö
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\DisplayUrlFilter.cs) )(U…
-∆
-ö
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\DisplayUrlFilter.cs) )(<
-%17string"KOrchardCore.ContentManagement.Routing.AutorouteOptions.ContentItemIdKey.get*K
-I
-autoRouteOption6OrchardCore.ContentManagement.Routing.AutorouteOptions¸
-˘
-ö
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\DisplayUrlFilter.cs)@ )(U
-%18string"'Fluid.Values.FluidValue.ToStringValue()*"
- 
-inputFluid.Values.FluidValueó
-î
-ö
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\DisplayUrlFilter.cs) )(U
-%19"__mapSet*B
-@
-routeValues1Microsoft.AspNetCore.Routing.RouteValueDictionary*
-
-%17string*
-
-%18string*
-10*Ω
-2ö
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\DisplayUrlFilter.cs- .(D“
-œ
-ö
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\DisplayUrlFilter.cs-0 -(?4
-%20-OrchardCore.ContentManagement.IContentManager"__id*t*r.
-,OrchardCore.Contents.Liquid.DisplayUrlFilter"@
-_contentManager-OrchardCore.ContentManagement.IContentManager™
-ß
-ö
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\DisplayUrlFilter.cs-0 -(u+
-%21$System.Threading.Tasks.Task<TResult>"™OrchardCore.ContentManagement.ContentManagerExtensions.PopulateAspectAsync<TAspect>(OrchardCore.ContentManagement.IContentManager, OrchardCore.ContentManagement.IContent)*:"8
-6OrchardCore.ContentManagement.ContentManagerExtensions*6
-4
-%20-OrchardCore.ContentManagement.IContentManager*:
-8
-contentItem)OrchardCore.ContentManagement.ContentItem¯
-ı
-ö
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\DisplayUrlFilter.cs- -(uH
-contentItemMetadata1OrchardCore.ContentManagement.ContentItemMetadata"__id*
-""
-Ì
-ö
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\DisplayUrlFilter.cs. .(D8
-%221Microsoft.AspNetCore.Routing.RouteValueDictionary"HOrchardCore.ContentManagement.ContentItemMetadata.DisplayRouteValues.get*J
-H
-contentItemMetadata1OrchardCore.ContentManagement.ContentItemMetadata§
-°
-ö
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\DisplayUrlFilter.cs. .(D@
-routeValues1Microsoft.AspNetCore.Routing.RouteValueDictionary"__id*:
-8
-%221Microsoft.AspNetCore.Routing.RouteValueDictionary*
-10*ﬂ
-10ö
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\DisplayUrlFilter.cs1 1(M 
-«
-ö
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\DisplayUrlFilter.cs1 1(":
-%233System.Collections.Generic.Dictionary<TKey, TValue>"__id*f*d
-
-ctxFluid.TemplateContext"D
-AmbientValues3System.Collections.Generic.Dictionary<TKey, TValue>‰
-·
-ö
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\DisplayUrlFilter.cs1 1(N
-%24bool"QSystem.Collections.Generic.Dictionary<TKey, TValue>.TryGetValue(TKey, out TValue)*<
-:
-%233System.Collections.Generic.Dictionary<TKey, TValue>*
-	UrlHelper*
-
-	urlHelperobject*
-11
-12*¿
-11ö
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\DisplayUrlFilter.cs3 3(\€ÿ
-ö
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\DisplayUrlFilter.cs3 3(]
-%25System.ArgumentException"System.ArgumentExceptionπ
-∂
-ö
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\DisplayUrlFilter.cs3 3(+
-%26void"3System.ArgumentException.ArgumentException(string?)*!
-
-%25System.ArgumentException*20
-.UrlHelper missing while invoking 'display_url'*
-5*Å
-12ö
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\DisplayUrlFilter.cs6 8(*ƒ
-¡
-ö
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\DisplayUrlFilter.cs6 6(0
-%27"__id*
-
-	urlHelperobjectí
-è
-ö
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\DisplayUrlFilter.cs6 6(G
-%28string"bMicrosoft.AspNetCore.Mvc.UrlHelperExtensions.RouteUrl(Microsoft.AspNetCore.Mvc.IUrlHelper, object)*0".
-,Microsoft.AspNetCore.Mvc.UrlHelperExtensions*
-
-%27*B
-@
-routeValues1Microsoft.AspNetCore.Routing.RouteValueDictionary 
-«
-ö
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\DisplayUrlFilter.cs6 6(G
-linkUrlstring"__id*
-
-%28string€ÿ
-ö
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\DisplayUrlFilter.cs8 8(+
-%29Fluid.Values.StringValue"Fluid.Values.StringValueì
-ê
-ö
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\DisplayUrlFilter.cs8 8("
-%30void",Fluid.Values.StringValue.StringValue(string)*!
-
-%29Fluid.Values.StringValue*
-
-linkUrlstring"¿
-ö
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\DisplayUrlFilter.cs8 8(,!
-
-%29Fluid.Values.StringValue*’
-5ö
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\DisplayUrlFilter.cs9	 9(	"≤
-ö
-èD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Liquid\DisplayUrlFilter.cs9 9(	
-implicit return: 
-inputFluid.Values.FluidValue:"
-	argumentsFluid.FilterArguments:
-ctxFluid.TemplateContextB0.
-,OrchardCore.Contents.Liquid.DisplayUrlFilter

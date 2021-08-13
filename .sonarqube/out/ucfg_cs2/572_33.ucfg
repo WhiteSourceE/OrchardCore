@@ -1,53 +1,0 @@
-
-úOrchardCore.Apis.GraphQL.ValidationRules.RequiresPermissionValidationRule.Authorize(GraphQL.Types.IProvideMetadata, OrchardCore.Apis.GraphQL.GraphQLContext)∑
-¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\ValidationRules\RequiresPermissionValidationRule.cs: :(%"0*‹
-0∏
-¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\ValidationRules\RequiresPermissionValidationRule.cs< @(ñœ
-Ã
-∑
-¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\ValidationRules\RequiresPermissionValidationRule.cs<' <(>
-%0System.IServiceProvider";OrchardCore.Apis.GraphQL.GraphQLContext.ServiceProvider.get*4
-2
-context'OrchardCore.Apis.GraphQL.GraphQLContextﬂ
-‹
-∑
-¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\ValidationRules\RequiresPermissionValidationRule.cs<' <(b>
-%18Microsoft.AspNetCore.Authorization.IAuthorizationService"pMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService<T>(System.IServiceProvider)*M"K
-IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*
-
-%0System.IServiceProvider◊
-‘
-∑
-¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\ValidationRules\RequiresPermissionValidationRule.cs< <(bP
-authorizationManager8Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*@
->
-%18Microsoft.AspNetCore.Authorization.IAuthorizationService´
-®
-∑
-¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\ValidationRules\RequiresPermissionValidationRule.cs@ @((/
-%2)System.Collections.Generic.IEnumerable<T>"]OrchardCore.Apis.GraphQL.PermissionsExtensions.GetPermissions(GraphQL.Types.IProvideMetadata)*2"0
-.OrchardCore.Apis.GraphQL.PermissionsExtensions*(
-&
-typeGraphQL.Types.IProvideMetadataì
-ê
-∏
-¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\ValidationRules\RequiresPermissionValidationRule.cs@ @(ó
-
-%3bool"pSystem.Linq.Enumerable.All<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
-System.Linq.Enumerable*1
-/
-%2)System.Collections.Generic.IEnumerable<T>*
-"""…
-∏
-¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\ValidationRules\RequiresPermissionValidationRule.cs@ @(ò
-
-
-%3bool*è
-1∑
-¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\ValidationRules\RequiresPermissionValidationRule.csA	 A(	"œ
-∑
-¨D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Apis.GraphQL\ValidationRules\RequiresPermissionValidationRule.csA A(	
-implicit return:&
-typeGraphQL.Types.IProvideMetadata:2
-context'OrchardCore.Apis.GraphQL.GraphQLContextBM"K
-IOrchardCore.Apis.GraphQL.ValidationRules.RequiresPermissionValidationRule

@@ -1,3 +1,0 @@
-Á
-µD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.MiniProfiler\obj\Debug\netcoreapp3.1\Razor\Views\MiniProfiler.cshtml.g.csutf-8Ð
-ÄD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.MiniProfiler\obj\Debug\netcoreapp3.1\OrchardCore.MiniProfiler.RazorTargetAssemblyInfo.csutf-8

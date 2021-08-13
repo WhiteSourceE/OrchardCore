@@ -1,8 +1,0 @@
-Ê
-¾D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Diagnostics\obj\Debug\netcoreapp3.1\Razor\Views\Diagnostics\BadRequest.cshtml.g.csutf-8Å
-¹D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Diagnostics\obj\Debug\netcoreapp3.1\Razor\Views\Diagnostics\Error.cshtml.g.csutf-8É
-½D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Diagnostics\obj\Debug\netcoreapp3.1\Razor\Views\Diagnostics\Forbidden.cshtml.g.csutf-8È
-¼D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Diagnostics\obj\Debug\netcoreapp3.1\Razor\Views\Diagnostics\NotFound.cshtml.g.csutf-8Ì
-ÀD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Diagnostics\obj\Debug\netcoreapp3.1\Razor\Views\Diagnostics\Unauthorized.cshtml.g.csutf-8À
-´D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Diagnostics\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.csutf-8Î
-ÂD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Diagnostics\obj\Debug\netcoreapp3.1\OrchardCore.Diagnostics.RazorTargetAssemblyInfo.csutf-8

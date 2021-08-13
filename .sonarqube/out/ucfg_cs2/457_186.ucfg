@@ -1,158 +1,0 @@
-
-ûOrchardCore.Users.Controllers.ControllerExtensions.SendEmailConfirmationTokenAsync(Microsoft.AspNetCore.Mvc.Controller, OrchardCore.Users.Models.User, string)†
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.cs`+ `(J"0*ù7
-0†
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.csb g(Ã
-…
-†
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.csb b(:0
-%0*Microsoft.AspNetCore.Mvc.ControllerContext"=Microsoft.AspNetCore.Mvc.ControllerBase.ControllerContext.get*3
-1
-
-controller#Microsoft.AspNetCore.Mvc.Controllerø
-º
-†
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.csb b(F+
-%1%Microsoft.AspNetCore.Http.HttpContext"6Microsoft.AspNetCore.Mvc.ActionContext.HttpContext.get*2
-0
-%0*Microsoft.AspNetCore.Mvc.ControllerContextØ
-¨
-†
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.csb b(V
-%2System.IServiceProvider"9Microsoft.AspNetCore.Http.HttpContext.RequestServices.get*-
-+
-%1%Microsoft.AspNetCore.Http.HttpContext»
-≈
-†
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.csb b(6
-%30Microsoft.AspNetCore.Identity.UserManager<TUser>"xMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<T>(System.IServiceProvider)*M"K
-IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*
-
-%2System.IServiceProviderß
-§
-†
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.csb b(?
-userManager0Microsoft.AspNetCore.Identity.UserManager<TUser>"__id*8
-6
-%30Microsoft.AspNetCore.Identity.UserManager<TUser>«ƒ
-†
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.csc c(R*
-%4$System.Threading.Tasks.Task<TResult>"[Microsoft.AspNetCore.Identity.UserManager<TUser>.GenerateEmailConfirmationTokenAsync(TUser)*A
-?
-userManager0Microsoft.AspNetCore.Identity.UserManager<TUser>*'
-%
-userOrchardCore.Users.Models.User2*GenerateEmailConfirmationTokenAsync(TUser)ƒ
-¡
-†
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.csc c(R
-codestring"__id*
-""∑
-¥
-†
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.csd d(,)
-%5#Microsoft.AspNetCore.Mvc.IUrlHelper"/Microsoft.AspNetCore.Mvc.ControllerBase.Url.get*3
-1
-
-controller#Microsoft.AspNetCore.Mvc.Controllerá
-Ñ
-†
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.csdc d(n
-%6string"(OrchardCore.Users.Models.User.UserId.get*'
-%
-userOrchardCore.Users.Models.User√
-¿
-¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.csdÇ d(ò+
-%7%Microsoft.AspNetCore.Http.HttpContext"7Microsoft.AspNetCore.Mvc.ControllerBase.HttpContext.get*3
-1
-
-controller#Microsoft.AspNetCore.Mvc.Controller∑
-¥
-¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.csdÇ d(†+
-%8%Microsoft.AspNetCore.Http.HttpRequest"1Microsoft.AspNetCore.Http.HttpContext.Request.get*-
-+
-%7%Microsoft.AspNetCore.Http.HttpContextó
-î
-¢
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.csdÇ d(ß
-%9string"0Microsoft.AspNetCore.Http.HttpRequest.Scheme.get*-
-+
-%8%Microsoft.AspNetCore.Http.HttpRequestÀ
-»
-°
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.csd d(®
-%10string"xMicrosoft.AspNetCore.Mvc.UrlHelperExtensions.Action(Microsoft.AspNetCore.Mvc.IUrlHelper, string, string, object, string)*0".
-,Microsoft.AspNetCore.Mvc.UrlHelperExtensions*+
-)
-%5#Microsoft.AspNetCore.Mvc.IUrlHelper*
-ConfirmEmail*
-Registration*
-""*
-
-%9string’
-“
-°
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.csd d(®
-callbackUrlstring"__id*
-
-%10stringá
-Ñ
-†
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.cse- e(7
-%11string"'OrchardCore.Users.Models.User.Email.get*'
-%
-userOrchardCore.Users.Models.Userñì
-°
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.cseB e(å9
-%122OrchardCore.Users.ViewModels.ConfirmEmailViewModel"2OrchardCore.Users.ViewModels.ConfirmEmailViewModelº
-π
-†
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.cseF e([
-%13void"JOrchardCore.Users.ViewModels.ConfirmEmailViewModel.ConfirmEmailViewModel()*;
-9
-%122OrchardCore.Users.ViewModels.ConfirmEmailViewModelÈ
-Ê
-†
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.cse` e(k
-%14OrchardCore.Users.IUser";OrchardCore.Users.ViewModels.ConfirmEmailViewModel.User.set*;
-9
-%122OrchardCore.Users.ViewModels.ConfirmEmailViewModel*'
-%
-userOrchardCore.Users.Models.User‘
-—
-°
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.csem e(ä
-%15string"FOrchardCore.Users.ViewModels.ConfirmEmailViewModel.ConfirmEmailUrl.set*;
-9
-%122OrchardCore.Users.ViewModels.ConfirmEmailViewModel*
-
-callbackUrlstring√
-¿
-°
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.cse e(ç+
-%16$System.Threading.Tasks.Task<TResult>"úOrchardCore.Users.Controllers.ControllerExtensions.SendEmailAsync(Microsoft.AspNetCore.Mvc.Controller, string, string, OrchardCore.DisplayManagement.IShape)*6"4
-2OrchardCore.Users.Controllers.ControllerExtensions*3
-1
-
-controller#Microsoft.AspNetCore.Mvc.Controller*
-
-%11string*
-
-subjectstring*;
-9
-%122OrchardCore.Users.ViewModels.ConfirmEmailViewModel"º
-†
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.csg g(
-
-callbackUrlstring*·
-1†
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.csh	 h(	"∏
-†
-ïD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Users\Controllers\ControllerExtensions.csh h(	
-implicit return:1
-
-controller#Microsoft.AspNetCore.Mvc.Controller:%
-userOrchardCore.Users.Models.User:
-subjectstringB6"4
-2OrchardCore.Users.Controllers.ControllerExtensions

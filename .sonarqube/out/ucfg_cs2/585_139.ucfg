@@ -1,91 +1,0 @@
-
-áOrchardCore.Facebook.Login.Services.FacebookLoginService.UpdateSettingsAsync(OrchardCore.Facebook.Login.Settings.FacebookLoginSettings)¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Login\Services\FacebookLoginService.cs# #(-"0*
-0¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Login\Services\FacebookLoginService.cs% %( π
-∂
-¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Login\Services\FacebookLoginService.cs% %( 
-
-%0bool""object.operator ==(object, object)*
-"
-object*G
-E
-settings9OrchardCore.Facebook.Login.Settings.FacebookLoginSettings*
-""*
-1
-2*»
-1¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Login\Services\FacebookLoginService.cs' '(@ÓÎ
-¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Login\Services\FacebookLoginService.cs' '(A"
-%1System.ArgumentNullException"System.ArgumentNullException£
-†
-¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Login\Services\FacebookLoginService.cs' '(/
-
-%2void";System.ArgumentNullException.ArgumentNullException(string?)*$
-"
-%1System.ArgumentNullException*
-""*
-3*Ñ
-2¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Login\Services\FacebookLoginService.cs* ,(@Œ
-À
-¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Login\Services\FacebookLoginService.cs*" *(.'
-%3!OrchardCore.Settings.ISiteService"__id*q*o:
-8OrchardCore.Facebook.Login.Services.FacebookLoginService"1
-_siteService!OrchardCore.Settings.ISiteService◊‘
-¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Login\Services\FacebookLoginService.cs*" *(F*
-%4$System.Threading.Tasks.Task<TResult>"9OrchardCore.Settings.ISiteService.LoadSiteSettingsAsync()*)
-'
-%3!OrchardCore.Settings.ISiteService2LoadSiteSettingsAsync()„
-‡
-¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Login\Services\FacebookLoginService.cs* *(F'
-	containerOrchardCore.Settings.ISite"__id*
-""∏µ
-¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Login\Services\FacebookLoginService.cs+ +( "
-%5Newtonsoft.Json.Linq.JObject"+OrchardCore.Entities.IEntity.Properties.get*)
-'
-	containerOrchardCore.Settings.ISite2Properties.getÏ
-È
-¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Login\Services\FacebookLoginService.cs+B +(^"
-%6Newtonsoft.Json.Linq.JObject"/Newtonsoft.Json.Linq.JObject.FromObject(object)* "
-Newtonsoft.Json.Linq.JObject*G
-E
-settings9OrchardCore.Facebook.Login.Settings.FacebookLoginSettingsê
-ç
-¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Login\Services\FacebookLoginService.cs+ +(^
-%7"__mapSet*$
-"
-%5Newtonsoft.Json.Linq.JObject*
-""*$
-"
-%6Newtonsoft.Json.Linq.JObjectŒ
-À
-¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Login\Services\FacebookLoginService.cs, ,('
-%8!OrchardCore.Settings.ISiteService"__id*q*o:
-8OrchardCore.Facebook.Login.Services.FacebookLoginService"1
-_siteService!OrchardCore.Settings.ISiteService±Æ
-¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Login\Services\FacebookLoginService.cs, ,(A!
-%9System.Threading.Tasks.Task"UOrchardCore.Settings.ISiteService.UpdateSiteSettingsAsync(OrchardCore.Settings.ISite)*)
-'
-%8!OrchardCore.Settings.ISiteService*)
-'
-	containerOrchardCore.Settings.ISite23UpdateSiteSettingsAsync(OrchardCore.Settings.ISite)*
-3*Ì
-3¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Login\Services\FacebookLoginService.cs-	 -(	"æ
-¶
-õD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Facebook\Login\Services\FacebookLoginService.cs- -(	
-implicit return:E
-settings9OrchardCore.Facebook.Login.Settings.FacebookLoginSettingsB<:
-8OrchardCore.Facebook.Login.Services.FacebookLoginService

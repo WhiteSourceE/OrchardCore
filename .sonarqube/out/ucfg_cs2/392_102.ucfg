@@ -1,193 +1,0 @@
-
-ëOrchardCore.ContentLocalization.Liquid.SwitchCultureUrlFilter.ProcessAsync(Fluid.Values.FluidValue, Fluid.FilterArguments, Fluid.TemplateContext)´
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Liquid\SwitchCultureUrlFilter.cs% (1"0*è
-0´
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Liquid\SwitchCultureUrlFilter.cs (P⁄
-◊
-´
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Liquid\SwitchCultureUrlFilter.cs ("9
-%03System.Collections.Generic.Dictionary<TKey, TValue>"__id*f*d
-
-ctxFluid.TemplateContext"D
-AmbientValues3System.Collections.Generic.Dictionary<TKey, TValue>ˆ
-Û
-´
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Liquid\SwitchCultureUrlFilter.cs (Q
-
-%1bool"QSystem.Collections.Generic.Dictionary<TKey, TValue>.TryGetValue(TKey, out TValue)*;
-9
-%03System.Collections.Generic.Dictionary<TKey, TValue>*
-	UrlHelper*
-
-urlHelperObjobject*
-1
-2*ˆ
-1´
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Liquid\SwitchCultureUrlFilter.cs (cÎË
-´
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Liquid\SwitchCultureUrlFilter.cs (d
-%2System.ArgumentException"System.ArgumentExceptionœ
-Ã
-´
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Liquid\SwitchCultureUrlFilter.cs (+
-
-%3void"3System.ArgumentException.ArgumentException(string?)* 
-
-%2System.ArgumentException*97
-5UrlHelper missing while invoking 'switch_culture_url'*
-3*·
-2´
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Liquid\SwitchCultureUrlFilter.cs' (=•
-¢
-´
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Liquid\SwitchCultureUrlFilter.cs' (>
-%4Fluid.Values.FluidValue"&Fluid.TemplateContext.GetValue(string)*
-
-ctxFluid.TemplateContext*	
-Request*
-4
-5*¬
-5´
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Liquid\SwitchCultureUrlFilter.cs? (Mâ
-Ü
-´
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Liquid\SwitchCultureUrlFilter.cs? (O
-%5object"'Fluid.Values.FluidValue.ToObjectValue()*
-
-%4Fluid.Values.FluidValue*
-4*®
-4´
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Liquid\SwitchCultureUrlFilter.cs (Ã
-…
-´
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Liquid\SwitchCultureUrlFilter.cs (O
-%6"__id*
-	{unknown}Ò
-Ó
-´
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Liquid\SwitchCultureUrlFilter.cs (O0
-request%Microsoft.AspNetCore.Http.HttpRequest"__id*
-
-%6©
-¶
-´
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Liquid\SwitchCultureUrlFilter.cs (
-
-%7bool""object.operator ==(object, object)*
-"
-object*2
-0
-request%Microsoft.AspNetCore.Http.HttpRequest*
-""*
-6
-7*¯
-6´
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Liquid\SwitchCultureUrlFilter.cs (eÎË
-´
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Liquid\SwitchCultureUrlFilter.cs (f
-%8System.ArgumentException"System.ArgumentException—
-Œ
-´
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Liquid\SwitchCultureUrlFilter.cs (+
-
-%9void"3System.ArgumentException.ArgumentException(string?)* 
-
-%8System.ArgumentException*;9
-7HttpRequest missing while invoking 'switch_culture_url'*
-3*Ÿ 
-7´
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Liquid\SwitchCultureUrlFilter.cs $(Bç
-ä
-´
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Liquid\SwitchCultureUrlFilter.cs  (5
-%10string"'Fluid.Values.FluidValue.ToStringValue()*"
- 
-inputFluid.Values.FluidValue·
-ﬁ
-´
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Liquid\SwitchCultureUrlFilter.cs (5
-targetCulturestring"__id*
-
-%10stringÿ
-’
-´
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Liquid\SwitchCultureUrlFilter.cs (4
-%11"__id*
-
-urlHelperObjobjectÚ
-Ô
-´
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Liquid\SwitchCultureUrlFilter.cs (40
-	urlHelper#Microsoft.AspNetCore.Mvc.IUrlHelper"__id*
-
-%11¬
-ø
-´
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Liquid\SwitchCultureUrlFilter.cs!% !(1+
-%12$Microsoft.AspNetCore.Http.PathString".Microsoft.AspNetCore.Http.HttpRequest.Path.get*2
-0
-request%Microsoft.AspNetCore.Http.HttpRequestü
-ú
-´
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Liquid\SwitchCultureUrlFilter.cs!% !(7
-%13string".Microsoft.AspNetCore.Http.PathString.Value.get*-
-+
-%12$Microsoft.AspNetCore.Http.PathString 
-«
-´
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Liquid\SwitchCultureUrlFilter.cs"' "(:,
-%14%Microsoft.AspNetCore.Http.QueryString"5Microsoft.AspNetCore.Http.HttpRequest.QueryString.get*2
-0
-request%Microsoft.AspNetCore.Http.HttpRequest°
-û
-´
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Liquid\SwitchCultureUrlFilter.cs"' "(@
-%15string"/Microsoft.AspNetCore.Http.QueryString.Value.get*.
-,
-%14%Microsoft.AspNetCore.Http.QueryString∫
-∑
-´
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Liquid\SwitchCultureUrlFilter.cs #(
-%16string"jMicrosoft.AspNetCore.Mvc.UrlHelperExtensions.RouteUrl(Microsoft.AspNetCore.Mvc.IUrlHelper, string, object)*0".
-,Microsoft.AspNetCore.Mvc.UrlHelperExtensions*2
-0
-	urlHelper#Microsoft.AspNetCore.Mvc.IUrlHelper*
-RedirectToLocalizedContent*
-""◊
-‘
-´
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Liquid\SwitchCultureUrlFilter.cs #(
-urlstring"__id*
-
-%16stringß
-§
-´
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Liquid\SwitchCultureUrlFilter.cs$- $(C
-%17Fluid.Values.FluidValue"&Fluid.Values.FluidValue.Create(object)*"
-Fluid.Values.FluidValue*
-
-urlstringéã
-´
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Liquid\SwitchCultureUrlFilter.cs$ $(D0
-%18)System.Threading.Tasks.ValueTask<TResult>")System.Threading.Tasks.ValueTask<TResult>“
-œ
-´
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Liquid\SwitchCultureUrlFilter.cs$ $(,
-%19void"<System.Threading.Tasks.ValueTask<TResult>.ValueTask(TResult)*2
-0
-%18)System.Threading.Tasks.ValueTask<TResult>* 
-
-%17Fluid.Values.FluidValue"‚
-´
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Liquid\SwitchCultureUrlFilter.cs$ $(E2
-0
-%18)System.Threading.Tasks.ValueTask<TResult>*˜
-3´
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Liquid\SwitchCultureUrlFilter.cs%	 %(	"√
-´
-†D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Liquid\SwitchCultureUrlFilter.cs% %(	
-implicit return: 
-inputFluid.Values.FluidValue:"
-	argumentsFluid.FilterArguments:
-ctxFluid.TemplateContextBA?
-=OrchardCore.ContentLocalization.Liquid.SwitchCultureUrlFilter

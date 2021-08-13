@@ -1,9 +1,0 @@
-¶
-úD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Diagnostics\Controllers\DiagnosticsController.csutf-8ù
-ìD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Diagnostics\DiagnosticsStartupFilter.csutf-8ç
-ÉD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Diagnostics\Manifest.csutf-8ú
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Diagnostics\Properties\AssemblyInfo.csutf-8å
-ÇD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Diagnostics\Startup.csutf-8√
-∑D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Diagnostics\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.csutf-8º
-∞D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Diagnostics\obj\Debug\net5.0\OrchardCore.Diagnostics.AssemblyInfo.csutf-8¡
-µD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Diagnostics\obj\Debug\net5.0\OrchardCore.Diagnostics.RazorAssemblyInfo.csutf-8

@@ -1,698 +1,0 @@
-
-dOrchardCore.Layers.Recipes.LayerStep.ExecuteAsync(OrchardCore.Recipes.Models.RecipeExecutionContext)í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cs$ $(&"0*Ö
-0í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cs& &(Y¢
-ü
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cs& &(+
-%0string":OrchardCore.Recipes.Models.RecipeExecutionContext.Name.get*>
-<
-context1OrchardCore.Recipes.Models.RecipeExecutionContext¨
-©
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cs&7 &(Y
-%1"__id*
-""é
-ã
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cs& &(Z
-
-%2bool"8string.Equals(string?, string?, System.StringComparison)*
-"
-string*
-
-%0string*
-
-Layers*
-
-%1*
-1
-2*∏
-1í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cs~	 ~(	"ù
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cs( ((
-""*Å
-2í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cs+ 2(2∏
-µ
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cs+ +($"
-%3Newtonsoft.Json.Linq.JObject":OrchardCore.Recipes.Models.RecipeExecutionContext.Step.get*>
-<
-context1OrchardCore.Recipes.Models.RecipeExecutionContextö
-ó
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cs+ +(?/
-%4)OrchardCore.Layers.Recipes.LayerStepModel")Newtonsoft.Json.Linq.JToken.ToObject<T>()*$
-"
-%3Newtonsoft.Json.Linq.JObjectÖ
-Ç
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cs+ +(?2
-model)OrchardCore.Layers.Recipes.LayerStepModel"__id*1
-/
-%4)OrchardCore.Layers.Recipes.LayerStepModel∑
-¥
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cs-" -(//
-%5)OrchardCore.Layers.Services.ILayerService"__id*f*d&
-$OrchardCore.Layers.Recipes.LayerStep":
-_layerService)OrchardCore.Layers.Services.ILayerService«ƒ
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cs-" -(A*
-%6$System.Threading.Tasks.Task<TResult>";OrchardCore.Layers.Services.ILayerService.LoadLayersAsync()*1
-/
-%5)OrchardCore.Layers.Services.ILayerService2LoadLayersAsync()›
-⁄
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cs- -(A5
-	allLayers(OrchardCore.Layers.Models.LayersDocument"__id*
-""Ê„
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cs/ /(1(
-%7"System.Collections.Generic.List<T>""System.Collections.Generic.List<T>˚
-¯
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cs/# /(/
-
-%8void")System.Collections.Generic.List<T>.List()**
-(
-%7"System.Collections.Generic.List<T>˛
-˚
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cs/ /(12
-unknownTypes"System.Collections.Generic.List<T>"__id**
-(
-%7"System.Collections.Generic.List<T>¥
-±
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cs0 0(&/
-%9)System.Collections.Generic.IEnumerable<T>"__id*c*a&
-$OrchardCore.Layers.Recipes.LayerStep"7
-
-_factories)System.Collections.Generic.IEnumerable<T>¨
-©
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cs0 0(@:
-%103System.Collections.Generic.Dictionary<TKey, TValue>"System.Linq.Enumerable.ToDictionary<TSource, TKey>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TKey>)*"
-System.Linq.Enumerable*1
-/
-%9)System.Collections.Generic.IEnumerable<T>*
-""û
-õ
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cs0 0(@@
-	factories3System.Collections.Generic.Dictionary<TKey, TValue>"__id*<
-:
-%103System.Collections.Generic.Dictionary<TKey, TValue>Æ
-´
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cs2& 2(2(
-%11!OrchardCore.Layers.Models.Layer[]"4OrchardCore.Layers.Recipes.LayerStepModel.Layers.get*4
-2
-model)OrchardCore.Layers.Recipes.LayerStepModel*
-3*†
-3í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cs~	 ~(	*
-4
-5*Ë
-
-4í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cs4 6(!±
-Æ
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cs4 4(,)
-%12"System.Collections.Generic.List<T>"3OrchardCore.Layers.Models.LayersDocument.Layers.get*7
-5
-	allLayers(OrchardCore.Layers.Models.LayersDocumentè
-å
-ì
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cs4 4(ã&
-%13OrchardCore.Layers.Models.Layer"{System.Linq.Enumerable.FirstOrDefault<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
-System.Linq.Enumerable*+
-)
-%12"System.Collections.Generic.List<T>*
-""Û
-
-ì
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cs4 4(ã(
-layerOrchardCore.Layers.Models.Layer"__id*(
-&
-%13OrchardCore.Layers.Models.Layerâ
-Ü
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cs6 6(!
-%14bool""object.operator ==(object, object)*
-"
-object**
-(
-layerOrchardCore.Layers.Models.Layer*
-""*
-6
-7*∂
-6í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cs8 9(.·ﬁ
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cs8 8('&
-%15OrchardCore.Layers.Models.Layer"OrchardCore.Layers.Models.Layer¯
-ı
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cs8  8(%
-%16void"'OrchardCore.Layers.Models.Layer.Layer()*(
-&
-%15OrchardCore.Layers.Models.LayerÚ
-Ô
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cs8 8('(
-layerOrchardCore.Layers.Models.Layer"__id*(
-&
-%15OrchardCore.Layers.Models.Layer±
-Æ
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cs9 9($)
-%17"System.Collections.Generic.List<T>"3OrchardCore.Layers.Models.LayersDocument.Layers.get*7
-5
-	allLayers(OrchardCore.Layers.Models.LayersDocumenté
-ã
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cs9 9(/
-%18void"
-__arrayAdd*+
-)
-%17"System.Collections.Generic.List<T>*: **
-(
-layerOrchardCore.Layers.Models.Layer*
-7*∂
-7í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cs= =(+í
-è
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cs= =(#
-%19OrchardCore.Rules.Rule"-OrchardCore.Layers.Models.Layer.LayerRule.get**
-(
-layerOrchardCore.Layers.Models.Layer˛
-˚
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cs= =(+
-%20bool""object.operator ==(object, object)*
-"
-object*
-
-%19OrchardCore.Rules.Rule*
-""*
-8
-9*‚
-8í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cs? @(JœÃ
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cs?& ?(0
-%21OrchardCore.Rules.Rule"OrchardCore.Rules.RuleÂ
-‚
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cs?* ?(.
-%22void"OrchardCore.Rules.Rule.Rule()*
-
-%21OrchardCore.Rules.Rule≥
-∞
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cs? ?(0
-%23OrchardCore.Rules.Rule"-OrchardCore.Layers.Models.Layer.LayerRule.set**
-(
-layerOrchardCore.Layers.Models.Layer*
-
-%21OrchardCore.Rules.Ruleº
-π
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cs@ @().
-%24'OrchardCore.Rules.IConditionIdGenerator"__id*l*j&
-$OrchardCore.Layers.Recipes.LayerStep"@
-_conditionIdGenerator'OrchardCore.Rules.IConditionIdGeneratorí
-è
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cs@; @(J
-%25OrchardCore.Rules.Rule"-OrchardCore.Layers.Models.Layer.LayerRule.get**
-(
-layerOrchardCore.Layers.Models.Layer˛˚
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cs@ @(K
-%26void"UOrchardCore.Rules.IConditionIdGenerator.GenerateUniqueId(OrchardCore.Rules.Condition)*0
-.
-%24'OrchardCore.Rules.IConditionIdGenerator*
-
-%25OrchardCore.Rules.Rule2-GenerateUniqueId(OrchardCore.Rules.Condition)*
-9*ä
-9í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csD D(8Å
-˛
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csD* D(8
-%27string"(OrchardCore.Layers.Models.Layer.Name.get*.
-,
-	layerStepOrchardCore.Layers.Models.Layer·
-ﬁ
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csD D(9
-%28bool"string.IsNullOrEmpty(string?)*
-"
-string*
-
-%27string*
-10
-11*¥
-10í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csF F(/Å
-˛
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csF! F(/
-%29string"(OrchardCore.Layers.Models.Layer.Name.get*.
-,
-	layerStepOrchardCore.Layers.Models.Layeré
-ã
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csF F(/
-%30string"(OrchardCore.Layers.Models.Layer.Name.set**
-(
-layerOrchardCore.Layers.Models.Layer*
-
-%29string*
-12*Œ
-11í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csJ J(Iπ
-∂
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csJ4 J(W
-%31"__concat*
-""*
-""€ÿ
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csJ J(X#
-%32System.ArgumentNullException"System.ArgumentNullExceptioní
-è
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csJ J(3
-%33void";System.ArgumentNullException.ArgumentNullException(string?)*%
-#
-%32System.ArgumentNullException*
-
-%31*
-13*Ω
-12í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csM M(/ñ
-ì
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csM M('
-%34OrchardCore.Rules.Rule"-OrchardCore.Layers.Models.Layer.LayerRule.get*.
-,
-	layerStepOrchardCore.Layers.Models.Layer˛
-˚
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csM M(/
-%35bool""object.operator !=(object, object)*
-"
-object*
-
-%34OrchardCore.Rules.Rule*
-""*
-14
-15*ò
-14í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csO O(Mñ
-ì
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csO. O(A
-%36OrchardCore.Rules.Rule"-OrchardCore.Layers.Models.Layer.LayerRule.get*.
-,
-	layerStepOrchardCore.Layers.Models.Layerı
-Ú
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csO. O(M
-%37string"+OrchardCore.Rules.Condition.ConditionId.get*
-
-%36OrchardCore.Rules.Rule·
-ﬁ
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csO O(N
-%38bool"string.IsNullOrEmpty(string?)*
-"
-string*
-
-%37string*
-16
-17*Œ	
-16í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csQ Q(Uí
-è
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csQ Q('
-%39OrchardCore.Rules.Rule"-OrchardCore.Layers.Models.Layer.LayerRule.get**
-(
-layerOrchardCore.Layers.Models.Layerñ
-ì
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csQ6 Q(I
-%40OrchardCore.Rules.Rule"-OrchardCore.Layers.Models.Layer.LayerRule.get*.
-,
-	layerStepOrchardCore.Layers.Models.Layerı
-Ú
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csQ6 Q(U
-%41string"+OrchardCore.Rules.Condition.ConditionId.get*
-
-%40OrchardCore.Rules.RuleÜ
-É
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csQ Q(U
-%42string"+OrchardCore.Rules.Condition.ConditionId.set*
-
-%39OrchardCore.Rules.Rule*
-
-%41string*
-17*‡
-17í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csU V(Lí
-è
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csU U(#
-%43OrchardCore.Rules.Rule"-OrchardCore.Layers.Models.Layer.LayerRule.get**
-(
-layerOrchardCore.Layers.Models.Layerï
-í
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csU U(.)
-%44"System.Collections.Generic.List<T>"/OrchardCore.Rules.ConditionGroup.Conditions.get*
-
-%43OrchardCore.Rules.Rule‡
-›
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csU U(6
-%45void"__arrayClear*+
-)
-%44"System.Collections.Generic.List<T>ñ
-ì
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csV. V(A
-%46OrchardCore.Rules.Rule"-OrchardCore.Layers.Models.Layer.LayerRule.get*.
-,
-	layerStepOrchardCore.Layers.Models.Layerï
-í
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csV. V(L)
-%47"System.Collections.Generic.List<T>"/OrchardCore.Rules.ConditionGroup.Conditions.get*
-
-%46OrchardCore.Rules.Rule*
-18*£
-18í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cs~	 ~(	*
-19
-15*°
-19í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csX X(Q˘
-ˆ
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csX2 X(@
-%48string"$OrchardCore.Rules.Condition.Name.get**
-(
-	conditionOrchardCore.Rules.Conditionˇ
-¸
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csX X(R
-%49bool"QSystem.Collections.Generic.Dictionary<TKey, TValue>.TryGetValue(TKey, out TValue)*B
-@
-	factories3System.Collections.Generic.Dictionary<TKey, TValue>*
-
-%48string*0
-.
-factory#OrchardCore.Rules.IConditionFactory*
-20
-21*‹
-20í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csZ  ](Kº
-π
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csZ- Z(J#
-%50Newtonsoft.Json.Linq.JObject"/Newtonsoft.Json.Linq.JObject.FromObject(object)* "
-Newtonsoft.Json.Linq.JObject**
-(
-	conditionOrchardCore.Rules.ConditionÒ
-Ó
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csZ  Z(J*
-
-jConditionNewtonsoft.Json.Linq.JObject"__id*%
-#
-%50Newtonsoft.Json.Linq.JObject¶£
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cs[R [(b"
-%51OrchardCore.Rules.Condition",OrchardCore.Rules.IConditionFactory.Create()*0
-.
-factory#OrchardCore.Rules.IConditionFactory2Create()‰
-·
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cs[R [(l
-%52System.Type"object.GetType()*$
-"
-%51OrchardCore.Rules.Conditionû
-õ
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cs[> [(m
-%53object"1Newtonsoft.Json.Linq.JToken.ToObject(System.Type)*,
-*
-
-jConditionNewtonsoft.Json.Linq.JObject*
-
-%52System.Type∂
-≥
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cs[3 [(m
-%54"__id*
-
-%53objectÿ
-’
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cs[  [(m/
-factoryConditionOrchardCore.Rules.Condition"__id*
-
-%54í
-è
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cs] ](+
-%55OrchardCore.Rules.Rule"-OrchardCore.Layers.Models.Layer.LayerRule.get**
-(
-layerOrchardCore.Layers.Models.Layerï
-í
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cs] ](6)
-%56"System.Collections.Generic.List<T>"/OrchardCore.Rules.ConditionGroup.Conditions.get*
-
-%55OrchardCore.Rules.Ruleï
-í
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cs] ](L
-%57void"
-__arrayAdd*+
-)
-%56"System.Collections.Generic.List<T>*: *1
-/
-factoryConditionOrchardCore.Rules.Condition*
-18*ö
-21í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csa a(<˘
-ˆ
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csa. a(<
-%58string"$OrchardCore.Rules.Condition.Name.get**
-(
-	conditionOrchardCore.Rules.Condition¸
-˘
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csa a(=
-%59void"
-__arrayAdd*4
-2
-unknownTypes"System.Collections.Generic.List<T>*: *
-
-%58string*
-18*ã
-15í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csi i(8Å
-˛
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csi* i(8
-%60string"(OrchardCore.Layers.Models.Layer.Rule.get*.
-,
-	layerStepOrchardCore.Layers.Models.Layer·
-ﬁ
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csi i(9
-%61bool"string.IsNullOrEmpty(string?)*
-"
-string*
-
-%60string*
-22
-23*’
-
-22í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csk k(I§
-°
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csk k(!&
-%62OrchardCore.Rules.IRuleMigrator"__id*\*Z&
-$OrchardCore.Layers.Recipes.LayerStep"0
-_ruleMigratorOrchardCore.Rules.IRuleMigratorÅ
-˛
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csk* k(8
-%63string"(OrchardCore.Layers.Models.Layer.Rule.get*.
-,
-	layerStepOrchardCore.Layers.Models.Layerí
-è
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csk: k(I
-%64OrchardCore.Rules.Rule"-OrchardCore.Layers.Models.Layer.LayerRule.get**
-(
-layerOrchardCore.Layers.Models.LayerÛ
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csk k(J
-%65void"GOrchardCore.Rules.IRuleMigrator.Migrate(string, OrchardCore.Rules.Rule)*(
-&
-%62OrchardCore.Rules.IRuleMigrator*
-
-%63string*
-
-%64OrchardCore.Rules.Rule2'Migrate(string, OrchardCore.Rules.Rule)*
-23*ë
-23í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cso o(?à
-Ö
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cso* o(?
-%66string"/OrchardCore.Layers.Models.Layer.Description.get*.
-,
-	layerStepOrchardCore.Layers.Models.Layer·
-ﬁ
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cso o(@
-%67bool"string.IsNullOrEmpty(string?)*
-"
-string*
-
-%66string*
-24
-3*¡
-24í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csq q(=à
-Ö
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csq( q(=
-%68string"/OrchardCore.Layers.Models.Layer.Description.get*.
-,
-	layerStepOrchardCore.Layers.Models.Layerï
-í
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csq q(=
-%69string"/OrchardCore.Layers.Models.Layer.Description.set**
-(
-layerOrchardCore.Layers.Models.Layer*
-
-%68string*
-3*≠
-5í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csu u('à
-Ö
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csu u("
-
-%70int",System.Collections.Generic.List<T>.Count.get*4
-2
-unknownTypes"System.Collections.Generic.List<T>*
-25
-26*…
-25í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csw z(iÉ
-Ä
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csw w(l
-prefixstring"__id*QO
-MNo changes have been made. The following types of conditions cannot be added:ã
-à
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csx x(t
-suffixstring"__id*YW
-UPlease ensure that the related features are enabled to add these types of conditions.∏
-µ
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csz@ z(_
-%71string"Estring.Join(string?, System.Collections.Generic.IEnumerable<string?>)*
-"
-string*
-, *4
-2
-unknownTypes"System.Collections.Generic.List<T>Õ
- 
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csz4 z(k
-%72string"__concat*
-
-prefixstring*
-""”
-–
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csz4 z(k
-%73string"__concat*
-
-%72string*
-
-%71string 
-«
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csz4 z(k
-%74string"__concat*
-
-%73string*
-""÷
-”
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csz4 z(k
-%75string"__concat*
-
-%74string*
-
-suffixstring„‡
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csz z(l'
-%76 System.InvalidOperationException" System.InvalidOperationException¶
-£
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.csz z(3
-%77void"CSystem.InvalidOperationException.InvalidOperationException(string?)*)
-'
-%76 System.InvalidOperationException*
-
-%75string*
-13*û
-26í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cs} }(5∏
-µ
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cs} }(0
-%78)OrchardCore.Layers.Services.ILayerService"__id*f*d&
-$OrchardCore.Layers.Recipes.LayerStep":
-_layerService)OrchardCore.Layers.Services.ILayerService¡æ
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cs} }(6"
-%79System.Threading.Tasks.Task"_OrchardCore.Layers.Services.ILayerService.UpdateAsync(OrchardCore.Layers.Models.LayersDocument)*2
-0
-%78)OrchardCore.Layers.Services.ILayerService*7
-5
-	allLayers(OrchardCore.Layers.Models.LayersDocument25UpdateAsync(OrchardCore.Layers.Models.LayersDocument)*
-13*∆
-13í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cs~	 ~(	"™
-í
-áD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Layers\Recipes\LayerStep.cs~ ~(	
-implicit return:<
-context1OrchardCore.Recipes.Models.RecipeExecutionContextB(&
-$OrchardCore.Layers.Recipes.LayerStep

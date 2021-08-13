@@ -1,91 +1,0 @@
-
-YLiquidRazorHelperExtensions.LiquidToHtmlAsync(OrchardCore.IOrchardHelper, string, object)¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Razor\LiquidRazorHelperExtensions.cs+ (<"0*¶ 
-0¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Razor\LiquidRazorHelperExtensions.cs "($¡æ
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Razor\LiquidRazorHelperExtensions.cs (7+
-%0%Microsoft.AspNetCore.Http.HttpContext"*OrchardCore.IOrchardHelper.HttpContext.get*-
-+
-orchardHelperOrchardCore.IOrchardHelper2HttpContext.get±
-Æ
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Razor\LiquidRazorHelperExtensions.cs (G
-%1System.IServiceProvider"9Microsoft.AspNetCore.Http.HttpContext.RequestServices.get*-
-+
-%0%Microsoft.AspNetCore.Http.HttpContext˚
-¯
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Razor\LiquidRazorHelperExtensions.cs (G*
-serviceProviderSystem.IServiceProvider"__id*
-
-%1System.IServiceProvider–
-Õ
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Razor\LiquidRazorHelperExtensions.cs$ (`/
-%2)OrchardCore.Liquid.ILiquidTemplateManager"xMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<T>(System.IServiceProvider)*M"K
-IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*,
-*
-serviceProviderSystem.IServiceProvider•
-¢
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Razor\LiquidRazorHelperExtensions.cs (`B
-liquidTemplateManager)OrchardCore.Liquid.ILiquidTemplateManager"__id*1
-/
-%2)OrchardCore.Liquid.ILiquidTemplateManagerÃ
-…
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Razor\LiquidRazorHelperExtensions.cs (K+
-%3%System.Text.Encodings.Web.HtmlEncoder"xMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<T>(System.IServiceProvider)*M"K
-IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*,
-*
-serviceProviderSystem.IServiceProviderì
-ê
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Razor\LiquidRazorHelperExtensions.cs (K4
-htmlEncoder%System.Text.Encodings.Web.HtmlEncoder"__id*-
-+
-%3%System.Text.Encodings.Web.HtmlEncoder‘
-—
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Razor\LiquidRazorHelperExtensions.cs! !(T*
-%4$System.Threading.Tasks.Task<TResult>"†OrchardCore.Liquid.LiquidTemplateManagerExtensions.RenderAsync(OrchardCore.Liquid.ILiquidTemplateManager, string, System.Text.Encodings.Web.TextEncoder, object)*6"4
-2OrchardCore.Liquid.LiquidTemplateManagerExtensions*D
-B
-liquidTemplateManager)OrchardCore.Liquid.ILiquidTemplateManager*
-
-liquidstring*6
-4
-htmlEncoder%System.Text.Encodings.Web.HtmlEncoder*
-
-modelobject»
-≈
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Razor\LiquidRazorHelperExtensions.cs! !(T
-liquidstring"__id*
-""˙˜
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Razor\LiquidRazorHelperExtensions.cs" "(%*
-%5$Microsoft.AspNetCore.Html.HtmlString"$Microsoft.AspNetCore.Html.HtmlString∞
-≠
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Razor\LiquidRazorHelperExtensions.cs" "(
-
-%6void"8Microsoft.AspNetCore.Html.HtmlString.HtmlString(string?)*,
-*
-%5$Microsoft.AspNetCore.Html.HtmlString*
-
-liquidstring"”
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Razor\LiquidRazorHelperExtensions.cs" "(&,
-*
-%5$Microsoft.AspNetCore.Html.HtmlString*Â
-1¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Razor\LiquidRazorHelperExtensions.cs# #("∫
-¢
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Liquid\Razor\LiquidRazorHelperExtensions.cs# #(
-implicit return:+
-orchardHelperOrchardCore.IOrchardHelper:
-liquidstring:
-modelobjectB"
-LiquidRazorHelperExtensions

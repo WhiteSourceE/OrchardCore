@@ -1,148 +1,0 @@
-
-oOrchardCore.Twitter.Recipes.TwitterSettingsStep.ExecuteAsync(OrchardCore.Recipes.Models.RecipeExecutionContext)ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Recipes\TwitterSettingsStep.cs (&"0*≠
-0ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Recipes\TwitterSettingsStep.cs (h≠
-™
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Recipes\TwitterSettingsStep.cs (+
-%0string":OrchardCore.Recipes.Models.RecipeExecutionContext.Name.get*>
-<
-context1OrchardCore.Recipes.Models.RecipeExecutionContext∑
-¥
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Recipes\TwitterSettingsStep.csF (h
-%1"__id*
-""ï
-í
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Recipes\TwitterSettingsStep.cs (i
-
-%2bool"8string.Equals(string?, string?, System.StringComparison)*
-"
-string*
-
-%0string*
-""*
-
-%1*
-1
-2*Œ
-1ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Recipes\TwitterSettingsStep.cs&	 &(	"®
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Recipes\TwitterSettingsStep.cs (
-""*ı*
-2ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Recipes\TwitterSettingsStep.cs %(>√
-¿
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Recipes\TwitterSettingsStep.cs ($"
-%3Newtonsoft.Json.Linq.JObject":OrchardCore.Recipes.Models.RecipeExecutionContext.Step.get*>
-<
-context1OrchardCore.Recipes.Models.RecipeExecutionContext∞
-≠
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Recipes\TwitterSettingsStep.cs (I:
-%44OrchardCore.Twitter.Recipes.TwitterSettingsStepModel")Newtonsoft.Json.Linq.JToken.ToObject<T>()*$
-"
-%3Newtonsoft.Json.Linq.JObject¶
-£
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Recipes\TwitterSettingsStep.cs (I=
-model4OrchardCore.Twitter.Recipes.TwitterSettingsStepModel"__id*<
-:
-%44OrchardCore.Twitter.Recipes.TwitterSettingsStepModelÂ
-‚
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Recipes\TwitterSettingsStep.cs! (0:
-%54OrchardCore.Twitter.Services.ITwitterSettingsService"__id*~*|1
-/OrchardCore.Twitter.Recipes.TwitterSettingsStep"G
-_twitterService4OrchardCore.Twitter.Services.ITwitterSettingsServiceÏÈ
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Recipes\TwitterSettingsStep.cs! (D*
-%6$System.Threading.Tasks.Task<TResult>"HOrchardCore.Twitter.Services.ITwitterSettingsService.LoadSettingsAsync()*<
-:
-%54OrchardCore.Twitter.Services.ITwitterSettingsService2LoadSettingsAsync()Î
-Ë
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Recipes\TwitterSettingsStep.cs (D8
-settings,OrchardCore.Twitter.Settings.TwitterSettings"__id*
-""∏
-µ
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Recipes\TwitterSettingsStep.cs #  (4
-%7string"DOrchardCore.Twitter.Recipes.TwitterSettingsStepModel.ConsumerKey.get*?
-=
-model4OrchardCore.Twitter.Recipes.TwitterSettingsStepModelª
-∏
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Recipes\TwitterSettingsStep.cs   (4
-%8string"<OrchardCore.Twitter.Settings.TwitterSettings.ConsumerKey.set*:
-8
-settings,OrchardCore.Twitter.Settings.TwitterSettings*
-
-%7stringª
-∏
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Recipes\TwitterSettingsStep.cs!& !(:
-%9string"GOrchardCore.Twitter.Recipes.TwitterSettingsStepModel.ConsumerSecret.get*?
-=
-model4OrchardCore.Twitter.Recipes.TwitterSettingsStepModelø
-º
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Recipes\TwitterSettingsStep.cs! !(:
-%10string"?OrchardCore.Twitter.Settings.TwitterSettings.ConsumerSecret.set*:
-8
-settings,OrchardCore.Twitter.Settings.TwitterSettings*
-
-%9stringπ
-∂
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Recipes\TwitterSettingsStep.cs"# "(4
-%11string"DOrchardCore.Twitter.Recipes.TwitterSettingsStepModel.AccessToken.get*?
-=
-model4OrchardCore.Twitter.Recipes.TwitterSettingsStepModelΩ
-∫
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Recipes\TwitterSettingsStep.cs" "(4
-%12string"<OrchardCore.Twitter.Settings.TwitterSettings.AccessToken.set*:
-8
-settings,OrchardCore.Twitter.Settings.TwitterSettings*
-
-%11stringø
-º
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Recipes\TwitterSettingsStep.cs#) #(@
-%13string"JOrchardCore.Twitter.Recipes.TwitterSettingsStepModel.AccessTokenSecret.get*?
-=
-model4OrchardCore.Twitter.Recipes.TwitterSettingsStepModel√
-¿
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Recipes\TwitterSettingsStep.cs# #(@
-%14string"BOrchardCore.Twitter.Settings.TwitterSettings.AccessTokenSecret.set*:
-8
-settings,OrchardCore.Twitter.Settings.TwitterSettings*
-
-%13stringÊ
-„
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Recipes\TwitterSettingsStep.cs% %(!;
-%154OrchardCore.Twitter.Services.ITwitterSettingsService"__id*~*|1
-/OrchardCore.Twitter.Recipes.TwitterSettingsStep"G
-_twitterService4OrchardCore.Twitter.Services.ITwitterSettingsService˝˙
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Recipes\TwitterSettingsStep.cs% %(?"
-%16System.Threading.Tasks.Task"vOrchardCore.Twitter.Services.ITwitterSettingsService.UpdateSettingsAsync(OrchardCore.Twitter.Settings.TwitterSettings)*=
-;
-%154OrchardCore.Twitter.Services.ITwitterSettingsService*:
-8
-settings,OrchardCore.Twitter.Settings.TwitterSettings2AUpdateSettingsAsync(OrchardCore.Twitter.Settings.TwitterSettings)*
-3*€
-3ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Recipes\TwitterSettingsStep.cs&	 &(	"µ
-ù
-íD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Recipes\TwitterSettingsStep.cs& &(	
-implicit return:<
-context1OrchardCore.Recipes.Models.RecipeExecutionContextB31
-/OrchardCore.Twitter.Recipes.TwitterSettingsStep

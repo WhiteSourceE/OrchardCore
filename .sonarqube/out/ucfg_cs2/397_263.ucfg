@@ -1,125 +1,0 @@
-
->OrchardCore.Sitemaps.Controllers.SitemapCacheController.List()¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapCacheController.cs") "(-"4*î
-0¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapCacheController.cs$ $(\…
-‚
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapCacheController.cs$ $(,>
-%08Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*‘*Ž9
-7OrchardCore.Sitemaps.Controllers.SitemapCacheController"Q
-_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationService¸
-µ
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapCacheController.cs$< $(@,
-%1&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*+)
-'Microsoft.AspNetCore.Mvc.ControllerBaseË
-È
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapCacheController.cs$B $(\1
-%2+OrchardCore.Security.Permissions.Permission"__id*e*c"
- OrchardCore.Sitemaps.Permissions"=
-ManageSitemaps+OrchardCore.Security.Permissions.Permission§
-¤
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapCacheController.cs$ $(]*
-%3$System.Threading.Tasks.Task<TResult>"ßMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission)*E"C
-AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*@
->
-%08Microsoft.AspNetCore.Authorization.IAuthorizationService*.
-,
-%1&System.Security.Claims.ClaimsPrincipal*3
-1
-%2+OrchardCore.Security.Permissions.Permission*
-1
-2*É
-1¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapCacheController.cs& &(Á¾
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapCacheController.cs& &(+
-%4%Microsoft.AspNetCore.Mvc.ForbidResult"0Microsoft.AspNetCore.Mvc.ControllerBase.Forbid()*+)
-'Microsoft.AspNetCore.Mvc.ControllerBase2Forbid()"×
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapCacheController.cs& &( -
-+
-%4%Microsoft.AspNetCore.Mvc.ForbidResult*
-2¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapCacheController.cs) .(§¤
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapCacheController.cs) ,(?
-%59OrchardCore.Sitemaps.ViewModels.ListSitemapCacheViewModel"9OrchardCore.Sitemaps.ViewModels.ListSitemapCacheViewModelÑ
-Î
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapCacheController.cs) )(5
-
-%6void"UOrchardCore.Sitemaps.ViewModels.ListSitemapCacheViewModel.ListSitemapCacheViewModel()*A
-?
-%59OrchardCore.Sitemaps.ViewModels.ListSitemapCacheViewModelõ
-ò
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapCacheController.cs+) +(>6
-%70OrchardCore.Sitemaps.Cache.ISitemapCacheProvider"__id*‰*†9
-7OrchardCore.Sitemaps.Controllers.SitemapCacheController"I
-_sitemapCacheProvider0OrchardCore.Sitemaps.Cache.ISitemapCacheProviderÜÙ
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapCacheController.cs+) +(J*
-%8$System.Threading.Tasks.Task<TResult>"<OrchardCore.Sitemaps.Cache.ISitemapCacheProvider.ListAsync()*8
-6
-%70OrchardCore.Sitemaps.Cache.ISitemapCacheProvider2ListAsync()¹
-¶
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapCacheController.cs+" +(U
-%9string[]"XSystem.Linq.Enumerable.ToArray<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
-System.Linq.Enumerable*
-""à
-Ý
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapCacheController.cs+ +(U
-%10string[]"MOrchardCore.Sitemaps.ViewModels.ListSitemapCacheViewModel.CachedFileNames.set*A
-?
-%59OrchardCore.Sitemaps.ViewModels.ListSitemapCacheViewModel*
-
-%9string[]¸
-µ
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapCacheController.cs) ,(B
-model9OrchardCore.Sitemaps.ViewModels.ListSitemapCacheViewModel"__id*A
-?
-%59OrchardCore.Sitemaps.ViewModels.ListSitemapCacheViewModelê
-ç
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapCacheController.cs. .(
-%11void",orchardcore.sitemaps/views/sitemapcache/list*
-
-%12*D
-B
-model9OrchardCore.Sitemaps.ViewModels.ListSitemapCacheViewModel*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject* 
-
-%HttpContextItemsAllobject*!
-
-%HttpContextItemsHtmlobject"·
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapCacheController.cs. .(
-
-%11void*ë
-3¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapCacheController.cs/	 /(	"½
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapCacheController.cs/ /(	
-implicit return*ó
-4¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapCacheController.cs"/ "(/À
-½
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Controllers\SitemapCacheController.cs") "(-
-%13"__entrypoint*
-0B;9
-7OrchardCore.Sitemaps.Controllers.SitemapCacheController

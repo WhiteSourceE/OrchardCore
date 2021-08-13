@@ -1,65 +1,0 @@
-
-COrchardCore.Twitter.Services.TwitterClientMessageHandler.GetNonce()¦
-›D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Services\TwitterClientMessageHandler.cs% %(&"0*²
-0¦
-›D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Services\TwitterClientMessageHandler.cs' '(eèå
-¦
-›D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Services\TwitterClientMessageHandler.cs'* '(=
-%0System.Text.ASCIIEncoding"System.Text.ASCIIEncoding†
-ƒ
-¦
-›D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Services\TwitterClientMessageHandler.cs'. '(;
-
-%1void")System.Text.ASCIIEncoding.ASCIIEncoding()*!
-
-%0System.Text.ASCIIEncodingº
-·
-¦
-›D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Services\TwitterClientMessageHandler.cs'G '(M 
-%2OrchardCore.Modules.IClock"__id*d*b:
-8OrchardCore.Twitter.Services.TwitterClientMessageHandler"$
-_clockOrchardCore.Modules.IClockš—
-¦
-›D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Services\TwitterClientMessageHandler.cs'G '(T
-%3System.DateTime"%OrchardCore.Modules.IClock.UtcNow.get*"
- 
-%2OrchardCore.Modules.IClock2
-UtcNow.getì
-é
-¦
-›D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Services\TwitterClientMessageHandler.cs'G '(Z
-
-%4long"System.DateTime.Ticks.get*
-
-%3System.DateTimeÙ
-Ö
-¦
-›D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Services\TwitterClientMessageHandler.cs'G '(e
-%5string"long.ToString()*
-
-
-%4long¦£
-¦
-›D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Services\TwitterClientMessageHandler.cs'* '(f
-%6byte[]"%System.Text.Encoding.GetBytes(string)*!
-
-%0System.Text.ASCIIEncoding*
-
-%5string2GetBytes(string)…
-‚
-¦
-›D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Services\TwitterClientMessageHandler.cs' '(g
-%7string"%System.Convert.ToBase64String(byte[])*"
-System.Convert*
-
-%6byte[]"¹
-¦
-›D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Services\TwitterClientMessageHandler.cs' '(h
-
-%7string*í
-1¦
-›D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Services\TwitterClientMessageHandler.cs(	 ((	"¾
-¦
-›D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Twitter\Services\TwitterClientMessageHandler.cs( ((	
-implicit returnB<:
-8OrchardCore.Twitter.Services.TwitterClientMessageHandler

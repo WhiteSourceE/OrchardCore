@@ -1,130 +1,0 @@
-
-èOrchardCore.Workflows.Controllers.WorkflowController.BuildActivityDisplayAsync(OrchardCore.Workflows.Models.ActivityContext, int, bool, string)§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csú$ ú(="0*ú)
-0§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csû §( ˇ
-¸
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csû* û(A<
-%06OrchardCore.Workflows.Services.IActivityDisplayManager"__id*é*ã6
-4OrchardCore.Workflows.Controllers.WorkflowController"Q
-_activityDisplayManager6OrchardCore.Workflows.Services.IActivityDisplayManager⁄
-◊
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csûT û(l0
-%1*OrchardCore.Workflows.Activities.IActivity"9OrchardCore.Workflows.Models.ActivityContext.Activity.get*A
-?
-activityContext,OrchardCore.Workflows.Models.ActivityContextè
-å
-•
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csûn û(ÇE
-%2?OrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessor"__id*î*ë6
-4OrchardCore.Workflows.Controllers.WorkflowController"W
-_updateModelAccessor?OrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessoróî
-•
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csûn û(è=
-%37OrchardCore.DisplayManagement.ModelBinding.IUpdateModel"POrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessor.ModelUpdater.get*G
-E
-%2?OrchardCore.DisplayManagement.ModelBinding.IUpdateModelAccessor2ModelUpdater.get¨©
-•
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csû* û(ù*
-%4$System.Threading.Tasks.Task<TResult>"òOrchardCore.DisplayManagement.IDisplayManager<TModel>.BuildDisplayAsync(TModel, OrchardCore.DisplayManagement.ModelBinding.IUpdateModel, string, string)*>
-<
-%06OrchardCore.Workflows.Services.IActivityDisplayManager*2
-0
-%1*OrchardCore.Workflows.Activities.IActivity*?
-=
-%37OrchardCore.DisplayManagement.ModelBinding.IUpdateModel*
-
-displayTypestring*
-""2bBuildDisplayAsync(TModel, OrchardCore.DisplayManagement.ModelBinding.IUpdateModel, string, string)”
-–
-•
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csû û(ù
-activityShapedynamic"__id*
-""Ì
-Í
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csü ü("
-%5dynamic"__mapGet*
-
-activityShapedynamic*
-
-Metadata„
-‡
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csü* ü(K
-%6string"__concat*
-""*
-
-displayTypestring⁄
-◊
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.csü* ü(K
-%7string"__concat*
-
-%6string*
-""⁄
-◊
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.cs†% †(=0
-%8*OrchardCore.Workflows.Activities.IActivity"9OrchardCore.Workflows.Models.ActivityContext.Activity.get*A
-?
-activityContext,OrchardCore.Workflows.Models.ActivityContextò
-ï
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.cs† †(=
-%9"__mapSet*
-
-activityShapedynamic*
-
-Activity*2
-0
-%8*OrchardCore.Workflows.Activities.IActivity‚
-ﬂ
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.cs°+ °(I2
-%10+OrchardCore.Workflows.Models.ActivityRecord"?OrchardCore.Workflows.Models.ActivityContext.ActivityRecord.get*A
-?
-activityContext,OrchardCore.Workflows.Models.ActivityContext°
-û
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.cs° °(I
-%11"__mapSet*
-
-activityShapedynamic*
-ActivityRecord*4
-2
-%10+OrchardCore.Workflows.Models.ActivityRecordÛ
-
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.cs¢ ¢(9
-%12"__mapSet*
-
-activityShapedynamic*
-WorkflowTypeId*
-""Ô
-Ï
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.cs£ £(1
-%13"__mapSet*
-
-activityShapedynamic*
-
-IsBlocking*
-"""√
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.cs§ §(!
-
-activityShapedynamic*È
-1§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.cs•	 •(	"º
-§
-óD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Workflows\Controllers\WorkflowController.cs• •(	
-implicit return:?
-activityContext,OrchardCore.Workflows.Models.ActivityContext:
-workflowTypeIdint:
-
-isBlockingbool:
-displayTypestringB86
-4OrchardCore.Workflows.Controllers.WorkflowController

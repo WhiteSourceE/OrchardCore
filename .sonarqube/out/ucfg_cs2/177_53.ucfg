@@ -1,276 +1,0 @@
-
-nOrchardCore.BackgroundTasks.Controllers.BackgroundTaskController.Index(OrchardCore.Navigation.PagerParameters)Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.cs/) /(."4*≤
-0Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.cs1 1(có
-î
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.cs1 1(,>
-%08Microsoft.AspNetCore.Authorization.IAuthorizationService"__id*ö*óB
-@OrchardCore.BackgroundTasks.Controllers.BackgroundTaskController"Q
-_authorizationService8Microsoft.AspNetCore.Authorization.IAuthorizationService¡
-æ
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.cs1< 1(@,
-%1&System.Security.Claims.ClaimsPrincipal"0Microsoft.AspNetCore.Mvc.ControllerBase.User.get*+)
-'Microsoft.AspNetCore.Mvc.ControllerBase‚
-ﬂ
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.cs1B 1(c1
-%2+OrchardCore.Security.Permissions.Permission"__id*s*q)
-'OrchardCore.BackgroundTasks.Permissions"D
-ManageBackgroundTasks+OrchardCore.Security.Permissions.Permission∞
-≠
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.cs1 1(d*
-%3$System.Threading.Tasks.Task<TResult>"ﬂMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions.AuthorizeAsync(Microsoft.AspNetCore.Authorization.IAuthorizationService, System.Security.Claims.ClaimsPrincipal, OrchardCore.Security.Permissions.Permission)*E"C
-AMicrosoft.AspNetCore.Authorization.AuthorizationServiceExtensions*@
->
-%08Microsoft.AspNetCore.Authorization.IAuthorizationService*.
-,
-%1&System.Security.Claims.ClaimsPrincipal*3
-1
-%2+OrchardCore.Security.Permissions.Permission*
-1
-2*‰
-1Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.cs3 3( «
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.cs3 3(+
-%4%Microsoft.AspNetCore.Mvc.ForbidResult"0Microsoft.AspNetCore.Mvc.ControllerBase.Forbid()*+)
-'Microsoft.AspNetCore.Mvc.ControllerBase2Forbid()"‡
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.cs3 3( -
-+
-%4%Microsoft.AspNetCore.Mvc.ForbidResult*ïO
-2Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.cs6 P(ﬁ
-€
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.cs6% 6(1'
-%5!OrchardCore.Settings.ISiteService"__id*y*wB
-@OrchardCore.BackgroundTasks.Controllers.BackgroundTaskController"1
-_siteService!OrchardCore.Settings.ISiteService›⁄
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.cs6% 6(H*
-%6$System.Threading.Tasks.Task<TResult>"8OrchardCore.Settings.ISiteService.GetSiteSettingsAsync()*)
-'
-%5!OrchardCore.Settings.ISiteService2GetSiteSettingsAsync()Ó
-Î
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.cs6 6(H*
-siteSettingsOrchardCore.Settings.ISite"__id*
-""§°
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.cs73 7(H	
-%7int"'OrchardCore.Settings.ISite.PageSize.get*,
-*
-siteSettingsOrchardCore.Settings.ISite2PageSize.getˆÛ
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.cs7 7(I"
-%8OrchardCore.Navigation.Pager"OrchardCore.Navigation.PagerÅ
-˛
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.cs7 7(!
-
-%9void"OOrchardCore.Navigation.Pager.Pager(OrchardCore.Navigation.PagerParameters, int)*$
-"
-%8OrchardCore.Navigation.Pager*;
-9
-pagerParameters&OrchardCore.Navigation.PagerParameters*
-	
-%7intá
-Ñ
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.cs7 7(I%
-pagerOrchardCore.Navigation.Pager"__id*$
-"
-%8OrchardCore.Navigation.Pagerù
-ö
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.cs8! 8(7A
-%10:OrchardCore.BackgroundTasks.Services.BackgroundTaskManager"__id*ù*öB
-@OrchardCore.BackgroundTasks.Controllers.BackgroundTaskController"T
-_backgroundTaskManager:OrchardCore.BackgroundTasks.Services.BackgroundTaskManagerı
-Ú
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.cs8! 8(J+
-%11$System.Threading.Tasks.Task<TResult>"MOrchardCore.BackgroundTasks.Services.BackgroundTaskManager.GetDocumentAsync()*C
-A
-%10:OrchardCore.BackgroundTasks.Services.BackgroundTaskManagerâ
-Ü
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.cs8 8(JE
-document9OrchardCore.BackgroundTasks.Models.BackgroundTaskDocument"__id*
-""ı
-Ú
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.cs: :(.0
-%12)System.Collections.Generic.IEnumerable<T>"__id*Ü*ÉB
-@OrchardCore.BackgroundTasks.Controllers.BackgroundTaskController"=
-_backgroundTasks)System.Collections.Generic.IEnumerable<T>ø
-º
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.cs: B(0
-%13)System.Collections.Generic.IEnumerable<T>"System.Linq.Enumerable.Select<TSource, TResult>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TResult>)*"
-System.Linq.Enumerable*2
-0
-%12)System.Collections.Generic.IEnumerable<T>*
-""π
-∂
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.cs: C(2/
-%14(System.Linq.IOrderedEnumerable<TElement>"zSystem.Linq.Enumerable.OrderBy<TSource, TKey>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TKey>)*"
-System.Linq.Enumerable*2
-0
-%13)System.Collections.Generic.IEnumerable<T>*
-""£
-†
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.csD D('
-
-%15int"0OrchardCore.Navigation.Pager.GetStartIndex(int?)*'
-%
-pagerOrchardCore.Navigation.Pager*
-""ü
-ú
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.cs: D((0
-%16)System.Collections.Generic.IEnumerable<T>"ZSystem.Linq.Enumerable.Skip<TSource>(System.Collections.Generic.IEnumerable<TSource>, int)*"
-System.Linq.Enumerable*1
-/
-%14(System.Linq.IOrderedEnumerable<TElement>*
-
-
-%15intî
-ë
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.csE E( 
-
-%17int")OrchardCore.Navigation.Pager.PageSize.get*'
-%
-pagerOrchardCore.Navigation.Pager†
-ù
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.cs: E(!0
-%18)System.Collections.Generic.IEnumerable<T>"ZSystem.Linq.Enumerable.Take<TSource>(System.Collections.Generic.IEnumerable<TSource>, int)*"
-System.Linq.Enumerable*2
-0
-%16)System.Collections.Generic.IEnumerable<T>*
-
-
-%17intà
-Ö
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.cs: F()
-%19"System.Collections.Generic.List<T>"WSystem.Linq.Enumerable.ToList<TSource>(System.Collections.Generic.IEnumerable<TSource>)*"
-System.Linq.Enumerable*2
-0
-%18)System.Collections.Generic.IEnumerable<T>ö
-ó
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.cs: F(1
-taskEntries"System.Collections.Generic.List<T>"__id*+
-)
-%19"System.Collections.Generic.List<T>¢
-ü
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.csH$ H('
-%20dynamic"__id*V*TB
-@OrchardCore.BackgroundTasks.Controllers.BackgroundTaskController"
-Newdynamic£
-†
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.csHE H(V
-
-%21int",System.Collections.Generic.List<T>.Count.get*3
-1
-taskEntries"System.Collections.Generic.List<T>Ÿ
-÷
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.csH H(W
-
-pagerShapedynamic"__id*
-""≈¬
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.csJ N(J
-%22COrchardCore.BackgroundTasks.ViewModels.BackgroundTaskIndexViewModel"COrchardCore.BackgroundTasks.ViewModels.BackgroundTaskIndexViewModelÛ
-
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.csJ J(8
-%23void"bOrchardCore.BackgroundTasks.ViewModels.BackgroundTaskIndexViewModel.BackgroundTaskIndexViewModel()*L
-J
-%22COrchardCore.BackgroundTasks.ViewModels.BackgroundTaskIndexViewModel≤
-Ø
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.csL L(#*
-%24#System.Collections.Generic.IList<T>"MOrchardCore.BackgroundTasks.ViewModels.BackgroundTaskIndexViewModel.Tasks.set*L
-J
-%22COrchardCore.BackgroundTasks.ViewModels.BackgroundTaskIndexViewModel*3
-1
-taskEntries"System.Collections.Generic.List<T>˙
-˜
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.csM M("
-%25dynamic"MOrchardCore.BackgroundTasks.ViewModels.BackgroundTaskIndexViewModel.Pager.set*L
-J
-%22COrchardCore.BackgroundTasks.ViewModels.BackgroundTaskIndexViewModel*
-
-
-pagerShapedynamic÷
-”
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.csJ N(L
-modelCOrchardCore.BackgroundTasks.ViewModels.BackgroundTaskIndexViewModel"__id*L
-J
-%22COrchardCore.BackgroundTasks.ViewModels.BackgroundTaskIndexViewModelá
-Ñ
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.csP P(
-%26void"6orchardcore.backgroundtasks/views/backgroundtask/index*
-
-%27*N
-L
-modelCOrchardCore.BackgroundTasks.ViewModels.BackgroundTaskIndexViewModel*
-
-%ViewBagDataAllobject*
-
-%ViewBagDataHtmlobject*
-
-%TempDataAllobject*
-
-%TempDataHtmlobject* 
-
-%HttpContextItemsAllobject*!
-
-%HttpContextItemsHtmlobject"¿
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.csP P(
-
-%26void*˝
-3Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.csQ	 Q(	"∆
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.csQ Q(	
-implicit return*≈
-4Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.cs/O /(Oõ
-ò
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.cs/) /(.W
-9
-pagerParameters&OrchardCore.Navigation.PagerParameters"
-PageSystem.Nullable<T>"__entrypointü
-ú
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.cs/) /(.[
-9
-pagerParameters&OrchardCore.Navigation.PagerParameters"
-PageSizeSystem.Nullable<T>"__entrypoint…
-∆
-Æ
-£D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.BackgroundTasks\Controllers\BackgroundTaskController.cs/) /(.
-%28"__entrypoint*
-0:9
-pagerParameters&OrchardCore.Navigation.PagerParametersBDB
-@OrchardCore.BackgroundTasks.Controllers.BackgroundTaskController

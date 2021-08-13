@@ -1,171 +1,0 @@
-
-«OrchardCore.Placements.Deployment.PlacementsDeploymentSource.ProcessDeploymentStepAsync(OrchardCore.Deployment.DeploymentStep, OrchardCore.Deployment.DeploymentPlanResult)ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Deployment\PlacementsDeploymentSource.cs (4"0*Ì
-0ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Deployment\PlacementsDeploymentSource.cs (&”
-‘
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Deployment\PlacementsDeploymentSource.cs! (A+
-%0%OrchardCore.Deployment.DeploymentStep"__id*/
--
-step%OrchardCore.Deployment.DeploymentStep³
-°
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Deployment\PlacementsDeploymentSource.cs (AL
-placementsStep:OrchardCore.Placements.Deployment.PlacementsDeploymentStep"__id*-
-+
-%0%OrchardCore.Deployment.DeploymentStepÄ
-Á
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Deployment\PlacementsDeploymentSource.cs (&
-
-%1bool""object.operator ==(object, object)*
-"
-object*N
-L
-placementsStep:OrchardCore.Placements.Deployment.PlacementsDeploymentStep*
-""*
-1
-2*è
-1ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Deployment\PlacementsDeploymentSource.cs&	 &(	"µ
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Deployment\PlacementsDeploymentSource.cs (
-""*¾
-2ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Deployment\PlacementsDeploymentSource.cs (0òï
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Deployment\PlacementsDeploymentSource.cs# (0"
-%2Newtonsoft.Json.Linq.JObject"Newtonsoft.Json.Linq.JObjectŠ
-‡
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Deployment\PlacementsDeploymentSource.cs' (.
-
-%3void"&Newtonsoft.Json.Linq.JObject.JObject()*$
-"
-%2Newtonsoft.Json.Linq.JObjectŽ
-‹
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Deployment\PlacementsDeploymentSource.cs (00
-placementObjectsNewtonsoft.Json.Linq.JObject"__id*$
-"
-%2Newtonsoft.Json.Linq.JObjectþ
-û
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Deployment\PlacementsDeploymentSource.cs# (57
-%41OrchardCore.Placements.Services.PlacementsManager"__id*Œ*‰>
-<OrchardCore.Placements.Deployment.PlacementsDeploymentSource"G
-_placementsManager1OrchardCore.Placements.Services.PlacementsManagerå
-â
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Deployment\PlacementsDeploymentSource.cs# (P*
-%5$System.Threading.Tasks.Task<TResult>"LOrchardCore.Placements.Services.PlacementsManager.ListShapePlacementsAsync()*9
-7
-%41OrchardCore.Placements.Services.PlacementsManagerŠ
-‡
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Deployment\PlacementsDeploymentSource.cs (PJ
-
-placements<System.Collections.Generic.IReadOnlyDictionary<TKey, TValue>"__id*
-""*
-3*¸
-3ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Deployment\PlacementsDeploymentSource.cs&	 &(	*
-4
-5*ì
-4ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Deployment\PlacementsDeploymentSource.cs (SÃ
-À
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Deployment\PlacementsDeploymentSource.cs! (.
-%6string"=System.Collections.Generic.KeyValuePair<TKey, TValue>.Key.get*D
-B
-	placement5System.Collections.Generic.KeyValuePair<TKey, TValue>è
-å
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Deployment\PlacementsDeploymentSource.csD (S/
-%7)System.Collections.Generic.IEnumerable<T>"?System.Collections.Generic.KeyValuePair<TKey, TValue>.Value.get*D
-B
-	placement5System.Collections.Generic.KeyValuePair<TKey, TValue>×
-Ô
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Deployment\PlacementsDeploymentSource.cs2 (T!
-%8Newtonsoft.Json.Linq.JArray".Newtonsoft.Json.Linq.JArray.FromObject(object)*"
-Newtonsoft.Json.Linq.JArray*1
-/
-%7)System.Collections.Generic.IEnumerable<T>©
-¦
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Deployment\PlacementsDeploymentSource.cs (T
-%9"__mapSet*2
-0
-placementObjectsNewtonsoft.Json.Linq.JObject*
-
-%6string*#
-!
-%8Newtonsoft.Json.Linq.JArray*
-3*©
-5ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Deployment\PlacementsDeploymentSource.cs" $(<Ì
-É
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Deployment\PlacementsDeploymentSource.cs" "(*
-%10#System.Collections.Generic.IList<T>"5OrchardCore.Deployment.DeploymentPlanResult.Steps.get*7
-5
-result+OrchardCore.Deployment.DeploymentPlanResult÷ô
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Deployment\PlacementsDeploymentSource.cs# #(3%
-%11Newtonsoft.Json.Linq.JProperty"Newtonsoft.Json.Linq.JProperty»
-¸
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Deployment\PlacementsDeploymentSource.cs# #(
-%12void"9Newtonsoft.Json.Linq.JProperty.JProperty(string, object?)*'
-%
-%11Newtonsoft.Json.Linq.JProperty*
-name*
-
-Placements÷ô
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Deployment\PlacementsDeploymentSource.cs$ $(=%
-%13Newtonsoft.Json.Linq.JProperty"Newtonsoft.Json.Linq.JPropertyå
-â
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Deployment\PlacementsDeploymentSource.cs$ $(
-%14void"9Newtonsoft.Json.Linq.JProperty.JProperty(string, object?)*'
-%
-%13Newtonsoft.Json.Linq.JProperty*
-
-Placements*2
-0
-placementObjectsNewtonsoft.Json.Linq.JObjectóð
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Deployment\PlacementsDeploymentSource.cs" %(#
-%15Newtonsoft.Json.Linq.JObject"Newtonsoft.Json.Linq.JObjectí
-ê
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Deployment\PlacementsDeploymentSource.cs"! "((
-%16void"5Newtonsoft.Json.Linq.JObject.JObject(params object[])*%
-#
-%15Newtonsoft.Json.Linq.JObject*'
-%
-%11Newtonsoft.Json.Linq.JProperty*'
-%
-%13Newtonsoft.Json.Linq.JProperty¢
-Ÿ
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Deployment\PlacementsDeploymentSource.cs" %(
-%17void"
-__arrayAdd*,
-*
-%10#System.Collections.Generic.IList<T>*: *%
-#
-%15Newtonsoft.Json.Linq.JObject*
-6*õ
-6ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Deployment\PlacementsDeploymentSource.cs&	 &(	"Â
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Placements\Deployment\PlacementsDeploymentSource.cs& &(	
-implicit return:-
-step%OrchardCore.Deployment.DeploymentStep:5
-result+OrchardCore.Deployment.DeploymentPlanResultB@>
-<OrchardCore.Placements.Deployment.PlacementsDeploymentSource

@@ -1,432 +1,0 @@
-
-õOrchardCore.ContentLocalization.Controllers.ContentCulturePickerController.RedirectToLocalizedContent(string, Microsoft.AspNetCore.Http.PathString, string)∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.cs() ((C"12*∆
-0∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.cs* *(*
-1
-2*∑
-1∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.cs* *(?√
-¿
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.cs* *(:&
-%0 System.Globalization.CultureInfo"5System.Globalization.CultureInfo.InvariantCulture.get*$""
- System.Globalization.CultureInfo´®
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.cs* *(?
-%1string")System.Globalization.CultureInfo.Name.get*(
-&
-%0 System.Globalization.CultureInfo2Name.get*
-2*Ù
-2∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.cs* ,((Å
-˛
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.cs* *(?
-%2string"__concat*
-
-targetCulturestring*
-
-%1stringÌ
-Í
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.cs* *(?
-targetCulturestring"__id*
-
-%2string∑
-¥
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.cs, ,((
-
-%3bool"1Microsoft.AspNetCore.Http.PathString.HasValue.get*8
-6
-contentItemUrl$Microsoft.AspNetCore.Http.PathString*
-3
-4*…
-3∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.cs. .($É
-Ä
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.cs. .($6
-contentItemUrl$Microsoft.AspNetCore.Http.PathString"__id*
-/*
-4*ß%
-4∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.cs1 6(=íè
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.cs1 1(?+
-%4%Microsoft.AspNetCore.Http.QueryString"%Microsoft.AspNetCore.Http.QueryString”
-–
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.cs1" 1(-
-
-%5void":Microsoft.AspNetCore.Http.QueryString.QueryString(string?)*-
-+
-%4%Microsoft.AspNetCore.Http.QueryString*
-
-queryStringValuestring©
-¶
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.cs1 1(?4
-queryString%Microsoft.AspNetCore.Http.QueryString"__id*-
-+
-%4%Microsoft.AspNetCore.Http.QueryString—
-Œ
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.cs2 2(!+
-%6%Microsoft.AspNetCore.Http.HttpContext"7Microsoft.AspNetCore.Mvc.ControllerBase.HttpContext.get*+)
-'Microsoft.AspNetCore.Mvc.ControllerBaseÕ
- 
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.cs2 2()+
-%7%Microsoft.AspNetCore.Http.HttpRequest"1Microsoft.AspNetCore.Http.HttpContext.Request.get*-
-+
-%6%Microsoft.AspNetCore.Http.HttpContextÕ
- 
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.cs2 2(2*
-%8$Microsoft.AspNetCore.Http.PathString"2Microsoft.AspNetCore.Http.HttpRequest.PathBase.get*-
-+
-%7%Microsoft.AspNetCore.Http.HttpRequest˘
-ˆ
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.cs2 2(C*
-%9$Microsoft.AspNetCore.Http.PathString"{Microsoft.AspNetCore.Http.PathString.operator +(Microsoft.AspNetCore.Http.PathString, Microsoft.AspNetCore.Http.PathString)*("&
-$Microsoft.AspNetCore.Http.PathString*,
-*
-%8$Microsoft.AspNetCore.Http.PathString*8
-6
-contentItemUrl$Microsoft.AspNetCore.Http.PathString€
-ÿ
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.cs2 2(Q
-%10string"|Microsoft.AspNetCore.Http.PathString.operator +(Microsoft.AspNetCore.Http.PathString, Microsoft.AspNetCore.Http.QueryString)*("&
-$Microsoft.AspNetCore.Http.PathString*,
-*
-%9$Microsoft.AspNetCore.Http.PathString*6
-4
-queryString%Microsoft.AspNetCore.Http.QueryString‰
-·
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.cs2 2(Q
-urlstring"__id*
-
-%10stringë
-é
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.cs4* 4(:4
-%11-OrchardCore.Localization.ILocalizationService"__id*î*ëL
-JOrchardCore.ContentLocalization.Controllers.ContentCulturePickerController"A
-_locationService-OrchardCore.Localization.ILocalizationServiceãà
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.cs4* 4(V+
-%12$System.Threading.Tasks.Task<TResult>"IOrchardCore.Localization.ILocalizationService.GetSupportedCulturesAsync()*6
-4
-%11-OrchardCore.Localization.ILocalizationService2GetSupportedCulturesAsync()Î
-Ë
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.cs4 4(V
-supportedCulturesstring[]"__id*
-""Ç
-ˇ
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.cs6 6(>
-%13bool"pSystem.Linq.Enumerable.Any<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
-System.Linq.Enumerable*
-
-supportedCulturesstring[]*
-""*
-5
-6*è
-5∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.cs8 :(&ı
-Ú
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.cs8& 8(2(
-%14!OrchardCore.Settings.ISiteService"__id*Ñ*ÅL
-JOrchardCore.ContentLocalization.Controllers.ContentCulturePickerController"1
-_siteService!OrchardCore.Settings.ISiteServiceÈÊ
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.cs8& 8(I+
-%15$System.Threading.Tasks.Task<TResult>"8OrchardCore.Settings.ISiteService.GetSiteSettingsAsync()**
-(
-%14!OrchardCore.Settings.ISiteService2GetSiteSettingsAsync()à
-Ö
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.cs8 8(mJ
-%16COrchardCore.ContentLocalization.Models.ContentCulturePickerSettings"IOrchardCore.Entities.EntityExtensions.As<T>(OrchardCore.Entities.IEntity)*)"'
-%OrchardCore.Entities.EntityExtensions*
-""„
-‡
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.cs8 8(mO
-settingsCOrchardCore.ContentLocalization.Models.ContentCulturePickerSettings"__id*L
-J
-%16COrchardCore.ContentLocalization.Models.ContentCulturePickerSettingsÒ
-Ó
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.cs: :(&
-%17bool"QOrchardCore.ContentLocalization.Models.ContentCulturePickerSettings.SetCookie.get*Q
-O
-settingsCOrchardCore.ContentLocalization.Models.ContentCulturePickerSettings*
-7
-8*≥2
-7∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.cs= A(r–
-Õ
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.cs= =(-
-%18&Microsoft.AspNetCore.Http.HttpResponse"4Microsoft.AspNetCore.Mvc.ControllerBase.Response.get*+)
-'Microsoft.AspNetCore.Mvc.ControllerBase÷
-”
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.cs= =($1
-%19*Microsoft.AspNetCore.Http.IResponseCookies"2Microsoft.AspNetCore.Http.HttpResponse.Cookies.get*/
--
-%18&Microsoft.AspNetCore.Http.HttpResponse∂
-≥
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.cs=, =(Z
-%20string"__id*a*_@
->Microsoft.AspNetCore.Localization.CookieRequestCultureProvider"
-DefaultCookieNamestring‹Ÿ
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.cs= =([
-%21void"9Microsoft.AspNetCore.Http.IResponseCookies.Delete(string)*3
-1
-%19*Microsoft.AspNetCore.Http.IResponseCookies*
-
-%20string2Delete(string)–
-Õ
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.cs> >(-
-%22&Microsoft.AspNetCore.Http.HttpResponse"4Microsoft.AspNetCore.Mvc.ControllerBase.Response.get*+)
-'Microsoft.AspNetCore.Mvc.ControllerBase÷
-”
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.cs> >($1
-%23*Microsoft.AspNetCore.Http.IResponseCookies"2Microsoft.AspNetCore.Http.HttpResponse.Cookies.get*/
--
-%22&Microsoft.AspNetCore.Http.HttpResponse∂
-≥
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.cs? ?(F
-%24string"__id*a*_@
->Microsoft.AspNetCore.Localization.CookieRequestCultureProvider"
-DefaultCookieNamestring©¶
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.cs@E @(f7
-%250Microsoft.AspNetCore.Localization.RequestCulture"0Microsoft.AspNetCore.Localization.RequestCultureÍ
-Á
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.cs@I @(W
-%26void"GMicrosoft.AspNetCore.Localization.RequestCulture.RequestCulture(string)*9
-7
-%250Microsoft.AspNetCore.Localization.RequestCulture*
-
-targetCulturestringœ
-Ã
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.cs@ @(g
-%27string"ÄMicrosoft.AspNetCore.Localization.CookieRequestCultureProvider.MakeCookieValue(Microsoft.AspNetCore.Localization.RequestCulture)*B"@
->Microsoft.AspNetCore.Localization.CookieRequestCultureProvider*9
-7
-%250Microsoft.AspNetCore.Localization.RequestCultureóî
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.csA A(u.
-%28'Microsoft.AspNetCore.Http.CookieOptions"'Microsoft.AspNetCore.Http.CookieOptions∂
-≥
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.csA A()
-%29void"7Microsoft.AspNetCore.Http.CookieOptions.CookieOptions()*0
-.
-%28'Microsoft.AspNetCore.Http.CookieOptionsá
-Ñ
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.csA6 A(E
-%30System.DateTime"System.DateTime.UtcNow.get*"
-System.DateTime§
-°
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.csAN A(c;
-%314OrchardCore.ContentLocalization.CulturePickerOptions"__id*†*ùL
-JOrchardCore.ContentLocalization.Controllers.ContentCulturePickerController"M
-_culturePickerOptions4OrchardCore.ContentLocalization.CulturePickerOptions“
-œ
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.csAN A(r
-
-%32int"GOrchardCore.ContentLocalization.CulturePickerOptions.CookieLifeTime.get*=
-;
-%314OrchardCore.ContentLocalization.CulturePickerOptionsü
-ú
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.csA6 A(s
-%33System.DateTime"System.DateTime.AddDays(double)*
-
-%30System.DateTime*
-
-
-%32int⁄
-◊
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.csA, A(s
-%34System.Nullable<T>"3Microsoft.AspNetCore.Http.CookieOptions.Expires.set*0
-.
-%28'Microsoft.AspNetCore.Http.CookieOptions*
-
-%33System.DateTimeÅ˛
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.cs> B(
-%35void"jMicrosoft.AspNetCore.Http.IResponseCookies.Append(string, string, Microsoft.AspNetCore.Http.CookieOptions)*3
-1
-%23*Microsoft.AspNetCore.Http.IResponseCookies*
-
-%24string*
-
-%27string*0
-.
-%28'Microsoft.AspNetCore.Http.CookieOptions2?Append(string, string, Microsoft.AspNetCore.Http.CookieOptions)*
-8*æ
-8∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.csF G(<∆
-√
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.csF* F(?L
-%36EOrchardCore.ContentLocalization.Services.IContentCulturePickerService"__id*±*ÆL
-JOrchardCore.ContentLocalization.Controllers.ContentCulturePickerController"^
-_culturePickerServiceEOrchardCore.ContentLocalization.Services.IContentCulturePickerService»≈
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.csF* F(n+
-%37$System.Threading.Tasks.Task<TResult>"äOrchardCore.ContentLocalization.Services.IContentCulturePickerService.GetLocalizationsFromRouteAsync(Microsoft.AspNetCore.Http.PathString)*N
-L
-%36EOrchardCore.ContentLocalization.Services.IContentCulturePickerService*8
-6
-contentItemUrl$Microsoft.AspNetCore.Http.PathString2DGetLocalizationsFromRouteAsync(Microsoft.AspNetCore.Http.PathString)à
-Ö
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.csF F(n:
-localizations)System.Collections.Generic.IEnumerable<T>"__id*
-""÷
-”
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.csG G(=
-%38bool"{TryGetLocalizedContentUrl(System.Collections.Generic.IEnumerable<OrchardCore.ContentLocalization.Models.LocalizationEntry>)*NL
-JOrchardCore.ContentLocalization.Controllers.ContentCulturePickerController*<
-:
-localizations)System.Collections.Generic.IEnumerable<T>*
-9
-6*ƒ
-9∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.csGA G(\˙
-˜
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.csGA G(\
-%39bool"ZOrchardCore.ContentLocalization.Models.ContentCulturePickerSettings.RedirectToHomepage.get*Q
-O
-settingsCOrchardCore.ContentLocalization.Models.ContentCulturePickerSettings*
-10
-6*ë
-10∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.csJ K(?∆
-√
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.csJ2 J(GL
-%40EOrchardCore.ContentLocalization.Services.IContentCulturePickerService"__id*±*ÆL
-JOrchardCore.ContentLocalization.Controllers.ContentCulturePickerController"^
-_culturePickerServiceEOrchardCore.ContentLocalization.Services.IContentCulturePickerServiceïí
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.csJ2 J(k+
-%41$System.Threading.Tasks.Task<TResult>"äOrchardCore.ContentLocalization.Services.IContentCulturePickerService.GetLocalizationsFromRouteAsync(Microsoft.AspNetCore.Http.PathString)*N
-L
-%40EOrchardCore.ContentLocalization.Services.IContentCulturePickerService*
-/2DGetLocalizationsFromRouteAsync(Microsoft.AspNetCore.Http.PathString)å
-â
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.csJ J(k>
-homeLocalizations)System.Collections.Generic.IEnumerable<T>"__id*
-""⁄
-◊
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.csK K(@
-%42bool"{TryGetLocalizedContentUrl(System.Collections.Generic.IEnumerable<OrchardCore.ContentLocalization.Models.LocalizationEntry>)*NL
-JOrchardCore.ContentLocalization.Controllers.ContentCulturePickerController*@
->
-homeLocalizations)System.Collections.Generic.IEnumerable<T>*
-6*Ω
-6∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.cs` `($áÑ
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.cs` `(%3
-%43,Microsoft.AspNetCore.Mvc.LocalRedirectResult"=Microsoft.AspNetCore.Mvc.ControllerBase.LocalRedirect(string)*+)
-'Microsoft.AspNetCore.Mvc.ControllerBase*
-
-urlstring2LocalRedirect(string)"Ú
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.cs` `(&5
-3
-%43,Microsoft.AspNetCore.Mvc.LocalRedirectResult*í
-11∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.csa	 a(	"–
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.csa a(	
-implicit return*∫
-12∫
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.cs(ç ((ç∆
-√
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.cs() ((C
-%44"__entrypoint*
-
-targetCulturestring*8
-6
-contentItemUrl$Microsoft.AspNetCore.Http.PathString*
-
-queryStringValuestringÆ
-´
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.cs'	 '(
-%45"
-__annotate*@>
-<Microsoft.AspNetCore.Mvc.HttpGetAttribute.HttpGetAttribute()*
-
-targetCulturestringÓ
-Î
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.cs(D ((X
-targetCulturestring"__annotation*
-
-%45Õ
- 
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.cs'	 '(
-%46"
-__annotate*@>
-<Microsoft.AspNetCore.Mvc.HttpGetAttribute.HttpGetAttribute()*8
-6
-contentItemUrl$Microsoft.AspNetCore.Http.PathStringç
-ä
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.cs(Z ((s6
-contentItemUrl$Microsoft.AspNetCore.Http.PathString"__annotation*
-
-%46±
-Æ
-∏
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.cs'	 '(
-%47"
-__annotate*@>
-<Microsoft.AspNetCore.Mvc.HttpGetAttribute.HttpGetAttribute()*
-
-queryStringValuestringÚ
-Ô
-π
-≠D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.ContentLocalization\Controllers\ContentCulturePickerController.cs(u ((å
-queryStringValuestring"__annotation*
-
-%47*
-0:
-targetCulturestring:6
-contentItemUrl$Microsoft.AspNetCore.Http.PathString:
-queryStringValuestringBNL
-JOrchardCore.ContentLocalization.Controllers.ContentCulturePickerController

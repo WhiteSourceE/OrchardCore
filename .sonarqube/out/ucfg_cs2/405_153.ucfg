@@ -1,99 +1,0 @@
-
-ˆContentRazorHelperExtensions.QueryContentItemsAsync(OrchardCore.IOrchardHelper, System.Func<YesSql.IQuery<OrchardCore.ContentManagement.ContentItem, OrchardCore.ContentManagement.Records.ContentItemIndex>, YesSql.IQuery<OrchardCore.ContentManagement.ContentItem>>)¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Razor\ContentRazorHelperExtensions.csU7 U(M"0*Ô%
-0¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Razor\ContentRazorHelperExtensions.csW \(:ÄÁ
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Razor\ContentRazorHelperExtensions.csW W(6+
-%0%Microsoft.AspNetCore.Http.HttpContext"*OrchardCore.IOrchardHelper.HttpContext.get*-
-+
-orchardHelperOrchardCore.IOrchardHelper2HttpContext.get´
-±
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Razor\ContentRazorHelperExtensions.csW W(F
-%1System.IServiceProvider"9Microsoft.AspNetCore.Http.HttpContext.RequestServices.get*-
-+
-%0%Microsoft.AspNetCore.Http.HttpContextÂ
-¿
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Razor\ContentRazorHelperExtensions.csW W(d3
-%2-OrchardCore.ContentManagement.IContentManager"pMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService<T>(System.IServiceProvider)*M"K
-IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*
-
-%1System.IServiceProvider©
-¦
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Razor\ContentRazorHelperExtensions.csW W(d?
-contentManager-OrchardCore.ContentManagement.IContentManager"__id*5
-3
-%2-OrchardCore.ContentManagement.IContentManagerÄÁ
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Razor\ContentRazorHelperExtensions.csX X(/+
-%3%Microsoft.AspNetCore.Http.HttpContext"*OrchardCore.IOrchardHelper.HttpContext.get*-
-+
-orchardHelperOrchardCore.IOrchardHelper2HttpContext.get´
-±
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Razor\ContentRazorHelperExtensions.csX X(?
-%4System.IServiceProvider"9Microsoft.AspNetCore.Http.HttpContext.RequestServices.get*-
-+
-%3%Microsoft.AspNetCore.Http.HttpContext¤
-¡
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Razor\ContentRazorHelperExtensions.csX X(V
-%5YesSql.ISession"pMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService<T>(System.IServiceProvider)*M"K
-IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions*
-
-%4System.IServiceProvideræ
-ã
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Razor\ContentRazorHelperExtensions.csX X(V
-sessionYesSql.ISession"__id*
-
-%5YesSql.ISessionÝ
-Ú
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Razor\ContentRazorHelperExtensions.csZ' Z(U
-%6YesSql.IQuery<T, TIndex>"FYesSql.QueryExtensions.Query<T, TIndex>(YesSql.ISession, bool, string)*"
-YesSql.QueryExtensions*
-
-sessionYesSql.ISession*
-""*
-""¥
-¢
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Razor\ContentRazorHelperExtensions.csZ! Z(V
-%7YesSql.IQuery<T>"!System.Func<T, TResult>.Invoke(T)*
-System.Func<T, TResult>* 
-
-%6YesSql.IQuery<T, TIndex>œ™
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Razor\ContentRazorHelperExtensions.csZ! Z(b*
-%8$System.Threading.Tasks.Task<TResult>"YesSql.IQuery<T>.ListAsync()*
-
-%7YesSql.IQuery<T>2ListAsync()ô
-ñ
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Razor\ContentRazorHelperExtensions.csZ Z(b9
-contentItems)System.Collections.Generic.IEnumerable<T>"__id*
-""Ø
-Õ
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Razor\ContentRazorHelperExtensions.cs\ \(;*
-%9$System.Threading.Tasks.Task<TResult>"ÂOrchardCore.ContentManagement.ContentManagerExtensions.LoadAsync(OrchardCore.ContentManagement.IContentManager, System.Collections.Generic.IEnumerable<OrchardCore.ContentManagement.ContentItem>)*:"8
-6OrchardCore.ContentManagement.ContentManagerExtensions*A
-?
-contentManager-OrchardCore.ContentManagement.IContentManager*;
-9
-contentItems)System.Collections.Generic.IEnumerable<T>"°
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Razor\ContentRazorHelperExtensions.cs\ \(<
-""*ë
-1¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Razor\ContentRazorHelperExtensions.cs] ]("½
-¥
-šD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Contents\Razor\ContentRazorHelperExtensions.cs] ](
-implicit return:+
-orchardHelperOrchardCore.IOrchardHelper: 
-querySystem.Func<T, TResult>B "
-ContentRazorHelperExtensions

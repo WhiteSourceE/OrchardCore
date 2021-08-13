@@ -1,161 +1,0 @@
-
-«OrchardCore.Sitemaps.Builders.CustomPathSitemapSourceBuilder.PopulateChangeFrequencyPriority(OrchardCore.Sitemaps.Models.CustomPathSitemapSource, System.Xml.Linq.XElement)ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Builders\CustomPathSitemapSourceBuilder.cs3 3(4"0*Í3
-0ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Builders\CustomPathSitemapSourceBuilder.cs5 @(í
-ê
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Builders\CustomPathSitemapSourceBuilder.cs5' 5(=1
-%0+OrchardCore.Sitemaps.Models.ChangeFrequency"GOrchardCore.Sitemaps.Models.CustomPathSitemapSource.ChangeFrequency.get*?
-=
-source3OrchardCore.Sitemaps.Models.CustomPathSitemapSource—”
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Builders\CustomPathSitemapSourceBuilder.cs5' 5(H
-%1string"System.Enum.ToString()*3
-1
-%0+OrchardCore.Sitemaps.Models.ChangeFrequency2
-ToString()æ
-ã
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Builders\CustomPathSitemapSourceBuilder.cs5 5(H
-changeFrequencyValuestring"__id*
-
-%1string¾
-»
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Builders\CustomPathSitemapSourceBuilder.cs6# 6(2	
-%2int"@OrchardCore.Sitemaps.Models.CustomPathSitemapSource.Priority.get*?
-=
-source3OrchardCore.Sitemaps.Models.CustomPathSitemapSourceÜ
-Ù
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Builders\CustomPathSitemapSourceBuilder.cs6 6(2
-priorityIntValueint"__id*
-	
-%2intµ
-²
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Builders\CustomPathSitemapSourceBuilder.cs8C 8(_&
-%3 System.Globalization.CultureInfo"5System.Globalization.CultureInfo.InvariantCulture.get*$""
- System.Globalization.CultureInfo×
-Ô
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Builders\CustomPathSitemapSourceBuilder.cs8 8(`
-priorityValuestring"__id*
-""Å
-Â
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Builders\CustomPathSitemapSourceBuilder.cs:* :(3 
-%4System.Xml.Linq.XNamespace"__id*k*i>
-<OrchardCore.Sitemaps.Builders.CustomPathSitemapSourceBuilder"'
-	NamespaceSystem.Xml.Linq.XNamespaceì
-é
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Builders\CustomPathSitemapSourceBuilder.cs:* :(B
-%5System.Xml.Linq.XName"ISystem.Xml.Linq.XNamespace.operator +(System.Xml.Linq.XNamespace, string)*"
-System.Xml.Linq.XNamespace*"
- 
-%4System.Xml.Linq.XNamespace*
-
-changefreqêç
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Builders\CustomPathSitemapSourceBuilder.cs: :(C
-%6System.Xml.Linq.XElement"System.Xml.Linq.XElement·
-´
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Builders\CustomPathSitemapSourceBuilder.cs:! :()
-
-%7void"8System.Xml.Linq.XElement.XElement(System.Xml.Linq.XName)* 
-
-%6System.Xml.Linq.XElement*
-
-%5System.Xml.Linq.XName€
-ý
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Builders\CustomPathSitemapSourceBuilder.cs: :(C&
-
-changeFreqSystem.Xml.Linq.XElement"__id* 
-
-%6System.Xml.Linq.XElementò
-ï
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Builders\CustomPathSitemapSourceBuilder.cs; ;(9
-%8string"string.ToLower()* 
-
-changeFrequencyValuestringŸ
-œ
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Builders\CustomPathSitemapSourceBuilder.cs; ;(:
-
-%9void"'System.Xml.Linq.XContainer.Add(object?)*(
-&
-
-changeFreqSystem.Xml.Linq.XElement*
-
-%8string³
-°
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Builders\CustomPathSitemapSourceBuilder.cs< <(
-%10void"'System.Xml.Linq.XContainer.Add(object?)*!
-
-urlSystem.Xml.Linq.XElement*(
-&
-
-changeFreqSystem.Xml.Linq.XElementÆ
-Ã
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Builders\CustomPathSitemapSourceBuilder.cs>( >(1!
-%11System.Xml.Linq.XNamespace"__id*k*i>
-<OrchardCore.Sitemaps.Builders.CustomPathSitemapSourceBuilder"'
-	NamespaceSystem.Xml.Linq.XNamespaceì
-é
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Builders\CustomPathSitemapSourceBuilder.cs>( >(>
-%12System.Xml.Linq.XName"ISystem.Xml.Linq.XNamespace.operator +(System.Xml.Linq.XNamespace, string)*"
-System.Xml.Linq.XNamespace*#
-!
-%11System.Xml.Linq.XNamespace*
-
-priorityëè
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Builders\CustomPathSitemapSourceBuilder.cs> >(?
-%13System.Xml.Linq.XElement"System.Xml.Linq.XElementº
-·
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Builders\CustomPathSitemapSourceBuilder.cs> >('
-%14void"8System.Xml.Linq.XElement.XElement(System.Xml.Linq.XName)*!
-
-%13System.Xml.Linq.XElement*
-
-%12System.Xml.Linq.XNameÿ
-ü
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Builders\CustomPathSitemapSourceBuilder.cs> >(?$
-prioritySystem.Xml.Linq.XElement"__id*!
-
-%13System.Xml.Linq.XElement©
-¦
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Builders\CustomPathSitemapSourceBuilder.cs? ?('
-%15void"'System.Xml.Linq.XContainer.Add(object?)*&
-$
-prioritySystem.Xml.Linq.XElement*
-
-priorityValuestring±
-®
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Builders\CustomPathSitemapSourceBuilder.cs@ @(
-%16void"'System.Xml.Linq.XContainer.Add(object?)*!
-
-urlSystem.Xml.Linq.XElement*&
-$
-prioritySystem.Xml.Linq.XElement*
-1*õ
-1ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Builders\CustomPathSitemapSourceBuilder.csA	 A(	"Â
-ª
-ŸD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Sitemaps\Builders\CustomPathSitemapSourceBuilder.csA A(	
-implicit return:=
-source3OrchardCore.Sitemaps.Models.CustomPathSitemapSource:
-urlSystem.Xml.Linq.XElementB@>
-<OrchardCore.Sitemaps.Builders.CustomPathSitemapSourceBuilder

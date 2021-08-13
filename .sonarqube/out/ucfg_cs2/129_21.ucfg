@@ -1,250 +1,0 @@
-
-kOrchardCore.Recipes.Services.RecipeMigrator.ExecuteAsync(string, OrchardCore.Data.Migration.IDataMigration)ñ
-ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeMigrator.cs(" ((."0*˘^
-0ñ
-ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeMigrator.cs* 7(xÁ
-‰
-ñ
-ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeMigrator.cs* *(2=
-%07OrchardCore.Environment.Extensions.ITypeFeatureProvider"__id*É*Ä-
-+OrchardCore.Recipes.Services.RecipeMigrator"O
-_typeFeatureProvider7OrchardCore.Environment.Extensions.ITypeFeatureProvider˚
-¯
-ñ
-ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeMigrator.cs*K *(^
-%1System.Type"object.GetType()*8
-6
-	migration)OrchardCore.Data.Migration.IDataMigration∂≥
-ñ
-ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeMigrator.cs* *(_>
-%28OrchardCore.Environment.Extensions.Features.IFeatureInfo"\OrchardCore.Environment.Extensions.ITypeFeatureProvider.GetFeatureForDependency(System.Type)*?
-=
-%07OrchardCore.Environment.Extensions.ITypeFeatureProvider*
-
-%1System.Type2$GetFeatureForDependency(System.Type)≠
-™
-ñ
-ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeMigrator.cs* *(_G
-featureInfo8OrchardCore.Environment.Extensions.Features.IFeatureInfo"__id*@
->
-%28OrchardCore.Environment.Extensions.Features.IFeatureInfo˜Ù
-ñ
-ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeMigrator.cs,. ,(C7
-%31OrchardCore.Environment.Extensions.IExtensionInfo"FOrchardCore.Environment.Extensions.Features.IFeatureInfo.Extension.get*I
-G
-featureInfo8OrchardCore.Environment.Extensions.Features.IFeatureInfo2Extension.get±Æ
-ñ
-ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeMigrator.cs,. ,(K
-%4string"=OrchardCore.Environment.Extensions.IExtensionInfo.SubPath.get*9
-7
-%31OrchardCore.Environment.Extensions.IExtensionInfo2SubPath.getÜ
-É
-ñ
-ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeMigrator.cs,! ,(Z
-%5string"&System.IO.Path.Combine(string, string)*"
-System.IO.Path*
-
-%4string*
-
-Migrations‰
-·
-ñ
-ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeMigrator.cs,! ,(m
-%6string"string.Replace(char, char)*
-
-%5string*
-\*
-/Ã
-…
-ñ
-ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeMigrator.cs, ,(m
-recipeBasePathstring"__id*
-
-%6stringû
-õ
-ñ
-ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeMigrator.cs-! -(M
-%7string"&System.IO.Path.Combine(string, string)*"
-System.IO.Path*
-
-recipeBasePathstring*
-
-recipeFileNamestring‰
-·
-ñ
-ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeMigrator.cs-! -(`
-%8string"string.Replace(char, char)*
-
-%7string*
-\*
-/Ã
-…
-ñ
-ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeMigrator.cs- -(`
-recipeFilePathstring"__id*
-
-%8string–
-Õ
-ñ
-ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeMigrator.cs.! .(43
-%9-Microsoft.Extensions.Hosting.IHostEnvironment"__id*w*u-
-+OrchardCore.Recipes.Services.RecipeMigrator"D
-_hostingEnvironment-Microsoft.Extensions.Hosting.IHostEnvironmentÙÒ
-ñ
-ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeMigrator.cs.! .(L7
-%100Microsoft.Extensions.FileProviders.IFileProvider"IMicrosoft.Extensions.Hosting.IHostEnvironment.ContentRootFileProvider.get*5
-3
-%9-Microsoft.Extensions.Hosting.IHostEnvironment2ContentRootFileProvider.getÉÄ
-ñ
-ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeMigrator.cs.! .(h3
-%11,Microsoft.Extensions.FileProviders.IFileInfo"DMicrosoft.Extensions.FileProviders.IFileProvider.GetFileInfo(string)*9
-7
-%100Microsoft.Extensions.FileProviders.IFileProvider*
-
-recipeFilePathstring2GetFileInfo(string)ô
-ñ
-ñ
-ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeMigrator.cs. .(h>
-recipeFileInfo,Microsoft.Extensions.FileProviders.IFileInfo"__id*5
-3
-%11,Microsoft.Extensions.FileProviders.IFileInfo≈
-¬
-ñ
-ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeMigrator.cs/) /(61
-%12*OrchardCore.Recipes.Services.IRecipeReader"__id*n*l-
-+OrchardCore.Recipes.Services.RecipeMigrator";
-_recipeReader*OrchardCore.Recipes.Services.IRecipeReader—
-Œ
-ñ
-ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeMigrator.cs/k /(~4
-%13-Microsoft.Extensions.Hosting.IHostEnvironment"__id*w*u-
-+OrchardCore.Recipes.Services.RecipeMigrator"D
-_hostingEnvironment-Microsoft.Extensions.Hosting.IHostEnvironmentˆÛ
-ó
-ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeMigrator.cs/k /(ñ7
-%140Microsoft.Extensions.FileProviders.IFileProvider"IMicrosoft.Extensions.Hosting.IHostEnvironment.ContentRootFileProvider.get*6
-4
-%13-Microsoft.Extensions.Hosting.IHostEnvironment2ContentRootFileProvider.getæª
-ó
-ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeMigrator.cs/) /(ó+
-%15$System.Threading.Tasks.Task<TResult>"¶OrchardCore.Recipes.Services.IRecipeReader.GetRecipeDescriptor(string, Microsoft.Extensions.FileProviders.IFileInfo, Microsoft.Extensions.FileProviders.IFileProvider)*3
-1
-%12*OrchardCore.Recipes.Services.IRecipeReader*
-
-recipeBasePathstring*@
->
-recipeFileInfo,Microsoft.Extensions.FileProviders.IFileInfo*9
-7
-%140Microsoft.Extensions.FileProviders.IFileProvider2{GetRecipeDescriptor(string, Microsoft.Extensions.FileProviders.IFileInfo, Microsoft.Extensions.FileProviders.IFileProvider)Ï
-È
-ó
-ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeMigrator.cs/ /(ó?
-recipeDescriptor+OrchardCore.Recipes.Models.RecipeDescriptor"__id*
-""µ
-≤
-ñ
-ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeMigrator.cs0 0(4
-%16bool"?OrchardCore.Recipes.Models.RecipeDescriptor.RequireNewScope.set*A
-?
-recipeDescriptor+OrchardCore.Recipes.Models.RecipeDescriptor*
-""çä
-ñ
-ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeMigrator.cs2 2(>:
-%173System.Collections.Generic.Dictionary<TKey, TValue>"3System.Collections.Generic.Dictionary<TKey, TValue>©
-¶
-ñ
-ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeMigrator.cs2" 2(<
-%18void"@System.Collections.Generic.Dictionary<TKey, TValue>.Dictionary()*<
-:
-%173System.Collections.Generic.Dictionary<TKey, TValue>§
-°
-ñ
-ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeMigrator.cs2 2(>B
-environment3System.Collections.Generic.Dictionary<TKey, TValue>"__id*<
-:
-%173System.Collections.Generic.Dictionary<TKey, TValue>À
-»
-ñ
-ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeMigrator.cs4 4('0
-%19)System.Collections.Generic.IEnumerable<T>"__id*u*s-
-+OrchardCore.Recipes.Services.RecipeMigrator"B
-_environmentProviders)System.Collections.Generic.IEnumerable<T>°
-û
-ñ
-ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeMigrator.cs4 4(=/
-%20(System.Linq.IOrderedEnumerable<TElement>"zSystem.Linq.Enumerable.OrderBy<TSource, TKey>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, TKey>)*"
-System.Linq.Enumerable*2
-0
-%19)System.Collections.Generic.IEnumerable<T>*
-""µ
-≤
-ò
-ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeMigrator.cs4í 4(ô+
-%21$Microsoft.Extensions.Logging.ILogger"__id*b*`-
-+OrchardCore.Recipes.Services.RecipeMigrator"/
-_logger$Microsoft.Extensions.Logging.ILoggerÌ
-Í
-ó
-ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeMigrator.cs4 4(ö"
-%22System.Threading.Tasks.Task"œOrchardCore.Modules.InvokeExtensions.InvokeAsync<TEvents, T1>(System.Collections.Generic.IEnumerable<TEvents>, System.Func<TEvents, T1, System.Threading.Tasks.Task>, T1, Microsoft.Extensions.Logging.ILogger)*("&
-$OrchardCore.Modules.InvokeExtensions*1
-/
-%20(System.Linq.IOrderedEnumerable<TElement>*
-""*D
-B
-environment3System.Collections.Generic.Dictionary<TKey, TValue>*-
-+
-%21$Microsoft.Extensions.Logging.ILoggerÿ
-’
-ñ
-ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeMigrator.cs6 6(,
-%23System.Guid"System.Guid.NewGuid()*"
-System.GuidÁ
-‰
-ñ
-ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeMigrator.cs6 6(:
-%24string"System.Guid.ToString(string?)*
-
-%23System.Guid*
-n 
-«
-ñ
-ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeMigrator.cs6 6(:
-executionIdstring"__id*
-
-%24stringÀ
-»
-ñ
-ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeMigrator.cs7 7((3
-%25,OrchardCore.Recipes.Services.IRecipeExecutor"__id*r*p-
-+OrchardCore.Recipes.Services.RecipeMigrator"?
-_recipeExecutor,OrchardCore.Recipes.Services.IRecipeExecutorú
-ô
-ñ
-ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeMigrator.cs7b 7(x)
-%26"System.Threading.CancellationToken"+System.Threading.CancellationToken.None.get*&"$
-"System.Threading.CancellationTokenºπ
-ñ
-ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeMigrator.cs7 7(y+
-%27$System.Threading.Tasks.Task<TResult>" OrchardCore.Recipes.Services.IRecipeExecutor.ExecuteAsync(string, OrchardCore.Recipes.Models.RecipeDescriptor, System.Collections.Generic.IDictionary<string, object>, System.Threading.CancellationToken)*5
-3
-%25,OrchardCore.Recipes.Services.IRecipeExecutor*
-
-executionIdstring*A
-?
-recipeDescriptor+OrchardCore.Recipes.Models.RecipeDescriptor*D
-B
-environment3System.Collections.Generic.Dictionary<TKey, TValue>*+
-)
-%26"System.Threading.CancellationToken2ùExecuteAsync(string, OrchardCore.Recipes.Models.RecipeDescriptor, System.Collections.Generic.IDictionary<string, object>, System.Threading.CancellationToken)"°
-ñ
-ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeMigrator.cs7 7(z
-""*Õ
-1ñ
-ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeMigrator.cs8	 8(	"Æ
-ñ
-ãD:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore\OrchardCore.Recipes.Core\Services\RecipeMigrator.cs8 8(	
-implicit return:
-recipeFileNamestring:6
-	migration)OrchardCore.Data.Migration.IDataMigrationB/-
-+OrchardCore.Recipes.Services.RecipeMigrator

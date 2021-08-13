@@ -1,233 +1,0 @@
-
-pOrchardCore.Roles.Services.RoleStore.DeleteAsync(OrchardCore.Security.IRole, System.Threading.CancellationToken)’
-‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleStore.csM* M(5"0*¥
-0’
-‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleStore.csO O(‚
-ÿ
-’
-‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleStore.csO O(
-
-%0bool""object.operator ==(object, object)*
-"
-object*$
-"
-roleOrchardCore.Security.IRole*
-""*
-1
-2*Œ
-1’
-‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleStore.csQ Q(<Ú×
-’
-‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleStore.csQ Q(="
-%1System.ArgumentNullException"System.ArgumentNullException
-Œ
-’
-‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleStore.csQ Q(/
-
-%2void";System.ArgumentNullException.ArgumentNullException(string?)*$
-"
-%1System.ArgumentNullException*
-""*
-3*¼
-2’
-‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleStore.csT V(JÊ
-Ç
-’
-‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleStore.csT T()
-%3"__id*$
-"
-roleOrchardCore.Security.IRoleÑ
-Î
-’
-‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleStore.csT T())
-roleToRemoveOrchardCore.Security.Role"__id*
-
-%3…
-‚
-’
-‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleStore.csV V(=
-%4string"0OrchardCore.Security.Role.NormalizedRoleName.get*+
-)
-roleToRemoveOrchardCore.Security.Roleð
-í
-’
-‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleStore.csV V(K
-
-%5bool"string.Equals(string?, string?)*
-"
-string*
-
-%4string*
-	ANONYMOUS*
-4
-5*Ÿ
-5’
-‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleStore.csW W(N…
-‚
-’
-‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleStore.csW W(=
-%6string"0OrchardCore.Security.Role.NormalizedRoleName.get*+
-)
-roleToRemoveOrchardCore.Security.Roleô
-ñ
-’
-‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleStore.csW W(O
-
-%7bool"string.Equals(string?, string?)*
-"
-string*
-
-%6string*
-AUTHENTICATED*
-4
-6*¿
-4’
-‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleStore.csY Y(møõ
-’
-‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleStore.csY- Y(p1
-%8+Microsoft.AspNetCore.Identity.IdentityError"+Microsoft.AspNetCore.Identity.IdentityError–
-“
-’
-‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleStore.csY1 Y(>
-
-%9void";Microsoft.AspNetCore.Identity.IdentityError.IdentityError()*3
-1
-%8+Microsoft.AspNetCore.Identity.IdentityError¾
-»
-’
-‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleStore.csYO Y(P9
-%102Microsoft.Extensions.Localization.IStringLocalizer"__id*c*a&
-$OrchardCore.Roles.Services.RoleStore"7
-S2Microsoft.Extensions.Localization.IStringLocalizer†ƒ
-’
-‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleStore.csYO Y(n8
-%111Microsoft.Extensions.Localization.LocalizedString"CMicrosoft.Extensions.Localization.IStringLocalizer.this[string].get*;
-9
-%102Microsoft.Extensions.Localization.IStringLocalizer*
-Can't delete system roles.2this[string].getÕ
-Ò
-’
-‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleStore.csYA Y(n
-%12string";Microsoft.AspNetCore.Identity.IdentityError.Description.set*3
-1
-%8+Microsoft.AspNetCore.Identity.IdentityError*:
-8
-%111Microsoft.Extensions.Localization.LocalizedStringŸ
-œ
-’
-‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleStore.csY Y(q3
-%13,Microsoft.AspNetCore.Identity.IdentityResult"iMicrosoft.AspNetCore.Identity.IdentityResult.Failed(params Microsoft.AspNetCore.Identity.IdentityError[])*0".
-,Microsoft.AspNetCore.Identity.IdentityResult*3
-1
-%8+Microsoft.AspNetCore.Identity.IdentityError"Ì
-’
-‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleStore.csY Y(r5
-3
-%13,Microsoft.AspNetCore.Identity.IdentityResult*¦'
-6’
-‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleStore.cs\ e()—
-”
-’
-‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleStore.cs\+ \(;
-%14System.IServiceProvider"__id*W*U&
-$OrchardCore.Roles.Services.RoleStore"+
-_serviceProviderSystem.IServiceProviderµ
-²
-’
-‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleStore.cs\+ \(w0
-%15)System.Collections.Generic.IEnumerable<T>"xMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService<T>(System.IServiceProvider)*M"K
-IMicrosoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions* 
-
-%14System.IServiceProvider™
-–
-’
-‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleStore.cs\ \(wE
-roleRemovedEventHandlers)System.Collections.Generic.IEnumerable<T>"__id*2
-0
-%15)System.Collections.Generic.IEnumerable<T>ª
-§
-”
-‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleStore.cs]‘ ](˜+
-%16$Microsoft.Extensions.Logging.ILogger"__id*[*Y&
-$OrchardCore.Roles.Services.RoleStore"/
-_logger$Microsoft.Extensions.Logging.ILoggeræ
-ã
-“
-‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleStore.cs] ](™"
-%17System.Threading.Tasks.Task"ÏOrchardCore.Modules.InvokeExtensions.InvokeAsync<TEvents, T1>(System.Collections.Generic.IEnumerable<TEvents>, System.Func<TEvents, T1, System.Threading.Tasks.Task>, T1, Microsoft.Extensions.Logging.ILogger)*("&
-$OrchardCore.Modules.InvokeExtensions*G
-E
-roleRemovedEventHandlers)System.Collections.Generic.IEnumerable<T>*
-""*+
-)
-roleToRemoveOrchardCore.Security.Role*-
-+
-%16$Microsoft.Extensions.Logging.ILogger¦
-£
-’
-‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleStore.cs_ _(.+
-%18$System.Threading.Tasks.Task<TResult>"5OrchardCore.Roles.Services.RoleStore.LoadRolesAsync()*(&
-$OrchardCore.Roles.Services.RoleStore×
-Ô
-’
-‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleStore.cs_ _(./
-roles&OrchardCore.Roles.Models.RolesDocument"__id*
-""¨
-¥
-’
-‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleStore.cs` `(&)
-%19"System.Collections.Generic.List<T>"0OrchardCore.Roles.Models.RolesDocument.Roles.get*1
-/
-roles&OrchardCore.Roles.Models.RolesDocumentˆ
-…
-’
-‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleStore.cs` `(_ 
-%20OrchardCore.Security.Role"{System.Linq.Enumerable.FirstOrDefault<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, bool>)*"
-System.Linq.Enumerable*+
-)
-%19"System.Collections.Generic.List<T>*
-""í
-ê
-’
-‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleStore.cs` `(_)
-roleToRemoveOrchardCore.Security.Role"__id*"
- 
-%20OrchardCore.Security.Role¨
-¥
-’
-‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleStore.csa a()
-%21"System.Collections.Generic.List<T>"0OrchardCore.Roles.Models.RolesDocument.Roles.get*1
-/
-roles&OrchardCore.Roles.Models.RolesDocument­
-ª
-’
-‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleStore.csa a(,
-%22bool",System.Collections.Generic.List<T>.Remove(T)*+
-)
-%21"System.Collections.Generic.List<T>*+
-)
-roleToRemoveOrchardCore.Security.Roleø
-õ
-’
-‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleStore.csc c()"
-%23System.Threading.Tasks.Task"]OrchardCore.Roles.Services.RoleStore.UpdateRolesAsync(OrchardCore.Roles.Models.RolesDocument)*(&
-$OrchardCore.Roles.Services.RoleStore*1
-/
-roles&OrchardCore.Roles.Models.RolesDocument¹
-¶
-’
-‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleStore.cse e()3
-%24,Microsoft.AspNetCore.Identity.IdentityResult"8Microsoft.AspNetCore.Identity.IdentityResult.Success.get*0".
-,Microsoft.AspNetCore.Identity.IdentityResult"Ì
-’
-‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleStore.cse e(*5
-3
-%24,Microsoft.AspNetCore.Identity.IdentityResult*Å
-3’
-‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleStore.csf	 f(	"ª
-’
-‡D:\Projects\DefensePoint\whitesource-testcases-csharp\CWE79\OrchardCore\src\OrchardCore.Modules\OrchardCore.Roles\Services\RoleStore.csf f(	
-implicit return:"
-roleOrchardCore.Security.IRole:7
-cancellationToken"System.Threading.CancellationTokenB(&
-$OrchardCore.Roles.Services.RoleStore
